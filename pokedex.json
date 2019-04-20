@@ -1,1547 +1,1933 @@
 [
     {
         "id": 1,
-        "name": "フシギダネ"
+        "name": "フシギダネ",
+        "classification": "たねポケモン"
     },
     {
         "id": 2,
-        "name": "フシギソウ"
+        "name": "フシギソウ",
+        "classification": "たねポケモン"
     },
     {
         "id": 3,
-        "name": "フシギバナ"
+        "name": "フシギバナ",
+        "classification": "たねポケモン"
     },
     {
         "id": 4,
-        "name": "ヒトカゲ"
+        "name": "ヒトカゲ",
+        "classification": "とかげポケモン"
     },
     {
         "id": 5,
-        "name": "リザード"
+        "name": "リザード",
+        "classification": "かえんポケモン"
     },
     {
         "id": 6,
-        "name": "リザードン"
+        "name": "リザードン",
+        "classification": "かえんポケモン"
     },
     {
         "id": 7,
-        "name": "ゼニガメ"
+        "name": "ゼニガメ",
+        "classification": "かめのこポケモン"
     },
     {
         "id": 8,
-        "name": "カメール"
+        "name": "カメール",
+        "classification": "かめポケモン"
     },
     {
         "id": 9,
-        "name": "カメックス"
+        "name": "カメックス",
+        "classification": "こうらポケモン"
     },
     {
         "id": 10,
-        "name": "キャタピー"
+        "name": "キャタピー",
+        "classification": "いもむしポケモン"
     },
     {
         "id": 11,
-        "name": "トランセル"
+        "name": "トランセル",
+        "classification": "さなぎポケモン"
     },
     {
         "id": 12,
-        "name": "バタフリー"
+        "name": "バタフリー",
+        "classification": "ちょうちょポケモン"
     },
     {
         "id": 13,
-        "name": "ビードル"
+        "name": "ビードル",
+        "classification": "けむしポケモン"
     },
     {
         "id": 14,
-        "name": "コクーン"
+        "name": "コクーン",
+        "classification": "さなぎポケモン"
     },
     {
         "id": 15,
-        "name": "スピアー"
+        "name": "スピアー",
+        "classification": "どくばちポケモン"
     },
     {
         "id": 16,
-        "name": "ポッポ"
+        "name": "ポッポ",
+        "classification": "ことりポケモン"
     },
     {
         "id": 17,
-        "name": "ピジョン"
+        "name": "ピジョン",
+        "classification": "とりポケモン"
     },
     {
         "id": 18,
-        "name": "ピジョット"
+        "name": "ピジョット",
+        "classification": "とりポケモン"
     },
     {
         "id": 19,
-        "name": "コラッタ"
+        "name": "コラッタ",
+        "classification": "ねずみポケモン"
     },
     {
         "id": 20,
-        "name": "ラッタ"
+        "name": "ラッタ",
+        "classification": "ねずみポケモン"
     },
     {
         "id": 21,
-        "name": "オニスズメ"
+        "name": "オニスズメ",
+        "classification": "ことりポケモン"
     },
     {
         "id": 22,
-        "name": "オニドリル"
+        "name": "オニドリル",
+        "classification": "くちばしポケモン"
     },
     {
         "id": 23,
-        "name": "アーボ"
+        "name": "アーボ",
+        "classification": "へびポケモン"
     },
     {
         "id": 24,
-        "name": "アーボック"
+        "name": "アーボック",
+        "classification": "コブラポケモン"
     },
     {
         "id": 25,
-        "name": "ピカチュウ"
+        "name": "ピカチュウ",
+        "classification": "ねずみポケモン"
     },
     {
         "id": 26,
-        "name": "ライチュウ"
+        "name": "ライチュウ",
+        "classification": "ねずみポケモン"
     },
     {
         "id": 27,
-        "name": "サンド"
+        "name": "サンド",
+        "classification": "ねずみポケモン"
     },
     {
         "id": 28,
-        "name": "サンドパン"
+        "name": "サンドパン",
+        "classification": "ねずみポケモン"
     },
     {
         "id": 29,
-        "name": "ニドラン♀"
+        "name": "ニドラン♀",
+        "classification": "どくばりポケモン"
     },
     {
         "id": 30,
-        "name": "ニドリーナ"
+        "name": "ニドリーナ",
+        "classification": "どくばりポケモン"
     },
     {
         "id": 31,
-        "name": "ニドクイン"
+        "name": "ニドクイン",
+        "classification": "ドリルポケモン"
     },
     {
         "id": 32,
-        "name": "ニドラン♂"
+        "name": "ニドラン♂",
+        "classification": "どくばりポケモン"
     },
     {
         "id": 33,
-        "name": "ニドリーノ"
+        "name": "ニドリーノ",
+        "classification": "どくばりポケモン"
     },
     {
         "id": 34,
-        "name": "ニドキング"
+        "name": "ニドキング",
+        "classification": "ドリルポケモン"
     },
     {
         "id": 35,
-        "name": "ピッピ"
+        "name": "ピッピ",
+        "classification": "ようせいポケモン"
     },
     {
         "id": 36,
-        "name": "ピクシー"
+        "name": "ピクシー",
+        "classification": "ようせいポケモン"
     },
     {
         "id": 37,
-        "name": "ロコン"
+        "name": "ロコン",
+        "classification": "きつねポケモン"
     },
     {
         "id": 38,
-        "name": "キュウコン"
+        "name": "キュウコン",
+        "classification": "きつねポケモン"
     },
     {
         "id": 39,
-        "name": "プリン"
+        "name": "プリン",
+        "classification": "ふうせんポケモン"
     },
     {
         "id": 40,
-        "name": "プクリン"
+        "name": "プクリン",
+        "classification": "ふうせんポケモン"
     },
     {
         "id": 41,
-        "name": "ズバット"
+        "name": "ズバット",
+        "classification": "こうもりポケモン"
     },
     {
         "id": 42,
-        "name": "ゴルバット"
+        "name": "ゴルバット",
+        "classification": "こうもりポケモン"
     },
     {
         "id": 43,
-        "name": "ナゾノクサ"
+        "name": "ナゾノクサ",
+        "classification": "ざっそうポケモン"
     },
     {
         "id": 44,
-        "name": "クサイハナ"
+        "name": "クサイハナ",
+        "classification": "ざっそうポケモン"
     },
     {
         "id": 45,
-        "name": "ラフレシア"
+        "name": "ラフレシア",
+        "classification": "フラワーポケモン"
     },
     {
         "id": 46,
-        "name": "パラス"
+        "name": "パラス",
+        "classification": "きのこポケモン"
     },
     {
         "id": 47,
-        "name": "パラセクト"
+        "name": "パラセクト",
+        "classification": "きのこポケモン"
     },
     {
         "id": 48,
-        "name": "コンパン"
+        "name": "コンパン",
+        "classification": "こんちゅうポケモン"
     },
     {
         "id": 49,
-        "name": "モルフォン"
+        "name": "モルフォン",
+        "classification": "どくがポケモン"
     },
     {
         "id": 50,
-        "name": "ディグダ"
+        "name": "ディグダ",
+        "classification": "もぐらポケモン"
     },
     {
         "id": 51,
-        "name": "ダグトリオ"
+        "name": "ダグトリオ",
+        "classification": "もぐらポケモン"
     },
     {
         "id": 52,
-        "name": "ニャース"
+        "name": "ニャース",
+        "classification": "ばけねこポケモン"
     },
     {
         "id": 53,
-        "name": "ペルシアン"
+        "name": "ペルシアン",
+        "classification": "シャムネコポケモン"
     },
     {
         "id": 54,
-        "name": "コダック"
+        "name": "コダック",
+        "classification": "あひるポケモン"
     },
     {
         "id": 55,
-        "name": "ゴルダック"
+        "name": "ゴルダック",
+        "classification": "あひるポケモン"
     },
     {
         "id": 56,
-        "name": "マンキー"
+        "name": "マンキー",
+        "classification": "ぶたざるポケモン"
     },
     {
         "id": 57,
-        "name": "オコリザル"
+        "name": "オコリザル",
+        "classification": "ぶたざるポケモン"
     },
     {
         "id": 58,
-        "name": "ガーディ"
+        "name": "ガーディ",
+        "classification": "こいぬポケモン"
     },
     {
         "id": 59,
-        "name": "ウインディ"
+        "name": "ウインディ",
+        "classification": "でんせつポケモン"
     },
     {
         "id": 60,
-        "name": "ニョロモ"
+        "name": "ニョロモ",
+        "classification": "おたまポケモン"
     },
     {
         "id": 61,
-        "name": "ニョロゾ"
+        "name": "ニョロゾ",
+        "classification": "おたまポケモン"
     },
     {
         "id": 62,
-        "name": "ニョロボン"
+        "name": "ニョロボン",
+        "classification": "おたまポケモン"
     },
     {
         "id": 63,
-        "name": "ケーシィ"
+        "name": "ケーシィ",
+        "classification": "ねんりきポケモン"
     },
     {
         "id": 64,
-        "name": "ユンゲラー"
+        "name": "ユンゲラー",
+        "classification": "ねんりきポケモン"
     },
     {
         "id": 65,
-        "name": "フーディン"
+        "name": "フーディン",
+        "classification": "ねんりきポケモン"
     },
     {
         "id": 66,
-        "name": "ワンリキー"
+        "name": "ワンリキー",
+        "classification": "かいりきポケモン"
     },
     {
         "id": 67,
-        "name": "ゴーリキー"
+        "name": "ゴーリキー",
+        "classification": "かいりきポケモン"
     },
     {
         "id": 68,
-        "name": "カイリキー"
+        "name": "カイリキー",
+        "classification": "かいりきポケモン"
     },
     {
         "id": 69,
-        "name": "マダツボミ"
+        "name": "マダツボミ",
+        "classification": "フラワーポケモン"
     },
     {
         "id": 70,
-        "name": "ウツドン"
+        "name": "ウツドン",
+        "classification": "ハエとりポケモン"
     },
     {
         "id": 71,
-        "name": "ウツボット"
+        "name": "ウツボット",
+        "classification": "ハエとりポケモン"
     },
     {
         "id": 72,
-        "name": "メノクラゲ"
+        "name": "メノクラゲ",
+        "classification": "くらげポケモン"
     },
     {
         "id": 73,
-        "name": "ドククラゲ"
+        "name": "ドククラゲ",
+        "classification": "くらげポケモン"
     },
     {
         "id": 74,
-        "name": "イシツブテ"
+        "name": "イシツブテ",
+        "classification": "がんせきポケモン"
     },
     {
         "id": 75,
-        "name": "ゴローン"
+        "name": "ゴローン",
+        "classification": "がんせきポケモン"
     },
     {
         "id": 76,
-        "name": "ゴローニャ"
+        "name": "ゴローニャ",
+        "classification": "メガトンポケモン"
     },
     {
         "id": 77,
-        "name": "ポニータ"
+        "name": "ポニータ",
+        "classification": "ひのうまポケモン"
     },
     {
         "id": 78,
-        "name": "ギャロップ"
+        "name": "ギャロップ",
+        "classification": "ひのうまポケモン"
     },
     {
         "id": 79,
-        "name": "ヤドン"
+        "name": "ヤドン",
+        "classification": "まぬけポケモン"
     },
     {
         "id": 80,
-        "name": "ヤドラン"
+        "name": "ヤドラン",
+        "classification": "やどかりポケモン"
     },
     {
         "id": 81,
-        "name": "コイル"
+        "name": "コイル",
+        "classification": "じしゃくポケモン"
     },
     {
         "id": 82,
-        "name": "レアコイル"
+        "name": "レアコイル",
+        "classification": "じしゃくポケモン"
     },
     {
         "id": 83,
-        "name": "カモネギ"
+        "name": "カモネギ",
+        "classification": "かるがもポケモン"
     },
     {
         "id": 84,
-        "name": "ドードー"
+        "name": "ドードー",
+        "classification": "ふたごどりポケモン"
     },
     {
         "id": 85,
-        "name": "ドードリオ"
+        "name": "ドードリオ",
+        "classification": "みつごどりポケモン"
     },
     {
         "id": 86,
-        "name": "パウワウ"
+        "name": "パウワウ",
+        "classification": "あしかポケモン"
     },
     {
         "id": 87,
-        "name": "ジュゴン"
+        "name": "ジュゴン",
+        "classification": "あしかポケモン"
     },
     {
         "id": 88,
-        "name": "ベトベター"
+        "name": "ベトベター",
+        "classification": "ヘドロポケモン"
     },
     {
         "id": 89,
-        "name": "ベトベトン"
+        "name": "ベトベトン",
+        "classification": "ヘドロポケモン"
     },
     {
         "id": 90,
-        "name": "シェルダー"
+        "name": "シェルダー",
+        "classification": "2まいがいポケモン"
     },
     {
         "id": 91,
-        "name": "パルシェン"
+        "name": "パルシェン",
+        "classification": "2まいがいポケモン"
     },
     {
         "id": 92,
-        "name": "ゴース"
+        "name": "ゴース",
+        "classification": "ガスじょうポケモン"
     },
     {
         "id": 93,
-        "name": "ゴースト"
+        "name": "ゴースト",
+        "classification": "ガスじょうポケモン"
     },
     {
         "id": 94,
-        "name": "ゲンガー"
+        "name": "ゲンガー",
+        "classification": "シャドーポケモン"
     },
     {
         "id": 95,
-        "name": "イワーク"
+        "name": "イワーク",
+        "classification": "いわへびポケモン"
     },
     {
         "id": 96,
-        "name": "スリープ"
+        "name": "スリープ",
+        "classification": "さいみんポケモン"
     },
     {
         "id": 97,
-        "name": "スリーパー"
+        "name": "スリーパー",
+        "classification": "さいみんポケモン"
     },
     {
         "id": 98,
-        "name": "クラブ"
+        "name": "クラブ",
+        "classification": "さわがにポケモン"
     },
     {
         "id": 99,
-        "name": "キングラー"
+        "name": "キングラー",
+        "classification": "はさみポケモン"
     },
     {
         "id": 100,
-        "name": "ビリリダマ"
+        "name": "ビリリダマ",
+        "classification": "ボールポケモン"
     },
     {
         "id": 101,
-        "name": "マルマイン"
+        "name": "マルマイン",
+        "classification": "ボールポケモン"
     },
     {
         "id": 102,
-        "name": "タマタマ"
+        "name": "タマタマ",
+        "classification": "たまごポケモン"
     },
     {
         "id": 103,
-        "name": "ナッシー"
+        "name": "ナッシー",
+        "classification": "やしのみポケモン"
     },
     {
         "id": 104,
-        "name": "カラカラ"
+        "name": "カラカラ",
+        "classification": "こどくポケモン"
     },
     {
         "id": 105,
-        "name": "ガラガラ"
+        "name": "ガラガラ",
+        "classification": "ほねずきポケモン"
     },
     {
         "id": 106,
-        "name": "サワムラー"
+        "name": "サワムラー",
+        "classification": "キックポケモン"
     },
     {
         "id": 107,
-        "name": "エビワラー"
+        "name": "エビワラー",
+        "classification": "パンチポケモン"
     },
     {
         "id": 108,
-        "name": "ベロリンガ"
+        "name": "ベロリンガ",
+        "classification": "なめまわしポケモン"
     },
     {
         "id": 109,
-        "name": "ドガース"
+        "name": "ドガース",
+        "classification": "どくガスポケモン"
     },
     {
         "id": 110,
-        "name": "マタドガス"
+        "name": "マタドガス",
+        "classification": "どくガスポケモン"
     },
     {
         "id": 111,
-        "name": "サイホーン"
+        "name": "サイホーン",
+        "classification": "とげとげポケモン"
     },
     {
         "id": 112,
-        "name": "サイドン"
+        "name": "サイドン",
+        "classification": "ドリルポケモン"
     },
     {
         "id": 113,
-        "name": "ラッキー"
+        "name": "ラッキー",
+        "classification": "たまごポケモン"
     },
     {
         "id": 114,
-        "name": "モンジャラ"
+        "name": "モンジャラ",
+        "classification": "ツルじょうポケモン"
     },
     {
         "id": 115,
-        "name": "ガルーラ"
+        "name": "ガルーラ",
+        "classification": "おやこポケモン"
     },
     {
         "id": 116,
-        "name": "タッツー"
+        "name": "タッツー",
+        "classification": "ドラゴンポケモン"
     },
     {
         "id": 117,
-        "name": "シードラ"
+        "name": "シードラ",
+        "classification": "ドラゴンポケモン"
     },
     {
         "id": 118,
-        "name": "トサキント"
+        "name": "トサキント",
+        "classification": "きんぎょポケモン"
     },
     {
         "id": 119,
-        "name": "アズマオウ"
+        "name": "アズマオウ",
+        "classification": "きんぎょポケモン"
     },
     {
         "id": 120,
-        "name": "ヒトデマン"
+        "name": "ヒトデマン",
+        "classification": "ほしがたポケモン"
     },
     {
         "id": 121,
-        "name": "スターミー"
+        "name": "スターミー",
+        "classification": "なぞのポケモン"
     },
     {
         "id": 122,
-        "name": "バリヤード"
+        "name": "バリヤード",
+        "classification": "バリアーポケモン"
     },
     {
         "id": 123,
-        "name": "ストライク"
+        "name": "ストライク",
+        "classification": "かまきりポケモン"
     },
     {
         "id": 124,
-        "name": "ルージュラ"
+        "name": "ルージュラ",
+        "classification": "ひとがたポケモン"
     },
     {
         "id": 125,
-        "name": "エレブー"
+        "name": "エレブー",
+        "classification": "でんげきポケモン"
     },
     {
         "id": 126,
-        "name": "ブーバー"
+        "name": "ブーバー",
+        "classification": "ひふきポケモン"
     },
     {
         "id": 127,
-        "name": "カイロス"
+        "name": "カイロス",
+        "classification": "くわがたポケモン"
     },
     {
         "id": 128,
-        "name": "ケンタロス"
+        "name": "ケンタロス",
+        "classification": "あばれうしポケモン"
     },
     {
         "id": 129,
-        "name": "コイキング"
+        "name": "コイキング",
+        "classification": "さかなポケモン"
     },
     {
         "id": 130,
-        "name": "ギャラドス"
+        "name": "ギャラドス",
+        "classification": "きょうあくポケモン"
     },
     {
         "id": 131,
-        "name": "ラプラス"
+        "name": "ラプラス",
+        "classification": "のりものポケモン"
     },
     {
         "id": 132,
-        "name": "メタモン"
+        "name": "メタモン",
+        "classification": "へんしんポケモン"
     },
     {
         "id": 133,
-        "name": "イーブイ"
+        "name": "イーブイ",
+        "classification": "しんかポケモン"
     },
     {
         "id": 134,
-        "name": "シャワーズ"
+        "name": "シャワーズ",
+        "classification": "あわはきポケモン"
     },
     {
         "id": 135,
-        "name": "サンダース"
+        "name": "サンダース",
+        "classification": "かみなりポケモン"
     },
     {
         "id": 136,
-        "name": "ブースター"
+        "name": "ブースター",
+        "classification": "ほのおポケモン"
     },
     {
         "id": 137,
-        "name": "ポリゴン"
+        "name": "ポリゴン",
+        "classification": "バーチャルポケモン"
     },
     {
         "id": 138,
-        "name": "オムナイト"
+        "name": "オムナイト",
+        "classification": "うずまきポケモン"
     },
     {
         "id": 139,
-        "name": "オムスター"
+        "name": "オムスター",
+        "classification": "うずまきポケモン"
     },
     {
         "id": 140,
-        "name": "カブト"
+        "name": "カブト",
+        "classification": "こうらポケモン"
     },
     {
         "id": 141,
-        "name": "カブトプス"
+        "name": "カブトプス",
+        "classification": "こうらポケモン"
     },
     {
         "id": 142,
-        "name": "プテラ"
+        "name": "プテラ",
+        "classification": "かせきポケモン"
     },
     {
         "id": 143,
-        "name": "カビゴン"
+        "name": "カビゴン",
+        "classification": "いねむりポケモン"
     },
     {
         "id": 144,
-        "name": "フリーザー"
+        "name": "フリーザー",
+        "classification": "れいとうポケモン"
     },
     {
         "id": 145,
-        "name": "サンダー"
+        "name": "サンダー",
+        "classification": "でんげきポケモン"
     },
     {
         "id": 146,
-        "name": "ファイヤー"
+        "name": "ファイヤー",
+        "classification": "かえんポケモン"
     },
     {
         "id": 147,
-        "name": "ミニリュウ"
+        "name": "ミニリュウ",
+        "classification": "ドラゴンポケモン"
     },
     {
         "id": 148,
-        "name": "ハクリュー"
+        "name": "ハクリュー",
+        "classification": "ドラゴンポケモン"
     },
     {
         "id": 149,
-        "name": "カイリュー"
+        "name": "カイリュー",
+        "classification": "ドラゴンポケモン"
     },
     {
         "id": 150,
-        "name": "ミュウツー"
+        "name": "ミュウツー",
+        "classification": "いでんしポケモン"
     },
     {
         "id": 151,
-        "name": "ミュウ"
+        "name": "ミュウ",
+        "classification": "しんしゅポケモン"
     },
     {
         "id": 152,
-        "name": "チコリータ"
+        "name": "チコリータ",
+        "classification": "はっぱポケモン"
     },
     {
         "id": 153,
-        "name": "ベイリーフ"
+        "name": "ベイリーフ",
+        "classification": "はっぱポケモン"
     },
     {
         "id": 154,
-        "name": "メガニウム"
+        "name": "メガニウム",
+        "classification": "ハーブポケモン"
     },
     {
         "id": 155,
-        "name": "ヒノアラシ"
+        "name": "ヒノアラシ",
+        "classification": "ひねずみポケモン"
     },
     {
         "id": 156,
-        "name": "マグマラシ"
+        "name": "マグマラシ",
+        "classification": "かざんポケモン"
     },
     {
         "id": 157,
-        "name": "バクフーン"
+        "name": "バクフーン",
+        "classification": "かざんポケモン"
     },
     {
         "id": 158,
-        "name": "ワニノコ"
+        "name": "ワニノコ",
+        "classification": "おおあごポケモン"
     },
     {
         "id": 159,
-        "name": "アリゲイツ"
+        "name": "アリゲイツ",
+        "classification": "おおあごポケモン"
     },
     {
         "id": 160,
-        "name": "オーダイル"
+        "name": "オーダイル",
+        "classification": "おおあごポケモン"
     },
     {
         "id": 161,
-        "name": "オタチ"
+        "name": "オタチ",
+        "classification": "みはりポケモン"
     },
     {
         "id": 162,
-        "name": "オオタチ"
+        "name": "オオタチ",
+        "classification": "どうながポケモン"
     },
     {
         "id": 163,
-        "name": "ホーホー"
+        "name": "ホーホー",
+        "classification": "ふくろうポケモン"
     },
     {
         "id": 164,
-        "name": "ヨルノズク"
+        "name": "ヨルノズク",
+        "classification": "ふくろうポケモン"
     },
     {
         "id": 165,
-        "name": "レディバ"
+        "name": "レディバ",
+        "classification": "いつつぼしポケモン"
     },
     {
         "id": 166,
-        "name": "レディアン"
+        "name": "レディアン",
+        "classification": "いつつぼしポケモン"
     },
     {
         "id": 167,
-        "name": "イトマル"
+        "name": "イトマル",
+        "classification": "いとはきポケモン"
     },
     {
         "id": 168,
-        "name": "アリアドス"
+        "name": "アリアドス",
+        "classification": "あしながポケモン"
     },
     {
         "id": 169,
-        "name": "クロバット"
+        "name": "クロバット",
+        "classification": "こうもりポケモン"
     },
     {
         "id": 170,
-        "name": "チョンチー"
+        "name": "チョンチー",
+        "classification": "あんこうポケモン"
     },
     {
         "id": 171,
-        "name": "ランターン"
+        "name": "ランターン",
+        "classification": "ライトポケモン"
     },
     {
         "id": 172,
-        "name": "ピチュー"
+        "name": "ピチュー",
+        "classification": "こねずみポケモン"
     },
     {
         "id": 173,
-        "name": "ピィ"
+        "name": "ピィ",
+        "classification": "ほしがたポケモン"
     },
     {
         "id": 174,
-        "name": "ププリン"
+        "name": "ププリン",
+        "classification": "ふうせんポケモン"
     },
     {
         "id": 175,
-        "name": "トゲピー"
+        "name": "トゲピー",
+        "classification": "はりたまポケモン"
     },
     {
         "id": 176,
-        "name": "トゲチック"
+        "name": "トゲチック",
+        "classification": "しあわせポケモン"
     },
     {
         "id": 177,
-        "name": "ネイティ"
+        "name": "ネイティ",
+        "classification": "ことりポケモン"
     },
     {
         "id": 178,
-        "name": "ネイティオ"
+        "name": "ネイティオ",
+        "classification": "せいれいポケモン"
     },
     {
         "id": 179,
-        "name": "メリープ"
+        "name": "メリープ",
+        "classification": "わたげポケモン"
     },
     {
         "id": 180,
-        "name": "モココ"
+        "name": "モココ",
+        "classification": "わたげポケモン"
     },
     {
         "id": 181,
-        "name": "デンリュウ"
+        "name": "デンリュウ",
+        "classification": "ライトポケモン"
     },
     {
         "id": 182,
-        "name": "キレイハナ"
+        "name": "キレイハナ",
+        "classification": "フラワーポケモン"
     },
     {
         "id": 183,
-        "name": "マリル"
+        "name": "マリル",
+        "classification": "みずねずみポケモン"
     },
     {
         "id": 184,
-        "name": "マリルリ"
+        "name": "マリルリ",
+        "classification": "みずうさぎポケモン"
     },
     {
         "id": 185,
-        "name": "ウソッキー"
+        "name": "ウソッキー",
+        "classification": "まねポケモン"
     },
     {
         "id": 186,
-        "name": "ニョロトノ"
+        "name": "ニョロトノ",
+        "classification": "かえるポケモン"
     },
     {
         "id": 187,
-        "name": "ハネッコ"
+        "name": "ハネッコ",
+        "classification": "わたくさポケモン"
     },
     {
         "id": 188,
-        "name": "ポポッコ"
+        "name": "ポポッコ",
+        "classification": "わたくさポケモン"
     },
     {
         "id": 189,
-        "name": "ワタッコ"
+        "name": "ワタッコ",
+        "classification": "わたくさポケモン"
     },
     {
         "id": 190,
-        "name": "エイパム"
+        "name": "エイパム",
+        "classification": "おながポケモン"
     },
     {
         "id": 191,
-        "name": "ヒマナッツ"
+        "name": "ヒマナッツ",
+        "classification": "たねポケモン"
     },
     {
         "id": 192,
-        "name": "キマワリ"
+        "name": "キマワリ",
+        "classification": "たいようポケモン"
     },
     {
         "id": 193,
-        "name": "ヤンヤンマ"
+        "name": "ヤンヤンマ",
+        "classification": "うすばねポケモン"
     },
     {
         "id": 194,
-        "name": "ウパー"
+        "name": "ウパー",
+        "classification": "みずうおポケモン"
     },
     {
         "id": 195,
-        "name": "ヌオー"
+        "name": "ヌオー",
+        "classification": "みずうおポケモン"
     },
     {
         "id": 196,
-        "name": "エーフィ"
+        "name": "エーフィ",
+        "classification": "たいようポケモン"
     },
     {
         "id": 197,
-        "name": "ブラッキー"
+        "name": "ブラッキー",
+        "classification": "げっこうポケモン"
     },
     {
         "id": 198,
-        "name": "ヤミカラス"
+        "name": "ヤミカラス",
+        "classification": "くらやみポケモン"
     },
     {
         "id": 199,
-        "name": "ヤドキング"
+        "name": "ヤドキング",
+        "classification": "おうじゃポケモン"
     },
     {
         "id": 200,
-        "name": "ムウマ"
+        "name": "ムウマ",
+        "classification": "よなきポケモン"
     },
     {
         "id": 201,
-        "name": "アンノーン"
+        "name": "アンノーン",
+        "classification": "シンボルポケモン"
     },
     {
         "id": 202,
-        "name": "ソーナンス"
+        "name": "ソーナンス",
+        "classification": "がまんポケモン"
     },
     {
         "id": 203,
-        "name": "キリンリキ"
+        "name": "キリンリキ",
+        "classification": "くびながポケモン"
     },
     {
         "id": 204,
-        "name": "クヌギダマ"
+        "name": "クヌギダマ",
+        "classification": "みのむしポケモン"
     },
     {
         "id": 205,
-        "name": "フォレトス"
+        "name": "フォレトス",
+        "classification": "みのむしポケモン"
     },
     {
         "id": 206,
-        "name": "ノコッチ"
+        "name": "ノコッチ",
+        "classification": "つちへびポケモン"
     },
     {
         "id": 207,
-        "name": "グライガー"
+        "name": "グライガー",
+        "classification": "とびさそりポケモン"
     },
     {
         "id": 208,
-        "name": "ハガネール"
+        "name": "ハガネール",
+        "classification": "てつへびポケモン"
     },
     {
         "id": 209,
-        "name": "ブルー"
+        "name": "ブルー",
+        "classification": "ようせいポケモン"
     },
     {
         "id": 210,
-        "name": "グランブル"
+        "name": "グランブル",
+        "classification": "ようせいポケモン"
     },
     {
         "id": 211,
-        "name": "ハリーセン"
+        "name": "ハリーセン",
+        "classification": "ふうせんポケモン"
     },
     {
         "id": 212,
-        "name": "ハッサム"
+        "name": "ハッサム",
+        "classification": "はさみポケモン"
     },
     {
         "id": 213,
-        "name": "ツボツボ"
+        "name": "ツボツボ",
+        "classification": "はっこうポケモン"
     },
     {
         "id": 214,
-        "name": "ヘラクロス"
+        "name": "ヘラクロス",
+        "classification": "1ぽんヅノポケモン"
     },
     {
         "id": 215,
-        "name": "ニューラ"
+        "name": "ニューラ",
+        "classification": "かぎづめポケモン"
     },
     {
         "id": 216,
-        "name": "ヒメグマ"
+        "name": "ヒメグマ",
+        "classification": "こぐまポケモン"
     },
     {
         "id": 217,
-        "name": "リングマ"
+        "name": "リングマ",
+        "classification": "とうみんポケモン"
     },
     {
         "id": 218,
-        "name": "マグマッグ"
+        "name": "マグマッグ",
+        "classification": "ようがんポケモン"
     },
     {
         "id": 219,
-        "name": "マグカルゴ"
+        "name": "マグカルゴ",
+        "classification": "ようがんポケモン"
     },
     {
         "id": 220,
-        "name": "ウリムー"
+        "name": "ウリムー",
+        "classification": "いのぶたポケモン"
     },
     {
         "id": 221,
-        "name": "イノムー"
+        "name": "イノムー",
+        "classification": "いのししポケモン"
     },
     {
         "id": 222,
-        "name": "サニーゴ"
+        "name": "サニーゴ",
+        "classification": "さんごポケモン"
     },
     {
         "id": 223,
-        "name": "テッポウオ"
+        "name": "テッポウオ",
+        "classification": "ふんしゃポケモン"
     },
     {
         "id": 224,
-        "name": "オクタン"
+        "name": "オクタン",
+        "classification": "ふんしゃポケモン"
     },
     {
         "id": 225,
-        "name": "デリバード"
+        "name": "デリバード",
+        "classification": "はこびやポケモン"
     },
     {
         "id": 226,
-        "name": "マンタイン"
+        "name": "マンタイン",
+        "classification": "カイトポケモン"
     },
     {
         "id": 227,
-        "name": "エアームド"
+        "name": "エアームド",
+        "classification": "よろいどりポケモン"
     },
     {
         "id": 228,
-        "name": "デルビル"
+        "name": "デルビル",
+        "classification": "ダークポケモン"
     },
     {
         "id": 229,
-        "name": "ヘルガー"
+        "name": "ヘルガー",
+        "classification": "ダークポケモン"
     },
     {
         "id": 230,
-        "name": "キングドラ"
+        "name": "キングドラ",
+        "classification": "ドラゴンポケモン"
     },
     {
         "id": 231,
-        "name": "ゴマゾウ"
+        "name": "ゴマゾウ",
+        "classification": "ながはなポケモン"
     },
     {
         "id": 232,
-        "name": "ドンファン"
+        "name": "ドンファン",
+        "classification": "よろいポケモン"
     },
     {
         "id": 233,
-        "name": "ポリゴン2"
+        "name": "ポリゴン2",
+        "classification": "バーチャルポケモン"
     },
     {
         "id": 234,
-        "name": "オドシシ"
+        "name": "オドシシ",
+        "classification": "おおツノポケモン"
     },
     {
         "id": 235,
-        "name": "ドーブル"
+        "name": "ドーブル",
+        "classification": "えかきポケモン"
     },
     {
         "id": 236,
-        "name": "バルキー"
+        "name": "バルキー",
+        "classification": "けんかポケモン"
     },
     {
         "id": 237,
-        "name": "カポエラー"
+        "name": "カポエラー",
+        "classification": "さかだちポケモン"
     },
     {
         "id": 238,
-        "name": "ムチュール"
+        "name": "ムチュール",
+        "classification": "くちづけポケモン"
     },
     {
         "id": 239,
-        "name": "エレキッド"
+        "name": "エレキッド",
+        "classification": "でんきポケモン"
     },
     {
         "id": 240,
-        "name": "ブビィ"
+        "name": "ブビィ",
+        "classification": "ひだねポケモン"
     },
     {
         "id": 241,
-        "name": "ミルタンク"
+        "name": "ミルタンク",
+        "classification": "ちちうしポケモン"
     },
     {
         "id": 242,
-        "name": "ハピナス"
+        "name": "ハピナス",
+        "classification": "しあわせポケモン"
     },
     {
         "id": 243,
-        "name": "ライコウ"
+        "name": "ライコウ",
+        "classification": "いかずちポケモン"
     },
     {
         "id": 244,
-        "name": "エンテイ"
+        "name": "エンテイ",
+        "classification": "かざんポケモン"
     },
     {
         "id": 245,
-        "name": "スイクン"
+        "name": "スイクン",
+        "classification": "オーロラポケモン"
     },
     {
         "id": 246,
-        "name": "ヨーギラス"
+        "name": "ヨーギラス",
+        "classification": "いわはだポケモン"
     },
     {
         "id": 247,
-        "name": "サナギラス"
+        "name": "サナギラス",
+        "classification": "だんがんポケモン"
     },
     {
         "id": 248,
-        "name": "バンギラス"
+        "name": "バンギラス",
+        "classification": "よろいポケモン"
     },
     {
         "id": 249,
-        "name": "ルギア"
+        "name": "ルギア",
+        "classification": "せんすいポケモン"
     },
     {
         "id": 250,
-        "name": "ホウオウ"
+        "name": "ホウオウ",
+        "classification": "にじいろポケモン"
     },
     {
         "id": 251,
-        "name": "セレビィ"
+        "name": "セレビィ",
+        "classification": "ときわたりポケモン"
     },
     {
         "id": 252,
-        "name": "キモリ"
+        "name": "キモリ",
+        "classification": "もりトカゲポケモン"
     },
     {
         "id": 253,
-        "name": "ジュプトル"
+        "name": "ジュプトル",
+        "classification": "もりトカゲポケモン"
     },
     {
         "id": 254,
-        "name": "ジュカイン"
+        "name": "ジュカイン",
+        "classification": "みつりんポケモン"
     },
     {
         "id": 255,
-        "name": "アチャモ"
+        "name": "アチャモ",
+        "classification": "ひよこポケモン"
     },
     {
         "id": 256,
-        "name": "ワカシャモ"
+        "name": "ワカシャモ",
+        "classification": "わかどりポケモン"
     },
     {
         "id": 257,
-        "name": "バシャーモ"
+        "name": "バシャーモ",
+        "classification": "もうかポケモン"
     },
     {
         "id": 258,
-        "name": "ミズゴロウ"
+        "name": "ミズゴロウ",
+        "classification": "ぬまうおポケモン"
     },
     {
         "id": 259,
-        "name": "ヌマクロー"
+        "name": "ヌマクロー",
+        "classification": "ぬまうおポケモン"
     },
     {
         "id": 260,
-        "name": "ラグラージ"
+        "name": "ラグラージ",
+        "classification": "ぬまうおポケモン"
     },
     {
         "id": 261,
-        "name": "ポチエナ"
+        "name": "ポチエナ",
+        "classification": "かみつきポケモン"
     },
     {
         "id": 262,
-        "name": "グラエナ"
+        "name": "グラエナ",
+        "classification": "かみつきポケモン"
     },
     {
         "id": 263,
-        "name": "ジグザグマ"
+        "name": "ジグザグマ",
+        "classification": "まめだぬきポケモン"
     },
     {
         "id": 264,
-        "name": "マッスグマ"
+        "name": "マッスグマ",
+        "classification": "とっしんポケモン"
     },
     {
         "id": 265,
-        "name": "ケムッソ"
+        "name": "ケムッソ",
+        "classification": "いもむしポケモン"
     },
     {
         "id": 266,
-        "name": "カラサリス"
+        "name": "カラサリス",
+        "classification": "さなぎポケモン"
     },
     {
         "id": 267,
-        "name": "アゲハント"
+        "name": "アゲハント",
+        "classification": "ちょうちょポケモン"
     },
     {
         "id": 268,
-        "name": "マユルド"
+        "name": "マユルド",
+        "classification": "さなぎポケモン"
     },
     {
         "id": 269,
-        "name": "ドクケイル"
+        "name": "ドクケイル",
+        "classification": "どくがポケモン"
     },
     {
         "id": 270,
-        "name": "ハスボー"
+        "name": "ハスボー",
+        "classification": "うきくさポケモン"
     },
     {
         "id": 271,
-        "name": "ハスブレロ"
+        "name": "ハスブレロ",
+        "classification": "ようきポケモン"
     },
     {
         "id": 272,
-        "name": "ルンパッパ"
+        "name": "ルンパッパ",
+        "classification": "のうてんきポケモン"
     },
     {
         "id": 273,
-        "name": "タネボー"
+        "name": "タネボー",
+        "classification": "どんぐりポケモン"
     },
     {
         "id": 274,
-        "name": "コノハナ"
+        "name": "コノハナ",
+        "classification": "いじわるポケモン"
     },
     {
         "id": 275,
-        "name": "ダーテング"
+        "name": "ダーテング",
+        "classification": "よこしまポケモン"
     },
     {
         "id": 276,
-        "name": "スバメ"
+        "name": "スバメ",
+        "classification": "こツバメポケモン"
     },
     {
         "id": 277,
-        "name": "オオスバメ"
+        "name": "オオスバメ",
+        "classification": "ツバメポケモン"
     },
     {
         "id": 278,
-        "name": "キャモメ"
+        "name": "キャモメ",
+        "classification": "うみねこポケモン"
     },
     {
         "id": 279,
-        "name": "ペリッパー"
+        "name": "ペリッパー",
+        "classification": "みずどりポケモン"
     },
     {
         "id": 280,
-        "name": "ラルトス"
+        "name": "ラルトス",
+        "classification": "きもちポケモン"
     },
     {
         "id": 281,
-        "name": "キルリア"
+        "name": "キルリア",
+        "classification": "かんじょうポケモン"
     },
     {
         "id": 282,
-        "name": "サーナイト"
+        "name": "サーナイト",
+        "classification": "ほうようポケモン"
     },
     {
         "id": 283,
-        "name": "アメタマ"
+        "name": "アメタマ",
+        "classification": "あめんぼポケモン"
     },
     {
         "id": 284,
-        "name": "アメモース"
+        "name": "アメモース",
+        "classification": "めだまポケモン"
     },
     {
         "id": 285,
-        "name": "キノココ"
+        "name": "キノココ",
+        "classification": "きのこポケモン"
     },
     {
         "id": 286,
-        "name": "キノガッサ"
+        "name": "キノガッサ",
+        "classification": "きのこポケモン"
     },
     {
         "id": 287,
-        "name": "ナマケロ"
+        "name": "ナマケロ",
+        "classification": "なまけものポケモン"
     },
     {
         "id": 288,
-        "name": "ヤルキモノ"
+        "name": "ヤルキモノ",
+        "classification": "あばれザルポケモン"
     },
     {
         "id": 289,
-        "name": "ケッキング"
+        "name": "ケッキング",
+        "classification": "ものぐさポケモン"
     },
     {
         "id": 290,
-        "name": "ツチニン"
+        "name": "ツチニン",
+        "classification": "したづみポケモン"
     },
     {
         "id": 291,
-        "name": "テッカニン"
+        "name": "テッカニン",
+        "classification": "しのびポケモン"
     },
     {
         "id": 292,
-        "name": "ヌケニン"
+        "name": "ヌケニン",
+        "classification": "ぬけがらポケモン"
     },
     {
         "id": 293,
-        "name": "ゴニョニョ"
+        "name": "ゴニョニョ",
+        "classification": "ささやきポケモン"
     },
     {
         "id": 294,
-        "name": "ドゴーム"
+        "name": "ドゴーム",
+        "classification": "おおごえポケモン"
     },
     {
         "id": 295,
-        "name": "バクオング"
+        "name": "バクオング",
+        "classification": "そうおんポケモン"
     },
     {
         "id": 296,
-        "name": "マクノシタ"
+        "name": "マクノシタ",
+        "classification": "こんじょうポケモン"
     },
     {
         "id": 297,
-        "name": "ハリテヤマ"
+        "name": "ハリテヤマ",
+        "classification": "つっぱりポケモン"
     },
     {
         "id": 298,
-        "name": "ルリリ"
+        "name": "ルリリ",
+        "classification": "みずたまポケモン"
     },
     {
         "id": 299,
-        "name": "ノズパス"
+        "name": "ノズパス",
+        "classification": "コンパスポケモン"
     },
     {
         "id": 300,
-        "name": "エネコ"
+        "name": "エネコ",
+        "classification": "こねこポケモン"
     },
     {
         "id": 301,
-        "name": "エネコロロ"
+        "name": "エネコロロ",
+        "classification": "おすましポケモン"
     },
     {
         "id": 302,
-        "name": "ヤミラミ"
+        "name": "ヤミラミ",
+        "classification": "くらやみポケモン"
     },
     {
         "id": 303,
-        "name": "クチート"
+        "name": "クチート",
+        "classification": "あざむきポケモン"
     },
     {
         "id": 304,
-        "name": "ココドラ"
+        "name": "ココドラ",
+        "classification": "てつヨロイポケモン"
     },
     {
         "id": 305,
-        "name": "コドラ"
+        "name": "コドラ",
+        "classification": "てつヨロイポケモン"
     },
     {
         "id": 306,
-        "name": "ボスゴドラ"
+        "name": "ボスゴドラ",
+        "classification": "てつヨロイポケモン"
     },
     {
         "id": 307,
-        "name": "アサナン"
+        "name": "アサナン",
+        "classification": "めいそうポケモン"
     },
     {
         "id": 308,
-        "name": "チャーレム"
+        "name": "チャーレム",
+        "classification": "めいそうポケモン"
     },
     {
         "id": 309,
-        "name": "ラクライ"
+        "name": "ラクライ",
+        "classification": "いなずまポケモン"
     },
     {
         "id": 310,
-        "name": "ライボルト"
+        "name": "ライボルト",
+        "classification": "ほうでんポケモン"
     },
     {
         "id": 311,
-        "name": "プラスル"
+        "name": "プラスル",
+        "classification": "おうえんポケモン"
     },
     {
         "id": 312,
-        "name": "マイナン"
+        "name": "マイナン",
+        "classification": "おうえんポケモン"
     },
     {
         "id": 313,
-        "name": "バルビート"
+        "name": "バルビート",
+        "classification": "ほたるポケモン"
     },
     {
         "id": 314,
-        "name": "イルミーゼ"
+        "name": "イルミーゼ",
+        "classification": "ほたるポケモン"
     },
     {
         "id": 315,
-        "name": "ロゼリア"
+        "name": "ロゼリア",
+        "classification": "いばらポケモン"
     },
     {
         "id": 316,
-        "name": "ゴクリン"
+        "name": "ゴクリン",
+        "classification": "いぶくろポケモン"
     },
     {
         "id": 317,
-        "name": "マルノーム"
+        "name": "マルノーム",
+        "classification": "どくぶくろポケモン"
     },
     {
         "id": 318,
-        "name": "キバニア"
+        "name": "キバニア",
+        "classification": "どうもうポケモン"
     },
     {
         "id": 319,
-        "name": "サメハダー"
+        "name": "サメハダー",
+        "classification": "きょうぼうポケモン"
     },
     {
         "id": 320,
-        "name": "ホエルコ"
+        "name": "ホエルコ",
+        "classification": "たまくじらポケモン"
     },
     {
         "id": 321,
-        "name": "ホエルオー"
+        "name": "ホエルオー",
+        "classification": "うきくじらポケモン"
     },
     {
         "id": 322,
-        "name": "ドンメル"
+        "name": "ドンメル",
+        "classification": "どんかんポケモン"
     },
     {
         "id": 323,
-        "name": "バクーダ"
+        "name": "バクーダ",
+        "classification": "ふんかポケモン"
     },
     {
         "id": 324,
-        "name": "コータス"
+        "name": "コータス",
+        "classification": "せきたんポケモン"
     },
     {
         "id": 325,
-        "name": "バネブー"
+        "name": "バネブー",
+        "classification": "とびはねポケモン"
     },
     {
         "id": 326,
-        "name": "ブーピッグ"
+        "name": "ブーピッグ",
+        "classification": "あやつりポケモン"
     },
     {
         "id": 327,
-        "name": "パッチール"
+        "name": "パッチール",
+        "classification": "ぶちパンダポケモン"
     },
     {
         "id": 328,
-        "name": "ナックラー"
+        "name": "ナックラー",
+        "classification": "ありじごくポケモン"
     },
     {
         "id": 329,
-        "name": "ビブラーバ"
+        "name": "ビブラーバ",
+        "classification": "しんどうポケモン"
     },
     {
         "id": 330,
-        "name": "フライゴン"
+        "name": "フライゴン",
+        "classification": "せいれいポケモン"
     },
     {
         "id": 331,
-        "name": "サボネア"
+        "name": "サボネア",
+        "classification": "サボテンポケモン"
     },
     {
         "id": 332,
-        "name": "ノクタス"
+        "name": "ノクタス",
+        "classification": "カカシぐさポケモン"
     },
     {
         "id": 333,
-        "name": "チルット"
+        "name": "チルット",
+        "classification": "わたどりポケモン"
     },
     {
         "id": 334,
-        "name": "チルタリス"
+        "name": "チルタリス",
+        "classification": "ハミングポケモン"
     },
     {
         "id": 335,
-        "name": "ザングース"
+        "name": "ザングース",
+        "classification": "ネコイタチポケモン"
     },
     {
         "id": 336,
-        "name": "ハブネーク"
+        "name": "ハブネーク",
+        "classification": "キバへびポケモン"
     },
     {
         "id": 337,
-        "name": "ルナトーン"
+        "name": "ルナトーン",
+        "classification": "いんせきポケモン"
     },
     {
         "id": 338,
-        "name": "ソルロック"
+        "name": "ソルロック",
+        "classification": "いんせきポケモン"
     },
     {
         "id": 339,
-        "name": "ドジョッチ"
+        "name": "ドジョッチ",
+        "classification": "ひげうおポケモン"
     },
     {
         "id": 340,
-        "name": "ナマズン"
+        "name": "ナマズン",
+        "classification": "ひげうおポケモン"
     },
     {
         "id": 341,
-        "name": "ヘイガニ"
+        "name": "ヘイガニ",
+        "classification": "ごろつきポケモン"
     },
     {
         "id": 342,
-        "name": "シザリガー"
+        "name": "シザリガー",
+        "classification": "ならずものポケモン"
     },
     {
         "id": 343,
-        "name": "ヤジロン"
+        "name": "ヤジロン",
+        "classification": "どぐうポケモン"
     },
     {
         "id": 344,
-        "name": "ネンドール"
+        "name": "ネンドール",
+        "classification": "どぐうポケモン"
     },
     {
         "id": 345,
-        "name": "リリーラ"
+        "name": "リリーラ",
+        "classification": "ウミユリポケモン"
     },
     {
         "id": 346,
-        "name": "ユレイドル"
+        "name": "ユレイドル",
+        "classification": "いわつぼポケモン"
     },
     {
         "id": 347,
-        "name": "アノプス"
+        "name": "アノプス",
+        "classification": "むかしエビポケモン"
     },
     {
         "id": 348,
-        "name": "アーマルド"
+        "name": "アーマルド",
+        "classification": "かっちゅうポケモン"
     },
     {
         "id": 349,
-        "name": "ヒンバス"
+        "name": "ヒンバス",
+        "classification": "さかなポケモン"
     },
     {
         "id": 350,
-        "name": "ミロカロス"
+        "name": "ミロカロス",
+        "classification": "いつくしみポケモン"
     },
     {
         "id": 351,
-        "name": "ポワルン"
+        "name": "ポワルン",
+        "classification": "てんきポケモン"
     },
     {
         "id": 352,
-        "name": "カクレオン"
+        "name": "カクレオン",
+        "classification": "いろへんげポケモン"
     },
     {
         "id": 353,
-        "name": "カゲボウズ"
+        "name": "カゲボウズ",
+        "classification": "にんぎょうポケモン"
     },
     {
         "id": 354,
-        "name": "ジュペッタ"
+        "name": "ジュペッタ",
+        "classification": "ぬいぐるみポケモン"
     },
     {
         "id": 355,
-        "name": "ヨマワル"
+        "name": "ヨマワル",
+        "classification": "おむかえポケモン"
     },
     {
         "id": 356,
-        "name": "サマヨール"
+        "name": "サマヨール",
+        "classification": "てまねきポケモン"
     },
     {
         "id": 357,
-        "name": "トロピウス"
+        "name": "トロピウス",
+        "classification": "フルーツポケモン"
     },
     {
         "id": 358,
-        "name": "チリーン"
+        "name": "チリーン",
+        "classification": "ふうりんポケモン"
     },
     {
         "id": 359,
-        "name": "アブソル"
+        "name": "アブソル",
+        "classification": "わざわいポケモン"
     },
     {
         "id": 360,
-        "name": "ソーナノ"
+        "name": "ソーナノ",
+        "classification": "ほがらかポケモン"
     },
     {
         "id": 361,
-        "name": "ユキワラシ"
+        "name": "ユキワラシ",
+        "classification": "ゆきかさポケモン"
     },
     {
         "id": 362,
-        "name": "オニゴーリ"
+        "name": "オニゴーリ",
+        "classification": "がんめんポケモン"
     },
     {
         "id": 363,
-        "name": "タマザラシ"
+        "name": "タマザラシ",
+        "classification": "てたたきポケモン"
     },
     {
         "id": 364,
-        "name": "トドグラー"
+        "name": "トドグラー",
+        "classification": "たままわしポケモン"
     },
     {
         "id": 365,
-        "name": "トドゼルガ"
+        "name": "トドゼルガ",
+        "classification": "こおりわりポケモン"
     },
     {
         "id": 366,
-        "name": "パールル"
+        "name": "パールル",
+        "classification": "2まいがいポケモン"
     },
     {
         "id": 367,
-        "name": "ハンテール"
+        "name": "ハンテール",
+        "classification": "しんかいポケモン"
     },
     {
         "id": 368,
-        "name": "サクラビス"
+        "name": "サクラビス",
+        "classification": "なんかいポケモン"
     },
     {
         "id": 369,
-        "name": "ジーランス"
+        "name": "ジーランス",
+        "classification": "ちょうじゅポケモン"
     },
     {
         "id": 370,
-        "name": "ラブカス"
+        "name": "ラブカス",
+        "classification": "ランデブーポケモン"
     },
     {
         "id": 371,
-        "name": "タツベイ"
+        "name": "タツベイ",
+        "classification": "いしあたまポケモン"
     },
     {
         "id": 372,
-        "name": "コモルー"
+        "name": "コモルー",
+        "classification": "にんたいポケモン"
     },
     {
         "id": 373,
-        "name": "ボーマンダ"
+        "name": "ボーマンダ",
+        "classification": "ドラゴンポケモン"
     },
     {
         "id": 374,
-        "name": "ダンバル"
+        "name": "ダンバル",
+        "classification": "てっきゅうポケモン"
     },
     {
         "id": 375,
-        "name": "メタング"
+        "name": "メタング",
+        "classification": "てつツメポケモン"
     },
     {
         "id": 376,
-        "name": "メタグロス"
+        "name": "メタグロス",
+        "classification": "てつあしポケモン"
     },
     {
         "id": 377,
-        "name": "レジロック"
+        "name": "レジロック",
+        "classification": "いわやまポケモン"
     },
     {
         "id": 378,
-        "name": "レジアイス"
+        "name": "レジアイス",
+        "classification": "ひょうざんポケモン"
     },
     {
         "id": 379,
-        "name": "レジスチル"
+        "name": "レジスチル",
+        "classification": "くろがねポケモン"
     },
     {
         "id": 380,
-        "name": "ラティアス"
+        "name": "ラティアス",
+        "classification": "むげんポケモン"
     },
     {
         "id": 381,
-        "name": "ラティオス"
+        "name": "ラティオス",
+        "classification": "むげんポケモン"
     },
     {
         "id": 382,
-        "name": "カイオーガ"
+        "name": "カイオーガ",
+        "classification": "かいていポケモン"
     },
     {
         "id": 383,
-        "name": "グラードン"
+        "name": "グラードン",
+        "classification": "たいりくポケモン"
     },
     {
         "id": 384,
-        "name": "レックウザ"
+        "name": "レックウザ",
+        "classification": "てんくうポケモン"
     },
     {
         "id": 385,
-        "name": "ジラーチ"
+        "name": "ジラーチ",
+        "classification": "ねがいごとポケモン"
     },
     {
         "id": 386,
-        "name": "デオキシス"
+        "name": "デオキシス",
+        "classification": "DNAポケモン"
     },
     {
         "id": 387,
