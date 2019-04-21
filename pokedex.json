@@ -2703,1343 +2703,2348 @@
     },
     {
         "id": 387,
-        "name": "ナエトル"
+        "name": "ナエトル",
+        "classification": "わかばポケモン",
+        "height": "0.4",
+        "weight": "10.2"
     },
     {
         "id": 388,
-        "name": "ハヤシガメ"
+        "name": "ハヤシガメ",
+        "classification": "こだちポケモン",
+        "height": "1.1",
+        "weight": "97.0"
     },
     {
         "id": 389,
-        "name": "ドダイトス"
+        "name": "ドダイトス",
+        "classification": "たいりくポケモン",
+        "height": "2.2",
+        "weight": "310.0"
     },
     {
         "id": 390,
-        "name": "ヒコザル"
+        "name": "ヒコザル",
+        "classification": "こざるポケモン",
+        "height": "0.5",
+        "weight": "6.2"
     },
     {
         "id": 391,
-        "name": "モウカザル"
+        "name": "モウカザル",
+        "classification": "やんちゃポケモン",
+        "height": "0.9",
+        "weight": "22.0"
     },
     {
         "id": 392,
-        "name": "ゴウカザル"
+        "name": "ゴウカザル",
+        "classification": "かえんポケモン",
+        "height": "1.2",
+        "weight": "55.0"
     },
     {
         "id": 393,
-        "name": "ポッチャマ"
+        "name": "ポッチャマ",
+        "classification": "ペンギンポケモン",
+        "height": "0.4",
+        "weight": "5.2"
     },
     {
         "id": 394,
-        "name": "ポッタイシ"
+        "name": "ポッタイシ",
+        "classification": "ペンギンポケモン",
+        "height": "0.8",
+        "weight": "23.0"
     },
     {
         "id": 395,
-        "name": "エンペルト"
+        "name": "エンペルト",
+        "classification": "こうていポケモン",
+        "height": "1.7",
+        "weight": "84.5"
     },
     {
         "id": 396,
-        "name": "ムックル"
+        "name": "ムックル",
+        "classification": "むくどりポケモン",
+        "height": "0.3",
+        "weight": "2.0"
     },
     {
         "id": 397,
-        "name": "ムクバード"
+        "name": "ムクバード",
+        "classification": "むくどりポケモン",
+        "height": "0.6",
+        "weight": "15.5"
     },
     {
         "id": 398,
-        "name": "ムクホーク"
+        "name": "ムクホーク",
+        "classification": "もうきんポケモン",
+        "height": "1.2",
+        "weight": "24.9"
     },
     {
         "id": 399,
-        "name": "ビッパ"
+        "name": "ビッパ",
+        "classification": "まるねずみポケモン",
+        "height": "0.5",
+        "weight": "20.0"
     },
     {
         "id": 400,
-        "name": "ビーダル"
+        "name": "ビーダル",
+        "classification": "ビーバーポケモン",
+        "height": "1.0",
+        "weight": "31.5"
     },
     {
         "id": 401,
-        "name": "コロボーシ"
+        "name": "コロボーシ",
+        "classification": "こおろぎポケモン",
+        "height": "0.3",
+        "weight": "2.2"
     },
     {
         "id": 402,
-        "name": "コロトック"
+        "name": "コロトック",
+        "classification": "こおろぎポケモン",
+        "height": "1.0",
+        "weight": "25.5"
     },
     {
         "id": 403,
-        "name": "コリンク"
+        "name": "コリンク",
+        "classification": "せんこうポケモン",
+        "height": "0.5",
+        "weight": "9.5"
     },
     {
         "id": 404,
-        "name": "ルクシオ"
+        "name": "ルクシオ",
+        "classification": "でんこうポケモン",
+        "height": "0.9",
+        "weight": "30.5"
     },
     {
         "id": 405,
-        "name": "レントラー"
+        "name": "レントラー",
+        "classification": "がんこうポケモン",
+        "height": "1.4",
+        "weight": "42.0"
     },
     {
         "id": 406,
-        "name": "スボミー"
+        "name": "スボミー",
+        "classification": "つぼみポケモン",
+        "height": "0.2",
+        "weight": "42.0"
     },
     {
         "id": 407,
-        "name": "ロズレイド"
+        "name": "ロズレイド",
+        "classification": "ブーケポケモン",
+        "height": "0.9",
+        "weight": "42.0"
     },
     {
         "id": 408,
-        "name": "ズガイドス"
+        "name": "ズガイドス",
+        "classification": "ずつきポケモン",
+        "height": "0.9",
+        "weight": "31.5"
     },
     {
         "id": 409,
-        "name": "ラムパルド"
+        "name": "ラムパルド",
+        "classification": "ずつきポケモン",
+        "height": "1.6",
+        "weight": "102.5"
     },
     {
         "id": 410,
-        "name": "タテトプス"
+        "name": "タテトプス",
+        "classification": "シールドポケモン",
+        "height": "0.5",
+        "weight": "57.0"
     },
     {
         "id": 411,
-        "name": "トリデプス"
+        "name": "トリデプス",
+        "classification": "シールドポケモン",
+        "height": "1.3",
+        "weight": "149.5"
     },
     {
         "id": 412,
-        "name": "ミノムッチ"
+        "name": "ミノムッチ",
+        "classification": "みのむしポケモン",
+        "height": "0.2",
+        "weight": "3.4"
     },
     {
         "id": 413,
-        "name": "ミノマダム"
+        "name": "ミノマダム",
+        "classification": "みのむしポケモン",
+        "height": "0.5",
+        "weight": "6.5"
     },
     {
         "id": 414,
-        "name": "ガーメイル"
+        "name": "ガーメイル",
+        "classification": "ミノガポケモン",
+        "height": "0.9",
+        "weight": "23.3"
     },
     {
         "id": 415,
-        "name": "ミツハニー"
+        "name": "ミツハニー",
+        "classification": "はちのこポケモン",
+        "height": "0.3",
+        "weight": "5.5"
     },
     {
         "id": 416,
-        "name": "ビークイン"
+        "name": "ビークイン",
+        "classification": "はちのすポケモン",
+        "height": "1.2",
+        "weight": "38.5"
     },
     {
         "id": 417,
-        "name": "パチリス"
+        "name": "パチリス",
+        "classification": "でんきりすポケモン",
+        "height": "0.4",
+        "weight": "3.9"
     },
     {
         "id": 418,
-        "name": "ブイゼル"
+        "name": "ブイゼル",
+        "classification": "うみイタチポケモン",
+        "height": "0.7",
+        "weight": "29.5"
     },
     {
         "id": 419,
-        "name": "フローゼル"
+        "name": "フローゼル",
+        "classification": "うみイタチポケモン",
+        "height": "1.1",
+        "weight": "33.5"
     },
     {
         "id": 420,
-        "name": "チェリンボ"
+        "name": "チェリンボ",
+        "classification": "さくらんぼポケモン",
+        "height": "0.4",
+        "weight": "3.3"
     },
     {
         "id": 421,
-        "name": "チェリム"
+        "name": "チェリム",
+        "classification": "サクラポケモン",
+        "height": "0.5",
+        "weight": "9.3"
     },
     {
         "id": 422,
-        "name": "カラナクシ"
+        "name": "カラナクシ",
+        "classification": "ウミウシポケモン",
+        "height": "0.3",
+        "weight": "6.3"
     },
     {
         "id": 423,
-        "name": "トリトドン"
+        "name": "トリトドン",
+        "classification": "ウミウシポケモン",
+        "height": "0.9",
+        "weight": "29.9"
     },
     {
         "id": 424,
-        "name": "エテボース"
+        "name": "エテボース",
+        "classification": "おながポケモン",
+        "height": "1.2",
+        "weight": "20.3"
     },
     {
         "id": 425,
-        "name": "フワンテ"
+        "name": "フワンテ",
+        "classification": "ふうせんポケモン",
+        "height": "0.4",
+        "weight": "1.2"
     },
     {
         "id": 426,
-        "name": "フワライド"
+        "name": "フワライド",
+        "classification": "ききゅうポケモン",
+        "height": "1.2",
+        "weight": "15.0"
     },
     {
         "id": 427,
-        "name": "ミミロル"
+        "name": "ミミロル",
+        "classification": "うさぎポケモン",
+        "height": "0.4",
+        "weight": "5.5"
     },
     {
         "id": 428,
-        "name": "ミミロップ"
+        "name": "ミミロップ",
+        "classification": "うさぎポケモン",
+        "height": "1.2",
+        "weight": "33.3"
     },
     {
         "id": 429,
-        "name": "ムウマージ"
+        "name": "ムウマージ",
+        "classification": "マジカルポケモン",
+        "height": "0.9",
+        "weight": "4.4"
     },
     {
         "id": 430,
-        "name": "ドンカラス"
+        "name": "ドンカラス",
+        "classification": "おおボスポケモン",
+        "height": "0.9",
+        "weight": "27.3"
     },
     {
         "id": 431,
-        "name": "ニャルマー"
+        "name": "ニャルマー",
+        "classification": "ねこかぶりポケモン",
+        "height": "0.5",
+        "weight": "3.9"
     },
     {
         "id": 432,
-        "name": "ブニャット"
+        "name": "ブニャット",
+        "classification": "とらねこポケモン",
+        "height": "1.0",
+        "weight": "43.8"
     },
     {
         "id": 433,
-        "name": "リーシャン"
+        "name": "リーシャン",
+        "classification": "すずポケモン",
+        "height": "0.2",
+        "weight": "43.8"
     },
     {
         "id": 434,
-        "name": "スカンプー"
+        "name": "スカンプー",
+        "classification": "スカンクポケモン",
+        "height": "0.4",
+        "weight": "19.2"
     },
     {
         "id": 435,
-        "name": "スカタンク"
+        "name": "スカタンク",
+        "classification": "スカンクポケモン",
+        "height": "1.0",
+        "weight": "38.0"
     },
     {
         "id": 436,
-        "name": "ドーミラー"
+        "name": "ドーミラー",
+        "classification": "せいどうポケモン",
+        "height": "0.5",
+        "weight": "60.5"
     },
     {
         "id": 437,
-        "name": "ドータクン"
+        "name": "ドータクン",
+        "classification": "どうたくポケモン",
+        "height": "1.3",
+        "weight": "187.0"
     },
     {
         "id": 438,
-        "name": "ウソハチ"
+        "name": "ウソハチ",
+        "classification": "ぼんさいポケモン",
+        "height": "0.5",
+        "weight": "15.0"
     },
     {
         "id": 439,
-        "name": "マネネ"
+        "name": "マネネ",
+        "classification": "マイムポケモン",
+        "height": "0.6",
+        "weight": "13.0"
     },
     {
         "id": 440,
-        "name": "ピンプク"
+        "name": "ピンプク",
+        "classification": "ままごとポケモン",
+        "height": "0.6",
+        "weight": "24.4"
     },
     {
         "id": 441,
-        "name": "ペラップ"
+        "name": "ペラップ",
+        "classification": "おんぷポケモン",
+        "height": "0.5",
+        "weight": "1.9"
     },
     {
         "id": 442,
-        "name": "ミカルゲ"
+        "name": "ミカルゲ",
+        "classification": "ふういんポケモン",
+        "height": "1.0",
+        "weight": "108.0"
     },
     {
         "id": 443,
-        "name": "フカマル"
+        "name": "フカマル",
+        "classification": "りくザメポケモン",
+        "height": "0.7",
+        "weight": "20.5"
     },
     {
         "id": 444,
-        "name": "ガバイト"
+        "name": "ガバイト",
+        "classification": "ほらあなポケモン",
+        "height": "1.4",
+        "weight": "56.0"
     },
     {
         "id": 445,
-        "name": "ガブリアス"
+        "name": "ガブリアス",
+        "classification": "マッハポケモン",
+        "height": "1.9",
+        "weight": "95.0"
     },
     {
         "id": 446,
-        "name": "ゴンベ"
+        "name": "ゴンベ",
+        "classification": "おおぐいポケモン",
+        "height": "0.6",
+        "weight": "105.0"
     },
     {
         "id": 447,
-        "name": "リオル"
+        "name": "リオル",
+        "classification": "はもんポケモン",
+        "height": "0.7",
+        "weight": "20.2"
     },
     {
         "id": 448,
-        "name": "ルカリオ"
+        "name": "ルカリオ",
+        "classification": "はどうポケモン",
+        "height": "1.2",
+        "weight": "54.0"
     },
     {
         "id": 449,
-        "name": "ヒポポタス"
+        "name": "ヒポポタス",
+        "classification": "カバポケモン",
+        "height": "0.8",
+        "weight": "49.5"
     },
     {
         "id": 450,
-        "name": "カバルドン"
+        "name": "カバルドン",
+        "classification": "じゅうりょうポケモン",
+        "height": "2.0",
+        "weight": "300.0"
     },
     {
         "id": 451,
-        "name": "スコルピ"
+        "name": "スコルピ",
+        "classification": "さそりポケモン",
+        "height": "0.8",
+        "weight": "12.0"
     },
     {
         "id": 452,
-        "name": "ドラピオン"
+        "name": "ドラピオン",
+        "classification": "ばけさそりポケモン",
+        "height": "1.3",
+        "weight": "61.5"
     },
     {
         "id": 453,
-        "name": "グレッグル"
+        "name": "グレッグル",
+        "classification": "どくづきポケモン",
+        "height": "0.7",
+        "weight": "23.0"
     },
     {
         "id": 454,
-        "name": "ドクロッグ"
+        "name": "ドクロッグ",
+        "classification": "どくづきポケモン",
+        "height": "1.3",
+        "weight": "44.4"
     },
     {
         "id": 455,
-        "name": "マスキッパ"
+        "name": "マスキッパ",
+        "classification": "むしとりポケモン",
+        "height": "1.4",
+        "weight": "27.0"
     },
     {
         "id": 456,
-        "name": "ケイコウオ"
+        "name": "ケイコウオ",
+        "classification": "はねうおポケモン",
+        "height": "0.4",
+        "weight": "7.0"
     },
     {
         "id": 457,
-        "name": "ネオラント"
+        "name": "ネオラント",
+        "classification": "ネオンポケモン",
+        "height": "1.2",
+        "weight": "24.0"
     },
     {
         "id": 458,
-        "name": "タマンタ"
+        "name": "タマンタ",
+        "classification": "カイトポケモン",
+        "height": "1.0",
+        "weight": "65.0"
     },
     {
         "id": 459,
-        "name": "ユキカブリ"
+        "name": "ユキカブリ",
+        "classification": "じゅひょうポケモン",
+        "height": "1.0",
+        "weight": "50.5"
     },
     {
         "id": 460,
-        "name": "ユキノオー"
+        "name": "ユキノオー",
+        "classification": "じゅひょうポケモン",
+        "height": "2.2",
+        "weight": "135.5"
     },
     {
         "id": 461,
-        "name": "マニューラ"
+        "name": "マニューラ",
+        "classification": "かぎづめポケモン",
+        "height": "1.1",
+        "weight": "34.0"
     },
     {
         "id": 462,
-        "name": "ジバコイル"
+        "name": "ジバコイル",
+        "classification": "じばポケモン",
+        "height": "1.2",
+        "weight": "34.0"
     },
     {
         "id": 463,
-        "name": "ベロベルト"
+        "name": "ベロベルト",
+        "classification": "なめまわしポケモン",
+        "height": "1.7",
+        "weight": "140.0"
     },
     {
         "id": 464,
-        "name": "ドサイドン"
+        "name": "ドサイドン",
+        "classification": "ドリルポケモン",
+        "height": "2.4",
+        "weight": "140.0"
     },
     {
         "id": 465,
-        "name": "モジャンボ"
+        "name": "モジャンボ",
+        "classification": "ツルじょうポケモン",
+        "height": "2.0",
+        "weight": "128.6"
     },
     {
         "id": 466,
-        "name": "エレキブル"
+        "name": "エレキブル",
+        "classification": "らいでんポケモン",
+        "height": "1.8",
+        "weight": "138.6"
     },
     {
         "id": 467,
-        "name": "ブーバーン"
+        "name": "ブーバーン",
+        "classification": "ばくえんポケモン",
+        "height": "1.6",
+        "weight": "68.0"
     },
     {
         "id": 468,
-        "name": "トゲキッス"
+        "name": "トゲキッス",
+        "classification": "しゅくふくポケモン",
+        "height": "1.5",
+        "weight": "38.0"
     },
     {
         "id": 469,
-        "name": "メガヤンマ"
+        "name": "メガヤンマ",
+        "classification": "オニトンボポケモン",
+        "height": "1.9",
+        "weight": "51.5"
     },
     {
         "id": 470,
-        "name": "リーフィア"
+        "name": "リーフィア",
+        "classification": "しんりょくポケモン",
+        "height": "1.0",
+        "weight": "25.5"
     },
     {
         "id": 471,
-        "name": "グレイシア"
+        "name": "グレイシア",
+        "classification": "しんせつポケモン",
+        "height": "0.8",
+        "weight": "25.9"
     },
     {
         "id": 472,
-        "name": "グライオン"
+        "name": "グライオン",
+        "classification": "キバさそりポケモン",
+        "height": "2.0",
+        "weight": "42.5"
     },
     {
         "id": 473,
-        "name": "マンムー"
+        "name": "マンムー",
+        "classification": "2ほんキバポケモン",
+        "height": "2.5",
+        "weight": "291.0"
     },
     {
         "id": 474,
-        "name": "ポリゴンZ"
+        "name": "ポリゴンZ",
+        "classification": "バーチャルポケモン",
+        "height": "0.9",
+        "weight": "34.0"
     },
     {
         "id": 475,
-        "name": "エルレイド"
+        "name": "エルレイド",
+        "classification": "やいばポケモン",
+        "height": "1.6",
+        "weight": "34.0"
     },
     {
         "id": 476,
-        "name": "ダイノーズ"
+        "name": "ダイノーズ",
+        "classification": "コンパスポケモン",
+        "height": "1.4",
+        "weight": "34.0"
     },
     {
         "id": 477,
-        "name": "ヨノワール"
+        "name": "ヨノワール",
+        "classification": "てづかみポケモン",
+        "height": "2.2",
+        "weight": "106.6"
     },
     {
         "id": 478,
-        "name": "ユキメノコ"
+        "name": "ユキメノコ",
+        "classification": "ゆきぐにポケモン",
+        "height": "1.3",
+        "weight": "26.6"
     },
     {
         "id": 479,
-        "name": "ロトム"
+        "name": "ロトム",
+        "classification": "プラズマポケモン",
+        "height": "0.3",
+        "weight": "0.3"
     },
     {
         "id": 480,
-        "name": "ユクシー"
+        "name": "ユクシー",
+        "classification": "ちしきポケモン",
+        "height": "0.3",
+        "weight": "0.3"
     },
     {
         "id": 481,
-        "name": "エムリット"
+        "name": "エムリット",
+        "classification": "かんじょうポケモン",
+        "height": "0.3",
+        "weight": "0.3"
     },
     {
         "id": 482,
-        "name": "アグノム"
+        "name": "アグノム",
+        "classification": "いしポケモン",
+        "height": "0.3",
+        "weight": "0.3"
     },
     {
         "id": 483,
-        "name": "ディアルガ"
+        "name": "ディアルガ",
+        "classification": "じかんポケモン",
+        "height": "5.4",
+        "weight": "683.0"
     },
     {
         "id": 484,
-        "name": "パルキア"
+        "name": "パルキア",
+        "classification": "くうかんポケモン",
+        "height": "4.2",
+        "weight": "336.0"
     },
     {
         "id": 485,
-        "name": "ヒードラン"
+        "name": "ヒードラン",
+        "classification": "かこうポケモン",
+        "height": "1.7",
+        "weight": "430.0"
     },
     {
         "id": 486,
-        "name": "レジギガス"
+        "name": "レジギガス",
+        "classification": "きょだいポケモン",
+        "height": "3.7",
+        "weight": "420.0"
     },
     {
         "id": 487,
-        "name": "ギラティナ"
+        "name": "ギラティナ",
+        "classification": "はんこつポケモン",
+        "height": "4.5",
+        "weight": "750.0"
     },
     {
         "id": 488,
-        "name": "クレセリア"
+        "name": "クレセリア",
+        "classification": "みかづきポケモン",
+        "height": "1.5",
+        "weight": "85.6"
     },
     {
         "id": 489,
-        "name": "フィオネ"
+        "name": "フィオネ",
+        "classification": "かいようポケモン",
+        "height": "0.4",
+        "weight": "3.1"
     },
     {
         "id": 490,
-        "name": "マナフィ"
+        "name": "マナフィ",
+        "classification": "かいゆうポケモン",
+        "height": "0.3",
+        "weight": "1.4"
     },
     {
         "id": 491,
-        "name": "ダークライ"
+        "name": "ダークライ",
+        "classification": "あんこくポケモン",
+        "height": "1.5",
+        "weight": "50.5"
     },
     {
         "id": 492,
-        "name": "シェイミ"
+        "name": "シェイミ",
+        "classification": "かんしゃポケモン",
+        "height": "0.2",
+        "weight": "2.1"
     },
     {
         "id": 493,
-        "name": "アルセウス"
+        "name": "アルセウス",
+        "classification": "そうぞうポケモン",
+        "height": "3.2",
+        "weight": "320.0"
     },
     {
         "id": 494,
-        "name": "ビクティニ"
+        "name": "ビクティニ",
+        "classification": "しょうりポケモン",
+        "height": "0.4",
+        "weight": "4.0"
     },
     {
         "id": 495,
-        "name": "ツタージャ"
+        "name": "ツタージャ",
+        "classification": "くさへびポケモン",
+        "height": "0.6",
+        "weight": "8.1"
     },
     {
         "id": 496,
-        "name": "ジャノビー"
+        "name": "ジャノビー",
+        "classification": "くさへびポケモン",
+        "height": "0.8",
+        "weight": "16.0"
     },
     {
         "id": 497,
-        "name": "ジャローダ"
+        "name": "ジャローダ",
+        "classification": "ロイヤルポケモン",
+        "height": "3.3",
+        "weight": "63.0"
     },
     {
         "id": 498,
-        "name": "ポカブ"
+        "name": "ポカブ",
+        "classification": "ひぶたポケモン",
+        "height": "0.5",
+        "weight": "9.9"
     },
     {
         "id": 499,
-        "name": "チャオブー"
+        "name": "チャオブー",
+        "classification": "ひぶたポケモン",
+        "height": "1.0",
+        "weight": "55.5"
     },
     {
         "id": 500,
-        "name": "エンブオー"
+        "name": "エンブオー",
+        "classification": "おおひぶたポケモン",
+        "height": "1.6",
+        "weight": "150.0"
     },
     {
         "id": 501,
-        "name": "ミジュマル"
+        "name": "ミジュマル",
+        "classification": "ラッコポケモン",
+        "height": "0.5",
+        "weight": "5.9"
     },
     {
         "id": 502,
-        "name": "フタチマル"
+        "name": "フタチマル",
+        "classification": "しゅぎょうポケモン",
+        "height": "0.8",
+        "weight": "24.5"
     },
     {
         "id": 503,
-        "name": "ダイケンキ"
+        "name": "ダイケンキ",
+        "classification": "かんろくポケモン",
+        "height": "1.5",
+        "weight": "94.6"
     },
     {
         "id": 504,
-        "name": "ミネズミ"
+        "name": "ミネズミ",
+        "classification": "みはりポケモン",
+        "height": "0.5",
+        "weight": "11.6"
     },
     {
         "id": 505,
-        "name": "ミルホッグ"
+        "name": "ミルホッグ",
+        "classification": "けいかいポケモン",
+        "height": "1.1",
+        "weight": "27.0"
     },
     {
         "id": 506,
-        "name": "ヨーテリー"
+        "name": "ヨーテリー",
+        "classification": "こいぬポケモン",
+        "height": "0.4",
+        "weight": "4.1"
     },
     {
         "id": 507,
-        "name": "ハーデリア"
+        "name": "ハーデリア",
+        "classification": "ちゅうけんポケモン",
+        "height": "0.9",
+        "weight": "14.7"
     },
     {
         "id": 508,
-        "name": "ムーランド"
+        "name": "ムーランド",
+        "classification": "かんだいポケモン",
+        "height": "1.2",
+        "weight": "61.0"
     },
     {
         "id": 509,
-        "name": "チョロネコ"
+        "name": "チョロネコ",
+        "classification": "しょうわるポケモン",
+        "height": "0.4",
+        "weight": "10.1"
     },
     {
         "id": 510,
-        "name": "レパルダス"
+        "name": "レパルダス",
+        "classification": "れいこくポケモン",
+        "height": "1.1",
+        "weight": "37.5"
     },
     {
         "id": 511,
-        "name": "ヤナップ"
+        "name": "ヤナップ",
+        "classification": "くさざるポケモン",
+        "height": "0.6",
+        "weight": "10.5"
     },
     {
         "id": 512,
-        "name": "ヤナッキー"
+        "name": "ヤナッキー",
+        "classification": "とげざるポケモン",
+        "height": "1.1",
+        "weight": "30.5"
     },
     {
         "id": 513,
-        "name": "バオップ"
+        "name": "バオップ",
+        "classification": "こうおんポケモン",
+        "height": "0.6",
+        "weight": "11.0"
     },
     {
         "id": 514,
-        "name": "バオッキー"
+        "name": "バオッキー",
+        "classification": "ひのこポケモン",
+        "height": "1.0",
+        "weight": "28.0"
     },
     {
         "id": 515,
-        "name": "ヒヤップ"
+        "name": "ヒヤップ",
+        "classification": "みずかけポケモン",
+        "height": "0.6",
+        "weight": "13.5"
     },
     {
         "id": 516,
-        "name": "ヒヤッキー"
+        "name": "ヒヤッキー",
+        "classification": "ほうすいポケモン",
+        "height": "1.0",
+        "weight": "29.0"
     },
     {
         "id": 517,
-        "name": "ムンナ"
+        "name": "ムンナ",
+        "classification": "ゆめくいポケモン",
+        "height": "0.6",
+        "weight": "23.3"
     },
     {
         "id": 518,
-        "name": "ムシャーナ"
+        "name": "ムシャーナ",
+        "classification": "ゆめうつつポケモン",
+        "height": "1.1",
+        "weight": "60.5"
     },
     {
         "id": 519,
-        "name": "マメパト"
+        "name": "マメパト",
+        "classification": "こばとポケモン",
+        "height": "0.3",
+        "weight": "2.1"
     },
     {
         "id": 520,
-        "name": "ハトーボー"
+        "name": "ハトーボー",
+        "classification": "のばとポケモン",
+        "height": "0.6",
+        "weight": "15.0"
     },
     {
         "id": 521,
-        "name": "ケンホロウ"
+        "name": "ケンホロウ",
+        "classification": "プライドポケモン",
+        "height": "1.2",
+        "weight": "29.0"
     },
     {
         "id": 522,
-        "name": "シママ"
+        "name": "シママ",
+        "classification": "たいでんポケモン",
+        "height": "0.8",
+        "weight": "29.8"
     },
     {
         "id": 523,
-        "name": "ゼブライカ"
+        "name": "ゼブライカ",
+        "classification": "らいでんポケモン",
+        "height": "1.6",
+        "weight": "79.5"
     },
     {
         "id": 524,
-        "name": "ダンゴロ"
+        "name": "ダンゴロ",
+        "classification": "マントルポケモン",
+        "height": "0.4",
+        "weight": "18.0"
     },
     {
         "id": 525,
-        "name": "ガントル"
+        "name": "ガントル",
+        "classification": "こうせきポケモン",
+        "height": "0.9",
+        "weight": "102.0"
     },
     {
         "id": 526,
-        "name": "ギガイアス"
+        "name": "ギガイアス",
+        "classification": "こうあつポケモン",
+        "height": "1.7",
+        "weight": "260.0"
     },
     {
         "id": 527,
-        "name": "コロモリ"
+        "name": "コロモリ",
+        "classification": "こうもりポケモン",
+        "height": "0.4",
+        "weight": "2.1"
     },
     {
         "id": 528,
-        "name": "ココロモリ"
+        "name": "ココロモリ",
+        "classification": "きゅうあいポケモン",
+        "height": "0.9",
+        "weight": "10.5"
     },
     {
         "id": 529,
-        "name": "モグリュー"
+        "name": "モグリュー",
+        "classification": "もぐらポケモン",
+        "height": "0.3",
+        "weight": "8.5"
     },
     {
         "id": 530,
-        "name": "ドリュウズ"
+        "name": "ドリュウズ",
+        "classification": "ちていポケモン",
+        "height": "0.7",
+        "weight": "40.4"
     },
     {
         "id": 531,
-        "name": "タブンネ"
+        "name": "タブンネ",
+        "classification": "ヒヤリングポケモン",
+        "height": "1.1",
+        "weight": "31.0"
     },
     {
         "id": 532,
-        "name": "ドッコラー"
+        "name": "ドッコラー",
+        "classification": "きんこつポケモン",
+        "height": "0.6",
+        "weight": "12.5"
     },
     {
         "id": 533,
-        "name": "ドテッコツ"
+        "name": "ドテッコツ",
+        "classification": "きんこつポケモン",
+        "height": "1.2",
+        "weight": "40.0"
     },
     {
         "id": 534,
-        "name": "ローブシン"
+        "name": "ローブシン",
+        "classification": "きんこつポケモン",
+        "height": "1.4",
+        "weight": "87.0"
     },
     {
         "id": 535,
-        "name": "オタマロ"
+        "name": "オタマロ",
+        "classification": "おたまポケモン",
+        "height": "0.5",
+        "weight": "4.5"
     },
     {
         "id": 536,
-        "name": "ガマガル"
+        "name": "ガマガル",
+        "classification": "しんどうポケモン",
+        "height": "0.8",
+        "weight": "17.0"
     },
     {
         "id": 537,
-        "name": "ガマゲロゲ"
+        "name": "ガマゲロゲ",
+        "classification": "しんどうポケモン",
+        "height": "1.5",
+        "weight": "62.0"
     },
     {
         "id": 538,
-        "name": "ナゲキ"
+        "name": "ナゲキ",
+        "classification": "じゅうどうポケモン",
+        "height": "1.3",
+        "weight": "55.5"
     },
     {
         "id": 539,
-        "name": "ダゲキ"
+        "name": "ダゲキ",
+        "classification": "からてポケモン",
+        "height": "1.4",
+        "weight": "51.0"
     },
     {
         "id": 540,
-        "name": "クルミル"
+        "name": "クルミル",
+        "classification": "さいほうポケモン",
+        "height": "0.3",
+        "weight": "2.5"
     },
     {
         "id": 541,
-        "name": "クルマユ"
+        "name": "クルマユ",
+        "classification": "はごもりポケモン",
+        "height": "0.5",
+        "weight": "7.3"
     },
     {
         "id": 542,
-        "name": "ハハコモリ"
+        "name": "ハハコモリ",
+        "classification": "こそだてポケモン",
+        "height": "1.2",
+        "weight": "20.5"
     },
     {
         "id": 543,
-        "name": "フシデ"
+        "name": "フシデ",
+        "classification": "ムカデポケモン",
+        "height": "0.4",
+        "weight": "5.3"
     },
     {
         "id": 544,
-        "name": "ホイーガ"
+        "name": "ホイーガ",
+        "classification": "まゆムカデポケモン",
+        "height": "1.2",
+        "weight": "58.5"
     },
     {
         "id": 545,
-        "name": "ペンドラー"
+        "name": "ペンドラー",
+        "classification": "メガムカデポケモン",
+        "height": "2.5",
+        "weight": "200.5"
     },
     {
         "id": 546,
-        "name": "モンメン"
+        "name": "モンメン",
+        "classification": "わたたまポケモン",
+        "height": "0.3",
+        "weight": "0.6"
     },
     {
         "id": 547,
-        "name": "エルフーン"
+        "name": "エルフーン",
+        "classification": "かぜかくれポケモン",
+        "height": "0.7",
+        "weight": "6.6"
     },
     {
         "id": 548,
-        "name": "チュリネ"
+        "name": "チュリネ",
+        "classification": "ねっこポケモン",
+        "height": "0.5",
+        "weight": "6.6"
     },
     {
         "id": 549,
-        "name": "ドレディア"
+        "name": "ドレディア",
+        "classification": "はなかざりポケモン",
+        "height": "1.1",
+        "weight": "16.3"
     },
     {
         "id": 550,
-        "name": "バスラオ"
+        "name": "バスラオ",
+        "classification": "らんぼうポケモン",
+        "height": "1.0",
+        "weight": "18.0"
     },
     {
         "id": 551,
-        "name": "メグロコ"
+        "name": "メグロコ",
+        "classification": "さばくワニポケモン",
+        "height": "0.7",
+        "weight": "15.2"
     },
     {
         "id": 552,
-        "name": "ワルビル"
+        "name": "ワルビル",
+        "classification": "さばくワニポケモン",
+        "height": "1.0",
+        "weight": "33.4"
     },
     {
         "id": 553,
-        "name": "ワルビアル"
+        "name": "ワルビアル",
+        "classification": "いかくポケモン",
+        "height": "1.5",
+        "weight": "96.3"
     },
     {
         "id": 554,
-        "name": "ダルマッカ"
+        "name": "ダルマッカ",
+        "classification": "だるまポケモン",
+        "height": "0.6",
+        "weight": "37.5"
     },
     {
         "id": 555,
-        "name": "ヒヒダルマ"
+        "name": "ヒヒダルマ",
+        "classification": "えんじょうポケモン",
+        "height": "1.3",
+        "weight": "92.9"
     },
     {
         "id": 556,
-        "name": "マラカッチ"
+        "name": "マラカッチ",
+        "classification": "サボテンポケモン",
+        "height": "1.0",
+        "weight": "28.0"
     },
     {
         "id": 557,
-        "name": "イシズマイ"
+        "name": "イシズマイ",
+        "classification": "いしやどポケモン",
+        "height": "0.3",
+        "weight": "14.5"
     },
     {
         "id": 558,
-        "name": "イワパレス"
+        "name": "イワパレス",
+        "classification": "いわやどポケモン",
+        "height": "1.4",
+        "weight": "200.0"
     },
     {
         "id": 559,
-        "name": "ズルッグ"
+        "name": "ズルッグ",
+        "classification": "だっぴポケモン",
+        "height": "0.6",
+        "weight": "11.8"
     },
     {
         "id": 560,
-        "name": "ズルズキン"
+        "name": "ズルズキン",
+        "classification": "あくとうポケモン",
+        "height": "1.1",
+        "weight": "30.0"
     },
     {
         "id": 561,
-        "name": "シンボラー"
+        "name": "シンボラー",
+        "classification": "とりもどきポケモン",
+        "height": "1.4",
+        "weight": "14.0"
     },
     {
         "id": 562,
-        "name": "デスマス"
+        "name": "デスマス",
+        "classification": "たましいポケモン",
+        "height": "0.5",
+        "weight": "1.5"
     },
     {
         "id": 563,
-        "name": "デスカーン"
+        "name": "デスカーン",
+        "classification": "かんおけポケモン",
+        "height": "1.7",
+        "weight": "76.5"
     },
     {
         "id": 564,
-        "name": "プロトーガ"
+        "name": "プロトーガ",
+        "classification": "こだいがめポケモン",
+        "height": "0.7",
+        "weight": "16.5"
     },
     {
         "id": 565,
-        "name": "アバゴーラ"
+        "name": "アバゴーラ",
+        "classification": "こだいがめポケモン",
+        "height": "1.2",
+        "weight": "81.0"
     },
     {
         "id": 566,
-        "name": "アーケン"
+        "name": "アーケン",
+        "classification": "さいこどりポケモン",
+        "height": "0.5",
+        "weight": "9.5"
     },
     {
         "id": 567,
-        "name": "アーケオス"
+        "name": "アーケオス",
+        "classification": "さいこどりポケモン",
+        "height": "1.4",
+        "weight": "32.0"
     },
     {
         "id": 568,
-        "name": "ヤブクロン"
+        "name": "ヤブクロン",
+        "classification": "ゴミぶくろポケモン",
+        "height": "0.6",
+        "weight": "31.0"
     },
     {
         "id": 569,
-        "name": "ダストダス"
+        "name": "ダストダス",
+        "classification": "ゴミすてばポケモン",
+        "height": "1.9",
+        "weight": "107.3"
     },
     {
         "id": 570,
-        "name": "ゾロア"
+        "name": "ゾロア",
+        "classification": "わるぎつねポケモン",
+        "height": "0.7",
+        "weight": "12.5"
     },
     {
         "id": 571,
-        "name": "ゾロアーク"
+        "name": "ゾロアーク",
+        "classification": "ばけぎつねポケモン",
+        "height": "1.6",
+        "weight": "81.1"
     },
     {
         "id": 572,
-        "name": "チラーミィ"
+        "name": "チラーミィ",
+        "classification": "チンチラポケモン",
+        "height": "0.4",
+        "weight": "5.8"
     },
     {
         "id": 573,
-        "name": "チラチーノ"
+        "name": "チラチーノ",
+        "classification": "スカーフポケモン",
+        "height": "0.5",
+        "weight": "7.5"
     },
     {
         "id": 574,
-        "name": "ゴチム"
+        "name": "ゴチム",
+        "classification": "ぎょうしポケモン",
+        "height": "0.4",
+        "weight": "5.8"
     },
     {
         "id": 575,
-        "name": "ゴチミル"
+        "name": "ゴチミル",
+        "classification": "あやつりポケモン",
+        "height": "0.7",
+        "weight": "18.0"
     },
     {
         "id": 576,
-        "name": "ゴチルゼル"
+        "name": "ゴチルゼル",
+        "classification": "てんたいポケモン",
+        "height": "1.5",
+        "weight": "44.0"
     },
     {
         "id": 577,
-        "name": "ユニラン"
+        "name": "ユニラン",
+        "classification": "さいぼうポケモン",
+        "height": "0.3",
+        "weight": "1.0"
     },
     {
         "id": 578,
-        "name": "ダブラン"
+        "name": "ダブラン",
+        "classification": "ぶんかつポケモン",
+        "height": "0.6",
+        "weight": "8.0"
     },
     {
         "id": 579,
-        "name": "ランクルス"
+        "name": "ランクルス",
+        "classification": "ぞうふくポケモン",
+        "height": "1.0",
+        "weight": "20.1"
     },
     {
         "id": 580,
-        "name": "コアルヒー"
+        "name": "コアルヒー",
+        "classification": "みずどりポケモン",
+        "height": "0.5",
+        "weight": "5.5"
     },
     {
         "id": 581,
-        "name": "スワンナ"
+        "name": "スワンナ",
+        "classification": "しらとりポケモン",
+        "height": "1.3",
+        "weight": "24.2"
     },
     {
         "id": 582,
-        "name": "バニプッチ"
+        "name": "バニプッチ",
+        "classification": "しんせつポケモン",
+        "height": "0.4",
+        "weight": "5.7"
     },
     {
         "id": 583,
-        "name": "バニリッチ"
+        "name": "バニリッチ",
+        "classification": "ひょうせつポケモン",
+        "height": "1.1",
+        "weight": "41.0"
     },
     {
         "id": 584,
-        "name": "バイバニラ"
+        "name": "バイバニラ",
+        "classification": "ブリザードポケモン",
+        "height": "1.3",
+        "weight": "57.5"
     },
     {
         "id": 585,
-        "name": "シキジカ"
+        "name": "シキジカ",
+        "classification": "きせつポケモン",
+        "height": "0.6",
+        "weight": "19.5"
     },
     {
         "id": 586,
-        "name": "メブキジカ"
+        "name": "メブキジカ",
+        "classification": "きせつポケモン",
+        "height": "1.9",
+        "weight": "92.5"
     },
     {
         "id": 587,
-        "name": "エモンガ"
+        "name": "エモンガ",
+        "classification": "モモンガポケモン",
+        "height": "0.4",
+        "weight": "5.0"
     },
     {
         "id": 588,
-        "name": "カブルモ"
+        "name": "カブルモ",
+        "classification": "かぶりつきポケモン",
+        "height": "0.5",
+        "weight": "5.9"
     },
     {
         "id": 589,
-        "name": "シュバルゴ"
+        "name": "シュバルゴ",
+        "classification": "きへいポケモン",
+        "height": "1.0",
+        "weight": "33.0"
     },
     {
         "id": 590,
-        "name": "タマゲタケ"
+        "name": "タマゲタケ",
+        "classification": "きのこポケモン",
+        "height": "0.2",
+        "weight": "1.0"
     },
     {
         "id": 591,
-        "name": "モロバレル"
+        "name": "モロバレル",
+        "classification": "きのこポケモン",
+        "height": "0.6",
+        "weight": "10.5"
     },
     {
         "id": 592,
-        "name": "プルリル"
+        "name": "プルリル",
+        "classification": "ふゆうポケモン",
+        "height": "1.2",
+        "weight": "33.0"
     },
     {
         "id": 593,
-        "name": "ブルンゲル"
+        "name": "ブルンゲル",
+        "classification": "ふゆうポケモン",
+        "height": "2.2",
+        "weight": "135.0"
     },
     {
         "id": 594,
-        "name": "ママンボウ"
+        "name": "ママンボウ",
+        "classification": "かいほうポケモン",
+        "height": "1.2",
+        "weight": "31.6"
     },
     {
         "id": 595,
-        "name": "バチュル"
+        "name": "バチュル",
+        "classification": "くっつきポケモン",
+        "height": "0.1",
+        "weight": "0.6"
     },
     {
         "id": 596,
-        "name": "デンチュラ"
+        "name": "デンチュラ",
+        "classification": "でんきグモポケモン",
+        "height": "0.8",
+        "weight": "14.3"
     },
     {
         "id": 597,
-        "name": "テッシード"
+        "name": "テッシード",
+        "classification": "とげのみポケモン",
+        "height": "0.6",
+        "weight": "18.8"
     },
     {
         "id": 598,
-        "name": "ナットレイ"
+        "name": "ナットレイ",
+        "classification": "とげだまポケモン",
+        "height": "1.0",
+        "weight": "110.0"
     },
     {
         "id": 599,
-        "name": "ギアル"
+        "name": "ギアル",
+        "classification": "はぐるまポケモン",
+        "height": "0.3",
+        "weight": "21.0"
     },
     {
         "id": 600,
-        "name": "ギギアル"
+        "name": "ギギアル",
+        "classification": "はぐるまポケモン",
+        "height": "0.6",
+        "weight": "51.0"
     },
     {
         "id": 601,
-        "name": "ギギギアル"
+        "name": "ギギギアル",
+        "classification": "はぐるまポケモン",
+        "height": "0.6",
+        "weight": "81.0"
     },
     {
         "id": 602,
-        "name": "シビシラス"
+        "name": "シビシラス",
+        "classification": "でんきうおポケモン",
+        "height": "0.2",
+        "weight": "0.3"
     },
     {
         "id": 603,
-        "name": "シビビール"
+        "name": "シビビール",
+        "classification": "でんきうおポケモン",
+        "height": "1.2",
+        "weight": "22.0"
     },
     {
         "id": 604,
-        "name": "シビルドン"
+        "name": "シビルドン",
+        "classification": "でんきうおポケモン",
+        "height": "2.1",
+        "weight": "80.5"
     },
     {
         "id": 605,
-        "name": "リグレー"
+        "name": "リグレー",
+        "classification": "ブレインポケモン",
+        "height": "0.5",
+        "weight": "9.0"
     },
     {
         "id": 606,
-        "name": "オーベム"
+        "name": "オーベム",
+        "classification": "ブレインポケモン",
+        "height": "1.0",
+        "weight": "34.5"
     },
     {
         "id": 607,
-        "name": "ヒトモシ"
+        "name": "ヒトモシ",
+        "classification": "ろうそくポケモン",
+        "height": "0.3",
+        "weight": "3.1"
     },
     {
         "id": 608,
-        "name": "ランプラー"
+        "name": "ランプラー",
+        "classification": "ランプポケモン",
+        "height": "0.6",
+        "weight": "13.0"
     },
     {
         "id": 609,
-        "name": "シャンデラ"
+        "name": "シャンデラ",
+        "classification": "いざないポケモン",
+        "height": "1.0",
+        "weight": "34.3"
     },
     {
         "id": 610,
-        "name": "キバゴ"
+        "name": "キバゴ",
+        "classification": "キバポケモン",
+        "height": "0.6",
+        "weight": "18.0"
     },
     {
         "id": 611,
-        "name": "オノンド"
+        "name": "オノンド",
+        "classification": "あごオノポケモン",
+        "height": "1.0",
+        "weight": "36.0"
     },
     {
         "id": 612,
-        "name": "オノノクス"
+        "name": "オノノクス",
+        "classification": "あごオノポケモン",
+        "height": "1.8",
+        "weight": "105.5"
     },
     {
         "id": 613,
-        "name": "クマシュン"
+        "name": "クマシュン",
+        "classification": "ひょうけつポケモン",
+        "height": "0.5",
+        "weight": "8.5"
     },
     {
         "id": 614,
-        "name": "ツンベアー"
+        "name": "ツンベアー",
+        "classification": "とうけつポケモン",
+        "height": "2.6",
+        "weight": "260.0"
     },
     {
         "id": 615,
-        "name": "フリージオ"
+        "name": "フリージオ",
+        "classification": "けっしょうポケモン",
+        "height": "1.1",
+        "weight": "148.0"
     },
     {
         "id": 616,
-        "name": "チョボマキ"
+        "name": "チョボマキ",
+        "classification": "マイマイポケモン",
+        "height": "0.4",
+        "weight": "7.7"
     },
     {
         "id": 617,
-        "name": "アギルダー"
+        "name": "アギルダー",
+        "classification": "からぬけポケモン",
+        "height": "0.8",
+        "weight": "25.3"
     },
     {
         "id": 618,
-        "name": "マッギョ"
+        "name": "マッギョ",
+        "classification": "トラップポケモン",
+        "height": "0.7",
+        "weight": "11.0"
     },
     {
         "id": 619,
-        "name": "コジョフー"
+        "name": "コジョフー",
+        "classification": "ぶじゅつポケモン",
+        "height": "0.9",
+        "weight": "20.0"
     },
     {
         "id": 620,
-        "name": "コジョンド"
+        "name": "コジョンド",
+        "classification": "ぶじゅつポケモン",
+        "height": "1.4",
+        "weight": "35.5"
     },
     {
         "id": 621,
-        "name": "クリムガン"
+        "name": "クリムガン",
+        "classification": "ほらあなポケモン",
+        "height": "1.6",
+        "weight": "139.0"
     },
     {
         "id": 622,
-        "name": "ゴビット"
+        "name": "ゴビット",
+        "classification": "ゴーレムポケモン",
+        "height": "1.0",
+        "weight": "92.0"
     },
     {
         "id": 623,
-        "name": "ゴルーグ"
+        "name": "ゴルーグ",
+        "classification": "ゴーレムポケモン",
+        "height": "2.8",
+        "weight": "330.0"
     },
     {
         "id": 624,
-        "name": "コマタナ"
+        "name": "コマタナ",
+        "classification": "はものポケモン",
+        "height": "0.5",
+        "weight": "10.2"
     },
     {
         "id": 625,
-        "name": "キリキザン"
+        "name": "キリキザン",
+        "classification": "とうじんポケモン",
+        "height": "1.6",
+        "weight": "70.0"
     },
     {
         "id": 626,
-        "name": "バッフロン"
+        "name": "バッフロン",
+        "classification": "ずつきうしポケモン",
+        "height": "1.6",
+        "weight": "94.6"
     },
     {
         "id": 627,
-        "name": "ワシボン"
+        "name": "ワシボン",
+        "classification": "ヒナわしポケモン",
+        "height": "0.5",
+        "weight": "10.5"
     },
     {
         "id": 628,
-        "name": "ウォーグル"
+        "name": "ウォーグル",
+        "classification": "ゆうもうポケモン",
+        "height": "1.5",
+        "weight": "41.0"
     },
     {
         "id": 629,
-        "name": "バルチャイ"
+        "name": "バルチャイ",
+        "classification": "おむつポケモン",
+        "height": "0.5",
+        "weight": "9.0"
     },
     {
         "id": 630,
-        "name": "バルジーナ"
+        "name": "バルジーナ",
+        "classification": "ほねわしポケモン",
+        "height": "1.2",
+        "weight": "39.5"
     },
     {
         "id": 631,
-        "name": "クイタラン"
+        "name": "クイタラン",
+        "classification": "アリクイポケモン",
+        "height": "1.4",
+        "weight": "58.0"
     },
     {
         "id": 632,
-        "name": "アイアント"
+        "name": "アイアント",
+        "classification": "てつアリポケモン",
+        "height": "0.3",
+        "weight": "33.0"
     },
     {
         "id": 633,
-        "name": "モノズ"
+        "name": "モノズ",
+        "classification": "そぼうポケモン",
+        "height": "0.8",
+        "weight": "17.3"
     },
     {
         "id": 634,
-        "name": "ジヘッド"
+        "name": "ジヘッド",
+        "classification": "らんぼうポケモン",
+        "height": "1.4",
+        "weight": "50.0"
     },
     {
         "id": 635,
-        "name": "サザンドラ"
+        "name": "サザンドラ",
+        "classification": "きょうぼうポケモン",
+        "height": "1.8",
+        "weight": "160.0"
     },
     {
         "id": 636,
-        "name": "メラルバ"
+        "name": "メラルバ",
+        "classification": "たいまつポケモン",
+        "height": "1.1",
+        "weight": "28.8"
     },
     {
         "id": 637,
-        "name": "ウルガモス"
+        "name": "ウルガモス",
+        "classification": "たいようポケモン",
+        "height": "1.6",
+        "weight": "46.0"
     },
     {
         "id": 638,
-        "name": "コバルオン"
+        "name": "コバルオン",
+        "classification": "てっしんポケモン",
+        "height": "2.1",
+        "weight": "250.0"
     },
     {
         "id": 639,
-        "name": "テラキオン"
+        "name": "テラキオン",
+        "classification": "がんくつポケモン",
+        "height": "1.9",
+        "weight": "260.0"
     },
     {
         "id": 640,
-        "name": "ビリジオン"
+        "name": "ビリジオン",
+        "classification": "そうげんポケモン",
+        "height": "2.0",
+        "weight": "200.0"
     },
     {
         "id": 641,
-        "name": "トルネロス"
+        "name": "トルネロス",
+        "classification": "せんぷうポケモン",
+        "height": "1.5",
+        "weight": "63.0"
     },
     {
         "id": 642,
-        "name": "ボルトロス"
+        "name": "ボルトロス",
+        "classification": "らいげきポケモン",
+        "height": "1.5",
+        "weight": "61.0"
     },
     {
         "id": 643,
-        "name": "レシラム"
+        "name": "レシラム",
+        "classification": "はくようポケモン",
+        "height": "3.2",
+        "weight": "330.0"
     },
     {
         "id": 644,
-        "name": "ゼクロム"
+        "name": "ゼクロム",
+        "classification": "こくいんポケモン",
+        "height": "2.9",
+        "weight": "345.0"
     },
     {
         "id": 645,
-        "name": "ランドロス"
+        "name": "ランドロス",
+        "classification": "ほうじょうポケモン",
+        "height": "1.5",
+        "weight": "68.0"
     },
     {
         "id": 646,
-        "name": "キュレム"
+        "name": "キュレム",
+        "classification": "きょうかいポケモン",
+        "height": "3.0",
+        "weight": "325.0"
     },
     {
         "id": 647,
-        "name": "ケルディオ"
+        "name": "ケルディオ",
+        "classification": "わかごまポケモン",
+        "height": "1.4",
+        "weight": "48.5"
     },
     {
         "id": 648,
-        "name": "メロエッタ"
+        "name": "メロエッタ",
+        "classification": "せんりつポケモン",
+        "height": "0.6",
+        "weight": "6.5"
     },
     {
         "id": 649,
-        "name": "ゲノセクト"
+        "name": "ゲノセクト",
+        "classification": "こせいだいポケモン",
+        "height": "1.5",
+        "weight": "82.5"
     },
     {
         "id": 650,
-        "name": "ハリマロン"
+        "name": "ハリマロン",
+        "classification": "いがぐりポケモン",
+        "height": "0.4",
+        "weight": "9.0"
     },
     {
         "id": 651,
-        "name": "ハリボーグ"
+        "name": "ハリボーグ",
+        "classification": "とげよろいポケモン",
+        "height": "0.7",
+        "weight": "29.0"
     },
     {
         "id": 652,
-        "name": "ブリガロン"
+        "name": "ブリガロン",
+        "classification": "とげよろいポケモン",
+        "height": "1.6",
+        "weight": "90.0"
     },
     {
         "id": 653,
-        "name": "フォッコ"
+        "name": "フォッコ",
+        "classification": "キツネポケモン",
+        "height": "0.4",
+        "weight": "9.4"
     },
     {
         "id": 654,
-        "name": "テールナー"
+        "name": "テールナー",
+        "classification": "キツネポケモン",
+        "height": "1.0",
+        "weight": "14.5"
     },
     {
         "id": 655,
-        "name": "マフォクシー"
+        "name": "マフォクシー",
+        "classification": "キツネポケモン",
+        "height": "1.5",
+        "weight": "39.0"
     },
     {
         "id": 656,
-        "name": "ケロマツ"
+        "name": "ケロマツ",
+        "classification": "あわがえるポケモン",
+        "height": "0.3",
+        "weight": "7.0"
     },
     {
         "id": 657,
-        "name": "ゲコガシラ"
+        "name": "ゲコガシラ",
+        "classification": "あわがえるポケモン",
+        "height": "0.6",
+        "weight": "10.9"
     },
     {
         "id": 658,
-        "name": "ゲッコウガ"
+        "name": "ゲッコウガ",
+        "classification": "しのびポケモン",
+        "height": "1.5",
+        "weight": "40.0"
     },
     {
         "id": 659,
-        "name": "ホルビー"
+        "name": "ホルビー",
+        "classification": "あなほりポケモン",
+        "height": "0.4",
+        "weight": "5.0"
     },
     {
         "id": 660,
-        "name": "ホルード"
+        "name": "ホルード",
+        "classification": "あなほりポケモン",
+        "height": "1.0",
+        "weight": "42.4"
     },
     {
         "id": 661,
-        "name": "ヤヤコマ"
+        "name": "ヤヤコマ",
+        "classification": "コマドリポケモン",
+        "height": "0.3",
+        "weight": "1.7"
     },
     {
         "id": 662,
-        "name": "ヒノヤコマ"
+        "name": "ヒノヤコマ",
+        "classification": "ひのこポケモン",
+        "height": "0.7",
+        "weight": "16.0"
     },
     {
         "id": 663,
-        "name": "ファイアロー"
+        "name": "ファイアロー",
+        "classification": "れっかポケモン",
+        "height": "1.2",
+        "weight": "24.5"
     },
     {
         "id": 664,
-        "name": "コフキムシ"
+        "name": "コフキムシ",
+        "classification": "こなふきポケモン",
+        "height": "0.3",
+        "weight": "2.5"
     },
     {
         "id": 665,
-        "name": "コフーライ"
+        "name": "コフーライ",
+        "classification": "こなふきポケモン",
+        "height": "0.3",
+        "weight": "8.4"
     },
     {
         "id": 666,
-        "name": "ビビヨン"
+        "name": "ビビヨン",
+        "classification": "りんぷんポケモン",
+        "height": "1.2",
+        "weight": "17.0"
     },
     {
         "id": 667,
-        "name": "シシコ"
+        "name": "シシコ",
+        "classification": "わかじしポケモン",
+        "height": "0.6",
+        "weight": "13.5"
     },
     {
         "id": 668,
-        "name": "カエンジシ"
+        "name": "カエンジシ",
+        "classification": "おうじゃポケモン",
+        "height": "1.5",
+        "weight": "81.5"
     },
     {
         "id": 669,
-        "name": "フラベベ"
+        "name": "フラベベ",
+        "classification": "いちりんポケモン",
+        "height": "0.1",
+        "weight": "0.1"
     },
     {
         "id": 670,
-        "name": "フラエッテ"
+        "name": "フラエッテ",
+        "classification": "いちりんポケモン",
+        "height": "0.2",
+        "weight": "0.9"
     },
     {
         "id": 671,
-        "name": "フラージェス"
+        "name": "フラージェス",
+        "classification": "ガーデンポケモン",
+        "height": "1.1",
+        "weight": "10.0"
     },
     {
         "id": 672,
-        "name": "メェークル"
+        "name": "メェークル",
+        "classification": "ライドポケモン",
+        "height": "0.9",
+        "weight": "31.0"
     },
     {
         "id": 673,
-        "name": "ゴーゴート"
+        "name": "ゴーゴート",
+        "classification": "ライドポケモン",
+        "height": "1.7",
+        "weight": "91.0"
     },
     {
         "id": 674,
-        "name": "ヤンチャム"
+        "name": "ヤンチャム",
+        "classification": "やんちゃポケモン",
+        "height": "0.6",
+        "weight": "8.0"
     },
     {
         "id": 675,
-        "name": "ゴロンダ"
+        "name": "ゴロンダ",
+        "classification": "こわもてポケモン",
+        "height": "2.1",
+        "weight": "136.0"
     },
     {
         "id": 676,
-        "name": "トリミアン"
+        "name": "トリミアン",
+        "classification": "プードルポケモン",
+        "height": "1.2",
+        "weight": "28.0"
     },
     {
         "id": 677,
-        "name": "ニャスパー"
+        "name": "ニャスパー",
+        "classification": "じせいポケモン",
+        "height": "0.3",
+        "weight": "3.5"
     },
     {
         "id": 678,
-        "name": "ニャオニクス"
+        "name": "ニャオニクス",
+        "classification": "よくせいポケモン",
+        "height": "0.6",
+        "weight": "8.5"
     },
     {
         "id": 679,
-        "name": "ヒトツキ"
+        "name": "ヒトツキ",
+        "classification": "とうけんポケモン",
+        "height": "0.8",
+        "weight": "2.0"
     },
     {
         "id": 680,
-        "name": "ニダンギル"
+        "name": "ニダンギル",
+        "classification": "とうけんポケモン",
+        "height": "0.8",
+        "weight": "4.5"
     },
     {
         "id": 681,
-        "name": "ギルガルド"
+        "name": "ギルガルド",
+        "classification": "おうけんポケモン",
+        "height": "1.7",
+        "weight": "53.0"
     },
     {
         "id": 682,
-        "name": "シュシュプ"
+        "name": "シュシュプ",
+        "classification": "こうすいポケモン",
+        "height": "0.2",
+        "weight": "0.5"
     },
     {
         "id": 683,
-        "name": "フレフワン"
+        "name": "フレフワン",
+        "classification": "ほうこうポケモン",
+        "height": "0.8",
+        "weight": "15.5"
     },
     {
         "id": 684,
-        "name": "ペロッパフ"
+        "name": "ペロッパフ",
+        "classification": "わたあめポケモン",
+        "height": "0.4",
+        "weight": "3.5"
     },
     {
         "id": 685,
-        "name": "ペロリーム"
+        "name": "ペロリーム",
+        "classification": "ホイップポケモン",
+        "height": "0.8",
+        "weight": "5.0"
     },
     {
         "id": 686,
-        "name": "マーイーカ"
+        "name": "マーイーカ",
+        "classification": "かいてんポケモン",
+        "height": "0.4",
+        "weight": "3.5"
     },
     {
         "id": 687,
-        "name": "カラマネロ"
+        "name": "カラマネロ",
+        "classification": "ぎゃくてんポケモン",
+        "height": "1.5",
+        "weight": "47.0"
     },
     {
         "id": 688,
-        "name": "カメテテ"
+        "name": "カメテテ",
+        "classification": "ふたてポケモン",
+        "height": "0.5",
+        "weight": "31.0"
     },
     {
         "id": 689,
-        "name": "ガメノデス"
+        "name": "ガメノデス",
+        "classification": "しゅうごうポケモン",
+        "height": "1.3",
+        "weight": "96.0"
     },
     {
         "id": 690,
-        "name": "クズモー"
+        "name": "クズモー",
+        "classification": "クサモドキポケモン",
+        "height": "0.5",
+        "weight": "7.3"
     },
     {
         "id": 691,
-        "name": "ドラミドロ"
+        "name": "ドラミドロ",
+        "classification": "クサモドキポケモン",
+        "height": "1.8",
+        "weight": "81.5"
     },
     {
         "id": 692,
-        "name": "ウデッポウ"
+        "name": "ウデッポウ",
+        "classification": "みずでっぽうポケモン",
+        "height": "0.5",
+        "weight": "8.3"
     },
     {
         "id": 693,
-        "name": "ブロスター"
+        "name": "ブロスター",
+        "classification": "ランチャーポケモン",
+        "height": "1.3",
+        "weight": "35.3"
     },
     {
         "id": 694,
-        "name": "エリキテル"
+        "name": "エリキテル",
+        "classification": "はつでんポケモン",
+        "height": "0.5",
+        "weight": "6.0"
     },
     {
         "id": 695,
-        "name": "エレザード"
+        "name": "エレザード",
+        "classification": "はつでんポケモン",
+        "height": "1.0",
+        "weight": "21.0"
     },
     {
         "id": 696,
-        "name": "チゴラス"
+        "name": "チゴラス",
+        "classification": "ようくんポケモン",
+        "height": "0.8",
+        "weight": "26.0"
     },
     {
         "id": 697,
-        "name": "ガチゴラス"
+        "name": "ガチゴラス",
+        "classification": "ぼうくんポケモン",
+        "height": "2.5",
+        "weight": "270.0"
     },
     {
         "id": 698,
-        "name": "アマルス"
+        "name": "アマルス",
+        "classification": "ツンドラポケモン",
+        "height": "1.3",
+        "weight": "25.2"
     },
     {
         "id": 699,
-        "name": "アマルルガ"
+        "name": "アマルルガ",
+        "classification": "ツンドラポケモン",
+        "height": "2.7",
+        "weight": "225.0"
     },
     {
         "id": 700,
-        "name": "ニンフィア"
+        "name": "ニンフィア",
+        "classification": "むすびつきポケモン",
+        "height": "1.0",
+        "weight": "23.5"
     },
     {
         "id": 701,
-        "name": "ルチャブル"
+        "name": "ルチャブル",
+        "classification": "レスリングポケモン",
+        "height": "0.8",
+        "weight": "21.5"
     },
     {
         "id": 702,
-        "name": "デデンネ"
+        "name": "デデンネ",
+        "classification": "アンテナポケモン",
+        "height": "0.2",
+        "weight": "2.2"
     },
     {
         "id": 703,
-        "name": "メレシー"
+        "name": "メレシー",
+        "classification": "ほうせきポケモン",
+        "height": "0.3",
+        "weight": "5.7"
     },
     {
         "id": 704,
-        "name": "ヌメラ"
+        "name": "ヌメラ",
+        "classification": "なんたいポケモン",
+        "height": "0.3",
+        "weight": "2.8"
     },
     {
         "id": 705,
-        "name": "ヌメイル"
+        "name": "ヌメイル",
+        "classification": "なんたいポケモン",
+        "height": "0.8",
+        "weight": "17.5"
     },
     {
         "id": 706,
-        "name": "ヌメルゴン"
+        "name": "ヌメルゴン",
+        "classification": "ドラゴンポケモン",
+        "height": "2.0",
+        "weight": "150.5"
     },
     {
         "id": 707,
-        "name": "クレッフィ"
+        "name": "クレッフィ",
+        "classification": "かぎたばポケモン",
+        "height": "0.2",
+        "weight": "3.0"
     },
     {
         "id": 708,
-        "name": "ボクレー"
+        "name": "ボクレー",
+        "classification": "きりかぶポケモン",
+        "height": "0.4",
+        "weight": "7.0"
     },
     {
         "id": 709,
-        "name": "オーロット"
+        "name": "オーロット",
+        "classification": "ろうぼくポケモン",
+        "height": "1.5",
+        "weight": "71.0"
     },
     {
         "id": 710,
-        "name": "バケッチャ"
+        "name": "バケッチャ",
+        "classification": "かぼちゃポケモン",
+        "height": "0.4",
+        "weight": "5.0"
     },
     {
         "id": 711,
-        "name": "パンプジン"
+        "name": "パンプジン",
+        "classification": "かぼちゃポケモン",
+        "height": "0.9",
+        "weight": "12.5"
     },
     {
         "id": 712,
-        "name": "カチコール"
+        "name": "カチコール",
+        "classification": "ひょうかいポケモン",
+        "height": "1.0",
+        "weight": "99.5"
     },
     {
         "id": 713,
-        "name": "クレベース"
+        "name": "クレベース",
+        "classification": "ひょうざんポケモン",
+        "height": "2.0",
+        "weight": "505.0"
     },
     {
         "id": 714,
-        "name": "オンバット"
+        "name": "オンバット",
+        "classification": "おんぱポケモン",
+        "height": "0.5",
+        "weight": "8.0"
     },
     {
         "id": 715,
-        "name": "オンバーン"
+        "name": "オンバーン",
+        "classification": "おんぱポケモン",
+        "height": "1.5",
+        "weight": "85.0"
     },
     {
         "id": 716,
-        "name": "ゼルネアス"
+        "name": "ゼルネアス",
+        "classification": "せいめいポケモン",
+        "height": "3.0",
+        "weight": "215.0"
     },
     {
         "id": 717,
-        "name": "イベルタル"
+        "name": "イベルタル",
+        "classification": "はかいポケモン",
+        "height": "5.8",
+        "weight": "203.0"
     },
     {
         "id": 718,
-        "name": "ジガルデ"
+        "name": "ジガルデ",
+        "classification": "ちつじょポケモン",
+        "height": "5.0",
+        "weight": "305.0"
     },
     {
         "id": 719,
-        "name": "ディアンシー"
+        "name": "ディアンシー",
+        "classification": "ほうせきポケモン",
+        "height": "0.7",
+        "weight": "8.8"
     },
     {
         "id": 720,
-        "name": "フーパ"
+        "name": "フーパ",
+        "classification": "いたずらポケモン",
+        "height": "0.5",
+        "weight": "9.0"
     },
     {
         "id": 721,
-        "name": "ボルケニオン"
+        "name": "ボルケニオン",
+        "classification": "スチームポケモン",
+        "height": "1.7",
+        "weight": "195.0"
     },
     {
         "id": 722,
