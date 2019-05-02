@@ -138,7 +138,11 @@
         "height": "0.3",
         "weight": "3.5",
         "SM_NO": 15,
-        "USUM_NO": 15
+        "USUM_NO": 15,
+        "region_form": {
+            "height": "0.3",
+            "weight": "3.8"
+        }
     },
     {
         "id": 20,
@@ -147,7 +151,11 @@
         "height": "0.7",
         "weight": "18.5",
         "SM_NO": 16,
-        "USUM_NO": 16
+        "USUM_NO": 16,
+        "region_form": {
+            "height": "0.7",
+            "weight": "25.5"
+        }
     },
     {
         "id": 21,
@@ -199,7 +207,11 @@
         "height": "0.8",
         "weight": "30.0",
         "SM_NO": 26,
-        "USUM_NO": 33
+        "USUM_NO": 33,
+        "region_form": {
+            "height": "0.7",
+            "weight": "21.0"
+        }
     },
     {
         "id": 27,
@@ -208,7 +220,11 @@
         "height": "0.6",
         "weight": "12.0",
         "SM_NO": 251,
-        "USUM_NO": 328
+        "USUM_NO": 328,
+        "region_form": {
+            "height": "0.7",
+            "weight": "40.0"
+        }
     },
     {
         "id": 28,
@@ -217,7 +233,11 @@
         "height": "1.0",
         "weight": "29.5",
         "SM_NO": 252,
-        "USUM_NO": 329
+        "USUM_NO": 329,
+        "region_form": {
+            "height": "1.2",
+            "weight": "55.0"
+        }
     },
     {
         "id": 29,
@@ -286,7 +306,11 @@
         "height": "0.6",
         "weight": "9.9",
         "SM_NO": 253,
-        "USUM_NO": 330
+        "USUM_NO": 330,
+        "region_form": {
+            "height": "0.6",
+            "weight": "9.9"
+        }
     },
     {
         "id": 38,
@@ -295,7 +319,11 @@
         "height": "1.1",
         "weight": "19.9",
         "SM_NO": 254,
-        "USUM_NO": 331
+        "USUM_NO": 331,
+        "region_form": {
+            "height": "1.1",
+            "weight": "19.9"
+        }
     },
     {
         "id": 39,
@@ -393,7 +421,11 @@
         "height": "0.2",
         "weight": "0.8",
         "SM_NO": 71,
-        "USUM_NO": 85
+        "USUM_NO": 85,
+        "region_form": {
+            "height": "0.2",
+            "weight": "1.0"
+        }
     },
     {
         "id": 51,
@@ -402,7 +434,11 @@
         "height": "0.7",
         "weight": "33.3",
         "SM_NO": 72,
-        "USUM_NO": 86
+        "USUM_NO": 86,
+        "region_form": {
+            "height": "0.7",
+            "weight": "66.6"
+        }
     },
     {
         "id": 52,
@@ -603,7 +639,11 @@
         "height": "0.4",
         "weight": "20.0",
         "SM_NO": 229,
-        "USUM_NO": 298
+        "USUM_NO": 298,
+        "region_form": {
+            "height": "0.4",
+            "weight": "20.3"
+        }
     },
     {
         "id": 75,
@@ -612,7 +652,11 @@
         "height": "1.0",
         "weight": "105.0",
         "SM_NO": 230,
-        "USUM_NO": 299
+        "USUM_NO": 299,
+        "region_form": {
+            "height": "1.0",
+            "weight": "110.0"
+        }
     },
     {
         "id": 76,
@@ -621,7 +665,11 @@
         "height": "1.4",
         "weight": "300.0",
         "SM_NO": 231,
-        "USUM_NO": 300
+        "USUM_NO": 300,
+        "region_form": {
+            "height": "1.7",
+            "weight": "316.0"
+        }
     },
     {
         "id": 77,
@@ -717,7 +765,11 @@
         "height": "0.9",
         "weight": "30.0",
         "SM_NO": 50,
-        "USUM_NO": 57
+        "USUM_NO": 57,
+        "region_form": {
+            "height": "0.7",
+            "weight": "42.0"
+        }
     },
     {
         "id": 89,
@@ -726,7 +778,11 @@
         "height": "1.2",
         "weight": "30.0",
         "SM_NO": 51,
-        "USUM_NO": 58
+        "USUM_NO": 58,
+        "region_form": {
+            "height": "1.0",
+            "weight": "52.0"
+        }
     },
     {
         "id": 90,
@@ -842,7 +898,11 @@
         "height": "2.0",
         "weight": "120.0",
         "SM_NO": 270,
-        "USUM_NO": 356
+        "USUM_NO": 356,
+        "region_form": {
+            "height": "10.9",
+            "weight": "415.6"
+        }
     },
     {
         "id": 104,
@@ -860,7 +920,11 @@
         "height": "1.0",
         "weight": "45.0",
         "SM_NO": 164,
-        "USUM_NO": 198
+        "USUM_NO": 198,
+        "region_form": {
+            "height": "1.0",
+            "weight": "34.0"
+        }
     },
     {
         "id": 106,
