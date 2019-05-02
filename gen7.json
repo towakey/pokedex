@@ -100,14 +100,22 @@
         "type1": "ノーマル",
         "type2": "",
         "SM_NO": 15,
-        "USUM_NO": 15
+        "USUM_NO": 15,
+        "region_form": {
+            "type1": "あく",
+            "type2": "ノーマル"
+        }
     },
     {
         "id": 20,
         "type1": "ノーマル",
         "type2": "",
         "SM_NO": 16,
-        "USUM_NO": 16
+        "USUM_NO": 16,
+        "region_form": {
+            "type1": "あく",
+            "type2": "ノーマル"
+        }
     },
     {
         "id": 21,
@@ -147,21 +155,33 @@
         "type1": "でんき",
         "type2": "",
         "SM_NO": 26,
-        "USUM_NO": 33
+        "USUM_NO": 33,
+        "region_form": {
+            "type1": "でんき",
+            "type2": "エスパー"
+        }
     },
     {
         "id": 27,
         "type1": "じめん",
         "type2": "",
         "SM_NO": 251,
-        "USUM_NO": 328
+        "USUM_NO": 328,
+        "region_form": {
+            "type1": "こおり",
+            "type2": "はがね"
+        }
     },
     {
         "id": 28,
         "type1": "じめん",
         "type2": "",
         "SM_NO": 252,
-        "USUM_NO": 329
+        "USUM_NO": 329,
+        "region_form": {
+            "type1": "こおり",
+            "type2": "はがね"
+        }
     },
     {
         "id": 29,
@@ -212,14 +232,22 @@
         "type1": "ほのお",
         "type2": "",
         "SM_NO": 253,
-        "USUM_NO": 330
+        "USUM_NO": 330,
+        "region_form": {
+            "type1": "こおり",
+            "type2": ""
+        }
     },
     {
         "id": 38,
         "type1": "ほのお",
         "type2": "",
         "SM_NO": 254,
-        "USUM_NO": 331
+        "USUM_NO": 331,
+        "region_form": {
+            "type1": "こおり",
+            "type2": "フェアリー"
+        }
     },
     {
         "id": 39,
@@ -293,14 +321,21 @@
         "type1": "じめん",
         "type2": "",
         "SM_NO": 71,
-        "USUM_NO": 85
-    },
+        "USUM_NO": 85,
+        "region_form": {
+            "type1": "じめん",
+            "type2": "はがね"
+        }    },
     {
         "id": 51,
         "type1": "じめん",
         "type2": "",
         "SM_NO": 72,
-        "USUM_NO": 86
+        "USUM_NO": 86,
+        "region_form": {
+            "type1": "じめん",
+            "type2": "はがね"
+        }
     },
     {
         "id": 52,
@@ -455,21 +490,32 @@
         "type1": "いわ",
         "type2": "じめん",
         "SM_NO": 229,
-        "USUM_NO": 298
+        "USUM_NO": 298,
+        "region_form": {
+            "type1": "いわ",
+            "type2": "でんき"
+        }
     },
     {
         "id": 75,
         "type1": "いわ",
         "type2": "じめん",
         "SM_NO": 230,
-        "USUM_NO": 299
-    },
+        "USUM_NO": 299,
+        "region_form": {
+            "type1": "いわ",
+            "type2": "でんき"
+        }    },
     {
         "id": 76,
         "type1": "いわ",
         "type2": "じめん",
         "SM_NO": 231,
-        "USUM_NO": 300
+        "USUM_NO": 300,
+        "region_form": {
+            "type1": "いわ",
+            "type2": "でんき"
+        }
     },
     {
         "id": 77,
@@ -541,14 +587,22 @@
         "type1": "どく",
         "type2": "",
         "SM_NO": 50,
-        "USUM_NO": 57
+        "USUM_NO": 57,
+        "region_form": {
+            "type1": "どく",
+            "type2": "あく"
+        }
     },
     {
         "id": 89,
         "type1": "どく",
         "type2": "",
         "SM_NO": 51,
-        "USUM_NO": 58
+        "USUM_NO": 58,
+        "region_form": {
+            "type1": "どく",
+            "type2": "あく"
+        }
     },
     {
         "id": 90,
@@ -636,7 +690,11 @@
         "type1": "くさ",
         "type2": "エスパー",
         "SM_NO": 270,
-        "USUM_NO": 356
+        "USUM_NO": 356,
+        "region_form": {
+            "type1": "くさ",
+            "type2": "ドラゴン"
+        }
     },
     {
         "id": 104,
@@ -650,7 +708,11 @@
         "type1": "じめん",
         "type2": "",
         "SM_NO": 164,
-        "USUM_NO": 198
+        "USUM_NO": 198,
+        "region_form": {
+            "type1": "ほのお",
+            "type2": "ゴースト"
+        }
     },
     {
         "id": 106,
