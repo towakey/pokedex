@@ -136,14 +136,18 @@
         "name": "コラッタ",
         "classification": "ねずみポケモン",
         "height": "0.3",
-        "weight": "3.5"
+        "weight": "3.5",
+        "SM_NO": 15,
+        "USUM_NO": 15
     },
     {
         "id": 20,
         "name": "ラッタ",
         "classification": "ねずみポケモン",
         "height": "0.7",
-        "weight": "18.5"
+        "weight": "18.5",
+        "SM_NO": 16,
+        "USUM_NO": 16
     },
     {
         "id": 21,
@@ -193,21 +197,27 @@
         "name": "ライチュウ",
         "classification": "ねずみポケモン",
         "height": "0.8",
-        "weight": "30.0"
+        "weight": "30.0",
+        "SM_NO": 26,
+        "USUM_NO": 33
     },
     {
         "id": 27,
         "name": "サンド",
         "classification": "ねずみポケモン",
         "height": "0.6",
-        "weight": "12.0"
+        "weight": "12.0",
+        "SM_NO": 251,
+        "USUM_NO": 328
     },
     {
         "id": 28,
         "name": "サンドパン",
         "classification": "ねずみポケモン",
         "height": "1.0",
-        "weight": "29.5"
+        "weight": "29.5",
+        "SM_NO": 252,
+        "USUM_NO": 329
     },
     {
         "id": 29,
@@ -274,14 +284,18 @@
         "name": "ロコン",
         "classification": "きつねポケモン",
         "height": "0.6",
-        "weight": "9.9"
+        "weight": "9.9",
+        "SM_NO": 253,
+        "USUM_NO": 330
     },
     {
         "id": 38,
         "name": "キュウコン",
         "classification": "きつねポケモン",
         "height": "1.1",
-        "weight": "19.9"
+        "weight": "19.9",
+        "SM_NO": 254,
+        "USUM_NO": 331
     },
     {
         "id": 39,
@@ -377,28 +391,36 @@
         "name": "ディグダ",
         "classification": "もぐらポケモン",
         "height": "0.2",
-        "weight": "0.8"
+        "weight": "0.8",
+        "SM_NO": 71,
+        "USUM_NO": 85
     },
     {
         "id": 51,
         "name": "ダグトリオ",
         "classification": "もぐらポケモン",
         "height": "0.7",
-        "weight": "33.3"
+        "weight": "33.3",
+        "SM_NO": 72,
+        "USUM_NO": 86
     },
     {
         "id": 52,
         "name": "ニャース",
         "classification": "ばけねこポケモン",
         "height": "0.4",
-        "weight": "4.2"
+        "weight": "4.2",
+        "SM_NO": 45,
+        "USUM_NO": 52
     },
     {
         "id": 53,
         "name": "ペルシアン",
         "classification": "シャムネコポケモン",
         "height": "1.0",
-        "weight": "32.0"
+        "weight": "32.0",
+        "SM_NO": 46,
+        "USUM_NO": 53
     },
     {
         "id": 54,
@@ -579,21 +601,27 @@
         "name": "イシツブテ",
         "classification": "がんせきポケモン",
         "height": "0.4",
-        "weight": "20.0"
+        "weight": "20.0",
+        "SM_NO": 229,
+        "USUM_NO": 298
     },
     {
         "id": 75,
         "name": "ゴローン",
         "classification": "がんせきポケモン",
         "height": "1.0",
-        "weight": "105.0"
+        "weight": "105.0",
+        "SM_NO": 230,
+        "USUM_NO": 299
     },
     {
         "id": 76,
         "name": "ゴローニャ",
         "classification": "メガトンポケモン",
         "height": "1.4",
-        "weight": "300.0"
+        "weight": "300.0",
+        "SM_NO": 231,
+        "USUM_NO": 300
     },
     {
         "id": 77,
@@ -687,14 +715,18 @@
         "name": "ベトベター",
         "classification": "ヘドロポケモン",
         "height": "0.9",
-        "weight": "30.0"
+        "weight": "30.0",
+        "SM_NO": 50,
+        "USUM_NO": 57
     },
     {
         "id": 89,
         "name": "ベトベトン",
         "classification": "ヘドロポケモン",
         "height": "1.2",
-        "weight": "30.0"
+        "weight": "30.0",
+        "SM_NO": 51,
+        "USUM_NO": 58
     },
     {
         "id": 90,
@@ -808,7 +840,9 @@
         "name": "ナッシー",
         "classification": "やしのみポケモン",
         "height": "2.0",
-        "weight": "120.0"
+        "weight": "120.0",
+        "SM_NO": 270,
+        "USUM_NO": 356
     },
     {
         "id": 104,
@@ -824,7 +858,9 @@
         "name": "ガラガラ",
         "classification": "ほねずきポケモン",
         "height": "1.0",
-        "weight": "45.0"
+        "weight": "45.0",
+        "SM_NO": 164,
+        "USUM_NO": 198
     },
     {
         "id": 106,
