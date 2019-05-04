@@ -211,7 +211,13 @@
         "USUM_NO": 15,
         "region_form": {
             "type1": "あく",
-            "type2": "ノーマル"
+            "type2": "ノーマル",
+            "hp": 30,
+            "attack": 56,
+            "defense": 35,
+            "special_attack": 25,
+            "special_defense": 35,
+            "speed": 72
         },
         "hp": 30,
         "attack": 56,
@@ -228,7 +234,13 @@
         "USUM_NO": 16,
         "region_form": {
             "type1": "あく",
-            "type2": "ノーマル"
+            "type2": "ノーマル",
+            "hp": 75,
+            "attack": 71,
+            "defense": 70,
+            "special_attack": 40,
+            "special_defense": 80,
+            "speed": 77
         },
         "hp": 55,
         "attack": 81,
@@ -308,7 +320,13 @@
         "USUM_NO": 33,
         "region_form": {
             "type1": "でんき",
-            "type2": "エスパー"
+            "type2": "エスパー",
+            "hp": 60,
+            "attack": 85,
+            "defense": 50,
+            "special_attack": 95,
+            "special_defense": 85,
+            "speed": 110
         },
         "hp": 60,
         "attack": 90,
@@ -325,7 +343,13 @@
         "USUM_NO": 328,
         "region_form": {
             "type1": "こおり",
-            "type2": "はがね"
+            "type2": "はがね",
+            "hp": 50,
+            "attack": 75,
+            "defense": 90,
+            "special_attack": 10,
+            "special_defense": 35,
+            "speed": 40
         },
         "hp": 50,
         "attack": 75,
@@ -342,7 +366,13 @@
         "USUM_NO": 329,
         "region_form": {
             "type1": "こおり",
-            "type2": "はがね"
+            "type2": "はがね",
+            "hp": 75,
+            "attack": 100,
+            "defense": 120,
+            "special_attack": 25,
+            "special_defense": 65,
+            "speed": 65
         },
         "hp": 75,
         "attack": 100,
@@ -451,7 +481,13 @@
         "USUM_NO": 330,
         "region_form": {
             "type1": "こおり",
-            "type2": ""
+            "type2": "",
+            "hp": 38,
+            "attack": 41,
+            "defense": 40,
+            "special_attack": 50,
+            "special_defense": 65,
+            "speed": 65
         },
         "hp": 38,
         "attack": 41,
@@ -468,7 +504,13 @@
         "USUM_NO": 331,
         "region_form": {
             "type1": "こおり",
-            "type2": "フェアリー"
+            "type2": "フェアリー",
+            "hp": 73,
+            "attack": 67,
+            "defense": 75,
+            "special_attack": 81,
+            "special_defense": 100,
+            "speed": 109
         },
         "hp": 73,
         "attack": 76,
@@ -618,7 +660,13 @@
         "USUM_NO": 85,
         "region_form": {
             "type1": "じめん",
-            "type2": "はがね"
+            "type2": "はがね",
+            "hp": 10,
+            "attack": 55,
+            "defense": 30,
+            "special_attack": 35,
+            "special_defense": 45,
+            "speed": 90
         },
         "hp": 10,
         "attack": 55,
@@ -635,7 +683,13 @@
         "USUM_NO": 86,
         "region_form": {
             "type1": "じめん",
-            "type2": "はがね"
+            "type2": "はがね",
+            "hp": 35,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 50,
+            "special_defense": 70,
+            "speed": 110
         },
         "hp": 35,
         "attack": 100,
@@ -932,7 +986,13 @@
         "USUM_NO": 298,
         "region_form": {
             "type1": "いわ",
-            "type2": "でんき"
+            "type2": "でんき",
+            "hp": 40,
+            "attack": 80,
+            "defense": 100,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 20
         },
         "hp": 40,
         "attack": 80,
@@ -949,7 +1009,13 @@
         "USUM_NO": 299,
         "region_form": {
             "type1": "いわ",
-            "type2": "でんき"
+            "type2": "でんき",
+            "hp": 55,
+            "attack": 95,
+            "defense": 115,
+            "special_attack": 45,
+            "special_defense": 45,
+            "speed": 35
         },
         "hp": 55,
         "attack": 95,
@@ -966,7 +1032,13 @@
         "USUM_NO": 300,
         "region_form": {
             "type1": "いわ",
-            "type2": "でんき"
+            "type2": "でんき",
+            "hp": 80,
+            "attack": 120,
+            "defense": 130,
+            "special_attack": 55,
+            "special_defense": 65,
+            "speed": 45
         },
         "hp": 80,
         "attack": 120,
@@ -1114,7 +1186,13 @@
         "USUM_NO": 57,
         "region_form": {
             "type1": "どく",
-            "type2": "あく"
+            "type2": "あく",
+            "hp": 80,
+            "attack": 80,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 50,
+            "speed": 25
         },
         "hp": 80,
         "attack": 80,
@@ -1131,7 +1209,13 @@
         "USUM_NO": 58,
         "region_form": {
             "type1": "どく",
-            "type2": "あく"
+            "type2": "あく",
+            "hp": 105,
+            "attack": 105,
+            "defense": 75,
+            "special_attack": 65,
+            "special_defense": 100,
+            "speed": 50
         },
         "hp": 105,
         "attack": 105,
@@ -1307,7 +1391,13 @@
         "USUM_NO": 356,
         "region_form": {
             "type1": "くさ",
-            "type2": "ドラゴン"
+            "type2": "ドラゴン",
+            "hp": 95,
+            "attack": 105,
+            "defense": 85,
+            "special_attack": 125,
+            "special_defense": 75,
+            "speed": 45
         },
         "hp": 95,
         "attack": 95,
@@ -1337,7 +1427,13 @@
         "USUM_NO": 198,
         "region_form": {
             "type1": "ほのお",
-            "type2": "ゴースト"
+            "type2": "ゴースト",
+            "hp": 60,
+            "attack": 80,
+            "defense": 110,
+            "special_attack": 50,
+            "special_defense": 80,
+            "speed": 45
         },
         "hp": 60,
         "attack": 80,
