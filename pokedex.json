@@ -6430,5 +6430,572 @@
         "classification": "ナットポケモン",
         "height": "2.5",
         "weight": "800.0"
+    },
+    {
+        "id": 810,
+        "name": "サルノリ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 811,
+        "name": "バチンキー",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 812,
+        "name": "ゴリランダー",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 813,
+        "name": "ヒバニー",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 814,
+        "name": "ラビフット",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 815,
+        "name": "エースバーン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 816,
+        "name": "メッソン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 817,
+        "name": "ジメレオン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 818,
+        "name": "インテレオン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 819,
+        "name": "ホシガリス",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 820,
+        "name": "ヨクバリス",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 821,
+        "name": "ココガラ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 822,
+        "name": "アオガラス",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 823,
+        "name": "アーマーガア",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 824,
+        "name": "サッチムシ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 825,
+        "name": "レドームシ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 826,
+        "name": "イオルブ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 827,
+        "name": "クスネ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 828,
+        "name": "フォクスライ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 829,
+        "name": "ヒメンカ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 830,
+        "name": "ワタシラガ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 831,
+        "name": "ウールー",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 832,
+        "name": "バイウールー",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 833,
+        "name": "カムカメ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 834,
+        "name": "カジリガメ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 835,
+        "name": "ワンパチ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 836,
+        "name": "パルスワン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 837,
+        "name": "タンドン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 838,
+        "name": "トロッゴン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 839,
+        "name": "セキタンザン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 840,
+        "name": "カジッチュ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 841,
+        "name": "アップリュー",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 842,
+        "name": "タルップル",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 843,
+        "name": "スナヘビ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 844,
+        "name": "サダイジャ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 845,
+        "name": "ウッウ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 846,
+        "name": "サシカマス",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 847,
+        "name": "カマスジョー",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 848,
+        "name": "エレズン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 849,
+        "name": "ストリンダー",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 850,
+        "name": "ヤクデ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 851,
+        "name": "マルヤクデ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 852,
+        "name": "タタッコ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 853,
+        "name": "オトスパス",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 854,
+        "name": "ヤバチャ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 855,
+        "name": "ポットデス",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 856,
+        "name": "ミブリム",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 857,
+        "name": "テブリム",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 858,
+        "name": "ブリムオン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 859,
+        "name": "ベロバー",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 860,
+        "name": "ギモー",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 861,
+        "name": "オーロンゲ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 862,
+        "name": "タチフサグマ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 863,
+        "name": "ニャイキング",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 864,
+        "name": "サニゴーン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 865,
+        "name": "ネギガナイト",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 866,
+        "name": "バリコオル",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 867,
+        "name": "デスバーン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 868,
+        "name": "マホミル",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 869,
+        "name": "マホイップ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 870,
+        "name": "タイレーツ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 871,
+        "name": "バチンウニ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 872,
+        "name": "ユキハミ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 873,
+        "name": "モスノウ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 874,
+        "name": "イシヘンジン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 875,
+        "name": "コオリッポ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 876,
+        "name": "イエッサン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 877,
+        "name": "モルペコ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 878,
+        "name": "ゾウドウ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 879,
+        "name": "ダイオウドウ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 880,
+        "name": "パッチラゴン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 881,
+        "name": "パッチルドン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 882,
+        "name": "ウオノラゴン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 883,
+        "name": "ウオチルドン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 884,
+        "name": "ジュラルドン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 885,
+        "name": "ドラメシヤ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 886,
+        "name": "ドロンチ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 887,
+        "name": "ドラパルト",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 888,
+        "name": "ザシアン",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 889,
+        "name": "ザマゼンタ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
+    },
+    {
+        "id": 890,
+        "name": "ムゲンダイナ",
+        "classification": "ポケモン",
+        "height": "",
+        "weight": ""
     }
 ]
