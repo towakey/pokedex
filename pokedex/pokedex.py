@@ -33,7 +33,6 @@ class Pokedex:
         return int(result)
 
     # 読み込むポケモンの全国図鑑Noと世代を指定
-    # def load(self, no, gen):
     def load(self, no, gen, minor):
         # 世代指定が0の場合は全国図鑑を探す
         if gen > 0:
@@ -49,10 +48,5 @@ class Pokedex:
             self.weight = pokedex_json[no - 1]['weight']
 
             gen_url = "./pokedex/gen" + str(gen) + "/gen" + str(gen) + ".json"
-            with open(gen_url,encoding='utf-8') as f:
-                gen_json = json.load(f)
-
-pokedex = Pokedex()
-pokedex.load(1000, 7, False)
-
-print(pokedex.name)
+            # with open(gen_url,encoding='utf-8') as f:
+            #     gen_json = json.load(f)
