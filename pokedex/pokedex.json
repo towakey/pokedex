@@ -3,7 +3,7 @@
     "id": 1,
     "name": {
       "ja": "フシギダネ",
-      "en": ""
+      "en": "Bulbasaur"
     },
     "classification": "たねポケモン",
     "height": "0.7",
@@ -13,7 +13,7 @@
     "id": 2,
     "name": {
       "ja": "フシギソウ",
-      "en": ""
+      "en": "Ivysaur"
     },
     "classification": "たねポケモン",
     "height": "1.0",
@@ -23,7 +23,7 @@
     "id": 3,
     "name": {
       "ja": "フシギバナ",
-      "en": ""
+      "en": "Venusaur"
     },
     "classification": "たねポケモン",
     "height": "2.0",
@@ -33,7 +33,7 @@
     "id": 4,
     "name": {
       "ja": "ヒトカゲ",
-      "en": ""
+      "en": "Charmander"
     },
     "classification": "とかげポケモン",
     "height": "0.6",
@@ -43,7 +43,7 @@
     "id": 5,
     "name": {
       "ja": "リザード",
-      "en": ""
+      "en": "Charmeleon"
     },
     "classification": "かえんポケモン",
     "height": "1.1",
@@ -53,7 +53,7 @@
     "id": 6,
     "name": {
       "ja": "リザードン",
-      "en": ""
+      "en": "Charizard"
     },
     "classification": "かえんポケモン",
     "height": "1.7",
@@ -63,7 +63,7 @@
     "id": 7,
     "name": {
       "ja": "ゼニガメ",
-      "en": ""
+      "en": "Squirtle"
     },
     "classification": "かめのこポケモン",
     "height": "0.5",
@@ -73,7 +73,7 @@
     "id": 8,
     "name": {
       "ja": "カメール",
-      "en": ""
+      "en": "Wartortle"
     },
     "classification": "かめポケモン",
     "height": "1.0",
@@ -83,7 +83,7 @@
     "id": 9,
     "name": {
       "ja": "カメックス",
-      "en": ""
+      "en": "Blastoise"
     },
     "classification": "こうらポケモン",
     "height": "1.6",
@@ -93,7 +93,7 @@
     "id": 10,
     "name": {
       "ja": "キャタピー",
-      "en": ""
+      "en": "Caterpie"
     },
     "classification": "いもむしポケモン",
     "height": "0.3",
@@ -105,7 +105,7 @@
     "id": 11,
     "name": {
       "ja": "トランセル",
-      "en": ""
+      "en": "Metapod"
     },
     "classification": "さなぎポケモン",
     "height": "0.7",
@@ -117,7 +117,7 @@
     "id": 12,
     "name": {
       "ja": "バタフリー",
-      "en": ""
+      "en": "Butterfree"
     },
     "classification": "ちょうちょポケモン",
     "height": "1.1",
@@ -129,7 +129,7 @@
     "id": 13,
     "name": {
       "ja": "ビードル",
-      "en": ""
+      "en": "Weedle"
     },
     "classification": "けむしポケモン",
     "height": "0.3",
@@ -139,7 +139,7 @@
     "id": 14,
     "name": {
       "ja": "コクーン",
-      "en": ""
+      "en": "Kakuna"
     },
     "classification": "さなぎポケモン",
     "height": "0.6",
@@ -149,7 +149,7 @@
     "id": 15,
     "name": {
       "ja": "スピアー",
-      "en": ""
+      "en": "Beedrill"
     },
     "classification": "どくばちポケモン",
     "height": "1.0",
