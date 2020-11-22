@@ -159,7 +159,7 @@
     "id": 16,
     "name": {
       "ja": "ポッポ",
-      "en": ""
+      "en": "Pidgey"
     },
     "classification": "ことりポケモン",
     "height": "0.3",
@@ -169,7 +169,7 @@
     "id": 17,
     "name": {
       "ja": "ピジョン",
-      "en": ""
+      "en": "Pidgeotto"
     },
     "classification": "とりポケモン",
     "height": "1.1",
@@ -179,7 +179,7 @@
     "id": 18,
     "name": {
       "ja": "ピジョット",
-      "en": ""
+      "en": "Pidgeot"
     },
     "classification": "とりポケモン",
     "height": "1.5",
@@ -189,7 +189,7 @@
     "id": 19,
     "name": {
       "ja": "コラッタ",
-      "en": ""
+      "en": "Rattata"
     },
     "classification": "ねずみポケモン",
     "height": "0.3",
@@ -205,7 +205,7 @@
     "id": 20,
     "name": {
       "ja": "ラッタ",
-      "en": ""
+      "en": "Raticate"
     },
     "classification": "ねずみポケモン",
     "height": "0.7",
@@ -221,7 +221,7 @@
     "id": 21,
     "name": {
       "ja": "オニスズメ",
-      "en": ""
+      "en": "Spearow"
     },
     "classification": "ことりポケモン",
     "height": "0.3",
@@ -233,7 +233,7 @@
     "id": 22,
     "name": {
       "ja": "オニドリル",
-      "en": ""
+      "en": "Fearow"
     },
     "classification": "くちばしポケモン",
     "height": "1.2",
@@ -245,7 +245,7 @@
     "id": 23,
     "name": {
       "ja": "アーボ",
-      "en": ""
+      "en": "Ekans"
     },
     "classification": "へびポケモン",
     "height": "2.0",
@@ -256,7 +256,7 @@
     "id": 24,
     "name": {
       "ja": "アーボック",
-      "en": ""
+      "en": "Arbok"
     },
     "classification": "コブラポケモン",
     "height": "3.5",
@@ -267,7 +267,7 @@
     "id": 25,
     "name": {
       "ja": "ピカチュウ",
-      "en": ""
+      "en": "Pikachu"
     },
     "classification": "ねずみポケモン",
     "height": "0.4",
@@ -279,7 +279,7 @@
     "id": 26,
     "name": {
       "ja": "ライチュウ",
-      "en": ""
+      "en": "Raichu"
     },
     "classification": "ねずみポケモン",
     "height": "0.8",
@@ -295,7 +295,7 @@
     "id": 27,
     "name": {
       "ja": "サンド",
-      "en": ""
+      "en": "Sandshrew"
     },
     "classification": "ねずみポケモン",
     "height": "0.6",
@@ -311,7 +311,7 @@
     "id": 28,
     "name": {
       "ja": "サンドパン",
-      "en": ""
+      "en": "Sandslash"
     },
     "classification": "ねずみポケモン",
     "height": "1.0",
@@ -327,7 +327,7 @@
     "id": 29,
     "name": {
       "ja": "ニドラン♀",
-      "en": ""
+      "en": "Nidoran♀"
     },
     "classification": "どくばりポケモン",
     "height": "0.4",
@@ -337,7 +337,7 @@
     "id": 30,
     "name": {
       "ja": "ニドリーナ",
-      "en": ""
+      "en": "Nidorina"
     },
     "classification": "どくばりポケモン",
     "height": "0.8",
@@ -347,7 +347,7 @@
     "id": 31,
     "name": {
       "ja": "ニドクイン",
-      "en": ""
+      "en": "Nidoqueen"
     },
     "classification": "ドリルポケモン",
     "height": "1.3",
@@ -357,7 +357,7 @@
     "id": 32,
     "name": {
       "ja": "ニドラン♂",
-      "en": ""
+      "en": "Nidoran♂"
     },
     "classification": "どくばりポケモン",
     "height": "0.5",
@@ -367,7 +367,7 @@
     "id": 33,
     "name": {
       "ja": "ニドリーノ",
-      "en": ""
+      "en": "Nidorino"
     },
     "classification": "どくばりポケモン",
     "height": "0.9",
@@ -377,7 +377,7 @@
     "id": 34,
     "name": {
       "ja": "ニドキング",
-      "en": ""
+      "en": "Nidoking"
     },
     "classification": "ドリルポケモン",
     "height": "1.4",
@@ -387,7 +387,7 @@
     "id": 35,
     "name": {
       "ja": "ピッピ",
-      "en": ""
+      "en": "Clefairy"
     },
     "classification": "ようせいポケモン",
     "height": "0.6",
@@ -399,7 +399,7 @@
     "id": 36,
     "name": {
       "ja": "ピクシー",
-      "en": ""
+      "en": "Clefable"
     },
     "classification": "ようせいポケモン",
     "height": "1.3",
@@ -411,7 +411,7 @@
     "id": 37,
     "name": {
       "ja": "ロコン",
-      "en": ""
+      "en": "Vulpix"
     },
     "classification": "きつねポケモン",
     "height": "0.6",
@@ -427,7 +427,7 @@
     "id": 38,
     "name": {
       "ja": "キュウコン",
-      "en": ""
+      "en": "Ninetales"
     },
     "classification": "きつねポケモン",
     "height": "1.1",
@@ -443,7 +443,7 @@
     "id": 39,
     "name": {
       "ja": "プリン",
-      "en": ""
+      "en": "Jigglypuff"
     },
     "classification": "ふうせんポケモン",
     "height": "0.5",
@@ -455,7 +455,7 @@
     "id": 40,
     "name": {
       "ja": "プクリン",
-      "en": ""
+      "en": "Wigglytuff"
     },
     "classification": "ふうせんポケモン",
     "height": "1.0",
@@ -467,7 +467,7 @@
     "id": 41,
     "name": {
       "ja": "ズバット",
-      "en": ""
+      "en": "Zubat"
     },
     "classification": "こうもりポケモン",
     "height": "0.8",
@@ -479,7 +479,7 @@
     "id": 42,
     "name": {
       "ja": "ゴルバット",
-      "en": ""
+      "en": "Golbat"
     },
     "classification": "こうもりポケモン",
     "height": "1.6",
@@ -491,7 +491,7 @@
     "id": 43,
     "name": {
       "ja": "ナゾノクサ",
-      "en": ""
+      "en": "Oddish"
     },
     "classification": "ざっそうポケモン",
     "height": "0.5",
@@ -501,7 +501,7 @@
     "id": 44,
     "name": {
       "ja": "クサイハナ",
-      "en": ""
+      "en": "Gloom"
     },
     "classification": "ざっそうポケモン",
     "height": "0.8",
@@ -511,7 +511,7 @@
     "id": 45,
     "name": {
       "ja": "ラフレシア",
-      "en": ""
+      "en": "Vileplume"
     },
     "classification": "フラワーポケモン",
     "height": "1.2",
@@ -521,7 +521,7 @@
     "id": 46,
     "name": {
       "ja": "パラス",
-      "en": ""
+      "en": "Paras"
     },
     "classification": "きのこポケモン",
     "height": "0.3",
@@ -533,7 +533,7 @@
     "id": 47,
     "name": {
       "ja": "パラセクト",
-      "en": ""
+      "en": "Parasect"
     },
     "classification": "きのこポケモン",
     "height": "1.0",
@@ -545,7 +545,7 @@
     "id": 48,
     "name": {
       "ja": "コンパン",
-      "en": ""
+      "en": "Venonat"
     },
     "classification": "こんちゅうポケモン",
     "height": "1.0",
@@ -555,7 +555,7 @@
     "id": 49,
     "name": {
       "ja": "モルフォン",
-      "en": ""
+      "en": "Venomoth"
     },
     "classification": "どくがポケモン",
     "height": "1.5",
@@ -565,7 +565,7 @@
     "id": 50,
     "name": {
       "ja": "ディグダ",
-      "en": ""
+      "en": "Diglett"
     },
     "classification": "もぐらポケモン",
     "height": "0.2",
@@ -581,7 +581,7 @@
     "id": 51,
     "name": {
       "ja": "ダグトリオ",
-      "en": ""
+      "en": "Dugtrio"
     },
     "classification": "もぐらポケモン",
     "height": "0.7",
@@ -597,7 +597,7 @@
     "id": 52,
     "name": {
       "ja": "ニャース",
-      "en": ""
+      "en": "Meowth"
     },
     "classification": "ばけねこポケモン",
     "height": "0.4",
@@ -609,7 +609,7 @@
     "id": 53,
     "name": {
       "ja": "ペルシアン",
-      "en": ""
+      "en": "Persian"
     },
     "classification": "シャムネコポケモン",
     "height": "1.0",
@@ -621,7 +621,7 @@
     "id": 54,
     "name": {
       "ja": "コダック",
-      "en": ""
+      "en": "Psyduck"
     },
     "classification": "あひるポケモン",
     "height": "0.8",
@@ -633,7 +633,7 @@
     "id": 55,
     "name": {
       "ja": "ゴルダック",
-      "en": ""
+      "en": "Golduck"
     },
     "classification": "あひるポケモン",
     "height": "1.7",
@@ -645,7 +645,7 @@
     "id": 56,
     "name": {
       "ja": "マンキー",
-      "en": ""
+      "en": "Mankey"
     },
     "classification": "ぶたざるポケモン",
     "height": "0.5",
@@ -657,7 +657,7 @@
     "id": 57,
     "name": {
       "ja": "オコリザル",
-      "en": ""
+      "en": "Primeape"
     },
     "classification": "ぶたざるポケモン",
     "height": "1.0",
@@ -669,7 +669,7 @@
     "id": 58,
     "name": {
       "ja": "ガーディ",
-      "en": ""
+      "en": "Growlithe"
     },
     "classification": "こいぬポケモン",
     "height": "0.7",
@@ -681,7 +681,7 @@
     "id": 59,
     "name": {
       "ja": "ウインディ",
-      "en": ""
+      "en": "Arcanine"
     },
     "classification": "でんせつポケモン",
     "height": "1.9",
@@ -693,7 +693,7 @@
     "id": 60,
     "name": {
       "ja": "ニョロモ",
-      "en": ""
+      "en": "Poliwag"
     },
     "classification": "おたまポケモン",
     "height": "0.6",
@@ -705,7 +705,7 @@
     "id": 61,
     "name": {
       "ja": "ニョロゾ",
-      "en": ""
+      "en": "Poliwhirl"
     },
     "classification": "おたまポケモン",
     "height": "1.0",
@@ -717,7 +717,7 @@
     "id": 62,
     "name": {
       "ja": "ニョロボン",
-      "en": ""
+      "en": "Poliwrath"
     },
     "classification": "おたまポケモン",
     "height": "1.3",
@@ -729,7 +729,7 @@
     "id": 63,
     "name": {
       "ja": "ケーシィ",
-      "en": ""
+      "en": "Abra"
     },
     "classification": "ねんりきポケモン",
     "height": "0.9",
@@ -741,7 +741,7 @@
     "id": 64,
     "name": {
       "ja": "ユンゲラー",
-      "en": ""
+      "en": "Kadabra"
     },
     "classification": "ねんりきポケモン",
     "height": "1.3",
@@ -753,7 +753,7 @@
     "id": 65,
     "name": {
       "ja": "フーディン",
-      "en": ""
+      "en": "Alakazam"
     },
     "classification": "ねんりきポケモン",
     "height": "1.5",
@@ -765,7 +765,7 @@
     "id": 66,
     "name": {
       "ja": "ワンリキー",
-      "en": ""
+      "en": "Machop"
     },
     "classification": "かいりきポケモン",
     "height": "0.8",
@@ -777,7 +777,7 @@
     "id": 67,
     "name": {
       "ja": "ゴーリキー",
-      "en": ""
+      "en": "Machoke"
     },
     "classification": "かいりきポケモン",
     "height": "1.5",
@@ -789,7 +789,7 @@
     "id": 68,
     "name": {
       "ja": "カイリキー",
-      "en": ""
+      "en": "Machamp"
     },
     "classification": "かいりきポケモン",
     "height": "1.6",
@@ -801,7 +801,7 @@
     "id": 69,
     "name": {
       "ja": "マダツボミ",
-      "en": ""
+      "en": "Bellsprout"
     },
     "classification": "フラワーポケモン",
     "height": "0.7",
@@ -811,7 +811,7 @@
     "id": 70,
     "name": {
       "ja": "ウツドン",
-      "en": ""
+      "en": "Weepinbell"
     },
     "classification": "ハエとりポケモン",
     "height": "1.0",
@@ -821,7 +821,7 @@
     "id": 71,
     "name": {
       "ja": "ウツボット",
-      "en": ""
+      "en": "Victreebel"
     },
     "classification": "ハエとりポケモン",
     "height": "1.7",
@@ -831,7 +831,7 @@
     "id": 72,
     "name": {
       "ja": "メノクラゲ",
-      "en": ""
+      "en": "Tentacool"
     },
     "classification": "くらげポケモン",
     "height": "0.9",
@@ -843,7 +843,7 @@
     "id": 73,
     "name": {
       "ja": "ドククラゲ",
-      "en": ""
+      "en": "Tentacruel"
     },
     "classification": "くらげポケモン",
     "height": "1.6",
@@ -855,7 +855,7 @@
     "id": 74,
     "name": {
       "ja": "イシツブテ",
-      "en": ""
+      "en": "Geodude"
     },
     "classification": "がんせきポケモン",
     "height": "0.4",
@@ -871,7 +871,7 @@
     "id": 75,
     "name": {
       "ja": "ゴローン",
-      "en": ""
+      "en": "Graveler"
     },
     "classification": "がんせきポケモン",
     "height": "1.0",
@@ -887,7 +887,7 @@
     "id": 76,
     "name": {
       "ja": "ゴローニャ",
-      "en": ""
+      "en": "Golem"
     },
     "classification": "メガトンポケモン",
     "height": "1.4",
@@ -903,7 +903,7 @@
     "id": 77,
     "name": {
       "ja": "ポニータ",
-      "en": ""
+      "en": "Ponyta"
     },
     "classification": "ひのうまポケモン",
     "height": "1.0",
@@ -913,7 +913,7 @@
     "id": 78,
     "name": {
       "ja": "ギャロップ",
-      "en": ""
+      "en": "Rapidash"
     },
     "classification": "ひのうまポケモン",
     "height": "1.7",
@@ -923,7 +923,7 @@
     "id": 79,
     "name": {
       "ja": "ヤドン",
-      "en": ""
+      "en": "Slowpoke"
     },
     "classification": "まぬけポケモン",
     "height": "1.2",
@@ -935,7 +935,7 @@
     "id": 80,
     "name": {
       "ja": "ヤドラン",
-      "en": ""
+      "en": "Slowbro"
     },
     "classification": "やどかりポケモン",
     "height": "1.6",
@@ -947,7 +947,7 @@
     "id": 81,
     "name": {
       "ja": "コイル",
-      "en": ""
+      "en": "Magnemite"
     },
     "classification": "じしゃくポケモン",
     "height": "0.3",
@@ -959,7 +959,7 @@
     "id": 82,
     "name": {
       "ja": "レアコイル",
-      "en": ""
+      "en": "Magneton"
     },
     "classification": "じしゃくポケモン",
     "height": "1.0",
@@ -971,7 +971,7 @@
     "id": 83,
     "name": {
       "ja": "カモネギ",
-      "en": ""
+      "en": "Farfetch'd"
     },
     "classification": "かるがもポケモン",
     "height": "0.8",
@@ -981,7 +981,7 @@
     "id": 84,
     "name": {
       "ja": "ドードー",
-      "en": ""
+      "en": "Doduo"
     },
     "classification": "ふたごどりポケモン",
     "height": "1.4",
@@ -991,7 +991,7 @@
     "id": 85,
     "name": {
       "ja": "ドードリオ",
-      "en": ""
+      "en": "Dodrio"
     },
     "classification": "みつごどりポケモン",
     "height": "1.8",
@@ -1001,7 +1001,7 @@
     "id": 86,
     "name": {
       "ja": "パウワウ",
-      "en": ""
+      "en": "Seel"
     },
     "classification": "あしかポケモン",
     "height": "1.1",
@@ -1012,7 +1012,7 @@
     "id": 87,
     "name": {
       "ja": "ジュゴン",
-      "en": ""
+      "en": "Dewgong"
     },
     "classification": "あしかポケモン",
     "height": "1.7",
@@ -1023,7 +1023,7 @@
     "id": 88,
     "name": {
       "ja": "ベトベター",
-      "en": ""
+      "en": "Grimer"
     },
     "classification": "ヘドロポケモン",
     "height": "0.9",
@@ -1039,7 +1039,7 @@
     "id": 89,
     "name": {
       "ja": "ベトベトン",
-      "en": ""
+      "en": "Muk"
     },
     "classification": "ヘドロポケモン",
     "height": "1.2",
@@ -1055,7 +1055,7 @@
     "id": 90,
     "name": {
       "ja": "シェルダー",
-      "en": ""
+      "en": "Shellder"
     },
     "classification": "2まいがいポケモン",
     "height": "0.3",
@@ -1067,7 +1067,7 @@
     "id": 91,
     "name": {
       "ja": "パルシェン",
-      "en": ""
+      "en": "Cloyster"
     },
     "classification": "2まいがいポケモン",
     "height": "1.5",
@@ -1079,7 +1079,7 @@
     "id": 92,
     "name": {
       "ja": "ゴース",
-      "en": ""
+      "en": "Gastly"
     },
     "classification": "ガスじょうポケモン",
     "height": "1.3",
@@ -1091,7 +1091,7 @@
     "id": 93,
     "name": {
       "ja": "ゴースト",
-      "en": ""
+      "en": "Haunter"
     },
     "classification": "ガスじょうポケモン",
     "height": "1.6",
@@ -1103,7 +1103,7 @@
     "id": 94,
     "name": {
       "ja": "ゲンガー",
-      "en": ""
+      "en": "Gengar"
     },
     "classification": "シャドーポケモン",
     "height": "1.5",
@@ -1115,7 +1115,7 @@
     "id": 95,
     "name": {
       "ja": "イワーク",
-      "en": ""
+      "en": "Onix"
     },
     "classification": "いわへびポケモン",
     "height": "8.8",
@@ -1125,7 +1125,7 @@
     "id": 96,
     "name": {
       "ja": "スリープ",
-      "en": ""
+      "en": "Drowzee"
     },
     "classification": "さいみんポケモン",
     "height": "1.0",
@@ -1137,7 +1137,7 @@
     "id": 97,
     "name": {
       "ja": "スリーパー",
-      "en": ""
+      "en": "Hypno"
     },
     "classification": "さいみんポケモン",
     "height": "1.6",
@@ -1149,7 +1149,7 @@
     "id": 98,
     "name": {
       "ja": "クラブ",
-      "en": ""
+      "en": "Krabby"
     },
     "classification": "さわがにポケモン",
     "height": "0.4",
@@ -1159,7 +1159,7 @@
     "id": 99,
     "name": {
       "ja": "キングラー",
-      "en": ""
+      "en": "Kingler"
     },
     "classification": "はさみポケモン",
     "height": "1.3",
@@ -1169,7 +1169,7 @@
     "id": 100,
     "name": {
       "ja": "ビリリダマ",
-      "en": ""
+      "en": "Voltorb"
     },
     "classification": "ボールポケモン",
     "height": "0.5",
@@ -1179,7 +1179,7 @@
     "id": 101,
     "name": {
       "ja": "マルマイン",
-      "en": ""
+      "en": "Electrode"
     },
     "classification": "ボールポケモン",
     "height": "1.2",
@@ -1189,7 +1189,7 @@
     "id": 102,
     "name": {
       "ja": "タマタマ",
-      "en": ""
+      "en": "Exeggcute"
     },
     "classification": "たまごポケモン",
     "height": "0.4",
@@ -1201,7 +1201,7 @@
     "id": 103,
     "name": {
       "ja": "ナッシー",
-      "en": ""
+      "en": "Exeggutor"
     },
     "classification": "やしのみポケモン",
     "height": "2.0",
@@ -1217,7 +1217,7 @@
     "id": 104,
     "name": {
       "ja": "カラカラ",
-      "en": ""
+      "en": "Cubone"
     },
     "classification": "こどくポケモン",
     "height": "0.4",
@@ -1229,7 +1229,7 @@
     "id": 105,
     "name": {
       "ja": "ガラガラ",
-      "en": ""
+      "en": "Marowak"
     },
     "classification": "ほねずきポケモン",
     "height": "1.0",
@@ -1245,7 +1245,7 @@
     "id": 106,
     "name": {
       "ja": "サワムラー",
-      "en": ""
+      "en": "Hitmonlee"
     },
     "classification": "キックポケモン",
     "height": "1.5",
@@ -1255,7 +1255,7 @@
     "id": 107,
     "name": {
       "ja": "エビワラー",
-      "en": ""
+      "en": "Hitmonchan"
     },
     "classification": "パンチポケモン",
     "height": "1.4",
@@ -1265,7 +1265,7 @@
     "id": 108,
     "name": {
       "ja": "ベロリンガ",
-      "en": ""
+      "en": "Lickitung"
     },
     "classification": "なめまわしポケモン",
     "height": "1.2",
@@ -1276,7 +1276,7 @@
     "id": 109,
     "name": {
       "ja": "ドガース",
-      "en": ""
+      "en": "Koffing"
     },
     "classification": "どくガスポケモン",
     "height": "0.6",
@@ -1286,7 +1286,7 @@
     "id": 110,
     "name": {
       "ja": "マタドガス",
-      "en": ""
+      "en": "Weezing"
     },
     "classification": "どくガスポケモン",
     "height": "1.2",
@@ -1296,7 +1296,7 @@
     "id": 111,
     "name": {
       "ja": "サイホーン",
-      "en": ""
+      "en": "Rhyhorn"
     },
     "classification": "とげとげポケモン",
     "height": "1.0",
@@ -1306,7 +1306,7 @@
     "id": 112,
     "name": {
       "ja": "サイドン",
-      "en": ""
+      "en": "Rhydon"
     },
     "classification": "ドリルポケモン",
     "height": "1.9",
@@ -1316,7 +1316,7 @@
     "id": 113,
     "name": {
       "ja": "ラッキー",
-      "en": ""
+      "en": "Chansey"
     },
     "classification": "たまごポケモン",
     "height": "1.1",
@@ -1328,7 +1328,7 @@
     "id": 114,
     "name": {
       "ja": "モンジャラ",
-      "en": ""
+      "en": "Tangela"
     },
     "classification": "ツルじょうポケモン",
     "height": "1.0",
@@ -1338,7 +1338,7 @@
     "id": 115,
     "name": {
       "ja": "ガルーラ",
-      "en": ""
+      "en": "Kangaskhan"
     },
     "classification": "おやこポケモン",
     "height": "2.2",
@@ -1350,7 +1350,7 @@
     "id": 116,
     "name": {
       "ja": "タッツー",
-      "en": ""
+      "en": "Horsea"
     },
     "classification": "ドラゴンポケモン",
     "height": "0.4",
@@ -1360,7 +1360,7 @@
     "id": 117,
     "name": {
       "ja": "シードラ",
-      "en": ""
+      "en": "Seadra"
     },
     "classification": "ドラゴンポケモン",
     "height": "1.2",
@@ -1370,7 +1370,7 @@
     "id": 118,
     "name": {
       "ja": "トサキント",
-      "en": ""
+      "en": "Goldeen"
     },
     "classification": "きんぎょポケモン",
     "height": "0.6",
@@ -1382,7 +1382,7 @@
     "id": 119,
     "name": {
       "ja": "アズマオウ",
-      "en": ""
+      "en": "Seaking"
     },
     "classification": "きんぎょポケモン",
     "height": "1.3",
@@ -1394,7 +1394,7 @@
     "id": 120,
     "name": {
       "ja": "ヒトデマン",
-      "en": ""
+      "en": "Staryu"
     },
     "classification": "ほしがたポケモン",
     "height": "0.8",
@@ -1406,7 +1406,7 @@
     "id": 121,
     "name": {
       "ja": "スターミー",
-      "en": ""
+      "en": "Starmie"
     },
     "classification": "なぞのポケモン",
     "height": "1.1",
@@ -1418,7 +1418,7 @@
     "id": 122,
     "name": {
       "ja": "バリヤード",
-      "en": ""
+      "en": "Mr.Mime"
     },
     "classification": "バリアーポケモン",
     "height": "1.3",
@@ -1429,7 +1429,7 @@
     "id": 123,
     "name": {
       "ja": "ストライク",
-      "en": ""
+      "en": "Scyther"
     },
     "classification": "かまきりポケモン",
     "height": "1.5",
@@ -1441,7 +1441,7 @@
     "id": 124,
     "name": {
       "ja": "ルージュラ",
-      "en": ""
+      "en": "Jynx"
     },
     "classification": "ひとがたポケモン",
     "height": "1.4",
@@ -1452,7 +1452,7 @@
     "id": 125,
     "name": {
       "ja": "エレブー",
-      "en": ""
+      "en": "Electabuzz"
     },
     "classification": "でんげきポケモン",
     "height": "1.1",
@@ -1464,7 +1464,7 @@
     "id": 126,
     "name": {
       "ja": "ブーバー",
-      "en": ""
+      "en": "Magmar"
     },
     "classification": "ひふきポケモン",
     "height": "1.3",
@@ -1476,7 +1476,7 @@
     "id": 127,
     "name": {
       "ja": "カイロス",
-      "en": ""
+      "en": "Pinsir"
     },
     "classification": "くわがたポケモン",
     "height": "1.5",
@@ -1488,7 +1488,7 @@
     "id": 128,
     "name": {
       "ja": "ケンタロス",
-      "en": ""
+      "en": "Tauros"
     },
     "classification": "あばれうしポケモン",
     "height": "1.4",
@@ -1500,7 +1500,7 @@
     "id": 129,
     "name": {
       "ja": "コイキング",
-      "en": ""
+      "en": "Magikarp"
     },
     "classification": "さかなポケモン",
     "height": "0.9",
@@ -1512,7 +1512,7 @@
     "id": 130,
     "name": {
       "ja": "ギャラドス",
-      "en": ""
+      "en": "Gyarados"
     },
     "classification": "きょうあくポケモン",
     "height": "6.5",
@@ -1524,7 +1524,7 @@
     "id": 131,
     "name": {
       "ja": "ラプラス",
-      "en": ""
+      "en": "Lapras"
     },
     "classification": "のりものポケモン",
     "height": "2.5",
@@ -1536,7 +1536,7 @@
     "id": 132,
     "name": {
       "ja": "メタモン",
-      "en": ""
+      "en": "Ditto"
     },
     "classification": "へんしんポケモン",
     "height": "0.3",
@@ -1548,7 +1548,7 @@
     "id": 133,
     "name": {
       "ja": "イーブイ",
-      "en": ""
+      "en": "Eevee"
     },
     "classification": "しんかポケモン",
     "height": "0.3",
@@ -1560,7 +1560,7 @@
     "id": 134,
     "name": {
       "ja": "シャワーズ",
-      "en": ""
+      "en": "Vaporeon"
     },
     "classification": "あわはきポケモン",
     "height": "1.0",
@@ -1572,7 +1572,7 @@
     "id": 135,
     "name": {
       "ja": "サンダース",
-      "en": ""
+      "en": "Jolteon"
     },
     "classification": "かみなりポケモン",
     "height": "0.8",
@@ -1584,7 +1584,7 @@
     "id": 136,
     "name": {
       "ja": "ブースター",
-      "en": ""
+      "en": "Flareon"
     },
     "classification": "ほのおポケモン",
     "height": "0.9",
@@ -1596,7 +1596,7 @@
     "id": 137,
     "name": {
       "ja": "ポリゴン",
-      "en": ""
+      "en": "Porygon"
     },
     "classification": "バーチャルポケモン",
     "height": "0.8",
@@ -1608,7 +1608,7 @@
     "id": 138,
     "name": {
       "ja": "オムナイト",
-      "en": ""
+      "en": "Omanyte"
     },
     "classification": "うずまきポケモン",
     "height": "0.4",
@@ -1619,7 +1619,7 @@
     "id": 139,
     "name": {
       "ja": "オムスター",
-      "en": ""
+      "en": "Omastar"
     },
     "classification": "うずまきポケモン",
     "height": "1.0",
@@ -1630,7 +1630,7 @@
     "id": 140,
     "name": {
       "ja": "カブト",
-      "en": ""
+      "en": "Kabuto"
     },
     "classification": "こうらポケモン",
     "height": "0.5",
@@ -1641,7 +1641,7 @@
     "id": 141,
     "name": {
       "ja": "カブトプス",
-      "en": ""
+      "en": "Kabutops"
     },
     "classification": "こうらポケモン",
     "height": "1.3",
@@ -1652,7 +1652,7 @@
     "id": 142,
     "name": {
       "ja": "プテラ",
-      "en": ""
+      "en": "Aerodactyl"
     },
     "classification": "かせきポケモン",
     "height": "1.8",
@@ -1664,7 +1664,7 @@
     "id": 143,
     "name": {
       "ja": "カビゴン",
-      "en": ""
+      "en": "Snorlax"
     },
     "classification": "いねむりポケモン",
     "height": "2.1",
@@ -1676,7 +1676,7 @@
     "id": 144,
     "name": {
       "ja": "フリーザー",
-      "en": ""
+      "en": "Articuno"
     },
     "classification": "れいとうポケモン",
     "height": "1.7",
@@ -1686,7 +1686,7 @@
     "id": 145,
     "name": {
       "ja": "サンダー",
-      "en": ""
+      "en": "Zapdos"
     },
     "classification": "でんげきポケモン",
     "height": "1.6",
@@ -1696,7 +1696,7 @@
     "id": 146,
     "name": {
       "ja": "ファイヤー",
-      "en": ""
+      "en": "Moltres"
     },
     "classification": "かえんポケモン",
     "height": "2.0",
@@ -1706,7 +1706,7 @@
     "id": 147,
     "name": {
       "ja": "ミニリュウ",
-      "en": ""
+      "en": "Dratini"
     },
     "classification": "ドラゴンポケモン",
     "height": "1.8",
@@ -1718,7 +1718,7 @@
     "id": 148,
     "name": {
       "ja": "ハクリュー",
-      "en": ""
+      "en": "Dragonair"
     },
     "classification": "ドラゴンポケモン",
     "height": "4.0",
@@ -1730,7 +1730,7 @@
     "id": 149,
     "name": {
       "ja": "カイリュー",
-      "en": ""
+      "en": "Dragonite"
     },
     "classification": "ドラゴンポケモン",
     "height": "2.2",
@@ -1742,7 +1742,7 @@
     "id": 150,
     "name": {
       "ja": "ミュウツー",
-      "en": ""
+      "en": "Mewtwo"
     },
     "classification": "いでんしポケモン",
     "height": "2.0",
@@ -1752,7 +1752,7 @@
     "id": 151,
     "name": {
       "ja": "ミュウ",
-      "en": ""
+      "en": "Mew"
     },
     "classification": "しんしゅポケモン",
     "height": "0.4",
@@ -1762,7 +1762,7 @@
     "id": 152,
     "name": {
       "ja": "チコリータ",
-      "en": ""
+      "en": "Chikorita"
     },
     "classification": "はっぱポケモン",
     "height": "0.9",
@@ -1772,7 +1772,7 @@
     "id": 153,
     "name": {
       "ja": "ベイリーフ",
-      "en": ""
+      "en": "Bayleef"
     },
     "classification": "はっぱポケモン",
     "height": "1.2",
@@ -1782,7 +1782,7 @@
     "id": 154,
     "name": {
       "ja": "メガニウム",
-      "en": ""
+      "en": "Meganium"
     },
     "classification": "ハーブポケモン",
     "height": "1.8",
@@ -1792,7 +1792,7 @@
     "id": 155,
     "name": {
       "ja": "ヒノアラシ",
-      "en": ""
+      "en": "Cyndaquil"
     },
     "classification": "ひねずみポケモン",
     "height": "0.5",
@@ -1802,7 +1802,7 @@
     "id": 156,
     "name": {
       "ja": "マグマラシ",
-      "en": ""
+      "en": "Quilava"
     },
     "classification": "かざんポケモン",
     "height": "0.9",
@@ -1812,7 +1812,7 @@
     "id": 157,
     "name": {
       "ja": "バクフーン",
-      "en": ""
+      "en": "Typhlosion"
     },
     "classification": "かざんポケモン",
     "height": "1.7",
@@ -1822,7 +1822,7 @@
     "id": 158,
     "name": {
       "ja": "ワニノコ",
-      "en": ""
+      "en": "Totodile"
     },
     "classification": "おおあごポケモン",
     "height": "0.6",
@@ -1832,7 +1832,7 @@
     "id": 159,
     "name": {
       "ja": "アリゲイツ",
-      "en": ""
+      "en": "Croconaw"
     },
     "classification": "おおあごポケモン",
     "height": "1.1",
@@ -1842,7 +1842,7 @@
     "id": 160,
     "name": {
       "ja": "オーダイル",
-      "en": ""
+      "en": "Feraligatr"
     },
     "classification": "おおあごポケモン",
     "height": "2.3",
@@ -1852,7 +1852,7 @@
     "id": 161,
     "name": {
       "ja": "オタチ",
-      "en": ""
+      "en": "Sentret"
     },
     "classification": "みはりポケモン",
     "height": "0.8",
@@ -1862,7 +1862,7 @@
     "id": 162,
     "name": {
       "ja": "オオタチ",
-      "en": ""
+      "en": "Furret"
     },
     "classification": "どうながポケモン",
     "height": "1.8",
@@ -1872,7 +1872,7 @@
     "id": 163,
     "name": {
       "ja": "ホーホー",
-      "en": ""
+      "en": "Hoothoot"
     },
     "classification": "ふくろうポケモン",
     "height": "0.7",
@@ -1883,7 +1883,7 @@
     "id": 164,
     "name": {
       "ja": "ヨルノズク",
-      "en": ""
+      "en": "Noctowl"
     },
     "classification": "ふくろうポケモン",
     "height": "1.6",
@@ -1894,7 +1894,7 @@
     "id": 165,
     "name": {
       "ja": "レディバ",
-      "en": ""
+      "en": "Ledyba"
     },
     "classification": "いつつぼしポケモン",
     "height": "1.0",
@@ -1906,7 +1906,7 @@
     "id": 166,
     "name": {
       "ja": "レディアン",
-      "en": ""
+      "en": "Ledian"
     },
     "classification": "いつつぼしポケモン",
     "height": "1.4",
@@ -1918,7 +1918,7 @@
     "id": 167,
     "name": {
       "ja": "イトマル",
-      "en": ""
+      "en": "Spinarak"
     },
     "classification": "いとはきポケモン",
     "height": "0.5",
@@ -1930,7 +1930,7 @@
     "id": 168,
     "name": {
       "ja": "アリアドス",
-      "en": ""
+      "en": "Ariados"
     },
     "classification": "あしながポケモン",
     "height": "1.1",
@@ -1942,7 +1942,7 @@
     "id": 169,
     "name": {
       "ja": "クロバット",
-      "en": ""
+      "en": "Crobat"
     },
     "classification": "こうもりポケモン",
     "height": "1.8",
@@ -1954,7 +1954,7 @@
     "id": 170,
     "name": {
       "ja": "チョンチー",
-      "en": ""
+      "en": "Chinchou"
     },
     "classification": "あんこうポケモン",
     "height": "0.5",
@@ -1966,7 +1966,7 @@
     "id": 171,
     "name": {
       "ja": "ランターン",
-      "en": ""
+      "en": "Lanturn"
     },
     "classification": "ライトポケモン",
     "height": "1.2",
@@ -1978,7 +1978,7 @@
     "id": 172,
     "name": {
       "ja": "ピチュー",
-      "en": ""
+      "en": "Pichu"
     },
     "classification": "こねずみポケモン",
     "height": "0.3",
@@ -1990,7 +1990,7 @@
     "id": 173,
     "name": {
       "ja": "ピィ",
-      "en": ""
+      "en": "Cleffa"
     },
     "classification": "ほしがたポケモン",
     "height": "0.3",
@@ -2002,7 +2002,7 @@
     "id": 174,
     "name": {
       "ja": "ププリン",
-      "en": ""
+      "en": "Igglybuff"
     },
     "classification": "ふうせんポケモン",
     "height": "0.3",
@@ -2014,7 +2014,7 @@
     "id": 175,
     "name": {
       "ja": "トゲピー",
-      "en": ""
+      "en": "Togepi"
     },
     "classification": "はりたまポケモン",
     "height": "0.3",
@@ -2024,7 +2024,7 @@
     "id": 176,
     "name": {
       "ja": "トゲチック",
-      "en": ""
+      "en": "Togetic"
     },
     "classification": "しあわせポケモン",
     "height": "0.6",
@@ -2034,7 +2034,7 @@
     "id": 177,
     "name": {
       "ja": "ネイティ",
-      "en": ""
+      "en": "Natu"
     },
     "classification": "ことりポケモン",
     "height": "0.2",
@@ -2045,7 +2045,7 @@
     "id": 178,
     "name": {
       "ja": "ネイティオ",
-      "en": ""
+      "en": "Xatu"
     },
     "classification": "せいれいポケモン",
     "height": "1.5",
@@ -2056,7 +2056,7 @@
     "id": 179,
     "name": {
       "ja": "メリープ",
-      "en": ""
+      "en": "Mareep"
     },
     "classification": "わたげポケモン",
     "height": "0.6",
@@ -2067,7 +2067,7 @@
     "id": 180,
     "name": {
       "ja": "モココ",
-      "en": ""
+      "en": "Flaaffy"
     },
     "classification": "わたげポケモン",
     "height": "0.8",
@@ -2078,7 +2078,7 @@
     "id": 181,
     "name": {
       "ja": "デンリュウ",
-      "en": ""
+      "en": "Ampharos"
     },
     "classification": "ライトポケモン",
     "height": "1.4",
@@ -2089,7 +2089,7 @@
     "id": 182,
     "name": {
       "ja": "キレイハナ",
-      "en": ""
+      "en": "Bellossom"
     },
     "classification": "フラワーポケモン",
     "height": "0.4",
@@ -2099,7 +2099,7 @@
     "id": 183,
     "name": {
       "ja": "マリル",
-      "en": ""
+      "en": "Marill"
     },
     "classification": "みずねずみポケモン",
     "height": "0.4",
@@ -2109,7 +2109,7 @@
     "id": 184,
     "name": {
       "ja": "マリルリ",
-      "en": ""
+      "en": "Azumarill"
     },
     "classification": "みずうさぎポケモン",
     "height": "0.8",
@@ -2119,7 +2119,7 @@
     "id": 185,
     "name": {
       "ja": "ウソッキー",
-      "en": ""
+      "en": "Sudowoodo"
     },
     "classification": "まねポケモン",
     "height": "1.2",
@@ -2131,7 +2131,7 @@
     "id": 186,
     "name": {
       "ja": "ニョロトノ",
-      "en": ""
+      "en": "Politoed"
     },
     "classification": "かえるポケモン",
     "height": "1.1",
@@ -2143,7 +2143,7 @@
     "id": 187,
     "name": {
       "ja": "ハネッコ",
-      "en": ""
+      "en": "Hoppip"
     },
     "classification": "わたくさポケモン",
     "height": "0.4",
@@ -2153,7 +2153,7 @@
     "id": 188,
     "name": {
       "ja": "ポポッコ",
-      "en": ""
+      "en": "Skiploom"
     },
     "classification": "わたくさポケモン",
     "height": "0.6",
@@ -2163,7 +2163,7 @@
     "id": 189,
     "name": {
       "ja": "ワタッコ",
-      "en": ""
+      "en": "Jumpluff"
     },
     "classification": "わたくさポケモン",
     "height": "0.8",
@@ -2173,7 +2173,7 @@
     "id": 190,
     "name": {
       "ja": "エイパム",
-      "en": ""
+      "en": "Aipom"
     },
     "classification": "おながポケモン",
     "height": "0.8",
@@ -2184,7 +2184,7 @@
     "id": 191,
     "name": {
       "ja": "ヒマナッツ",
-      "en": ""
+      "en": "Sunkern"
     },
     "classification": "たねポケモン",
     "height": "0.3",
@@ -2194,7 +2194,7 @@
     "id": 192,
     "name": {
       "ja": "キマワリ",
-      "en": ""
+      "en": "Sunflora"
     },
     "classification": "たいようポケモン",
     "height": "0.8",
@@ -2204,7 +2204,7 @@
     "id": 193,
     "name": {
       "ja": "ヤンヤンマ",
-      "en": ""
+      "en": "Yanma"
     },
     "classification": "うすばねポケモン",
     "height": "1.2",
@@ -2214,7 +2214,7 @@
     "id": 194,
     "name": {
       "ja": "ウパー",
-      "en": ""
+      "en": "Wooper"
     },
     "classification": "みずうおポケモン",
     "height": "0.4",
@@ -2224,7 +2224,7 @@
     "id": 195,
     "name": {
       "ja": "ヌオー",
-      "en": ""
+      "en": "Quagsire"
     },
     "classification": "みずうおポケモン",
     "height": "1.4",
@@ -2234,7 +2234,7 @@
     "id": 196,
     "name": {
       "ja": "エーフィ",
-      "en": ""
+      "en": "Espeon"
     },
     "classification": "たいようポケモン",
     "height": "0.9",
@@ -2246,7 +2246,7 @@
     "id": 197,
     "name": {
       "ja": "ブラッキー",
-      "en": ""
+      "en": "Umbreon"
     },
     "classification": "げっこうポケモン",
     "height": "1.0",
@@ -2258,7 +2258,7 @@
     "id": 198,
     "name": {
       "ja": "ヤミカラス",
-      "en": ""
+      "en": "Murkrow"
     },
     "classification": "くらやみポケモン",
     "height": "0.5",
@@ -2270,7 +2270,7 @@
     "id": 199,
     "name": {
       "ja": "ヤドキング",
-      "en": ""
+      "en": "Slowking"
     },
     "classification": "おうじゃポケモン",
     "height": "2.0",
@@ -2282,7 +2282,7 @@
     "id": 200,
     "name": {
       "ja": "ムウマ",
-      "en": ""
+      "en": "Misdreavus"
     },
     "classification": "よなきポケモン",
     "height": "0.7",
@@ -2294,7 +2294,7 @@
     "id": 201,
     "name": {
       "ja": "アンノーン",
-      "en": ""
+      "en": "Unown"
     },
     "classification": "シンボルポケモン",
     "height": "0.5",
@@ -2304,7 +2304,7 @@
     "id": 202,
     "name": {
       "ja": "ソーナンス",
-      "en": ""
+      "en": "Wobbuffet"
     },
     "classification": "がまんポケモン",
     "height": "1.3",
@@ -2314,7 +2314,7 @@
     "id": 203,
     "name": {
       "ja": "キリンリキ",
-      "en": ""
+      "en": "Girafarig"
     },
     "classification": "くびながポケモン",
     "height": "1.5",
@@ -2324,7 +2324,7 @@
     "id": 204,
     "name": {
       "ja": "クヌギダマ",
-      "en": ""
+      "en": "Pineco"
     },
     "classification": "みのむしポケモン",
     "height": "0.6",
@@ -2335,7 +2335,7 @@
     "id": 205,
     "name": {
       "ja": "フォレトス",
-      "en": ""
+      "en": "Forretress"
     },
     "classification": "みのむしポケモン",
     "height": "1.2",
@@ -2346,7 +2346,7 @@
     "id": 206,
     "name": {
       "ja": "ノコッチ",
-      "en": ""
+      "en": "Dunsparce"
     },
     "classification": "つちへびポケモン",
     "height": "1.5",
@@ -2357,7 +2357,7 @@
     "id": 207,
     "name": {
       "ja": "グライガー",
-      "en": ""
+      "en": "Gligar"
     },
     "classification": "とびさそりポケモン",
     "height": "1.1",
@@ -2367,7 +2367,7 @@
     "id": 208,
     "name": {
       "ja": "ハガネール",
-      "en": ""
+      "en": "Steelix"
     },
     "classification": "てつへびポケモン",
     "height": "9.2",
@@ -2377,7 +2377,7 @@
     "id": 209,
     "name": {
       "ja": "ブルー",
-      "en": ""
+      "en": "Snubbull"
     },
     "classification": "ようせいポケモン",
     "height": "0.6",
@@ -2389,7 +2389,7 @@
     "id": 210,
     "name": {
       "ja": "グランブル",
-      "en": ""
+      "en": "Granbull"
     },
     "classification": "ようせいポケモン",
     "height": "1.4",
@@ -2401,7 +2401,7 @@
     "id": 211,
     "name": {
       "ja": "ハリーセン",
-      "en": ""
+      "en": "Qwilfish"
     },
     "classification": "ふうせんポケモン",
     "height": "0.5",
@@ -2411,7 +2411,7 @@
     "id": 212,
     "name": {
       "ja": "ハッサム",
-      "en": ""
+      "en": "Scizor"
     },
     "classification": "はさみポケモン",
     "height": "1.8",
@@ -2423,7 +2423,7 @@
     "id": 213,
     "name": {
       "ja": "ツボツボ",
-      "en": ""
+      "en": "Shuckle"
     },
     "classification": "はっこうポケモン",
     "height": "0.6",
@@ -2433,7 +2433,7 @@
     "id": 214,
     "name": {
       "ja": "ヘラクロス",
-      "en": ""
+      "en": "Heracross"
     },
     "classification": "1ぽんヅノポケモン",
     "height": "1.5",
@@ -2444,7 +2444,7 @@
     "id": 215,
     "name": {
       "ja": "ニューラ",
-      "en": ""
+      "en": "Sneasel"
     },
     "classification": "かぎづめポケモン",
     "height": "0.9",
@@ -2456,7 +2456,7 @@
     "id": 216,
     "name": {
       "ja": "ヒメグマ",
-      "en": ""
+      "en": "Teddiursa"
     },
     "classification": "こぐまポケモン",
     "height": "0.6",
@@ -2466,7 +2466,7 @@
     "id": 217,
     "name": {
       "ja": "リングマ",
-      "en": ""
+      "en": "Ursaring"
     },
     "classification": "とうみんポケモン",
     "height": "1.8",
@@ -2476,7 +2476,7 @@
     "id": 218,
     "name": {
       "ja": "マグマッグ",
-      "en": ""
+      "en": "Slugma"
     },
     "classification": "ようがんポケモン",
     "height": "0.7",
@@ -2486,7 +2486,7 @@
     "id": 219,
     "name": {
       "ja": "マグカルゴ",
-      "en": ""
+      "en": "Magcargo"
     },
     "classification": "ようがんポケモン",
     "height": "0.8",
@@ -2496,7 +2496,7 @@
     "id": 220,
     "name": {
       "ja": "ウリムー",
-      "en": ""
+      "en": "Swinub"
     },
     "classification": "いのぶたポケモン",
     "height": "0.4",
@@ -2506,7 +2506,7 @@
     "id": 221,
     "name": {
       "ja": "イノムー",
-      "en": ""
+      "en": "Piloswine"
     },
     "classification": "いのししポケモン",
     "height": "1.1",
@@ -2516,7 +2516,7 @@
     "id": 222,
     "name": {
       "ja": "サニーゴ",
-      "en": ""
+      "en": "Corsola"
     },
     "classification": "さんごポケモン",
     "height": "0.6",
@@ -2528,7 +2528,7 @@
     "id": 223,
     "name": {
       "ja": "テッポウオ",
-      "en": ""
+      "en": "Remoraid"
     },
     "classification": "ふんしゃポケモン",
     "height": "0.6",
@@ -2539,7 +2539,7 @@
     "id": 224,
     "name": {
       "ja": "オクタン",
-      "en": ""
+      "en": "Octillery"
     },
     "classification": "ふんしゃポケモン",
     "height": "0.9",
@@ -2550,7 +2550,7 @@
     "id": 225,
     "name": {
       "ja": "デリバード",
-      "en": ""
+      "en": "Delibird"
     },
     "classification": "はこびやポケモン",
     "height": "0.9",
@@ -2562,7 +2562,7 @@
     "id": 226,
     "name": {
       "ja": "マンタイン",
-      "en": ""
+      "en": "Mantine"
     },
     "classification": "カイトポケモン",
     "height": "2.1",
@@ -2573,7 +2573,7 @@
     "id": 227,
     "name": {
       "ja": "エアームド",
-      "en": ""
+      "en": "Skarmory"
     },
     "classification": "よろいどりポケモン",
     "height": "1.7",
@@ -2585,7 +2585,7 @@
     "id": 228,
     "name": {
       "ja": "デルビル",
-      "en": ""
+      "en": "Houndour"
     },
     "classification": "ダークポケモン",
     "height": "0.6",
@@ -2596,7 +2596,7 @@
     "id": 229,
     "name": {
       "ja": "ヘルガー",
-      "en": ""
+      "en": "Houndoom"
     },
     "classification": "ダークポケモン",
     "height": "1.4",
@@ -2607,7 +2607,7 @@
     "id": 230,
     "name": {
       "ja": "キングドラ",
-      "en": ""
+      "en": "Kingdra"
     },
     "classification": "ドラゴンポケモン",
     "height": "1.8",
@@ -2617,7 +2617,7 @@
     "id": 231,
     "name": {
       "ja": "ゴマゾウ",
-      "en": ""
+      "en": "Phanpy"
     },
     "classification": "ながはなポケモン",
     "height": "0.5",
@@ -2627,7 +2627,7 @@
     "id": 232,
     "name": {
       "ja": "ドンファン",
-      "en": ""
+      "en": "Donphan"
     },
     "classification": "よろいポケモン",
     "height": "1.1",
@@ -2637,7 +2637,7 @@
     "id": 233,
     "name": {
       "ja": "ポリゴン2",
-      "en": ""
+      "en": "Porygon2"
     },
     "classification": "バーチャルポケモン",
     "height": "0.6",
@@ -2649,7 +2649,7 @@
     "id": 234,
     "name": {
       "ja": "オドシシ",
-      "en": ""
+      "en": "Stantler"
     },
     "classification": "おおツノポケモン",
     "height": "1.4",
@@ -2659,7 +2659,7 @@
     "id": 235,
     "name": {
       "ja": "ドーブル",
-      "en": ""
+      "en": "Smeargle"
     },
     "classification": "えかきポケモン",
     "height": "1.2",
@@ -2671,7 +2671,7 @@
     "id": 236,
     "name": {
       "ja": "バルキー",
-      "en": ""
+      "en": "Tyrogue"
     },
     "classification": "けんかポケモン",
     "height": "0.7",
@@ -2681,7 +2681,7 @@
     "id": 237,
     "name": {
       "ja": "カポエラー",
-      "en": ""
+      "en": "Hitmontop"
     },
     "classification": "さかだちポケモン",
     "height": "1.4",
@@ -2691,7 +2691,7 @@
     "id": 238,
     "name": {
       "ja": "ムチュール",
-      "en": ""
+      "en": "Smoochum"
     },
     "classification": "くちづけポケモン",
     "height": "0.4",
@@ -2702,7 +2702,7 @@
     "id": 239,
     "name": {
       "ja": "エレキッド",
-      "en": ""
+      "en": "Elekid"
     },
     "classification": "でんきポケモン",
     "height": "0.6",
@@ -2714,7 +2714,7 @@
     "id": 240,
     "name": {
       "ja": "ブビィ",
-      "en": ""
+      "en": "Magby"
     },
     "classification": "ひだねポケモン",
     "height": "0.7",
@@ -2726,7 +2726,7 @@
     "id": 241,
     "name": {
       "ja": "ミルタンク",
-      "en": ""
+      "en": "Miltank"
     },
     "classification": "ちちうしポケモン",
     "height": "1.2",
@@ -2738,7 +2738,7 @@
     "id": 242,
     "name": {
       "ja": "ハピナス",
-      "en": ""
+      "en": "Blissey"
     },
     "classification": "しあわせポケモン",
     "height": "1.5",
@@ -2750,7 +2750,7 @@
     "id": 243,
     "name": {
       "ja": "ライコウ",
-      "en": ""
+      "en": "Raikou"
     },
     "classification": "いかずちポケモン",
     "height": "1.9",
@@ -2760,7 +2760,7 @@
     "id": 244,
     "name": {
       "ja": "エンテイ",
-      "en": ""
+      "en": "Entei"
     },
     "classification": "かざんポケモン",
     "height": "2.1",
@@ -2770,7 +2770,7 @@
     "id": 245,
     "name": {
       "ja": "スイクン",
-      "en": ""
+      "en": "Suicune"
     },
     "classification": "オーロラポケモン",
     "height": "2.0",
@@ -2780,7 +2780,7 @@
     "id": 246,
     "name": {
       "ja": "ヨーギラス",
-      "en": ""
+      "en": "Larvitar"
     },
     "classification": "いわはだポケモン",
     "height": "0.6",
@@ -2791,7 +2791,7 @@
     "id": 247,
     "name": {
       "ja": "サナギラス",
-      "en": ""
+      "en": "Pupitar"
     },
     "classification": "だんがんポケモン",
     "height": "1.2",
@@ -2802,7 +2802,7 @@
     "id": 248,
     "name": {
       "ja": "バンギラス",
-      "en": ""
+      "en": "Tyranitar"
     },
     "classification": "よろいポケモン",
     "height": "2.0",
@@ -2813,7 +2813,7 @@
     "id": 249,
     "name": {
       "ja": "ルギア",
-      "en": ""
+      "en": "Lugia"
     },
     "classification": "せんすいポケモン",
     "height": "5.2",
@@ -2823,7 +2823,7 @@
     "id": 250,
     "name": {
       "ja": "ホウオウ",
-      "en": ""
+      "en": "Ho-oh"
     },
     "classification": "にじいろポケモン",
     "height": "3.8",
@@ -2833,7 +2833,7 @@
     "id": 251,
     "name": {
       "ja": "セレビィ",
-      "en": ""
+      "en": "Celebi"
     },
     "classification": "ときわたりポケモン",
     "height": "0.6",
@@ -2843,7 +2843,7 @@
     "id": 252,
     "name": {
       "ja": "キモリ",
-      "en": ""
+      "en": "Treecko"
     },
     "classification": "もりトカゲポケモン",
     "height": "0.5",
@@ -2853,7 +2853,7 @@
     "id": 253,
     "name": {
       "ja": "ジュプトル",
-      "en": ""
+      "en": "Grovyle"
     },
     "classification": "もりトカゲポケモン",
     "height": "0.9",
@@ -2863,7 +2863,7 @@
     "id": 254,
     "name": {
       "ja": "ジュカイン",
-      "en": ""
+      "en": "Sceptile"
     },
     "classification": "みつりんポケモン",
     "height": "1.7",
@@ -2873,7 +2873,7 @@
     "id": 255,
     "name": {
       "ja": "アチャモ",
-      "en": ""
+      "en": "Torchic"
     },
     "classification": "ひよこポケモン",
     "height": "0.4",
@@ -2883,7 +2883,7 @@
     "id": 256,
     "name": {
       "ja": "ワカシャモ",
-      "en": ""
+      "en": "Combusken"
     },
     "classification": "わかどりポケモン",
     "height": "0.9",
@@ -2893,7 +2893,7 @@
     "id": 257,
     "name": {
       "ja": "バシャーモ",
-      "en": ""
+      "en": "Blaziken"
     },
     "classification": "もうかポケモン",
     "height": "1.9",
@@ -2903,7 +2903,7 @@
     "id": 258,
     "name": {
       "ja": "ミズゴロウ",
-      "en": ""
+      "en": "Mudkip"
     },
     "classification": "ぬまうおポケモン",
     "height": "0.4",
@@ -2913,7 +2913,7 @@
     "id": 259,
     "name": {
       "ja": "ヌマクロー",
-      "en": ""
+      "en": "Marshtomp"
     },
     "classification": "ぬまうおポケモン",
     "height": "0.7",
@@ -2923,7 +2923,7 @@
     "id": 260,
     "name": {
       "ja": "ラグラージ",
-      "en": ""
+      "en": "Swampert"
     },
     "classification": "ぬまうおポケモン",
     "height": "1.5",
@@ -2933,7 +2933,7 @@
     "id": 261,
     "name": {
       "ja": "ポチエナ",
-      "en": ""
+      "en": "Poochyena"
     },
     "classification": "かみつきポケモン",
     "height": "0.5",
@@ -2943,7 +2943,7 @@
     "id": 262,
     "name": {
       "ja": "グラエナ",
-      "en": ""
+      "en": "Mightyena"
     },
     "classification": "かみつきポケモン",
     "height": "1.0",
@@ -2953,7 +2953,7 @@
     "id": 263,
     "name": {
       "ja": "ジグザグマ",
-      "en": ""
+      "en": "Zigzagoon"
     },
     "classification": "まめだぬきポケモン",
     "height": "0.4",
@@ -2963,7 +2963,7 @@
     "id": 264,
     "name": {
       "ja": "マッスグマ",
-      "en": ""
+      "en": "Linoone"
     },
     "classification": "とっしんポケモン",
     "height": "0.5",
@@ -2973,7 +2973,7 @@
     "id": 265,
     "name": {
       "ja": "ケムッソ",
-      "en": ""
+      "en": "Wurmple"
     },
     "classification": "いもむしポケモン",
     "height": "0.3",
@@ -2983,7 +2983,7 @@
     "id": 266,
     "name": {
       "ja": "カラサリス",
-      "en": ""
+      "en": "Silcoon"
     },
     "classification": "さなぎポケモン",
     "height": "0.6",
@@ -2993,7 +2993,7 @@
     "id": 267,
     "name": {
       "ja": "アゲハント",
-      "en": ""
+      "en": "Beautifly"
     },
     "classification": "ちょうちょポケモン",
     "height": "1.0",
@@ -3003,7 +3003,7 @@
     "id": 268,
     "name": {
       "ja": "マユルド",
-      "en": ""
+      "en": "Cascoon"
     },
     "classification": "さなぎポケモン",
     "height": "0.7",
@@ -3013,7 +3013,7 @@
     "id": 269,
     "name": {
       "ja": "ドクケイル",
-      "en": ""
+      "en": "Dustox"
     },
     "classification": "どくがポケモン",
     "height": "1.2",
@@ -3023,7 +3023,7 @@
     "id": 270,
     "name": {
       "ja": "ハスボー",
-      "en": ""
+      "en": "Lotad"
     },
     "classification": "うきくさポケモン",
     "height": "0.5",
@@ -3033,7 +3033,7 @@
     "id": 271,
     "name": {
       "ja": "ハスブレロ",
-      "en": ""
+      "en": "Lombre"
     },
     "classification": "ようきポケモン",
     "height": "1.2",
@@ -3043,7 +3043,7 @@
     "id": 272,
     "name": {
       "ja": "ルンパッパ",
-      "en": ""
+      "en": "Ludicolo"
     },
     "classification": "のうてんきポケモン",
     "height": "1.5",
@@ -3053,7 +3053,7 @@
     "id": 273,
     "name": {
       "ja": "タネボー",
-      "en": ""
+      "en": "Seedot"
     },
     "classification": "どんぐりポケモン",
     "height": "0.5",
@@ -3063,7 +3063,7 @@
     "id": 274,
     "name": {
       "ja": "コノハナ",
-      "en": ""
+      "en": "Nuzleaf"
     },
     "classification": "いじわるポケモン",
     "height": "1.0",
@@ -3073,7 +3073,7 @@
     "id": 275,
     "name": {
       "ja": "ダーテング",
-      "en": ""
+      "en": "Shiftry"
     },
     "classification": "よこしまポケモン",
     "height": "1.3",
@@ -3083,7 +3083,7 @@
     "id": 276,
     "name": {
       "ja": "スバメ",
-      "en": ""
+      "en": "Taillow"
     },
     "classification": "こツバメポケモン",
     "height": "0.3",
@@ -3093,7 +3093,7 @@
     "id": 277,
     "name": {
       "ja": "オオスバメ",
-      "en": ""
+      "en": "Swellow"
     },
     "classification": "ツバメポケモン",
     "height": "0.7",
@@ -3103,7 +3103,7 @@
     "id": 278,
     "name": {
       "ja": "キャモメ",
-      "en": ""
+      "en": "Wingull"
     },
     "classification": "うみねこポケモン",
     "height": "0.6",
@@ -3115,7 +3115,7 @@
     "id": 279,
     "name": {
       "ja": "ペリッパー",
-      "en": ""
+      "en": "Pelipper"
     },
     "classification": "みずどりポケモン",
     "height": "1.2",
@@ -3127,7 +3127,7 @@
     "id": 280,
     "name": {
       "ja": "ラルトス",
-      "en": ""
+      "en": "Ralts"
     },
     "classification": "きもちポケモン",
     "height": "0.4",
@@ -3137,7 +3137,7 @@
     "id": 281,
     "name": {
       "ja": "キルリア",
-      "en": ""
+      "en": "Kirlia"
     },
     "classification": "かんじょうポケモン",
     "height": "0.8",
@@ -3147,7 +3147,7 @@
     "id": 282,
     "name": {
       "ja": "サーナイト",
-      "en": ""
+      "en": "Gardevoir"
     },
     "classification": "ほうようポケモン",
     "height": "1.6",
@@ -3157,7 +3157,7 @@
     "id": 283,
     "name": {
       "ja": "アメタマ",
-      "en": ""
+      "en": "Surskit"
     },
     "classification": "あめんぼポケモン",
     "height": "0.5",
@@ -3169,7 +3169,7 @@
     "id": 284,
     "name": {
       "ja": "アメモース",
-      "en": ""
+      "en": "Masquerain"
     },
     "classification": "めだまポケモン",
     "height": "0.8",
@@ -3181,7 +3181,7 @@
     "id": 285,
     "name": {
       "ja": "キノココ",
-      "en": ""
+      "en": "Shroomish"
     },
     "classification": "きのこポケモン",
     "height": "0.4",
@@ -3191,7 +3191,7 @@
     "id": 286,
     "name": {
       "ja": "キノガッサ",
-      "en": ""
+      "en": "Breloom"
     },
     "classification": "きのこポケモン",
     "height": "1.2",
@@ -3201,7 +3201,7 @@
     "id": 287,
     "name": {
       "ja": "ナマケロ",
-      "en": ""
+      "en": "Slakoth"
     },
     "classification": "なまけものポケモン",
     "height": "0.8",
@@ -3211,7 +3211,7 @@
     "id": 288,
     "name": {
       "ja": "ヤルキモノ",
-      "en": ""
+      "en": "Vigoroth"
     },
     "classification": "あばれザルポケモン",
     "height": "1.4",
@@ -3221,7 +3221,7 @@
     "id": 289,
     "name": {
       "ja": "ケッキング",
-      "en": ""
+      "en": "Slaking"
     },
     "classification": "ものぐさポケモン",
     "height": "2.0",
@@ -3231,7 +3231,7 @@
     "id": 290,
     "name": {
       "ja": "ツチニン",
-      "en": ""
+      "en": "Nincada"
     },
     "classification": "したづみポケモン",
     "height": "0.5",
@@ -3241,7 +3241,7 @@
     "id": 291,
     "name": {
       "ja": "テッカニン",
-      "en": ""
+      "en": "Ninjask"
     },
     "classification": "しのびポケモン",
     "height": "0.8",
@@ -3251,7 +3251,7 @@
     "id": 292,
     "name": {
       "ja": "ヌケニン",
-      "en": ""
+      "en": "Shedinja"
     },
     "classification": "ぬけがらポケモン",
     "height": "0.8",
@@ -3261,7 +3261,7 @@
     "id": 293,
     "name": {
       "ja": "ゴニョニョ",
-      "en": ""
+      "en": "Whismur"
     },
     "classification": "ささやきポケモン",
     "height": "0.6",
@@ -3271,7 +3271,7 @@
     "id": 294,
     "name": {
       "ja": "ドゴーム",
-      "en": ""
+      "en": "Loudred"
     },
     "classification": "おおごえポケモン",
     "height": "1.0",
@@ -3281,7 +3281,7 @@
     "id": 295,
     "name": {
       "ja": "バクオング",
-      "en": ""
+      "en": "Exploud"
     },
     "classification": "そうおんポケモン",
     "height": "1.5",
@@ -3291,7 +3291,7 @@
     "id": 296,
     "name": {
       "ja": "マクノシタ",
-      "en": ""
+      "en": "Makuhita"
     },
     "classification": "こんじょうポケモン",
     "height": "1.0",
@@ -3303,7 +3303,7 @@
     "id": 297,
     "name": {
       "ja": "ハリテヤマ",
-      "en": ""
+      "en": "Hariyama"
     },
     "classification": "つっぱりポケモン",
     "height": "2.3",
@@ -3315,7 +3315,7 @@
     "id": 298,
     "name": {
       "ja": "ルリリ",
-      "en": ""
+      "en": "Azurill"
     },
     "classification": "みずたまポケモン",
     "height": "0.2",
@@ -3325,7 +3325,7 @@
     "id": 299,
     "name": {
       "ja": "ノズパス",
-      "en": ""
+      "en": "Nosepass"
     },
     "classification": "コンパスポケモン",
     "height": "1.0",
@@ -3337,7 +3337,7 @@
     "id": 300,
     "name": {
       "ja": "エネコ",
-      "en": ""
+      "en": "Skitty"
     },
     "classification": "こねこポケモン",
     "height": "0.6",
@@ -3347,7 +3347,7 @@
     "id": 301,
     "name": {
       "ja": "エネコロロ",
-      "en": ""
+      "en": "Delcatty"
     },
     "classification": "おすましポケモン",
     "height": "1.1",
@@ -3357,7 +3357,7 @@
     "id": 302,
     "name": {
       "ja": "ヤミラミ",
-      "en": ""
+      "en": "Sableye"
     },
     "classification": "くらやみポケモン",
     "height": "0.5",
@@ -3369,7 +3369,7 @@
     "id": 303,
     "name": {
       "ja": "クチート",
-      "en": ""
+      "en": "Mawile"
     },
     "classification": "あざむきポケモン",
     "height": "0.6",
@@ -3380,7 +3380,7 @@
     "id": 304,
     "name": {
       "ja": "ココドラ",
-      "en": ""
+      "en": "Aron"
     },
     "classification": "てつヨロイポケモン",
     "height": "0.4",
@@ -3390,7 +3390,7 @@
     "id": 305,
     "name": {
       "ja": "コドラ",
-      "en": ""
+      "en": "Lairon"
     },
     "classification": "てつヨロイポケモン",
     "height": "0.9",
@@ -3400,7 +3400,7 @@
     "id": 306,
     "name": {
       "ja": "ボスゴドラ",
-      "en": ""
+      "en": "Aggron"
     },
     "classification": "てつヨロイポケモン",
     "height": "2.1",
@@ -3410,7 +3410,7 @@
     "id": 307,
     "name": {
       "ja": "アサナン",
-      "en": ""
+      "en": "Meditite"
     },
     "classification": "めいそうポケモン",
     "height": "0.6",
@@ -3420,7 +3420,7 @@
     "id": 308,
     "name": {
       "ja": "チャーレム",
-      "en": ""
+      "en": "Medicham"
     },
     "classification": "めいそうポケモン",
     "height": "1.3",
@@ -3430,7 +3430,7 @@
     "id": 309,
     "name": {
       "ja": "ラクライ",
-      "en": ""
+      "en": "Electrike"
     },
     "classification": "いなずまポケモン",
     "height": "0.6",
@@ -3441,7 +3441,7 @@
     "id": 310,
     "name": {
       "ja": "ライボルト",
-      "en": ""
+      "en": "Manectric"
     },
     "classification": "ほうでんポケモン",
     "height": "1.5",
@@ -3452,7 +3452,7 @@
     "id": 311,
     "name": {
       "ja": "プラスル",
-      "en": ""
+      "en": "Plusle"
     },
     "classification": "おうえんポケモン",
     "height": "0.4",
@@ -3462,7 +3462,7 @@
     "id": 312,
     "name": {
       "ja": "マイナン",
-      "en": ""
+      "en": "Minun"
     },
     "classification": "おうえんポケモン",
     "height": "0.4",
@@ -3472,7 +3472,7 @@
     "id": 313,
     "name": {
       "ja": "バルビート",
-      "en": ""
+      "en": "Volbeat"
     },
     "classification": "ほたるポケモン",
     "height": "0.7",
@@ -3482,7 +3482,7 @@
     "id": 314,
     "name": {
       "ja": "イルミーゼ",
-      "en": ""
+      "en": "Illumise"
     },
     "classification": "ほたるポケモン",
     "height": "0.6",
@@ -3492,7 +3492,7 @@
     "id": 315,
     "name": {
       "ja": "ロゼリア",
-      "en": ""
+      "en": "Roselia"
     },
     "classification": "いばらポケモン",
     "height": "0.3",
@@ -3502,7 +3502,7 @@
     "id": 316,
     "name": {
       "ja": "ゴクリン",
-      "en": ""
+      "en": "Gulpin"
     },
     "classification": "いぶくろポケモン",
     "height": "0.4",
@@ -3512,7 +3512,7 @@
     "id": 317,
     "name": {
       "ja": "マルノーム",
-      "en": ""
+      "en": "Swalot"
     },
     "classification": "どくぶくろポケモン",
     "height": "1.7",
@@ -3522,7 +3522,7 @@
     "id": 318,
     "name": {
       "ja": "キバニア",
-      "en": ""
+      "en": "Carvanha"
     },
     "classification": "どうもうポケモン",
     "height": "0.8",
@@ -3534,7 +3534,7 @@
     "id": 319,
     "name": {
       "ja": "サメハダー",
-      "en": ""
+      "en": "Sharpedo"
     },
     "classification": "きょうぼうポケモン",
     "height": "1.8",
@@ -3546,7 +3546,7 @@
     "id": 320,
     "name": {
       "ja": "ホエルコ",
-      "en": ""
+      "en": "Wailmer"
     },
     "classification": "たまくじらポケモン",
     "height": "2.0",
@@ -3558,7 +3558,7 @@
     "id": 321,
     "name": {
       "ja": "ホエルオー",
-      "en": ""
+      "en": "Wailord"
     },
     "classification": "うきくじらポケモン",
     "height": "14.5",
@@ -3570,7 +3570,7 @@
     "id": 322,
     "name": {
       "ja": "ドンメル",
-      "en": ""
+      "en": "Numel"
     },
     "classification": "どんかんポケモン",
     "height": "0.7",
@@ -3580,7 +3580,7 @@
     "id": 323,
     "name": {
       "ja": "バクーダ",
-      "en": ""
+      "en": "Camerupt"
     },
     "classification": "ふんかポケモン",
     "height": "1.9",
@@ -3590,7 +3590,7 @@
     "id": 324,
     "name": {
       "ja": "コータス",
-      "en": ""
+      "en": "Torkoal"
     },
     "classification": "せきたんポケモン",
     "height": "0.5",
@@ -3602,7 +3602,7 @@
     "id": 325,
     "name": {
       "ja": "バネブー",
-      "en": ""
+      "en": "Spoink"
     },
     "classification": "とびはねポケモン",
     "height": "0.7",
@@ -3612,7 +3612,7 @@
     "id": 326,
     "name": {
       "ja": "ブーピッグ",
-      "en": ""
+      "en": "Grumpig"
     },
     "classification": "あやつりポケモン",
     "height": "0.9",
@@ -3622,7 +3622,7 @@
     "id": 327,
     "name": {
       "ja": "パッチール",
-      "en": ""
+      "en": "Spinda"
     },
     "classification": "ぶちパンダポケモン",
     "height": "1.1",
@@ -3634,7 +3634,7 @@
     "id": 328,
     "name": {
       "ja": "ナックラー",
-      "en": ""
+      "en": "Trapinch"
     },
     "classification": "ありじごくポケモン",
     "height": "0.7",
@@ -3646,7 +3646,7 @@
     "id": 329,
     "name": {
       "ja": "ビブラーバ",
-      "en": ""
+      "en": "Vibrava"
     },
     "classification": "しんどうポケモン",
     "height": "1.1",
@@ -3658,7 +3658,7 @@
     "id": 330,
     "name": {
       "ja": "フライゴン",
-      "en": ""
+      "en": "Flygon"
     },
     "classification": "せいれいポケモン",
     "height": "2.0",
@@ -3670,7 +3670,7 @@
     "id": 331,
     "name": {
       "ja": "サボネア",
-      "en": ""
+      "en": "Cacnea"
     },
     "classification": "サボテンポケモン",
     "height": "0.4",
@@ -3680,7 +3680,7 @@
     "id": 332,
     "name": {
       "ja": "ノクタス",
-      "en": ""
+      "en": "Cacturne"
     },
     "classification": "カカシぐさポケモン",
     "height": "1.3",
@@ -3690,7 +3690,7 @@
     "id": 333,
     "name": {
       "ja": "チルット",
-      "en": ""
+      "en": "Swablu"
     },
     "classification": "わたどりポケモン",
     "height": "0.4",
@@ -3700,7 +3700,7 @@
     "id": 334,
     "name": {
       "ja": "チルタリス",
-      "en": ""
+      "en": "Altaria"
     },
     "classification": "ハミングポケモン",
     "height": "1.1",
@@ -3710,7 +3710,7 @@
     "id": 335,
     "name": {
       "ja": "ザングース",
-      "en": ""
+      "en": "Zangoose"
     },
     "classification": "ネコイタチポケモン",
     "height": "1.3",
@@ -3720,7 +3720,7 @@
     "id": 336,
     "name": {
       "ja": "ハブネーク",
-      "en": ""
+      "en": "Seviper"
     },
     "classification": "キバへびポケモン",
     "height": "2.7",
@@ -3730,7 +3730,7 @@
     "id": 337,
     "name": {
       "ja": "ルナトーン",
-      "en": ""
+      "en": "Lunatone"
     },
     "classification": "いんせきポケモン",
     "height": "1.0",
@@ -3740,7 +3740,7 @@
     "id": 338,
     "name": {
       "ja": "ソルロック",
-      "en": ""
+      "en": "Solrock"
     },
     "classification": "いんせきポケモン",
     "height": "1.2",
@@ -3750,7 +3750,7 @@
     "id": 339,
     "name": {
       "ja": "ドジョッチ",
-      "en": ""
+      "en": "Barboach"
     },
     "classification": "ひげうおポケモン",
     "height": "0.4",
@@ -3762,7 +3762,7 @@
     "id": 340,
     "name": {
       "ja": "ナマズン",
-      "en": ""
+      "en": "Whiscash"
     },
     "classification": "ひげうおポケモン",
     "height": "0.9",
@@ -3774,7 +3774,7 @@
     "id": 341,
     "name": {
       "ja": "ヘイガニ",
-      "en": ""
+      "en": "Corphish"
     },
     "classification": "ごろつきポケモン",
     "height": "0.6",
@@ -3785,7 +3785,7 @@
     "id": 342,
     "name": {
       "ja": "シザリガー",
-      "en": ""
+      "en": "Crawdaunt"
     },
     "classification": "ならずものポケモン",
     "height": "1.1",
@@ -3796,7 +3796,7 @@
     "id": 343,
     "name": {
       "ja": "ヤジロン",
-      "en": ""
+      "en": "Baltoy"
     },
     "classification": "どぐうポケモン",
     "height": "0.5",
@@ -3807,7 +3807,7 @@
     "id": 344,
     "name": {
       "ja": "ネンドール",
-      "en": ""
+      "en": "Claydol"
     },
     "classification": "どぐうポケモン",
     "height": "1.5",
@@ -3818,7 +3818,7 @@
     "id": 345,
     "name": {
       "ja": "リリーラ",
-      "en": ""
+      "en": "Lileep"
     },
     "classification": "ウミユリポケモン",
     "height": "1.0",
@@ -3829,7 +3829,7 @@
     "id": 346,
     "name": {
       "ja": "ユレイドル",
-      "en": ""
+      "en": "Cradily"
     },
     "classification": "いわつぼポケモン",
     "height": "1.5",
@@ -3840,7 +3840,7 @@
     "id": 347,
     "name": {
       "ja": "アノプス",
-      "en": ""
+      "en": "Anorith"
     },
     "classification": "むかしエビポケモン",
     "height": "0.7",
@@ -3851,7 +3851,7 @@
     "id": 348,
     "name": {
       "ja": "アーマルド",
-      "en": ""
+      "en": "Armaldo"
     },
     "classification": "かっちゅうポケモン",
     "height": "1.5",
@@ -3862,7 +3862,7 @@
     "id": 349,
     "name": {
       "ja": "ヒンバス",
-      "en": ""
+      "en": "Feebas"
     },
     "classification": "さかなポケモン",
     "height": "0.6",
@@ -3874,7 +3874,7 @@
     "id": 350,
     "name": {
       "ja": "ミロカロス",
-      "en": ""
+      "en": "Milotic"
     },
     "classification": "いつくしみポケモン",
     "height": "6.2",
@@ -3886,7 +3886,7 @@
     "id": 351,
     "name": {
       "ja": "ポワルン",
-      "en": ""
+      "en": "Castform"
     },
     "classification": "てんきポケモン",
     "height": "0.3",
@@ -3898,7 +3898,7 @@
     "id": 352,
     "name": {
       "ja": "カクレオン",
-      "en": ""
+      "en": "Kecleon"
     },
     "classification": "いろへんげポケモン",
     "height": "1.0",
@@ -3909,7 +3909,7 @@
     "id": 353,
     "name": {
       "ja": "カゲボウズ",
-      "en": ""
+      "en": "Shuppet"
     },
     "classification": "にんぎょうポケモン",
     "height": "0.6",
@@ -3920,7 +3920,7 @@
     "id": 354,
     "name": {
       "ja": "ジュペッタ",
-      "en": ""
+      "en": "Banette"
     },
     "classification": "ぬいぐるみポケモン",
     "height": "1.1",
@@ -3931,7 +3931,7 @@
     "id": 355,
     "name": {
       "ja": "ヨマワル",
-      "en": ""
+      "en": "Duskull"
     },
     "classification": "おむかえポケモン",
     "height": "0.8",
@@ -3941,7 +3941,7 @@
     "id": 356,
     "name": {
       "ja": "サマヨール",
-      "en": ""
+      "en": "Dusclops"
     },
     "classification": "てまねきポケモン",
     "height": "1.6",
@@ -3951,7 +3951,7 @@
     "id": 357,
     "name": {
       "ja": "トロピウス",
-      "en": ""
+      "en": "Tropius"
     },
     "classification": "フルーツポケモン",
     "height": "2.0",
@@ -3962,7 +3962,7 @@
     "id": 358,
     "name": {
       "ja": "チリーン",
-      "en": ""
+      "en": "Chimecho"
     },
     "classification": "ふうりんポケモン",
     "height": "0.6",
@@ -3972,7 +3972,7 @@
     "id": 359,
     "name": {
       "ja": "アブソル",
-      "en": ""
+      "en": "Absol"
     },
     "classification": "わざわいポケモン",
     "height": "1.2",
@@ -3984,7 +3984,7 @@
     "id": 360,
     "name": {
       "ja": "ソーナノ",
-      "en": ""
+      "en": "Wynaut"
     },
     "classification": "ほがらかポケモン",
     "height": "0.6",
@@ -3994,7 +3994,7 @@
     "id": 361,
     "name": {
       "ja": "ユキワラシ",
-      "en": ""
+      "en": "Snorunt"
     },
     "classification": "ゆきかさポケモン",
     "height": "0.7",
@@ -4006,7 +4006,7 @@
     "id": 362,
     "name": {
       "ja": "オニゴーリ",
-      "en": ""
+      "en": "Glalie"
     },
     "classification": "がんめんポケモン",
     "height": "1.5",
@@ -4018,7 +4018,7 @@
     "id": 363,
     "name": {
       "ja": "タマザラシ",
-      "en": ""
+      "en": "Spheal"
     },
     "classification": "てたたきポケモン",
     "height": "0.8",
@@ -4028,7 +4028,7 @@
     "id": 364,
     "name": {
       "ja": "トドグラー",
-      "en": ""
+      "en": "Sealeo"
     },
     "classification": "たままわしポケモン",
     "height": "1.1",
@@ -4038,7 +4038,7 @@
     "id": 365,
     "name": {
       "ja": "トドゼルガ",
-      "en": ""
+      "en": "Walrein"
     },
     "classification": "こおりわりポケモン",
     "height": "1.4",
@@ -4048,7 +4048,7 @@
     "id": 366,
     "name": {
       "ja": "パールル",
-      "en": ""
+      "en": "Clamperl"
     },
     "classification": "2まいがいポケモン",
     "height": "0.4",
@@ -4059,7 +4059,7 @@
     "id": 367,
     "name": {
       "ja": "ハンテール",
-      "en": ""
+      "en": "Huntail"
     },
     "classification": "しんかいポケモン",
     "height": "1.7",
@@ -4070,7 +4070,7 @@
     "id": 368,
     "name": {
       "ja": "サクラビス",
-      "en": ""
+      "en": "Gorebyss"
     },
     "classification": "なんかいポケモン",
     "height": "1.8",
@@ -4081,7 +4081,7 @@
     "id": 369,
     "name": {
       "ja": "ジーランス",
-      "en": ""
+      "en": "Relicanth"
     },
     "classification": "ちょうじゅポケモン",
     "height": "1.0",
@@ -4093,7 +4093,7 @@
     "id": 370,
     "name": {
       "ja": "ラブカス",
-      "en": ""
+      "en": "Luvdisc"
     },
     "classification": "ランデブーポケモン",
     "height": "0.6",
@@ -4105,7 +4105,7 @@
     "id": 371,
     "name": {
       "ja": "タツベイ",
-      "en": ""
+      "en": "Bagon"
     },
     "classification": "いしあたまポケモン",
     "height": "0.6",
@@ -4117,7 +4117,7 @@
     "id": 372,
     "name": {
       "ja": "コモルー",
-      "en": ""
+      "en": "Shelgon"
     },
     "classification": "にんたいポケモン",
     "height": "1.1",
@@ -4129,7 +4129,7 @@
     "id": 373,
     "name": {
       "ja": "ボーマンダ",
-      "en": ""
+      "en": "Salamence"
     },
     "classification": "ドラゴンポケモン",
     "height": "1.5",
@@ -4141,7 +4141,7 @@
     "id": 374,
     "name": {
       "ja": "ダンバル",
-      "en": ""
+      "en": "Beldum"
     },
     "classification": "てっきゅうポケモン",
     "height": "0.6",
@@ -4153,7 +4153,7 @@
     "id": 375,
     "name": {
       "ja": "メタング",
-      "en": ""
+      "en": "Metang"
     },
     "classification": "てつツメポケモン",
     "height": "1.2",
@@ -4165,7 +4165,7 @@
     "id": 376,
     "name": {
       "ja": "メタグロス",
-      "en": ""
+      "en": "Metagross"
     },
     "classification": "てつあしポケモン",
     "height": "1.6",
@@ -4177,7 +4177,7 @@
     "id": 377,
     "name": {
       "ja": "レジロック",
-      "en": ""
+      "en": "Regirock"
     },
     "classification": "いわやまポケモン",
     "height": "1.7",
@@ -4187,7 +4187,7 @@
     "id": 378,
     "name": {
       "ja": "レジアイス",
-      "en": ""
+      "en": "Regice"
     },
     "classification": "ひょうざんポケモン",
     "height": "1.8",
@@ -4197,7 +4197,7 @@
     "id": 379,
     "name": {
       "ja": "レジスチル",
-      "en": ""
+      "en": "Registeel"
     },
     "classification": "くろがねポケモン",
     "height": "1.9",
@@ -4207,7 +4207,7 @@
     "id": 380,
     "name": {
       "ja": "ラティアス",
-      "en": ""
+      "en": "Latias"
     },
     "classification": "むげんポケモン",
     "height": "1.4",
@@ -4217,7 +4217,7 @@
     "id": 381,
     "name": {
       "ja": "ラティオス",
-      "en": ""
+      "en": "Latios"
     },
     "classification": "むげんポケモン",
     "height": "2.0",
@@ -4227,7 +4227,7 @@
     "id": 382,
     "name": {
       "ja": "カイオーガ",
-      "en": ""
+      "en": "Kyogre"
     },
     "classification": "かいていポケモン",
     "height": "4.5",
@@ -4237,7 +4237,7 @@
     "id": 383,
     "name": {
       "ja": "グラードン",
-      "en": ""
+      "en": "Groudon"
     },
     "classification": "たいりくポケモン",
     "height": "3.5",
@@ -4247,7 +4247,7 @@
     "id": 384,
     "name": {
       "ja": "レックウザ",
-      "en": ""
+      "en": "Rayquaza"
     },
     "classification": "てんくうポケモン",
     "height": "7.0",
@@ -4257,7 +4257,7 @@
     "id": 385,
     "name": {
       "ja": "ジラーチ",
-      "en": ""
+      "en": "Jirachi"
     },
     "classification": "ねがいごとポケモン",
     "height": "0.3",
@@ -4267,7 +4267,7 @@
     "id": 386,
     "name": {
       "ja": "デオキシス",
-      "en": ""
+      "en": "Deoxys"
     },
     "classification": "DNAポケモン",
     "height": "1.7",
@@ -4277,7 +4277,7 @@
     "id": 387,
     "name": {
       "ja": "ナエトル",
-      "en": ""
+      "en": "Turtwig"
     },
     "classification": "わかばポケモン",
     "height": "0.4",
@@ -4287,7 +4287,7 @@
     "id": 388,
     "name": {
       "ja": "ハヤシガメ",
-      "en": ""
+      "en": "Grotle"
     },
     "classification": "こだちポケモン",
     "height": "1.1",
@@ -4297,7 +4297,7 @@
     "id": 389,
     "name": {
       "ja": "ドダイトス",
-      "en": ""
+      "en": "Torterra"
     },
     "classification": "たいりくポケモン",
     "height": "2.2",
@@ -4307,7 +4307,7 @@
     "id": 390,
     "name": {
       "ja": "ヒコザル",
-      "en": ""
+      "en": "Chimchar"
     },
     "classification": "こざるポケモン",
     "height": "0.5",
@@ -4317,7 +4317,7 @@
     "id": 391,
     "name": {
       "ja": "モウカザル",
-      "en": ""
+      "en": "Monferno"
     },
     "classification": "やんちゃポケモン",
     "height": "0.9",
@@ -4327,7 +4327,7 @@
     "id": 392,
     "name": {
       "ja": "ゴウカザル",
-      "en": ""
+      "en": "Infernape"
     },
     "classification": "かえんポケモン",
     "height": "1.2",
@@ -4337,7 +4337,7 @@
     "id": 393,
     "name": {
       "ja": "ポッチャマ",
-      "en": ""
+      "en": "Piplup"
     },
     "classification": "ペンギンポケモン",
     "height": "0.4",
@@ -4347,7 +4347,7 @@
     "id": 394,
     "name": {
       "ja": "ポッタイシ",
-      "en": ""
+      "en": "Prinplup"
     },
     "classification": "ペンギンポケモン",
     "height": "0.8",
@@ -4357,7 +4357,7 @@
     "id": 395,
     "name": {
       "ja": "エンペルト",
-      "en": ""
+      "en": "Empoleon"
     },
     "classification": "こうていポケモン",
     "height": "1.7",
@@ -4367,7 +4367,7 @@
     "id": 396,
     "name": {
       "ja": "ムックル",
-      "en": ""
+      "en": "Starly"
     },
     "classification": "むくどりポケモン",
     "height": "0.3",
@@ -4377,7 +4377,7 @@
     "id": 397,
     "name": {
       "ja": "ムクバード",
-      "en": ""
+      "en": "Staravia"
     },
     "classification": "むくどりポケモン",
     "height": "0.6",
@@ -4387,7 +4387,7 @@
     "id": 398,
     "name": {
       "ja": "ムクホーク",
-      "en": ""
+      "en": "Staraptor"
     },
     "classification": "もうきんポケモン",
     "height": "1.2",
@@ -4397,7 +4397,7 @@
     "id": 399,
     "name": {
       "ja": "ビッパ",
-      "en": ""
+      "en": "Bidoof"
     },
     "classification": "まるねずみポケモン",
     "height": "0.5",
@@ -4407,7 +4407,7 @@
     "id": 400,
     "name": {
       "ja": "ビーダル",
-      "en": ""
+      "en": "Bibarel"
     },
     "classification": "ビーバーポケモン",
     "height": "1.0",
@@ -4417,7 +4417,7 @@
     "id": 401,
     "name": {
       "ja": "コロボーシ",
-      "en": ""
+      "en": "Kricketot"
     },
     "classification": "こおろぎポケモン",
     "height": "0.3",
@@ -4427,7 +4427,7 @@
     "id": 402,
     "name": {
       "ja": "コロトック",
-      "en": ""
+      "en": "Kricketune"
     },
     "classification": "こおろぎポケモン",
     "height": "1.0",
@@ -4437,7 +4437,7 @@
     "id": 403,
     "name": {
       "ja": "コリンク",
-      "en": ""
+      "en": "Shinx"
     },
     "classification": "せんこうポケモン",
     "height": "0.5",
@@ -4447,7 +4447,7 @@
     "id": 404,
     "name": {
       "ja": "ルクシオ",
-      "en": ""
+      "en": "Luxio"
     },
     "classification": "でんこうポケモン",
     "height": "0.9",
@@ -4457,7 +4457,7 @@
     "id": 405,
     "name": {
       "ja": "レントラー",
-      "en": ""
+      "en": "Luxray"
     },
     "classification": "がんこうポケモン",
     "height": "1.4",
@@ -4467,7 +4467,7 @@
     "id": 406,
     "name": {
       "ja": "スボミー",
-      "en": ""
+      "en": "Budew"
     },
     "classification": "つぼみポケモン",
     "height": "0.2",
@@ -4477,7 +4477,7 @@
     "id": 407,
     "name": {
       "ja": "ロズレイド",
-      "en": ""
+      "en": "Roserade"
     },
     "classification": "ブーケポケモン",
     "height": "0.9",
@@ -4487,7 +4487,7 @@
     "id": 408,
     "name": {
       "ja": "ズガイドス",
-      "en": ""
+      "en": "Cranidos"
     },
     "classification": "ずつきポケモン",
     "height": "0.9",
@@ -4499,7 +4499,7 @@
     "id": 409,
     "name": {
       "ja": "ラムパルド",
-      "en": ""
+      "en": "Rampardos"
     },
     "classification": "ずつきポケモン",
     "height": "1.6",
@@ -4511,7 +4511,7 @@
     "id": 410,
     "name": {
       "ja": "タテトプス",
-      "en": ""
+      "en": "Shieldon"
     },
     "classification": "シールドポケモン",
     "height": "0.5",
@@ -4523,7 +4523,7 @@
     "id": 411,
     "name": {
       "ja": "トリデプス",
-      "en": ""
+      "en": "Bastiodon"
     },
     "classification": "シールドポケモン",
     "height": "1.3",
@@ -4535,7 +4535,7 @@
     "id": 412,
     "name": {
       "ja": "ミノムッチ",
-      "en": ""
+      "en": "Burmy"
     },
     "classification": "みのむしポケモン",
     "height": "0.2",
@@ -4545,7 +4545,7 @@
     "id": 413,
     "name": {
       "ja": "ミノマダム",
-      "en": ""
+      "en": "Wormadam"
     },
     "classification": "みのむしポケモン",
     "height": "0.5",
@@ -4555,7 +4555,7 @@
     "id": 414,
     "name": {
       "ja": "ガーメイル",
-      "en": ""
+      "en": "Mothim"
     },
     "classification": "ミノガポケモン",
     "height": "0.9",
@@ -4565,7 +4565,7 @@
     "id": 415,
     "name": {
       "ja": "ミツハニー",
-      "en": ""
+      "en": "Combee"
     },
     "classification": "はちのこポケモン",
     "height": "0.3",
@@ -4575,7 +4575,7 @@
     "id": 416,
     "name": {
       "ja": "ビークイン",
-      "en": ""
+      "en": "Vespiquen"
     },
     "classification": "はちのすポケモン",
     "height": "1.2",
@@ -4585,7 +4585,7 @@
     "id": 417,
     "name": {
       "ja": "パチリス",
-      "en": ""
+      "en": "Pachirisu"
     },
     "classification": "でんきりすポケモン",
     "height": "0.4",
@@ -4595,7 +4595,7 @@
     "id": 418,
     "name": {
       "ja": "ブイゼル",
-      "en": ""
+      "en": "Buizel"
     },
     "classification": "うみイタチポケモン",
     "height": "0.7",
@@ -4605,7 +4605,7 @@
     "id": 419,
     "name": {
       "ja": "フローゼル",
-      "en": ""
+      "en": "Floatzel"
     },
     "classification": "うみイタチポケモン",
     "height": "1.1",
@@ -4615,7 +4615,7 @@
     "id": 420,
     "name": {
       "ja": "チェリンボ",
-      "en": ""
+      "en": "Cherubi"
     },
     "classification": "さくらんぼポケモン",
     "height": "0.4",
@@ -4625,7 +4625,7 @@
     "id": 421,
     "name": {
       "ja": "チェリム",
-      "en": ""
+      "en": "Cherrim"
     },
     "classification": "サクラポケモン",
     "height": "0.5",
@@ -4635,7 +4635,7 @@
     "id": 422,
     "name": {
       "ja": "カラナクシ",
-      "en": ""
+      "en": "Shellos"
     },
     "classification": "ウミウシポケモン",
     "height": "0.3",
@@ -4647,7 +4647,7 @@
     "id": 423,
     "name": {
       "ja": "トリトドン",
-      "en": ""
+      "en": "Gastrodon"
     },
     "classification": "ウミウシポケモン",
     "height": "0.9",
@@ -4659,7 +4659,7 @@
     "id": 424,
     "name": {
       "ja": "エテボース",
-      "en": ""
+      "en": "Ambipom"
     },
     "classification": "おながポケモン",
     "height": "1.2",
@@ -4670,7 +4670,7 @@
     "id": 425,
     "name": {
       "ja": "フワンテ",
-      "en": ""
+      "en": "Drifloon"
     },
     "classification": "ふうせんポケモン",
     "height": "0.4",
@@ -4682,7 +4682,7 @@
     "id": 426,
     "name": {
       "ja": "フワライド",
-      "en": ""
+      "en": "Driftblim"
     },
     "classification": "ききゅうポケモン",
     "height": "1.2",
@@ -4694,7 +4694,7 @@
     "id": 427,
     "name": {
       "ja": "ミミロル",
-      "en": ""
+      "en": "Buneary"
     },
     "classification": "うさぎポケモン",
     "height": "0.4",
@@ -4705,7 +4705,7 @@
     "id": 428,
     "name": {
       "ja": "ミミロップ",
-      "en": ""
+      "en": "Lopunny"
     },
     "classification": "うさぎポケモン",
     "height": "1.2",
@@ -4716,7 +4716,7 @@
     "id": 429,
     "name": {
       "ja": "ムウマージ",
-      "en": ""
+      "en": "Mismagius"
     },
     "classification": "マジカルポケモン",
     "height": "0.9",
@@ -4728,7 +4728,7 @@
     "id": 430,
     "name": {
       "ja": "ドンカラス",
-      "en": ""
+      "en": "Honchkrow"
     },
     "classification": "おおボスポケモン",
     "height": "0.9",
@@ -4740,7 +4740,7 @@
     "id": 431,
     "name": {
       "ja": "ニャルマー",
-      "en": ""
+      "en": "Glameow"
     },
     "classification": "ねこかぶりポケモン",
     "height": "0.5",
@@ -4750,7 +4750,7 @@
     "id": 432,
     "name": {
       "ja": "ブニャット",
-      "en": ""
+      "en": "Purugly"
     },
     "classification": "とらねこポケモン",
     "height": "1.0",
@@ -4760,7 +4760,7 @@
     "id": 433,
     "name": {
       "ja": "リーシャン",
-      "en": ""
+      "en": "Chingling"
     },
     "classification": "すずポケモン",
     "height": "0.2",
@@ -4770,7 +4770,7 @@
     "id": 434,
     "name": {
       "ja": "スカンプー",
-      "en": ""
+      "en": "Stunky"
     },
     "classification": "スカンクポケモン",
     "height": "0.4",
@@ -4780,7 +4780,7 @@
     "id": 435,
     "name": {
       "ja": "スカタンク",
-      "en": ""
+      "en": "Skuntank"
     },
     "classification": "スカンクポケモン",
     "height": "1.0",
@@ -4790,7 +4790,7 @@
     "id": 436,
     "name": {
       "ja": "ドーミラー",
-      "en": ""
+      "en": "Bronzor"
     },
     "classification": "せいどうポケモン",
     "height": "0.5",
@@ -4800,7 +4800,7 @@
     "id": 437,
     "name": {
       "ja": "ドータクン",
-      "en": ""
+      "en": "Bronzong"
     },
     "classification": "どうたくポケモン",
     "height": "1.3",
@@ -4810,7 +4810,7 @@
     "id": 438,
     "name": {
       "ja": "ウソハチ",
-      "en": ""
+      "en": "Bonsly"
     },
     "classification": "ぼんさいポケモン",
     "height": "0.5",
@@ -4822,7 +4822,7 @@
     "id": 439,
     "name": {
       "ja": "マネネ",
-      "en": ""
+      "en": "Mime Jr."
     },
     "classification": "マイムポケモン",
     "height": "0.6",
@@ -4833,7 +4833,7 @@
     "id": 440,
     "name": {
       "ja": "ピンプク",
-      "en": ""
+      "en": "Happiny"
     },
     "classification": "ままごとポケモン",
     "height": "0.6",
@@ -4845,7 +4845,7 @@
     "id": 441,
     "name": {
       "ja": "ペラップ",
-      "en": ""
+      "en": "Chatot"
     },
     "classification": "おんぷポケモン",
     "height": "0.5",
@@ -4855,7 +4855,7 @@
     "id": 442,
     "name": {
       "ja": "ミカルゲ",
-      "en": ""
+      "en": "Spiritomb"
     },
     "classification": "ふういんポケモン",
     "height": "1.0",
@@ -4865,7 +4865,7 @@
     "id": 443,
     "name": {
       "ja": "フカマル",
-      "en": ""
+      "en": "Gible"
     },
     "classification": "りくザメポケモン",
     "height": "0.7",
@@ -4877,7 +4877,7 @@
     "id": 444,
     "name": {
       "ja": "ガバイト",
-      "en": ""
+      "en": "Gabite"
     },
     "classification": "ほらあなポケモン",
     "height": "1.4",
@@ -4889,7 +4889,7 @@
     "id": 445,
     "name": {
       "ja": "ガブリアス",
-      "en": ""
+      "en": "Garchomp"
     },
     "classification": "マッハポケモン",
     "height": "1.9",
@@ -4901,7 +4901,7 @@
     "id": 446,
     "name": {
       "ja": "ゴンベ",
-      "en": ""
+      "en": "Munchlax"
     },
     "classification": "おおぐいポケモン",
     "height": "0.6",
@@ -4913,7 +4913,7 @@
     "id": 447,
     "name": {
       "ja": "リオル",
-      "en": ""
+      "en": "Riolu"
     },
     "classification": "はもんポケモン",
     "height": "0.7",
@@ -4925,7 +4925,7 @@
     "id": 448,
     "name": {
       "ja": "ルカリオ",
-      "en": ""
+      "en": "Lucario"
     },
     "classification": "はどうポケモン",
     "height": "1.2",
@@ -4937,7 +4937,7 @@
     "id": 449,
     "name": {
       "ja": "ヒポポタス",
-      "en": ""
+      "en": "Hippopotas"
     },
     "classification": "カバポケモン",
     "height": "0.8",
@@ -4947,7 +4947,7 @@
     "id": 450,
     "name": {
       "ja": "カバルドン",
-      "en": ""
+      "en": "Hippowdon"
     },
     "classification": "じゅうりょうポケモン",
     "height": "2.0",
@@ -4957,7 +4957,7 @@
     "id": 451,
     "name": {
       "ja": "スコルピ",
-      "en": ""
+      "en": "Skorupi"
     },
     "classification": "さそりポケモン",
     "height": "0.8",
@@ -4967,7 +4967,7 @@
     "id": 452,
     "name": {
       "ja": "ドラピオン",
-      "en": ""
+      "en": "Drapion"
     },
     "classification": "ばけさそりポケモン",
     "height": "1.3",
@@ -4977,7 +4977,7 @@
     "id": 453,
     "name": {
       "ja": "グレッグル",
-      "en": ""
+      "en": "Croagunk"
     },
     "classification": "どくづきポケモン",
     "height": "0.7",
@@ -4987,7 +4987,7 @@
     "id": 454,
     "name": {
       "ja": "ドクロッグ",
-      "en": ""
+      "en": "Toxicroak"
     },
     "classification": "どくづきポケモン",
     "height": "1.3",
@@ -4997,7 +4997,7 @@
     "id": 455,
     "name": {
       "ja": "マスキッパ",
-      "en": ""
+      "en": "Carnivine"
     },
     "classification": "むしとりポケモン",
     "height": "1.4",
@@ -5007,7 +5007,7 @@
     "id": 456,
     "name": {
       "ja": "ケイコウオ",
-      "en": ""
+      "en": "Finneon"
     },
     "classification": "はねうおポケモン",
     "height": "0.4",
@@ -5019,7 +5019,7 @@
     "id": 457,
     "name": {
       "ja": "ネオラント",
-      "en": ""
+      "en": "Lumineon"
     },
     "classification": "ネオンポケモン",
     "height": "1.2",
@@ -5031,7 +5031,7 @@
     "id": 458,
     "name": {
       "ja": "タマンタ",
-      "en": ""
+      "en": "Mantyke"
     },
     "classification": "カイトポケモン",
     "height": "1.0",
@@ -5042,7 +5042,7 @@
     "id": 459,
     "name": {
       "ja": "ユキカブリ",
-      "en": ""
+      "en": "Snover"
     },
     "classification": "じゅひょうポケモン",
     "height": "1.0",
@@ -5052,7 +5052,7 @@
     "id": 460,
     "name": {
       "ja": "ユキノオー",
-      "en": ""
+      "en": "Abomasnow"
     },
     "classification": "じゅひょうポケモン",
     "height": "2.2",
@@ -5062,7 +5062,7 @@
     "id": 461,
     "name": {
       "ja": "マニューラ",
-      "en": ""
+      "en": "Weavile"
     },
     "classification": "かぎづめポケモン",
     "height": "1.1",
@@ -5074,7 +5074,7 @@
     "id": 462,
     "name": {
       "ja": "ジバコイル",
-      "en": ""
+      "en": "Magnezone"
     },
     "classification": "じばポケモン",
     "height": "1.2",
@@ -5086,7 +5086,7 @@
     "id": 463,
     "name": {
       "ja": "ベロベルト",
-      "en": ""
+      "en": "Lickilicky"
     },
     "classification": "なめまわしポケモン",
     "height": "1.7",
@@ -5097,7 +5097,7 @@
     "id": 464,
     "name": {
       "ja": "ドサイドン",
-      "en": ""
+      "en": "Rhyperior"
     },
     "classification": "ドリルポケモン",
     "height": "2.4",
@@ -5107,7 +5107,7 @@
     "id": 465,
     "name": {
       "ja": "モジャンボ",
-      "en": ""
+      "en": "Tangrowth"
     },
     "classification": "ツルじょうポケモン",
     "height": "2.0",
@@ -5117,7 +5117,7 @@
     "id": 466,
     "name": {
       "ja": "エレキブル",
-      "en": ""
+      "en": "Electivire"
     },
     "classification": "らいでんポケモン",
     "height": "1.8",
@@ -5129,7 +5129,7 @@
     "id": 467,
     "name": {
       "ja": "ブーバーン",
-      "en": ""
+      "en": "Magmortar"
     },
     "classification": "ばくえんポケモン",
     "height": "1.6",
@@ -5141,7 +5141,7 @@
     "id": 468,
     "name": {
       "ja": "トゲキッス",
-      "en": ""
+      "en": "Togekiss"
     },
     "classification": "しゅくふくポケモン",
     "height": "1.5",
@@ -5151,7 +5151,7 @@
     "id": 469,
     "name": {
       "ja": "メガヤンマ",
-      "en": ""
+      "en": "Yanmega"
     },
     "classification": "オニトンボポケモン",
     "height": "1.9",
@@ -5161,7 +5161,7 @@
     "id": 470,
     "name": {
       "ja": "リーフィア",
-      "en": ""
+      "en": "Leafeon"
     },
     "classification": "しんりょくポケモン",
     "height": "1.0",
@@ -5173,7 +5173,7 @@
     "id": 471,
     "name": {
       "ja": "グレイシア",
-      "en": ""
+      "en": "Glaceon"
     },
     "classification": "しんせつポケモン",
     "height": "0.8",
@@ -5185,7 +5185,7 @@
     "id": 472,
     "name": {
       "ja": "グライオン",
-      "en": ""
+      "en": "Gliscor"
     },
     "classification": "キバさそりポケモン",
     "height": "2.0",
@@ -5195,7 +5195,7 @@
     "id": 473,
     "name": {
       "ja": "マンムー",
-      "en": ""
+      "en": "Mamoswine"
     },
     "classification": "2ほんキバポケモン",
     "height": "2.5",
@@ -5205,7 +5205,7 @@
     "id": 474,
     "name": {
       "ja": "ポリゴンZ",
-      "en": ""
+      "en": "Porygon-Z"
     },
     "classification": "バーチャルポケモン",
     "height": "0.9",
@@ -5217,7 +5217,7 @@
     "id": 475,
     "name": {
       "ja": "エルレイド",
-      "en": ""
+      "en": "Gallade"
     },
     "classification": "やいばポケモン",
     "height": "1.6",
@@ -5227,7 +5227,7 @@
     "id": 476,
     "name": {
       "ja": "ダイノーズ",
-      "en": ""
+      "en": "Probopass"
     },
     "classification": "コンパスポケモン",
     "height": "1.4",
@@ -5239,7 +5239,7 @@
     "id": 477,
     "name": {
       "ja": "ヨノワール",
-      "en": ""
+      "en": "Dusknoir"
     },
     "classification": "てづかみポケモン",
     "height": "2.2",
@@ -5249,7 +5249,7 @@
     "id": 478,
     "name": {
       "ja": "ユキメノコ",
-      "en": ""
+      "en": "Froslass"
     },
     "classification": "ゆきぐにポケモン",
     "height": "1.3",
@@ -5261,7 +5261,7 @@
     "id": 479,
     "name": {
       "ja": "ロトム",
-      "en": ""
+      "en": "Rotom"
     },
     "classification": "プラズマポケモン",
     "height": "0.3",
@@ -5271,7 +5271,7 @@
     "id": 480,
     "name": {
       "ja": "ユクシー",
-      "en": ""
+      "en": "Uxie"
     },
     "classification": "ちしきポケモン",
     "height": "0.3",
@@ -5281,7 +5281,7 @@
     "id": 481,
     "name": {
       "ja": "エムリット",
-      "en": ""
+      "en": "Mesprit"
     },
     "classification": "かんじょうポケモン",
     "height": "0.3",
@@ -5291,7 +5291,7 @@
     "id": 482,
     "name": {
       "ja": "アグノム",
-      "en": ""
+      "en": "Azelf"
     },
     "classification": "いしポケモン",
     "height": "0.3",
@@ -5301,7 +5301,7 @@
     "id": 483,
     "name": {
       "ja": "ディアルガ",
-      "en": ""
+      "en": "Dialga"
     },
     "classification": "じかんポケモン",
     "height": "5.4",
@@ -5311,7 +5311,7 @@
     "id": 484,
     "name": {
       "ja": "パルキア",
-      "en": ""
+      "en": "Palkia"
     },
     "classification": "くうかんポケモン",
     "height": "4.2",
@@ -5321,7 +5321,7 @@
     "id": 485,
     "name": {
       "ja": "ヒードラン",
-      "en": ""
+      "en": "Heatran"
     },
     "classification": "かこうポケモン",
     "height": "1.7",
@@ -5331,7 +5331,7 @@
     "id": 486,
     "name": {
       "ja": "レジギガス",
-      "en": ""
+      "en": "Regigigas"
     },
     "classification": "きょだいポケモン",
     "height": "3.7",
@@ -5341,7 +5341,7 @@
     "id": 487,
     "name": {
       "ja": "ギラティナ",
-      "en": ""
+      "en": "Giratina"
     },
     "classification": "はんこつポケモン",
     "height": "4.5",
@@ -5351,7 +5351,7 @@
     "id": 488,
     "name": {
       "ja": "クレセリア",
-      "en": ""
+      "en": "Cresselia"
     },
     "classification": "みかづきポケモン",
     "height": "1.5",
@@ -5361,7 +5361,7 @@
     "id": 489,
     "name": {
       "ja": "フィオネ",
-      "en": ""
+      "en": "Phione"
     },
     "classification": "かいようポケモン",
     "height": "0.4",
@@ -5371,7 +5371,7 @@
     "id": 490,
     "name": {
       "ja": "マナフィ",
-      "en": ""
+      "en": "Manaphy"
     },
     "classification": "かいゆうポケモン",
     "height": "0.3",
@@ -5381,7 +5381,7 @@
     "id": 491,
     "name": {
       "ja": "ダークライ",
-      "en": ""
+      "en": "Darkrai"
     },
     "classification": "あんこくポケモン",
     "height": "1.5",
@@ -5391,7 +5391,7 @@
     "id": 492,
     "name": {
       "ja": "シェイミ",
-      "en": ""
+      "en": "Shaymin"
     },
     "classification": "かんしゃポケモン",
     "height": "0.2",
@@ -5401,7 +5401,7 @@
     "id": 493,
     "name": {
       "ja": "アルセウス",
-      "en": ""
+      "en": "Arceus"
     },
     "classification": "そうぞうポケモン",
     "height": "3.2",
@@ -5411,7 +5411,7 @@
     "id": 494,
     "name": {
       "ja": "ビクティニ",
-      "en": ""
+      "en": "Victini"
     },
     "classification": "しょうりポケモン",
     "height": "0.4",
@@ -5421,7 +5421,7 @@
     "id": 495,
     "name": {
       "ja": "ツタージャ",
-      "en": ""
+      "en": "Snivy"
     },
     "classification": "くさへびポケモン",
     "height": "0.6",
@@ -5431,7 +5431,7 @@
     "id": 496,
     "name": {
       "ja": "ジャノビー",
-      "en": ""
+      "en": "Servine"
     },
     "classification": "くさへびポケモン",
     "height": "0.8",
@@ -5441,7 +5441,7 @@
     "id": 497,
     "name": {
       "ja": "ジャローダ",
-      "en": ""
+      "en": "Serperior"
     },
     "classification": "ロイヤルポケモン",
     "height": "3.3",
@@ -5451,7 +5451,7 @@
     "id": 498,
     "name": {
       "ja": "ポカブ",
-      "en": ""
+      "en": "Tepig"
     },
     "classification": "ひぶたポケモン",
     "height": "0.5",
@@ -5461,7 +5461,7 @@
     "id": 499,
     "name": {
       "ja": "チャオブー",
-      "en": ""
+      "en": "Pignite"
     },
     "classification": "ひぶたポケモン",
     "height": "1.0",
@@ -5471,7 +5471,7 @@
     "id": 500,
     "name": {
       "ja": "エンブオー",
-      "en": ""
+      "en": "Emboar"
     },
     "classification": "おおひぶたポケモン",
     "height": "1.6",
@@ -5481,7 +5481,7 @@
     "id": 501,
     "name": {
       "ja": "ミジュマル",
-      "en": ""
+      "en": "Oshawott"
     },
     "classification": "ラッコポケモン",
     "height": "0.5",
@@ -5491,7 +5491,7 @@
     "id": 502,
     "name": {
       "ja": "フタチマル",
-      "en": ""
+      "en": "Dewott"
     },
     "classification": "しゅぎょうポケモン",
     "height": "0.8",
@@ -5501,7 +5501,7 @@
     "id": 503,
     "name": {
       "ja": "ダイケンキ",
-      "en": ""
+      "en": "Samurott"
     },
     "classification": "かんろくポケモン",
     "height": "1.5",
@@ -5511,7 +5511,7 @@
     "id": 504,
     "name": {
       "ja": "ミネズミ",
-      "en": ""
+      "en": "Patrat"
     },
     "classification": "みはりポケモン",
     "height": "0.5",
@@ -5521,7 +5521,7 @@
     "id": 505,
     "name": {
       "ja": "ミルホッグ",
-      "en": ""
+      "en": "Watchog"
     },
     "classification": "けいかいポケモン",
     "height": "1.1",
@@ -5531,7 +5531,7 @@
     "id": 506,
     "name": {
       "ja": "ヨーテリー",
-      "en": ""
+      "en": "Lillipup"
     },
     "classification": "こいぬポケモン",
     "height": "0.4",
@@ -5543,7 +5543,7 @@
     "id": 507,
     "name": {
       "ja": "ハーデリア",
-      "en": ""
+      "en": "Herdier"
     },
     "classification": "ちゅうけんポケモン",
     "height": "0.9",
@@ -5555,7 +5555,7 @@
     "id": 508,
     "name": {
       "ja": "ムーランド",
-      "en": ""
+      "en": "Stoutland"
     },
     "classification": "かんだいポケモン",
     "height": "1.2",
@@ -5567,7 +5567,7 @@
     "id": 509,
     "name": {
       "ja": "チョロネコ",
-      "en": ""
+      "en": "Purrloin"
     },
     "classification": "しょうわるポケモン",
     "height": "0.4",
@@ -5577,7 +5577,7 @@
     "id": 510,
     "name": {
       "ja": "レパルダス",
-      "en": ""
+      "en": "Liepard"
     },
     "classification": "れいこくポケモン",
     "height": "1.1",
@@ -5587,7 +5587,7 @@
     "id": 511,
     "name": {
       "ja": "ヤナップ",
-      "en": ""
+      "en": "Pansage"
     },
     "classification": "くさざるポケモン",
     "height": "0.6",
@@ -5597,7 +5597,7 @@
     "id": 512,
     "name": {
       "ja": "ヤナッキー",
-      "en": ""
+      "en": "Simisage"
     },
     "classification": "とげざるポケモン",
     "height": "1.1",
@@ -5607,7 +5607,7 @@
     "id": 513,
     "name": {
       "ja": "バオップ",
-      "en": ""
+      "en": "Pansear"
     },
     "classification": "こうおんポケモン",
     "height": "0.6",
@@ -5617,7 +5617,7 @@
     "id": 514,
     "name": {
       "ja": "バオッキー",
-      "en": ""
+      "en": "Simisear"
     },
     "classification": "ひのこポケモン",
     "height": "1.0",
@@ -5627,7 +5627,7 @@
     "id": 515,
     "name": {
       "ja": "ヒヤップ",
-      "en": ""
+      "en": "Panpour"
     },
     "classification": "みずかけポケモン",
     "height": "0.6",
@@ -5637,7 +5637,7 @@
     "id": 516,
     "name": {
       "ja": "ヒヤッキー",
-      "en": ""
+      "en": "Simipour"
     },
     "classification": "ほうすいポケモン",
     "height": "1.0",
@@ -5647,7 +5647,7 @@
     "id": 517,
     "name": {
       "ja": "ムンナ",
-      "en": ""
+      "en": "Munna"
     },
     "classification": "ゆめくいポケモン",
     "height": "0.6",
@@ -5657,7 +5657,7 @@
     "id": 518,
     "name": {
       "ja": "ムシャーナ",
-      "en": ""
+      "en": "Musharna"
     },
     "classification": "ゆめうつつポケモン",
     "height": "1.1",
@@ -5667,7 +5667,7 @@
     "id": 519,
     "name": {
       "ja": "マメパト",
-      "en": ""
+      "en": "Pidove"
     },
     "classification": "こばとポケモン",
     "height": "0.3",
@@ -5677,7 +5677,7 @@
     "id": 520,
     "name": {
       "ja": "ハトーボー",
-      "en": ""
+      "en": "Tranquill"
     },
     "classification": "のばとポケモン",
     "height": "0.6",
@@ -5687,7 +5687,7 @@
     "id": 521,
     "name": {
       "ja": "ケンホロウ",
-      "en": ""
+      "en": "Unfezant"
     },
     "classification": "プライドポケモン",
     "height": "1.2",
@@ -5697,7 +5697,7 @@
     "id": 522,
     "name": {
       "ja": "シママ",
-      "en": ""
+      "en": "Blitzle"
     },
     "classification": "たいでんポケモン",
     "height": "0.8",
@@ -5707,7 +5707,7 @@
     "id": 523,
     "name": {
       "ja": "ゼブライカ",
-      "en": ""
+      "en": "Zebstrika"
     },
     "classification": "らいでんポケモン",
     "height": "1.6",
@@ -5717,7 +5717,7 @@
     "id": 524,
     "name": {
       "ja": "ダンゴロ",
-      "en": ""
+      "en": "Roggenrola"
     },
     "classification": "マントルポケモン",
     "height": "0.4",
@@ -5729,7 +5729,7 @@
     "id": 525,
     "name": {
       "ja": "ガントル",
-      "en": ""
+      "en": "Boldore"
     },
     "classification": "こうせきポケモン",
     "height": "0.9",
@@ -5741,7 +5741,7 @@
     "id": 526,
     "name": {
       "ja": "ギガイアス",
-      "en": ""
+      "en": "Gigalith"
     },
     "classification": "こうあつポケモン",
     "height": "1.7",
@@ -5753,7 +5753,7 @@
     "id": 527,
     "name": {
       "ja": "コロモリ",
-      "en": ""
+      "en": "Woobat"
     },
     "classification": "こうもりポケモン",
     "height": "0.4",
@@ -5763,7 +5763,7 @@
     "id": 528,
     "name": {
       "ja": "ココロモリ",
-      "en": ""
+      "en": "Swoobat"
     },
     "classification": "きゅうあいポケモン",
     "height": "0.9",
@@ -5773,7 +5773,7 @@
     "id": 529,
     "name": {
       "ja": "モグリュー",
-      "en": ""
+      "en": "Drilbur"
     },
     "classification": "もぐらポケモン",
     "height": "0.3",
@@ -5783,7 +5783,7 @@
     "id": 530,
     "name": {
       "ja": "ドリュウズ",
-      "en": ""
+      "en": "Excadrill"
     },
     "classification": "ちていポケモン",
     "height": "0.7",
@@ -5793,7 +5793,7 @@
     "id": 531,
     "name": {
       "ja": "タブンネ",
-      "en": ""
+      "en": "Audino"
     },
     "classification": "ヒヤリングポケモン",
     "height": "1.1",
@@ -5803,7 +5803,7 @@
     "id": 532,
     "name": {
       "ja": "ドッコラー",
-      "en": ""
+      "en": "Timburr"
     },
     "classification": "きんこつポケモン",
     "height": "0.6",
@@ -5813,7 +5813,7 @@
     "id": 533,
     "name": {
       "ja": "ドテッコツ",
-      "en": ""
+      "en": "Gurdurr"
     },
     "classification": "きんこつポケモン",
     "height": "1.2",
@@ -5823,7 +5823,7 @@
     "id": 534,
     "name": {
       "ja": "ローブシン",
-      "en": ""
+      "en": "Conkeldurr"
     },
     "classification": "きんこつポケモン",
     "height": "1.4",
@@ -5833,7 +5833,7 @@
     "id": 535,
     "name": {
       "ja": "オタマロ",
-      "en": ""
+      "en": "Tympole"
     },
     "classification": "おたまポケモン",
     "height": "0.5",
@@ -5843,7 +5843,7 @@
     "id": 536,
     "name": {
       "ja": "ガマガル",
-      "en": ""
+      "en": "Palpitoad"
     },
     "classification": "しんどうポケモン",
     "height": "0.8",
@@ -5853,7 +5853,7 @@
     "id": 537,
     "name": {
       "ja": "ガマゲロゲ",
-      "en": ""
+      "en": "Seismitoad"
     },
     "classification": "しんどうポケモン",
     "height": "1.5",
@@ -5863,7 +5863,7 @@
     "id": 538,
     "name": {
       "ja": "ナゲキ",
-      "en": ""
+      "en": "Throh"
     },
     "classification": "じゅうどうポケモン",
     "height": "1.3",
@@ -5873,7 +5873,7 @@
     "id": 539,
     "name": {
       "ja": "ダゲキ",
-      "en": ""
+      "en": "Sawk"
     },
     "classification": "からてポケモン",
     "height": "1.4",
@@ -5883,7 +5883,7 @@
     "id": 540,
     "name": {
       "ja": "クルミル",
-      "en": ""
+      "en": "Sewaddle"
     },
     "classification": "さいほうポケモン",
     "height": "0.3",
@@ -5893,7 +5893,7 @@
     "id": 541,
     "name": {
       "ja": "クルマユ",
-      "en": ""
+      "en": "Swadloon"
     },
     "classification": "はごもりポケモン",
     "height": "0.5",
@@ -5903,7 +5903,7 @@
     "id": 542,
     "name": {
       "ja": "ハハコモリ",
-      "en": ""
+      "en": "Leavanny"
     },
     "classification": "こそだてポケモン",
     "height": "1.2",
@@ -5913,7 +5913,7 @@
     "id": 543,
     "name": {
       "ja": "フシデ",
-      "en": ""
+      "en": "Venipede"
     },
     "classification": "ムカデポケモン",
     "height": "0.4",
@@ -5923,7 +5923,7 @@
     "id": 544,
     "name": {
       "ja": "ホイーガ",
-      "en": ""
+      "en": "Whirlipede"
     },
     "classification": "まゆムカデポケモン",
     "height": "1.2",
@@ -5933,7 +5933,7 @@
     "id": 545,
     "name": {
       "ja": "ペンドラー",
-      "en": ""
+      "en": "Scolipede"
     },
     "classification": "メガムカデポケモン",
     "height": "2.5",
@@ -5943,7 +5943,7 @@
     "id": 546,
     "name": {
       "ja": "モンメン",
-      "en": ""
+      "en": "Cottonee"
     },
     "classification": "わたたまポケモン",
     "height": "0.3",
@@ -5955,7 +5955,7 @@
     "id": 547,
     "name": {
       "ja": "エルフーン",
-      "en": ""
+      "en": "Whimsicott"
     },
     "classification": "かぜかくれポケモン",
     "height": "0.7",
@@ -5967,7 +5967,7 @@
     "id": 548,
     "name": {
       "ja": "チュリネ",
-      "en": ""
+      "en": "Petilil"
     },
     "classification": "ねっこポケモン",
     "height": "0.5",
@@ -5979,7 +5979,7 @@
     "id": 549,
     "name": {
       "ja": "ドレディア",
-      "en": ""
+      "en": "Lilligant"
     },
     "classification": "はなかざりポケモン",
     "height": "1.1",
@@ -5991,7 +5991,7 @@
     "id": 550,
     "name": {
       "ja": "バスラオ",
-      "en": ""
+      "en": "Basculin"
     },
     "classification": "らんぼうポケモン",
     "height": "1.0",
@@ -6002,7 +6002,7 @@
     "id": 551,
     "name": {
       "ja": "メグロコ",
-      "en": ""
+      "en": "Sandile"
     },
     "classification": "さばくワニポケモン",
     "height": "0.7",
@@ -6014,7 +6014,7 @@
     "id": 552,
     "name": {
       "ja": "ワルビル",
-      "en": ""
+      "en": "Krokorok"
     },
     "classification": "さばくワニポケモン",
     "height": "1.0",
@@ -6026,7 +6026,7 @@
     "id": 553,
     "name": {
       "ja": "ワルビアル",
-      "en": ""
+      "en": "Krookodile"
     },
     "classification": "いかくポケモン",
     "height": "1.5",
@@ -6038,7 +6038,7 @@
     "id": 554,
     "name": {
       "ja": "ダルマッカ",
-      "en": ""
+      "en": "Darumaka"
     },
     "classification": "だるまポケモン",
     "height": "0.6",
@@ -6048,7 +6048,7 @@
     "id": 555,
     "name": {
       "ja": "ヒヒダルマ",
-      "en": ""
+      "en": "Darmanitan"
     },
     "classification": "えんじょうポケモン",
     "height": "1.3",
@@ -6058,7 +6058,7 @@
     "id": 556,
     "name": {
       "ja": "マラカッチ",
-      "en": ""
+      "en": "Maractus"
     },
     "classification": "サボテンポケモン",
     "height": "1.0",
@@ -6068,7 +6068,7 @@
     "id": 557,
     "name": {
       "ja": "イシズマイ",
-      "en": ""
+      "en": "Dwebble"
     },
     "classification": "いしやどポケモン",
     "height": "0.3",
@@ -6078,7 +6078,7 @@
     "id": 558,
     "name": {
       "ja": "イワパレス",
-      "en": ""
+      "en": "Crustle"
     },
     "classification": "いわやどポケモン",
     "height": "1.4",
@@ -6088,7 +6088,7 @@
     "id": 559,
     "name": {
       "ja": "ズルッグ",
-      "en": ""
+      "en": "Scraggy"
     },
     "classification": "だっぴポケモン",
     "height": "0.6",
@@ -6099,7 +6099,7 @@
     "id": 560,
     "name": {
       "ja": "ズルズキン",
-      "en": ""
+      "en": "Scrafty"
     },
     "classification": "あくとうポケモン",
     "height": "1.1",
@@ -6110,7 +6110,7 @@
     "id": 561,
     "name": {
       "ja": "シンボラー",
-      "en": ""
+      "en": "Sigilyph"
     },
     "classification": "とりもどきポケモン",
     "height": "1.4",
@@ -6120,7 +6120,7 @@
     "id": 562,
     "name": {
       "ja": "デスマス",
-      "en": ""
+      "en": "Yamask"
     },
     "classification": "たましいポケモン",
     "height": "0.5",
@@ -6130,7 +6130,7 @@
     "id": 563,
     "name": {
       "ja": "デスカーン",
-      "en": ""
+      "en": "Cofagrigus"
     },
     "classification": "かんおけポケモン",
     "height": "1.7",
@@ -6140,7 +6140,7 @@
     "id": 564,
     "name": {
       "ja": "プロトーガ",
-      "en": ""
+      "en": "Tirtouga"
     },
     "classification": "こだいがめポケモン",
     "height": "0.7",
@@ -6152,7 +6152,7 @@
     "id": 565,
     "name": {
       "ja": "アバゴーラ",
-      "en": ""
+      "en": "Carracosta"
     },
     "classification": "こだいがめポケモン",
     "height": "1.2",
@@ -6164,7 +6164,7 @@
     "id": 566,
     "name": {
       "ja": "アーケン",
-      "en": ""
+      "en": "Archen"
     },
     "classification": "さいこどりポケモン",
     "height": "0.5",
@@ -6176,7 +6176,7 @@
     "id": 567,
     "name": {
       "ja": "アーケオス",
-      "en": ""
+      "en": "Archeops"
     },
     "classification": "さいこどりポケモン",
     "height": "1.4",
@@ -6188,7 +6188,7 @@
     "id": 568,
     "name": {
       "ja": "ヤブクロン",
-      "en": ""
+      "en": "Trubbish"
     },
     "classification": "ゴミぶくろポケモン",
     "height": "0.6",
@@ -6200,7 +6200,7 @@
     "id": 569,
     "name": {
       "ja": "ダストダス",
-      "en": ""
+      "en": "Garbodor"
     },
     "classification": "ゴミすてばポケモン",
     "height": "1.9",
@@ -6212,7 +6212,7 @@
     "id": 570,
     "name": {
       "ja": "ゾロア",
-      "en": ""
+      "en": "Zorua"
     },
     "classification": "わるぎつねポケモン",
     "height": "0.7",
@@ -6223,7 +6223,7 @@
     "id": 571,
     "name": {
       "ja": "ゾロアーク",
-      "en": ""
+      "en": "Zoroark"
     },
     "classification": "ばけぎつねポケモン",
     "height": "1.6",
@@ -6234,7 +6234,7 @@
     "id": 572,
     "name": {
       "ja": "チラーミィ",
-      "en": ""
+      "en": "Minccino"
     },
     "classification": "チンチラポケモン",
     "height": "0.4",
@@ -6245,7 +6245,7 @@
     "id": 573,
     "name": {
       "ja": "チラチーノ",
-      "en": ""
+      "en": "Cinccino"
     },
     "classification": "スカーフポケモン",
     "height": "0.5",
@@ -6256,7 +6256,7 @@
     "id": 574,
     "name": {
       "ja": "ゴチム",
-      "en": ""
+      "en": "Gothita"
     },
     "classification": "ぎょうしポケモン",
     "height": "0.4",
@@ -6266,7 +6266,7 @@
     "id": 575,
     "name": {
       "ja": "ゴチミル",
-      "en": ""
+      "en": "Gothorita"
     },
     "classification": "あやつりポケモン",
     "height": "0.7",
@@ -6276,7 +6276,7 @@
     "id": 576,
     "name": {
       "ja": "ゴチルゼル",
-      "en": ""
+      "en": "Gothitelle"
     },
     "classification": "てんたいポケモン",
     "height": "1.5",
@@ -6286,7 +6286,7 @@
     "id": 577,
     "name": {
       "ja": "ユニラン",
-      "en": ""
+      "en": "Solosis"
     },
     "classification": "さいぼうポケモン",
     "height": "0.3",
@@ -6296,7 +6296,7 @@
     "id": 578,
     "name": {
       "ja": "ダブラン",
-      "en": ""
+      "en": "Duosion"
     },
     "classification": "ぶんかつポケモン",
     "height": "0.6",
@@ -6306,7 +6306,7 @@
     "id": 579,
     "name": {
       "ja": "ランクルス",
-      "en": ""
+      "en": "Reuniclus"
     },
     "classification": "ぞうふくポケモン",
     "height": "1.0",
@@ -6316,7 +6316,7 @@
     "id": 580,
     "name": {
       "ja": "コアルヒー",
-      "en": ""
+      "en": "Ducklett"
     },
     "classification": "みずどりポケモン",
     "height": "0.5",
@@ -6326,7 +6326,7 @@
     "id": 581,
     "name": {
       "ja": "スワンナ",
-      "en": ""
+      "en": "Swanna"
     },
     "classification": "しらとりポケモン",
     "height": "1.3",
@@ -6336,7 +6336,7 @@
     "id": 582,
     "name": {
       "ja": "バニプッチ",
-      "en": ""
+      "en": "Vanillite"
     },
     "classification": "しんせつポケモン",
     "height": "0.4",
@@ -6348,7 +6348,7 @@
     "id": 583,
     "name": {
       "ja": "バニリッチ",
-      "en": ""
+      "en": "Vanillish"
     },
     "classification": "ひょうせつポケモン",
     "height": "1.1",
@@ -6360,7 +6360,7 @@
     "id": 584,
     "name": {
       "ja": "バイバニラ",
-      "en": ""
+      "en": "Vanilluxe"
     },
     "classification": "ブリザードポケモン",
     "height": "1.3",
@@ -6372,7 +6372,7 @@
     "id": 585,
     "name": {
       "ja": "シキジカ",
-      "en": ""
+      "en": "Deerling"
     },
     "classification": "きせつポケモン",
     "height": "0.6",
@@ -6382,7 +6382,7 @@
     "id": 586,
     "name": {
       "ja": "メブキジカ",
-      "en": ""
+      "en": "Sawsbuck"
     },
     "classification": "きせつポケモン",
     "height": "1.9",
@@ -6392,7 +6392,7 @@
     "id": 587,
     "name": {
       "ja": "エモンガ",
-      "en": ""
+      "en": "Emolga"
     },
     "classification": "モモンガポケモン",
     "height": "0.4",
@@ -6404,7 +6404,7 @@
     "id": 588,
     "name": {
       "ja": "カブルモ",
-      "en": ""
+      "en": "Karrablast"
     },
     "classification": "かぶりつきポケモン",
     "height": "0.5",
@@ -6414,7 +6414,7 @@
     "id": 589,
     "name": {
       "ja": "シュバルゴ",
-      "en": ""
+      "en": "Escavalier"
     },
     "classification": "きへいポケモン",
     "height": "1.0",
@@ -6424,7 +6424,7 @@
     "id": 590,
     "name": {
       "ja": "タマゲタケ",
-      "en": ""
+      "en": "Foongus"
     },
     "classification": "きのこポケモン",
     "height": "0.2",
@@ -6434,7 +6434,7 @@
     "id": 591,
     "name": {
       "ja": "モロバレル",
-      "en": ""
+      "en": "Amoonguss"
     },
     "classification": "きのこポケモン",
     "height": "0.6",
@@ -6444,7 +6444,7 @@
     "id": 592,
     "name": {
       "ja": "プルリル",
-      "en": ""
+      "en": "Frillish"
     },
     "classification": "ふゆうポケモン",
     "height": "1.2",
@@ -6455,7 +6455,7 @@
     "id": 593,
     "name": {
       "ja": "ブルンゲル",
-      "en": ""
+      "en": "Jellicent"
     },
     "classification": "ふゆうポケモン",
     "height": "2.2",
@@ -6466,7 +6466,7 @@
     "id": 594,
     "name": {
       "ja": "ママンボウ",
-      "en": ""
+      "en": "Alomomola"
     },
     "classification": "かいほうポケモン",
     "height": "1.2",
@@ -6478,7 +6478,7 @@
     "id": 595,
     "name": {
       "ja": "バチュル",
-      "en": ""
+      "en": "Joltik"
     },
     "classification": "くっつきポケモン",
     "height": "0.1",
@@ -6488,7 +6488,7 @@
     "id": 596,
     "name": {
       "ja": "デンチュラ",
-      "en": ""
+      "en": "Galvantula"
     },
     "classification": "でんきグモポケモン",
     "height": "0.8",
@@ -6498,7 +6498,7 @@
     "id": 597,
     "name": {
       "ja": "テッシード",
-      "en": ""
+      "en": "Ferroseed"
     },
     "classification": "とげのみポケモン",
     "height": "0.6",
@@ -6508,7 +6508,7 @@
     "id": 598,
     "name": {
       "ja": "ナットレイ",
-      "en": ""
+      "en": "Ferrothorn"
     },
     "classification": "とげだまポケモン",
     "height": "1.0",
@@ -6518,7 +6518,7 @@
     "id": 599,
     "name": {
       "ja": "ギアル",
-      "en": ""
+      "en": "Klink"
     },
     "classification": "はぐるまポケモン",
     "height": "0.3",
@@ -6528,7 +6528,7 @@
     "id": 600,
     "name": {
       "ja": "ギギアル",
-      "en": ""
+      "en": "Klang"
     },
     "classification": "はぐるまポケモン",
     "height": "0.6",
@@ -6538,7 +6538,7 @@
     "id": 601,
     "name": {
       "ja": "ギギギアル",
-      "en": ""
+      "en": "Klinklang"
     },
     "classification": "はぐるまポケモン",
     "height": "0.6",
@@ -6548,7 +6548,7 @@
     "id": 602,
     "name": {
       "ja": "シビシラス",
-      "en": ""
+      "en": "Tynamo"
     },
     "classification": "でんきうおポケモン",
     "height": "0.2",
@@ -6558,7 +6558,7 @@
     "id": 603,
     "name": {
       "ja": "シビビール",
-      "en": ""
+      "en": "Eelektrik"
     },
     "classification": "でんきうおポケモン",
     "height": "1.2",
@@ -6568,7 +6568,7 @@
     "id": 604,
     "name": {
       "ja": "シビルドン",
-      "en": ""
+      "en": "Eelektross"
     },
     "classification": "でんきうおポケモン",
     "height": "2.1",
@@ -6578,7 +6578,7 @@
     "id": 605,
     "name": {
       "ja": "リグレー",
-      "en": ""
+      "en": "Elgyem"
     },
     "classification": "ブレインポケモン",
     "height": "0.5",
@@ -6589,7 +6589,7 @@
     "id": 606,
     "name": {
       "ja": "オーベム",
-      "en": ""
+      "en": "Beheeyem"
     },
     "classification": "ブレインポケモン",
     "height": "1.0",
@@ -6600,7 +6600,7 @@
     "id": 607,
     "name": {
       "ja": "ヒトモシ",
-      "en": ""
+      "en": "Litwick"
     },
     "classification": "ろうそくポケモン",
     "height": "0.3",
@@ -6610,7 +6610,7 @@
     "id": 608,
     "name": {
       "ja": "ランプラー",
-      "en": ""
+      "en": "Lampent"
     },
     "classification": "ランプポケモン",
     "height": "0.6",
@@ -6620,7 +6620,7 @@
     "id": 609,
     "name": {
       "ja": "シャンデラ",
-      "en": ""
+      "en": "Chandelure"
     },
     "classification": "いざないポケモン",
     "height": "1.0",
@@ -6630,7 +6630,7 @@
     "id": 610,
     "name": {
       "ja": "キバゴ",
-      "en": ""
+      "en": "Axew"
     },
     "classification": "キバポケモン",
     "height": "0.6",
@@ -6640,7 +6640,7 @@
     "id": 611,
     "name": {
       "ja": "オノンド",
-      "en": ""
+      "en": "Fraxure"
     },
     "classification": "あごオノポケモン",
     "height": "1.0",
@@ -6650,7 +6650,7 @@
     "id": 612,
     "name": {
       "ja": "オノノクス",
-      "en": ""
+      "en": "Haxorus"
     },
     "classification": "あごオノポケモン",
     "height": "1.8",
@@ -6660,7 +6660,7 @@
     "id": 613,
     "name": {
       "ja": "クマシュン",
-      "en": ""
+      "en": "Cubchoo"
     },
     "classification": "ひょうけつポケモン",
     "height": "0.5",
@@ -6670,7 +6670,7 @@
     "id": 614,
     "name": {
       "ja": "ツンベアー",
-      "en": ""
+      "en": "Beartic"
     },
     "classification": "とうけつポケモン",
     "height": "2.6",
@@ -6680,7 +6680,7 @@
     "id": 615,
     "name": {
       "ja": "フリージオ",
-      "en": ""
+      "en": "Cryogonal"
     },
     "classification": "けっしょうポケモン",
     "height": "1.1",
@@ -6690,7 +6690,7 @@
     "id": 616,
     "name": {
       "ja": "チョボマキ",
-      "en": ""
+      "en": "shelmet"
     },
     "classification": "マイマイポケモン",
     "height": "0.4",
@@ -6700,7 +6700,7 @@
     "id": 617,
     "name": {
       "ja": "アギルダー",
-      "en": ""
+      "en": "Accelgor"
     },
     "classification": "からぬけポケモン",
     "height": "0.8",
@@ -6710,7 +6710,7 @@
     "id": 618,
     "name": {
       "ja": "マッギョ",
-      "en": ""
+      "en": "Stunfisk"
     },
     "classification": "トラップポケモン",
     "height": "0.7",
@@ -6720,7 +6720,7 @@
     "id": 619,
     "name": {
       "ja": "コジョフー",
-      "en": ""
+      "en": "Mienfoo"
     },
     "classification": "ぶじゅつポケモン",
     "height": "0.9",
@@ -6731,7 +6731,7 @@
     "id": 620,
     "name": {
       "ja": "コジョンド",
-      "en": ""
+      "en": "Mienshao"
     },
     "classification": "ぶじゅつポケモン",
     "height": "1.4",
@@ -6742,7 +6742,7 @@
     "id": 621,
     "name": {
       "ja": "クリムガン",
-      "en": ""
+      "en": "Druddigon"
     },
     "classification": "ほらあなポケモン",
     "height": "1.6",
@@ -6753,7 +6753,7 @@
     "id": 622,
     "name": {
       "ja": "ゴビット",
-      "en": ""
+      "en": "Golett"
     },
     "classification": "ゴーレムポケモン",
     "height": "1.0",
@@ -6764,7 +6764,7 @@
     "id": 623,
     "name": {
       "ja": "ゴルーグ",
-      "en": ""
+      "en": "Golurk"
     },
     "classification": "ゴーレムポケモン",
     "height": "2.8",
@@ -6775,7 +6775,7 @@
     "id": 624,
     "name": {
       "ja": "コマタナ",
-      "en": ""
+      "en": "Pawniard"
     },
     "classification": "はものポケモン",
     "height": "0.5",
@@ -6786,7 +6786,7 @@
     "id": 625,
     "name": {
       "ja": "キリキザン",
-      "en": ""
+      "en": "Bisharp"
     },
     "classification": "とうじんポケモン",
     "height": "1.6",
@@ -6797,7 +6797,7 @@
     "id": 626,
     "name": {
       "ja": "バッフロン",
-      "en": ""
+      "en": "Bouffalant"
     },
     "classification": "ずつきうしポケモン",
     "height": "1.6",
@@ -6807,7 +6807,7 @@
     "id": 627,
     "name": {
       "ja": "ワシボン",
-      "en": ""
+      "en": "Rufflet"
     },
     "classification": "ヒナわしポケモン",
     "height": "0.5",
@@ -6819,7 +6819,7 @@
     "id": 628,
     "name": {
       "ja": "ウォーグル",
-      "en": ""
+      "en": "Braviary"
     },
     "classification": "ゆうもうポケモン",
     "height": "1.5",
@@ -6831,7 +6831,7 @@
     "id": 629,
     "name": {
       "ja": "バルチャイ",
-      "en": ""
+      "en": "Vullaby"
     },
     "classification": "おむつポケモン",
     "height": "0.5",
@@ -6843,7 +6843,7 @@
     "id": 630,
     "name": {
       "ja": "バルジーナ",
-      "en": ""
+      "en": "Mandibuzz"
     },
     "classification": "ほねわしポケモン",
     "height": "1.2",
@@ -6855,7 +6855,7 @@
     "id": 631,
     "name": {
       "ja": "クイタラン",
-      "en": ""
+      "en": "Heatmor"
     },
     "classification": "アリクイポケモン",
     "height": "1.4",
@@ -6865,7 +6865,7 @@
     "id": 632,
     "name": {
       "ja": "アイアント",
-      "en": ""
+      "en": "Durant"
     },
     "classification": "てつアリポケモン",
     "height": "0.3",
@@ -6875,7 +6875,7 @@
     "id": 633,
     "name": {
       "ja": "モノズ",
-      "en": ""
+      "en": "Deino"
     },
     "classification": "そぼうポケモン",
     "height": "0.8",
@@ -6885,7 +6885,7 @@
     "id": 634,
     "name": {
       "ja": "ジヘッド",
-      "en": ""
+      "en": "Zweilous"
     },
     "classification": "らんぼうポケモン",
     "height": "1.4",
@@ -6895,7 +6895,7 @@
     "id": 635,
     "name": {
       "ja": "サザンドラ",
-      "en": ""
+      "en": "Hydreigon"
     },
     "classification": "きょうぼうポケモン",
     "height": "1.8",
@@ -6905,7 +6905,7 @@
     "id": 636,
     "name": {
       "ja": "メラルバ",
-      "en": ""
+      "en": "Larvesta"
     },
     "classification": "たいまつポケモン",
     "height": "1.1",
@@ -6916,7 +6916,7 @@
     "id": 637,
     "name": {
       "ja": "ウルガモス",
-      "en": ""
+      "en": "Volcarona"
     },
     "classification": "たいようポケモン",
     "height": "1.6",
@@ -6927,7 +6927,7 @@
     "id": 638,
     "name": {
       "ja": "コバルオン",
-      "en": ""
+      "en": "Cobalion"
     },
     "classification": "てっしんポケモン",
     "height": "2.1",
@@ -6937,7 +6937,7 @@
     "id": 639,
     "name": {
       "ja": "テラキオン",
-      "en": ""
+      "en": "Terrakion"
     },
     "classification": "がんくつポケモン",
     "height": "1.9",
@@ -6947,7 +6947,7 @@
     "id": 640,
     "name": {
       "ja": "ビリジオン",
-      "en": ""
+      "en": "Virizion"
     },
     "classification": "そうげんポケモン",
     "height": "2.0",
@@ -6957,7 +6957,7 @@
     "id": 641,
     "name": {
       "ja": "トルネロス",
-      "en": ""
+      "en": "Tornadus"
     },
     "classification": "せんぷうポケモン",
     "height": "1.5",
@@ -6967,7 +6967,7 @@
     "id": 642,
     "name": {
       "ja": "ボルトロス",
-      "en": ""
+      "en": "Thundurus"
     },
     "classification": "らいげきポケモン",
     "height": "1.5",
@@ -6977,7 +6977,7 @@
     "id": 643,
     "name": {
       "ja": "レシラム",
-      "en": ""
+      "en": "Reshiram"
     },
     "classification": "はくようポケモン",
     "height": "3.2",
@@ -6987,7 +6987,7 @@
     "id": 644,
     "name": {
       "ja": "ゼクロム",
-      "en": ""
+      "en": "Zekrom"
     },
     "classification": "こくいんポケモン",
     "height": "2.9",
@@ -6997,7 +6997,7 @@
     "id": 645,
     "name": {
       "ja": "ランドロス",
-      "en": ""
+      "en": "Landorus"
     },
     "classification": "ほうじょうポケモン",
     "height": "1.5",
@@ -7007,7 +7007,7 @@
     "id": 646,
     "name": {
       "ja": "キュレム",
-      "en": ""
+      "en": "Kyurem"
     },
     "classification": "きょうかいポケモン",
     "height": "3.0",
@@ -7017,7 +7017,7 @@
     "id": 647,
     "name": {
       "ja": "ケルディオ",
-      "en": ""
+      "en": "Keldeo"
     },
     "classification": "わかごまポケモン",
     "height": "1.4",
@@ -7027,7 +7027,7 @@
     "id": 648,
     "name": {
       "ja": "メロエッタ",
-      "en": ""
+      "en": "Meloetta"
     },
     "classification": "せんりつポケモン",
     "height": "0.6",
@@ -7037,7 +7037,7 @@
     "id": 649,
     "name": {
       "ja": "ゲノセクト",
-      "en": ""
+      "en": "Genesect"
     },
     "classification": "こせいだいポケモン",
     "height": "1.5",
@@ -7047,7 +7047,7 @@
     "id": 650,
     "name": {
       "ja": "ハリマロン",
-      "en": ""
+      "en": "Chespin"
     },
     "classification": "いがぐりポケモン",
     "height": "0.4",
@@ -7057,7 +7057,7 @@
     "id": 651,
     "name": {
       "ja": "ハリボーグ",
-      "en": ""
+      "en": "Quilladin"
     },
     "classification": "とげよろいポケモン",
     "height": "0.7",
@@ -7067,7 +7067,7 @@
     "id": 652,
     "name": {
       "ja": "ブリガロン",
-      "en": ""
+      "en": "Chesnaught"
     },
     "classification": "とげよろいポケモン",
     "height": "1.6",
@@ -7077,7 +7077,7 @@
     "id": 653,
     "name": {
       "ja": "フォッコ",
-      "en": ""
+      "en": "Fennekin"
     },
     "classification": "キツネポケモン",
     "height": "0.4",
@@ -7087,7 +7087,7 @@
     "id": 654,
     "name": {
       "ja": "テールナー",
-      "en": ""
+      "en": "Braixen"
     },
     "classification": "キツネポケモン",
     "height": "1.0",
@@ -7097,7 +7097,7 @@
     "id": 655,
     "name": {
       "ja": "マフォクシー",
-      "en": ""
+      "en": "Delphox"
     },
     "classification": "キツネポケモン",
     "height": "1.5",
@@ -7107,7 +7107,7 @@
     "id": 656,
     "name": {
       "ja": "ケロマツ",
-      "en": ""
+      "en": "Froakie"
     },
     "classification": "あわがえるポケモン",
     "height": "0.3",
@@ -7117,7 +7117,7 @@
     "id": 657,
     "name": {
       "ja": "ゲコガシラ",
-      "en": ""
+      "en": "Frogadier"
     },
     "classification": "あわがえるポケモン",
     "height": "0.6",
@@ -7127,7 +7127,7 @@
     "id": 658,
     "name": {
       "ja": "ゲッコウガ",
-      "en": ""
+      "en": "Greninja"
     },
     "classification": "しのびポケモン",
     "height": "1.5",
@@ -7137,7 +7137,7 @@
     "id": 659,
     "name": {
       "ja": "ホルビー",
-      "en": ""
+      "en": "Bunnelby"
     },
     "classification": "あなほりポケモン",
     "height": "0.4",
@@ -7147,7 +7147,7 @@
     "id": 660,
     "name": {
       "ja": "ホルード",
-      "en": ""
+      "en": "Diggersby"
     },
     "classification": "あなほりポケモン",
     "height": "1.0",
@@ -7157,7 +7157,7 @@
     "id": 661,
     "name": {
       "ja": "ヤヤコマ",
-      "en": ""
+      "en": "Fletchling"
     },
     "classification": "コマドリポケモン",
     "height": "0.3",
@@ -7169,7 +7169,7 @@
     "id": 662,
     "name": {
       "ja": "ヒノヤコマ",
-      "en": ""
+      "en": "Fletchinder"
     },
     "classification": "ひのこポケモン",
     "height": "0.7",
@@ -7181,7 +7181,7 @@
     "id": 663,
     "name": {
       "ja": "ファイアロー",
-      "en": ""
+      "en": "Talonflame"
     },
     "classification": "れっかポケモン",
     "height": "1.2",
@@ -7193,7 +7193,7 @@
     "id": 664,
     "name": {
       "ja": "コフキムシ",
-      "en": ""
+      "en": "Scatterbug"
     },
     "classification": "こなふきポケモン",
     "height": "0.3",
@@ -7203,7 +7203,7 @@
     "id": 665,
     "name": {
       "ja": "コフーライ",
-      "en": ""
+      "en": "Spewpa"
     },
     "classification": "こなふきポケモン",
     "height": "0.3",
@@ -7213,7 +7213,7 @@
     "id": 666,
     "name": {
       "ja": "ビビヨン",
-      "en": ""
+      "en": "Vivillon"
     },
     "classification": "りんぷんポケモン",
     "height": "1.2",
@@ -7223,7 +7223,7 @@
     "id": 667,
     "name": {
       "ja": "シシコ",
-      "en": ""
+      "en": "Litleo"
     },
     "classification": "わかじしポケモン",
     "height": "0.6",
@@ -7234,7 +7234,7 @@
     "id": 668,
     "name": {
       "ja": "カエンジシ",
-      "en": ""
+      "en": "Pyroar"
     },
     "classification": "おうじゃポケモン",
     "height": "1.5",
@@ -7245,7 +7245,7 @@
     "id": 669,
     "name": {
       "ja": "フラベベ",
-      "en": ""
+      "en": "Flabébé"
     },
     "classification": "いちりんポケモン",
     "height": "0.1",
@@ -7256,7 +7256,7 @@
     "id": 670,
     "name": {
       "ja": "フラエッテ",
-      "en": ""
+      "en": "Floette"
     },
     "classification": "いちりんポケモン",
     "height": "0.2",
@@ -7267,7 +7267,7 @@
     "id": 671,
     "name": {
       "ja": "フラージェス",
-      "en": ""
+      "en": "Florges"
     },
     "classification": "ガーデンポケモン",
     "height": "1.1",
@@ -7278,7 +7278,7 @@
     "id": 672,
     "name": {
       "ja": "メェークル",
-      "en": ""
+      "en": "Skiddo"
     },
     "classification": "ライドポケモン",
     "height": "0.9",
@@ -7288,7 +7288,7 @@
     "id": 673,
     "name": {
       "ja": "ゴーゴート",
-      "en": ""
+      "en": "Gogoat"
     },
     "classification": "ライドポケモン",
     "height": "1.7",
@@ -7298,7 +7298,7 @@
     "id": 674,
     "name": {
       "ja": "ヤンチャム",
-      "en": ""
+      "en": "Pancham"
     },
     "classification": "やんちゃポケモン",
     "height": "0.6",
@@ -7310,7 +7310,7 @@
     "id": 675,
     "name": {
       "ja": "ゴロンダ",
-      "en": ""
+      "en": "Pangoro"
     },
     "classification": "こわもてポケモン",
     "height": "2.1",
@@ -7322,7 +7322,7 @@
     "id": 676,
     "name": {
       "ja": "トリミアン",
-      "en": ""
+      "en": "Furfrou"
     },
     "classification": "プードルポケモン",
     "height": "1.2",
@@ -7333,7 +7333,7 @@
     "id": 677,
     "name": {
       "ja": "ニャスパー",
-      "en": ""
+      "en": "Espurr"
     },
     "classification": "じせいポケモン",
     "height": "0.3",
@@ -7343,7 +7343,7 @@
     "id": 678,
     "name": {
       "ja": "ニャオニクス",
-      "en": ""
+      "en": "Meowstic"
     },
     "classification": "よくせいポケモン",
     "height": "0.6",
@@ -7353,7 +7353,7 @@
     "id": 679,
     "name": {
       "ja": "ヒトツキ",
-      "en": ""
+      "en": "Honedge"
     },
     "classification": "とうけんポケモン",
     "height": "0.8",
@@ -7363,7 +7363,7 @@
     "id": 680,
     "name": {
       "ja": "ニダンギル",
-      "en": ""
+      "en": "Doublade"
     },
     "classification": "とうけんポケモン",
     "height": "0.8",
@@ -7373,7 +7373,7 @@
     "id": 681,
     "name": {
       "ja": "ギルガルド",
-      "en": ""
+      "en": "Aegislash"
     },
     "classification": "おうけんポケモン",
     "height": "1.7",
@@ -7383,7 +7383,7 @@
     "id": 682,
     "name": {
       "ja": "シュシュプ",
-      "en": ""
+      "en": "Spritzee"
     },
     "classification": "こうすいポケモン",
     "height": "0.2",
@@ -7393,7 +7393,7 @@
     "id": 683,
     "name": {
       "ja": "フレフワン",
-      "en": ""
+      "en": "Aromatisse"
     },
     "classification": "ほうこうポケモン",
     "height": "0.8",
@@ -7403,7 +7403,7 @@
     "id": 684,
     "name": {
       "ja": "ペロッパフ",
-      "en": ""
+      "en": "Swirlix"
     },
     "classification": "わたあめポケモン",
     "height": "0.4",
@@ -7413,7 +7413,7 @@
     "id": 685,
     "name": {
       "ja": "ペロリーム",
-      "en": ""
+      "en": "Slurpuff"
     },
     "classification": "ホイップポケモン",
     "height": "0.8",
@@ -7423,7 +7423,7 @@
     "id": 686,
     "name": {
       "ja": "マーイーカ",
-      "en": ""
+      "en": "Inkay"
     },
     "classification": "かいてんポケモン",
     "height": "0.4",
@@ -7434,7 +7434,7 @@
     "id": 687,
     "name": {
       "ja": "カラマネロ",
-      "en": ""
+      "en": "Malamar"
     },
     "classification": "ぎゃくてんポケモン",
     "height": "1.5",
@@ -7445,7 +7445,7 @@
     "id": 688,
     "name": {
       "ja": "カメテテ",
-      "en": ""
+      "en": "Binacle"
     },
     "classification": "ふたてポケモン",
     "height": "0.5",
@@ -7455,7 +7455,7 @@
     "id": 689,
     "name": {
       "ja": "ガメノデス",
-      "en": ""
+      "en": "Barbaracle"
     },
     "classification": "しゅうごうポケモン",
     "height": "1.3",
@@ -7465,7 +7465,7 @@
     "id": 690,
     "name": {
       "ja": "クズモー",
-      "en": ""
+      "en": "Skrelp"
     },
     "classification": "クサモドキポケモン",
     "height": "0.5",
@@ -7476,7 +7476,7 @@
     "id": 691,
     "name": {
       "ja": "ドラミドロ",
-      "en": ""
+      "en": "Dragalge"
     },
     "classification": "クサモドキポケモン",
     "height": "1.8",
@@ -7487,7 +7487,7 @@
     "id": 692,
     "name": {
       "ja": "ウデッポウ",
-      "en": ""
+      "en": "Clauncher"
     },
     "classification": "みずでっぽうポケモン",
     "height": "0.5",
@@ -7498,7 +7498,7 @@
     "id": 693,
     "name": {
       "ja": "ブロスター",
-      "en": ""
+      "en": "Clawitzer"
     },
     "classification": "ランチャーポケモン",
     "height": "1.3",
@@ -7509,7 +7509,7 @@
     "id": 694,
     "name": {
       "ja": "エリキテル",
-      "en": ""
+      "en": "Helioptile"
     },
     "classification": "はつでんポケモン",
     "height": "0.5",
@@ -7519,7 +7519,7 @@
     "id": 695,
     "name": {
       "ja": "エレザード",
-      "en": ""
+      "en": "Heliolisk"
     },
     "classification": "はつでんポケモン",
     "height": "1.0",
@@ -7529,7 +7529,7 @@
     "id": 696,
     "name": {
       "ja": "チゴラス",
-      "en": ""
+      "en": "Tyrunt"
     },
     "classification": "ようくんポケモン",
     "height": "0.8",
@@ -7540,7 +7540,7 @@
     "id": 697,
     "name": {
       "ja": "ガチゴラス",
-      "en": ""
+      "en": "Tyrantrum"
     },
     "classification": "ぼうくんポケモン",
     "height": "2.5",
@@ -7551,7 +7551,7 @@
     "id": 698,
     "name": {
       "ja": "アマルス",
-      "en": ""
+      "en": "Amaura"
     },
     "classification": "ツンドラポケモン",
     "height": "1.3",
@@ -7562,7 +7562,7 @@
     "id": 699,
     "name": {
       "ja": "アマルルガ",
-      "en": ""
+      "en": "Aurorus"
     },
     "classification": "ツンドラポケモン",
     "height": "2.7",
@@ -7573,7 +7573,7 @@
     "id": 700,
     "name": {
       "ja": "ニンフィア",
-      "en": ""
+      "en": "Sylveon"
     },
     "classification": "むすびつきポケモン",
     "height": "1.0",
@@ -7585,7 +7585,7 @@
     "id": 701,
     "name": {
       "ja": "ルチャブル",
-      "en": ""
+      "en": "Hawlucha"
     },
     "classification": "レスリングポケモン",
     "height": "0.8",
@@ -7596,7 +7596,7 @@
     "id": 702,
     "name": {
       "ja": "デデンネ",
-      "en": ""
+      "en": "Dedenne"
     },
     "classification": "アンテナポケモン",
     "height": "0.2",
@@ -7607,7 +7607,7 @@
     "id": 703,
     "name": {
       "ja": "メレシー",
-      "en": ""
+      "en": "Carbink"
     },
     "classification": "ほうせきポケモン",
     "height": "0.3",
@@ -7619,7 +7619,7 @@
     "id": 704,
     "name": {
       "ja": "ヌメラ",
-      "en": ""
+      "en": "Goomy"
     },
     "classification": "なんたいポケモン",
     "height": "0.3",
@@ -7631,7 +7631,7 @@
     "id": 705,
     "name": {
       "ja": "ヌメイル",
-      "en": ""
+      "en": "Sliggoo"
     },
     "classification": "なんたいポケモン",
     "height": "0.8",
@@ -7643,7 +7643,7 @@
     "id": 706,
     "name": {
       "ja": "ヌメルゴン",
-      "en": ""
+      "en": "Goodra"
     },
     "classification": "ドラゴンポケモン",
     "height": "2.0",
@@ -7655,7 +7655,7 @@
     "id": 707,
     "name": {
       "ja": "クレッフィ",
-      "en": ""
+      "en": "Klefki"
     },
     "classification": "かぎたばポケモン",
     "height": "0.2",
@@ -7667,7 +7667,7 @@
     "id": 708,
     "name": {
       "ja": "ボクレー",
-      "en": ""
+      "en": "Phantump"
     },
     "classification": "きりかぶポケモン",
     "height": "0.4",
@@ -7679,7 +7679,7 @@
     "id": 709,
     "name": {
       "ja": "オーロット",
-      "en": ""
+      "en": "Trevenant"
     },
     "classification": "ろうぼくポケモン",
     "height": "1.5",
@@ -7691,7 +7691,7 @@
     "id": 710,
     "name": {
       "ja": "バケッチャ",
-      "en": ""
+      "en": "Pumpkaboo"
     },
     "classification": "かぼちゃポケモン",
     "height": "0.4",
@@ -7701,7 +7701,7 @@
     "id": 711,
     "name": {
       "ja": "パンプジン",
-      "en": ""
+      "en": "Gourgeist"
     },
     "classification": "かぼちゃポケモン",
     "height": "0.9",
@@ -7711,7 +7711,7 @@
     "id": 712,
     "name": {
       "ja": "カチコール",
-      "en": ""
+      "en": "Bergmite"
     },
     "classification": "ひょうかいポケモン",
     "height": "1.0",
@@ -7721,7 +7721,7 @@
     "id": 713,
     "name": {
       "ja": "クレベース",
-      "en": ""
+      "en": "Avalugg"
     },
     "classification": "ひょうざんポケモン",
     "height": "2.0",
@@ -7731,7 +7731,7 @@
     "id": 714,
     "name": {
       "ja": "オンバット",
-      "en": ""
+      "en": "Noibat"
     },
     "classification": "おんぱポケモン",
     "height": "0.5",
@@ -7742,7 +7742,7 @@
     "id": 715,
     "name": {
       "ja": "オンバーン",
-      "en": ""
+      "en": "Noivern"
     },
     "classification": "おんぱポケモン",
     "height": "1.5",
@@ -7753,7 +7753,7 @@
     "id": 716,
     "name": {
       "ja": "ゼルネアス",
-      "en": ""
+      "en": "Xerneas"
     },
     "classification": "せいめいポケモン",
     "height": "3.0",
@@ -7763,7 +7763,7 @@
     "id": 717,
     "name": {
       "ja": "イベルタル",
-      "en": ""
+      "en": "Yveltal"
     },
     "classification": "はかいポケモン",
     "height": "5.8",
@@ -7773,7 +7773,7 @@
     "id": 718,
     "name": {
       "ja": "ジガルデ",
-      "en": ""
+      "en": "Zygarde"
     },
     "classification": "ちつじょポケモン",
     "height": "5.0",
@@ -7785,7 +7785,7 @@
     "id": 719,
     "name": {
       "ja": "ディアンシー",
-      "en": ""
+      "en": "Diancie"
     },
     "classification": "ほうせきポケモン",
     "height": "0.7",
@@ -7795,7 +7795,7 @@
     "id": 720,
     "name": {
       "ja": "フーパ",
-      "en": ""
+      "en": "Hoopa"
     },
     "classification": "いたずらポケモン",
     "height": "0.5",
@@ -7805,7 +7805,7 @@
     "id": 721,
     "name": {
       "ja": "ボルケニオン",
-      "en": ""
+      "en": "Volcanion"
     },
     "classification": "スチームポケモン",
     "height": "1.7",
@@ -7815,7 +7815,7 @@
     "id": 722,
     "name": {
       "ja": "モクロー",
-      "en": ""
+      "en": "Rowlet"
     },
     "classification": "くさばねポケモン",
     "height": "0.3",
@@ -7827,7 +7827,7 @@
     "id": 723,
     "name": {
       "ja": "フクスロー",
-      "en": ""
+      "en": "Dartrix"
     },
     "classification": "はばねポケモン",
     "height": "0.7",
@@ -7839,7 +7839,7 @@
     "id": 724,
     "name": {
       "ja": "ジュナイパー",
-      "en": ""
+      "en": "Decidueye"
     },
     "classification": "やばねポケモン",
     "height": "1.6",
@@ -7851,7 +7851,7 @@
     "id": 725,
     "name": {
       "ja": "ニャビー",
-      "en": ""
+      "en": "Litten"
     },
     "classification": "ひねこポケモン",
     "height": "0.4",
@@ -7863,7 +7863,7 @@
     "id": 726,
     "name": {
       "ja": "ニャヒート",
-      "en": ""
+      "en": "Torracat"
     },
     "classification": "ひねこポケモン",
     "height": "0.7",
@@ -7875,7 +7875,7 @@
     "id": 727,
     "name": {
       "ja": "ガオガエン",
-      "en": ""
+      "en": "Incineroar"
     },
     "classification": "ヒールポケモン",
     "height": "1.8",
@@ -7887,7 +7887,7 @@
     "id": 728,
     "name": {
       "ja": "アシマリ",
-      "en": ""
+      "en": "Popplio"
     },
     "classification": "あしかポケモン",
     "height": "0.4",
@@ -7899,7 +7899,7 @@
     "id": 729,
     "name": {
       "ja": "オシャマリ",
-      "en": ""
+      "en": "Brionne"
     },
     "classification": "アイドルポケモン",
     "height": "0.6",
@@ -7911,7 +7911,7 @@
     "id": 730,
     "name": {
       "ja": "アシレーヌ",
-      "en": ""
+      "en": "Primarina"
     },
     "classification": "ソリストポケモン",
     "height": "1.8",
@@ -7923,7 +7923,7 @@
     "id": 731,
     "name": {
       "ja": "ツツケラ",
-      "en": ""
+      "en": "Pikipek"
     },
     "classification": "きつつきポケモン",
     "height": "0.3",
@@ -7935,7 +7935,7 @@
     "id": 732,
     "name": {
       "ja": "ケララッパ",
-      "en": ""
+      "en": "Trumbeak"
     },
     "classification": "ラッパぐちポケモン",
     "height": "0.6",
@@ -7947,7 +7947,7 @@
     "id": 733,
     "name": {
       "ja": "ヤングース",
-      "en": ""
+      "en": "Yungoos"
     },
     "classification": "おおづつポケモン",
     "height": "1.1",
@@ -7959,7 +7959,7 @@
     "id": 734,
     "name": {
       "ja": "ヤングース",
-      "en": ""
+      "en": "Yungoos"
     },
     "classification": "うろつきポケモン",
     "height": "0.4",
@@ -7971,7 +7971,7 @@
     "id": 735,
     "name": {
       "ja": "デカグース",
-      "en": ""
+      "en": "Gumshoos"
     },
     "classification": "はりこみポケモン",
     "height": "0.7",
@@ -7983,7 +7983,7 @@
     "id": 736,
     "name": {
       "ja": "アゴジムシ",
-      "en": ""
+      "en": "Grubbin"
     },
     "classification": "ようちゅうポケモン",
     "height": "0.4",
@@ -7995,7 +7995,7 @@
     "id": 737,
     "name": {
       "ja": "デンヂムシ",
-      "en": ""
+      "en": "Charjabug"
     },
     "classification": "バッテリーポケモン",
     "height": "0.5",
@@ -8007,7 +8007,7 @@
     "id": 738,
     "name": {
       "ja": "クワガノン",
-      "en": ""
+      "en": "Vikavolt"
     },
     "classification": "くわがたポケモン",
     "height": "1.5",
@@ -8019,7 +8019,7 @@
     "id": 739,
     "name": {
       "ja": "マケンカニ",
-      "en": ""
+      "en": "Crabrawler"
     },
     "classification": "けんとうポケモン",
     "height": "0.6",
@@ -8031,7 +8031,7 @@
     "id": 740,
     "name": {
       "ja": "ケケンカニ",
-      "en": ""
+      "en": "Crabominable"
     },
     "classification": "けがにポケモン",
     "height": "1.7",
@@ -8043,7 +8043,7 @@
     "id": 741,
     "name": {
       "ja": "オドリドリ",
-      "en": ""
+      "en": "Oricorio"
     },
     "classification": "ダンスポケモン",
     "height": "0.6",
@@ -8055,7 +8055,7 @@
     "id": 742,
     "name": {
       "ja": "アブリー",
-      "en": ""
+      "en": "Cutiefly"
     },
     "classification": "ツリアブポケモン",
     "height": "0.1",
@@ -8067,7 +8067,7 @@
     "id": 743,
     "name": {
       "ja": "アブリボン",
-      "en": ""
+      "en": "Ribombee"
     },
     "classification": "ツリアブポケモン",
     "height": "0.2",
@@ -8079,7 +8079,7 @@
     "id": 744,
     "name": {
       "ja": "イワンコ",
-      "en": ""
+      "en": "Rockruff"
     },
     "classification": "こいぬポケモン",
     "height": "0.5",
@@ -8091,7 +8091,7 @@
     "id": 745,
     "name": {
       "ja": "ルガルガン",
-      "en": ""
+      "en": "Lycanroc"
     },
     "classification": "オオカミポケモン",
     "height": "0.8",
@@ -8103,7 +8103,7 @@
     "id": 746,
     "name": {
       "ja": "ヨワシ",
-      "en": ""
+      "en": "Wishiwashi"
     },
     "classification": "こざかなポケモン",
     "height": "0.2",
@@ -8115,7 +8115,7 @@
     "id": 747,
     "name": {
       "ja": "ヒドイデ",
-      "en": ""
+      "en": "Mareanie"
     },
     "classification": "ヒトデナシポケモン",
     "height": "0.4",
@@ -8127,7 +8127,7 @@
     "id": 748,
     "name": {
       "ja": "ドヒドイデ",
-      "en": ""
+      "en": "Toxapex"
     },
     "classification": "ヒトデナシポケモン",
     "height": "0.7",
@@ -8139,7 +8139,7 @@
     "id": 749,
     "name": {
       "ja": "ドロバンコ",
-      "en": ""
+      "en": "Mudbray"
     },
     "classification": "うさぎうまポケモン",
     "height": "1.0",
@@ -8151,7 +8151,7 @@
     "id": 750,
     "name": {
       "ja": "バンバドロ",
-      "en": ""
+      "en": "Mudsdale"
     },
     "classification": "ばんばポケモン",
     "height": "2.5",
@@ -8163,7 +8163,7 @@
     "id": 751,
     "name": {
       "ja": "シズクモ",
-      "en": ""
+      "en": "Dewpider"
     },
     "classification": "すいほうポケモン",
     "height": "0.3",
@@ -8175,7 +8175,7 @@
     "id": 752,
     "name": {
       "ja": "オニシズクモ",
-      "en": ""
+      "en": "Araquanid"
     },
     "classification": "すいほうポケモン",
     "height": "1.8",
@@ -8187,7 +8187,7 @@
     "id": 753,
     "name": {
       "ja": "カリキリ",
-      "en": ""
+      "en": "Fomantis"
     },
     "classification": "かまくさポケモン",
     "height": "0.3",
@@ -8199,7 +8199,7 @@
     "id": 754,
     "name": {
       "ja": "ラランテス",
-      "en": ""
+      "en": "Lurantis"
     },
     "classification": "はなかまポケモン",
     "height": "0.9",
@@ -8211,7 +8211,7 @@
     "id": 755,
     "name": {
       "ja": "ネマシュ",
-      "en": ""
+      "en": "Morelull"
     },
     "classification": "はっこうポケモン",
     "height": "0.2",
@@ -8223,7 +8223,7 @@
     "id": 756,
     "name": {
       "ja": "マシェード",
-      "en": ""
+      "en": "Shiinotic"
     },
     "classification": "はっこうポケモン",
     "height": "1.0",
@@ -8235,7 +8235,7 @@
     "id": 757,
     "name": {
       "ja": "ヤトウモリ",
-      "en": ""
+      "en": "Salandit"
     },
     "classification": "どくトカゲポケモン",
     "height": "0.6",
@@ -8247,7 +8247,7 @@
     "id": 758,
     "name": {
       "ja": "エンニュート",
-      "en": ""
+      "en": "Salazzle"
     },
     "classification": "どくトカゲポケモン",
     "height": "1.2",
@@ -8259,7 +8259,7 @@
     "id": 759,
     "name": {
       "ja": "ヌイコグマ",
-      "en": ""
+      "en": "Stufful"
     },
     "classification": "じたばたポケモン",
     "height": "0.5",
@@ -8271,7 +8271,7 @@
     "id": 760,
     "name": {
       "ja": "キテルグマ",
-      "en": ""
+      "en": "Bewear"
     },
     "classification": "ごうわんポケモン",
     "height": "2.1",
@@ -8283,7 +8283,7 @@
     "id": 761,
     "name": {
       "ja": "アマカジ",
-      "en": ""
+      "en": "Bounsweet"
     },
     "classification": "フルーツポケモン",
     "height": "0.3",
@@ -8295,7 +8295,7 @@
     "id": 762,
     "name": {
       "ja": "アママイコ",
-      "en": ""
+      "en": "Steenee"
     },
     "classification": "フルーツポケモン",
     "height": "0.7",
@@ -8307,7 +8307,7 @@
     "id": 763,
     "name": {
       "ja": "アマージョ",
-      "en": ""
+      "en": "Tsareena"
     },
     "classification": "フルーツポケモン",
     "height": "1.2",
@@ -8319,7 +8319,7 @@
     "id": 764,
     "name": {
       "ja": "キュワワー",
-      "en": ""
+      "en": "Comfey"
     },
     "classification": "はなつみポケモン",
     "height": "0.1",
@@ -8331,7 +8331,7 @@
     "id": 765,
     "name": {
       "ja": "ヤレユータン",
-      "en": ""
+      "en": "Oranguru"
     },
     "classification": "けんじゃポケモン",
     "height": "1.5",
@@ -8343,7 +8343,7 @@
     "id": 766,
     "name": {
       "ja": "ナゲツケサル",
-      "en": ""
+      "en": "Passimian"
     },
     "classification": "れんけいポケモン",
     "height": "2.0",
@@ -8355,7 +8355,7 @@
     "id": 767,
     "name": {
       "ja": "コソクムシ",
-      "en": ""
+      "en": "Wimpod"
     },
     "classification": "そうこうポケモン",
     "height": "0.5",
@@ -8367,7 +8367,7 @@
     "id": 768,
     "name": {
       "ja": "グソクムシャ",
-      "en": ""
+      "en": "Golisopod"
     },
     "classification": "そうこうポケモン",
     "height": "2.0",
@@ -8379,7 +8379,7 @@
     "id": 769,
     "name": {
       "ja": "スナバァ",
-      "en": ""
+      "en": "Sandygast"
     },
     "classification": "すなやまポケモン",
     "height": "0.5",
@@ -8391,7 +8391,7 @@
     "id": 770,
     "name": {
       "ja": "シロデスナ",
-      "en": ""
+      "en": "Palossand"
     },
     "classification": "すなのしろポケモン",
     "height": "1.3",
@@ -8403,7 +8403,7 @@
     "id": 771,
     "name": {
       "ja": "ナマコブシ",
-      "en": ""
+      "en": "Pyukumuku"
     },
     "classification": "なまこポケモン",
     "height": "0.3",
@@ -8415,7 +8415,7 @@
     "id": 772,
     "name": {
       "ja": "タイプ:ヌル",
-      "en": ""
+      "en": "Type: Null"
     },
     "classification": "じんこうポケモン",
     "height": "1.9",
@@ -8427,7 +8427,7 @@
     "id": 773,
     "name": {
       "ja": "シルヴァディ",
-      "en": ""
+      "en": "Silvally"
     },
     "classification": "じんこうポケモン",
     "height": "2.3",
@@ -8439,7 +8439,7 @@
     "id": 774,
     "name": {
       "ja": "メテノ",
-      "en": ""
+      "en": "Minior"
     },
     "classification": "ながれぼしポケモン",
     "height": "0.3",
@@ -8451,7 +8451,7 @@
     "id": 775,
     "name": {
       "ja": "ネッコアラ",
-      "en": ""
+      "en": "Komala"
     },
     "classification": "ゆめうつつポケモン",
     "height": "0.4",
@@ -8463,7 +8463,7 @@
     "id": 776,
     "name": {
       "ja": "バクガメス",
-      "en": ""
+      "en": "Turtonator"
     },
     "classification": "ばくはつがめポケモン",
     "height": "2.0",
@@ -8475,7 +8475,7 @@
     "id": 777,
     "name": {
       "ja": "トゲデマル",
-      "en": ""
+      "en": "Togedemaru"
     },
     "classification": "まるまりポケモン",
     "height": "0.3",
@@ -8487,7 +8487,7 @@
     "id": 778,
     "name": {
       "ja": "ミミッキュ",
-      "en": ""
+      "en": "Mimikyu"
     },
     "classification": "ばけのかわポケモン",
     "height": "0.2",
@@ -8499,7 +8499,7 @@
     "id": 779,
     "name": {
       "ja": "ハギギシリ",
-      "en": ""
+      "en": "Bruxish"
     },
     "classification": "はぎしりポケモン",
     "height": "0.9",
@@ -8511,7 +8511,7 @@
     "id": 780,
     "name": {
       "ja": "ジジーロン",
-      "en": ""
+      "en": "Drampa"
     },
     "classification": "ゆうゆうポケモン",
     "height": "3.0",
@@ -8523,7 +8523,7 @@
     "id": 781,
     "name": {
       "ja": "ダダリン",
-      "en": ""
+      "en": "Dhelmise"
     },
     "classification": "もくずポケモン",
     "height": "3.9",
@@ -8535,7 +8535,7 @@
     "id": 782,
     "name": {
       "ja": "ジャラコ",
-      "en": ""
+      "en": "Jangmo-o"
     },
     "classification": "うろこポケモン",
     "height": "0.6",
@@ -8547,7 +8547,7 @@
     "id": 783,
     "name": {
       "ja": "ジャランゴ",
-      "en": ""
+      "en": "Hakamo-o"
     },
     "classification": "うろこポケモン",
     "height": "1.2",
@@ -8559,7 +8559,7 @@
     "id": 784,
     "name": {
       "ja": "ジャラランガ",
-      "en": ""
+      "en": "Kommo-o"
     },
     "classification": "うろこポケモン",
     "height": "1.6",
@@ -8571,7 +8571,7 @@
     "id": 785,
     "name": {
       "ja": "カプ・コケコ",
-      "en": ""
+      "en": "Tapu Koko"
     },
     "classification": "とちがみポケモン",
     "height": "1.8",
@@ -8583,7 +8583,7 @@
     "id": 786,
     "name": {
       "ja": "カプ・テテフ",
-      "en": ""
+      "en": "Tapu Lele"
     },
     "classification": "とちがみポケモン",
     "height": "1.2",
@@ -8595,7 +8595,7 @@
     "id": 787,
     "name": {
       "ja": "カプ・ブルル",
-      "en": ""
+      "en": "Tapu Bulu"
     },
     "classification": "とちがみポケモン",
     "height": "1.9",
@@ -8607,7 +8607,7 @@
     "id": 788,
     "name": {
       "ja": "カプ・レヒレ",
-      "en": ""
+      "en": "Tapu Fini"
     },
     "classification": "とちがみポケモン",
     "height": "1.3",
@@ -8619,7 +8619,7 @@
     "id": 789,
     "name": {
       "ja": "コスモッグ",
-      "en": ""
+      "en": "Cosmog"
     },
     "classification": "せいうんポケモン",
     "height": "0.2",
@@ -8631,7 +8631,7 @@
     "id": 790,
     "name": {
       "ja": "コスモウム",
-      "en": ""
+      "en": "Cosmoem"
     },
     "classification": "げんしせいポケモン",
     "height": "0.1",
@@ -8643,7 +8643,7 @@
     "id": 791,
     "name": {
       "ja": "ソルガレオ",
-      "en": ""
+      "en": "Solgaleo"
     },
     "classification": "にちりんポケモン",
     "height": "3.4",
@@ -8655,7 +8655,7 @@
     "id": 792,
     "name": {
       "ja": "ルナアーラ",
-      "en": ""
+      "en": "Lunala"
     },
     "classification": "がちりんポケモン",
     "height": "4.0",
@@ -8667,7 +8667,7 @@
     "id": 793,
     "name": {
       "ja": "ウツロイド",
-      "en": ""
+      "en": "Nihilego"
     },
     "classification": "きせいポケモン",
     "height": "1.2",
@@ -8679,7 +8679,7 @@
     "id": 794,
     "name": {
       "ja": "マッシブーン",
-      "en": ""
+      "en": "Buzzwole"
     },
     "classification": "ぼうちょうポケモン",
     "height": "2.4",
@@ -8691,7 +8691,7 @@
     "id": 795,
     "name": {
       "ja": "フェローチェ",
-      "en": ""
+      "en": "Pheromosa"
     },
     "classification": "えんびポケモン",
     "height": "1.8",
@@ -8703,7 +8703,7 @@
     "id": 796,
     "name": {
       "ja": "デンジュモク",
-      "en": ""
+      "en": "Xurkitree"
     },
     "classification": "でんしょくポケモン",
     "height": "3.8",
@@ -8715,7 +8715,7 @@
     "id": 797,
     "name": {
       "ja": "テッカグヤ",
-      "en": ""
+      "en": "Celesteela"
     },
     "classification": "うちあげポケモン",
     "height": "9.2",
@@ -8727,7 +8727,7 @@
     "id": 798,
     "name": {
       "ja": "カミツルギ",
-      "en": ""
+      "en": "Kartana"
     },
     "classification": "ばっとうポケモン",
     "height": "0.3",
@@ -8739,7 +8739,7 @@
     "id": 799,
     "name": {
       "ja": "アクジキング",
-      "en": ""
+      "en": "Guzzlord"
     },
     "classification": "あくじきポケモン",
     "height": "5.5",
@@ -8751,7 +8751,7 @@
     "id": 800,
     "name": {
       "ja": "ネクロズマ",
-      "en": ""
+      "en": "Necrozma"
     },
     "classification": "プリズムポケモン",
     "height": "2.4",
@@ -8763,7 +8763,7 @@
     "id": 801,
     "name": {
       "ja": "マギアナ",
-      "en": ""
+      "en": "Magearna"
     },
     "classification": "じんぞうポケモン",
     "height": "1.0",
@@ -8775,7 +8775,7 @@
     "id": 802,
     "name": {
       "ja": "マーシャドー",
-      "en": ""
+      "en": "Marshadow"
     },
     "classification": "かげすみポケモン",
     "height": "0.7",
@@ -8787,7 +8787,7 @@
     "id": 803,
     "name": {
       "ja": "ベベノム",
-      "en": ""
+      "en": "Poipole"
     },
     "classification": "どくばりポケモン",
     "height": "0.6",
@@ -8798,7 +8798,7 @@
     "id": 804,
     "name": {
       "ja": "アーゴヨン",
-      "en": ""
+      "en": "Naganadel"
     },
     "classification": "どくばりポケモン",
     "height": "3.6",
@@ -8809,7 +8809,7 @@
     "id": 805,
     "name": {
       "ja": "ツンデツンデ",
-      "en": ""
+      "en": "Stakataka"
     },
     "classification": "いしがきポケモン",
     "height": "5.5",
@@ -8820,7 +8820,7 @@
     "id": 806,
     "name": {
       "ja": "ズガドーン",
-      "en": ""
+      "en": "Blacephalon"
     },
     "classification": "はなびポケモン",
     "height": "1.8",
@@ -8831,7 +8831,7 @@
     "id": 807,
     "name": {
       "ja": "ゼラオラ",
-      "en": ""
+      "en": "Zeraora"
     },
     "classification": "じんらいポケモン",
     "height": "1.5",
@@ -8842,7 +8842,7 @@
     "id": 808,
     "name": {
       "ja": "メルタン",
-      "en": ""
+      "en": "Meltan"
     },
     "classification": "ナットポケモン",
     "height": "0.2",
@@ -8852,7 +8852,7 @@
     "id": 809,
     "name": {
       "ja": "メルメタル",
-      "en": ""
+      "en": "Melmetal"
     },
     "classification": "ナットポケモン",
     "height": "2.5",
@@ -8862,7 +8862,7 @@
     "id": 810,
     "name": {
       "ja": "サルノリ",
-      "en": ""
+      "en": "Grookey"
     },
     "classification": "こざるポケモン",
     "height": "0.3",
@@ -8872,7 +8872,7 @@
     "id": 811,
     "name": {
       "ja": "バチンキー",
-      "en": ""
+      "en": "Thwackey"
     },
     "classification": "ビートポケモン",
     "height": "0.7",
@@ -8882,7 +8882,7 @@
     "id": 812,
     "name": {
       "ja": "ゴリランダー",
-      "en": ""
+      "en": "Rillaboom"
     },
     "classification": "ドラマーポケモン",
     "height": "2.1",
@@ -8892,7 +8892,7 @@
     "id": 813,
     "name": {
       "ja": "ヒバニー",
-      "en": ""
+      "en": "Scorbunny"
     },
     "classification": "うさぎポケモン",
     "height": "0.3",
@@ -8902,7 +8902,7 @@
     "id": 814,
     "name": {
       "ja": "ラビフット",
-      "en": ""
+      "en": "Raboot"
     },
     "classification": "うさぎポケモン",
     "height": "0.6",
@@ -8912,7 +8912,7 @@
     "id": 815,
     "name": {
       "ja": "エースバーン",
-      "en": ""
+      "en": "Cinderace"
     },
     "classification": "ストライカーポケモン",
     "height": "1.4",
@@ -8922,7 +8922,7 @@
     "id": 816,
     "name": {
       "ja": "メッソン",
-      "en": ""
+      "en": "Sobble"
     },
     "classification": "みずとかげポケモン",
     "height": "0.3",
@@ -8932,7 +8932,7 @@
     "id": 817,
     "name": {
       "ja": "ジメレオン",
-      "en": ""
+      "en": "Drizzile"
     },
     "classification": "みずとかげポケモン",
     "height": "0.7",
@@ -8942,7 +8942,7 @@
     "id": 818,
     "name": {
       "ja": "インテレオン",
-      "en": ""
+      "en": "Inteleon"
     },
     "classification": "エージェントポケモン",
     "height": "1.9",
@@ -8952,7 +8952,7 @@
     "id": 819,
     "name": {
       "ja": "ホシガリス",
-      "en": ""
+      "en": "Skwovet"
     },
     "classification": "ほおばりポケモン",
     "height": "0.3",
@@ -8962,7 +8962,7 @@
     "id": 820,
     "name": {
       "ja": "ヨクバリス",
-      "en": ""
+      "en": "Greedent"
     },
     "classification": "よくばりポケモン",
     "height": "0.6",
@@ -8972,7 +8972,7 @@
     "id": 821,
     "name": {
       "ja": "ココガラ",
-      "en": ""
+      "en": "Rookidee"
     },
     "classification": "ことりポケモン",
     "height": "0.2",
@@ -8982,7 +8982,7 @@
     "id": 822,
     "name": {
       "ja": "アオガラス",
-      "en": ""
+      "en": "Corvisquire"
     },
     "classification": "カラスポケモン",
     "height": "0.8",
@@ -8992,7 +8992,7 @@
     "id": 823,
     "name": {
       "ja": "アーマーガア",
-      "en": ""
+      "en": "Corviknight"
     },
     "classification": "カラスポケモン",
     "height": "2.2",
@@ -9002,7 +9002,7 @@
     "id": 824,
     "name": {
       "ja": "サッチムシ",
-      "en": ""
+      "en": "Blipbug"
     },
     "classification": "ようちゅうポケモン",
     "height": "0.4",
@@ -9012,7 +9012,7 @@
     "id": 825,
     "name": {
       "ja": "レドームシ",
-      "en": ""
+      "en": "Dottler"
     },
     "classification": "レドームポケモン",
     "height": "0.4",
@@ -9022,7 +9022,7 @@
     "id": 826,
     "name": {
       "ja": "イオルブ",
-      "en": ""
+      "en": "Orbeetle"
     },
     "classification": "ななほしポケモン",
     "height": "0.4",
@@ -9032,7 +9032,7 @@
     "id": 827,
     "name": {
       "ja": "クスネ",
-      "en": ""
+      "en": "Nickit"
     },
     "classification": "きつねポケモン",
     "height": "0.6",
@@ -9042,7 +9042,7 @@
     "id": 828,
     "name": {
       "ja": "フォクスライ",
-      "en": ""
+      "en": "Thievul"
     },
     "classification": "きつねポケモン",
     "height": "1.2",
@@ -9052,7 +9052,7 @@
     "id": 829,
     "name": {
       "ja": "ヒメンカ",
-      "en": ""
+      "en": "Gossifleur"
     },
     "classification": "はなかざりポケモン",
     "height": "0.4",
@@ -9062,7 +9062,7 @@
     "id": 830,
     "name": {
       "ja": "ワタシラガ",
-      "en": ""
+      "en": "Eldegoss"
     },
     "classification": "わたかざりポケモン",
     "height": "0.5",
@@ -9072,7 +9072,7 @@
     "id": 831,
     "name": {
       "ja": "ウールー",
-      "en": ""
+      "en": "Wooloo"
     },
     "classification": "ひつじポケモン",
     "height": "0.6",
@@ -9082,7 +9082,7 @@
     "id": 832,
     "name": {
       "ja": "バイウールー",
-      "en": ""
+      "en": "Dubwool"
     },
     "classification": "ひつじポケモン",
     "height": "1.3",
@@ -9092,7 +9092,7 @@
     "id": 833,
     "name": {
       "ja": "カムカメ",
-      "en": ""
+      "en": "Chewtle"
     },
     "classification": "くいつきポケモン",
     "height": "0.3",
@@ -9102,7 +9102,7 @@
     "id": 834,
     "name": {
       "ja": "カジリガメ",
-      "en": ""
+      "en": "Drednaw"
     },
     "classification": "かみつきポケモン",
     "height": "1.0",
@@ -9112,7 +9112,7 @@
     "id": 835,
     "name": {
       "ja": "ワンパチ",
-      "en": ""
+      "en": "Yamper"
     },
     "classification": "こいぬポケモン",
     "height": "0.3",
@@ -9122,7 +9122,7 @@
     "id": 836,
     "name": {
       "ja": "パルスワン",
-      "en": ""
+      "en": "Boltund"
     },
     "classification": "いぬポケモン",
     "height": "1.0",
@@ -9132,7 +9132,7 @@
     "id": 837,
     "name": {
       "ja": "タンドン",
-      "en": ""
+      "en": "Rolycoly"
     },
     "classification": "せきたんポケモン",
     "height": "0.3",
@@ -9142,7 +9142,7 @@
     "id": 838,
     "name": {
       "ja": "トロッゴン",
-      "en": ""
+      "en": "Carkol"
     },
     "classification": "せきたんポケモン",
     "height": "1.1",
@@ -9152,7 +9152,7 @@
     "id": 839,
     "name": {
       "ja": "セキタンザン",
-      "en": ""
+      "en": "Coalossal"
     },
     "classification": "せきたんポケモン",
     "height": "2.8",
@@ -9162,7 +9162,7 @@
     "id": 840,
     "name": {
       "ja": "カジッチュ",
-      "en": ""
+      "en": "Applin"
     },
     "classification": "りんごぐらしポケモン",
     "height": "0.2",
@@ -9172,7 +9172,7 @@
     "id": 841,
     "name": {
       "ja": "アップリュー",
-      "en": ""
+      "en": "Flapple"
     },
     "classification": "りんごはねポケモン",
     "height": "0.3",
@@ -9182,7 +9182,7 @@
     "id": 842,
     "name": {
       "ja": "タルップル",
-      "en": ""
+      "en": "Appletun"
     },
     "classification": "りんごじるポケモン",
     "height": "0.4",
@@ -9192,7 +9192,7 @@
     "id": 843,
     "name": {
       "ja": "スナヘビ",
-      "en": ""
+      "en": "Silicobra"
     },
     "classification": "すなへびポケモン",
     "height": "2.2",
@@ -9202,7 +9202,7 @@
     "id": 844,
     "name": {
       "ja": "サダイジャ",
-      "en": ""
+      "en": "Sandaconda"
     },
     "classification": "すなへびポケモン",
     "height": "3.8",
@@ -9212,7 +9212,7 @@
     "id": 845,
     "name": {
       "ja": "ウッウ",
-      "en": ""
+      "en": "Cramorant"
     },
     "classification": "うのみポケモン",
     "height": "0.8",
@@ -9222,7 +9222,7 @@
     "id": 846,
     "name": {
       "ja": "サシカマス",
-      "en": ""
+      "en": "Arrokuda"
     },
     "classification": "とつげきポケモン",
     "height": "0.5",
@@ -9232,7 +9232,7 @@
     "id": 847,
     "name": {
       "ja": "カマスジョー",
-      "en": ""
+      "en": "Barraskewda"
     },
     "classification": "くしざしポケモン",
     "height": "1.3",
@@ -9242,7 +9242,7 @@
     "id": 848,
     "name": {
       "ja": "エレズン",
-      "en": ""
+      "en": "Toxel"
     },
     "classification": "あかごポケモン",
     "height": "0.4",
@@ -9252,7 +9252,7 @@
     "id": 849,
     "name": {
       "ja": "ストリンダー",
-      "en": ""
+      "en": "Toxtricity"
     },
     "classification": "パンクポケモン",
     "height": "1.6",
@@ -9262,7 +9262,7 @@
     "id": 850,
     "name": {
       "ja": "ヤクデ",
-      "en": ""
+      "en": "Sizzlipede"
     },
     "classification": "ポケモン",
     "height": "0.7",
@@ -9272,7 +9272,7 @@
     "id": 851,
     "name": {
       "ja": "マルヤクデ",
-      "en": ""
+      "en": "Centiskorch"
     },
     "classification": "ポケモン",
     "height": "3.0",
@@ -9282,7 +9282,7 @@
     "id": 852,
     "name": {
       "ja": "タタッコ",
-      "en": ""
+      "en": "Clobbopus"
     },
     "classification": "だだっこポケモン",
     "height": "0.6",
@@ -9292,7 +9292,7 @@
     "id": 853,
     "name": {
       "ja": "オトスパス",
-      "en": ""
+      "en": "Grapploct"
     },
     "classification": "じゅうじゅつポケモン",
     "height": "1.6",
@@ -9302,7 +9302,7 @@
     "id": 854,
     "name": {
       "ja": "ヤバチャ",
-      "en": ""
+      "en": "Sinistea"
     },
     "classification": "こうちゃポケモン",
     "height": "0.1",
@@ -9312,7 +9312,7 @@
     "id": 855,
     "name": {
       "ja": "ポットデス",
-      "en": ""
+      "en": "Polteageist"
     },
     "classification": "こうちゃポケモン",
     "height": "0.2",
@@ -9322,7 +9322,7 @@
     "id": 856,
     "name": {
       "ja": "ミブリム",
-      "en": ""
+      "en": "Hatenna"
     },
     "classification": "おだやかポケモン",
     "height": "0.4",
@@ -9332,7 +9332,7 @@
     "id": 857,
     "name": {
       "ja": "テブリム",
-      "en": ""
+      "en": "Hattrem"
     },
     "classification": "せいしゅくポケモン",
     "height": "0.6",
@@ -9342,7 +9342,7 @@
     "id": 858,
     "name": {
       "ja": "ブリムオン",
-      "en": ""
+      "en": "Hatterene"
     },
     "classification": "せいじゃくポケモン",
     "height": "2.1",
@@ -9352,7 +9352,7 @@
     "id": 859,
     "name": {
       "ja": "ベロバー",
-      "en": ""
+      "en": "Impidimp"
     },
     "classification": "いじわるポケモン",
     "height": "0.4",
@@ -9362,7 +9362,7 @@
     "id": 860,
     "name": {
       "ja": "ギモー",
-      "en": ""
+      "en": "Morgrem"
     },
     "classification": "しょうわるポケモン",
     "height": "0.8",
@@ -9372,7 +9372,7 @@
     "id": 861,
     "name": {
       "ja": "オーロンゲ",
-      "en": ""
+      "en": "Grimmsnarl"
     },
     "classification": "ビルドアップポケモン",
     "height": "1.5",
@@ -9382,7 +9382,7 @@
     "id": 862,
     "name": {
       "ja": "タチフサグマ",
-      "en": ""
+      "en": "Obstagoon"
     },
     "classification": "ていしポケモン",
     "height": "1.6",
@@ -9392,7 +9392,7 @@
     "id": 863,
     "name": {
       "ja": "ニャイキング",
-      "en": ""
+      "en": "Perrserker"
     },
     "classification": "バイキングポケモン",
     "height": "0.8",
@@ -9402,7 +9402,7 @@
     "id": 864,
     "name": {
       "ja": "サニゴーン",
-      "en": ""
+      "en": "Cursola"
     },
     "classification": "さんごポケモン",
     "height": "1.0",
@@ -9412,7 +9412,7 @@
     "id": 865,
     "name": {
       "ja": "ネギガナイト",
-      "en": ""
+      "en": "Sirfetch'd"
     },
     "classification": "かるがもポケモン",
     "height": "0.8",
@@ -9422,7 +9422,7 @@
     "id": 866,
     "name": {
       "ja": "バリコオル",
-      "en": ""
+      "en": "Mr. Rime"
     },
     "classification": "コメディアンポケモン",
     "height": "1.5",
@@ -9432,7 +9432,7 @@
     "id": 867,
     "name": {
       "ja": "デスバーン",
-      "en": ""
+      "en": "Runerigus"
     },
     "classification": "おんねんポケモン",
     "height": "1.6",
@@ -9442,7 +9442,7 @@
     "id": 868,
     "name": {
       "ja": "マホミル",
-      "en": ""
+      "en": "Milcery"
     },
     "classification": "クリームポケモン",
     "height": "0.2",
@@ -9452,7 +9452,7 @@
     "id": 869,
     "name": {
       "ja": "マホイップ",
-      "en": ""
+      "en": "Alcremie"
     },
     "classification": "クリームポケモン",
     "height": "0.3",
@@ -9462,7 +9462,7 @@
     "id": 870,
     "name": {
       "ja": "タイレーツ",
-      "en": ""
+      "en": "Falinks"
     },
     "classification": "じんけいポケモン",
     "height": "3.0",
@@ -9472,7 +9472,7 @@
     "id": 871,
     "name": {
       "ja": "バチンウニ",
-      "en": ""
+      "en": "Pincurchin"
     },
     "classification": "うにポケモン",
     "height": "0.3",
@@ -9482,7 +9482,7 @@
     "id": 872,
     "name": {
       "ja": "ユキハミ",
-      "en": ""
+      "en": "Snom"
     },
     "classification": "いもむしポケモン",
     "height": "0.3",
@@ -9492,7 +9492,7 @@
     "id": 873,
     "name": {
       "ja": "モスノウ",
-      "en": ""
+      "en": "Frosmoth"
     },
     "classification": "こおりがポケモン",
     "height": "1.3",
@@ -9502,7 +9502,7 @@
     "id": 874,
     "name": {
       "ja": "イシヘンジン",
-      "en": ""
+      "en": "Stonjourner"
     },
     "classification": "きょせきポケモン",
     "height": "2.5",
@@ -9512,7 +9512,7 @@
     "id": 875,
     "name": {
       "ja": "コオリッポ",
-      "en": ""
+      "en": "Eiscue"
     },
     "classification": "ペンギンポケモン",
     "height": "1.4",
@@ -9522,7 +9522,7 @@
     "id": 876,
     "name": {
       "ja": "イエッサン",
-      "en": ""
+      "en": "Indeedee"
     },
     "classification": "かんじょうポケモン",
     "height": "0.9",
@@ -9532,7 +9532,7 @@
     "id": 877,
     "name": {
       "ja": "モルペコ",
-      "en": ""
+      "en": "Morpeko"
     },
     "classification": "にめんポケモン",
     "height": "0.3",
@@ -9542,7 +9542,7 @@
     "id": 878,
     "name": {
       "ja": "ゾウドウ",
-      "en": ""
+      "en": "Cufant"
     },
     "classification": "どうぞうポケモン",
     "height": "1.2",
@@ -9552,7 +9552,7 @@
     "id": 879,
     "name": {
       "ja": "ダイオウドウ",
-      "en": ""
+      "en": "Copperajah"
     },
     "classification": "どうぞうポケモン",
     "height": "3.0",
@@ -9562,7 +9562,7 @@
     "id": 880,
     "name": {
       "ja": "パッチラゴン",
-      "en": ""
+      "en": "Dracozolt"
     },
     "classification": "かせきポケモン",
     "height": "1.8",
@@ -9572,7 +9572,7 @@
     "id": 881,
     "name": {
       "ja": "パッチルドン",
-      "en": ""
+      "en": "Arctozolt"
     },
     "classification": "かせきポケモン",
     "height": "2.3",
@@ -9582,7 +9582,7 @@
     "id": 882,
     "name": {
       "ja": "ウオノラゴン",
-      "en": ""
+      "en": "Dracovish"
     },
     "classification": "かせきポケモン",
     "height": "2.3",
@@ -9592,7 +9592,7 @@
     "id": 883,
     "name": {
       "ja": "ウオチルドン",
-      "en": ""
+      "en": "Arctovish"
     },
     "classification": "かせきポケモン",
     "height": "2.0",
@@ -9602,7 +9602,7 @@
     "id": 884,
     "name": {
       "ja": "ジュラルドン",
-      "en": ""
+      "en": "Duraludon"
     },
     "classification": "ごうきんポケモン",
     "height": "1.8",
@@ -9612,7 +9612,7 @@
     "id": 885,
     "name": {
       "ja": "ドラメシヤ",
-      "en": ""
+      "en": "Dreepy"
     },
     "classification": "うらめしポケモン",
     "height": "0.5",
@@ -9622,7 +9622,7 @@
     "id": 886,
     "name": {
       "ja": "ドロンチ",
-      "en": ""
+      "en": "Drakloak"
     },
     "classification": "せわやくポケモン",
     "height": "1.4",
@@ -9632,7 +9632,7 @@
     "id": 887,
     "name": {
       "ja": "ドラパルト",
-      "en": ""
+      "en": "Dragapult"
     },
     "classification": "ステルスポケモン",
     "height": "3.0",
@@ -9642,7 +9642,7 @@
     "id": 888,
     "name": {
       "ja": "ザシアン",
-      "en": ""
+      "en": "Zacian"
     },
     "classification": "つわものポケモン",
     "height": "2.8",
@@ -9652,7 +9652,7 @@
     "id": 889,
     "name": {
       "ja": "ザマゼンタ",
-      "en": ""
+      "en": "Zamazenta"
     },
     "classification": "つわものポケモン",
     "height": "2.9",
@@ -9662,7 +9662,7 @@
     "id": 890,
     "name": {
       "ja": "ムゲンダイナ",
-      "en": ""
+      "en": "Eternatus"
     },
     "classification": "キョダイポケモン",
     "height": "20.0",
