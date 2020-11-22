@@ -189,8 +189,10 @@
     "height": "0.3",
     "weight": "3.5",
     "region_form": {
-      "height": "0.3",
-      "weight": "3.8"
+      "alola": {
+        "height": "0.3",
+        "weight": "3.8"
+      }
     }
   },
   {
@@ -203,8 +205,10 @@
     "height": "0.7",
     "weight": "18.5",
     "region_form": {
-      "height": "0.7",
-      "weight": "25.5"
+      "alola": {
+        "height": "0.7",
+        "weight": "25.5"
+      }
     }
   },
   {
@@ -267,8 +271,10 @@
     "height": "0.8",
     "weight": "30.0",
     "region_form": {
-      "height": "0.7",
-      "weight": "21.0"
+      "alola": {
+        "height": "0.7",
+        "weight": "21.0"
+      }
     }
   },
   {
@@ -281,8 +287,10 @@
     "height": "0.6",
     "weight": "12.0",
     "region_form": {
-      "height": "0.7",
-      "weight": "40.0"
+      "alola": {
+        "height": "0.7",
+        "weight": "40.0"
+      }
     }
   },
   {
@@ -295,8 +303,10 @@
     "height": "1.0",
     "weight": "29.5",
     "region_form": {
-      "height": "1.2",
-      "weight": "55.0"
+      "alola": {
+        "height": "1.2",
+        "weight": "55.0"
+      }
     }
   },
   {
@@ -389,8 +399,10 @@
     "height": "0.6",
     "weight": "9.9",
     "region_form": {
-      "height": "0.6",
-      "weight": "9.9"
+      "alola": {
+        "height": "0.6",
+        "weight": "9.9"
+      }
     }
   },
   {
@@ -403,8 +415,10 @@
     "height": "1.1",
     "weight": "19.9",
     "region_form": {
-      "height": "1.1",
-      "weight": "19.9"
+      "alola": {
+        "height": "1.1",
+        "weight": "19.9"
+      }
     }
   },
   {
@@ -527,8 +541,10 @@
     "height": "0.2",
     "weight": "0.8",
     "region_form": {
-      "height": "0.2",
-      "weight": "1.0"
+      "alola": {
+        "height": "0.2",
+        "weight": "1.0"
+      }
     }
   },
   {
@@ -541,8 +557,10 @@
     "height": "0.7",
     "weight": "33.3",
     "region_form": {
-      "height": "0.7",
-      "weight": "66.6"
+      "alola": {
+        "height": "0.7",
+        "weight": "66.6"
+      }
     }
   },
   {
@@ -775,8 +793,10 @@
     "height": "0.4",
     "weight": "20.0",
     "region_form": {
-      "height": "0.4",
-      "weight": "20.3"
+      "alola": {
+        "height": "0.4",
+        "weight": "20.3"
+      }
     }
   },
   {
@@ -789,8 +809,10 @@
     "height": "1.0",
     "weight": "105.0",
     "region_form": {
-      "height": "1.0",
-      "weight": "110.0"
+      "alola": {
+        "height": "1.0",
+        "weight": "110.0"
+      }
     }
   },
   {
@@ -803,8 +825,10 @@
     "height": "1.4",
     "weight": "300.0",
     "region_form": {
-      "height": "1.7",
-      "weight": "316.0"
+      "alola": {
+        "height": "1.7",
+        "weight": "316.0"
+      }
     }
   },
   {
@@ -927,8 +951,10 @@
     "height": "0.9",
     "weight": "30.0",
     "region_form": {
-      "height": "0.7",
-      "weight": "42.0"
+      "alola": {
+        "height": "0.7",
+        "weight": "42.0"
+      }
     }
   },
   {
@@ -941,8 +967,10 @@
     "height": "1.2",
     "weight": "30.0",
     "region_form": {
-      "height": "1.0",
-      "weight": "52.0"
+      "alola": {
+        "height": "1.0",
+        "weight": "52.0"
+      }
     }
   },
   {
@@ -1085,8 +1113,10 @@
     "height": "2.0",
     "weight": "120.0",
     "region_form": {
-      "height": "10.9",
-      "weight": "415.6"
+      "alola": {
+        "height": "10.9",
+        "weight": "415.6"
+      }
     }
   },
   {
@@ -1109,8 +1139,10 @@
     "height": "1.0",
     "weight": "45.0",
     "region_form": {
-      "height": "1.0",
-      "weight": "34.0"
+      "alola": {
+        "height": "1.0",
+        "weight": "34.0"
+      }
     }
   },
   {
