@@ -2839,7 +2839,17 @@
     },
     "classification": "みつりんポケモン",
     "height": "1.7",
-    "weight": "52.2"
+    "weight": "52.2",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガジュカイン",
+                "en": "MegaSceptile"
+            },
+            "height": "1.9",
+            "weight": "55.2"
+        }
+    ]
   },
   {
     "id": 255,
@@ -2869,7 +2879,17 @@
     },
     "classification": "もうかポケモン",
     "height": "1.9",
-    "weight": "52.0"
+    "weight": "52.0",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガバシャーモ",
+                "en": "MegaBlaziken"
+            },
+            "height": "1.9",
+            "weight": "52.0"
+        }
+    ]
   },
   {
     "id": 258,
@@ -2899,7 +2919,17 @@
     },
     "classification": "ぬまうおポケモン",
     "height": "1.5",
-    "weight": "81.9"
+    "weight": "81.9",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガラグラージ",
+                "en": "MegaSwampert"
+            },
+            "height": "1.9",
+            "weight": "102.0"
+        }
+    ]
   },
   {
     "id": 261,
@@ -3119,7 +3149,17 @@
     },
     "classification": "ほうようポケモン",
     "height": "1.6",
-    "weight": "48.4"
+    "weight": "48.4",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガサーナイト",
+                "en": "MegaGardevoir"
+            },
+            "height": "1.6",
+            "weight": "48.4"
+        }
+    ]
   },
   {
     "id": 283,
@@ -3319,7 +3359,17 @@
     },
     "classification": "くらやみポケモン",
     "height": "0.5",
-    "weight": "11.0"
+    "weight": "11.0",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガヤミラミ",
+                "en": "MegaSableye"
+            },
+            "height": "0.5",
+            "weight": "161.0"
+        }
+    ]
   },
   {
     "id": 303,
@@ -3329,7 +3379,17 @@
     },
     "classification": "あざむきポケモン",
     "height": "0.6",
-    "weight": "11.5"
+    "weight": "11.5",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガクチート",
+                "en": "MegaMawile"
+            },
+            "height": "1.0",
+            "weight": "23.5"
+        }
+    ]
   },
   {
     "id": 304,
@@ -3359,7 +3419,17 @@
     },
     "classification": "てつヨロイポケモン",
     "height": "2.1",
-    "weight": "360.0"
+    "weight": "360.0",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガボスゴドラ",
+                "en": "MegaAggron"
+            },
+            "height": "2.2",
+            "weight": "395.0"
+        }
+    ]
   },
   {
     "id": 307,
@@ -3379,7 +3449,17 @@
     },
     "classification": "めいそうポケモン",
     "height": "1.3",
-    "weight": "31.5"
+    "weight": "31.5",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガチャーレム",
+                "en": "MegaMedicham"
+            },
+            "height": "1.3",
+            "weight": "31.5"
+        }
+    ]
   },
   {
     "id": 309,
@@ -3399,7 +3479,17 @@
     },
     "classification": "ほうでんポケモン",
     "height": "1.5",
-    "weight": "40.2"
+    "weight": "40.2",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガライボルト",
+                "en": "MegaManectric"
+            },
+            "height": "1.8",
+            "weight": "44.0"
+        }
+    ]
   },
   {
     "id": 311,
@@ -3489,7 +3579,17 @@
     },
     "classification": "きょうぼうポケモン",
     "height": "1.8",
-    "weight": "88.8"
+    "weight": "88.8",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガサメハダー",
+                "en": "MegaSharpedo"
+            },
+            "height": "2.5",
+            "weight": "130.3"
+        }
+    ]
   },
   {
     "id": 320,
@@ -3529,7 +3629,17 @@
     },
     "classification": "ふんかポケモン",
     "height": "1.9",
-    "weight": "220.0"
+    "weight": "220.0",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガバクーダ",
+                "en": "MegaCamerupt"
+            },
+            "height": "2.5",
+            "weight": "320.5"
+        }
+    ]
   },
   {
     "id": 324,
@@ -3639,7 +3749,17 @@
     },
     "classification": "ハミングポケモン",
     "height": "1.1",
-    "weight": "20.6"
+    "weight": "20.6",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガチルタリス",
+                "en": "MegaAltaria"
+            },
+            "height": "1.5",
+            "weight": "20.6"
+        }
+    ]
   },
   {
     "id": 335,
@@ -3839,7 +3959,17 @@
     },
     "classification": "ぬいぐるみポケモン",
     "height": "1.1",
-    "weight": "12.5"
+    "weight": "12.5",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガジュペッタ",
+                "en": "MegaBanette"
+            },
+            "height": "1.2",
+            "weight": "13.0"
+        }
+    ]
   },
   {
     "id": 355,
@@ -3889,7 +4019,17 @@
     },
     "classification": "わざわいポケモン",
     "height": "1.2",
-    "weight": "47.0"
+    "weight": "47.0",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガアブソル",
+                "en": "MegaAbsol"
+            },
+            "height": "1.2",
+            "weight": "49.0"
+        }
+    ]
   },
   {
     "id": 360,
@@ -3919,7 +4059,17 @@
     },
     "classification": "がんめんポケモン",
     "height": "1.5",
-    "weight": "256.5"
+    "weight": "256.5",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガオニゴーリ",
+                "en": "MegaGlalie"
+            },
+            "height": "2.1",
+            "weight": "350.2"
+        }
+    ]
   },
   {
     "id": 363,
@@ -4029,7 +4179,17 @@
     },
     "classification": "ドラゴンポケモン",
     "height": "1.5",
-    "weight": "102.6"
+    "weight": "102.6",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガボーマンダ",
+                "en": "MegaSalamence"
+            },
+            "height": "1.8",
+            "weight": "112.6"
+        }
+    ]
   },
   {
     "id": 374,
@@ -4059,7 +4219,17 @@
     },
     "classification": "てつあしポケモン",
     "height": "1.6",
-    "weight": "550.0"
+    "weight": "550.0",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガメタグロス",
+                "en": "MegaMetagross"
+            },
+            "height": "2.5",
+            "weight": "942.9"
+        }
+    ]
   },
   {
     "id": 377,
@@ -4099,7 +4269,17 @@
     },
     "classification": "むげんポケモン",
     "height": "1.4",
-    "weight": "40.0"
+    "weight": "40.0",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガラティアス",
+                "en": "MegaLatias"
+            },
+            "height": "1.8",
+            "weight": "52.0"
+        }
+    ]
   },
   {
     "id": 381,
@@ -4109,7 +4289,17 @@
     },
     "classification": "むげんポケモン",
     "height": "2.0",
-    "weight": "60.0"
+    "weight": "60.0",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガラティオス",
+                "en": "MegaLatios"
+            },
+            "height": "2.3",
+            "weight": "70.0"
+        }
+    ]
   },
   {
     "id": 382,
@@ -4119,7 +4309,17 @@
     },
     "classification": "かいていポケモン",
     "height": "4.5",
-    "weight": "352.0"
+    "weight": "352.0",
+    "primal_reversion": [
+        {
+            "name": {
+                "ja": "ゲンシカイオーガ",
+                "en": "PrimalKyogre"
+            },
+            "height": "9.8",
+            "weight": "430.0"
+        }
+    ]
   },
   {
     "id": 383,
@@ -4129,7 +4329,17 @@
     },
     "classification": "たいりくポケモン",
     "height": "3.5",
-    "weight": "950.0"
+    "weight": "950.0",
+    "primal_reversion": [
+        {
+            "name": {
+                "ja": "ゲンシグラードン",
+                "en": "PrimalGroudon"
+            },
+            "height": "5.0",
+            "weight": "999.7"
+        }
+    ]
   },
   {
     "id": 384,
@@ -4139,7 +4349,17 @@
     },
     "classification": "てんくうポケモン",
     "height": "7.0",
-    "weight": "206.5"
+    "weight": "206.5",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガレックウザ",
+                "en": "MegaRayquaza"
+            },
+            "height": "10.8",
+            "weight": "392.0"
+        }
+    ]
   },
   {
     "id": 385,
@@ -4579,7 +4799,17 @@
     },
     "classification": "うさぎポケモン",
     "height": "1.2",
-    "weight": "33.3"
+    "weight": "33.3",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガミミロップ",
+                "en": "MegaLopunny"
+            },
+            "height": "1.3",
+            "weight": "28.3"
+        }
+    ]
   },
   {
     "id": 429,
@@ -4749,7 +4979,17 @@
     },
     "classification": "マッハポケモン",
     "height": "1.9",
-    "weight": "95.0"
+    "weight": "95.0",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガガブリアス",
+                "en": "MegaGarchomp"
+            },
+            "height": "1.9",
+            "weight": "95.0"
+        }
+    ]
   },
   {
     "id": 446,
@@ -4779,7 +5019,17 @@
     },
     "classification": "はどうポケモン",
     "height": "1.2",
-    "weight": "54.0"
+    "weight": "54.0",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガルカリオ",
+                "en": "MegaLucario"
+            },
+            "height": "1.3",
+            "weight": "57.5"
+        }
+    ]
   },
   {
     "id": 449,
@@ -4899,7 +5149,17 @@
     },
     "classification": "じゅひょうポケモン",
     "height": "2.2",
-    "weight": "135.5"
+    "weight": "135.5",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガユキノオー",
+                "en": "MegaAbomasnow"
+            },
+            "height": "2.7",
+            "weight": "185.0"
+        }
+    ]
   },
   {
     "id": 461,
@@ -5049,7 +5309,17 @@
     },
     "classification": "やいばポケモン",
     "height": "1.6",
-    "weight": "34.0"
+    "weight": "34.0",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガエルレイド",
+                "en": "MegaGallade"
+            },
+            "height": "1.6",
+            "weight": "56.4"
+        }
+    ]
   },
   {
     "id": 476,
@@ -5609,7 +5879,17 @@
     },
     "classification": "ヒヤリングポケモン",
     "height": "1.1",
-    "weight": "31.0"
+    "weight": "31.0",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガタブンネ",
+                "en": "MegaAudino"
+            },
+            "height": "1.5",
+            "weight": "32.0"
+        }
+    ]
   },
   {
     "id": 532,
@@ -7489,7 +7769,17 @@
     },
     "classification": "ほうせきポケモン",
     "height": "0.7",
-    "weight": "8.8"
+    "weight": "8.8",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガディアンシー",
+                "en": "MegaDiancie"
+            },
+            "height": "1.1",
+            "weight": "27.8"
+        }
+    ]
   },
   {
     "id": 720,
