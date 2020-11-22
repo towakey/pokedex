@@ -2049,7 +2049,17 @@
     },
     "classification": "ライトポケモン",
     "height": "1.4",
-    "weight": "61.5"
+    "weight": "61.5",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガデンリュウ",
+                "en": "MegaAmpharos"
+            },
+            "height": "1.4",
+            "weight": "61.5"
+        }
+    ]
   },
   {
     "id": 182,
@@ -2319,7 +2329,17 @@
     },
     "classification": "てつへびポケモン",
     "height": "9.2",
-    "weight": "400.0"
+    "weight": "400.0",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガハガネール",
+                "en": "MegaSteelix"
+            },
+            "height": "10.5",
+            "weight": "740.0"
+        }
+    ]
   },
   {
     "id": 209,
@@ -2359,7 +2379,17 @@
     },
     "classification": "はさみポケモン",
     "height": "1.8",
-    "weight": "118.0"
+    "weight": "118.0",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガハッサム",
+                "en": "MegaScizor"
+            },
+            "height": "2.0",
+            "weight": "125.0"
+        }
+    ]
   },
   {
     "id": 213,
@@ -2379,7 +2409,17 @@
     },
     "classification": "1ぽんヅノポケモン",
     "height": "1.5",
-    "weight": "54.0"
+    "weight": "54.0",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガヘラクロス",
+                "en": "MegaHeracross"
+            },
+            "height": "1.7",
+            "weight": "62.5"
+        }
+    ]
   },
   {
     "id": 215,
@@ -2529,7 +2569,17 @@
     },
     "classification": "ダークポケモン",
     "height": "1.4",
-    "weight": "35.0"
+    "weight": "35.0",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガヘルガー",
+                "en": "MegaHoundoom"
+            },
+            "height": "1.9",
+            "weight": "49.5"
+        }
+    ]
   },
   {
     "id": 230,
@@ -2719,7 +2769,17 @@
     },
     "classification": "よろいポケモン",
     "height": "2.0",
-    "weight": "202.0"
+    "weight": "202.0",
+    "mega_evolution": [
+        {
+            "name": {
+                "ja": "メガバンギラス",
+                "en": "MegaTyranitar"
+            },
+            "height": "2.0",
+            "weight": "255.0"
+        }
+    ]
   },
   {
     "id": 249,
