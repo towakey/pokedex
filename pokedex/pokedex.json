@@ -37,6 +37,16 @@
             "height": "2.4",
             "weight": "155.5"
         }
+    ],
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスフシギバナ",
+                "en": "GigantamaxVenusaur"
+            },
+            "height": "24.0",
+            "weight": ""
+        }
     ]
   },
   {
@@ -85,6 +95,16 @@
             "height": "1.7",
             "weight": "90.5"
         }
+    ],
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスリザードン",
+                "en": "GigantamaxCharizard"
+            },
+            "height": "28.0",
+            "weight": ""
+        }
     ]
   },
   {
@@ -125,6 +145,16 @@
             "height": "1.6",
             "weight": "101.1"
         }
+    ],
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスカメックス",
+                "en": "GigantamaxBlastoise"
+            },
+            "height": "25.0",
+            "weight": ""
+        }
     ]
   },
   {
@@ -155,7 +185,17 @@
     },
     "classification": "ちょうちょポケモン",
     "height": "1.1",
-    "weight": "32.0"
+    "weight": "32.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスバタフリー",
+                "en": "GigantamaxButterfree"
+            },
+            "height": "17.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 13,
@@ -317,7 +357,17 @@
     },
     "classification": "ねずみポケモン",
     "height": "0.4",
-    "weight": "6.0"
+    "weight": "6.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスピカチュウ",
+                "en": "GigantamaxPikachu"
+            },
+            "height": "21.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 26,
@@ -629,7 +679,17 @@
     },
     "classification": "ばけねこポケモン",
     "height": "0.4",
-    "weight": "4.2"
+    "weight": "4.2",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスニャース",
+                "en": "GigantamaxMeowth"
+            },
+            "height": "33.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 53,
@@ -799,7 +859,17 @@
     },
     "classification": "かいりきポケモン",
     "height": "1.6",
-    "weight": "130.0"
+    "weight": "130.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスカイリキー",
+                "en": "GigantamaxMachamp"
+            },
+            "height": "25.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 69,
@@ -1109,6 +1179,16 @@
             "height": "1.4",
             "weight": "40.5"
         }
+    ],
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスゲンガー",
+                "en": "GigantamaxGengar"
+            },
+            "height": "20.0",
+            "weight": ""
+        }
     ]
   },
   {
@@ -1159,7 +1239,17 @@
     },
     "classification": "はさみポケモン",
     "height": "1.3",
-    "weight": "60.0"
+    "weight": "60.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスキングラー",
+                "en": "GigantamaxKingler"
+            },
+            "height": "19.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 100,
@@ -1521,7 +1611,17 @@
     },
     "classification": "のりものポケモン",
     "height": "2.5",
-    "weight": "220.0"
+    "weight": "220.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスラプラス",
+                "en": "GigantamaxLapras"
+            },
+            "height": "24.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 132,
@@ -1541,7 +1641,17 @@
     },
     "classification": "しんかポケモン",
     "height": "0.3",
-    "weight": "6.5"
+    "weight": "6.5",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスイーブイ",
+                "en": "GigantamaxEevee"
+            },
+            "height": "18.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 134,
@@ -1651,7 +1761,17 @@
     },
     "classification": "いねむりポケモン",
     "height": "2.1",
-    "weight": "460.0"
+    "weight": "460.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスカビゴン",
+                "en": "GigantamaxSnorlax"
+            },
+            "height": "35.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 144,
@@ -6269,7 +6389,17 @@
     },
     "classification": "ゴミすてばポケモン",
     "height": "1.9",
-    "weight": "107.3"
+    "weight": "107.3",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスダストダス",
+                "en": "GigantamaxGarbodor"
+            },
+            "height": "21.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 570,
@@ -8679,7 +8809,17 @@
     },
     "classification": "ナットポケモン",
     "height": "2.5",
-    "weight": "800.0"
+    "weight": "800.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスメルメタル",
+                "en": "GigantamaxMelmetal"
+            },
+            "height": "25.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 810,
@@ -8709,7 +8849,17 @@
     },
     "classification": "ドラマーポケモン",
     "height": "2.1",
-    "weight": "90.0"
+    "weight": "90.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスゴリランダー",
+                "en": "GigantamaxRillaboom"
+            },
+            "height": "28.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 813,
@@ -8739,7 +8889,17 @@
     },
     "classification": "ストライカーポケモン",
     "height": "1.4",
-    "weight": "33.0"
+    "weight": "33.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスエースバーン",
+                "en": "GigantamaxCinderace"
+            },
+            "height": "27.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 816,
@@ -8769,7 +8929,17 @@
     },
     "classification": "エージェントポケモン",
     "height": "1.9",
-    "weight": "45.2"
+    "weight": "45.2",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスインテレオン",
+                "en": "GigantamaxInteleon"
+            },
+            "height": "40.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 819,
@@ -8819,7 +8989,17 @@
     },
     "classification": "カラスポケモン",
     "height": "2.2",
-    "weight": "75.0"
+    "weight": "75.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスアーマーガア",
+                "en": "GigantamaxCorviknight"
+            },
+            "height": "14.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 824,
@@ -8849,7 +9029,17 @@
     },
     "classification": "ななほしポケモン",
     "height": "0.4",
-    "weight": "40.8"
+    "weight": "40.8",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスイオルブ",
+                "en": "GigantamaxOrbeetle"
+            },
+            "height": "14.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 827,
@@ -8929,7 +9119,17 @@
     },
     "classification": "かみつきポケモン",
     "height": "1.0",
-    "weight": "115.5"
+    "weight": "115.5",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスカジリガメ",
+                "en": "GigantamaxDrednaw"
+            },
+            "height": "24.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 835,
@@ -8979,7 +9179,17 @@
     },
     "classification": "せきたんポケモン",
     "height": "2.8",
-    "weight": "310.5"
+    "weight": "310.5",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスセキタンザン",
+                "en": "GigantamaxCoalossal"
+            },
+            "height": "42.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 840,
@@ -8999,7 +9209,17 @@
     },
     "classification": "りんごはねポケモン",
     "height": "0.3",
-    "weight": "1.0"
+    "weight": "1.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスアップリュー",
+                "en": "GigantamaxFlapple"
+            },
+            "height": "24.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 842,
@@ -9009,7 +9229,17 @@
     },
     "classification": "りんごじるポケモン",
     "height": "0.4",
-    "weight": "13.0"
+    "weight": "13.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスタルップル",
+                "en": "GigantamaxAppletun"
+            },
+            "height": "24.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 843,
@@ -9029,7 +9259,17 @@
     },
     "classification": "すなへびポケモン",
     "height": "3.8",
-    "weight": "65.5"
+    "weight": "65.5",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスサダイジャ",
+                "en": "GigantamaxSandaconda"
+            },
+            "height": "22.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 845,
@@ -9079,7 +9319,17 @@
     },
     "classification": "パンクポケモン",
     "height": "1.6",
-    "weight": "40.0"
+    "weight": "40.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスストリンダー",
+                "en": "GigantamaxToxtricity"
+            },
+            "height": "24.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 850,
@@ -9099,7 +9349,17 @@
     },
     "classification": "ポケモン",
     "height": "3.0",
-    "weight": "120.0"
+    "weight": "120.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスマルヤクデ",
+                "en": "GigantamaxCentiskorch"
+            },
+            "height": "75.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 852,
@@ -9169,7 +9429,17 @@
     },
     "classification": "せいじゃくポケモン",
     "height": "2.1",
-    "weight": "5.1"
+    "weight": "5.1",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスブリムオン",
+                "en": "GigantamaxHatterene"
+            },
+            "height": "26.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 859,
@@ -9199,7 +9469,17 @@
     },
     "classification": "ビルドアップポケモン",
     "height": "1.5",
-    "weight": "61.0"
+    "weight": "61.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスオーロンゲ",
+                "en": "GigantamaxGrimmsnarl"
+            },
+            "height": "32.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 862,
@@ -9279,7 +9559,17 @@
     },
     "classification": "クリームポケモン",
     "height": "0.3",
-    "weight": "0.5"
+    "weight": "0.5",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスマホイップ",
+                "en": "GigantamaxAlcremie"
+            },
+            "height": "30.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 870,
@@ -9379,7 +9669,17 @@
     },
     "classification": "どうぞうポケモン",
     "height": "3.0",
-    "weight": "650.0"
+    "weight": "650.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスダイオウドウ",
+                "en": "GigantamaxCopperajah"
+            },
+            "height": "23.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 880,
@@ -9429,7 +9729,17 @@
     },
     "classification": "ごうきんポケモン",
     "height": "1.8",
-    "weight": "40.0"
+    "weight": "40.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスジュラルドン",
+                "en": "GigantamaxDuraludon"
+            },
+            "height": "43.0",
+            "weight": ""
+        }
+    ]
   },
   {
     "id": 885,
@@ -9490,5 +9800,103 @@
     "classification": "キョダイポケモン",
     "height": "20.0",
     "weight": "950.0"
+  },
+  {
+    "id": 891,
+    "name": {
+      "ja": "ダクマ",
+      "en": "Kubfu"
+    },
+    "classification": "けんぽうポケモン",
+    "height": "0.6",
+    "weight": "12.0"
+  },
+  {
+    "id": 892,
+    "name": {
+      "ja": "ウーラオス",
+      "en": "Urshifu"
+    },
+    "classification": "けんぽうポケモン",
+    "height": "1.9",
+    "weight": "105.0",
+    "gigantamax": [
+        {
+            "name": {
+                "ja": "キョダイマックスウーラオス(いちげきのかた)",
+                "en": "GigantamaxUrshifu"
+            },
+            "height": "29.0",
+            "weight": ""
+        },
+        {
+            "name": {
+                "ja": "キョダイマックスウーラオス(れんげきのかた)",
+                "en": "GigantamaxUrshifu"
+            },
+            "height": "26.0",
+            "weight": ""
+        }
+    ]
+  },
+  {
+    "id": 893,
+    "name": {
+      "ja": "ザルード",
+      "en": "Zarude"
+    },
+    "classification": "わるざるポケモン",
+    "height": "1.8",
+    "weight": "70.0"
+  },
+  {
+    "id": 894,
+    "name": {
+      "ja": "レジエレキ",
+      "en": "Regieleki"
+    },
+    "classification": "エレクトロンポケモン",
+    "height": "1.2",
+    "weight": "145.0"
+  },
+  {
+    "id": 895,
+    "name": {
+      "ja": "レジドラゴ",
+      "en": "Regidrago"
+    },
+    "classification": "りゅうぎょくポケモン",
+    "height": "2.1",
+    "weight": "200.0"
+  },
+  {
+    "id": 896,
+    "name": {
+      "ja": "ブリザポス",
+      "en": "Glastrier"
+    },
+    "classification": "あばれうまポケモン",
+    "height": "2.2",
+    "weight": "800.0"
+  },
+  {
+    "id": 897,
+    "name": {
+      "ja": "レイスポス",
+      "en": "Spectrier"
+    },
+    "classification": "しゅんばポケモン",
+    "height": "2.0",
+    "weight": "44.5"
+  },
+  {
+    "id": 898,
+    "name": {
+      "ja": "バドレックス",
+      "en": "Calyrex"
+    },
+    "classification": "キングポケモン",
+    "height": "1.1",
+    "weight": "7.7"
   }
 ]
