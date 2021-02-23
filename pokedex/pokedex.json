@@ -6729,7 +6729,7 @@
     },
     "classification": "つぼみポケモン",
     "height": "0.2",
-    "weight": "42.0"
+    "weight": "1.2"
   },
   {
     "id": 407,
@@ -6744,7 +6744,7 @@
     },
     "classification": "ブーケポケモン",
     "height": "0.9",
-    "weight": "42.0"
+    "weight": "14.5"
   },
   {
     "id": 408,
@@ -7144,7 +7144,7 @@
     },
     "classification": "すずポケモン",
     "height": "0.2",
-    "weight": "43.8"
+    "weight": "0.6"
   },
   {
     "id": 434,
@@ -7609,7 +7609,7 @@
     },
     "classification": "じばポケモン",
     "height": "1.2",
-    "weight": "34.0"
+    "weight": "180.0"
   },
   {
     "id": 463,
@@ -7639,7 +7639,7 @@
     },
     "classification": "ドリルポケモン",
     "height": "2.4",
-    "weight": "140.0"
+    "weight": "282.8"
   },
   {
     "id": 465,
@@ -7804,7 +7804,7 @@
     },
     "classification": "やいばポケモン",
     "height": "1.6",
-    "weight": "34.0",
+    "weight": "52.0",
     "mega_evolution": [
       {
         "name": {
@@ -7829,7 +7829,7 @@
     },
     "classification": "コンパスポケモン",
     "height": "1.4",
-    "weight": "34.0"
+    "weight": "340.0"
   },
   {
     "id": 477,
