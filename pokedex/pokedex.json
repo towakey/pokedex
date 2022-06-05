@@ -14391,6 +14391,111 @@
       "classification": "キングポケモン",
       "height": "1.1",
       "weight": "7.7"
+    },
+    {
+      "id": 899,
+      "name": {
+        "jpn": "アヤシシ",
+        "eng": "Wyrdeer",
+        "ger": "Damythir",
+        "fra": "Cerbyllin",
+        "kor": "신비록 ",
+        "chs": "诡角鹿",
+        "cht": "詭角鹿"
+      },
+      "classification": "おおツノポケモン",
+      "height": "1.8",
+      "weight": "95.1"
+    },
+    {
+      "id": 900,
+      "name": {
+        "jpn": "バサギリ",
+        "eng": "Kleavor",
+        "ger": "Axantor",
+        "fra": "Hachécateur",
+        "kor": "사마자르",
+        "chs": "劈斧螳螂",
+        "cht": "劈斧螳螂"
+      },
+      "classification": "まさかりポケモン",
+      "height": "1.8",
+      "weight": "89.0"
+    },
+    {
+      "id": 901,
+      "name": {
+        "jpn": "ガチグマ",
+        "eng": "Ursaluna",
+        "ger": "Ursaluna",
+        "fra": "Ursaking",
+        "kor": "다투곰",
+        "chs": "月月熊",
+        "cht": "月月熊"
+      },
+      "classification": "でいたんポケモン",
+      "height": "2.4",
+      "weight": "290.0"
+    },
+    {
+      "id": 902,
+      "name": {
+        "jpn": "イダイトウ",
+        "eng": "Basculegion",
+        "ger": "Salmagnis",
+        "fra": "Paragruel",
+        "kor": "대쓰여너",
+        "chs": "幽尾玄鱼",
+        "cht": "幽尾玄魚"
+      },
+      "classification": "おおうおポケモン",
+      "height": "3.0",
+      "weight": "110.0"
+    },
+    {
+      "id": 903,
+      "name": {
+        "jpn": "オオニューラ",
+        "eng": "Sneasler",
+        "ger": "Snieboss",
+        "fra": "Farfurex",
+        "kor": "포푸니크",
+        "chs": "大狃拉",
+        "cht": "大狃拉"
+      },
+      "classification": "クライミングポケモン",
+      "height": "1.3",
+      "weight": "43.0"
+    },
+    {
+      "id": 904,
+      "name": {
+        "jpn": "ハリーマン",
+        "eng": "Overqwil",
+        "ger": "Myriador",
+        "fra": "Qwilpik",
+        "kor": "장침바루",
+        "chs": "万针鱼",
+        "cht": "萬針魚"
+      },
+      "classification": "けんざんポケモン",
+      "height": "2.5",
+      "weight": "60.5"
+    },
+    {
+      "id": 905,
+      "name": {
+        "jpn": "ラブトロス",
+        "eng": "Enamorus",
+        "ger": "Cupidos",
+        "fra": "Amovénus",
+        "kor": "러브로스",
+        "chs": "眷恋云",
+        "cht": "眷戀雲"
+      },
+      "classification": "あいぞうポケモン",
+      "height": "1.6",
+      "weight": "48.0"
     }
   ]
 }
