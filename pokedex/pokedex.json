@@ -952,7 +952,17 @@
           "height": "33.0",
           "weight": ""
         }
-      ]
+      ],
+      "region_form": {
+        "alola": {
+          "height": "0.4",
+          "weight": "4.2"
+        },
+        "galar": {
+          "height": "0.4",
+          "weight": "7.5"
+        }
+      }
     },
     {
       "id": 53,
@@ -967,7 +977,13 @@
       },
       "classification": "シャムネコポケモン",
       "height": "1.0",
-      "weight": "32.0"
+      "weight": "32.0",
+      "region_form": {
+        "alola": {
+          "height": "1.1",
+          "weight": "33.0"
+        }
+      }
     },
     {
       "id": 54,
@@ -1365,7 +1381,13 @@
       },
       "classification": "ひのうまポケモン",
       "height": "1.0",
-      "weight": "30.0"
+      "weight": "30.0",
+      "region_form": {
+        "galar": {
+          "height": "0.8",
+          "weight": "24.0"
+        }
+      }
     },
     {
       "id": 78,
@@ -1380,7 +1402,13 @@
       },
       "classification": "ひのうまポケモン",
       "height": "1.7",
-      "weight": "95.0"
+      "weight": "95.0",
+      "region_form": {
+        "galar": {
+          "height": "1.7",
+          "weight": "80.0"
+        }
+      }
     },
     {
       "id": 79,
@@ -1395,7 +1423,13 @@
       },
       "classification": "まぬけポケモン",
       "height": "1.2",
-      "weight": "36.0"
+      "weight": "36.0",
+      "region_form": {
+        "galar": {
+          "height": "1.2",
+          "weight": "36.0"
+        }
+      }
     },
     {
       "id": 80,
@@ -1420,7 +1454,13 @@
           "height": "2.0",
           "weight": "120.0"
         }
-      ]
+      ],
+      "region_form": {
+        "galar": {
+          "height": "1.6",
+          "weight": "70.5"
+        }
+      }
     },
     {
       "id": 81,
@@ -1465,7 +1505,13 @@
       },
       "classification": "かるがもポケモン",
       "height": "0.8",
-      "weight": "15.0"
+      "weight": "15.0",
+      "region_form": {
+        "galar": {
+          "height": "0.8",
+          "weight": "42.0"
+        }
+      }
     },
     {
       "id": 84,
@@ -1924,7 +1970,13 @@
       },
       "classification": "どくガスポケモン",
       "height": "1.2",
-      "weight": "9.5"
+      "weight": "9.5",
+      "region_form": {
+        "galar": {
+          "height": "3.0",
+          "weight": "16.0"
+        }
+      }
     },
     {
       "id": 111,
@@ -2114,7 +2166,13 @@
       },
       "classification": "バリアーポケモン",
       "height": "1.3",
-      "weight": "54.5"
+      "weight": "54.5",
+      "region_form": {
+        "galar": {
+          "height": "1.4",
+          "weight": "56.8"
+        }
+      }
     },
     {
       "id": 123,
@@ -2504,7 +2562,13 @@
       },
       "classification": "れいとうポケモン",
       "height": "1.7",
-      "weight": "55.4"
+      "weight": "55.4",
+      "region_form": {
+        "galar": {
+          "height": "1.7",
+          "weight": "50.9"
+        }
+      }
     },
     {
       "id": 145,
@@ -2519,7 +2583,13 @@
       },
       "classification": "でんげきポケモン",
       "height": "1.6",
-      "weight": "52.6"
+      "weight": "52.6",
+      "region_form": {
+        "galar": {
+          "height": "1.6",
+          "weight": "58.2"
+        }
+      }
     },
     {
       "id": 146,
@@ -2534,7 +2604,13 @@
       },
       "classification": "かえんポケモン",
       "height": "2.0",
-      "weight": "60.0"
+      "weight": "60.0",
+      "region_form": {
+        "galar": {
+          "height": "2.0",
+          "weight": "66.0"
+        }
+      }
     },
     {
       "id": 147,
@@ -3357,7 +3433,13 @@
       },
       "classification": "おうじゃポケモン",
       "height": "2.0",
-      "weight": "79.5"
+      "weight": "79.5",
+      "region_form": {
+        "galar": {
+          "height": "1.8",
+          "weight": "79.5"
+        }
+      }
     },
     {
       "id": 200,
@@ -3732,7 +3814,13 @@
       },
       "classification": "さんごポケモン",
       "height": "0.6",
-      "weight": "5.0"
+      "weight": "5.0",
+      "region_form": {
+        "galar": {
+          "height": "0.6",
+          "weight": "0.5"
+        }
+      }
     },
     {
       "id": 223,
@@ -4397,7 +4485,13 @@
       },
       "classification": "まめだぬきポケモン",
       "height": "0.4",
-      "weight": "17.5"
+      "weight": "17.5",
+      "region_form": {
+        "galar": {
+          "height": "0.4",
+          "weight": "17.5"
+        }
+      }
     },
     {
       "id": 264,
@@ -4412,7 +4506,13 @@
       },
       "classification": "とっしんポケモン",
       "height": "0.5",
-      "weight": "32.5"
+      "weight": "32.5",
+      "region_form": {
+        "galar": {
+          "height": "0.5",
+          "weight": "32.5"
+        }
+      }
     },
     {
       "id": 265,
@@ -9012,7 +9112,13 @@
       },
       "classification": "だるまポケモン",
       "height": "0.6",
-      "weight": "37.5"
+      "weight": "37.5",
+      "region_form": {
+        "galar": {
+          "height": "0.7",
+          "weight": "40.0"
+        }
+      }
     },
     {
       "id": 555,
@@ -9027,7 +9133,13 @@
       },
       "classification": "えんじょうポケモン",
       "height": "1.3",
-      "weight": "92.9"
+      "weight": "92.9",
+      "region_form": {
+        "galar": {
+          "height": "1.7",
+          "weight": "120.0"
+        }
+      }
     },
     {
       "id": 556,
@@ -9132,7 +9244,13 @@
       },
       "classification": "たましいポケモン",
       "height": "0.5",
-      "weight": "1.5"
+      "weight": "1.5",
+      "region_form": {
+        "galar": {
+          "height": "0.5",
+          "weight": "1.5"
+        }
+      }
     },
     {
       "id": 563,
@@ -9147,7 +9265,13 @@
       },
       "classification": "かんおけポケモン",
       "height": "1.7",
-      "weight": "76.5"
+      "weight": "76.5",
+      "region_form": {
+        "galar": {
+          "height": "1.6",
+          "weight": "66.6"
+        }
+      }
     },
     {
       "id": 564,
@@ -9982,7 +10106,13 @@
       },
       "classification": "トラップポケモン",
       "height": "0.7",
-      "weight": "11.0"
+      "weight": "11.0",
+      "region_form": {
+        "galar": {
+          "height": "0.7",
+          "weight": "20.5"
+        }
+      }
     },
     {
       "id": 619,
