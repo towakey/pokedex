@@ -1,6 +1,6 @@
 {
   "version":"1.0.0",
-  "update": "20220217",
+  "update": "20220612",
   "pokedex": [
     {
       "id": 1,
@@ -1058,7 +1058,13 @@
       },
       "classification": "こいぬポケモン",
       "height": "0.7",
-      "weight": "19.0"
+      "weight": "19.0",
+      "region_form": {
+        "hisui": {
+          "height": "0.8",
+          "weight": "22.7"
+        }
+      }
     },
     {
       "id": 59,
@@ -1073,7 +1079,13 @@
       },
       "classification": "でんせつポケモン",
       "height": "1.9",
-      "weight": "155.0"
+      "weight": "155.0",
+      "region_form": {
+        "hisui": {
+          "height": "2.0",
+          "weight": "168.0"
+        }
+      }
     },
     {
       "id": 60,
@@ -1808,7 +1820,13 @@
       },
       "classification": "ボールポケモン",
       "height": "0.5",
-      "weight": "10.4"
+      "weight": "10.4",
+      "region_form": {
+        "hisui": {
+          "height": "0.5",
+          "weight": "13.0"
+        }
+      }
     },
     {
       "id": 101,
@@ -1823,7 +1841,13 @@
       },
       "classification": "ボールポケモン",
       "height": "1.2",
-      "weight": "66.6"
+      "weight": "66.6",
+      "region_form": {
+        "hisui": {
+          "height": "1.2",
+          "weight": "71.0"
+        }
+      }
     },
     {
       "id": 102,
@@ -2793,7 +2817,13 @@
       },
       "classification": "かざんポケモン",
       "height": "1.7",
-      "weight": "79.5"
+      "weight": "79.5",
+      "region_form": {
+        "hisui": {
+          "height": "1.6",
+          "weight": "69.8"
+        }
+      }
     },
     {
       "id": 158,
@@ -3629,7 +3659,13 @@
       },
       "classification": "ふうせんポケモン",
       "height": "0.5",
-      "weight": "3.9"
+      "weight": "3.9",
+      "region_form": {
+        "hisui": {
+          "height": "0.5",
+          "weight": "3.9"
+        }
+      }
     },
     {
       "id": 212,
@@ -3709,7 +3745,13 @@
       },
       "classification": "かぎづめポケモン",
       "height": "0.9",
-      "weight": "28.0"
+      "weight": "28.0",
+      "region_form": {
+        "hisui": {
+          "height": "0.9",
+          "weight": "27.0"
+        }
+      }
     },
     {
       "id": 216,
@@ -8337,7 +8379,13 @@
       },
       "classification": "かんろくポケモン",
       "height": "1.5",
-      "weight": "94.6"
+      "weight": "94.6",
+      "region_form": {
+        "hisui": {
+          "height": "1.5",
+          "weight": "58.2"
+        }
+      }
     },
     {
       "id": 504,
@@ -9037,7 +9085,13 @@
       },
       "classification": "はなかざりポケモン",
       "height": "1.1",
-      "weight": "16.3"
+      "weight": "16.3",
+      "region_form": {
+        "hisui": {
+          "height": "1.2",
+          "weight": "19.2"
+        }
+      }
     },
     {
       "id": 550,
@@ -9052,7 +9106,13 @@
       },
       "classification": "らんぼうポケモン",
       "height": "1.0",
-      "weight": "18.0"
+      "weight": "18.0",
+      "region_form": {
+        "hisui": {
+          "height": "1.0",
+          "weight": "18.0"
+        }
+      }
     },
     {
       "id": 551,
@@ -9386,7 +9446,13 @@
       },
       "classification": "わるぎつねポケモン",
       "height": "0.7",
-      "weight": "12.5"
+      "weight": "12.5",
+      "region_form": {
+        "hisui": {
+          "height": "0.7",
+          "weight": "12.5"
+        }
+      }
     },
     {
       "id": 571,
@@ -9401,7 +9467,13 @@
       },
       "classification": "ばけぎつねポケモン",
       "height": "1.6",
-      "weight": "81.1"
+      "weight": "81.1",
+      "region_form": {
+        "hisui": {
+          "height": "1.6",
+          "weight": "73.0"
+        }
+      }
     },
     {
       "id": 572,
@@ -10262,7 +10334,13 @@
       },
       "classification": "ゆうもうポケモン",
       "height": "1.5",
-      "weight": "41.0"
+      "weight": "41.0",
+      "region_form": {
+        "hisui": {
+          "height": "1.7",
+          "weight": "43.4"
+        }
+      }
     },
     {
       "id": 629,
@@ -11417,7 +11495,13 @@
       },
       "classification": "なんたいポケモン",
       "height": "0.8",
-      "weight": "17.5"
+      "weight": "17.5",
+      "region_form": {
+        "hisui": {
+          "height": "0.7",
+          "weight": "68.5"
+        }
+      }
     },
     {
       "id": 706,
@@ -11432,7 +11516,13 @@
       },
       "classification": "ドラゴンポケモン",
       "height": "2.0",
-      "weight": "150.5"
+      "weight": "150.5",
+      "region_form": {
+        "hisui": {
+          "height": "1.7",
+          "weight": "334.1"
+        }
+      }
     },
     {
       "id": 707,
@@ -11537,7 +11627,13 @@
       },
       "classification": "ひょうざんポケモン",
       "height": "2.0",
-      "weight": "505.0"
+      "weight": "505.0",
+      "region_form": {
+        "hisui": {
+          "height": "1.4",
+          "weight": "262.4"
+        }
+      }
     },
     {
       "id": 714,
@@ -11712,7 +11808,13 @@
       },
       "classification": "やばねポケモン",
       "height": "1.6",
-      "weight": "36.6"
+      "weight": "36.6",
+      "region_form": {
+        "hisui": {
+          "height": "1.6",
+          "weight": "37.0"
+        }
+      }
     },
     {
       "id": 725,
