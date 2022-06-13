@@ -1,4 +1,7 @@
-[
+{
+  "version":"1.0.0",
+  "update": "20220613",
+  "gen7": [
     {
         "local_id": 1,
         "type1": "‚­‚³",
@@ -9741,4 +9744,5 @@
         "special_defense": 80,
         "speed": 143
     }
-]
+  ]
+}
