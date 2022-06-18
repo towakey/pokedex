@@ -1,0 +1,134 @@
+﻿{
+  "version":"1.0.0",
+  "update": "20220618",
+  "translate": [
+    {
+      "jpn": "ノーマル",
+      "eng": "Normal"
+    },
+    {
+      "jpn": "ほのお",
+      "eng": "Fire"
+    },
+    {
+      "jpn": "みず",
+      "eng": "Water"
+    },
+    {
+      "jpn": "でんき",
+      "eng": "Electric"
+    },
+    {
+      "jpn": "くさ",
+      "eng": "Grass"
+    },
+    {
+      "jpn": "こおり",
+      "eng": "Ice"
+    },
+    {
+      "jpn": "かくとう",
+      "eng": "Fighting"
+    },
+    {
+      "jpn": "どく",
+      "eng": "Poison"
+    },
+    {
+      "jpn": "じめん",
+      "eng": "Ground"
+    },
+    {
+      "jpn": "ひこう",
+      "eng": "Flying"
+    },
+    {
+      "jpn": "エスパー",
+      "eng": "Psychic"
+    },
+    {
+      "jpn": "むし",
+      "eng": "Bug"
+    },
+    {
+      "jpn": "いわ",
+      "eng": "Rock"
+    },
+    {
+      "jpn": "ゴースト",
+      "eng": "Ghost"
+    },
+    {
+      "jpn": "ドラゴン",
+      "eng": "Dragon"
+    },
+    {
+      "jpn": "あく",
+      "eng": "Dark"
+    },
+    {
+      "jpn": "はがね",
+      "eng": "Steel"
+    },
+    {
+      "jpn": "フェアリー",
+      "eng": "Fairy"
+    },
+    {
+      "jpn": "高さ",
+      "eng": "Height"
+    },
+    {
+      "jpn": "重さ",
+      "eng": "Weight"
+    },
+    {
+      "jpn": "分類",
+      "eng": "Category"
+    },
+    {
+      "jpn": "特性",
+      "eng": "Abilities"
+    },
+    {
+      "jpn": "性別",
+      "eng": "Gender"
+    },
+    {
+      "jpn": "タイプ",
+      "eng": "Type"
+    },
+    {
+      "jpn": "弱点",
+      "eng": "Weaknesses"
+    },
+    {
+      "jpn": "HP",
+      "eng": "HP"
+    },
+    {
+      "jpn": "こうげき",
+      "eng": "Attack"
+    },
+    {
+      "jpn": "ぼうぎょ",
+      "eng": "Defense"
+    },
+    {
+      "jpn": "とくこう",
+      "eng": "Special Attack"
+    },
+    {
+      "jpn": "とくぼう",
+      "eng": "Special Defense"
+    },
+    {
+      "jpn": "すばやさ",
+      "eng": "Speed"
+    },
+    {
+      "jpn": "進化系",
+      "eng": "Evolutions"
+    }
+  ]
+}
