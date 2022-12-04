@@ -1,6 +1,6 @@
 ﻿{
   "version":"1.0.0",
-  "update": "20220617",
+  "update": "20221204",
   "gen8": [
     {
       "local_id": 1,
@@ -1148,7 +1148,7 @@
       "speed": 55,
       "ability1": "ふゆう",
       "ability2": "",
-      "dream_ability": "茶"
+      "dream_ability": ""
     },
     {
       "local_id": 83,
@@ -1162,7 +1162,7 @@
       "speed": 75,
       "ability1": "ふゆう",
       "ability2": "",
-      "dream_ability": "黒"
+      "dream_ability": ""
     },
     {
       "local_id": 84,
@@ -1484,7 +1484,7 @@
       "speed": 40,
       "ability1": "ふしぎなまもり",
       "ability2": "",
-      "dream_ability": "茶"
+      "dream_ability": ""
     },
     {
       "local_id": 107,
@@ -1792,7 +1792,7 @@
       "speed": 35,
       "ability1": "ようりょくそ",
       "ability2": "",
-      "dream_ability": "桃"
+      "dream_ability": ""
     },
     {
       "local_id": 129,
@@ -1974,7 +1974,7 @@
       "speed": 80,
       "ability1": "ふゆう",
       "ability2": "",
-      "dream_ability": "紫"
+      "dream_ability": ""
     },
     {
       "local_id": 142,
@@ -1988,7 +1988,7 @@
       "speed": 95,
       "ability1": "ふゆう",
       "ability2": "",
-      "dream_ability": "紫"
+      "dream_ability": ""
     },
     {
       "local_id": 143,
@@ -2002,7 +2002,7 @@
       "speed": 110,
       "ability1": "のろわれボディ",
       "ability2": "",
-      "dream_ability": "紫"
+      "dream_ability": ""
     },
     {
       "local_id": 144,
@@ -2646,7 +2646,7 @@
       "speed": 10,
       "ability1": "てつのトゲ",
       "ability2": "",
-      "dream_ability": "灰"
+      "dream_ability": ""
     },
     {
       "local_id": 190,
