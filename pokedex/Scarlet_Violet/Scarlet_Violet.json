@@ -2,6 +2,7 @@
   "version":"2.0.0",
   "update": "20221211",
   "game_version": "Scarlet_Violet",
+  "pokedex_name": "パルデア図鑑",
   "pokedex": [
     {
       "no": "1",
