@@ -1071,6 +1071,20 @@
             "ability1": "あくしゅう",
             "ability2": "ねんちゃく",
             "dream_ability": "どくしゅ"
+          },
+          {
+            "form": "アローラのすがた",
+            "type1": "どく",
+            "type2": "あく",
+            "hp": 80,
+            "attack": 80,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 50,
+            "speed": 25,
+            "ability1": "どくしゅ",
+            "ability2": "くいしんぼう",
+            "dream_ability": "かがくのちから"
           }
         ]
       },
@@ -1091,6 +1105,20 @@
             "ability1": "あくしゅう",
             "ability2": "ねんちゃく",
             "dream_ability": "どくしゅ"
+          },
+          {
+            "form": "アローラのすがた",
+            "type1": "どく",
+            "type2": "あく",
+            "hp": 105,
+            "attack": 105,
+            "defense": 75,
+            "special_attack": 65,
+            "special_defense": 100,
+            "speed": 50,
+            "ability1": "どくしゅ",
+            "ability2": "くいしんぼう",
+            "dream_ability": "かがくのちから"
           }
         ]
       },
