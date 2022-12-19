@@ -1,6 +1,6 @@
 ﻿{
   "version":"2.0.0",
-  "update": "20221217",
+  "update": "20221220",
   "game_version": "Sword_Shield",
   "pokedex": {
     "ガラル図鑑": [
@@ -15247,15 +15247,15 @@
         "globalNo": "746",
         "status": [
           {
-            "form": "むれたすがた",
+            "form": "たんどくのすがた",
             "type1": "みず",
             "type2": "",
             "hp": 45,
-            "attack": 140,
-            "defense": 130,
-            "special_attack": 140,
-            "special_defense": 135,
-            "speed": 30,
+            "attack": 20,
+            "defense": 20,
+            "special_attack": 25,
+            "special_defense": 25,
+            "speed": 40,
             "ability1": "ぎょぐん",
             "ability2": "",
             "dream_ability": ""
