@@ -5259,6 +5259,20 @@
             "ability1": "すながくれ",
             "ability2": "",
             "dream_ability": "すなかき"
+          },
+          {
+            "form": "アローラのすがた",
+            "type1": "こおり",
+            "type2": "はがね",
+            "hp": 50,
+            "attack": 75,
+            "defense": 90,
+            "special_attack": 10,
+            "special_defense": 35,
+            "speed": 40,
+            "ability1": "ゆきがくれ",
+            "ability2": "",
+            "dream_ability": "ゆきかき"
           }
         ]
       },
@@ -5279,6 +5293,20 @@
             "ability1": "すながくれ",
             "ability2": "",
             "dream_ability": "すなかき"
+          },
+          {
+            "form": "アローラのすがた",
+            "type1": "こおり",
+            "type2": "はがね",
+            "hp": 75,
+            "attack": 100,
+            "defense": 120,
+            "special_attack": 25,
+            "special_defense": 65,
+            "speed": 65,
+            "ability1": "ゆきがくれ",
+            "ability2": "",
+            "dream_ability": "ゆきかき"
           }
         ]
       },
@@ -5299,6 +5327,20 @@
             "ability1": "もらいび",
             "ability2": "",
             "dream_ability": "ひでり"
+          },
+          {
+            "form": "アローラのすがた",
+            "type1": "こおり",
+            "type2": "",
+            "hp": 38,
+            "attack": 41,
+            "defense": 40,
+            "special_attack": 50,
+            "special_defense": 65,
+            "speed": 65,
+            "ability1": "ゆきがくれ",
+            "ability2": "",
+            "dream_ability": "ゆきふらし"
           }
         ]
       },
@@ -5319,6 +5361,20 @@
             "ability1": "もらいび",
             "ability2": "",
             "dream_ability": "ひでり"
+          },
+          {
+            "form": "アローラのすがた",
+            "type1": "こおり",
+            "type2": "",
+            "hp": 73,
+            "attack": 67,
+            "defense": 75,
+            "special_attack": 81,
+            "special_defense": 100,
+            "speed": 109,
+            "ability1": "ゆきがくれ",
+            "ability2": "",
+            "dream_ability": "ゆきふらし"
           }
         ]
       },
@@ -5637,6 +5693,20 @@
             "special_defense": 75,
             "speed": 55,
             "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "しゅうかく"
+          },
+          {
+            "form": "アローラのすがた",
+            "type1": "くさ",
+            "type2": "ドラゴン",
+            "hp": 95,
+            "attack": 105,
+            "defense": 85,
+            "special_attack": 125,
+            "special_defense": 75,
+            "speed": 45,
+            "ability1": "おみとおし",
             "ability2": "",
             "dream_ability": "しゅうかく"
           }
