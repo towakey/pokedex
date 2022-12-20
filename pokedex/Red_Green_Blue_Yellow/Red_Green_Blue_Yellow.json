@@ -1,0 +1,3029 @@
+﻿{
+  "version":"2.0.0",
+  "update": "20221221",
+  "game_version": "Red_Green_Blue_Yellow",
+  "pokedex": {
+    "カントー図鑑": [
+      {
+        "no": "1",
+        "globalNo": "1",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 45,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "2",
+        "globalNo": "2",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 60,
+            "attack": 62,
+            "defense": 63,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 60,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "3",
+        "globalNo": "3",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 80,
+            "attack": 82,
+            "defense": 83,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 80,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "4",
+        "globalNo": "4",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 39,
+            "attack": 52,
+            "defense": 43,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 65,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "5",
+        "globalNo": "5",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 58,
+            "attack": 64,
+            "defense": 58,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 80,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "6",
+        "globalNo": "6",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "ひこう",
+            "hp": 78,
+            "attack": 84,
+            "defense": 78,
+            "special_attack": 85,
+            "special_defense": 85,
+            "speed": 100,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "7",
+        "globalNo": "7",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 44,
+            "attack": 48,
+            "defense": 65,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 43,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "8",
+        "globalNo": "8",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 59,
+            "attack": 63,
+            "defense": 80,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 58,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "9",
+        "globalNo": "9",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 79,
+            "attack": 83,
+            "defense": 100,
+            "special_attack": 85,
+            "special_defense": 85,
+            "speed": 78,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "10",
+        "globalNo": "10",
+        "status": [
+          {
+            "form": "",
+            "type1": "むし",
+            "type2": "",
+            "hp": 45,
+            "attack": 30,
+            "defense": 35,
+            "special_attack": 20,
+            "special_defense": 20,
+            "speed": 45,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "11",
+        "globalNo": "11",
+        "status": [
+          {
+            "form": "",
+            "type1": "むし",
+            "type2": "",
+            "hp": 50,
+            "attack": 20,
+            "defense": 55,
+            "special_attack": 25,
+            "special_defense": 25,
+            "speed": 30,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "12",
+        "globalNo": "12",
+        "status": [
+          {
+            "form": "",
+            "type1": "ひこう",
+            "type2": "むし",
+            "hp": 60,
+            "attack": 45,
+            "defense": 50,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 70,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "13",
+        "globalNo": "13",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "むし",
+            "hp": 40,
+            "attack": 35,
+            "defense": 30,
+            "special_attack": 20,
+            "special_defense": 20,
+            "speed": 50,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "14",
+        "globalNo": "14",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "むし",
+            "hp": 45,
+            "attack": 25,
+            "defense": 50,
+            "special_attack": 25,
+            "special_defense": 25,
+            "speed": 35,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "15",
+        "globalNo": "15",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "むし",
+            "hp": 65,
+            "attack": 80,
+            "defense": 40,
+            "special_attack": 45,
+            "special_defense": 45,
+            "speed": 75,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "16",
+        "globalNo": "16",
+        "status": [
+          {
+            "form": "",
+            "type1": "ひこう",
+            "type2": "ノーマル",
+            "hp": 40,
+            "attack": 45,
+            "defense": 40,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 56,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "17",
+        "globalNo": "17",
+        "status": [
+          {
+            "form": "",
+            "type1": "ひこう",
+            "type2": "ノーマル",
+            "hp": 63,
+            "attack": 60,
+            "defense": 55,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 71,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "18",
+        "globalNo": "18",
+        "status": [
+          {
+            "form": "",
+            "type1": "ひこう",
+            "type2": "ノーマル",
+            "hp": 83,
+            "attack": 80,
+            "defense": 75,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 91,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "19",
+        "globalNo": "19",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 30,
+            "attack": 56,
+            "defense": 35,
+            "special_attack": 25,
+            "special_defense": 25,
+            "speed": 72,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "20",
+        "globalNo": "20",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 55,
+            "attack": 81,
+            "defense": 60,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 97,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "21",
+        "globalNo": "21",
+        "status": [
+          {
+            "form": "",
+            "type1": "ひこう",
+            "type2": "ノーマル",
+            "hp": 40,
+            "attack": 60,
+            "defense": 30,
+            "special_attack": 31,
+            "special_defense": 31,
+            "speed": 70,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "22",
+        "globalNo": "22",
+        "status": [
+          {
+            "form": "",
+            "type1": "ひこう",
+            "type2": "ノーマル",
+            "hp": 65,
+            "attack": 90,
+            "defense": 65,
+            "special_attack": 61,
+            "special_defense": 61,
+            "speed": 100,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "23",
+        "globalNo": "23",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 35,
+            "attack": 60,
+            "defense": 44,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 55,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "24",
+        "globalNo": "24",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 60,
+            "attack": 85,
+            "defense": 69,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 80,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "25",
+        "globalNo": "25",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 35,
+            "attack": 55,
+            "defense": 30,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 90,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "26",
+        "globalNo": "26",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 60,
+            "attack": 90,
+            "defense": 55,
+            "special_attack": 90,
+            "special_defense": 90,
+            "speed": 100,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "27",
+        "globalNo": "27",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 50,
+            "attack": 75,
+            "defense": 85,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 40,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "28",
+        "globalNo": "28",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 75,
+            "attack": 100,
+            "defense": 110,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 65,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "29",
+        "globalNo": "29",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 55,
+            "attack": 47,
+            "defense": 52,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 41,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "30",
+        "globalNo": "30",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 70,
+            "attack": 62,
+            "defense": 67,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 56,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "31",
+        "globalNo": "31",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "じめん",
+            "hp": 90,
+            "attack": 82,
+            "defense": 87,
+            "special_attack": 75,
+            "special_defense": 75,
+            "speed": 76,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "32",
+        "globalNo": "32",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 46,
+            "attack": 57,
+            "defense": 40,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 50,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "33",
+        "globalNo": "33",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 61,
+            "attack": 72,
+            "defense": 57,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 65,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "34",
+        "globalNo": "34",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "じめん",
+            "hp": 81,
+            "attack": 92,
+            "defense": 77,
+            "special_attack": 75,
+            "special_defense": 75,
+            "speed": 85,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "35",
+        "globalNo": "35",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 70,
+            "attack": 45,
+            "defense": 48,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 35,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "36",
+        "globalNo": "36",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 95,
+            "attack": 70,
+            "defense": 73,
+            "special_attack": 85,
+            "special_defense": 85,
+            "speed": 60,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "37",
+        "globalNo": "37",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 38,
+            "attack": 41,
+            "defense": 40,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 65,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "38",
+        "globalNo": "38",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 73,
+            "attack": 76,
+            "defense": 75,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 100,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "39",
+        "globalNo": "39",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 115,
+            "attack": 45,
+            "defense": 20,
+            "special_attack": 25,
+            "special_defense": 25,
+            "speed": 20,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "40",
+        "globalNo": "40",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 140,
+            "attack": 70,
+            "defense": 45,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 45,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "41",
+        "globalNo": "41",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "ひこう",
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 55,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "42",
+        "globalNo": "42",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "ひこう",
+            "hp": 75,
+            "attack": 80,
+            "defense": 70,
+            "special_attack": 75,
+            "special_defense": 75,
+            "speed": 90,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "43",
+        "globalNo": "43",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 45,
+            "attack": 50,
+            "defense": 55,
+            "special_attack": 75,
+            "special_defense": 75,
+            "speed": 30,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "44",
+        "globalNo": "44",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 60,
+            "attack": 65,
+            "defense": 70,
+            "special_attack": 85,
+            "special_defense": 85,
+            "speed": 40,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "45",
+        "globalNo": "45",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 75,
+            "attack": 80,
+            "defense": 85,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 50,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "46",
+        "globalNo": "46",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "むし",
+            "hp": 35,
+            "attack": 70,
+            "defense": 55,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 25,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "47",
+        "globalNo": "47",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "むし",
+            "hp": 60,
+            "attack": 95,
+            "defense": 80,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 30,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "48",
+        "globalNo": "48",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "むし",
+            "hp": 60,
+            "attack": 55,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 45,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "49",
+        "globalNo": "49",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "むし",
+            "hp": 70,
+            "attack": 65,
+            "defense": 60,
+            "special_attack": 90,
+            "special_defense": 90,
+            "speed": 90,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "50",
+        "globalNo": "50",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 10,
+            "attack": 55,
+            "defense": 25,
+            "special_attack": 45,
+            "special_defense": 45,
+            "speed": 95,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "51",
+        "globalNo": "51",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 35,
+            "attack": 80,
+            "defense": 50,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 120,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "52",
+        "globalNo": "52",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 90,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "53",
+        "globalNo": "53",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 65,
+            "attack": 70,
+            "defense": 60,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 115,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "54",
+        "globalNo": "54",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 50,
+            "attack": 52,
+            "defense": 48,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 55,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "55",
+        "globalNo": "55",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 80,
+            "attack": 82,
+            "defense": 78,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 85,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "56",
+        "globalNo": "56",
+        "status": [
+          {
+            "form": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 40,
+            "attack": 80,
+            "defense": 35,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 70,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "57",
+        "globalNo": "57",
+        "status": [
+          {
+            "form": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 65,
+            "attack": 105,
+            "defense": 60,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 95,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "58",
+        "globalNo": "58",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 55,
+            "attack": 70,
+            "defense": 45,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 60,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "59",
+        "globalNo": "59",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 90,
+            "attack": 110,
+            "defense": 80,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 95,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "60",
+        "globalNo": "60",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 40,
+            "attack": 50,
+            "defense": 40,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 90,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "61",
+        "globalNo": "61",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 65,
+            "attack": 65,
+            "defense": 65,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 90,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "62",
+        "globalNo": "62",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "かくとう",
+            "hp": 90,
+            "attack": 85,
+            "defense": 95,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "63",
+        "globalNo": "63",
+        "status": [
+          {
+            "form": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 25,
+            "attack": 20,
+            "defense": 15,
+            "special_attack": 105,
+            "special_defense": 105,
+            "speed": 90,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "64",
+        "globalNo": "64",
+        "status": [
+          {
+            "form": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 40,
+            "attack": 35,
+            "defense": 30,
+            "special_attack": 120,
+            "special_defense": 120,
+            "speed": 105,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "65",
+        "globalNo": "65",
+        "status": [
+          {
+            "form": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 55,
+            "attack": 50,
+            "defense": 45,
+            "special_attack": 135,
+            "special_defense": 135,
+            "speed": 120,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "66",
+        "globalNo": "66",
+        "status": [
+          {
+            "form": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 70,
+            "attack": 80,
+            "defense": 50,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 35,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "67",
+        "globalNo": "67",
+        "status": [
+          {
+            "form": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 80,
+            "attack": 100,
+            "defense": 70,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 45,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "68",
+        "globalNo": "68",
+        "status": [
+          {
+            "form": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 90,
+            "attack": 130,
+            "defense": 80,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 55,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "69",
+        "globalNo": "69",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 50,
+            "attack": 75,
+            "defense": 35,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 40,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "70",
+        "globalNo": "70",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 65,
+            "attack": 90,
+            "defense": 50,
+            "special_attack": 85,
+            "special_defense": 85,
+            "speed": 55,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "71",
+        "globalNo": "71",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 80,
+            "attack": 105,
+            "defense": 65,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 70,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "72",
+        "globalNo": "72",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "みず",
+            "hp": 40,
+            "attack": 40,
+            "defense": 35,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 70,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "73",
+        "globalNo": "73",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "みず",
+            "hp": 80,
+            "attack": 70,
+            "defense": 65,
+            "special_attack": 120,
+            "special_defense": 120,
+            "speed": 100,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "74",
+        "globalNo": "74",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 40,
+            "attack": 80,
+            "defense": 100,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 20,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "75",
+        "globalNo": "75",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 55,
+            "attack": 95,
+            "defense": 115,
+            "special_attack": 45,
+            "special_defense": 45,
+            "speed": 35,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "76",
+        "globalNo": "76",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 80,
+            "attack": 110,
+            "defense": 130,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 45,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "77",
+        "globalNo": "77",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 50,
+            "attack": 85,
+            "defense": 55,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 90,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "78",
+        "globalNo": "78",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 65,
+            "attack": 100,
+            "defense": 70,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 105,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "79",
+        "globalNo": "79",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "エスパー",
+            "hp": 90,
+            "attack": 65,
+            "defense": 65,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 15,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "80",
+        "globalNo": "80",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "エスパー",
+            "hp": 95,
+            "attack": 75,
+            "defense": 110,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 30,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "81",
+        "globalNo": "81",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 25,
+            "attack": 35,
+            "defense": 70,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 45,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "82",
+        "globalNo": "82",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 50,
+            "attack": 60,
+            "defense": 95,
+            "special_attack": 120,
+            "special_defense": 120,
+            "speed": 70,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "83",
+        "globalNo": "83",
+        "status": [
+          {
+            "form": "",
+            "type1": "ひこう",
+            "type2": "ノーマル",
+            "hp": 52,
+            "attack": 65,
+            "defense": 55,
+            "special_attack": 58,
+            "special_defense": 58,
+            "speed": 60,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "84",
+        "globalNo": "84",
+        "status": [
+          {
+            "form": "",
+            "type1": "ひこう",
+            "type2": "ノーマル",
+            "hp": 35,
+            "attack": 85,
+            "defense": 45,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 75,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "85",
+        "globalNo": "85",
+        "status": [
+          {
+            "form": "",
+            "type1": "ひこう",
+            "type2": "ノーマル",
+            "hp": 60,
+            "attack": 110,
+            "defense": 70,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 100,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "86",
+        "globalNo": "86",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 65,
+            "attack": 45,
+            "defense": 55,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 45,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "87",
+        "globalNo": "87",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "こおり",
+            "hp": 90,
+            "attack": 70,
+            "defense": 80,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 70,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "88",
+        "globalNo": "88",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 80,
+            "attack": 80,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 25,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "89",
+        "globalNo": "89",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 105,
+            "attack": 105,
+            "defense": 75,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 50,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "90",
+        "globalNo": "90",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 30,
+            "attack": 65,
+            "defense": 100,
+            "special_attack": 45,
+            "special_defense": 45,
+            "speed": 40,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "91",
+        "globalNo": "91",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "こおり",
+            "hp": 50,
+            "attack": 95,
+            "defense": 180,
+            "special_attack": 85,
+            "special_defense": 85,
+            "speed": 70,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "92",
+        "globalNo": "92",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "ゴースト",
+            "hp": 30,
+            "attack": 35,
+            "defense": 30,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 80,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "93",
+        "globalNo": "93",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "ゴースト",
+            "hp": 45,
+            "attack": 50,
+            "defense": 45,
+            "special_attack": 115,
+            "special_defense": 115,
+            "speed": 95,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "94",
+        "globalNo": "94",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "ゴースト",
+            "hp": 60,
+            "attack": 65,
+            "defense": 60,
+            "special_attack": 130,
+            "special_defense": 130,
+            "speed": 110,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "95",
+        "globalNo": "95",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 35,
+            "attack": 45,
+            "defense": 160,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 70,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "96",
+        "globalNo": "96",
+        "status": [
+          {
+            "form": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 60,
+            "attack": 48,
+            "defense": 45,
+            "special_attack": 90,
+            "special_defense": 90,
+            "speed": 42,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "97",
+        "globalNo": "97",
+        "status": [
+          {
+            "form": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 85,
+            "attack": 73,
+            "defense": 70,
+            "special_attack": 115,
+            "special_defense": 115,
+            "speed": 67,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "98",
+        "globalNo": "98",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 30,
+            "attack": 105,
+            "defense": 90,
+            "special_attack": 25,
+            "special_defense": 25,
+            "speed": 50,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "99",
+        "globalNo": "99",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 55,
+            "attack": 130,
+            "defense": 115,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 75,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "100",
+        "globalNo": "100",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 40,
+            "attack": 30,
+            "defense": 50,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 100,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "101",
+        "globalNo": "101",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 60,
+            "attack": 50,
+            "defense": 70,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 140,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "102",
+        "globalNo": "102",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "エスパー",
+            "hp": 60,
+            "attack": 40,
+            "defense": 80,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 40,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "103",
+        "globalNo": "103",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "エスパー",
+            "hp": 95,
+            "attack": 95,
+            "defense": 85,
+            "special_attack": 125,
+            "special_defense": 125,
+            "speed": 55,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "104",
+        "globalNo": "104",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 50,
+            "attack": 50,
+            "defense": 95,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 35,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "105",
+        "globalNo": "105",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 60,
+            "attack": 80,
+            "defense": 110,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 45,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "106",
+        "globalNo": "106",
+        "status": [
+          {
+            "form": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 50,
+            "attack": 120,
+            "defense": 53,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 87,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "107",
+        "globalNo": "107",
+        "status": [
+          {
+            "form": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 50,
+            "attack": 105,
+            "defense": 79,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 76,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "108",
+        "globalNo": "108",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 90,
+            "attack": 55,
+            "defense": 75,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 30,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "109",
+        "globalNo": "109",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 40,
+            "attack": 65,
+            "defense": 95,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 35,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "110",
+        "globalNo": "110",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 65,
+            "attack": 90,
+            "defense": 120,
+            "special_attack": 85,
+            "special_defense": 85,
+            "speed": 60,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "111",
+        "globalNo": "111",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 80,
+            "attack": 85,
+            "defense": 95,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 25,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "112",
+        "globalNo": "112",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 105,
+            "attack": 130,
+            "defense": 120,
+            "special_attack": 45,
+            "special_defense": 45,
+            "speed": 40,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "113",
+        "globalNo": "113",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 250,
+            "attack": 5,
+            "defense": 5,
+            "special_attack": 105,
+            "special_defense": 105,
+            "speed": 50,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "114",
+        "globalNo": "114",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 65,
+            "attack": 55,
+            "defense": 115,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 60,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "115",
+        "globalNo": "115",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 105,
+            "attack": 95,
+            "defense": 80,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 90,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "116",
+        "globalNo": "116",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 30,
+            "attack": 40,
+            "defense": 70,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 60,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "117",
+        "globalNo": "117",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 55,
+            "attack": 65,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 85,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "118",
+        "globalNo": "118",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 45,
+            "attack": 67,
+            "defense": 60,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 63,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "119",
+        "globalNo": "119",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 80,
+            "attack": 92,
+            "defense": 65,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 68,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "120",
+        "globalNo": "120",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 30,
+            "attack": 45,
+            "defense": 55,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 85,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "121",
+        "globalNo": "121",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "エスパー",
+            "hp": 60,
+            "attack": 75,
+            "defense": 85,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 115,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "122",
+        "globalNo": "122",
+        "status": [
+          {
+            "form": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 40,
+            "attack": 45,
+            "defense": 65,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 90,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "123",
+        "globalNo": "123",
+        "status": [
+          {
+            "form": "",
+            "type1": "ひこう",
+            "type2": "",
+            "hp": 70,
+            "attack": 110,
+            "defense": 80,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 105,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "124",
+        "globalNo": "124",
+        "status": [
+          {
+            "form": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 65,
+            "attack": 50,
+            "defense": 35,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "125",
+        "globalNo": "125",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 65,
+            "attack": 83,
+            "defense": 57,
+            "special_attack": 85,
+            "special_defense": 85,
+            "speed": 105,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "126",
+        "globalNo": "126",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 65,
+            "attack": 95,
+            "defense": 57,
+            "special_attack": 85,
+            "special_defense": 85,
+            "speed": 93,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "127",
+        "globalNo": "127",
+        "status": [
+          {
+            "form": "",
+            "type1": "むし",
+            "type2": "",
+            "hp": 65,
+            "attack": 125,
+            "defense": 100,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 85,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "128",
+        "globalNo": "128",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 75,
+            "attack": 100,
+            "defense": 95,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 110,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "129",
+        "globalNo": "129",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 20,
+            "attack": 10,
+            "defense": 55,
+            "special_attack": 20,
+            "special_defense": 20,
+            "speed": 80,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "130",
+        "globalNo": "130",
+        "status": [
+          {
+            "form": "",
+            "type1": "ひこう",
+            "type2": "みず",
+            "hp": 95,
+            "attack": 125,
+            "defense": 79,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 81,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "131",
+        "globalNo": "131",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "こおり",
+            "hp": 130,
+            "attack": 85,
+            "defense": 80,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 60,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "132",
+        "globalNo": "132",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 48,
+            "attack": 48,
+            "defense": 48,
+            "special_attack": 48,
+            "special_defense": 48,
+            "speed": 48,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "133",
+        "globalNo": "133",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 55,
+            "attack": 55,
+            "defense": 50,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 55,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "134",
+        "globalNo": "134",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 130,
+            "attack": 65,
+            "defense": 60,
+            "special_attack": 110,
+            "special_defense": 110,
+            "speed": 65,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "135",
+        "globalNo": "135",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 65,
+            "attack": 65,
+            "defense": 60,
+            "special_attack": 110,
+            "special_defense": 110,
+            "speed": 130,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "136",
+        "globalNo": "136",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 65,
+            "attack": 130,
+            "defense": 60,
+            "special_attack": 110,
+            "special_defense": 110,
+            "speed": 65,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "137",
+        "globalNo": "137",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 65,
+            "attack": 60,
+            "defense": 70,
+            "special_attack": 75,
+            "special_defense": 75,
+            "speed": 40,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "138",
+        "globalNo": "138",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "いわ",
+            "hp": 35,
+            "attack": 40,
+            "defense": 100,
+            "special_attack": 90,
+            "special_defense": 90,
+            "speed": 35,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "139",
+        "globalNo": "139",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "いわ",
+            "hp": 70,
+            "attack": 60,
+            "defense": 125,
+            "special_attack": 115,
+            "special_defense": 115,
+            "speed": 55,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "140",
+        "globalNo": "140",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "いわ",
+            "hp": 30,
+            "attack": 80,
+            "defense": 90,
+            "special_attack": 45,
+            "special_defense": 45,
+            "speed": 55,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "141",
+        "globalNo": "141",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "いわ",
+            "hp": 60,
+            "attack": 115,
+            "defense": 105,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 80,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "142",
+        "globalNo": "142",
+        "status": [
+          {
+            "form": "",
+            "type1": "ひこう",
+            "type2": "いわ",
+            "hp": 80,
+            "attack": 105,
+            "defense": 65,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 130,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "143",
+        "globalNo": "143",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 160,
+            "attack": 110,
+            "defense": 65,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 30,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "144",
+        "globalNo": "144",
+        "status": [
+          {
+            "form": "",
+            "type1": "ひこう",
+            "type2": "こおり",
+            "hp": 90,
+            "attack": 85,
+            "defense": 100,
+            "special_attack": 125,
+            "special_defense": 125,
+            "speed": 85,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "145",
+        "globalNo": "145",
+        "status": [
+          {
+            "form": "",
+            "type1": "ひこう",
+            "type2": "でんき",
+            "hp": 90,
+            "attack": 90,
+            "defense": 85,
+            "special_attack": 125,
+            "special_defense": 125,
+            "speed": 100,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "146",
+        "globalNo": "146",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "ひこう",
+            "hp": 90,
+            "attack": 100,
+            "defense": 90,
+            "special_attack": 125,
+            "special_defense": 125,
+            "speed": 90,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "147",
+        "globalNo": "147",
+        "status": [
+          {
+            "form": "",
+            "type1": "ドラゴン",
+            "type2": "",
+            "hp": 41,
+            "attack": 64,
+            "defense": 45,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 50,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "148",
+        "globalNo": "148",
+        "status": [
+          {
+            "form": "",
+            "type1": "ドラゴン",
+            "type2": "",
+            "hp": 61,
+            "attack": 84,
+            "defense": 65,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "149",
+        "globalNo": "149",
+        "status": [
+          {
+            "form": "",
+            "type1": "ひこう",
+            "type2": "ドラゴン",
+            "hp": 91,
+            "attack": 134,
+            "defense": 95,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 80,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "150",
+        "globalNo": "150",
+        "status": [
+          {
+            "form": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 106,
+            "attack": 110,
+            "defense": 90,
+            "special_attack": 154,
+            "special_defense": 154,
+            "speed": 130,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      },
+      {
+        "no": "151",
+        "globalNo": "151",
+        "status": [
+          {
+            "form": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 100,
+            "attack": 100,
+            "defense": 100,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 100,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": ""
+          }
+        ]
+      }
+    ]
+  }
+}
