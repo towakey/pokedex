@@ -14824,7 +14824,7 @@
       "name": {
         "jpn": "クワッス",
         "eng": "Quaxly",
-        "ger": "	Kwaks",
+        "ger": "Kwaks",
         "fra": "Coiffeton",
         "kor": "꾸왁스",
         "chs": "润水鸭",
@@ -15037,7 +15037,7 @@
         "ger": "Flattutu",
         "fra": "Flotillon",
         "kor": "하느라기",
-        "chs": "	飘飘雏",
+        "chs": "飘飘雏",
         "cht": "飄飄雛"
       },
       "classification": "フリルポケモン",
@@ -15095,7 +15095,7 @@
         "jpn": "ウミトリオ",
         "eng": "Wugtrio",
         "ger": "Schligdri",
-        "fra": "Triopikeau	",
+        "fra": "Triopikeau",
         "kor": "바닥트리오",
         "chs": "三海地鼠",
         "cht": "三海地鼠"
@@ -15351,9 +15351,9 @@
         "eng": "Cetoddle",
         "ger": "Flaniwal",
         "fra": "Piétacé",
-        "kor": "터벅고래	",
+        "kor": "터벅고래",
         "chs": "走鲸",
-        "cht": "走鯨	"
+        "cht": "走鯨"
       },
       "classification": "りくくじらポケモン",
       "height": "1.2",
@@ -15413,7 +15413,7 @@
         "fra": "Glaivodo",
         "kor": "드닐레이브",
         "chs": "戟脊龙",
-        "cht": "戟脊龍	"
+        "cht": "戟脊龍"
       },
       "classification": "ひょうりゅうポケモン",
       "height": "2.1",
@@ -15518,7 +15518,7 @@
         "fra": "Fulgulairo",
         "kor": "찌리비크",
         "chs": "大电海燕",
-        "cht": "大電海燕	"
+        "cht": "大電海燕"
       },
       "classification": "ぐんかんどりポケモン",
       "height": "1.4",
@@ -15610,7 +15610,7 @@
         "chs": "盐石垒",
         "cht": "鹽石壘"
       },
-      "classification": "	がんえんポケモン",
+      "classification": "がんえんポケモン",
       "height": "0.6",
       "weight": "105.0"
     },
@@ -15712,7 +15712,7 @@
         "ger": "Backel",
         "fra": "Briochien",
         "kor": "바우첼",
-        "chs": "麻花犬	",
+        "chs": "麻花犬",
         "cht": "麻花犬"
       },
       "classification": "いぬポケモン",
@@ -15980,7 +15980,7 @@
         "jpn": "テツノカイナ",
         "eng": "Iron Hands",
         "ger": "Eisenhand",
-        "fra": "Paume-de-Fer	",
+        "fra": "Paume-de-Fer",
         "kor": "무쇠손",
         "chs": "铁臂膀",
         "cht": "鐵臂膀"
@@ -15995,7 +15995,7 @@
         "jpn": "テツノコウベ",
         "eng": "Iron Jugulis",
         "ger": "Eisenhals",
-        "fra": "Têtes-de-Fer	",
+        "fra": "Têtes-de-Fer",
         "kor": "무쇠머리",
         "chs": "铁脖颈",
         "cht": "鐵脖頸"
@@ -16025,7 +16025,7 @@
         "jpn": "テツノツツミ",
         "eng": "Iron Bundle",
         "ger": "Eisenbündel",
-        "fra": "Hotte-de-Fer	",
+        "fra": "Hotte-de-Fer",
         "kor": "무쇠보따리",
         "chs": "铁包袱",
         "cht": "鐵包袱"
@@ -16040,7 +16040,7 @@
         "jpn": "テツノブジン",
         "eng": "Iron Valiant",
         "ger": "Eisenkrieger",
-        "fra": "Garde-de-Fer	",
+        "fra": "Garde-de-Fer",
         "kor": "무쇠무인",
         "chs": "铁武者",
         "cht": "鐵武者"
