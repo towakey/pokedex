@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "update": "20230109",
+  "local_global_id_converter": {
+    "1": {
+      "border": 1,
+      "top": 151,
+      "table": "Red_Green_Blue_Yellow"
+    },
+    "2": {
+      "border": 152,
+      "top": 251,
+      "table": "Gold_Silver_Crystal"
+    },
+    "3": {
+      "border": 252,
+      "top": 386,
+      "table": "Ruby_Sapphire_Emerald"
+    },
+    "4": {
+      "border": 387,
+      "top": 493,
+      "table": "Diamond_Pearl_Platinum"
+    },
+    "5": {
+      "border": 494,
+      "top": 649,
+      "table": "Black2_White2"
+    },
+    "6": {
+      "border": 650,
+      "top": 721,
+      "table": "X_Y"
+    },
+    "7": {
+      "border": 722,
+      "top": 809,
+      "table": "UltraSun_UltraMoon"
+    },
+    "8": {
+      "border": 810,
+      "top": 905,
+      "table": "Sword_Shield"
+    }
+  }
+}
