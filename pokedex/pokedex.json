@@ -1,6 +1,6 @@
 ﻿{
   "version":"100",
-  "update": "20230109",
+  "update": "20230113",
   "pokedex": [
     {
       "id": 1,
@@ -14897,21 +14897,6 @@
     {
       "id": 917,
       "name": {
-        "jpn": "ノココッチ",
-        "eng": "Dudunsparce",
-        "ger": "Dummimisel",
-        "fra": "Deusolourdo",
-        "kor": "노고고치",
-        "chs": "土龙节节",
-        "cht": "土龍節節"
-      },
-      "classification": "つちへびポケモン",
-      "height": "3.6",
-      "weight": "39.2"
-    },
-    {
-      "id": 918,
-      "name": {
         "jpn": "タマンチュラ",
         "eng": "Tarountula",
         "ger": "Tarundel",
@@ -14925,7 +14910,7 @@
       "weight": "4.0"
     },
     {
-      "id": 919,
+      "id": 918,
       "name": {
         "jpn": "ワナイダー",
         "eng": "Spidops",
@@ -14940,7 +14925,7 @@
       "weight": "16.5"
     },
     {
-      "id": 920,
+      "id": 919,
       "name": {
         "jpn": "マメバッタ",
         "eng": "Nymble",
@@ -14955,7 +14940,7 @@
       "weight": "1.0"
     },
     {
-      "id": 921,
+      "id": 920,
       "name": {
         "jpn": "エクスレッグ",
         "eng": "Lokix",
@@ -14970,487 +14955,7 @@
       "weight": "17.5"
     },
     {
-      "id": 922,
-      "name": {
-        "jpn": "シガロコ",
-        "eng": "Rellor",
-        "ger": "Relluk",
-        "fra": "Léboulérou",
-        "kor": "구르데",
-        "chs": "虫滚泥",
-        "cht": "蟲滾泥"
-      },
-      "classification": "ころがしポケモン",
-      "height": "0.2",
-      "weight": "1.0"
-    },
-    {
-      "id": 923,
-      "name": {
-        "jpn": "ベラカス",
-        "eng": "Rabsca",
-        "ger": "Skarabaks",
-        "fra": "Bérasca",
-        "kor": "베라카스",
-        "chs": "虫甲圣",
-        "cht": "蟲甲聖"
-      },
-      "classification": "ころがしポケモン",
-      "height": "0.3",
-      "weight": "3.5"
-    },
-    {
-      "id": 924,
-      "name": {
-        "jpn": "ボチ",
-        "eng": "Greavard",
-        "ger": "Gruff",
-        "fra": "Toutombe",
-        "kor": "망망이",
-        "chs": "墓仔狗",
-        "cht": "墓仔狗"
-      },
-      "classification": "おばけいぬポケモン",
-      "height": "0.6",
-      "weight": "35.0"
-    },
-    {
-      "id": 925,
-      "name": {
-        "jpn": "ハカドッグ",
-        "eng": "Houndstone",
-        "ger": "Friedwuff",
-        "fra": "Tomberro",
-        "kor": "묘두기",
-        "chs": "墓扬犬",
-        "cht": "墓揚犬"
-      },
-      "classification": "おばけいぬポケモン",
-      "height": "2.0",
-      "weight": "15.0"
-    },
-    {
-      "id": 926,
-      "name": {
-        "jpn": "ヒラヒナ",
-        "eng": "Flittle",
-        "ger": "Flattutu",
-        "fra": "Flotillon",
-        "kor": "하느라기",
-        "chs": "飘飘雏",
-        "cht": "飄飄雛"
-      },
-      "classification": "フリルポケモン",
-      "height": "0.2",
-      "weight": "1.5"
-    },
-    {
-      "id": 927,
-      "name": {
-        "jpn": "クエスパトラ",
-        "eng": "Espathra",
-        "ger": "Psiopatra",
-        "fra": "Cléopsytra",
-        "kor": "클레스퍼트라",
-        "chs": "超能艳鸵",
-        "cht": "超能豔鴕"
-      },
-      "classification": "ダチョウポケモン",
-      "height": "1.9",
-      "weight": "90.0"
-    },
-    {
-      "id": 928,
-      "name": {
-        "jpn": "リキキリン",
-        "eng": "Farigiraf",
-        "ger": "Farigiraf",
-        "fra": "Farigiraf",
-        "kor": "키키링",
-        "chs": "奇麒麟",
-        "cht": "奇麒麟"
-      },
-      "classification": "くびながポケモン",
-      "height": "3.2",
-      "weight": "160.0"
-    },
-    {
-      "id": 929,
-      "name": {
-        "jpn": "ウミディグダ",
-        "eng": "Wiglett",
-        "ger": "Schligda",
-        "fra": "Taupikeau",
-        "kor": "바다그다",
-        "chs": "海地鼠",
-        "cht": "海地鼠"
-      },
-      "classification": "あなごポケモン",
-      "height": "1.2",
-      "weight": "1.8"
-    },
-    {
-      "id": 930,
-      "name": {
-        "jpn": "ウミトリオ",
-        "eng": "Wugtrio",
-        "ger": "Schligdri",
-        "fra": "Triopikeau",
-        "kor": "바닥트리오",
-        "chs": "三海地鼠",
-        "cht": "三海地鼠"
-      },
-      "classification": "あなごポケモン",
-      "height": "1.2",
-      "weight": "5.4"
-    },
-    {
-      "id": 931,
-      "name": {
-        "jpn": "ヘイラッシャ",
-        "eng": "Dondozo",
-        "ger": "Heerashai",
-        "fra": "Oyacata",
-        "kor": "어써러셔",
-        "chs": "吃吼霸",
-        "cht": "吃吼霸"
-      },
-      "classification": "おおなまずポケモン",
-      "height": "12.0",
-      "weight": "220.0"
-    },
-    {
-      "id": 932,
-      "name": {
-        "jpn": "ミガルーサ",
-        "eng": "Veluza",
-        "ger": "Agiluza",
-        "fra": "Délestin",
-        "kor": "가비루사",
-        "chs": "轻身鳕",
-        "cht": "輕身鱈"
-      },
-      "classification": "きりはなしポケモン",
-      "height": "2.5",
-      "weight": "90.0"
-    },
-    {
-      "id": 933,
-      "name": {
-        "jpn": "ナミイルカ",
-        "eng": "Finizen",
-        "ger": "Normifin",
-        "fra": "Dofin",
-        "kor": "맨돌핀",
-        "chs": "波普海豚",
-        "cht": "波普海豚"
-      },
-      "classification": "イルカポケモン",
-      "height": "1.3",
-      "weight": "60.2"
-    },
-    {
-      "id": 934,
-      "name": {
-        "jpn": "イルカマン",
-        "eng": "Palafin",
-        "ger": "Delfinator",
-        "fra": "Superdofin",
-        "kor": "돌핀맨",
-        "chs": "海豚侠",
-        "cht": "海豚俠"
-      },
-      "classification": "イルカポケモン",
-      "height": "1.3",
-      "weight": "60.2"
-    },
-    {
-      "id": 935,
-      "name": {
-        "jpn": "ミニーブ",
-        "eng": "Smoliv",
-        "ger": "Olini",
-        "fra": "Olivini",
-        "kor": "미니브",
-        "chs": "迷你芙",
-        "cht": "迷你芙"
-      },
-      "classification": "オリーブポケモン",
-      "height": "0.3",
-      "weight": "6.5"
-    },
-    {
-      "id": 936,
-      "name": {
-        "jpn": "オリーニョ",
-        "eng": "Dolliv",
-        "ger": "Olivinio",
-        "fra": "Olivado",
-        "kor": "올리뇨",
-        "chs": "奥利纽",
-        "cht": "奧利紐"
-      },
-      "classification": "オリーブポケモン",
-      "height": "0.6",
-      "weight": "11.9"
-    },
-    {
-      "id": 937,
-      "name": {
-        "jpn": "オリーヴァ",
-        "eng": "Arboliva",
-        "ger": "Olithena",
-        "fra": "Arboliva",
-        "kor": "올리르바",
-        "chs": "奥利瓦",
-        "cht": "奧利瓦"
-      },
-      "classification": "オリーブポケモン",
-      "height": "1.4",
-      "weight": "48.2"
-    },
-    {
-      "id": 938,
-      "name": {
-        "jpn": "カプサイジ",
-        "eng": "Capsakid",
-        "ger": "Chilingel",
-        "fra": "Pimito",
-        "kor": "캡싸이",
-        "chs": "热辣娃",
-        "cht": "熱辣娃"
-      },
-      "classification": "ハバネロポケモン",
-      "height": "0.3",
-      "weight": "3.0"
-    },
-    {
-      "id": 939,
-      "name": {
-        "jpn": "スコヴィラン",
-        "eng": "Scovillain",
-        "ger": "Halupenjo",
-        "fra": "Scovilain",
-        "kor": "스코빌런",
-        "chs": "狠辣椒",
-        "cht": "狠辣椒"
-      },
-      "classification": "ハバネロポケモン",
-      "height": "0.9",
-      "weight": "15.0"
-    },
-    {
-      "id": 940,
-      "name": {
-        "jpn": "ズピカ",
-        "eng": "Tadbulb",
-        "ger": "Blipp",
-        "fra": "Têtampoule",
-        "kor": "빈나두",
-        "chs": "光蚪仔",
-        "cht": "光蚪仔"
-      },
-      "classification": "でんきおたまポケモン",
-      "height": "0.3",
-      "weight": "0.4"
-    },
-    {
-      "id": 941,
-      "name": {
-        "jpn": "ハラバリー",
-        "eng": "Bellibolt",
-        "ger": "Wampitz",
-        "fra": "Ampibidou",
-        "kor": "찌리배리",
-        "chs": "电肚蛙",
-        "cht": "電肚蛙"
-      },
-      "classification": "でんきがえるポケモン",
-      "height": "1.2",
-      "weight": "113.0"
-    },
-    {
-      "id": 942,
-      "name": {
-        "jpn": "ブロロン",
-        "eng": "Varoom",
-        "ger": "Knattox",
-        "fra": "Vrombi",
-        "kor": "부르롱",
-        "chs": "噗隆隆",
-        "cht": "噗隆隆"
-      },
-      "classification": "たんきとうポケモン",
-      "height": "1.0",
-      "weight": "35.0"
-    },
-    {
-      "id": 943,
-      "name": {
-        "jpn": "ブロロローム",
-        "eng": "Revavroom",
-        "ger": "Knattatox",
-        "fra": "Vrombotor",
-        "kor": "부르르룸",
-        "chs": "普隆隆姆",
-        "cht": "普隆隆姆"
-      },
-      "classification": "たきとうポケモン",
-      "height": "1.8",
-      "weight": "120.0"
-    },
-    {
-      "id": 944,
-      "name": {
-        "jpn": "ミミズズ",
-        "eng": "Orthworm",
-        "ger": "Schlurm",
-        "fra": "Ferdeter",
-        "kor": "꿈트렁",
-        "chs": "拖拖蚓",
-        "cht": "拖拖蚓"
-      },
-      "classification": "ミミズポケモン",
-      "height": "2.5",
-      "weight": "310.0"
-    },
-    {
-      "id": 945,
-      "name": {
-        "jpn": "ワッカネズミ",
-        "eng": "Tandemaus",
-        "ger": "Zwieps",
-        "fra": "Compagnol",
-        "kor": "두리쥐",
-        "chs": "一对鼠",
-        "cht": "一對鼠"
-      },
-      "classification": "カップルポケモン",
-      "height": "0.3",
-      "weight": "1.8"
-    },
-    {
-      "id": 946,
-      "name": {
-        "jpn": "イッカネズミ",
-        "eng": "Family of Three",
-        "ger": "Dreierfamilie",
-        "fra": "Famille de Trois",
-        "kor": "세 식구",
-        "chs": "三只家庭",
-        "cht": "三隻家庭"
-      },
-      "classification": "ファミリーポケモン",
-      "height": "0.3",
-      "weight": "2.3"
-    },
-    {
-      "id": 947,
-      "name": {
-        "jpn": "アルクジラ",
-        "eng": "Cetoddle",
-        "ger": "Flaniwal",
-        "fra": "Piétacé",
-        "kor": "터벅고래",
-        "chs": "走鲸",
-        "cht": "走鯨"
-      },
-      "classification": "りくくじらポケモン",
-      "height": "1.2",
-      "weight": "45.0"
-    },
-    {
-      "id": 948,
-      "name": {
-        "jpn": "ハルクジラ",
-        "eng": "Cetitan",
-        "ger": "Kolowal",
-        "fra": "Balbalèze",
-        "kor": "우락고래",
-        "chs": "浩大鲸",
-        "cht": "浩大鯨"
-      },
-      "classification": "りくくじらポケモン",
-      "height": "4.5",
-      "weight": "700.0"
-    },
-    {
-      "id": 949,
-      "name": {
-        "jpn": "セビエ",
-        "eng": "Frigibax",
-        "ger": "Frospino",
-        "fra": "Frigodo",
-        "kor": "드니차",
-        "chs": "凉脊龙",
-        "cht": "涼脊龍"
-      },
-      "classification": "こおりビレポケモン",
-      "height": "0.5",
-      "weight": "17.0"
-    },
-    {
-      "id": 950,
-      "name": {
-        "jpn": "セゴール",
-        "eng": "Arctibax",
-        "ger": "Cryospino",
-        "fra": "Cryodo",
-        "kor": "드니꽁",
-        "chs": "冻脊龙",
-        "cht": "凍脊龍"
-      },
-      "classification": "こおりビレポケモン",
-      "height": "0.8",
-      "weight": "30.0"
-    },
-    {
-      "id": 951,
-      "name": {
-        "jpn": "セグレイブ",
-        "eng": "Baxcalibur",
-        "ger": "Espinodon",
-        "fra": "Glaivodo",
-        "kor": "드닐레이브",
-        "chs": "戟脊龙",
-        "cht": "戟脊龍"
-      },
-      "classification": "ひょうりゅうポケモン",
-      "height": "2.1",
-      "weight": "210.0"
-    },
-    {
-      "id": 952,
-      "name": {
-        "jpn": "シャリタツ",
-        "eng": "Tatsugiri",
-        "ger": "Nigiragi",
-        "fra": "Nigirigon",
-        "kor": "싸리용",
-        "chs": "米立龙",
-        "cht": "米立龍"
-      },
-      "classification": "ぎたいポケモン",
-      "height": "0.3",
-      "weight": "8.0"
-    },
-    {
-      "id": 953,
-      "name": {
-        "jpn": "モトトカゲ",
-        "eng": "Cyclizar",
-        "ger": "Mopex",
-        "fra": "Motorizard",
-        "kor": "모토마",
-        "chs": "摩托蜥",
-        "cht": "摩托蜥"
-      },
-      "classification": "ライドポケモン",
-      "height": "1.6",
-      "weight": "63.0"
-    },
-    {
-      "id": 954,
+      "id": 921,
       "name": {
         "jpn": "パモ",
         "eng": "Pawmi",
@@ -15465,7 +14970,7 @@
       "weight": "2.5"
     },
     {
-      "id": 955,
+      "id": 922,
       "name": {
         "jpn": "パモット",
         "eng": "Pawmo",
@@ -15480,7 +14985,7 @@
       "weight": "6.5"
     },
     {
-      "id": 956,
+      "id": 923,
       "name": {
         "jpn": "パーモット",
         "eng": "Pawmot",
@@ -15495,202 +15000,37 @@
       "weight": "41.0"
     },
     {
-      "id": 957,
+      "id": 924,
       "name": {
-        "jpn": "カイデン",
-        "eng": "Wattrel",
-        "ger": "Voltrel",
-        "fra": "Zapétrel",
-        "kor": "찌리비",
-        "chs": "电海燕",
-        "cht": "電海燕"
+        "jpn": "ワッカネズミ",
+        "eng": "Tandemaus",
+        "ger": "Zwieps",
+        "fra": "Compagnol",
+        "kor": "두리쥐",
+        "chs": "一对鼠",
+        "cht": "一對鼠"
       },
-      "classification": "うみつばめポケモン",
-      "height": "0.4",
-      "weight": "3.6"
+      "classification": "カップルポケモン",
+      "height": "0.3",
+      "weight": "1.8"
     },
     {
-      "id": 958,
+      "id": 925,
       "name": {
-        "jpn": "タイカイデン",
-        "eng": "Kilowattrel",
-        "ger": "Voltrean",
-        "fra": "Fulgulairo",
-        "kor": "찌리비크",
-        "chs": "大电海燕",
-        "cht": "大電海燕"
+        "jpn": "イッカネズミ",
+        "eng": "Family of Three",
+        "ger": "Dreierfamilie",
+        "fra": "Famille de Trois",
+        "kor": "세 식구",
+        "chs": "三只家庭",
+        "cht": "三隻家庭"
       },
-      "classification": "ぐんかんどりポケモン",
-      "height": "1.4",
-      "weight": "38.6"
+      "classification": "ファミリーポケモン",
+      "height": "0.3",
+      "weight": "2.3"
     },
     {
-      "id": 959,
-      "name": {
-        "jpn": "オトシドリ",
-        "eng": "Bombirdier",
-        "ger": "Adebom",
-        "fra": "Lestombaile",
-        "kor": "떨구새",
-        "chs": "下石鸟",
-        "cht": "下石鳥"
-      },
-      "classification": "おとしものポケモン",
-      "height": "1.5",
-      "weight": "42.9"
-    },
-    {
-      "id": 960,
-      "name": {
-        "jpn": "イキリンコ",
-        "eng": "Squawkabilly",
-        "ger": "Krawalloro",
-        "fra": "Tapatoès",
-        "kor": "시비꼬",
-        "chs": "怒鹦哥",
-        "cht": "怒鸚哥"
-      },
-      "classification": "インコポケモン",
-      "height": "0.6",
-      "weight": "2.4"
-    },
-    {
-      "id": 961,
-      "name": {
-        "jpn": "カラミンゴ",
-        "eng": "Flamigo",
-        "ger": "Flaminkno",
-        "fra": "Flamenroule",
-        "kor": "꼬이밍고",
-        "chs": "缠红鹤",
-        "cht": "纏紅鶴"
-      },
-      "classification": "シンクロポケモン",
-      "height": "1.6",
-      "weight": "37.0"
-    },
-    {
-      "id": 962,
-      "name": {
-        "jpn": "ガケガニ",
-        "eng": "Klawf",
-        "ger": "Klibbe",
-        "fra": "Craparoi",
-        "kor": "절벼게",
-        "chs": "毛崖蟹",
-        "cht": "毛崖蟹"
-      },
-      "classification": "まちぶせポケモン",
-      "height": "1.3",
-      "weight": "79.0"
-    },
-    {
-      "id": 963,
-      "name": {
-        "jpn": "コジオ",
-        "eng": "Nacli",
-        "ger": "Geosali",
-        "fra": "Selutin",
-        "kor": "베베솔트",
-        "chs": "盐石宝",
-        "cht": "鹽石寶"
-      },
-      "classification": "がんえんポケモン",
-      "height": "0.4",
-      "weight": "16.0"
-    },
-    {
-      "id": 964,
-      "name": {
-        "jpn": "ジオヅム",
-        "eng": "Naclstack",
-        "ger": "Sedisal",
-        "fra": "Amassel",
-        "kor": "스태솔트",
-        "chs": "盐石垒",
-        "cht": "鹽石壘"
-      },
-      "classification": "がんえんポケモン",
-      "height": "0.6",
-      "weight": "105.0"
-    },
-    {
-      "id": 965,
-      "name": {
-        "jpn": "キョジオーン",
-        "eng": "Garganacl",
-        "ger": "Saltigant",
-        "fra": "Gigansel",
-        "kor": "콜로솔트",
-        "chs": "盐石巨灵",
-        "cht": "鹽石巨靈"
-      },
-      "classification": "がんえんポケモン",
-      "height": "2.3",
-      "weight": "240.0"
-    },
-    {
-      "id": 966,
-      "name": {
-        "jpn": "キラーメ",
-        "eng": "Glimmet",
-        "ger": "Lumispross",
-        "fra": "Germéclat",
-        "kor": "초롱순",
-        "chs": "晶光芽",
-        "cht": "晶光芽"
-      },
-      "classification": "こうせきポケモン",
-      "height": "0.7",
-      "weight": "8.0"
-    },
-    {
-      "id": 967,
-      "name": {
-        "jpn": "キラフロル",
-        "eng": "Glimmora",
-        "ger": "Lumiflora",
-        "fra": "Floréclat",
-        "kor": "킬라플로르",
-        "chs": "晶光花",
-        "cht": "晶光花"
-      },
-      "classification": "こうせきポケモン",
-      "height": "1.5",
-      "weight": "45.0"
-    },
-    {
-      "id": 968,
-      "name": {
-        "jpn": "シルシュルー",
-        "eng": "Shroodle",
-        "ger": "Sproxi",
-        "fra": "Gribouraigne",
-        "kor": "땃쭈르",
-        "chs": "滋汁鼹",
-        "cht": "滋汁鼴"
-      },
-      "classification": "どくねずみポケモン",
-      "height": "0.2",
-      "weight": "0.7"
-    },
-    {
-      "id": 969,
-      "name": {
-        "jpn": "タギングル",
-        "eng": "Grafaiai",
-        "ger": "Affiti",
-        "fra": "Tag-Tag",
-        "kor": "태깅구르",
-        "chs": "涂标客",
-        "cht": "塗標客"
-      },
-      "classification": "どくざるポケモン",
-      "height": "0.7",
-      "weight": "27.2"
-    },
-    {
-      "id": 970,
+      "id": 926,
       "name": {
         "jpn": "パピモッチ",
         "eng": "Fidough",
@@ -15705,7 +15045,7 @@
       "weight": "10.9"
     },
     {
-      "id": 971,
+      "id": 927,
       "name": {
         "jpn": "バウッツェル",
         "eng": "Dachsbun",
@@ -15720,472 +15060,112 @@
       "weight": "14.9"
     },
     {
-      "id": 972,
+      "id": 928,
       "name": {
-        "jpn": "オラチフ",
-        "eng": "Maschiff",
-        "ger": "Mobtiff",
-        "fra": "Grondogue",
-        "kor": "오라티프",
-        "chs": "偶叫獒",
-        "cht": "偶叫獒"
+        "jpn": "ミニーブ",
+        "eng": "Smoliv",
+        "ger": "Olini",
+        "fra": "Olivini",
+        "kor": "미니브",
+        "chs": "迷你芙",
+        "cht": "迷你芙"
       },
-      "classification": "わかぞうポケモン",
-      "height": "0.5",
+      "classification": "オリーブポケモン",
+      "height": "0.3",
+      "weight": "6.5"
+    },
+    {
+      "id": 929,
+      "name": {
+        "jpn": "オリーニョ",
+        "eng": "Dolliv",
+        "ger": "Olivinio",
+        "fra": "Olivado",
+        "kor": "올리뇨",
+        "chs": "奥利纽",
+        "cht": "奧利紐"
+      },
+      "classification": "オリーブポケモン",
+      "height": "0.6",
+      "weight": "11.9"
+    },
+    {
+      "id": 930,
+      "name": {
+        "jpn": "オリーヴァ",
+        "eng": "Arboliva",
+        "ger": "Olithena",
+        "fra": "Arboliva",
+        "kor": "올리르바",
+        "chs": "奥利瓦",
+        "cht": "奧利瓦"
+      },
+      "classification": "オリーブポケモン",
+      "height": "1.4",
+      "weight": "48.2"
+    },
+    {
+      "id": 931,
+      "name": {
+        "jpn": "イキリンコ",
+        "eng": "Squawkabilly",
+        "ger": "Krawalloro",
+        "fra": "Tapatoès",
+        "kor": "시비꼬",
+        "chs": "怒鹦哥",
+        "cht": "怒鸚哥"
+      },
+      "classification": "インコポケモン",
+      "height": "0.6",
+      "weight": "2.4"
+    },
+    {
+      "id": 932,
+      "name": {
+        "jpn": "コジオ",
+        "eng": "Nacli",
+        "ger": "Geosali",
+        "fra": "Selutin",
+        "kor": "베베솔트",
+        "chs": "盐石宝",
+        "cht": "鹽石寶"
+      },
+      "classification": "がんえんポケモン",
+      "height": "0.4",
       "weight": "16.0"
     },
     {
-      "id": 973,
+      "id": 933,
       "name": {
-        "jpn": "マフィティフ",
-        "eng": "Mabosstiff",
-        "ger": "Mastifioso",
-        "fra": "Dogrino",
-        "kor": "마피티프",
-        "chs": "獒教父",
-        "cht": "獒教父"
+        "jpn": "ジオヅム",
+        "eng": "Naclstack",
+        "ger": "Sedisal",
+        "fra": "Amassel",
+        "kor": "스태솔트",
+        "chs": "盐石垒",
+        "cht": "鹽石壘"
       },
-      "classification": "おやぶんポケモン",
-      "height": "1.1",
-      "weight": "61.0"
-    },
-    {
-      "id": 974,
-      "name": {
-        "jpn": "アノクサ",
-        "eng": "Bramblin",
-        "ger": "Weherba",
-        "fra": "Virovent",
-        "kor": "그푸리",
-        "chs": "纳噬草",
-        "cht": "納噬草"
-      },
-      "classification": "ころがりぐさポケモン",
+      "classification": "がんえんポケモン",
       "height": "0.6",
-      "weight": "0.6"
+      "weight": "105.0"
     },
     {
-      "id": 975,
+      "id": 934,
       "name": {
-        "jpn": "アノホラグサ",
-        "eng": "Brambleghast",
-        "ger": "Horrerba",
-        "fra": "Virevorreur",
-        "kor": "공푸리",
-        "chs": "怖纳噬草",
-        "cht": "怖納噬草"
+        "jpn": "キョジオーン",
+        "eng": "Garganacl",
+        "ger": "Saltigant",
+        "fra": "Gigansel",
+        "kor": "콜로솔트",
+        "chs": "盐石巨灵",
+        "cht": "鹽石巨靈"
       },
-      "classification": "ころがりぐさポケモン",
-      "height": "1.2",
-      "weight": "6.0"
-    },
-    {
-      "id": 976,
-      "name": {
-        "jpn": "コレクレー",
-        "eng": "Chest Form",
-        "ger": "Truhenform",
-        "fra": "Forme Coffre",
-        "kor": "상자폼",
-        "chs": "宝箱形态",
-        "cht": "寶箱形態"
-      },
-      "classification": "たからばこポケモン",
-      "height": "0.3",
-      "weight": "5.0"
-    },
-    {
-      "id": 977,
-      "name": {
-        "jpn": "サーフゴー",
-        "eng": "Gholdengo",
-        "ger": "Monetigo",
-        "fra": "Gromago",
-        "kor": "타부자고",
-        "chs": "赛富豪",
-        "cht": "賽富豪"
-      },
-      "classification": "たからものポケモン",
-      "height": "1.2",
-      "weight": "30.0"
-    },
-    {
-      "id": 978,
-      "name": {
-        "jpn": "イダイナキバ",
-        "eng": "Great Tusk",
-        "ger": "Riesenzahn",
-        "fra": "Fort-Ivoire",
-        "kor": "위대한엄니",
-        "chs": "雄伟牙",
-        "cht": "雄偉牙"
-      },
-      "classification": "パラドックスポケモン",
-      "height": "2.2",
-      "weight": "320.0"
-    },
-    {
-      "id": 979,
-      "name": {
-        "jpn": "アラブルタケ",
-        "eng": "Brute Bonnet",
-        "ger": "Wutpilz",
-        "fra": "Fongus-Furie",
-        "kor": "사나운버섯",
-        "chs": "猛恶菇",
-        "cht": "猛惡菇"
-      },
-      "classification": "パラドックスポケモン",
-      "height": "1.2",
-      "weight": "21.0"
-    },
-    {
-      "id": 980,
-      "name": {
-        "jpn": "",
-        "eng": "",
-        "ger": "",
-        "fra": "",
-        "kor": "",
-        "chs": "",
-        "cht": ""
-      },
-      "classification": "",
-      "height": "",
-      "weight": ""
-    },
-    {
-      "id": 981,
-      "name": {
-        "jpn": "スナノケガワ",
-        "eng": "Sandy Shocks",
-        "ger": "Sandfell",
-        "fra": "Pelage-Sablé",
-        "kor": "모래털가죽",
-        "chs": "沙铁皮",
-        "cht": "沙鐵皮"
-      },
-      "classification": "パラドックスポケモン",
+      "classification": "がんえんポケモン",
       "height": "2.3",
-      "weight": "60.0"
-    },
-    {
-      "id": 982,
-      "name": {
-        "jpn": "サケブシッポ",
-        "eng": "Scream Tail",
-        "ger": "Brüllschweif",
-        "fra": "Hurle-Queue",
-        "kor": "우렁찬꼬리",
-        "chs": "吼叫尾",
-        "cht": "吼叫尾"
-      },
-      "classification": "パラドックスポケモン",
-      "height": "1.2",
-      "weight": "8.0"
-    },
-    {
-      "id": 983,
-      "name": {
-        "jpn": "ハバタクカミ",
-        "eng": "Flutter Mane",
-        "ger": "Flatterhaar",
-        "fra": "Flotte-Mèche",
-        "kor": "날개치는머리",
-        "chs": "振翼发",
-        "cht": "振翼髮"
-      },
-      "classification": "パラドックスポケモン",
-      "height": "1.4",
-      "weight": "4.0"
-    },
-    {
-      "id": 984,
-      "name": {
-        "jpn": "チヲハウハネ",
-        "eng": "Slither Wing",
-        "ger": "Kriechflügel",
-        "fra": "Rampe-Ailes",
-        "kor": "땅을기는날개",
-        "chs": "爬地翅",
-        "cht": "爬地翅"
-      },
-      "classification": "パラドックスポケモン",
-      "height": "3.2",
-      "weight": "92.0"
-    },
-    {
-      "id": 985,
-      "name": {
-        "jpn": "トドロクツキ",
-        "eng": "Roaring Moon",
-        "ger": "Donnersichel",
-        "fra": "Rugit-Lune",
-        "kor": "고동치는달",
-        "chs": "轰鸣月",
-        "cht": "轟鳴月"
-      },
-      "classification": "パラドックスポケモン",
-      "height": "2.0",
-      "weight": "380.0"
-    },
-    {
-      "id": 986,
-      "name": {
-        "jpn": "テツノワダチ",
-        "eng": "Iron Treads",
-        "ger": "Eisenrad",
-        "fra": "Roue-de-Fer",
-        "kor": "무쇠바퀴",
-        "chs": "铁辙迹",
-        "cht": "鐵轍跡"
-      },
-      "classification": "パラドックスポケモン",
-      "height": "0.9",
       "weight": "240.0"
     },
     {
-      "id": 987,
-      "name": {
-        "jpn": "",
-        "eng": "",
-        "ger": "",
-        "fra": "",
-        "kor": "",
-        "chs": "",
-        "cht": ""
-      },
-      "classification": "",
-      "height": "",
-      "weight": ""
-    },
-    {
-      "id": 988,
-      "name": {
-        "jpn": "テツノドクガ",
-        "eng": "Iron Moth",
-        "ger": "Eisenfalter",
-        "fra": "Mite-de-Fer",
-        "kor": "무쇠독나방",
-        "chs": "铁毒蛾",
-        "cht": "鐵毒蛾"
-      },
-      "classification": "パラドックスポケモン",
-      "height": "1.2",
-      "weight": "36.0"
-    },
-    {
-      "id": 989,
-      "name": {
-        "jpn": "テツノカイナ",
-        "eng": "Iron Hands",
-        "ger": "Eisenhand",
-        "fra": "Paume-de-Fer",
-        "kor": "무쇠손",
-        "chs": "铁臂膀",
-        "cht": "鐵臂膀"
-      },
-      "classification": "パラドックスポケモン",
-      "height": "1.8",
-      "weight": "380.7"
-    },
-    {
-      "id": 990,
-      "name": {
-        "jpn": "テツノコウベ",
-        "eng": "Iron Jugulis",
-        "ger": "Eisenhals",
-        "fra": "Têtes-de-Fer",
-        "kor": "무쇠머리",
-        "chs": "铁脖颈",
-        "cht": "鐵脖頸"
-      },
-      "classification": "パラドックスポケモン",
-      "height": "1.3",
-      "weight": "111.0"
-    },
-    {
-      "id": 991,
-      "name": {
-        "jpn": "テツノイバラ",
-        "eng": "Iron Thorns",
-        "ger": "Eisendorn",
-        "fra": "Épine-de-Fer",
-        "kor": "무쇠가시",
-        "chs": "铁荆棘",
-        "cht": "鐵荊棘"
-      },
-      "classification": "パラドックスポケモン",
-      "height": "1.6",
-      "weight": "303.0"
-    },
-    {
-      "id": 992,
-      "name": {
-        "jpn": "テツノツツミ",
-        "eng": "Iron Bundle",
-        "ger": "Eisenbündel",
-        "fra": "Hotte-de-Fer",
-        "kor": "무쇠보따리",
-        "chs": "铁包袱",
-        "cht": "鐵包袱"
-      },
-      "classification": "パラドックスポケモン",
-      "height": "0.6",
-      "weight": "11.0"
-    },
-    {
-      "id": 993,
-      "name": {
-        "jpn": "テツノブジン",
-        "eng": "Iron Valiant",
-        "ger": "Eisenkrieger",
-        "fra": "Garde-de-Fer",
-        "kor": "무쇠무인",
-        "chs": "铁武者",
-        "cht": "鐵武者"
-      },
-      "classification": "パラドックスポケモン",
-      "height": "1.4",
-      "weight": "35.0"
-    },
-    {
-      "id": 994,
-      "name": {
-        "jpn": "ディンルー",
-        "eng": "Ting-Lu",
-        "ger": "Dinglu",
-        "fra": "Dinglu",
-        "kor": "딩루",
-        "chs": "古鼎鹿",
-        "cht": "古鼎鹿"
-      },
-      "classification": "さいやくポケモン",
-      "height": "2.7",
-      "weight": "699.7"
-    },
-    {
-      "id": 995,
-      "name": {
-        "jpn": "パオジアン",
-        "eng": "Chien-Pao",
-        "ger": "Baojian",
-        "fra": "Baojian",
-        "kor": "파오젠",
-        "chs": "古剑豹",
-        "cht": "古劍豹"
-      },
-      "classification": "さいやくポケモン",
-      "height": "1.9",
-      "weight": "152.2"
-    },
-    {
-      "id": 996,
-      "name": {
-        "jpn": "チオンジェン",
-        "eng": "Wo-Chien",
-        "ger": "Chongjian",
-        "fra": "Chongjian",
-        "kor": "총지엔",
-        "chs": "古简蜗",
-        "cht": "古簡蝸"
-      },
-      "classification": "さいやくポケモン",
-      "height": "1.5",
-      "weight": "74.2"
-    },
-    {
-      "id": 997,
-      "name": {
-        "jpn": "イーユイ",
-        "eng": "Chi-Yu",
-        "ger": "Yuyu",
-        "fra": "Yuyu",
-        "kor": "위유이",
-        "chs": "古玉鱼",
-        "cht": "古玉魚"
-      },
-      "classification": "さいやくポケモン",
-      "height": "0.4",
-      "weight": "4.9"
-    },
-    {
-      "id": 998,
-      "name": {
-        "jpn": "コライドン",
-        "eng": "Koraidon",
-        "ger": "Koraidon",
-        "fra": "Koraidon",
-        "kor": "코라이돈",
-        "chs": "故勒顿",
-        "cht": "故勒頓"
-      },
-      "classification": "パラドックスポケモン",
-      "height": "2.5",
-      "weight": "303.0"
-    },
-    {
-      "id": 999,
-      "name": {
-        "jpn": "ミライドン",
-        "eng": "Miraidon",
-        "ger": "Miraidon",
-        "fra": "Miraidon",
-        "kor": "미라이돈",
-        "chs": "密勒顿",
-        "cht": "密勒頓"
-      },
-      "classification": "パラドックスポケモン",
-      "height": "3.5",
-      "weight": "240.0"
-    },
-    {
-      "id": 1000,
-      "name": {
-        "jpn": "カヌチャン",
-        "eng": "Tinkatink",
-        "ger": "Forgita",
-        "fra": "Forgerette",
-        "kor": "어리짱",
-        "chs": "小锻匠",
-        "cht": "小鍛匠"
-      },
-      "classification": "かなうちポケモン",
-      "height": "0.4",
-      "weight": "8.9"
-    },
-    {
-      "id": 1001,
-      "name": {
-        "jpn": "ナカヌチャン",
-        "eng": "Tinkatuff",
-        "ger": "Tafforgita",
-        "fra": "Forgella",
-        "kor": "벼리짱",
-        "chs": "巧锻匠",
-        "cht": "巧鍛匠"
-      },
-      "classification": "ハンマーポケモン",
-      "height": "0.7",
-      "weight": "59.1"
-    },
-    {
-      "id": 1002,
-      "name": {
-        "jpn": "デカヌチャン",
-        "eng": "Tinkaton",
-        "ger": "Granforgita",
-        "fra": "Forgelina",
-        "kor": "두드리짱",
-        "chs": "巨锻匠",
-        "cht": "巨鍛匠"
-      },
-      "classification": "ハンマーポケモン",
-      "height": "0.7",
-      "weight": "112.8"
-    },
-    {
-      "id": 1003,
+      "id": 935,
       "name": {
         "jpn": "カルボウ",
         "eng": "Charcadet",
@@ -16200,7 +15180,7 @@
       "weight": "10.5"
     },
     {
-      "id": 1004,
+      "id": 936,
       "name": {
         "jpn": "グレンアルマ",
         "eng": "Armarouge",
@@ -16215,7 +15195,7 @@
       "weight": "85.0"
     },
     {
-      "id": 1005,
+      "id": 937,
       "name": {
         "jpn": "ソウブレイズ",
         "eng": "Ceruledge",
@@ -16230,7 +15210,157 @@
       "weight": "62.0"
     },
     {
-      "id": 1006,
+      "id": 938,
+      "name": {
+        "jpn": "ズピカ",
+        "eng": "Tadbulb",
+        "ger": "Blipp",
+        "fra": "Têtampoule",
+        "kor": "빈나두",
+        "chs": "光蚪仔",
+        "cht": "光蚪仔"
+      },
+      "classification": "でんきおたまポケモン",
+      "height": "0.3",
+      "weight": "0.4"
+    },
+    {
+      "id": 939,
+      "name": {
+        "jpn": "ハラバリー",
+        "eng": "Bellibolt",
+        "ger": "Wampitz",
+        "fra": "Ampibidou",
+        "kor": "찌리배리",
+        "chs": "电肚蛙",
+        "cht": "電肚蛙"
+      },
+      "classification": "でんきがえるポケモン",
+      "height": "1.2",
+      "weight": "113.0"
+    },
+    {
+      "id": 940,
+      "name": {
+        "jpn": "カイデン",
+        "eng": "Wattrel",
+        "ger": "Voltrel",
+        "fra": "Zapétrel",
+        "kor": "찌리비",
+        "chs": "电海燕",
+        "cht": "電海燕"
+      },
+      "classification": "うみつばめポケモン",
+      "height": "0.4",
+      "weight": "3.6"
+    },
+    {
+      "id": 941,
+      "name": {
+        "jpn": "タイカイデン",
+        "eng": "Kilowattrel",
+        "ger": "Voltrean",
+        "fra": "Fulgulairo",
+        "kor": "찌리비크",
+        "chs": "大电海燕",
+        "cht": "大電海燕"
+      },
+      "classification": "ぐんかんどりポケモン",
+      "height": "1.4",
+      "weight": "38.6"
+    },
+    {
+      "id": 942,
+      "name": {
+        "jpn": "オラチフ",
+        "eng": "Maschiff",
+        "ger": "Mobtiff",
+        "fra": "Grondogue",
+        "kor": "오라티프",
+        "chs": "偶叫獒",
+        "cht": "偶叫獒"
+      },
+      "classification": "わかぞうポケモン",
+      "height": "0.5",
+      "weight": "16.0"
+    },
+    {
+      "id": 943,
+      "name": {
+        "jpn": "マフィティフ",
+        "eng": "Mabosstiff",
+        "ger": "Mastifioso",
+        "fra": "Dogrino",
+        "kor": "마피티프",
+        "chs": "獒教父",
+        "cht": "獒教父"
+      },
+      "classification": "おやぶんポケモン",
+      "height": "1.1",
+      "weight": "61.0"
+    },
+    {
+      "id": 944,
+      "name": {
+        "jpn": "シルシュルー",
+        "eng": "Shroodle",
+        "ger": "Sproxi",
+        "fra": "Gribouraigne",
+        "kor": "땃쭈르",
+        "chs": "滋汁鼹",
+        "cht": "滋汁鼴"
+      },
+      "classification": "どくねずみポケモン",
+      "height": "0.2",
+      "weight": "0.7"
+    },
+    {
+      "id": 945,
+      "name": {
+        "jpn": "タギングル",
+        "eng": "Grafaiai",
+        "ger": "Affiti",
+        "fra": "Tag-Tag",
+        "kor": "태깅구르",
+        "chs": "涂标客",
+        "cht": "塗標客"
+      },
+      "classification": "どくざるポケモン",
+      "height": "0.7",
+      "weight": "27.2"
+    },
+    {
+      "id": 946,
+      "name": {
+        "jpn": "アノクサ",
+        "eng": "Bramblin",
+        "ger": "Weherba",
+        "fra": "Virovent",
+        "kor": "그푸리",
+        "chs": "纳噬草",
+        "cht": "納噬草"
+      },
+      "classification": "ころがりぐさポケモン",
+      "height": "0.6",
+      "weight": "0.6"
+    },
+    {
+      "id": 947,
+      "name": {
+        "jpn": "アノホラグサ",
+        "eng": "Brambleghast",
+        "ger": "Horrerba",
+        "fra": "Virevorreur",
+        "kor": "공푸리",
+        "chs": "怖纳噬草",
+        "cht": "怖納噬草"
+      },
+      "classification": "ころがりぐさポケモン",
+      "height": "1.2",
+      "weight": "6.0"
+    },
+    {
+      "id": 948,
       "name": {
         "jpn": "ノノクラゲ",
         "eng": "Toedscool",
@@ -16245,7 +15375,7 @@
       "weight": "33.0"
     },
     {
-      "id": 1007,
+      "id": 949,
       "name": {
         "jpn": "リククラゲ",
         "eng": "Toedscruel",
@@ -16260,22 +15390,457 @@
       "weight": "58.0"
     },
     {
-      "id": 1008,
+      "id": 950,
       "name": {
-        "jpn": "ドドゲザン",
-        "eng": "Kingambit",
-        "ger": "Gladimperio",
-        "fra": "Scalpereur",
-        "kor": "대도각참",
-        "chs": "仆刀将军",
-        "cht": "仆斬將軍"
+        "jpn": "ガケガニ",
+        "eng": "Klawf",
+        "ger": "Klibbe",
+        "fra": "Craparoi",
+        "kor": "절벼게",
+        "chs": "毛崖蟹",
+        "cht": "毛崖蟹"
       },
-      "classification": "だいとうポケモン",
-      "height": "2.0",
+      "classification": "まちぶせポケモン",
+      "height": "1.3",
+      "weight": "79.0"
+    },
+    {
+      "id": 951,
+      "name": {
+        "jpn": "カプサイジ",
+        "eng": "Capsakid",
+        "ger": "Chilingel",
+        "fra": "Pimito",
+        "kor": "캡싸이",
+        "chs": "热辣娃",
+        "cht": "熱辣娃"
+      },
+      "classification": "ハバネロポケモン",
+      "height": "0.3",
+      "weight": "3.0"
+    },
+    {
+      "id": 952,
+      "name": {
+        "jpn": "スコヴィラン",
+        "eng": "Scovillain",
+        "ger": "Halupenjo",
+        "fra": "Scovilain",
+        "kor": "스코빌런",
+        "chs": "狠辣椒",
+        "cht": "狠辣椒"
+      },
+      "classification": "ハバネロポケモン",
+      "height": "0.9",
+      "weight": "15.0"
+    },
+    {
+      "id": 953,
+      "name": {
+        "jpn": "シガロコ",
+        "eng": "Rellor",
+        "ger": "Relluk",
+        "fra": "Léboulérou",
+        "kor": "구르데",
+        "chs": "虫滚泥",
+        "cht": "蟲滾泥"
+      },
+      "classification": "ころがしポケモン",
+      "height": "0.2",
+      "weight": "1.0"
+    },
+    {
+      "id": 954,
+      "name": {
+        "jpn": "ベラカス",
+        "eng": "Rabsca",
+        "ger": "Skarabaks",
+        "fra": "Bérasca",
+        "kor": "베라카스",
+        "chs": "虫甲圣",
+        "cht": "蟲甲聖"
+      },
+      "classification": "ころがしポケモン",
+      "height": "0.3",
+      "weight": "3.5"
+    },
+    {
+      "id": 955,
+      "name": {
+        "jpn": "ヒラヒナ",
+        "eng": "Flittle",
+        "ger": "Flattutu",
+        "fra": "Flotillon",
+        "kor": "하느라기",
+        "chs": "飘飘雏",
+        "cht": "飄飄雛"
+      },
+      "classification": "フリルポケモン",
+      "height": "0.2",
+      "weight": "1.5"
+    },
+    {
+      "id": 956,
+      "name": {
+        "jpn": "クエスパトラ",
+        "eng": "Espathra",
+        "ger": "Psiopatra",
+        "fra": "Cléopsytra",
+        "kor": "클레스퍼트라",
+        "chs": "超能艳鸵",
+        "cht": "超能豔鴕"
+      },
+      "classification": "ダチョウポケモン",
+      "height": "1.9",
+      "weight": "90.0"
+    },
+    {
+      "id": 957,
+      "name": {
+        "jpn": "カヌチャン",
+        "eng": "Tinkatink",
+        "ger": "Forgita",
+        "fra": "Forgerette",
+        "kor": "어리짱",
+        "chs": "小锻匠",
+        "cht": "小鍛匠"
+      },
+      "classification": "かなうちポケモン",
+      "height": "0.4",
+      "weight": "8.9"
+    },
+    {
+      "id": 958,
+      "name": {
+        "jpn": "ナカヌチャン",
+        "eng": "Tinkatuff",
+        "ger": "Tafforgita",
+        "fra": "Forgella",
+        "kor": "벼리짱",
+        "chs": "巧锻匠",
+        "cht": "巧鍛匠"
+      },
+      "classification": "ハンマーポケモン",
+      "height": "0.7",
+      "weight": "59.1"
+    },
+    {
+      "id": 959,
+      "name": {
+        "jpn": "デカヌチャン",
+        "eng": "Tinkaton",
+        "ger": "Granforgita",
+        "fra": "Forgelina",
+        "kor": "두드리짱",
+        "chs": "巨锻匠",
+        "cht": "巨鍛匠"
+      },
+      "classification": "ハンマーポケモン",
+      "height": "0.7",
+      "weight": "112.8"
+    },
+    {
+      "id": 960,
+      "name": {
+        "jpn": "ウミディグダ",
+        "eng": "Wiglett",
+        "ger": "Schligda",
+        "fra": "Taupikeau",
+        "kor": "바다그다",
+        "chs": "海地鼠",
+        "cht": "海地鼠"
+      },
+      "classification": "あなごポケモン",
+      "height": "1.2",
+      "weight": "1.8"
+    },
+    {
+      "id": 961,
+      "name": {
+        "jpn": "ウミトリオ",
+        "eng": "Wugtrio",
+        "ger": "Schligdri",
+        "fra": "Triopikeau",
+        "kor": "바닥트리오",
+        "chs": "三海地鼠",
+        "cht": "三海地鼠"
+      },
+      "classification": "あなごポケモン",
+      "height": "1.2",
+      "weight": "5.4"
+    },
+    {
+      "id": 962,
+      "name": {
+        "jpn": "オトシドリ",
+        "eng": "Bombirdier",
+        "ger": "Adebom",
+        "fra": "Lestombaile",
+        "kor": "떨구새",
+        "chs": "下石鸟",
+        "cht": "下石鳥"
+      },
+      "classification": "おとしものポケモン",
+      "height": "1.5",
+      "weight": "42.9"
+    },
+    {
+      "id": 963,
+      "name": {
+        "jpn": "ナミイルカ",
+        "eng": "Finizen",
+        "ger": "Normifin",
+        "fra": "Dofin",
+        "kor": "맨돌핀",
+        "chs": "波普海豚",
+        "cht": "波普海豚"
+      },
+      "classification": "イルカポケモン",
+      "height": "1.3",
+      "weight": "60.2"
+    },
+    {
+      "id": 964,
+      "name": {
+        "jpn": "イルカマン",
+        "eng": "Palafin",
+        "ger": "Delfinator",
+        "fra": "Superdofin",
+        "kor": "돌핀맨",
+        "chs": "海豚侠",
+        "cht": "海豚俠"
+      },
+      "classification": "イルカポケモン",
+      "height": "1.3",
+      "weight": "60.2"
+    },
+    {
+      "id": 965,
+      "name": {
+        "jpn": "ブロロン",
+        "eng": "Varoom",
+        "ger": "Knattox",
+        "fra": "Vrombi",
+        "kor": "부르롱",
+        "chs": "噗隆隆",
+        "cht": "噗隆隆"
+      },
+      "classification": "たんきとうポケモン",
+      "height": "1.0",
+      "weight": "35.0"
+    },
+    {
+      "id": 966,
+      "name": {
+        "jpn": "ブロロローム",
+        "eng": "Revavroom",
+        "ger": "Knattatox",
+        "fra": "Vrombotor",
+        "kor": "부르르룸",
+        "chs": "普隆隆姆",
+        "cht": "普隆隆姆"
+      },
+      "classification": "たきとうポケモン",
+      "height": "1.8",
       "weight": "120.0"
     },
     {
-      "id": 1009,
+      "id": 967,
+      "name": {
+        "jpn": "モトトカゲ",
+        "eng": "Cyclizar",
+        "ger": "Mopex",
+        "fra": "Motorizard",
+        "kor": "모토마",
+        "chs": "摩托蜥",
+        "cht": "摩托蜥"
+      },
+      "classification": "ライドポケモン",
+      "height": "1.6",
+      "weight": "63.0"
+    },
+    {
+      "id": 968,
+      "name": {
+        "jpn": "ミミズズ",
+        "eng": "Orthworm",
+        "ger": "Schlurm",
+        "fra": "Ferdeter",
+        "kor": "꿈트렁",
+        "chs": "拖拖蚓",
+        "cht": "拖拖蚓"
+      },
+      "classification": "ミミズポケモン",
+      "height": "2.5",
+      "weight": "310.0"
+    },
+    {
+      "id": 969,
+      "name": {
+        "jpn": "キラーメ",
+        "eng": "Glimmet",
+        "ger": "Lumispross",
+        "fra": "Germéclat",
+        "kor": "초롱순",
+        "chs": "晶光芽",
+        "cht": "晶光芽"
+      },
+      "classification": "こうせきポケモン",
+      "height": "0.7",
+      "weight": "8.0"
+    },
+    {
+      "id": 970,
+      "name": {
+        "jpn": "キラフロル",
+        "eng": "Glimmora",
+        "ger": "Lumiflora",
+        "fra": "Floréclat",
+        "kor": "킬라플로르",
+        "chs": "晶光花",
+        "cht": "晶光花"
+      },
+      "classification": "こうせきポケモン",
+      "height": "1.5",
+      "weight": "45.0"
+    },
+    {
+      "id": 971,
+      "name": {
+        "jpn": "ボチ",
+        "eng": "Greavard",
+        "ger": "Gruff",
+        "fra": "Toutombe",
+        "kor": "망망이",
+        "chs": "墓仔狗",
+        "cht": "墓仔狗"
+      },
+      "classification": "おばけいぬポケモン",
+      "height": "0.6",
+      "weight": "35.0"
+    },
+    {
+      "id": 972,
+      "name": {
+        "jpn": "ハカドッグ",
+        "eng": "Houndstone",
+        "ger": "Friedwuff",
+        "fra": "Tomberro",
+        "kor": "묘두기",
+        "chs": "墓扬犬",
+        "cht": "墓揚犬"
+      },
+      "classification": "おばけいぬポケモン",
+      "height": "2.0",
+      "weight": "15.0"
+    },
+    {
+      "id": 973,
+      "name": {
+        "jpn": "カラミンゴ",
+        "eng": "Flamigo",
+        "ger": "Flaminkno",
+        "fra": "Flamenroule",
+        "kor": "꼬이밍고",
+        "chs": "缠红鹤",
+        "cht": "纏紅鶴"
+      },
+      "classification": "シンクロポケモン",
+      "height": "1.6",
+      "weight": "37.0"
+    },
+    {
+      "id": 974,
+      "name": {
+        "jpn": "アルクジラ",
+        "eng": "Cetoddle",
+        "ger": "Flaniwal",
+        "fra": "Piétacé",
+        "kor": "터벅고래",
+        "chs": "走鲸",
+        "cht": "走鯨"
+      },
+      "classification": "りくくじらポケモン",
+      "height": "1.2",
+      "weight": "45.0"
+    },
+    {
+      "id": 975,
+      "name": {
+        "jpn": "ハルクジラ",
+        "eng": "Cetitan",
+        "ger": "Kolowal",
+        "fra": "Balbalèze",
+        "kor": "우락고래",
+        "chs": "浩大鲸",
+        "cht": "浩大鯨"
+      },
+      "classification": "りくくじらポケモン",
+      "height": "4.5",
+      "weight": "700.0"
+    },
+    {
+      "id": 976,
+      "name": {
+        "jpn": "ミガルーサ",
+        "eng": "Veluza",
+        "ger": "Agiluza",
+        "fra": "Délestin",
+        "kor": "가비루사",
+        "chs": "轻身鳕",
+        "cht": "輕身鱈"
+      },
+      "classification": "きりはなしポケモン",
+      "height": "2.5",
+      "weight": "90.0"
+    },
+    {
+      "id": 977,
+      "name": {
+        "jpn": "ヘイラッシャ",
+        "eng": "Dondozo",
+        "ger": "Heerashai",
+        "fra": "Oyacata",
+        "kor": "어써러셔",
+        "chs": "吃吼霸",
+        "cht": "吃吼霸"
+      },
+      "classification": "おおなまずポケモン",
+      "height": "12.0",
+      "weight": "220.0"
+    },
+    {
+      "id": 978,
+      "name": {
+        "jpn": "シャリタツ",
+        "eng": "Tatsugiri",
+        "ger": "Nigiragi",
+        "fra": "Nigirigon",
+        "kor": "싸리용",
+        "chs": "米立龙",
+        "cht": "米立龍"
+      },
+      "classification": "ぎたいポケモン",
+      "height": "0.3",
+      "weight": "8.0"
+    },
+    {
+      "id": 979,
+      "name": {
+        "jpn": "コノヨザル",
+        "eng": "Annihilape",
+        "ger": "Epitaff",
+        "fra": "Courrousinge",
+        "kor": "저승갓숭",
+        "chs": "弃世猴",
+        "cht": "棄世猴"
+      },
+      "classification": "ふんどざるポケモン",
+      "height": "1.2",
+      "weight": "56.0"
+    },
+    {
+      "id": 980,
       "name": {
         "jpn": "ドオー",
         "eng": "Clodsire",
@@ -16290,19 +15855,424 @@
       "weight": "223.0"
     },
     {
-      "id": 1010,
+      "id": 981,
       "name": {
-        "jpn": "コノヨザル",
-        "eng": "Annihilape",
-        "ger": "Epitaff",
-        "fra": "Courrousinge",
-        "kor": "저승갓숭",
-        "chs": "弃世猴",
-        "cht": "棄世猴"
+        "jpn": "リキキリン",
+        "eng": "Farigiraf",
+        "ger": "Farigiraf",
+        "fra": "Farigiraf",
+        "kor": "키키링",
+        "chs": "奇麒麟",
+        "cht": "奇麒麟"
       },
-      "classification": "ふんどざるポケモン",
+      "classification": "くびながポケモン",
+      "height": "3.2",
+      "weight": "160.0"
+    },
+    {
+      "id": 982,
+      "name": {
+        "jpn": "ノココッチ",
+        "eng": "Dudunsparce",
+        "ger": "Dummimisel",
+        "fra": "Deusolourdo",
+        "kor": "노고고치",
+        "chs": "土龙节节",
+        "cht": "土龍節節"
+      },
+      "classification": "つちへびポケモン",
+      "height": "3.6",
+      "weight": "39.2"
+    },
+    {
+      "id": 983,
+      "name": {
+        "jpn": "ドドゲザン",
+        "eng": "Kingambit",
+        "ger": "Gladimperio",
+        "fra": "Scalpereur",
+        "kor": "대도각참",
+        "chs": "仆刀将军",
+        "cht": "仆斬將軍"
+      },
+      "classification": "だいとうポケモン",
+      "height": "2.0",
+      "weight": "120.0"
+    },
+    {
+      "id": 984,
+      "name": {
+        "jpn": "イダイナキバ",
+        "eng": "Great Tusk",
+        "ger": "Riesenzahn",
+        "fra": "Fort-Ivoire",
+        "kor": "위대한엄니",
+        "chs": "雄伟牙",
+        "cht": "雄偉牙"
+      },
+      "classification": "パラドックスポケモン",
+      "height": "2.2",
+      "weight": "320.0"
+    },
+    {
+      "id": 985,
+      "name": {
+        "jpn": "サケブシッポ",
+        "eng": "Scream Tail",
+        "ger": "Brüllschweif",
+        "fra": "Hurle-Queue",
+        "kor": "우렁찬꼬리",
+        "chs": "吼叫尾",
+        "cht": "吼叫尾"
+      },
+      "classification": "パラドックスポケモン",
       "height": "1.2",
-      "weight": "56.0"
+      "weight": "8.0"
+    },
+    {
+      "id": 986,
+      "name": {
+        "jpn": "アラブルタケ",
+        "eng": "Brute Bonnet",
+        "ger": "Wutpilz",
+        "fra": "Fongus-Furie",
+        "kor": "사나운버섯",
+        "chs": "猛恶菇",
+        "cht": "猛惡菇"
+      },
+      "classification": "パラドックスポケモン",
+      "height": "1.2",
+      "weight": "21.0"
+    },
+    {
+      "id": 987,
+      "name": {
+        "jpn": "ハバタクカミ",
+        "eng": "Flutter Mane",
+        "ger": "Flatterhaar",
+        "fra": "Flotte-Mèche",
+        "kor": "날개치는머리",
+        "chs": "振翼发",
+        "cht": "振翼髮"
+      },
+      "classification": "パラドックスポケモン",
+      "height": "1.4",
+      "weight": "4.0"
+    },
+    {
+      "id": 988,
+      "name": {
+        "jpn": "チヲハウハネ",
+        "eng": "Slither Wing",
+        "ger": "Kriechflügel",
+        "fra": "Rampe-Ailes",
+        "kor": "땅을기는날개",
+        "chs": "爬地翅",
+        "cht": "爬地翅"
+      },
+      "classification": "パラドックスポケモン",
+      "height": "3.2",
+      "weight": "92.0"
+    },
+    {
+      "id": 989,
+      "name": {
+        "jpn": "スナノケガワ",
+        "eng": "Sandy Shocks",
+        "ger": "Sandfell",
+        "fra": "Pelage-Sablé",
+        "kor": "모래털가죽",
+        "chs": "沙铁皮",
+        "cht": "沙鐵皮"
+      },
+      "classification": "パラドックスポケモン",
+      "height": "2.3",
+      "weight": "60.0"
+    },
+    {
+      "id": 990,
+      "name": {
+        "jpn": "テツノワダチ",
+        "eng": "Iron Treads",
+        "ger": "Eisenrad",
+        "fra": "Roue-de-Fer",
+        "kor": "무쇠바퀴",
+        "chs": "铁辙迹",
+        "cht": "鐵轍跡"
+      },
+      "classification": "パラドックスポケモン",
+      "height": "0.9",
+      "weight": "240.0"
+    },
+    {
+      "id": 991,
+      "name": {
+        "jpn": "テツノツツミ",
+        "eng": "Iron Bundle",
+        "ger": "Eisenbündel",
+        "fra": "Hotte-de-Fer",
+        "kor": "무쇠보따리",
+        "chs": "铁包袱",
+        "cht": "鐵包袱"
+      },
+      "classification": "パラドックスポケモン",
+      "height": "0.6",
+      "weight": "11.0"
+    },
+    {
+      "id": 992,
+      "name": {
+        "jpn": "テツノカイナ",
+        "eng": "Iron Hands",
+        "ger": "Eisenhand",
+        "fra": "Paume-de-Fer",
+        "kor": "무쇠손",
+        "chs": "铁臂膀",
+        "cht": "鐵臂膀"
+      },
+      "classification": "パラドックスポケモン",
+      "height": "1.8",
+      "weight": "380.7"
+    },
+    {
+      "id": 993,
+      "name": {
+        "jpn": "テツノコウベ",
+        "eng": "Iron Jugulis",
+        "ger": "Eisenhals",
+        "fra": "Têtes-de-Fer",
+        "kor": "무쇠머리",
+        "chs": "铁脖颈",
+        "cht": "鐵脖頸"
+      },
+      "classification": "パラドックスポケモン",
+      "height": "1.3",
+      "weight": "111.0"
+    },
+    {
+      "id": 994,
+      "name": {
+        "jpn": "テツノドクガ",
+        "eng": "Iron Moth",
+        "ger": "Eisenfalter",
+        "fra": "Mite-de-Fer",
+        "kor": "무쇠독나방",
+        "chs": "铁毒蛾",
+        "cht": "鐵毒蛾"
+      },
+      "classification": "パラドックスポケモン",
+      "height": "1.2",
+      "weight": "36.0"
+    },
+    {
+      "id": 995,
+      "name": {
+        "jpn": "テツノイバラ",
+        "eng": "Iron Thorns",
+        "ger": "Eisendorn",
+        "fra": "Épine-de-Fer",
+        "kor": "무쇠가시",
+        "chs": "铁荆棘",
+        "cht": "鐵荊棘"
+      },
+      "classification": "パラドックスポケモン",
+      "height": "1.6",
+      "weight": "303.0"
+    },
+    {
+      "id": 996,
+      "name": {
+        "jpn": "セビエ",
+        "eng": "Frigibax",
+        "ger": "Frospino",
+        "fra": "Frigodo",
+        "kor": "드니차",
+        "chs": "凉脊龙",
+        "cht": "涼脊龍"
+      },
+      "classification": "こおりビレポケモン",
+      "height": "0.5",
+      "weight": "17.0"
+    },
+    {
+      "id": 997,
+      "name": {
+        "jpn": "セゴール",
+        "eng": "Arctibax",
+        "ger": "Cryospino",
+        "fra": "Cryodo",
+        "kor": "드니꽁",
+        "chs": "冻脊龙",
+        "cht": "凍脊龍"
+      },
+      "classification": "こおりビレポケモン",
+      "height": "0.8",
+      "weight": "30.0"
+    },
+    {
+      "id": 998,
+      "name": {
+        "jpn": "セグレイブ",
+        "eng": "Baxcalibur",
+        "ger": "Espinodon",
+        "fra": "Glaivodo",
+        "kor": "드닐레이브",
+        "chs": "戟脊龙",
+        "cht": "戟脊龍"
+      },
+      "classification": "ひょうりゅうポケモン",
+      "height": "2.1",
+      "weight": "210.0"
+    },
+    {
+      "id": 999,
+      "name": {
+        "jpn": "コレクレー",
+        "eng": "Chest Form",
+        "ger": "Truhenform",
+        "fra": "Forme Coffre",
+        "kor": "상자폼",
+        "chs": "宝箱形态",
+        "cht": "寶箱形態"
+      },
+      "classification": "たからばこポケモン",
+      "height": "0.3",
+      "weight": "5.0"
+    },
+    {
+      "id": 1000,
+      "name": {
+        "jpn": "サーフゴー",
+        "eng": "Gholdengo",
+        "ger": "Monetigo",
+        "fra": "Gromago",
+        "kor": "타부자고",
+        "chs": "赛富豪",
+        "cht": "賽富豪"
+      },
+      "classification": "たからものポケモン",
+      "height": "1.2",
+      "weight": "30.0"
+    },
+    {
+      "id": 1001,
+      "name": {
+        "jpn": "チオンジェン",
+        "eng": "Wo-Chien",
+        "ger": "Chongjian",
+        "fra": "Chongjian",
+        "kor": "총지엔",
+        "chs": "古简蜗",
+        "cht": "古簡蝸"
+      },
+      "classification": "さいやくポケモン",
+      "height": "1.5",
+      "weight": "74.2"
+    },
+    {
+      "id": 1002,
+      "name": {
+        "jpn": "パオジアン",
+        "eng": "Chien-Pao",
+        "ger": "Baojian",
+        "fra": "Baojian",
+        "kor": "파오젠",
+        "chs": "古剑豹",
+        "cht": "古劍豹"
+      },
+      "classification": "さいやくポケモン",
+      "height": "1.9",
+      "weight": "152.2"
+    },
+    {
+      "id": 1003,
+      "name": {
+        "jpn": "ディンルー",
+        "eng": "Ting-Lu",
+        "ger": "Dinglu",
+        "fra": "Dinglu",
+        "kor": "딩루",
+        "chs": "古鼎鹿",
+        "cht": "古鼎鹿"
+      },
+      "classification": "さいやくポケモン",
+      "height": "2.7",
+      "weight": "699.7"
+    },
+    {
+      "id": 1004,
+      "name": {
+        "jpn": "イーユイ",
+        "eng": "Chi-Yu",
+        "ger": "Yuyu",
+        "fra": "Yuyu",
+        "kor": "위유이",
+        "chs": "古玉鱼",
+        "cht": "古玉魚"
+      },
+      "classification": "さいやくポケモン",
+      "height": "0.4",
+      "weight": "4.9"
+    },
+    {
+      "id": 1005,
+      "name": {
+        "jpn": "トドロクツキ",
+        "eng": "Roaring Moon",
+        "ger": "Donnersichel",
+        "fra": "Rugit-Lune",
+        "kor": "고동치는달",
+        "chs": "轰鸣月",
+        "cht": "轟鳴月"
+      },
+      "classification": "パラドックスポケモン",
+      "height": "2.0",
+      "weight": "380.0"
+    },
+    {
+      "id": 1006,
+      "name": {
+        "jpn": "テツノブジン",
+        "eng": "Iron Valiant",
+        "ger": "Eisenkrieger",
+        "fra": "Garde-de-Fer",
+        "kor": "무쇠무인",
+        "chs": "铁武者",
+        "cht": "鐵武者"
+      },
+      "classification": "パラドックスポケモン",
+      "height": "1.4",
+      "weight": "35.0"
+    },
+    {
+      "id": 1007,
+      "name": {
+        "jpn": "コライドン",
+        "eng": "Koraidon",
+        "ger": "Koraidon",
+        "fra": "Koraidon",
+        "kor": "코라이돈",
+        "chs": "故勒顿",
+        "cht": "故勒頓"
+      },
+      "classification": "パラドックスポケモン",
+      "height": "2.5",
+      "weight": "303.0"
+    },
+    {
+      "id": 1008,
+      "name": {
+        "jpn": "ミライドン",
+        "eng": "Miraidon",
+        "ger": "Miraidon",
+        "fra": "Miraidon",
+        "kor": "미라이돈",
+        "chs": "密勒顿",
+        "cht": "密勒頓"
+      },
+      "classification": "パラドックスポケモン",
+      "height": "3.5",
+      "weight": "240.0"
     }
   ]
 }
