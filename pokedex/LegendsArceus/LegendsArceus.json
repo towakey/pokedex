@@ -1,6 +1,6 @@
 {
   "version":"2.0.0",
-  "update": "20230223",
+  "update": "20230409",
   "game_version": "LegendsArceus",
   "pokedex": {
     "ヒスイ図鑑": [
@@ -20,7 +20,10 @@
             "speed": 42,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "たおやかなる 翼 備え 無音にて 飛翔す。 小刀に比肩す 鋭利なる羽根 翼より 巧みに 飛ばす技 体得す。"
+            }
           }
         ]
       },
@@ -40,7 +43,10 @@
             "speed": 52,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "陽の光 浴び 力 溜めしこと 多し。 寒冷な気候 原因と 察するも 両翼に 仕込みし 刃羽根の切れ味 変化なし。"
+            }
           }
         ]
       },
@@ -60,7 +66,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "ヒスイの 極寒に 耐えるため 羽根の 芯に 空気を含み 防寒機能 有す。 環境が 進化に 影響すると 判明す。"
+            }
           }
         ]
       },
@@ -80,7 +89,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "ジョウトの地に 棲みし ポケモン。 小胆な 気性ゆえ 常より 身を 丸めるが 秘めたる 火力は 強烈。"
+            }
           }
         ]
       },
@@ -100,7 +112,10 @@
             "speed": 80,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "絶対に 燃えることなき 摩訶不思議な 体毛なり。 背を 此方へ 向けるは 攻撃の 合図なれば 注意されたし。"
+            }
           }
         ]
       },
@@ -120,7 +135,10 @@
             "speed": 95,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "ヒスイの中心にそびえし 霊山の気が 影響した姿と 考察。 行き場 失いし 霊魂を 己の炎で浄化し 送ると言う。"
+            }
           }
         ]
       },
@@ -140,7 +158,10 @@
             "speed": 45,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "イッシュの地に 棲みし ポケモン。腹の貝を 得物に 敵を 斬る。ゆえに 貝の名 帆太刀と 命名す。"
+            }
           }
         ]
       },
@@ -160,7 +181,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "日々の 鍛錬の 賜物か 帆太刀 2枚の 貝さばき たるや 剣豪も 裸足の 腕前なり。"
+            }
           }
         ]
       },
@@ -180,7 +204,10 @@
             "speed": 85,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "非情なる 気質と 太刀筋を 有す。怒涛の 連撃は 千重波の 如し。ヒスイにて 進化せし 稀有なる姿。"
+            }
           }
         ]
       },
@@ -200,7 +227,10 @@
             "speed": 31,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "朴訥なる 面構えと 万事に 動じぬ 大器。 平然と 村に入り 平然と 家屋を かじるという 珍事あり。"
+            }
           }
         ]
       },
@@ -220,7 +250,10 @@
             "speed": 71,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "体毛は 水弾きに 優れ かつ 保温性 上々の 高性能なり。 河川に ダムを こしらえ 巣とす。"
+            }
           }
         ]
       },
@@ -240,7 +273,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "野山に 群れを成し 住みつき 鳴き声 煩わし。 小さきも 翼は 力強く 打たれしときは 一週間 痛み引かず。"
+            }
           }
         ]
       },
@@ -260,7 +296,10 @@
             "speed": 80,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "ひときわ 大きな 群れを成し 争いは 絶えることなし。 頭に頂く 冠羽の 立派なるは 強者の証しと 考察す。"
+            }
           }
         ]
       },
@@ -280,7 +319,10 @@
             "speed": 100,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "群れから 離れ 単独で 生き抜く 力を 得たり。 巨漢 鷲掴みにし 連れ去る 飛翔力は 脅威なり。"
+            }
           }
         ]
       },
@@ -300,7 +342,10 @@
             "speed": 45,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "その身 震わせ 電気を 生む。 体格に 反し 気性は 荒く 手懐けるには 忍耐を 要す。"
+            }
           }
         ]
       },
@@ -320,7 +365,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "帯電せし 爪が 自慢の得物。 狩りの成果を 仲間と 等しく 分かち合う 仁心を 有す。"
+            }
           }
         ]
       },
@@ -340,7 +388,10 @@
             "speed": 70,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "1匹の雄を 長とし 群れ成す。 双眼 金色に 煌めくとき 万物を 見通すとの 伝承あり。"
+            }
           }
         ]
       },
@@ -360,7 +411,10 @@
             "speed": 20,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "樹液 好み 野山に 数多 生息す。 異なる姿に 進化するも 理由不明。 外見にて 判別すること 叶わず。"
+            }
           }
         ]
       },
@@ -380,7 +434,10 @@
             "speed": 15,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "細き糸にて 体 包みつつ 進化の活力 蓄積す。 手足出せず 動き 鈍いが 双眸にて 睨み利かし 抜け目なし。"
+            }
           }
         ]
       },
@@ -400,7 +457,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "色彩鮮やかにて 見目 大層 麗しいが 蜜 集めし ミツハニーを 追い払い 好物を 独り占めせんとする 強欲さ。"
+            }
           }
         ]
       },
@@ -420,7 +480,10 @@
             "speed": 15,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "体 包む 糸は 細くも 強度は十分。 カラサリスの糸より 色艶 秀でており 仕立てた着物は 上物と 評判なり。"
+            }
           }
         ]
       },
@@ -440,7 +503,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "闇夜の かがり火に 誘われる 習性。 毒性の強き 鱗粉 ばら撒くゆえ 集落より 追い払うのに 難儀す。"
+            }
           }
         ]
       },
@@ -460,7 +526,10 @@
             "speed": 90,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "草原にて 群れを成し 暮らす。 産まれたての仔に 炎のたてがみは 無く 1時間ほどで 生えそろう。"
+            }
           }
         ]
       },
@@ -480,7 +549,10 @@
             "speed": 105,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "炎のたてがみ 煌めかせ 駆ける様は 矢の如し。 広大なる ヒスイの地を 1日半で 横断せし 驚異の駿馬なり。"
+            }
           }
         ]
       },
@@ -500,7 +572,10 @@
             "speed": 55,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "多様なる姿に 進化する 可能性あり。 ポケモンの 進化の秘密を 解く鍵 この身の内に あると 確信す。"
+            }
           }
         ]
       },
@@ -520,7 +595,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "水の分子と 酷似せし細胞 検出す。 潜水中 姿 隠すは これが理由と 推察。 人魚伝説の正体と 見たり。"
+            }
           }
         ]
       },
@@ -540,7 +618,10 @@
             "speed": 130,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "怒りしとき 体毛を 逆立てること 鋭き 針の如し。 吐息に混じりて バチリバチリと 電気の音 聞こゆ。"
+            }
           }
         ]
       },
@@ -560,7 +641,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "袋状の内臓にて 炎を 燃やす。 大気を吸い込み 火力 強めたり。 その温度 実に 1700度に 達す。"
+            }
           }
         ]
       },
@@ -580,7 +664,10 @@
             "speed": 110,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "摩訶不思議な力 操りて 空模様や 人心 先読みす。 日の光 浴びしとき 額の 緋の珠 輝きて 活力を増す。"
+            }
           }
         ]
       },
@@ -600,7 +687,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "月光 降り注ぎし 夜半こそ 活発に 行動す。 大きな 眼は 暗闇なれど 獲物の姿を しかと 捉えたり。"
+            }
           }
         ]
       },
@@ -620,7 +710,10 @@
             "speed": 95,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "体毛から 植物に似た 細胞 検出す。 硬き 尾は 大木を 一刀両断し 切れ味 名刀にも 勝る 得物なり。"
+            }
           }
         ]
       },
@@ -640,7 +733,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "体熱を 急低下させる 能力を 有す。 大気 凍らせ 宝石の如き 煌めく 細氷を 舞い躍らせる 現象 起こす。"
+            }
           }
         ]
       },
@@ -660,7 +756,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "リボン状の器官より 怒りを 鎮める 気を 放つ。 諍う者 あれば これを 巻きつけ たちまち 場を 和ます。"
+            }
           }
         ]
       },
@@ -680,7 +779,10 @@
             "speed": 55,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "仄暗き 洞穴を 寝床とする。 両眼は 退化し 光 失うも 口から 放つ 音波にて 周囲を 探りて 飛翔す。"
+            }
           }
         ]
       },
@@ -700,7 +802,10 @@
             "speed": 90,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "鋭利なる牙 突き立て 生き物の血を 啜る。 牙のつくり 検分するに 内に 空洞ありて ストローの様なり。"
+            }
           }
         ]
       },
@@ -720,7 +825,10 @@
             "speed": 130,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "後肢 変形し 翼となる。 4枚の翼 巧みに操りて 洞の 狭き横穴も 速度 落とさず 見事に 飛翔す。"
+            }
           }
         ]
       },
@@ -740,7 +848,10 @@
             "speed": 70,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "幼子 惑わし 彼岸へ 連れ去ると 伝えられし ポケモン。 人魂より 転生したと 噂あるも 真偽不明なり。"
+            }
           }
         ]
       },
@@ -760,7 +871,10 @@
             "speed": 80,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "夕闇を 音なく 漂う。 儚く 物悲しき 様は 人心を 打ち まま 詩歌や 句に 詠まれる。"
+            }
           }
         ]
       },
@@ -780,7 +894,10 @@
             "speed": 25,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "木々 色づく頃 姿が 増える。 触角を 打ち当て 奏でる 音色は 異国の楽器 マリンバに 似る。"
+            }
           }
         ]
       },
@@ -800,7 +917,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "短刀の如き 腕で 音を 発す。 メロディは 個体に よりけりゆえ 好みを 探すも 乙なり。"
+            }
           }
         ]
       },
@@ -820,7 +940,10 @@
             "speed": 85,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "二又の尾の 回転による 推進力にて 水中を 自在に 移動。 蒸気船の スクリューに似るは 偶然なり。"
+            }
           }
         ]
       },
@@ -840,7 +963,10 @@
             "speed": 115,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "長く 立派なる 浮袋を 有し 時化に 遭っても 溺れることなし。 漁村付近にて まま 目撃される。"
+            }
           }
         ]
       },
@@ -849,7 +975,7 @@
         "globalNo": "412",
         "status": [
           {
-            "form": "",
+            "form": "くさきのミノ",
             "type1": "むし",
             "type2": "",
             "hp": 40,
@@ -860,7 +986,44 @@
             "speed": 36,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "わずかでも 蓑が 痛めば 辺りの 手近な 材料にて 即 繕う。 中身は か細く 寒さに 弱い。"
+            }
+          },
+          {
+            "form": "すなちのミノ",
+            "type1": "むし",
+            "type2": "",
+            "hp": 40,
+            "attack": 29,
+            "defense": 45,
+            "special_attack": 29,
+            "special_defense": 45,
+            "speed": 36,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "吐き出す 糸と 砂泥 練りあげ 蓑を こしらえる。 砂泥の蓑は 風雨に脆く 洞などに 隠れる。"
+            }
+          },
+          {
+            "form": "ゴミのミノ",
+            "type1": "むし",
+            "type2": "",
+            "hp": 40,
+            "attack": 29,
+            "defense": 45,
+            "special_attack": 29,
+            "special_defense": 45,
+            "speed": 36,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "手頃な 材料が 見つからぬと ちり芥にて 蓑を こしらえる。 存外 居心地は 悪くない模様。"
+            }
           }
         ]
       },
@@ -880,7 +1043,10 @@
             "speed": 36,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "草木で作られた 蓑は 本体と 融合し 体毛や 皮膚の如く 体の一部となる。 進化エネルギーの 作用と 考察す。"
+            }
           },
           {
             "form": "すなちのミノ",
@@ -894,7 +1060,10 @@
             "speed": 36,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "砂泥の皮膚は 相応に 硬く ムックルの嘴 程度ならば 易々と 弾き返すこと 造作なし。"
+            }
           },
           {
             "form": "ゴミのミノ",
@@ -908,7 +1077,10 @@
             "speed": 36,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "ちり芥にて 構成されし体は 景色に 溶け込み 目立たず。 天敵より 身を 隠すに うってつけの様子。"
+            }
           }
         ]
       },
@@ -928,7 +1100,10 @@
             "speed": 66,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "銀色の鱗粉を 散らし 羽ばたく。 花の蜜が 主食と 観察されるも 花畑にて 見かけること 少なし。"
+            }
           }
         ]
       },
@@ -948,7 +1123,10 @@
             "speed": 20,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "山岳地帯に棲み 両腕にて 険しき 山道 登る。 不用意に 足蹴にすれば 怒り 追い立てられるゆえ 厄介なり。"
+            }
           }
         ]
       },
@@ -968,7 +1146,10 @@
             "speed": 35,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "険しき 岩壁の横穴を 棲み処とす。 落石が如く 転がり落ちるを 好むゆえ 山道では 頭上に 気を配るべし。"
+            }
           }
         ]
       },
@@ -988,7 +1169,10 @@
             "speed": 45,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "岩盤の如き殻を 年に1度 脱皮す。 脱ぎし 岩殻は 土塊へと還り これを 畑に撒けば 作物の発育 促進す。"
+            }
           }
         ]
       },
@@ -1008,7 +1192,10 @@
             "speed": 85,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "面妖な形の枝角は 見る者 惑わす力を 秘める。 抜け落ちた 角の 黒き珠を すり潰した 薬は 不眠に 効果あり。"
+            }
           }
         ]
       },
@@ -1028,7 +1215,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "目に見えぬ 壁を作りしとき 黒き珠 妖しく 輝きたり。 抜け落ちし 髭は 温かく 冬衣の 原料に 重宝す。"
+            }
           }
         ]
       },
@@ -1048,7 +1238,10 @@
             "speed": 5,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "胃袋 頑丈なりて 腐りしものも 平気で 食らう。 堆肥の 原料となる 生ごみ 狙いて 村に 出没す。"
+            }
           }
         ]
       },
@@ -1068,7 +1261,10 @@
             "speed": 30,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "出し抜けに 村に現れ たちまち 米蔵を 空にする 大食漢。 古より 災厄のひとつと 数えられし行為なり。"
+            }
           }
         ]
       },
@@ -1088,7 +1284,10 @@
             "speed": 25,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "多湿なる 森の 木の根本で 散見す。 背の茸は 冬虫夏草なり。 幼体には これ 無く 育つにつれ 生え出づる。"
+            }
           }
         ]
       },
@@ -1108,7 +1307,10 @@
             "speed": 30,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "森にて 背の茸が 外れ 動かぬ 個体あり。 大きな茸こそ本体 との 学説を 証明する サンプルなり。"
+            }
           }
         ]
       },
@@ -1128,7 +1330,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "頬の袋に 電気 蓄えるも 感情 昂りしとき 弾みで 放電す。 幼体ゆえ 電気の 扱いが 未熟なり。"
+            }
           }
         ]
       },
@@ -1148,7 +1353,10 @@
             "speed": 90,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "頬に 電気を溜めし 袋を 有す。 森林を 棲み処とし 硬き 木の実は 電撃で 焼き 食べる 知恵者なり。"
+            }
           }
         ]
       },
@@ -1168,7 +1376,10 @@
             "speed": 110,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "放つ 電撃は 10万ボルトを 凌ぎ 我が故郷に 棲む ダイオウドウをも 一撃で 気絶する 威力なり。"
+            }
           }
         ]
       },
@@ -1188,7 +1399,10 @@
             "speed": 90,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "日に18時間を 睡眠に 費やす。 睡眠時も エスパーパワーを 操りて 危険 迫ると 瞬間移動で 回避す。"
+            }
           }
         ]
       },
@@ -1208,7 +1422,10 @@
             "speed": 105,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "神通力 有す 童が 変容した姿と 噂あるも 真偽不明。 手に持つ 匙は 脳波を高める 効能ありと 推察す。"
+            }
           }
         ]
       },
@@ -1228,7 +1445,10 @@
             "speed": 120,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "長寿ほど 頭部の寸法 大きく 重い。 エスパーパワーは 頭部の重量 比例し 強まること 測定にて 判明す。"
+            }
           }
         ]
       },
@@ -1248,7 +1468,10 @@
             "speed": 61,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "活気に 満ち 常に 気炎万丈。 古来は 尻行燈と 呼称され あやかしの類と 恐れられた。"
+            }
           }
         ]
       },
@@ -1268,7 +1491,10 @@
             "speed": 81,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "青面の 色深きほど 豪に 長ずる。 縦横無尽に 跳ね 飛び回り 尾の火で 強かに 敵を打つ。"
+            }
           }
         ]
       },
@@ -1288,7 +1514,10 @@
             "speed": 108,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "絢爛なる 容貌を 持つ 偉丈夫。 炎 纏いて 舞い踊るが如く 戦う様は 眼福以外の 言葉なし。"
+            }
           }
         ]
       },
@@ -1308,7 +1537,10 @@
             "speed": 85,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "耳を 丸める 理由は 所説あり。 聴力 高すぎるゆえ 耳に 入る 音量 セーブし 聴覚 守ると 推察す。"
+            }
           }
         ]
       },
@@ -1328,7 +1560,10 @@
             "speed": 105,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "体毛は 暖かにして 実に 軽量。 カラテマスターの如き 蹴りを 放ち 相対す者を 造作なく 撃退す。"
+            }
           }
         ]
       },
@@ -1348,7 +1583,10 @@
             "speed": 35,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "本体の 傍らに生る 実が 大きく 肥えると その栄養 使い 進化す。 のちに自切し 他の生物の 糧となる。"
+            }
           }
         ]
       },
@@ -1357,7 +1595,7 @@
         "globalNo": "421",
         "status": [
           {
-            "form": "",
+            "form": "ネガフォルム",
             "type1": "くさ",
             "type2": "",
             "hp": 70,
@@ -1368,7 +1606,27 @@
             "speed": 85,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "稀に 震える程度にて ほぼ動かず。 閉じた 花弁から 漏れる 香気に 引き寄せられ 多様なポケモン 集う。"
+            }
+          },
+          {
+            "form": "ポジフォルム",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 70,
+            "attack": 60,
+            "defense": 70,
+            "special_attack": 87,
+            "special_defense": 78,
+            "speed": 85,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "晴天ならば 実に 陽気に 活動。 されど 日が 陰れば 即座に 花弁を 閉じて 動きを 止める。"
+            }
           }
         ]
       },
@@ -1388,7 +1646,10 @@
             "speed": 55,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "常より 頭痛に 悩む。 強まりしとき 秘めたる力 意に反し 暴発するゆえ 痛み 和らげる術を 模索中なり。"
+            }
           }
         ]
       },
@@ -1408,7 +1669,10 @@
             "speed": 85,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "肉体 頑健なりて 両手足に 水掻き 有す。 荒れすさぶ海を 物ともせず 高波を 掻き分け 悠々と 泳ぎたり。"
+            }
           }
         ]
       },
@@ -1428,7 +1692,10 @@
             "speed": 70,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "女王たる ポケモンに 忠節を 誓い 一生懸命に 蜜を 収集し続ける。 群れにより 蜜の味わい 異なる。"
+            }
           }
         ]
       },
@@ -1448,7 +1715,10 @@
             "speed": 40,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "配下らに命じ 巣を 築かせる。 巣に 忍び込みし 不届き者は 討ち取り 自身の糧とする。"
+            }
           }
         ]
       },
@@ -1468,7 +1738,10 @@
             "speed": 105,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "腕の 大きな 鎌は 切れ味 鋭く 真に 恐ろしき 得物なり。動き 俊敏にして 獲物 逃がすことなし。"
+            }
           }
         ]
       },
@@ -1488,7 +1761,10 @@
             "speed": 85,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "硬き岩で 身を守り 無骨な 斧は 大木を 切り倒す。気性 荒々しく 荒地にて 遭遇しときは 逃げの一手。"
+            }
           }
         ]
       },
@@ -1508,7 +1784,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "奇天烈な 道具により 進化せし姿。全身を覆う 殻は 鍛錬されし 鋼に 勝る 高い強度を 記録するものなり。"
+            }
           }
         ]
       },
@@ -1528,7 +1807,10 @@
             "speed": 85,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "比類なき 角を 頂く。 力比べにては 伝統武芸に 興じる 力自慢 数名を まとめて 投げ飛ばす 剛力なり。"
+            }
           }
         ]
       },
@@ -1548,7 +1830,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "賑やかなる 市場に 時折 ふらりと 姿 現す。 幼子が如く 人真似をし 瞳を 輝かせ 人間の反応を 伺う。"
+            }
           }
         ]
       },
@@ -1568,7 +1853,10 @@
             "speed": 90,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "振る舞い パントマイムが如く。 道化師 思い起こす 姿にて 指先より 発す 気力 用いて 透明な壁を作る。"
+            }
           }
         ]
       },
@@ -1588,7 +1876,10 @@
             "speed": 85,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "掌の如く 器用に 働く 尻尾 持ち 樹上に 暮らす。 古文書に 腕一本の 珍妙なポケモンとの 記述 残る。"
+            }
           }
         ]
       },
@@ -1608,7 +1899,10 @@
             "speed": 115,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "2本に 増えし尻尾を 繋ぎ 輪になり 仲間の絆 確かめる。 稀に 人も その輪に 混ぜてもらうこと あり。"
+            }
           }
         ]
       },
@@ -1628,7 +1922,10 @@
             "speed": 80,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "力弱く 愚鈍で 情けなし。 されど 生命力 強く 濁水を 物ともせぬゆえ あらゆる土地にて 生息を 確認す。"
+            }
           }
         ]
       },
@@ -1648,7 +1945,10 @@
             "speed": 81,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "古文書にある 龍の正体と 見たり。 口から 吐きし 熱線にて ことごとく 集落を 焼き尽くすと 記されたり。"
+            }
           }
         ]
       },
@@ -1657,7 +1957,7 @@
         "globalNo": "422",
         "status": [
           {
-            "form": "",
+            "form": "ひがしのうみ",
             "type1": "みず",
             "type2": "",
             "hp": 76,
@@ -1668,7 +1968,27 @@
             "speed": 34,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "水温 冷たき 磯辺に 多し。 やや 強く 触れると 体表より 紫の汁 滲みだし 服を 汚す。"
+            }
+          },
+          {
+            "form": "にしのうみ",
+            "type1": "みず",
+            "type2": "",
+            "hp": 76,
+            "attack": 48,
+            "defense": 48,
+            "special_attack": 57,
+            "special_defense": 62,
+            "speed": 34,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "水温 暖かな 磯辺に 多し。 存外 人懐っこく 這い寄るが 粘液に まみれるため 注意。"
+            }
           }
         ]
       },
@@ -1677,7 +1997,7 @@
         "globalNo": "423",
         "status": [
           {
-            "form": "",
+            "form": "ひがしのうみ",
             "type1": "みず",
             "type2": "じめん",
             "hp": 111,
@@ -1688,7 +2008,27 @@
             "speed": 39,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "海中より 陸地での 活動 多し。 晴天に 比較し 曇天 ならびに 雨天において 活発なり。"
+            }
+          },
+          {
+            "form": "にしのうみ",
+            "type1": "みず",
+            "type2": "じめん",
+            "hp": 111,
+            "attack": 83,
+            "defense": 68,
+            "special_attack": 92,
+            "special_defense": 82,
+            "speed": 39,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "海の砂を 食み 糧を得る。 色の異なる トリトドン 同士が 出会うと 激しい 争いが 始まる。"
+            }
           }
         ]
       },
@@ -1708,7 +2048,10 @@
             "speed": 85,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "針より 毒 散らす 厄介者ゆえ 漁師には 忌み嫌われし 存在。 他の地方では 異なる姿で 生息す。"
+            }
           }
         ]
       },
@@ -1728,7 +2071,10 @@
             "speed": 85,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "槍の如き 針と 凶暴なる 気質にて 海鬼の 異名を 持つ ポケモン。 毒を すすりて 己の 糧とす。"
+            }
           }
         ]
       },
@@ -1748,7 +2094,10 @@
             "speed": 30,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "ラッキーの 真似したりて 丸き石を 腹の袋に 仕舞い 愛おしむ。 童子に 懐き 飯事 興じることあり。"
+            }
           }
         ]
       },
@@ -1768,7 +2117,10 @@
             "speed": 50,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "心清らかなりて 傷つきし者に 卵を 分け与える。 この卵 滋味豊かなりて 医者いらずとの異名を 持ちたり。"
+            }
           }
         ]
       },
@@ -1788,7 +2140,10 @@
             "speed": 55,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "情け深く 病の 人やポケモン あらば 治るまで 看病す。 産みし卵 これ 絶品なりて 食し者に 幸を もたらす。"
+            }
           }
         ]
       },
@@ -1808,7 +2163,10 @@
             "speed": 55,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "日差し 強まるとき 頭上に 掲げし蕾 開く。 この様子に 厳冬が終わり 芽吹く季節 来たりと 人々は知る。"
+            }
           }
         ]
       },
@@ -1828,7 +2186,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "美麗なれど 猛毒 たたえし棘 有す。 我が故郷では 決闘の申し出に これを 相手に送る 古き習わし 伝わる。"
+            }
           }
         ]
       },
@@ -1848,7 +2209,10 @@
             "speed": 90,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "両腕の花束に 猛毒 湛えし 棘の鞭を 仕込む。 華麗なる 体捌きにて 獲物 追い込み 鞭の裁き まるで容赦なし。"
+            }
           }
         ]
       },
@@ -1868,7 +2232,10 @@
             "speed": 46,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "草木の ポケモン ながらも 貪欲かつ 粗暴なる 気質。 大口 開きて 得物を 襲う。"
+            }
           }
         ]
       },
@@ -1888,7 +2255,10 @@
             "speed": 30,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "頭の 葉は 薬として 重宝されたり。 天日で 乾かし 煎じて 飲むと 苦けれども 疲労回復に 効果抜群。"
+            }
           }
         ]
       },
@@ -1908,7 +2278,10 @@
             "speed": 105,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "雪深き山に 棲みしゆえに 脚力が 発達したと 考察す。 周囲の者を 鼓舞する 香りを 冠の花より 放つ。"
+            }
           }
         ]
       },
@@ -1928,7 +2301,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "青き蔓で 全身を 覆いたりて 正体 見ること 能わず。 この蔓 噛めば 清涼感あり 香辛料として 有用。"
+            }
           }
         ]
       },
@@ -1948,7 +2324,10 @@
             "speed": 50,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "長き蔓 絡まりし姿 草藪に 似たり。 束ねた蔓を 腕の如く 振るい 獲物に 巻きつき からめとる。"
+            }
           }
         ]
       },
@@ -1968,7 +2347,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "水 濁りし 沼地を 棲み処とす。 視界 悪く 天敵より 姿を隠す。 体表の粘液により 手掴み 難儀なり。"
+            }
           }
         ]
       },
@@ -1988,7 +2370,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "尾鰭 打ちつけ 沼底 揺るがし 仰天 逃げんとする 獲物を 丸飲み。 これを 人は 地震の源と 勘違いす。"
+            }
           }
         ]
       },
@@ -2008,7 +2393,10 @@
             "speed": 50,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "毒を有し 気質は 卑劣なり。 されど 鳴き方 珍妙にして 滑稽な 面構えゆえ 人気あり。"
+            }
           }
         ]
       },
@@ -2028,7 +2416,10 @@
             "speed": 85,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "朱に 染まりし 爪 猛毒を 宿す。 毒 薄め 数種の野草を 混ぜ 二晩 煎じれば 強壮の 薬となる。"
+            }
           }
         ]
       },
@@ -2048,7 +2439,10 @@
             "speed": 40,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "気分 沈みし者より 気性 朗らかなる 者を 好む 傾向あり。 老若男女を 区別せず。 さらなる調査 課題なり。"
+            }
           }
         ]
       },
@@ -2068,7 +2462,10 @@
             "speed": 50,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "乙女の如き姿なれど 不可思議な能力 操り 楽園なる景色を 映し出したり。 紅のかんざしに 秘密あると 推測す。"
+            }
           }
         ]
       },
@@ -2088,7 +2485,10 @@
             "speed": 80,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "親愛なる主 守護する覚悟 見せり。 淑女を想起する 純白のドレスこそ 命賭す者 まといし 装束と 言えり。"
+            }
           }
         ]
       },
@@ -2108,7 +2508,10 @@
             "speed": 80,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "肘より伸びたる得物 名刀に 勝る 切れ味なり。 我流なれど 見事な 太刀捌きは 目を見張るものあり。"
+            }
           }
         ]
       },
@@ -2128,7 +2531,10 @@
             "speed": 95,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "その翅 彼方 透け見えるほど 薄く 頼りなし。 しかれども 飛翔し際は 大気乱し 人家 吹き飛ばす 力あり。"
+            }
           }
         ]
       },
@@ -2148,7 +2554,10 @@
             "speed": 95,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "性質 極めて凶暴。 獲物 狩りしとき 急所のみ 狙い 無駄 一切なし。 この種を 従えし者は 豪胆なり。"
+            }
           }
         ]
       },
@@ -2168,7 +2577,10 @@
             "speed": 32,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "体 大きく 鈍重なれど 土壌を掘りて 潜むゆえに 姿 捉えるは 困難なり。 気 昂りしとき 鼻より 砂を吹く。"
+            }
           }
         ]
       },
@@ -2188,7 +2600,10 @@
             "speed": 47,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "気は 短く 血の気 多し。 砂交じりの 旋風を 起こし 敵の威勢 挫きて 襲い掛かる。"
+            }
           }
         ]
       },
@@ -2208,7 +2623,10 @@
             "speed": 95,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "ピカチュウらと 近縁の種なり。 気性 穏やかなれど 帯電せし 尾や 頬に 触れるは 危険なり。"
+            }
           }
         ]
       },
@@ -2228,7 +2646,10 @@
             "speed": 74,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "尻より ほとばしる 毒は 苛烈なる 悪臭を 伴う。 その効力たるや 嗅げば 記憶を 喪失するほど。"
+            }
           }
         ]
       },
@@ -2248,7 +2669,10 @@
             "speed": 84,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "毒汁 放ちて 獲物と 対峙す。 己の 毒汁の臭気に 耐えられず 仕留めし獲物 喰えぬこと あり。"
+            }
           }
         ]
       },
@@ -2268,7 +2692,10 @@
             "speed": 40,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "掌に 染む 甘き蜜を 舐める 仕草。 ミツハニー 集めし 蜜を 巣より 頂戴し 我がものとする したたかさ。"
+            }
           }
         ]
       },
@@ -2288,7 +2715,10 @@
             "speed": 55,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "ヒスイの地を 寒気 覆いたる 季節 好物の木の実 集めに 野山を徘徊す。 空腹ゆえ 気が立ち 極めて凶暴。"
+            }
           }
         ]
       },
@@ -2308,7 +2738,10 @@
             "speed": 50,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "ヒスイの地に 敷かれし 湿地の土こそ 頑丈なる体躯と 泥炭を 自在に 扱う 新たな 器量 もたらしたと 考察す。"
+            }
           }
         ]
       },
@@ -2328,7 +2761,10 @@
             "speed": 40,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "湿度 高き 木陰に 身を 潜める。 体表を覆う ぬめりとした 液体が 乾くと たちどころに 生気を 失う。"
+            }
           }
         ]
       },
@@ -2348,7 +2784,10 @@
             "speed": 40,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "陰気な 性質。 ヒスイの地の 水に 含有する 鉄が 皮膚の粘液に 作用し 金属の殻へ 変容させたと 考察す。"
+            }
           }
         ]
       },
@@ -2368,7 +2807,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "金属の殻の 剛柔を 自在に 操る。 孤独を 厭い 執念深く 好いた者が 己から 離れると 怒り 荒ぶる。"
+            }
           }
         ]
       },
@@ -2388,7 +2830,10 @@
             "speed": 70,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "大岩 連なり 大蛇の如き風貌なり。 地響き 立て 地中深く 埋もれ 岩 喰らいながら 隧道 掘り進む。"
+            }
           }
         ]
       },
@@ -2408,7 +2853,10 @@
             "speed": 30,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "奇天烈な 道具により 進化せし姿。 鋼鉄の粒を まぶせし 体は 硬く 金剛石でも 傷付けること 能わず。"
+            }
           }
         ]
       },
@@ -2428,7 +2876,10 @@
             "speed": 25,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "岩山を 頭突きで 砕きし 馬鹿力。 短き脚は 旋回 不得手とし 何かに 衝突するまで 止まること 能わず。"
+            }
           }
         ]
       },
@@ -2448,7 +2899,10 @@
             "speed": 40,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "角を 高速回転させ 岩盤を 穿つ。 甲冑が如き 硬き皮膚は 溶岩の熱を 物ともせず 火山地帯を 闊歩す。"
+            }
           }
         ]
       },
@@ -2468,7 +2922,10 @@
             "speed": 40,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "奇天烈な 道具により 進化せし姿。 岩石に似た 皮膚は 名刀の一振りでも 傷つかぬほど 硬き 未知の物質なり。"
+            }
           }
         ]
       },
@@ -2488,7 +2945,10 @@
             "speed": 10,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "涙 流し 見る者の 同情心を 誘うも 体内水分を 排出し 健康維持する 生理現象なり。 騙されるべからず。"
+            }
           }
         ]
       },
@@ -2508,7 +2968,10 @@
             "speed": 30,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "樹木の素振りするも 幼子も 欺けず。 その体は 樹皮ならず 岩の手触り。 水を ひどく嫌う習性 特記に値す。"
+            }
           }
         ]
       },
@@ -2528,7 +2991,10 @@
             "speed": 30,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "長き舌を 手の如く 巧みに 操る。 粘着質の唾液 集め 煮詰めれば 強力な糊となり 役立つこと 多し。"
+            }
           }
         ]
       },
@@ -2548,7 +3014,10 @@
             "speed": 50,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "舌は 伸縮自在なりて 己が丈の 10倍以上の 尺に 伸張可能なり。 唾液は 溶解成分 含むゆえ 要注意。"
+            }
           }
         ]
       },
@@ -2568,7 +3037,10 @@
             "speed": 20,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "卵に似た姿。 野山にて 遭遇し折 卵が動いたと 早とちりする者 多し。 邪気なき笑顔 人心を癒す 効能あり。"
+            }
           }
         ]
       },
@@ -2588,7 +3060,10 @@
             "speed": 40,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "野山にて 遭遇した 記録なし。 心 通じる者の 庇護あれば 姿を変え 大いなる果報 もたらすと 噂絶えず。"
+            }
           }
         ]
       },
@@ -2608,7 +3083,10 @@
             "speed": 80,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "目撃例 わずか。 残る 文献 探れば 世の暮らし 天下泰平なりしときに 姿 現し 遭遇すること 疑いなし。"
+            }
           }
         ]
       },
@@ -2628,7 +3106,10 @@
             "speed": 31,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "陽光 射すほどに 活力 たぎる。 甲羅と 思しき 部位は 砂泥に似て ほのかに 湿りて 温もり あり。"
+            }
           }
         ]
       },
@@ -2648,7 +3129,10 @@
             "speed": 36,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "清き湧水 生じる所に 現れる。 甲羅の 樹木に生る 果実は 甘く 滋養に富み 誠に 美味なり。"
+            }
           }
         ]
       },
@@ -2668,7 +3152,10 @@
             "speed": 56,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "優美な 借景のごとき 巨体と 無双の剛力を 持つ 傑物なり。 清水 求めて 山野を 巡る。"
+            }
           }
         ]
       },
@@ -2688,7 +3175,10 @@
             "speed": 40,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "心音 聞こえず 呼吸の気配すら 窺えぬが 活動に 支障なき様子。 奇天烈すぎるゆえ 皆目 見当つかず。"
+            }
           }
         ]
       },
@@ -2708,7 +3198,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "奇天烈な 道具により 進化せし姿。 仕草の種類 増え 表情 豊かになる。 されど 生態は 未だ 解明 叶わず。"
+            }
           }
         ]
       },
@@ -2728,7 +3221,10 @@
             "speed": 90,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "奇天烈な 道具により 更に 進化す。 攻撃力の向上 大幅なれど 比例して 不可思議な 所作 増え 心配なり。"
+            }
           }
         ]
       },
@@ -2748,7 +3244,10 @@
             "speed": 80,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "ガス状の生命体ゆえ 掴みどころなし。 体の一部を 吸い込めば たちまち 気絶する 毒性ゆえ 極めて危険。"
+            }
           }
         ]
       },
@@ -2768,7 +3267,10 @@
             "speed": 95,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "壁をすり抜け 何処にでも 姿 現す 恐ろしき悪霊。 舌で 舐められし者 日に日に 衰弱し 死に至るとの噂。"
+            }
           }
         ]
       },
@@ -2788,7 +3290,10 @@
             "speed": 110,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "影に憑きて 命 狙いし ポケモン。 己が影 ひとりでに 笑いしときは 一刻も早く 清めの札 握るべし。"
+            }
           }
         ]
       },
@@ -2808,7 +3313,10 @@
             "speed": 35,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "邪悪なる 念にて 祟り もたらす。 百と八つの 悪しき 魂 集いて 生じたと 記されし ポケモン。"
+            }
           }
         ]
       },
@@ -2828,7 +3336,10 @@
             "speed": 91,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "凶兆を運ぶと 忌避されし ポケモン。 出会いし際は すらかみ屋は繁盛繁盛 との まじない 唱えよと 教わる。"
+            }
           }
         ]
       },
@@ -2848,7 +3359,10 @@
             "speed": 71,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "ひとたび 鳴けば 数多のヤミカラスが 飛来す。 その様 夜の帳 頭上を覆い 世を 漆黒の闇に 転ずるが如く。"
+            }
           }
         ]
       },
@@ -2868,7 +3382,10 @@
             "speed": 48,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "生物とは思えぬ 異形の姿なり。 形状 異なるもの多く 異国の文字との 共通性を 訴えるも 評価されず。"
+            }
           }
         ]
       },
@@ -2888,7 +3405,10 @@
             "speed": 25,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "流氷 接岸し季節は 天敵 少なきゆえ 陸地より 氷上生活を 好む。 体毛は 保温効果 高く 極寒に 強し。"
+            }
           }
         ]
       },
@@ -2908,7 +3428,10 @@
             "speed": 45,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "蓄えし 白き髭は 知覚 鋭敏なり。 タマザラシを 鼻先に 乗せ 感触と 体臭にて 健やかなこと 確かめたり。"
+            }
           }
         ]
       },
@@ -2928,7 +3451,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "太き牙 流氷を 砕くほど 頑丈なれど 折れることあり。 されど 翌年なれば 再生す。 折れし牙 ヒスイ名物なり。"
+            }
           }
         ]
       },
@@ -2948,7 +3474,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "口より 水流 噴射す。 命中精度 極めて 正確。 木の枝に 下がりし ミノムッチを 撃ち落とし 捕らえる。"
+            }
           }
         ]
       },
@@ -2968,7 +3497,10 @@
             "speed": 45,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "水を 口より 噴射する技は 同じだが 姿 あまりにも 違うゆえに 長き間 テッポウオの進化と 信じられず。"
+            }
           }
         ]
       },
@@ -2988,7 +3520,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "鋏の 切れ味 鋭く 毒も 含む 実に 危険な ポケモンなり。 されど 冷えには 脆い 様子。"
+            }
           }
         ]
       },
@@ -3008,7 +3543,10 @@
             "speed": 95,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "凶暴にして 獰猛なる 気質。 刀も 弾く 頑強なる 甲羅と 剛力で 暴れ回り 害を成す。"
+            }
           }
         ]
       },
@@ -3028,7 +3566,10 @@
             "speed": 55,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "対になりて 縄張りを 哨戒す。 体毛に 火成岩なる 成分 混ざるは 火山活動の 影響と 推察す。"
+            }
           }
         ]
       },
@@ -3048,7 +3589,10 @@
             "speed": 90,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "燃え盛る炎 牙に纏わせ 食らい付く。 体躯 大柄なれど 陽動 鮮やかなりて 敵 翻弄せしむる姿 演舞の如し。"
+            }
           }
         ]
       },
@@ -3068,7 +3612,10 @@
             "speed": 85,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "渦状の尻尾 及び 眼力にて 人を 惑わす。 隠し持つ 爪も 鋭利ゆえ 敵に回すと 極めて 厄介。"
+            }
           }
         ]
       },
@@ -3088,7 +3635,10 @@
             "speed": 112,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "厚顔無恥にして 手懐けること 困難なれど 別珍よりも 美しき 毛並みを 有すため 人気なり。"
+            }
           }
         ]
       },
@@ -3108,7 +3658,10 @@
             "speed": 35,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "童の如き 短身なれど 偉丈夫を 軽々 投げ飛ばす 力自慢。 更なる 高みを 目指し ゴローンを 担ぎて 鍛錬す。"
+            }
           }
         ]
       },
@@ -3128,7 +3681,10 @@
             "speed": 45,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "強靭な 肉体と 持久力 兼ね備えし 剛の者。 鍛錬を 何より 好み 開墾 普請など 進んで 手伝う。"
+            }
           }
         ]
       },
@@ -3148,7 +3704,10 @@
             "speed": 55,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "4本の腕 近接戦において 死角無し。 瞬く間に 1000発以上の 拳を 繰り出し 敵を 圧倒する 豪傑なり。"
+            }
           }
         ]
       },
@@ -3168,7 +3727,10 @@
             "speed": 91,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "巧みに 人語を 模倣する 芸達者。 齢 重ね 経験を 積んだ者は 言葉の 意味さえ 理解するという。"
+            }
           }
         ]
       },
@@ -3188,7 +3750,10 @@
             "speed": 25,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "丑の刻 徘徊し 悪童を さらうとの 怪談を ヒスイの幼子は みな 信じ 己の行いを 改めるという。"
+            }
           }
         ]
       },
@@ -3208,7 +3773,10 @@
             "speed": 25,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "包帯 巻かれし姿の その内を覗くと 包帯の隙間より 吸い込まれ 戻らずと 噂あるも 恐ろしく 確認できず。"
+            }
           }
         ]
       },
@@ -3228,7 +3796,10 @@
             "speed": 45,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "寿命 尽きたる者の 傍らに 来たりて 魂を 黄泉へと 誘う。 まれに 余命 有る者の 魂を 連れ行く 過ちあり。"
+            }
           }
         ]
       },
@@ -3248,7 +3819,10 @@
             "speed": 40,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "寒き地を 好み 海辺に 現れる。 童に 似た 愛らしさに 反し 気位は高く 人の 施しを 拒む。"
+            }
           }
         ]
       },
@@ -3268,7 +3842,10 @@
             "speed": 50,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "厳寒の海原を 揚々と 泳ぎて 潮騒と まごう 声色で さえずる。 強靭なる翼と 矜持を 有す。"
+            }
           }
         ]
       },
@@ -3288,7 +3865,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "古来 ヒスイの民より 波濤殿と 呼ばれ 奉られし ポケモン。 その翼 名工の業物に 匹敵す。"
+            }
           }
         ]
       },
@@ -3308,7 +3888,10 @@
             "speed": 50,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "玉の如き 姿なれど 泳ぎ 達者なり。 テッポウオの群れと 交流 多きものは やがて 進化に至ると 判明す。"
+            }
           }
         ]
       },
@@ -3328,7 +3911,10 @@
             "speed": 70,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "大海 優雅に泳ぎ 穏やかな 性質。 遊泳速度 増せば 海面より 飛び出し 鳥ポケモンと 見間違うこと 多し。"
+            }
           }
         ]
       },
@@ -3337,7 +3923,7 @@
         "globalNo": "550",
         "status": [
           {
-            "form": "",
+            "form": "しろすじのすがた",
             "type1": "みず",
             "type2": "",
             "hp": 70,
@@ -3348,7 +3934,10 @@
             "speed": 98,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "温厚な 気質など 相違点 あれども バスラオの 特徴を 多く 有すゆえ そのリージョンフォームと 定義す。"
+            }
           }
         ]
       },
@@ -3368,7 +3957,10 @@
             "speed": 78,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "遡上の旅路にて 志半ばに 散った 輩の魂を まとう。 ヒスイ 流れし 河川においては 敵うもの 皆無なり。"
+            }
           },
           {
             "form": "メスのすがた",
@@ -3382,7 +3974,10 @@
             "speed": 78,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "遡上の旅路にて 志半ばに 散った 輩の魂を まとう。 ヒスイ 流れし 河川においては 敵うもの 皆無なり。"
+            }
           }
         ]
       },
@@ -3402,7 +3997,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "腹中で 燃えし炎 火球として 吐く。 幼き頃は 白い尾 1本のみ なれど 育つにつれ 先分かれ 6本となる。"
+            }
           },
           {
             "form": "アローラのすがた",
@@ -3416,7 +4014,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "雪深き山に 群れを成して 生息す。 寒冷地に 適応し 姿変えしと 推測。 凍てつく 吐息で 身を 護る。"
+            }
           }
         ]
       },
@@ -3436,7 +4037,10 @@
             "speed": 100,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "金色に 輝く 毛並みは 見事なり。 9本の 長き尾に 聖なる力 秘め 千歳 生き長らえると 伝わる。"
+            }
           },
           {
             "form": "アローラのすがた",
@@ -3450,7 +4054,10 @@
             "speed": 109,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "万年雪 覆いし 聖なる山に 棲む。 心 善なる者が 山道 迷うとき 姿見せ 麓まで 導くと 伝わる。"
+            }
           }
         ]
       },
@@ -3470,7 +4077,10 @@
             "speed": 70,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "ガラスの如き 紅赤の目玉より 光線を 放つ。 浅海を たゆたうが 干潮の折 浜端にて 干乾びしこと あり。"
+            }
           }
         ]
       },
@@ -3490,7 +4100,10 @@
             "speed": 100,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "触手の数 80本。 その先 毒ありて 獲物を 捕らえんとする折に 常よりも 伸ばすゆえ 注意されたし。"
+            }
           }
         ]
       },
@@ -3510,7 +4123,10 @@
             "speed": 66,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "桃色に 染まりし 長き 尾鰭を なびかせ あでやかに 遊泳す。 その様から 晴れ着魚の 通称あり。"
+            }
           }
         ]
       },
@@ -3530,7 +4146,10 @@
             "speed": 91,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "輝く 鰭を もって 獲物を 狩る。 ネオラント 群れ成す 夜半の 水面たるや 綺羅星の 如き 絶景。"
+            }
           }
         ]
       },
@@ -3550,7 +4169,10 @@
             "speed": 83,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "火山地帯に 生息。 呼吸の度に 口と鼻より 火の粉を 漏らす。 体調万全の折は 炎 黄色味 帯びる。"
+            }
           }
         ]
       },
@@ -3570,7 +4192,10 @@
             "speed": 93,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "火山の 噴火口から 生まれ出づると 伝承あり。 傷 負いし折は 溶岩に 温泉の如く 浸かりて 体を癒す。"
+            }
           }
         ]
       },
@@ -3590,7 +4215,10 @@
             "speed": 83,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "奇天烈な 道具により 進化せし姿。 筒状の 腕先より 放たれし 火球は 鉄鍋をも 瞬時に 溶かす 高温なり。"
+            }
           }
         ]
       },
@@ -3610,7 +4238,10 @@
             "speed": 45,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "鉄球に 一つ目ありし 奇天烈な姿。 馬蹄形の 磁石が如き 腕から 発する 磁力により 浮遊すると 推察す。"
+            }
           }
         ]
       },
@@ -3630,7 +4261,10 @@
             "speed": 70,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "3匹のコイルが 集まりて 進化した 姿なり。 強き磁力を 放つゆえ 研究機器を 破壊され 厄介なり。"
+            }
           }
         ]
       },
@@ -3650,7 +4284,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "特殊な 磁場の 影響 受け 分子構造 変わりて 進化すると 考察。 角から 宙に 向け 謎の電波を 発信す。"
+            }
           }
         ]
       },
@@ -3670,7 +4307,10 @@
             "speed": 23,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "不可思議な エネルギーで 漂う。 背に 刻まれし 文様は 神聖とされ 古き 墓地などに まま 描かれる。"
+            }
           }
         ]
       },
@@ -3690,7 +4330,10 @@
             "speed": 33,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "鐘の音の如き 声色にて 鳴けば 異界へと 通じる 穴 開くと 言われ 古来より 神として 奉られたり。"
+            }
           }
         ]
       },
@@ -3710,7 +4353,10 @@
             "speed": 95,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "両腕を 回して 発電す。 雷雨の中 野山より 賑やかな童の声 聞こえれば それは エレキッドのものなり。"
+            }
           }
         ]
       },
@@ -3730,7 +4376,10 @@
             "speed": 105,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "電気のエネルギーを 糧とする。 積乱雲 近づく 夕立時には 高木に 登りて 落雷を待つ姿 目撃す。"
+            }
           }
         ]
       },
@@ -3750,7 +4399,10 @@
             "speed": 95,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "奇天烈な 道具により 進化せし姿。 心拍数 上がるとき 発電量も 増加。 尾から 2万ボルトの 電流を 放つ。"
+            }
           }
         ]
       },
@@ -3770,7 +4422,10 @@
             "speed": 85,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "尾の先端 凶悪なる 太い針を 有す。 獲物の顔面に 被さり 視覚を遮蔽し 尾の針にて 毒を注入し 仕留めたり。"
+            }
           }
         ]
       },
@@ -3790,7 +4445,10 @@
             "speed": 95,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "漆黒の翼 音 立てず 空を滑り 鋭き牙で 獲物の喉笛に 食らいつく。 血液 吸い尽くし 満足の様子。"
+            }
           }
         ]
       },
@@ -3810,7 +4468,10 @@
             "speed": 42,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "日の届かぬ 洞を 寝床に 暮らす。 鋭利なる 歯は 摩耗や 弾みにて 抜け落ちるが 数日にて 再生す。"
+            }
           }
         ]
       },
@@ -3830,7 +4491,10 @@
             "speed": 82,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "荒い 気質の ポケモンなれど 興味 示した ガラス玉 与えれば 途端に 従順な気質に 変わりたり。"
+            }
           }
         ]
       },
@@ -3850,7 +4514,10 @@
             "speed": 102,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "目にも 止まらぬ 勢いにて 天翔ける 姿は 誠に 天晴。 気質 粗にして 野で 警戒すべし。"
+            }
           }
         ]
       },
@@ -3870,7 +4537,10 @@
             "speed": 30,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "ヒスイの民 赤き鼻先が つねに 北方 指し示すと知り 遠出しとき 大いに 頼る。 古き 羅針盤の原理に 通ず。"
+            }
           }
         ]
       },
@@ -3890,7 +4560,10 @@
             "speed": 40,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "強き磁力を 発し 立派な髭の如く 蓄えし 大量の砂鉄を 操る技 あり。 硬き礫 獲物を襲い 打ち倒す。"
+            }
           }
         ]
       },
@@ -3910,7 +4583,10 @@
             "speed": 100,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "モンスターボールと 空似せし 謎の ポケモン。気 昂るほど 腹に 蓄えし電流を 解き放ち 大笑す。"
+            }
           }
         ]
       },
@@ -3930,7 +4606,10 @@
             "speed": 150,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "体表の組織 ぼんぐりの成分と 極めて 近く 不思議。苛立ちしときに 放つ 電流は 落雷 20回分に 匹敵す。"
+            }
           }
         ]
       },
@@ -3950,7 +4629,10 @@
             "speed": 91,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "電気仕掛けの 人魂と 思しき 奇々怪々なる ポケモン。 聡く 悪戯者ゆえ 注意すべし。"
+            }
           },
           {
             "form": "ヒートロトム",
@@ -3964,7 +4646,10 @@
             "speed": 86,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "面妖な 釜に 潜みし フォルム。 釜の 出自については 不明。 炎 吹きて 悪事をなす 困り者。"
+            }
           },
           {
             "form": "ウォッシュロトム",
@@ -3978,7 +4663,10 @@
             "speed": 86,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "珍奇な 箪笥に 潜みし フォルム。 箪笥 本来の 用途は 分からず。 冷水 撒きて 悪事をなす 困り者。"
+            }
           },
           {
             "form": "フロストロトム",
@@ -3992,7 +4680,10 @@
             "speed": 86,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "奇怪な 水屋に 潜みし フォルム。 水屋の 素材は 未知の 物質。 霜 起こし 悪事をなす 困り者。"
+            }
           },
           {
             "form": "スピンロトム",
@@ -4006,7 +4697,10 @@
             "speed": 86,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "謎の 器具に 潜みし フォルム。 器具の 用途は 分かっていない。 烈風 吐きて 悪事をなす 困り者。"
+            }
           },
           {
             "form": "カットロトム",
@@ -4020,7 +4714,10 @@
             "speed": 86,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "異様な 猫車に 潜みし フォルム。 猫車の 機構は 不可思議なり。 草木を 薙ぎ 悪事をなす 困り者。"
+            }
           }
         ]
       },
@@ -4040,7 +4737,10 @@
             "speed": 45,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "その鳴き声 聞こえぬとき 耐えがたき 頭痛に 襲われたり。 人の聴覚にて 感知できぬ 音が あるやも知れず。"
+            }
           }
         ]
       },
@@ -4060,7 +4760,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "身の丈 超える 獲物を 倒す威力の 空気の波を 発す。 小さき風音を 体内にて 増幅すると 推測す。"
+            }
           }
         ]
       },
@@ -4080,7 +4783,10 @@
             "speed": 85,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "闇に潜み 稚児のごときに すすり泣き 旅人の肝を 冷やす。 怯える様 見て 喜びしとき 胸の赤き珠 妖しく光る。"
+            }
           }
         ]
       },
@@ -4100,7 +4806,10 @@
             "speed": 105,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "凶事を 祓う 呪文 唱えるゆえに 家に招く 風習あり。 ただし 機嫌を 損ねる 行いあれば 災い もたらす。"
+            }
           }
         ]
       },
@@ -4120,7 +4829,10 @@
             "speed": 15,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "星の 煌めきが如き 体形なり。 箒星 降り注ぎし夜 同胞と集まり 踊る姿は まさに 星の化身なり。"
+            }
           }
         ]
       },
@@ -4140,7 +4852,10 @@
             "speed": 35,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "満月の夜 静かなる 山間にて 遭遇。 小さき翼 ほのかに光り 舞う姿は まさに 妖精の如き 愛くるしさなり。"
+            }
           }
         ]
       },
@@ -4160,7 +4875,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "静寂たる 月夜に 耳を澄まし 月に 棲む 仲間の声を 聴くと 伝承あり。 遠き故郷を想う 我が姿を 重ね見る。"
+            }
           }
         ]
       },
@@ -4180,7 +4898,10 @@
             "speed": 115,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "ヒスイの地に棲む ニューラと 同一の 起源なれど 性質は 異なり 陰湿。 土と水 心身に影響すると 仮説 あり。"
+            }
           },
           {
             "form": "ヒスイのすがた",
@@ -4194,7 +4915,10 @@
             "speed": 115,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "鉤爪 逞しく 断崖絶壁を 踏破するに 有利な 形状。 先端より 毒液 滴り 獲物 捕らえしとき 神経を 侵す。"
+            }
           }
         ]
       },
@@ -4214,7 +4938,10 @@
             "speed": 120,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "他種圧倒する 身体能力と 猛毒 有し 寒冷なる 高地においては 敵なし。 群れ成さず 単独を良しとする 性質。"
+            }
           }
         ]
       },
@@ -4234,7 +4961,10 @@
             "speed": 125,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "リーダー 統率のもと 群れを成し 獲物を 追い詰める。 狡猾さ 増し 進化は 脳の発達も 促すと 思わる。"
+            }
           }
         ]
       },
@@ -4254,7 +4984,10 @@
             "speed": 50,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "初雪の頃 姿 見せり。 訪れし家は 代々 栄えると信ず。 清水より作りし 氷塊を 戸口に供える 習わし あり。"
+            }
           }
         ]
       },
@@ -4274,7 +5007,10 @@
             "speed": 80,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "鋼に勝る 硬き氷の鎧 身にまとう。 吐く息にて 獲物を 冷凍し これを 氷菓の如く 胃袋に 収めたり。"
+            }
           }
         ]
       },
@@ -4294,7 +5030,10 @@
             "speed": 110,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "恨み抱え 雪山に 消えし 女人の魂 宿りし ポケモン。 行い悪し 男を 呪い殺すと 伝承あり 肝 冷えたり。"
+            }
           }
         ]
       },
@@ -4314,7 +5053,10 @@
             "speed": 58,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "姿を 見ることは 極めて 稀。 同種で 頭を 打ち合い 争うとき 鐘の音に 似た 轟音が 響く。"
+            }
           }
         ]
       },
@@ -4334,7 +5076,10 @@
             "speed": 58,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "生態に 関する 情報は 乏しい。 真珠の如き 麗しい 頭頂を 叩きつけ 巨木も へし折る。"
+            }
           }
         ]
       },
@@ -4354,7 +5099,10 @@
             "speed": 30,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "見知る者 少なく 謎 多し。 穏やかにして 諍いを 好まず 木石にて 顔を 磨くこと 好む。"
+            }
           }
         ]
       },
@@ -4374,7 +5122,10 @@
             "speed": 30,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "頑強なる 面は 金剛に 比する 硬度にて 盤石の守りを 有す。 生息地など 不明なこと 多し。"
+            }
           }
         ]
       },
@@ -4394,7 +5145,10 @@
             "speed": 50,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "草むら 雪に 埋もれし茸を 匂いにて 探す才に 長ず。 古より ヒスイの地 暮らす者 この才に 頼ること 多し。"
+            }
           }
         ]
       },
@@ -4414,7 +5168,10 @@
             "speed": 50,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "長毛にて 目や口のみならず 四肢まで 覆い 厳しい冷気に 耐えうる姿なり。 敵 打ち負かす 白き牙 備える。"
+            }
           }
         ]
       },
@@ -4434,7 +5191,10 @@
             "speed": 80,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "氷河期と 呼ばれし世に 全盛 極む。 厳寒なる ヒスイの地 その体質に適し 眠りし力が 目覚めたと 考察す。"
+            }
           }
         ]
       },
@@ -4454,7 +5214,10 @@
             "speed": 28,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "万年雪に 覆われた 山岳に 生息す。 大気内の水分を 冷やして 作りし 氷の兜を 被りて 身を護る。"
+            }
           }
         ]
       },
@@ -4474,7 +5237,10 @@
             "speed": 38,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "下顎を 覆う 氷塊の装甲は 鋼に勝り 岩石を 砕くこと 容易なり。 深雪を かき分け 険しい 山道を 猛進す。"
+            }
           }
         ]
       },
@@ -4494,7 +5260,10 @@
             "speed": 40,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "雪中にて 遭遇する 可能性 高し。 人里に 現れるも 害は なさず 童の 良き友となると 伝わる。"
+            }
           }
         ]
       },
@@ -4514,7 +5283,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "巨岩も たやすく かち割る 剛の者。 他との 関りを 好まず 深山にて 雪と 戯れ 密やかに 暮らす。"
+            }
           }
         ]
       },
@@ -4534,7 +5306,10 @@
             "speed": 70,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "死した魂 ヒスイの地にて 蘇る。 怨嗟は 力となり 頭より 立ち昇り 相手の姿に 変じ 恨み 晴らしたり。"
+            }
           }
         ]
       },
@@ -4554,7 +5329,10 @@
             "speed": 110,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "白髪 振り乱し姿 死神の如く。 我が身をも 切り裂く 激しき怨讐にて 仇 襲い 道連れ覚悟で 仕留めたり。"
+            }
           }
         ]
       },
@@ -4574,7 +5352,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "雛鳥の姿 なれど 血の気 多し。 ことあるごとに 親鳥に 戦を 仕掛け 己が力を 示さんと 躍起なり。"
+            }
           }
         ]
       },
@@ -4594,7 +5375,10 @@
             "speed": 65,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "鬼気迫る 鬨の声を 上げ 狩りをする 猛き 大鳥。 湖水に 衝撃波を 放ち 水面に 浮かびし 獲物を 捕る。"
+            }
           }
         ]
       },
@@ -4614,7 +5398,10 @@
             "speed": 60,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "幼子の 姿なりしも 人の 心を読む 摩訶不思議な 力を持ち 良き 心の 持ち主を 認め 悪しき 心を 憎む。"
+            }
           }
         ]
       },
@@ -4634,7 +5421,10 @@
             "speed": 90,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "凛々しき 容貌なり。 発したる 気の 波を 思いのままに 導き 離れた者を 感じとる 力を 波導と 命名す。"
+            }
           }
         ]
       },
@@ -4654,7 +5444,10 @@
             "speed": 95,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "悪しき者の 記憶を 奪い去ると 畏れ 敬われている ポケモン。 知識を 司るとの 記録を 発見す。"
+            }
           }
         ]
       },
@@ -4674,7 +5467,10 @@
             "speed": 80,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "感情の神なる 異名を 持つ。 不敬なる者の 感情を 狂わすとの 伝承にて 畏怖されし ポケモン。"
+            }
           }
         ]
       },
@@ -4694,7 +5490,10 @@
             "speed": 115,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "意思の神と 畏怖されし ポケモン。 敵対せし者の 意思を 操りて 傀儡に 変えるとの 伝説あり。"
+            }
           }
         ]
       },
@@ -4714,7 +5513,10 @@
             "speed": 77,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "テンガン山の 内部で 煮えたぎる 溶岩より 生まれしとの 伝承あり。 溶解した 鋼の体 得体が 知れず。"
+            }
           }
         ]
       },
@@ -4734,7 +5536,10 @@
             "speed": 100,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "縄で縛りし大陸 曳きて ヒスイの地 造りしとの 伝説あり。 疑義あれど 真理一片 あるやも知れず。"
+            }
           }
         ]
       },
@@ -4754,7 +5559,10 @@
             "speed": 85,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "眉月 想わせし ポケモン。 夜空を 飛翔の折 一筋の光跡 鮮明に残す。 まるで 天の川 産みし 天女なり。"
+            }
           }
         ]
       },
@@ -4774,7 +5582,10 @@
             "speed": 111,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "嵐を 巻き起こし ポケモン。 大気を 撹拌し 季節を 巡らせると 伝わる。 人に似たる姿こそ 仮の姿と 考察す。"
+            }
           },
           {
             "form": "れいじゅうフォルム",
@@ -4788,7 +5599,10 @@
             "speed": 121,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "フォルムチェンジと 呼ばれし 現象。 怪鳥のごとき姿こそ 真なりと 考察。 大海 渡りしとき この姿で 目撃す。"
+            }
           }
         ]
       },
@@ -4808,7 +5622,10 @@
             "speed": 111,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "雷撃により 宿敵関係 トルネロスと 古来より 争うと 伝わる。 大地を 貫く 稲妻にて 土壌 鍛えたり。"
+            }
           },
           {
             "form": "れいじゅうフォルム",
@@ -4822,7 +5639,10 @@
             "speed": 101,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "霹靂閃電 姿 現す。 尾に 連なりし 珠より 雷撃 降り注ぎ 敵を 一掃。 威力 凄まじく 一片すら 残らず。"
+            }
           }
         ]
       },
@@ -4842,7 +5662,10 @@
             "speed": 101,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "旋風と電撃の化身が 争いしとき 現れ これらを 鎮める。 大嵐と稲妻 去りし後 豊作 約束されし大地あり。"
+            }
           },
           {
             "form": "れいじゅうフォルム",
@@ -4856,7 +5679,10 @@
             "speed": 91,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "霊獣の姿にて 天翔けしとき 大地に 豊穣もたらす。 衆人 これを 敬う。 一刻あれば ヒスイの地を 縦断す。"
+            }
           }
         ]
       },
@@ -4876,7 +5702,10 @@
             "speed": 106,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "海を越えて 飛来したらば 厳しき冬の 終わりを知る。 慈愛が ヒスイの地に 新しき命 芽吹かせるとの 伝承あり。"
+            }
           },
           {
             "form": "れいじゅうフォルム",
@@ -4890,7 +5719,10 @@
             "speed": 46,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "女人の姿より 変わりし現象。 命 粗末にする者あれば 雲海より 現れ 憤怒の罰を下し 容赦なし。"
+            }
           }
         ]
       },
@@ -4910,7 +5742,10 @@
             "speed": 90,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "神と崇めし伝説 ヒスイの地に あり。 誕生により うつし世の 時は 滔々と 大河の如く 流れ始めたり。"
+            }
           },
           {
             "form": "オリジンフォルム",
@@ -4924,7 +5759,10 @@
             "speed": 90,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "光明 フォルムチェンジの 引き金。 創造神に 酷似する姿こそ 真なりと 思わざるを得ぬほどの 剛力 発揮す。"
+            }
           }
         ]
       },
@@ -4944,7 +5782,10 @@
             "speed": 100,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "神と畏れし伝説 ヒスイの地に あり。 誕生により うつし世の　壁 消え去り 延々と 際限なき空 出現したり。"
+            }
           },
           {
             "form": "オリジンフォルム",
@@ -4958,7 +5799,10 @@
             "speed": 120,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "天翔ける姿 万物を 創りし 存在を 想起す。 姿を 模すこと すなわち その力を 我がものとする術と 推察。"
+            }
           }
         ]
       },
@@ -4967,7 +5811,7 @@
         "globalNo": "487",
         "status": [
           {
-            "form": "",
+            "form": "アナザーフォルム",
             "type1": "ゴースト",
             "type2": "ドラゴン",
             "hp": 150,
@@ -4978,7 +5822,10 @@
             "speed": 90,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "ヒスイの地に 伝わりし ひと節あり。 強き光は 深き影 生み出したり。 深き影こそ このポケモンと 想像す。"
+            }
           },
           {
             "form": "オリジンフォルム",
@@ -4992,7 +5839,10 @@
             "speed": 90,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "フォルムチェンジにより 脚 無くす。 これの棲むは 天地の区別なき 世界と 考察す。 されど 証明の 手段なし。"
+            }
           }
         ]
       },
@@ -5012,7 +5862,10 @@
             "speed": 120,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "天上より ヒスイの地を 射す 光源。 光明にて ポケモン 導き 守護す。 ヒスイの神話 万物の創造主と 記す。"
+            }
           }
         ]
       },
@@ -5032,7 +5885,10 @@
             "speed": 80,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "海水温 上がりし季節に 海岸付近にて 漂う姿あり。 蒼き体色 海に紛れし色 ゆえ 天敵より 身を守る 理屈なり。"
+            }
           }
         ]
       },
@@ -5052,7 +5908,10 @@
             "speed": 100,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "大洋 回遊し ごく稀に ヒスイの近海 訪れると 噂あり。 フィオネに 似た 姿なれど 違い多く 関係 分からず。"
+            }
           }
         ]
       },
@@ -5072,7 +5931,10 @@
             "speed": 100,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "季節 巡り 厳冬 終わりしこと 喜び 天に 感謝 捧げしとき このポケモン 現れ 枯れし大地を 花で 満たす。"
+            }
           },
           {
             "form": "スカイフォルム",
@@ -5086,7 +5948,10 @@
             "speed": 127,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "珍しき花の香 嗅ぎしとき 小さき体 光に包まれ 姿 変貌す。 花の香 試しに 嗅ぐも 我が身に 変化なし。"
+            }
           }
         ]
       },
@@ -5106,7 +5971,10 @@
             "speed": 125,
             "ability1": "",
             "ability2": "",
-            "dream_ability": ""
+            "dream_ability": "",
+            "description": {
+                "legendsarceus": "月 消えし夜。 集落の村人 全員が 悪夢 見る 珍事あり。 悪夢の中に 現れしポケモンと 村人ら 証言す。"
+            }
           }
         ]
       }
