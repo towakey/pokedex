@@ -1,6 +1,6 @@
 {
   "version":"2.0.0",
-  "update": "20230410",
+  "update": "20230502",
   "game_version": "Sword_Shield",
   "pokedex": {
     "ガラル図鑑": [
@@ -16580,7 +16580,7 @@
             "special_attack": 85,
             "special_defense": 130,
             "speed": 50,
-            "ability1": "じんばいったい",
+            "ability1": "じんばいったい(はくばじょうのすがた)",
             "ability2": "",
             "dream_ability": "",
             "description": {
@@ -16598,7 +16598,7 @@
             "special_attack": 165,
             "special_defense": 100,
             "speed": 150,
-            "ability1": "じんばいったい",
+            "ability1": "じんばいったい(こくばじょうのすがた)",
             "ability2": "",
             "dream_ability": "",
             "description": {
