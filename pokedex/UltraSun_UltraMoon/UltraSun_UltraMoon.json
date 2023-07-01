@@ -1,6 +1,6 @@
-{
+﻿{
   "version":"2.0.0",
-  "update": "20230403",
+  "update": "20230701",
   "game_version": "UltraSun_UltraMoon",
   "pokedex": {
     "アローラ図鑑": [
@@ -7344,7 +7344,7 @@
             "special_attack": 65,
             "special_defense": 55,
             "speed": 95,
-            "ability1": "せんでんき",
+            "ability1": "せいでんき",
             "ability2": "",
             "dream_ability": "やるき",
             "description": {
@@ -7368,7 +7368,7 @@
             "special_attack": 95,
             "special_defense": 85,
             "speed": 105,
-            "ability1": "せんでんき",
+            "ability1": "せいでんき",
             "ability2": "",
             "dream_ability": "やるき",
             "description": {
