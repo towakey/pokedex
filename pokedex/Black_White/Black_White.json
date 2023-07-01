@@ -1,6 +1,6 @@
-{
+﻿{
   "version":"2.0.0",
-  "update": "20230401",
+  "update": "20230701",
   "game_version": "Black_White",
   "pokedex": {
     "イッシュ図鑑": [
@@ -2508,7 +2508,7 @@
             "special_attack": 24,
             "special_defense": 86,
             "speed": 10,
-            "ability1": "てつのとげ",
+            "ability1": "てつのトゲ",
             "ability2": "",
             "dream_ability": "",
             "description": {
@@ -2532,7 +2532,7 @@
             "special_attack": 54,
             "special_defense": 116,
             "speed": 20,
-            "ability1": "てつのとげ",
+            "ability1": "てつのトゲ",
             "ability2": "",
             "dream_ability": "",
             "description": {
