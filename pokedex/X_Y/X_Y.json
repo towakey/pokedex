@@ -1,6 +1,6 @@
 {
   "version":"2.0.0",
-  "update": "20231210",
+  "update": "20231211",
   "game_version": "X_Y",
   "pokedex": {
     "セントラルカロス図鑑": [
@@ -3684,7 +3684,7 @@
             "special_attack": 80,
             "special_defense": 85,
             "speed": 100,
-            "ability1": "ひとがた",
+            "ability1": "ヨガパワー",
             "ability2": "",
             "dream_ability": "",
             "description": {
