@@ -1399,6 +1399,24 @@
                 "x": "てっぱんも かみちぎる キバを もち およぐ そくどは じそく120キロ。べつめいは うみのギャング。",
                 "y": "おしりから かいすいを ふんしゃして じそく 120キロの スピードで およぎまわる うみの あばれんぼう。"
             }
+          },
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "あく",
+            "hp": 70,
+            "attack": 140,
+            "defense": 70,
+            "special_attack": 110,
+            "special_defense": 65,
+            "speed": 105,
+            "ability1": "がんじょうあご",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "x": "",
+                "y": ""
+            }
           }
         ]
       },
@@ -1698,6 +1716,24 @@
             "description": {
                 "x": "あいての かんがえを びんかんに キャッチする のうりょくを もつため さきに こうげきが できるのだ。",
                 "y": "のびちぢみする ひじの かたなで たたかう。 いあいの めいしゅ。 れいぎ ただしい ポケモン。"
+            }
+          },
+          {
+            "form": "",
+            "type1": "エスパー",
+            "type2": "かくとう",
+            "hp": 68,
+            "attack": 165,
+            "defense": 95,
+            "special_attack": 65,
+            "special_defense": 115,
+            "speed": 110,
+            "ability1": "せいしんりょく",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "x": "",
+                "y": ""
             }
           }
         ]
@@ -3169,6 +3205,24 @@
                 "x": "みみの しょっかくで あいての たいちょうや タマゴから ポケモンが いつ でてくるのかも わかるのだ。",
                 "y": "みみの しょっかくで あいてに ふれると しんぞうの おとで たいちょうや きもちが わかるのだ。"
             }
+          },
+          {
+            "form": "メガタブンネ",
+            "type1": "ノーマル",
+            "type2": "フェアリー",
+            "hp": 103,
+            "attack": 60,
+            "defense": 126,
+            "special_attack": 80,
+            "special_defense": 126,
+            "speed": 50,
+            "ability1": "いやしのこころ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "x": "",
+                "y": ""
+            }
           }
         ]
       },
@@ -4329,6 +4383,24 @@
                 "x": "おこらせると てが つけられない。すべての ものを ツメで きりさき ほのおで もやして はかいする。",
                 "y": "ひとたび おこると おおあばれ。そらを とびながら ちじょうの のやまを ほのおで やきはらう。"
             }
+          },
+          {
+            "form": "メガボーマンダ",
+            "type1": "ドラゴン",
+            "type2": "ひこう",
+            "hp": 95,
+            "attack": 145,
+            "defense": 130,
+            "special_attack": 120,
+            "special_defense": 90,
+            "speed": 120,
+            "ability1": "スカイスキン",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "x": "",
+                "y": ""
+            }
           }
         ]
       },
@@ -5240,6 +5312,24 @@
             "description": {
                 "x": " ちちゅうの たかい あつりょくと ねつで きたえられた からだは あらゆる きんぞくよりも かたい。",
                 "y": " じょうぶな あごで がんせきを かみくだき すすむ。まっくらな ちちゅうでも みえる めを もつ。"
+            }
+          },
+          {
+            "form": "メガハガネール",
+            "type1": "はがね",
+            "type2": "じめん",
+            "hp": 75,
+            "attack": 125,
+            "defense": 230,
+            "special_attack": 55,
+            "special_defense": 95,
+            "speed": 30,
+            "ability1": "すなのちから",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "x": "",
+                "y": ""
             }
           }
         ]
@@ -7304,6 +7394,24 @@
             "description": {
                 "x": " くっついている シェルダーは しっぽから にじみでる うまみが ほしくて ずっと はなれない。",
                 "y": " ヤドンが うみへ エサを とりにいったとき シェルダーに しっぽをかまれ ヤドランになった。"
+            }
+          },
+          {
+            "form": "メガヤドラン",
+            "type1": "みず",
+            "type2": "エスパー",
+            "hp": 95,
+            "attack": 75,
+            "defense": 180,
+            "special_attack": 130,
+            "special_defense": 80,
+            "speed": 30,
+            "ability1": "シェルアーマー",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "x": "",
+                "y": ""
             }
           }
         ]
@@ -10270,7 +10378,7 @@
             "special_attack": 60,
             "special_defense": 80,
             "speed": 50,
-            "ability1": "かいじゅう",
+            "ability1": "フィルター",
             "ability2": "",
             "dream_ability": "",
             "description": {
@@ -11266,6 +11374,24 @@
             "description": {
                 "x": "おおぞらを ゆったりと とぶ。チルタリスの うつくしい ハミングを きくと うっとり ゆめごごちだ。",
                 "y": "はれたひ わたぐもに まぎれながら おおぞらを じゆうに とびまわり うつくしい ソプラノで うたう。"
+            }
+          },
+          {
+            "form": "メガチルタリス",
+            "type1": "ドラゴン",
+            "type2": "フェアリー",
+            "hp": 75,
+            "attack": 110,
+            "defense": 110,
+            "special_attack": 110,
+            "special_defense": 105,
+            "speed": 80,
+            "ability1": "フェアリースキン",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "x": "",
+                "y": ""
             }
           }
         ]
