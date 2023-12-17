@@ -1,6 +1,6 @@
 {
   "version":"100",
-  "update": "20231003",
+  "update": "20231217",
   "pokedex": [
     {
       "id": 1,
@@ -21855,6 +21855,338 @@
           "classification": "パラドックスポケモン",
           "height": "3.5",
           "weight": "240.0"
+        }
+      ]
+    },
+    {
+      "id": 1009,
+      "name": {
+        "jpn": "ウネルミナモ",
+        "eng": "Walking Wake",
+        "ger": "Windewoge",
+        "fra": "Serpente-Eau",
+        "kor": "굽이치는물결",
+        "chs": "波荡水",
+        "cht": "波盪水"
+      },
+      "": [
+        {
+          "form": "",
+          "classification": "パラドックスポケモン",
+          "height": "3.5",
+          "weight": "280.0"
+        }
+      ]
+    },
+    {
+      "id": 1010,
+      "name": {
+        "jpn": "テツノイサハ",
+        "eng": "Iron Leaves",
+        "ger": "Eisenblatt",
+        "fra": "Vert-de-Fer",
+        "kor": "무쇠잎새",
+        "chs": "铁斑叶",
+        "cht": "鐵斑葉"
+      },
+      "": [
+        {
+          "form": "",
+          "classification": "パラドックスポケモン",
+          "height": "1.5",
+          "weight": "125.0"
+        }
+      ]
+    },
+    {
+      "id": 1011,
+      "name": {
+        "jpn": "カミッチュ",
+        "eng": "Dipplin",
+        "ger": "Sirapfel",
+        "fra": "Pomdramour",
+        "kor": "과미르",
+        "chs": "裹蜜虫",
+        "cht": "裹蜜蟲"
+      },
+      "": [
+        {
+          "form": "",
+          "classification": "りんごあめポケモン",
+          "height": "0.4",
+          "weight": "4.4"
+        }
+      ]
+    },
+    {
+      "id": 1012,
+      "name": {
+        "jpn": "チャデス",
+        "eng": "Poltchageist",
+        "ger": "Mortcha",
+        "fra": "Poltchageist",
+        "kor": "차데스",
+        "chs": "斯魔茶",
+        "cht": "斯魔茶"
+      },
+      "": [
+        {
+          "form": "",
+          "classification": "まっちゃポケモン",
+          "height": "0.1",
+          "weight": "1.1"
+        }
+      ]
+    },
+    {
+      "id": 1013,
+      "name": {
+        "jpn": "ヤバソチャ",
+        "eng": "Sinistcha",
+        "ger": "Fatalitcha",
+        "fra": "Théffroyable",
+        "kor": "그우린차",
+        "chs": "来悲粗茶",
+        "cht": "來悲粗茶"
+      },
+      "": [
+        {
+          "form": "",
+          "classification": "まっちゃポケモン",
+          "height": "0.2",
+          "weight": "2.2"
+        }
+      ]
+    },
+    {
+      "id": 1014,
+      "name": {
+        "jpn": "イイネイヌ",
+        "eng": "Okidogi",
+        "ger": "Boninu",
+        "fra": "Félicanis",
+        "kor": "조타구",
+        "chs": "够赞狗",
+        "cht": "夠讚狗"
+      },
+      "": [
+        {
+          "form": "",
+          "classification": "けらいポケモン",
+          "height": "1.8",
+          "weight": "92.0"
+        }
+      ]
+    },
+    {
+      "id": 1015,
+      "name": {
+        "jpn": "マシマシラ",
+        "eng": "Munkidori",
+        "ger": "Benesaru",
+        "fra": "Fortusimia",
+        "kor": "이야후",
+        "chs": "愿增猿",
+        "cht": "願增猿"
+      },
+      "": [
+        {
+          "form": "",
+          "classification": "けらいポケモン",
+          "height": "1.0",
+          "weight": "12.2"
+        }
+      ]
+    },
+    {
+      "id": 1016,
+      "name": {
+        "jpn": "キチキギス",
+        "eng": "Fezandipiti",
+        "ger": "Beatori",
+        "fra": "Favianos",
+        "kor": "기로치",
+        "chs": "吉雉鸡",
+        "cht": "吉雉雞"
+      },
+      "": [
+        {
+          "form": "",
+          "classification": "けらいポケモン",
+          "height": "1.4",
+          "weight": "30.1"
+        }
+      ]
+    },
+    {
+      "id": 1017,
+      "name": {
+        "jpn": "オーガポン",
+        "eng": "Ogerpon",
+        "ger": "Ogerpon",
+        "fra": "Ogerpon",
+        "kor": "오거폰",
+        "chs": "厄诡椪",
+        "cht": "厄鬼椪"
+      },
+      "": [
+        {
+          "form": "",
+          "classification": "おめんポケモン",
+          "height": "1.2",
+          "weight": "39.8"
+        }
+      ]
+    },
+    {
+      "id": 1018,
+      "name": {
+        "jpn": "ブリジュラス",
+        "eng": "Archaludon",
+        "ger": "Briduradon",
+        "fra": "Pondralugon",
+        "kor": "브리두라스",
+        "chs": "铝钢桥龙",
+        "cht": "鋁鋼橋龍"
+      },
+      "": [
+        {
+          "form": "",
+          "classification": "ごうきんポケモン",
+          "height": "2.0",
+          "weight": "60.0"
+        }
+      ]
+    },
+    {
+      "id": 1019,
+      "name": {
+        "jpn": "カミツオロチ",
+        "eng": "Hydrapple",
+        "ger": "Hydrapfel",
+        "fra": "Pomdorochi",
+        "kor": "과미드라",
+        "chs": "蜜集大蛇",
+        "cht": "蜜集大蛇"
+      },
+      "": [
+        {
+          "form": "",
+          "classification": "りんごオロチポケモン",
+          "height": "1.8",
+          "weight": "93.0"
+        }
+      ]
+    },
+    {
+      "id": 1020,
+      "name": {
+        "jpn": "ウガツホムラ",
+        "eng": "Gouging Fire",
+        "ger": "Keilflamme",
+        "fra": "Feu-Perçant",
+        "kor": "꿰뚫는화염",
+        "chs": "破空焰",
+        "cht": "破空焰"
+      },
+      "": [
+        {
+          "form": "",
+          "classification": "パラドックスポケモン",
+          "height": "3.5",
+          "weight": "590.0"
+        }
+      ]
+    },
+    {
+      "id": 1021,
+      "name": {
+        "jpn": "タケルライコ",
+        "eng": "Raging Bolt",
+        "ger": "Furienblitz",
+        "fra": "Ire-Foudre",
+        "kor": "날뛰는우레",
+        "chs": "猛雷鼓",
+        "cht": "猛雷鼓"
+      },
+      "": [
+        {
+          "form": "",
+          "classification": "パラドックスポケモン",
+          "height": "5.2",
+          "weight": "480.0"
+        }
+      ]
+    },
+    {
+      "id": 1022,
+      "name": {
+        "jpn": "テツノイワオ",
+        "eng": "Iron Boulder",
+        "ger": "Eisenfels",
+        "fra": "Roc-de-Fer",
+        "kor": "무쇠암석",
+        "chs": "铁磐岩",
+        "cht": "鐵磐岩"
+      },
+      "": [
+        {
+          "form": "",
+          "classification": "パラドックスポケモン",
+          "height": "1.5",
+          "weight": "162.5"
+        }
+      ]
+    },
+    {
+      "id": 1023,
+      "name": {
+        "jpn": "テツノカシラ",
+        "eng": "Iron Crown",
+        "ger": "Eisenhaupt",
+        "fra": "Chef-de-Fer",
+        "kor": "무쇠감투",
+        "chs": "铁头壳",
+        "cht": "鐵頭殼"
+      },
+      "": [
+        {
+          "form": "",
+          "classification": "パラドックスポケモン",
+          "height": "1.6",
+          "weight": "156.0"
+        }
+      ]
+    },
+    {
+      "id": 1024,
+      "name": {
+        "jpn": "テラパゴス",
+        "eng": "Terapagos",
+        "ger": "Terapagos",
+        "fra": "Terapagos",
+        "kor": "테라파고스",
+        "chs": "太乐巴戈斯",
+        "cht": "太樂巴戈斯"
+      },
+      "": [
+        {
+          "form": "ノーマルフォルム",
+          "classification": "テラスタルポケモン",
+          "height": "0.2",
+          "weight": "6.5"
+        },
+        {
+          "form": "テラスタルフォルム",
+          "classification": "テラスタルポケモン",
+          "height": "0.3",
+          "weight": "16.0"
+        },
+        {
+          "form": "ステラフォルム",
+          "classification": "テラスタルポケモン",
+          "height": "1.7",
+          "weight": "77.0"
         }
       ]
     }
