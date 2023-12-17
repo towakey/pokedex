@@ -1,6 +1,6 @@
 {
   "version":"2.0.0",
-  "update": "20231217",
+  "update": "20231218",
   "game_version": "Scarlet_Violet",
   "pokedex": {
     "パルデア図鑑": [
@@ -6449,8 +6449,7 @@
             "dream_ability": "",
             "description": {
                 "scarlet": "ゾロアークを 捕らえようとした 人を 幻の 景色の中に 閉じこめ こらしめた といわれる。",
-                "violet": "いっぺんに 大勢の 人を 化かす 力を 持つ。 幻の 景色を 見せて 棲み処を 守る。
-ブラック2・ホワイト2、スカーレット"
+                "violet": "いっぺんに 大勢の 人を 化かす 力を 持つ。 幻の 景色を 見せて 棲み処を 守る。"
             }
           }
         ]
@@ -10879,84 +10878,6 @@
             "description": {
                 "scarlet": "詳細は よく わかっていない。 モトトカゲに 似た 印象だが はるかに 強く 冷酷なのだ。",
                 "violet": "古い 書物に 名が ある テツノオロチらしい。 雷で 大地を 灰に 変えたという。"
-            }
-          }
-        ]
-      },
-      {
-        "no": "",
-        "globalNo": "",
-        "status": [
-          {
-            "form": "",
-            "type1": "",
-            "type2": "",
-            "hp": ,
-            "attack": ,
-            "defense": ,
-            "special_attack": ,
-            "special_defense": ,
-            "speed": ,
-            "ability1": "",
-            "ability2": "",
-            "dream_ability": "",
-            "description": {
-                "scarlet": "",
-                "violet": ""
-            }
-          },
-          {
-            "form": "",
-            "type1": "",
-            "type2": "",
-            "hp": ,
-            "attack": ,
-            "defense": ,
-            "special_attack": ,
-            "special_defense": ,
-            "speed": ,
-            "ability1": "",
-            "ability2": "",
-            "dream_ability": "",
-            "description": {
-                "scarlet": "",
-                "violet": ""
-            }
-          },
-          {
-            "form": "",
-            "type1": "",
-            "type2": "",
-            "hp": ,
-            "attack": ,
-            "defense": ,
-            "special_attack": ,
-            "special_defense": ,
-            "speed": ,
-            "ability1": "",
-            "ability2": "",
-            "dream_ability": "",
-            "description": {
-                "scarlet": "",
-                "violet": ""
-            }
-          },
-          {
-            "form": "",
-            "type1": "はがね",
-            "type2": "",
-            "hp": 70,
-            "attack": 110,
-            "defense": 100,
-            "special_attack": 50,
-            "special_defense": 60,
-            "speed": 50,
-            "ability1": "カブトアーマー",
-            "ability2": "かたいツメ",
-            "dream_ability": "はがねのせいしん",
-            "description": {
-                "scarlet": "",
-                "violet": ""
             }
           }
         ]
