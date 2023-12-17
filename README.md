@@ -15,11 +15,11 @@
 - 5世代:ブラック、ホワイト、ブラック2、ホワイト2
 - 6世代:X、Y、オメガルビー、アルファサファイア
 - 7世代:サン、ムーン、ウルトラサン、ウルトラムーン
-- 8世代:ソード、シールド、エキスパンションパス
-- 9世代:レジェンズアルセウス
-
+- 8世代:ソード、シールド、鎧の孤島、冠の雪原、レジェンズアルセウス
+- 9世代:スカーレット、バイオレット、碧の仮面、藍の円盤
 ---
 ## 各ファイルの構成
+
 ### pokedex.json
 - version
 - update
@@ -33,91 +33,38 @@
     - kor
     - chs
     - cht
-  - classification
-  - height
-  - weight
+  - ("" or mega_evolution or primal_reversion or region_form or gigantamax)
+    - classification
+    - height
+    - weight
 ---
 
-### description.json
+### [各ゲームタイトル/各ゲームタイトル.json]
 - version
 - update
-- description
-  - id
-  - ja
-    - red
-    - green
-    - blue
-    - pikachu
-    - gold
-    - silver
-    - crystal
-    - ruby
-    - sapphire
-    - firered
-    - leafgreen
-    - emerald
-    - diamond
-    - pearl
-    - platinum
-    - black
-    - white
-    - black2
-    - white2
-    - heartgold
-    - soulsilver
-    - x
-    - x_kanji
-    - y
-    - y_kanji
-    - omegaruby
-    - omegaruby_kanji
-    - alphasapphire
-    - alphasapphire_kanji
-    - sun
-    - sun_kanji
-    - moon
-    - moon_kanji
-    - ultrasun
-    - ultrasun_kanji
-    - ultramoon
-    - ultramoon_kanji
-    - letsgopikachu
-    - letsgopikachu_kanji
-    - letsgoeevee
-    - letsgoeevee_kanji
-    - sword
-    - sword_kanji
-    - shield
-    - shield_kanji
-    - pokemongo
-    - pokemonstadium
-    - pokemonpinball
-    - pokemonranger
+- game_version
+- pokedex
+  - ローカル図鑑
+    - no
+    - globalNo
+    - status
+      - form
+      - type1
+      - type2
+      - hp
+      - attack
+      - defense
+      - special_attack
+      - special_defense
+      - speed
+      - ability1
+      - ability2
+      - dream_ability
+      - description
+        - game ver1
+        - game ver2
+        - etc...
 ---
-
-### gen*_conversion.json
-- gen
-- name
-- conversion
-  - [ローカル図鑑]
-  - [全国図鑑]
----
-
-### gen*.json
-- version
-- update
-- gen*
-  - local_id
-  - type1
-  - type2
-  - hp
-  - attack
-  - defense
-  - special_attack
-  - special_defense
-  - speed
----
-
 ### type.json
 - version
 - update
@@ -141,4 +88,3 @@
     - あく
     - はがね
     - フェアリー
-
