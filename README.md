@@ -88,3 +88,12 @@
     - あく
     - はがね
     - フェアリー
+---
+### ability.json
+- version
+- update
+- ability
+  - とくせい名
+    - game_version1
+    - game_version2
+    - etc...
