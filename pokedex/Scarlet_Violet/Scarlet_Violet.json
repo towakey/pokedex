@@ -1,6 +1,6 @@
 {
   "version":"2.0.0",
-  "update": "20231218",
+  "update": "20231223",
   "game_version": "Scarlet_Violet",
   "pokedex": {
     "パルデア図鑑": [
@@ -16022,6 +16022,6338 @@
             "description": {
                 "scarlet": "家を 支える 礎のように どっしりと 衝撃を 受け止める 守りに 秀でた 姿。",
                 "violet": "岩の力を 引き出す 姿。 頑丈な 石の 体で あらゆる 攻撃から 身を守る。"
+            }
+          }
+        ]
+      }
+    ],
+    "ブルーベリー図鑑": [
+      {
+        "no": "1",
+        "globalNo": "84",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 35,
+            "attack": 85,
+            "defense": 45,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 75,
+            "ability1": "にげあし",
+            "ability2": "はやおき",
+            "dream_ability": "ちどりあし",
+            "description": {
+                "scarlet": "まったく 同じ 遺伝子を 持つ ふたごの 頭が 息ぴったりの コンビネーションで 戦う。",
+                "violet": "頭は 同時に 眠らない。 約1時間ごとに 代わるがわる 起きて 見張り役を 交代する。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "2",
+        "globalNo": "85",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 110,
+            "defense": 70,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 110,
+            "ability1": "にげあし",
+            "ability2": "はやおき",
+            "dream_ability": "ちどりあし",
+            "description": {
+                "scarlet": "頭は 同時に 眠らない。 約1時間ごとに 代わるがわる 起きて 見張り役を 交代する。",
+                "violet": "いちばん 首が 太く 力の 強い 頭が リーダーとして 体の 主導権を 握る。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "3",
+        "globalNo": "102",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "エスパー",
+            "hp": 60,
+            "attack": 40,
+            "defense": 80,
+            "special_attack": 60,
+            "special_defense": 45,
+            "speed": 40,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "しゅうかく",
+            "description": {
+                "scarlet": "タマゴだと 思って 触ると 仲間が どんどん 集まってきて 集団攻撃に あう。",
+                "violet": "タマタマだけに 伝わる テレパシーを 出し合っているので どんなときでも 6匹 集まれる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "4",
+        "globalNo": "103",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "エスパー",
+            "hp": 95,
+            "attack": 95,
+            "defense": 85,
+            "special_attack": 125,
+            "special_defense": 75,
+            "speed": 55,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "しゅうかく",
+            "description": {
+                "scarlet": "歩く 熱帯雨林 と呼ばれる。 実の ひとつひとつに 顔があって それぞれ 意思を 持っている。",
+                "violet": "ごくまれに 頭の どれか ひとつが 地面に 落ちると タマタマになって 動きだすという。"
+            }
+          },
+          {
+            "form": "アローラのすがた",
+            "type1": "くさ",
+            "type2": "ドラゴン",
+            "hp": 95,
+            "attack": 105,
+            "defense": 85,
+            "special_attack": 125,
+            "special_defense": 75,
+            "speed": 45,
+            "ability1": "おみとおし",
+            "ability2": "",
+            "dream_ability": "しゅうかく",
+            "description": {
+                "scarlet": "長い首を ムチのように しならせ 頭を 相手に 叩きつける。 自分も 少しだけ 目を回す。",
+                "violet": "伸び伸び 育って サイコパワーは いらなくなり 眠れる ドラゴンの 力が 覚醒 したのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "5",
+        "globalNo": "111",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 80,
+            "attack": 85,
+            "defense": 95,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 25,
+            "ability1": "ひらいしん",
+            "ability2": "いしあたま",
+            "dream_ability": "すてみ",
+            "description": {
+                "scarlet": "半径10キロメートルの 範囲を 縄張りにしているが 走っていると 縄張りを 忘れてしまうらしい。",
+                "violet": "走りだすと 大岩に 衝突しても 止まらない 性質のため 生息地が 広がっていったのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "6",
+        "globalNo": "112",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 105,
+            "attack": 130,
+            "defense": 120,
+            "special_attack": 45,
+            "special_defense": 45,
+            "speed": 40,
+            "ability1": "ひらいしん",
+            "ability2": "いしあたま",
+            "dream_ability": "すてみ",
+            "description": {
+                "scarlet": "ダイヤモンドの 原石を 砕く 威力の ツノを 仲間同士で ぶつけあって 磨きあげている。",
+                "violet": "後ろ脚だけで 歩けるように 進化したので 険しい 山にも 生息地を 広げられたのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "7",
+        "globalNo": "464",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 115,
+            "attack": 140,
+            "defense": 130,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 40,
+            "ability1": "ひらいしん",
+            "ability2": "ハードロック",
+            "dream_ability": "すてみ",
+            "description": {
+                "scarlet": "丈夫な プロテクターが 火山の 噴火から 身を 守る。 丸い 岩を 手の 穴から 撃ち出す。",
+                "violet": "脳は サイドンよりも 小さいが そのぶんの エネルギーを すべて 戦いに 使うので 強いのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "8",
+        "globalNo": "48",
+        "status": [
+          {
+            "form": "",
+            "type1": "むし",
+            "type2": "どく",
+            "hp": 60,
+            "attack": 55,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 55,
+            "speed": 45,
+            "ability1": "ふくがん",
+            "ability2": "いろめがね",
+            "dream_ability": "にげあし",
+            "description": {
+                "scarlet": "全身から 毒が にじみでる。 暗くなると 灯りに 群がった 小さな 虫ポケモンを 捕らえる。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "9",
+        "globalNo": "49",
+        "status": [
+          {
+            "form": "",
+            "type1": "むし",
+            "type2": "どく",
+            "hp": 70,
+            "attack": 65,
+            "defense": 60,
+            "special_attack": 90,
+            "special_defense": 75,
+            "speed": 90,
+            "ability1": "りんぷん",
+            "ability2": "いろめがね",
+            "dream_ability": "ミラクルスキン",
+            "description": {
+                "scarlet": "翅に りんぷんが ついていて ヒラヒラと 羽ばたくたびに 猛毒の粉を ばらまく。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "10",
+        "globalNo": "239",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 45,
+            "attack": 63,
+            "defense": 37,
+            "special_attack": 65,
+            "special_defense": 55,
+            "speed": 95,
+            "ability1": "せいでんき",
+            "ability2": "",
+            "dream_ability": "やるき",
+            "description": {
+                "scarlet": "激しい 雷が 大好き。 体に 電気を 溜めるとき ツノのあいだが 青白く 光る。",
+                "violet": "腕を ぐるぐる回して 電気を 発生させるが すぐ 疲れるので 少ししか 電気が 溜められない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "11",
+        "globalNo": "125",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 65,
+            "attack": 83,
+            "defense": 57,
+            "special_attack": 95,
+            "special_defense": 85,
+            "speed": 105,
+            "ability1": "せいでんき",
+            "ability2": "",
+            "dream_ability": "やるき",
+            "description": {
+                "scarlet": "全身から つねに 電気が 放たれているため 近づくと 髪の毛が 逆立ってしまう。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "12",
+        "globalNo": "466",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 75,
+            "attack": 123,
+            "defense": 67,
+            "special_attack": 95,
+            "special_defense": 85,
+            "speed": 95,
+            "ability1": "でんきエンジン",
+            "ability2": "",
+            "dream_ability": "やるき",
+            "description": {
+                "scarlet": "興奮すると 胸を 打ち鳴らす。 そのたびに 電気火花が 散り 雷鳴が あたりに 響き渡る。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "13",
+        "globalNo": "240",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 45,
+            "attack": 75,
+            "defense": 37,
+            "special_attack": 70,
+            "special_defense": 55,
+            "speed": 83,
+            "ability1": "ほのおのからだ",
+            "ability2": "",
+            "dream_ability": "やるき",
+            "description": {
+                "scarlet": "息を 吸ったり 吐いたり するたびに 口と 鼻から 火の粉が 漏れてしまう。",
+                "violet": "マグマのような 血液が 体内に 流れているため 体温は 600度にも なる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "14",
+        "globalNo": "126",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 65,
+            "attack": 95,
+            "defense": 57,
+            "special_attack": 100,
+            "special_defense": 85,
+            "speed": 93,
+            "ability1": "ほのおのからだ",
+            "ability2": "",
+            "dream_ability": "やるき",
+            "description": {
+                "scarlet": "火山の 火口近くで 見つかった。 口から 炎を 吐く。 体温は 1200度もある。",
+                "violet": "体の 表面には 太陽と 同じような 炎の ゆらめきが 発生している。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "15",
+        "globalNo": "467",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 75,
+            "attack": 95,
+            "defense": 67,
+            "special_attack": 125,
+            "special_defense": 95,
+            "speed": 83,
+            "ability1": "ほのおのからだ",
+            "ability2": "",
+            "dream_ability": "やるき",
+            "description": {
+                "scarlet": "腕の先から 摂氏2000度の 火の玉を 撃ちだすとき 体は 熱のため ほのかに 白くなる。",
+                "violet": "火山の 火口に 棲む。 1つの 火山には ひとつがいの ブーバーンしかいないと いわれる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "16",
+        "globalNo": "440",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 100,
+            "attack": 5,
+            "defense": 5,
+            "special_attack": 15,
+            "special_defense": 65,
+            "speed": 30,
+            "ability1": "しぜんかいふく",
+            "ability2": "てんのめぐみ",
+            "dream_ability": "フレンドガード",
+            "description": {
+                "scarlet": "お腹の 袋に 白くて 丸い 石を 入れている。 仲良くなると 分けてくれることも あるよ。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "17",
+        "globalNo": "113",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 250,
+            "attack": 5,
+            "defense": 5,
+            "special_attack": 35,
+            "special_defense": 105,
+            "speed": 50,
+            "ability1": "しぜんかいふく",
+            "ability2": "てんのめぐみ",
+            "dream_ability": "いやしのこころ",
+            "description": {
+                "scarlet": "傷ついた ポケモンや 人がいると 栄養満点の タマゴを産み 分け与える 優しい ポケモン。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "18",
+        "globalNo": "242",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 255,
+            "attack": 10,
+            "defense": 10,
+            "special_attack": 75,
+            "special_defense": 135,
+            "speed": 55,
+            "ability1": "しぜんかいふく",
+            "ability2": "てんのめぐみ",
+            "dream_ability": "いやしのこころ",
+            "description": {
+                "scarlet": "ハピナスが 産んだ タマゴを ひとくちでも 食べた 人は だれにでも 優しく なれる。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "19",
+        "globalNo": "123",
+        "status": [
+          {
+            "form": "",
+            "type1": "むし",
+            "type2": "ひこう",
+            "hp": 70,
+            "attack": 110,
+            "defense": 80,
+            "special_attack": 55,
+            "special_defense": 80,
+            "speed": 105,
+            "ability1": "むしのしらせ",
+            "ability2": "テクニシャン",
+            "dream_ability": "ふくつのこころ",
+            "description": {
+                "scarlet": "切れ味 鋭い カマを 使って 草むらを 切り進む。あまりに 速い 動きで 目が 追いつかない。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "20",
+        "globalNo": "212",
+        "status": [
+          {
+            "form": "",
+            "type1": "むし",
+            "type2": "はがね",
+            "hp": 70,
+            "attack": 130,
+            "defense": 100,
+            "special_attack": 55,
+            "special_defense": 80,
+            "speed": 65,
+            "ability1": "むしのしらせ",
+            "ability2": "テクニシャン",
+            "dream_ability": "ライトメタル",
+            "description": {
+                "scarlet": "鋼鉄を 含んでいる ハサミで 捕らえたものは どんなに 硬くても コナゴナに 砕く。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "21",
+        "globalNo": "900",
+        "status": [
+          {
+            "form": "",
+            "type1": "むし",
+            "type2": "いわ",
+            "hp": 70,
+            "attack": 135,
+            "defense": 95,
+            "special_attack": 45,
+            "special_defense": 70,
+            "speed": 85,
+            "ability1": "むしのしらせ",
+            "ability2": "ちからずく",
+            "dream_ability": "きれあじ",
+            "description": {
+                "scarlet": "火山地帯で ごくまれに 見つかる 鉱石によって 体の 一部が 岩へと 変わる 進化を 遂げた。",
+                "violet": "粗野で がさつな 乱暴者。 大きく 重い 岩の オノを ぶん回して 獲物を 仕留める。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "22",
+        "globalNo": "128",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 75,
+            "attack": 100,
+            "defense": 95,
+            "special_attack": 40,
+            "special_defense": 70,
+            "speed": 110,
+            "ability1": "いかく",
+            "ability2": "いかりのつぼ",
+            "dream_ability": "ちからずく",
+            "description": {
+                "scarlet": "獲物に 狙いを つけると 尻尾で 体を 叩きながら まっすぐ 突っ込んでくる。",
+                "violet": "ツノを つきあわせて 戦う。 群れを守る 強い ケンタロスは キズだらけの ツノを 自慢する。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "23",
+        "globalNo": "522",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 45,
+            "attack": 60,
+            "defense": 32,
+            "special_attack": 50,
+            "special_defense": 32,
+            "speed": 76,
+            "ability1": "ひらいしん",
+            "ability2": "でんきエンジン",
+            "dream_ability": "そうしょく",
+            "description": {
+                "scarlet": "心臓の 鼓動で 発電する。 驚いて 心拍数が 上がると 電圧も 上昇するぞ。",
+                "violet": "落雷の 多い 土地を 好む。 たてがみで 雷を 受け止め 体に 電気を 溜めこむのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "24",
+        "globalNo": "523",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 75,
+            "attack": 100,
+            "defense": 63,
+            "special_attack": 80,
+            "special_defense": 63,
+            "speed": 116,
+            "ability1": "ひらいしん",
+            "ability2": "でんきエンジン",
+            "dream_ability": "そうしょく",
+            "description": {
+                "scarlet": "気性が 荒く 攻撃的。 興奮すると たてがみを 黄色く 輝かせて 電撃を 放つ。",
+                "violet": "雷鳴を 聞くと 群れの シママが 雷から 充電できるように 群れで 雷雲を 追いかける。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "25",
+        "globalNo": "203",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "エスパー",
+            "hp": 70,
+            "attack": 80,
+            "defense": 65,
+            "special_attack": 90,
+            "special_defense": 65,
+            "speed": 85,
+            "ability1": "せいしんりょく",
+            "ability2": "はやおき",
+            "dream_ability": "そうしょく",
+            "description": {
+                "scarlet": "尻尾の 脳は とても 小さいが 強力な エスパーパワーを 発揮する 大事な 器官なのだ。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "26",
+        "globalNo": "981",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "エスパー",
+            "hp": 120,
+            "attack": 90,
+            "defense": 70,
+            "special_attack": 110,
+            "special_defense": 70,
+            "speed": 60,
+            "ability1": "はんすう",
+            "ability2": "テイルアーマー",
+            "dream_ability": "そうしょく",
+            "description": {
+                "scarlet": "頭と 尻尾の 2つの 脳波が 同期したことで エスパーパワーは キリンリキの 10倍 アップした。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "27",
+        "globalNo": "551",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "あく",
+            "hp": 50,
+            "attack": 72,
+            "defense": 35,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 65,
+            "ability1": "いかく",
+            "ability2": "じしんかじょう",
+            "dream_ability": "いかりのつぼ",
+            "description": {
+                "scarlet": "砂の中に 潜り 泳ぐように 移動。 敵に みつからないためと 体温を 下げない 知恵 なのだ。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "28",
+        "globalNo": "552",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "あく",
+            "hp": 60,
+            "attack": 82,
+            "defense": 45,
+            "special_attack": 45,
+            "special_defense": 45,
+            "speed": 74,
+            "ability1": "いかく",
+            "ability2": "じしんかじょう",
+            "dream_ability": "いかりのつぼ",
+            "description": {
+                "scarlet": "薄い 膜で 被われている 両目は 真夜中でも 見える。数匹の 群れで 暮らしている。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "29",
+        "globalNo": "553",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "あく",
+            "hp": 95,
+            "attack": 117,
+            "defense": 80,
+            "special_attack": 65,
+            "special_defense": 70,
+            "speed": 92,
+            "ability1": "いかく",
+            "ability2": "じしんかじょう",
+            "dream_ability": "いかりのつぼ",
+            "description": {
+                "scarlet": "強力な あごで 噛みつくと そのまま 思い切り 体を ひねり 獲物を 切断する。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "30",
+        "globalNo": "953",
+        "status": [
+          {
+            "form": "",
+            "type1": "むし",
+            "type2": "",
+            "hp": 41,
+            "attack": 50,
+            "defense": 60,
+            "special_attack": 31,
+            "special_defense": 58,
+            "speed": 30,
+            "ability1": "ふくがん",
+            "ability2": "",
+            "dream_ability": "だっぴ",
+            "description": {
+                "scarlet": "エスパーエネルギーを 混ぜこみながら 土と 砂で 泥玉を 作る。 泥玉は 命より 大切。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "31",
+        "globalNo": "954",
+        "status": [
+          {
+            "form": "",
+            "type1": "むし",
+            "type2": "エスパー",
+            "hp": 75,
+            "attack": 50,
+            "defense": 85,
+            "special_attack": 115,
+            "special_defense": 100,
+            "speed": 45,
+            "ability1": "シンクロ",
+            "ability2": "",
+            "dream_ability": "テレパシー",
+            "description": {
+                "scarlet": "玉を 支える 体は ほとんど 動かないため 本体は 玉の中にいると 考えられている。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "32",
+        "globalNo": "627",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 70,
+            "attack": 83,
+            "defense": 50,
+            "special_attack": 37,
+            "special_defense": 50,
+            "speed": 60,
+            "ability1": "するどいめ",
+            "ability2": "ちからずく",
+            "dream_ability": "はりきり",
+            "description": {
+                "scarlet": "見境なく 勝負を 挑む。 倒れるたびに 傷つくたびに 強く たくましく 育っていく。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "33",
+        "globalNo": "628",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 100,
+            "attack": 123,
+            "defense": 75,
+            "special_attack": 57,
+            "special_defense": 75,
+            "speed": 80,
+            "ability1": "するどいめ",
+            "ability2": "ちからずく",
+            "dream_ability": "まけんき",
+            "description": {
+                "scarlet": "勇猛果敢な 大空の戦士。 体の 傷が 多いほど 仲間から 尊敬されるという。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "34",
+        "globalNo": "629",
+        "status": [
+          {
+            "form": "",
+            "type1": "あく",
+            "type2": "ひこう",
+            "hp": 70,
+            "attack": 55,
+            "defense": 75,
+            "special_attack": 45,
+            "special_defense": 65,
+            "speed": 60,
+            "ability1": "はとむね",
+            "ability2": "ぼうじん",
+            "dream_ability": "くだけるよろい",
+            "description": {
+                "scarlet": "手ごろな ガイコツを 見つけて お尻を 防御する 習性。 弱い ポケモンを 追いかけまわす。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "35",
+        "globalNo": "630",
+        "status": [
+          {
+            "form": "",
+            "type1": "あく",
+            "type2": "ひこう",
+            "hp": 110,
+            "attack": 65,
+            "defense": 105,
+            "special_attack": 55,
+            "special_defense": 95,
+            "speed": 80,
+            "ability1": "はとむね",
+            "ability2": "ぼうじん",
+            "dream_ability": "くだけるよろい",
+            "description": {
+                "scarlet": "バルチャイの ために いつも エサを 探している。 弱った ポケモンを 見つけ次第 巣まで 連れ去るぞ。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "36",
+        "globalNo": "667",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "ノーマル",
+            "hp": 62,
+            "attack": 50,
+            "defense": 58,
+            "special_attack": 73,
+            "special_defense": 54,
+            "speed": 72,
+            "ability1": "とうそうしん",
+            "ability2": "きんちょうかん",
+            "dream_ability": "じしんかじょう",
+            "description": {
+                "scarlet": "幼いうちに メスの カエンジシに 狩りを 教わるが 成長すると 群れを 離れて 独り立ちする。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "37",
+        "globalNo": "668",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "ノーマル",
+            "hp": 86,
+            "attack": 68,
+            "defense": 72,
+            "special_attack": 109,
+            "special_defense": 66,
+            "speed": 106,
+            "ability1": "とうそうしん",
+            "ability2": "きんちょうかん",
+            "dream_ability": "じしんかじょう",
+            "description": {
+                "scarlet": "群れの メスが 協力して 獲物を 仕留める。 メスたちの おかげで 群れが 飢えないのだ。",
+                "violet": ""
+            }
+          }
+        ]
+      },
+      {
+        "no": "38",
+        "globalNo": "585",
+        "status": [
+          {
+            "form": "はるのすがた",
+            "type1": "ノーマル",
+            "type2": "くさ",
+            "hp": 60,
+            "attack": 60,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 50,
+            "speed": 75,
+            "ability1": "ようりょくそ",
+            "ability2": "そうしょく",
+            "dream_ability": "てんのめぐみ",
+            "description": {
+                "scarlet": "季節で 匂いも 変化する。 春先は ふんわりと 甘くて 落ち着く 香りがするのだ。",
+                "violet": "かわいい 見た目だが 草木の 新芽を 好んで 食べてしまうので 農家の 人には 煙たがられる。"
+            }
+          },
+          {
+            "form": "なつのすがた",
+            "type1": "ノーマル",
+            "type2": "くさ",
+            "hp": 60,
+            "attack": 60,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 50,
+            "speed": 75,
+            "ability1": "ようりょくそ",
+            "ability2": "そうしょく",
+            "dream_ability": "てんのめぐみ",
+            "description": {
+                "scarlet": "畑に 入ってこないように 天敵の ルガルガンに 見張りを まかせる 農家は 多いのだ。",
+                "violet": "季節で 匂いも 変化する。 独特の 青臭い 匂いが 香ってきたら 夏の 始まりだ。"
+            }
+          },
+          {
+            "form": "あきのすがた",
+            "type1": "ノーマル",
+            "type2": "くさ",
+            "hp": 60,
+            "attack": 60,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 50,
+            "speed": 75,
+            "ability1": "ようりょくそ",
+            "ability2": "そうしょく",
+            "dream_ability": "てんのめぐみ",
+            "description": {
+                "scarlet": "人見知りしない 性格なので 人間の 前でも マイペース。 エサを あげると すぐ 懐くよ。",
+                "violet": "季節で 匂いも 変化する。 この姿の シキジカは しっとり 甘く 鼻に 残る 香りだ。"
+            }
+          },
+          {
+            "form": "ふゆのすがた",
+            "type1": "ノーマル",
+            "type2": "くさ",
+            "hp": 60,
+            "attack": 60,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 50,
+            "speed": 75,
+            "ability1": "ようりょくそ",
+            "ability2": "そうしょく",
+            "dream_ability": "てんのめぐみ",
+            "description": {
+                "scarlet": "シキジカの 体臭は 季節で 変わるが 冬の姿になると ほとんど 匂いがしなくなるぞ。",
+                "violet": "仲良くなると 頭突きで じゃれる。 花に 隠れていて わからないが ツノが あって 地味に 痛い。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "39",
+        "globalNo": "586",
+        "status": [
+          {
+            "form": "はるのすがた",
+            "type1": "ノーマル",
+            "type2": "くさ",
+            "hp": 80,
+            "attack": 100,
+            "defense": 70,
+            "special_attack": 60,
+            "special_defense": 70,
+            "speed": 95,
+            "ability1": "ようりょくそ",
+            "ability2": "そうしょく",
+            "dream_ability": "てんのめぐみ",
+            "description": {
+                "scarlet": "ツノの 花が 多い メブキジカは 花に 栄養が 取られるため 成長が 少し 遅いらしい。",
+                "violet": "愛好家の 多い ポケモン。 ツノに 咲く 薄紅色の 花が 淡いほど 美しいとされている。"
+            }
+          },
+          {
+            "form": "なつのすがた",
+            "type1": "ノーマル",
+            "type2": "くさ",
+            "hp": 80,
+            "attack": 100,
+            "defense": 70,
+            "special_attack": 60,
+            "special_defense": 70,
+            "speed": 95,
+            "ability1": "ようりょくそ",
+            "ability2": "そうしょく",
+            "dream_ability": "てんのめぐみ",
+            "description": {
+                "scarlet": "愛好家の 多い ポケモン。 ツノに 繁る 枝葉が ぶ厚く 大きいほど 見事と されている。",
+                "violet": "葉っぱから 紅茶が 作られる。 産地によって 味は 異なり パルデア産は 香りが 強い。"
+            }
+          },
+          {
+            "form": "あきのすがた",
+            "type1": "ノーマル",
+            "type2": "くさ",
+            "hp": 80,
+            "attack": 100,
+            "defense": 70,
+            "special_attack": 60,
+            "special_defense": 70,
+            "speed": 95,
+            "ability1": "ようりょくそ",
+            "ability2": "そうしょく",
+            "dream_ability": "てんのめぐみ",
+            "description": {
+                "scarlet": "愛好家の 多い ポケモン。 ツノから 垂れる 枝葉の 赤が 濃いものほど 乙と されている。",
+                "violet": "秋の姿の メブキジカは とても 気性が 荒いと 知られている。 オス同士は ケンカが 絶えない。"
+            }
+          },
+          {
+            "form": "ふゆのすがた",
+            "type1": "ノーマル",
+            "type2": "くさ",
+            "hp": 80,
+            "attack": 100,
+            "defense": 70,
+            "special_attack": 60,
+            "special_defense": 70,
+            "speed": 95,
+            "ability1": "ようりょくそ",
+            "ability2": "そうしょく",
+            "dream_ability": "てんのめぐみ",
+            "description": {
+                "scarlet": "この姿の 時期は おとなしく とても しつけやすいといわれ パートナーにする チャンスなのだ。",
+                "violet": "愛好家の 多い ポケモンだが この季節の 姿にかぎっては 好む 者は あまり いないのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "40",
+        "globalNo": "235",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 55,
+            "attack": 20,
+            "defense": 35,
+            "special_attack": 20,
+            "special_defense": 45,
+            "speed": 75,
+            "ability1": "マイペース",
+            "ability2": "テクニシャン",
+            "dream_ability": "ムラっけ",
+            "description": {
+                "scarlet": "大人になると 仲間から 背中に 足跡の マークを つけられる 習性を 持つ。",
+                "violet": "尻尾の 先から 分泌する 謎の 液体の 色は ドーブルごとに 決まっている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "41",
+        "globalNo": "479",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "ゴースト",
+            "hp": 50,
+            "attack": 50,
+            "defense": 77,
+            "special_attack": 95,
+            "special_defense": 77,
+            "speed": 91,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "電気のような 体は 一部の 機械に 入り込むことが できる。そして その体で いたずらする。",
+                "violet": "特殊な モーターを 動かす 動力源として 長い あいだ 研究されていた ポケモン。"
+            }
+          },
+          {
+            "form": "ヒートロトム",
+            "type1": "でんき",
+            "type2": "ほのお",
+            "hp": 50,
+            "attack": 65,
+            "defense": 107,
+            "special_attack": 105,
+            "special_defense": 107,
+            "speed": 86,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "オーブンレンジ 自体の 調子が 悪いと 中に 入っている ロトムも 元気が なくなるのだ。",
+                "violet": "オーブンレンジに 入った 姿。 高温で あたりを 焼き焦がして 楽しそうに 笑っている。"
+            }
+          },
+          {
+            "form": "ウォッシュロトム",
+            "type1": "でんき",
+            "type2": "みず",
+            "hp": 50,
+            "attack": 65,
+            "defense": 107,
+            "special_attack": 105,
+            "special_defense": 107,
+            "speed": 86,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "洗濯機に 入った 姿。 あたりを 水浸しにしては 満足そうに うなずいている。",
+                "violet": "すでに 生産中止のため ロトムが 入れる 洗濯機は 高値で 取引されているのだ。"
+            }
+          },
+          {
+            "form": "フロストロトム",
+            "type1": "でんき",
+            "type2": "こおり",
+            "hp": 50,
+            "attack": 65,
+            "defense": 107,
+            "special_attack": 105,
+            "special_defense": 107,
+            "speed": 86,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "冷蔵庫に 入った 姿。 冷気で あたりを 凍てつかせ 愉快そうに 跳ねまわっている。",
+                "violet": "冷蔵庫の 中に 入った 特殊な モーターが ロトムを フォルムチェンジさせる カギだ。"
+            }
+          },
+          {
+            "form": "スピンロトム",
+            "type1": "でんき",
+            "type2": "ひこう",
+            "hp": 50,
+            "attack": 65,
+            "defense": 107,
+            "special_attack": 105,
+            "special_defense": 107,
+            "speed": 86,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "扇風機に 入った 姿。 あたりのものを 吹き飛ばしては してやったりと ほくそ笑んでいる。",
+                "violet": "ロトムが 入れる 家電製品は いくつか あるが いちばん 初めに 開発されたのは 扇風機だ。"
+            }
+          },
+          {
+            "form": "カットロトム",
+            "type1": "でんき",
+            "type2": "くさ",
+            "hp": 50,
+            "attack": 65,
+            "defense": 107,
+            "special_attack": 105,
+            "special_defense": 107,
+            "speed": 86,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "ロトム図鑑が 誕生する きっかけとなった 家電製品の ひとつが 芝刈り機なのだ。",
+                "violet": "芝刈り機に 入った 姿。 花や 草を なぎ払うと 自信満々に 威張っている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "42",
+        "globalNo": "868",
+        "status": [
+          {
+            "form": "",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 45,
+            "attack": 40,
+            "defense": 40,
+            "special_attack": 50,
+            "special_defense": 61,
+            "speed": 34,
+            "ability1": "スイートベール",
+            "ability2": "",
+            "dream_ability": "アロマベール",
+            "description": {
+                "scarlet": "甘い 香りを 取りこむほどに 体は 大きく 膨らむが エネルギーが 減ると しぼんでいく。",
+                "violet": "敵に 襲われたら たいあたり。 クリームまみれにして みえなくするか おいしさに 驚かせて 逃げだす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "43",
+        "globalNo": "869",
+        "status": [
+          {
+            "form": "ミルキィバニラ",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 65,
+            "attack": 60,
+            "defense": 75,
+            "special_attack": 110,
+            "special_defense": 121,
+            "speed": 64,
+            "ability1": "スイートベール",
+            "ability2": "",
+            "dream_ability": "アロマベール",
+            "description": {
+                "scarlet": "マホイップが デコレーションした スイーツは 深みのある あまさで 食べた みんなを 幸せにする。",
+                "violet": "大事にされた マホイップが だす クリームは 絶品のため 優しく 育てる トレーナーばかりだ。"
+            }
+          },
+          {
+            "form": "ミルキィルビー",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 65,
+            "attack": 60,
+            "defense": 75,
+            "special_attack": 110,
+            "special_defense": 121,
+            "speed": 64,
+            "ability1": "スイートベール",
+            "ability2": "",
+            "dream_ability": "アロマベール",
+            "description": {
+                "scarlet": "進化するとき 体の 細胞に 繊細な 揺れが 発生したため 甘酸っぱい フレーバーと なった。",
+                "violet": "敵に 襲われると 甘酸っぱい フレーバーが アクセントの クリームを 投げつけて 反撃。"
+            }
+          },
+          {
+            "form": "ミルキィまっちゃ",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 65,
+            "attack": 60,
+            "defense": 75,
+            "special_attack": 110,
+            "special_defense": 121,
+            "speed": 64,
+            "ability1": "スイートベール",
+            "ability2": "",
+            "dream_ability": "アロマベール",
+            "description": {
+                "scarlet": "進化するとき 体の 細胞に 繊細な 揺れが 発生したため 香ばしい フレーバーと なった。",
+                "violet": "敵に 襲われると 香ばしい フレーバーが アクセントの クリームを 投げつけて 反撃。"
+            }
+          },
+          {
+            "form": "ミルキィミント",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 65,
+            "attack": 60,
+            "defense": 75,
+            "special_attack": 110,
+            "special_defense": 121,
+            "speed": 64,
+            "ability1": "スイートベール",
+            "ability2": "",
+            "dream_ability": "アロマベール",
+            "description": {
+                "scarlet": "進化するとき 体の 細胞に 繊細な 揺れが 発生したため 爽やかな フレーバーと なった。",
+                "violet": "敵に 襲われると 爽やかな フレーバーが アクセントの クリームを 投げつけて 反撃。"
+            }
+          },
+          {
+            "form": "ミルキィレモン",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 65,
+            "attack": 60,
+            "defense": 75,
+            "special_attack": 110,
+            "special_defense": 121,
+            "speed": 64,
+            "ability1": "スイートベール",
+            "ability2": "",
+            "dream_ability": "アロマベール",
+            "description": {
+                "scarlet": "進化するとき 体の 細胞に 繊細な 揺れが 発生したため 酸っぱい フレーバーと なった。",
+                "violet": "敵に 襲われると 酸っぱい フレーバーが アクセントの クリームを 投げつけて 反撃。"
+            }
+          },
+          {
+            "form": "ミルキィソルト",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 65,
+            "attack": 60,
+            "defense": 75,
+            "special_attack": 110,
+            "special_defense": 121,
+            "speed": 64,
+            "ability1": "スイートベール",
+            "ability2": "",
+            "dream_ability": "アロマベール",
+            "description": {
+                "scarlet": "進化するとき 体の 細胞に 繊細な 揺れが 発生したため しょっぱい フレーバーと なった。",
+                "violet": "敵に 襲われると しょっぱい フレーバーが アクセントの クリームを 投げつけて 反撃。"
+            }
+          },
+          {
+            "form": "ルビーミックス",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 65,
+            "attack": 60,
+            "defense": 75,
+            "special_attack": 110,
+            "special_defense": 121,
+            "speed": 64,
+            "ability1": "スイートベール",
+            "ability2": "",
+            "dream_ability": "アロマベール",
+            "description": {
+                "scarlet": "進化するとき 体の 細胞に 繊細な 揺れが 発生したため お得な フレーバーと なった。",
+                "violet": "敵に 襲われると お得な フレーバーが アクセントの クリームを 投げつけて 反撃。"
+            }
+          },
+          {
+            "form": "キャラメルミックス",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 65,
+            "attack": 60,
+            "defense": 75,
+            "special_attack": 110,
+            "special_defense": 121,
+            "speed": 64,
+            "ability1": "スイートベール",
+            "ability2": "",
+            "dream_ability": "アロマベール",
+            "description": {
+                "scarlet": "進化するとき 体の 細胞に 繊細な 揺れが 発生したため 苦味ある フレーバーと なった。",
+                "violet": "敵に 襲われると 苦味ある フレーバーが アクセントの クリームを 投げつけて 反撃。"
+            }
+          },
+          {
+            "form": "トリプルミックス",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 65,
+            "attack": 60,
+            "defense": 75,
+            "special_attack": 110,
+            "special_defense": 121,
+            "speed": 64,
+            "ability1": "スイートベール",
+            "ability2": "",
+            "dream_ability": "アロマベール",
+            "description": {
+                "scarlet": "進化するとき 体の 細胞に 繊細な 揺れが 発生したため 複雑な フレーバーと なった。",
+                "violet": "敵に 襲われると 複雑な フレーバーが アクセントの クリームを 投げつけて 反撃。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "44",
+        "globalNo": "328",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 45,
+            "attack": 100,
+            "defense": 45,
+            "special_attack": 45,
+            "special_defense": 45,
+            "speed": 10,
+            "ability1": "かいりきバサミ",
+            "ability2": "ありじごく",
+            "dream_ability": "ちからずく",
+            "description": {
+                "scarlet": "乾燥した 砂漠に 生息。 すり鉢状の 巣穴の中で 獲物を じっと 待ち続ける。",
+                "violet": "大きな あごで 邪魔な 岩を 砕きながら 砂を 掘る。 巣穴の 形は スリ鉢状。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "45",
+        "globalNo": "329",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "ドラゴン",
+            "hp": 50,
+            "attack": 70,
+            "defense": 50,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 70,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "未熟な 翅は 飛ぶことよりも 擦って 超音波を 出して 敵を 攻撃するのに 使う。",
+                "violet": "翅を 激しく 振動させて 超音波を 発生。 気絶した 獲物を 消化液で 溶かす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "46",
+        "globalNo": "330",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "ドラゴン",
+            "hp": 80,
+            "attack": 100,
+            "defense": 80,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 100,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "砂漠の精霊 と 呼ばれる。 はばたくことで 巻き起こした 砂嵐の 中に 隠れている。",
+                "violet": "羽音は まるで 歌声。 音に 魅せられた者は 砂嵐に 巻き込まれ フライゴンの 餌食。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "47",
+        "globalNo": "731",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 35,
+            "attack": 75,
+            "defense": 30,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 65,
+            "ability1": "するどいめ",
+            "ability2": "スキルリンク",
+            "dream_ability": "ものひろい",
+            "description": {
+                "scarlet": "どれだけ 堅い 樹木でも 秒間 16連打の クチバシ 攻撃で 穴を あけてしまう。",
+                "violet": "頭を 激しく 揺さぶっても 首の 筋肉が 強いおかげで ダメージは まったく ない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "48",
+        "globalNo": "732",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 55,
+            "attack": 85,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 50,
+            "speed": 75,
+            "ability1": "するどいめ",
+            "ability2": "スキルリンク",
+            "dream_ability": "ものひろい",
+            "description": {
+                "scarlet": "100種類の 鳴き声を 使い分けて 自分の 縄張りを アピールしながら 飛び回っている。",
+                "violet": "敵に 出会うと クチバシに 溜めこんでいた 多くの 木の実の タネを 放射状に 撃ちだす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "49",
+        "globalNo": "733",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 80,
+            "attack": 120,
+            "defense": 75,
+            "special_attack": 75,
+            "special_defense": 75,
+            "speed": 60,
+            "ability1": "するどいめ",
+            "ability2": "スキルリンク",
+            "dream_ability": "ちからずく",
+            "description": {
+                "scarlet": "クチバシの中で 圧縮させた ガスを 使い 撃ちだす 木のタネは 大きな 岩も 砕く 威力。",
+                "violet": "番いの ドデカバシは クチバシの 温度を 上げて 温めあうので 仲良しの シンボルと されている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "50",
+        "globalNo": "72",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "どく",
+            "hp": 40,
+            "attack": 40,
+            "defense": 35,
+            "special_attack": 50,
+            "special_defense": 100,
+            "speed": 70,
+            "ability1": "クリアボディ",
+            "ability2": "ヘドロえき",
+            "dream_ability": "あめうけざら",
+            "description": {
+                "scarlet": "潮が 引くと 砂浜に 残されて 干からびた メノクラゲを 見ることが できる。",
+                "violet": "水晶のように 透き通った 目玉から 不思議な 光の ビームを 発射する。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "51",
+        "globalNo": "73",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "どく",
+            "hp": 80,
+            "attack": 70,
+            "defense": 65,
+            "special_attack": 80,
+            "special_defense": 120,
+            "speed": 100,
+            "ability1": "クリアボディ",
+            "ability2": "ヘドロえき",
+            "dream_ability": "あめうけざら",
+            "description": {
+                "scarlet": "まれに 大量発生すると あたりの 海から 魚ポケモンが 一切 いなくなってしまう。",
+                "violet": "戦いのとき 80本の 触手を すべて 伸ばして 毒の 包囲網を 作り上げる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "52",
+        "globalNo": "116",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 30,
+            "attack": 40,
+            "defense": 70,
+            "special_attack": 70,
+            "special_defense": 25,
+            "speed": 60,
+            "ability1": "すいすい",
+            "ability2": "スナイパー",
+            "dream_ability": "しめりけ",
+            "description": {
+                "scarlet": "大きな 相手に 襲われても 発達した 背びれを 操り 水中を 自由に 逃げる。",
+                "violet": "ぜんまいのように クルクル巻かれた 尻尾で 体の バランスをとる。 口から スミを 吐くことが ある。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "53",
+        "globalNo": "117",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 55,
+            "attack": 65,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 45,
+            "speed": 85,
+            "ability1": "どくのトゲ",
+            "ability2": "スナイパー",
+            "dream_ability": "しめりけ",
+            "description": {
+                "scarlet": "オスが 子供を 育てる。 そのとき 近づくものは 猛毒の トゲを 使って 追い払う。",
+                "violet": "ヒレの 先から 毒を 分泌。 ヒレや 骨は 漢方薬の 材料として 重宝される。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "54",
+        "globalNo": "230",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "ドラゴン",
+            "hp": 75,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 85,
+            "ability1": "すいすい",
+            "ability2": "スナイパー",
+            "dream_ability": "しめりけ",
+            "description": {
+                "scarlet": "力を 蓄えるため 深い 海底で 眠っているらしい。 目覚めると 竜巻に なるという。",
+                "violet": "どんな 生き物も 降りられない 深い 海の底で 眠りながら 力を 蓄えている という。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "55",
+        "globalNo": "779",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "エスパー",
+            "hp": 68,
+            "attack": 105,
+            "defense": 70,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 92,
+            "ability1": "ビビッドボディ",
+            "ability2": "がんじょうあご",
+            "dream_ability": "ミラクルスキン",
+            "description": {
+                "scarlet": "強く 歯ぎしり することで 脳を 刺激。 生みだした サイコパワーを 頭の 突起から 撃ち出す。",
+                "violet": "歯ぎしりで 起こる 波紋に 陽の光が 反射するとき まわりの 水は 眩いばかりに きらめく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "56",
+        "globalNo": "546",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "フェアリー",
+            "hp": 40,
+            "attack": 27,
+            "defense": 60,
+            "special_attack": 37,
+            "special_defense": 50,
+            "speed": 66,
+            "ability1": "いたずらごころ",
+            "ability2": "すりぬけ",
+            "dream_ability": "ようりょくそ",
+            "description": {
+                "scarlet": "モンメンの 吐く 綿を 使った 枕や 布団は 軽くて 通気の 良い 高級品だ。",
+                "violet": "襲われると 体から 綿を 飛ばす。 敵が 綿を モンメンと 間違えている 隙に 逃げるのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "57",
+        "globalNo": "547",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "フェアリー",
+            "hp": 60,
+            "attack": 67,
+            "defense": 85,
+            "special_attack": 77,
+            "special_defense": 75,
+            "speed": 116,
+            "ability1": "いたずらごころ",
+            "ability2": "すりぬけ",
+            "dream_ability": "ようりょくそ",
+            "description": {
+                "scarlet": "どんなに 細い 隙間でも 風のように 潜り抜けてしまう。 白い 毛玉を 残していく。",
+                "violet": "風に 乗り 民家に 侵入。 部屋中を 綿まみれにすると ニコニコ 笑って 去っていく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "58",
+        "globalNo": "764",
+        "status": [
+          {
+            "form": "",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 51,
+            "attack": 52,
+            "defense": 90,
+            "special_attack": 82,
+            "special_defense": 110,
+            "speed": 100,
+            "ability1": "フラワーベール",
+            "ability2": "ヒーリングシフト",
+            "dream_ability": "しぜんかいふく",
+            "description": {
+                "scarlet": "ツルを 使って 花を 摘みとる。 体に つけた 花からは 癒しの 効果が 現れる。",
+                "violet": "花を つけていると 嬉しくなって 癒しの 効果を 発揮する。 花が 多い 土地を 好む。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "59",
+        "globalNo": "287",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 60,
+            "attack": 60,
+            "defense": 60,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 30,
+            "ability1": "なまけ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "1日のうち 20時間 眠る。 見ている 相手の 眠気を 誘うのも 能力の ひとつ。",
+                "violet": "ナマケロの 怠けた 様子は 見ている 人の 怠け心を 存分に 刺激するのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "60",
+        "globalNo": "288",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 80,
+            "attack": 80,
+            "defense": 80,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 90,
+            "ability1": "やるき",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "体を 動かしていないと ストレスが 溜まりすぎて 具合が 悪くなってしまうのだ。",
+                "violet": "いつも 暴れているので すぐに お腹が 空いてしまうが 食事の ときも じっとして いられない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "61",
+        "globalNo": "289",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 150,
+            "attack": 160,
+            "defense": 100,
+            "special_attack": 95,
+            "special_defense": 65,
+            "speed": 100,
+            "ability1": "なまけ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "世界一の ぐうたらだが 溜まった エネルギーを 一気に 出すことで 恐ろしい パワーを 発揮する。",
+                "violet": "寝転がったまま 生活 する。 まわりに 食べる 草が なくなると ようやく 寝返りをして 動く。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "62",
+        "globalNo": "43",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 45,
+            "attack": 50,
+            "defense": 55,
+            "special_attack": 75,
+            "special_defense": 65,
+            "speed": 30,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "にげあし",
+            "description": {
+                "scarlet": "別名 アルキメンデス。 夜になると 2本の 根っこで 300メートルも 歩くという。",
+                "violet": "月の光を 浴びて 目覚めると あちこち 動きまわる。 昼間は 地面の中で じっとしている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "63",
+        "globalNo": "44",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 60,
+            "attack": 65,
+            "defense": 70,
+            "special_attack": 85,
+            "special_defense": 75,
+            "speed": 40,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "あくしゅう",
+            "description": {
+                "scarlet": "少しずつ 染みだしてくるのは よだれではない。 蜜のような汁で 獲物を おびき寄せているのだ。",
+                "violet": "ねばねばした よだれのような 蜜。 とても 甘いのだが においが 異常に 臭くて 近寄れない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "64",
+        "globalNo": "45",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 75,
+            "attack": 80,
+            "defense": 85,
+            "special_attack": 110,
+            "special_defense": 90,
+            "speed": 50,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "ほうし",
+            "description": {
+                "scarlet": "ボンッという 音がして つぼみが 開くと アレルギーを 起こす 毒花粉を ばら撒きはじめる。",
+                "violet": "世界一 大きい 花びらから アレルギーを 起こす 花粉を 鬼のように ばら撒く。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "65",
+        "globalNo": "182",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 75,
+            "attack": 80,
+            "defense": 95,
+            "special_attack": 90,
+            "special_defense": 100,
+            "speed": 50,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "いやしのこころ",
+            "description": {
+                "scarlet": "たいようのいしの 影響で 昼に 活動するように なった。 陽だまりのなかで 踊るのが 好き。",
+                "violet": "生まれ育った 森を 離れ キレイハナだけで 群れを 作る。 気持ちが 昂ると 踊りだす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "66",
+        "globalNo": "50",
+        "status": [
+          {
+            "form": "アローラのすがた",
+            "type1": "じめん",
+            "type2": "はがね",
+            "hp": 10,
+            "attack": 55,
+            "defense": 30,
+            "special_attack": 35,
+            "special_defense": 45,
+            "speed": 90,
+            "ability1": "すながくれ",
+            "ability2": "カーリーヘアー",
+            "dream_ability": "すなのちから",
+            "description": {
+                "scarlet": "頭から 生えているのは 髭が 変化 したもので 金属質。 ゆらゆら 動き 仲間と 交信。",
+                "violet": "金色の 髭は センサー機能を 持っている。 穴から だして 周りの 様子を うかがっている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "67",
+        "globalNo": "51",
+        "status": [
+          {
+            "form": "アローラのすがた",
+            "type1": "じめん",
+            "type2": "はがね",
+            "hp": 35,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 50,
+            "special_defense": 70,
+            "speed": 110,
+            "ability1": "すながくれ",
+            "ability2": "カーリーヘアー",
+            "dream_ability": "すなのちから",
+            "description": {
+                "scarlet": "金色に 輝く 髭で 身を 守っている。 抜け落ちた 髭を 持ち帰ると 不幸に なると いう。",
+                "violet": "大地の 女神たちの 化身と 考えられ アローラ地方では とても 大切に されている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "68",
+        "globalNo": "88",
+        "status": [
+          {
+            "form": "アローラのすがた",
+            "type1": "どく",
+            "type2": "あく",
+            "hp": 80,
+            "attack": 80,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 50,
+            "speed": 25,
+            "ability1": "どくしゅ",
+            "ability2": "くいしんぼう",
+            "dream_ability": "かがくのちから",
+            "description": {
+                "scarlet": "ゴミ問題を 解決 するため よそから 持ちこんだ ベトベターが いつのまにか この姿に なった。",
+                "violet": "結晶は 毒素の 塊。ベトベターの 身体から 落ちると 死に至る 毒素が 漏れだすぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "69",
+        "globalNo": "89",
+        "status": [
+          {
+            "form": "アローラのすがた",
+            "type1": "どく",
+            "type2": "あく",
+            "hp": 105,
+            "attack": 105,
+            "defense": 75,
+            "special_attack": 65,
+            "special_defense": 100,
+            "speed": 50,
+            "ability1": "どくしゅ",
+            "ability2": "くいしんぼう",
+            "dream_ability": "かがくのちから",
+            "description": {
+                "scarlet": "やたら 鮮やかな 身体の 色は 喰らった ゴミが 体内で 常に 化学変化を 起こしているから。",
+                "violet": "意外に 大人しく なつくが 餌の ゴミを ずっと あげていないと 家の 家具を 壊して 喰らいだす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "70",
+        "globalNo": "335",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 73,
+            "attack": 115,
+            "defense": 60,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 90,
+            "ability1": "めんえき",
+            "ability2": "",
+            "dream_ability": "どくぼうそう",
+            "description": {
+                "scarlet": "ハブネークとは 因縁の あいだ。 出会うと すかさず 前足の ツメを 広げて 威嚇するのだ。",
+                "violet": "ハブネークに 出会うと 体毛が 逆立ち 攻撃態勢になる。 鋭い ツメが 最大の 武器。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "71",
+        "globalNo": "336",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 73,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 100,
+            "special_defense": 60,
+            "speed": 65,
+            "ability1": "だっぴ",
+            "ability2": "",
+            "dream_ability": "すりぬけ",
+            "description": {
+                "scarlet": "硬い 岩で 刀の 尻尾を 研ぐ。 しげみに 隠れて 獲物に 近寄り 毒の キバで 襲う。",
+                "violet": "尻尾の 刀は いつも 岩で 研いでいるので 切れ味 ばつぐん。ザングースとは 因縁の あいだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "72",
+        "globalNo": "739",
+        "status": [
+          {
+            "form": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 47,
+            "attack": 82,
+            "defense": 57,
+            "special_attack": 42,
+            "special_defense": 47,
+            "speed": 63,
+            "ability1": "かいりきバサミ",
+            "ability2": "てつのこぶし",
+            "dream_ability": "いかりのつぼ",
+            "description": {
+                "scarlet": "木を 殴りつけ 木の実を 落として 食べる。 トレーニングしつつ エサも 採れて 一石二鳥 なのだ。",
+                "violet": "ハサミは もげても すぐに 生える。 カラから 良い 出汁が でるので パエリアの 具材として 人気。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "73",
+        "globalNo": "740",
+        "status": [
+          {
+            "form": "",
+            "type1": "かくとう",
+            "type2": "こおり",
+            "hp": 97,
+            "attack": 132,
+            "defense": 77,
+            "special_attack": 62,
+            "special_defense": 67,
+            "speed": 43,
+            "ability1": "かいりきバサミ",
+            "ability2": "てつのこぶし",
+            "dream_ability": "いかりのつぼ",
+            "description": {
+                "scarlet": "もげた ハサミは とても 美味しい。 わざわざ 山に グルトンを 連れて 探しにくる トレーナーも いるぞ。",
+                "violet": "パンチは 強力だが 動きが 遅い。 口から 氷の 泡を 吹いて 相手の 動きを 止める。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "74",
+        "globalNo": "741",
+        "status": [
+          {
+            "form": "めらめらスタイル",
+            "type1": "ほのお",
+            "type2": "ひこう",
+            "hp": 75,
+            "attack": 70,
+            "defense": 70,
+            "special_attack": 98,
+            "special_defense": 70,
+            "speed": 93,
+            "ability1": "おどりこ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "情熱的に 踊るさまが パルデアの 人々の 気質に 合うのか 非常に 人気だ。",
+                "violet": "くれないのミツを 吸った 姿。 情熱的な ステップを 踏み 激しい 炎を 巻き起こす。"
+            }
+          },
+          {
+            "form": "ぱちぱちスタイル",
+            "type1": "でんき",
+            "type2": "ひこう",
+            "hp": 75,
+            "attack": 70,
+            "defense": 70,
+            "special_attack": 98,
+            "special_defense": 70,
+            "speed": 93,
+            "ability1": "おどりこ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "やまぶきのミツを 吸った 姿。 軽快な ステップで 相手に 近寄り 電撃パンチで KO。",
+                "violet": "元気 かつ 陽気な ダンスが 子どもたちに 人気の スタイルだが パルデアでは あまり 見かけない。"
+            }
+          },
+          {
+            "form": "ふらふらスタイル",
+            "type1": "エスパー",
+            "type2": "ひこう",
+            "hp": 75,
+            "attack": 70,
+            "defense": 70,
+            "special_attack": 98,
+            "special_defense": 70,
+            "speed": 93,
+            "ability1": "おどりこ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "軽やかな ダンスが 健康維持に 効果的と 人気の スタイルだが パルデアでは あまり 見かけない。",
+                "violet": "うすもものミツを 吸った 姿。 緩やかな ステップで 精神を 高め サイコパワーを 放つ。"
+            }
+          },
+          {
+            "form": "まいまいスタイル",
+            "type1": "ゴースト",
+            "type2": "ひこう",
+            "hp": 75,
+            "attack": 70,
+            "defense": 70,
+            "special_attack": 98,
+            "special_defense": 70,
+            "speed": 93,
+            "ability1": "おどりこ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "むらさきのミツを 吸った 姿。 幻想的な ステップで 死者の 魂を 呼び出す。",
+                "violet": "艶やか かつ 雅な ダンスで 大人に 人気の スタイルだが パルデアでは あまり 見かけない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "75",
+        "globalNo": "79",
+        "status": [
+          {
+            "form": "ガラルのすがた",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 90,
+            "attack": 65,
+            "defense": 65,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 15,
+            "ability1": "くいしんぼう",
+            "ability2": "マイペース",
+            "dream_ability": "さいせいりょく",
+            "description": {
+                "scarlet": "いつも ボーッとしているが たまに 顔つきが ピリッと 引き締まる。 食べている エサが 原因らしい。",
+                "violet": "ガラル地方にだけ 生息する 植物の タネを 食べているため しっぽは スパイシーな 味わいだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "76",
+        "globalNo": "80",
+        "status": [
+          {
+            "form": "ガラルのすがた",
+            "type1": "どく",
+            "type2": "エスパー",
+            "hp": 95,
+            "attack": 100,
+            "defense": 95,
+            "special_attack": 100,
+            "special_defense": 70,
+            "speed": 30,
+            "ability1": "クイックドロウ",
+            "ability2": "マイペース",
+            "dream_ability": "さいせいりょく",
+            "description": {
+                "scarlet": "シェルダーに 噛みつかれた 刺激と 体内の スパイスが 化学的に 反応して どくタイプになった。",
+                "violet": "噛みついている シェルダーの ベロを 握ると 巻貝の 先端から 猛毒の 液体を 撃ちだす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "77",
+        "globalNo": "199",
+        "status": [
+          {
+            "form": "ガラルのすがた",
+            "type1": "どく",
+            "type2": "エスパー",
+            "hp": 95,
+            "attack": 65,
+            "defense": 80,
+            "special_attack": 110,
+            "special_defense": 110,
+            "speed": 30,
+            "ability1": "きみょうなくすり",
+            "ability2": "マイペース",
+            "dream_ability": "さいせいりょく",
+            "description": {
+                "scarlet": "進化の ショックと 毒素によって シェルダーの 知能が 上がりまくり ヤドキングを 操るようになった。",
+                "violet": "妖しげな 呪文を 唱えながら 食べた ものと 体内の 毒素を 混ぜて 怪しい 薬を 作る。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "78",
+        "globalNo": "170",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "でんき",
+            "hp": 75,
+            "attack": 38,
+            "defense": 38,
+            "special_attack": 56,
+            "special_defense": 56,
+            "speed": 67,
+            "ability1": "ちくでん",
+            "ability2": "はっこう",
+            "dream_ability": "ちょすい",
+            "description": {
+                "scarlet": "光の 届かない 海底に 暮らす。 触手を 光らせ 仲間と コミュニケーション。",
+                "violet": "2つの 触手の 先から プラスと マイナスの 電気を 流して 相手を しびれさせる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "79",
+        "globalNo": "171",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "でんき",
+            "hp": 125,
+            "attack": 58,
+            "defense": 58,
+            "special_attack": 76,
+            "special_defense": 76,
+            "speed": 67,
+            "ability1": "ちくでん",
+            "ability2": "はっこう",
+            "dream_ability": "ちょすい",
+            "description": {
+                "scarlet": "エサを 誘き寄せるために 眩しく 輝く 部分は 背びれの 一部が 変化したもの。",
+                "violet": "眩しい 光を 放って 相手の 目を くらませ 動けない あいだに 丸飲みに してしまう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "80",
+        "globalNo": "686",
+        "status": [
+          {
+            "form": "",
+            "type1": "あく",
+            "type2": "エスパー",
+            "hp": 53,
+            "attack": 54,
+            "defense": 53,
+            "special_attack": 37,
+            "special_defense": 46,
+            "speed": 45,
+            "ability1": "あまのじゃく",
+            "ability2": "きゅうばん",
+            "dream_ability": "すりぬけ",
+            "description": {
+                "scarlet": "発光体を 点滅させて 相手の やる気を なくさせることで 強敵から 身を 守っている。",
+                "violet": "逆立ちすると 血行が 良くなり 頭が 冴えるので エスパー技の 威力も 上がりまくるのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "81",
+        "globalNo": "687",
+        "status": [
+          {
+            "form": "",
+            "type1": "あく",
+            "type2": "エスパー",
+            "hp": 86,
+            "attack": 92,
+            "defense": 88,
+            "special_attack": 68,
+            "special_defense": 75,
+            "speed": 73,
+            "ability1": "あまのじゃく",
+            "ability2": "きゅうばん",
+            "dream_ability": "すりぬけ",
+            "description": {
+                "scarlet": "強力すぎる さいみんじゅつ。 操られていた 相手は 前後の 記憶を 失っている。",
+                "violet": "発光体の 点滅によって 相手を 催眠状態にして 自由自在に 操ってしまう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "82",
+        "globalNo": "370",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 43,
+            "attack": 30,
+            "defense": 55,
+            "special_attack": 40,
+            "special_defense": 65,
+            "speed": 97,
+            "ability1": "すいすい",
+            "ability2": "",
+            "dream_ability": "うるおいボディ",
+            "description": {
+                "scarlet": "ハートの 形が 大人気。 好きな 人に ラブカスを 贈る 風習の 残る 土地が ある。",
+                "violet": "繁殖シーズンには たくさんの ラブカスが サンゴ礁に 集まり 海面が ピンク色に 染まる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "83",
+        "globalNo": "456",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 49,
+            "attack": 49,
+            "defense": 56,
+            "special_attack": 49,
+            "special_defense": 61,
+            "speed": 66,
+            "ability1": "すいすい",
+            "ability2": "よびみず",
+            "dream_ability": "みずのベール",
+            "description": {
+                "scarlet": "体の 横側にある ラインは 太陽の光を 溜めておける。 夜になると 鮮やかに 輝く。",
+                "violet": "ピンク色の 皮の 部分は 太陽光を 溜めて 光る。 カモフラージュのためと いわれる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "84",
+        "globalNo": "457",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 69,
+            "attack": 69,
+            "defense": 76,
+            "special_attack": 69,
+            "special_defense": 86,
+            "speed": 91,
+            "ability1": "すいすい",
+            "ability2": "よびみず",
+            "dream_ability": "みずのベール",
+            "description": {
+                "scarlet": "光で 獲物を おびき寄せるが 天敵である 獰猛な 魚ポケモンまで 寄ってくるのだ。",
+                "violet": "深い 海の 底で 光る ネオラントは まるで 夜空に 輝く 星のように 見える。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "85",
+        "globalNo": "594",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 165,
+            "attack": 75,
+            "defense": 80,
+            "special_attack": 40,
+            "special_defense": 45,
+            "speed": 65,
+            "ability1": "いやしのこころ",
+            "ability2": "うるおいボディ",
+            "dream_ability": "さいせいりょく",
+            "description": {
+                "scarlet": "傷ついたり 弱った ポケモンを ヒレで 優しく 抱えながら 特殊な 粘膜で 治すのだ。",
+                "violet": "大海原を 漂って 暮らす。 ママンボウの まわりには 多くの 水ポケモンが 集まってくる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "86",
+        "globalNo": "324",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 70,
+            "attack": 85,
+            "defense": 140,
+            "special_attack": 85,
+            "special_defense": 70,
+            "speed": 20,
+            "ability1": "しろいけむり",
+            "ability2": "ひでり",
+            "dream_ability": "シェルアーマー",
+            "description": {
+                "scarlet": "甲羅の 内側で 石炭を 燃やし 敵に 襲われると 黒い煙を まき散らして 逃げる。",
+                "violet": "石炭が エネルギーの 源。 コータスの 棲んでいる 山には 多くの 石炭が 眠っている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "87",
+        "globalNo": "661",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 45,
+            "attack": 50,
+            "defense": 43,
+            "special_attack": 40,
+            "special_defense": 38,
+            "speed": 62,
+            "ability1": "はとむね",
+            "ability2": "",
+            "dream_ability": "はやてのつばさ",
+            "description": {
+                "scarlet": "普段は 穏やかな 気性だが 戦いになると ホルモンバランスが 変わり 攻撃的になる。",
+                "violet": "野山や 街中で 生活する。 イキリンコと 縄張りを 争い 街中で 大乱闘になった。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "88",
+        "globalNo": "662",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "ひこう",
+            "hp": 62,
+            "attack": 73,
+            "defense": 55,
+            "special_attack": 56,
+            "special_defense": 52,
+            "speed": 84,
+            "ability1": "ほのおのからだ",
+            "ability2": "",
+            "dream_ability": "はやてのつばさ",
+            "description": {
+                "scarlet": "虫ポケモンが 潜んでいそうな 草むらに 火の粉を まき散らして 飛び出してきたところを 捕まえる。",
+                "violet": "半径 2～3キロの 縄張りを 持つ。 縄張りに 入ってきた 鳥ポケモンは 容赦しない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "89",
+        "globalNo": "663",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "ひこう",
+            "hp": 78,
+            "attack": 81,
+            "defense": 71,
+            "special_attack": 74,
+            "special_defense": 69,
+            "speed": 126,
+            "ability1": "ほのおのからだ",
+            "ability2": "",
+            "dream_ability": "はやてのつばさ",
+            "description": {
+                "scarlet": "飛翔力は トップクラス。 100キロ以上の 獲物を 掴んだまま 楽々 飛びまわる。",
+                "violet": "興奮すると 羽毛の 隙間から 火の粉を 吹く。 焦げない 羽毛は 防火素材として 利用される。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "90",
+        "globalNo": "751",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "むし",
+            "hp": 38,
+            "attack": 40,
+            "defense": 52,
+            "special_attack": 40,
+            "special_defense": 72,
+            "speed": 27,
+            "ability1": "すいほう",
+            "ability2": "",
+            "dream_ability": "ちょすい",
+            "description": {
+                "scarlet": "頭を 包み込む 水泡は 粘り気の ある 糸で 作るため 割れることは めったに ない。",
+                "violet": "頭を 包み込む 水泡を 3本の 脚で 支えている。 ときどき こっそり 入れ替えている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "91",
+        "globalNo": "752",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "むし",
+            "hp": 68,
+            "attack": 70,
+            "defense": 92,
+            "special_attack": 50,
+            "special_defense": 132,
+            "speed": 42,
+            "ability1": "すいほう",
+            "ability2": "",
+            "dream_ability": "ちょすい",
+            "description": {
+                "scarlet": "面倒見の いい 性格。 エサの他に シズクモも 水泡の 中で 守りつつ 歩き回る。",
+                "violet": "ねばねばの 水泡を 発射。 閉じこめた 敵が 気を 失うと 大あごで 噛み砕いてしまう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "92",
+        "globalNo": "236",
+        "status": [
+          {
+            "form": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 35,
+            "attack": 35,
+            "defense": 35,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 35,
+            "ability1": "こんじょう",
+            "ability2": "ふくつのこころ",
+            "dream_ability": "やるき",
+            "description": {
+                "scarlet": "様々な 相手と 戦うなかで 自分に 合った 格闘スタイルを 模索する ひたむきな ポケモン。",
+                "violet": "もっともっと 強く なりたくて がむしゃらに 体を 鍛えては 手当たり次第 戦いを 挑む。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "93",
+        "globalNo": "106",
+        "status": [
+          {
+            "form": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 50,
+            "attack": 50,
+            "defense": 50,
+            "special_attack": 35,
+            "special_defense": 110,
+            "speed": 87,
+            "ability1": "じゅうなん",
+            "ability2": "すてみ",
+            "dream_ability": "かるわざ",
+            "description": {
+                "scarlet": "蹴り技が ヒットする 瞬間に 足裏の 筋肉を 硬くさせて 威力を 最大まで 高める。",
+                "violet": "脚の じん帯を 自由自在に 伸び縮みさせて 蹴り技の 間合いを 2倍に 広げるのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "94",
+        "globalNo": "107",
+        "status": [
+          {
+            "form": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 50,
+            "attack": 50,
+            "defense": 50,
+            "special_attack": 35,
+            "special_defense": 110,
+            "speed": 76,
+            "ability1": "するどいめ",
+            "ability2": "てつのこぶし",
+            "dream_ability": "せいしんりょく",
+            "description": {
+                "scarlet": "左右の コンビネーションパンチで 敵を 追いつめ 時速500キロの ストレートで 一気に 仕留める。",
+                "violet": "拳は 筋肉の 塊。 3分間ごとに ひと休みして 呼吸と 気持ちを 整える。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "95",
+        "globalNo": "237",
+        "status": [
+          {
+            "form": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 50,
+            "attack": 50,
+            "defense": 50,
+            "special_attack": 35,
+            "special_defense": 110,
+            "speed": 70,
+            "ability1": "いかく",
+            "ability2": "テクニシャン",
+            "dream_ability": "ふくつのこころ",
+            "description": {
+                "scarlet": "踊るような 蹴り技が 得意。 頭の ツノは 体毛や ツメと 同じ 成分で できている。",
+                "violet": "ツノを 軸に 回転しながら 華麗な キックを お見舞いする。 ツノは 生涯 伸び続ける。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "96",
+        "globalNo": "74",
+        "status": [
+          {
+            "form": "アローラのすがた",
+            "type1": "いわ",
+            "type2": "でんき",
+            "hp": 40,
+            "attack": 80,
+            "defense": 100,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 20,
+            "ability1": "じりょく",
+            "ability2": "がんじょう",
+            "dream_ability": "エレキスキン",
+            "description": {
+                "scarlet": "磁力を 帯びた 石の身体。特に 磁力が 強い 部分には 砂鉄が ビッシリ ついてるよ。",
+                "violet": "地面で 寝ている イシツブテを 踏むと バチンと 音が して ビリッと 全身が しびれる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "97",
+        "globalNo": "75",
+        "status": [
+          {
+            "form": "アローラのすがた",
+            "type1": "いわ",
+            "type2": "でんき",
+            "hp": 55,
+            "attack": 95,
+            "defense": 115,
+            "special_attack": 45,
+            "special_defense": 45,
+            "speed": 35,
+            "ability1": "じりょく",
+            "ability2": "がんじょう",
+            "dream_ability": "エレキスキン",
+            "description": {
+                "scarlet": "ドラバイトを 好んで 喰らう。 喰った 成分が 結晶になり 身体の一部に 浮きだしているぞ。",
+                "violet": "餌の 石を 求めて ケンカ。 ゴローン同士が ぶつかるたびに 爆音と 光が ほとばしる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "98",
+        "globalNo": "76",
+        "status": [
+          {
+            "form": "アローラのすがた",
+            "type1": "いわ",
+            "type2": "でんき",
+            "hp": 80,
+            "attack": 120,
+            "defense": 130,
+            "special_attack": 55,
+            "special_defense": 65,
+            "speed": 45,
+            "ability1": "じりょく",
+            "ability2": "がんじょう",
+            "dream_ability": "エレキスキン",
+            "description": {
+                "scarlet": "電気を帯びた 岩石を 発射。 命中 せずとも かするだけで 相手は 痺れ 失神する。",
+                "violet": "岩石は 連射が できないので そのあたりの イシツブテを 捕まえ 背中に 込め 発射 することも。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "99",
+        "globalNo": "529",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 60,
+            "attack": 85,
+            "defense": 40,
+            "special_attack": 30,
+            "special_defense": 45,
+            "speed": 68,
+            "ability1": "すなかき",
+            "ability2": "すなのちから",
+            "dream_ability": "かたやぶり",
+            "description": {
+                "scarlet": "地中を 掘り進む スピードは 時速50キロ以上。 地上を 走る 自動車と いい勝負。",
+                "violet": "両手の ツメを 重ね合わせて 体を 高速 回転させると 猛スピードで 地中を 進む。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "100",
+        "globalNo": "530",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "はがね",
+            "hp": 110,
+            "attack": 135,
+            "defense": 60,
+            "special_attack": 50,
+            "special_defense": 65,
+            "speed": 88,
+            "ability1": "すなかき",
+            "ability2": "すなのちから",
+            "dream_ability": "かたやぶり",
+            "description": {
+                "scarlet": "鋼になった ツメと 頭で ドリルを つくり どんなに 分厚い 鉄板も 貫く。",
+                "violet": "鋼に 進化した ドリルは 鉄板を 貫く 破壊力。 トンネル工事で 大活躍する。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "101",
+        "globalNo": "574",
+        "status": [
+          {
+            "form": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 45,
+            "attack": 30,
+            "defense": 50,
+            "special_attack": 55,
+            "special_defense": 65,
+            "speed": 45,
+            "ability1": "おみとおし",
+            "ability2": "かちき",
+            "dream_ability": "かげふみ",
+            "description": {
+                "scarlet": "いつもは とっても 無邪気。 見えない なにかを 見ているときは 瞬きも せずに ずっと 無言。",
+                "violet": "サイコパワーを コントロールする リボン型の 触角に 触れると 激しく 泣きだすので 注意。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "102",
+        "globalNo": "575",
+        "status": [
+          {
+            "form": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 60,
+            "attack": 45,
+            "defense": 70,
+            "special_attack": 75,
+            "special_defense": 85,
+            "speed": 55,
+            "ability1": "おみとおし",
+            "ability2": "かちき",
+            "dream_ability": "かげふみ",
+            "description": {
+                "scarlet": "催眠術で 子どもを 眠らせ 連れ去ってしまう。 星明りが きらめく 夜には 注意しろ。",
+                "violet": "サイコパワーで 小石を 並べて 星座を 作る。 宇宙から 来たと 考える 人も いる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "103",
+        "globalNo": "576",
+        "status": [
+          {
+            "form": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 70,
+            "attack": 55,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 110,
+            "speed": 65,
+            "ability1": "おみとおし",
+            "ability2": "かちき",
+            "dream_ability": "かげふみ",
+            "description": {
+                "scarlet": "サイコパワーを 放ち 相手に 宇宙が 終わる 夢を 見せる。 それは 儚く 美しいらしい。",
+                "violet": "星を 眺め 未来を 予知する。 どこか 冷めた 態度を とるのは すべての 終わりを 知っているから。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "104",
+        "globalNo": "677",
+        "status": [
+          {
+            "form": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 62,
+            "attack": 48,
+            "defense": 54,
+            "special_attack": 63,
+            "special_defense": 60,
+            "speed": 68,
+            "ability1": "するどいめ",
+            "ability2": "すりぬけ",
+            "dream_ability": "マイペース",
+            "description": {
+                "scarlet": "体内の 強い サイコパワーが 漏れないよう 耳を ふさいでいるが 溜めこみすぎると 意識が 飛ぶ。",
+                "violet": "無表情だが 内面では サイコパワーを 抑えこむのに 必死に なっているのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "105",
+        "globalNo": "678",
+        "status": [
+          {
+            "form": "オスのすがた",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 74,
+            "attack": 48,
+            "defense": 76,
+            "special_attack": 83,
+            "special_defense": 81,
+            "speed": 104,
+            "ability1": "するどいめ",
+            "ability2": "すりぬけ",
+            "dream_ability": "いたずらごころ",
+            "description": {
+                "scarlet": "どのような 相手でも 吹き飛ばす サイコパワーを 持つが 攻撃より 仲間を 守るために 使う。",
+                "violet": "強力な サイコパワーを 出し続けていると ニャオニクスの 肉体にも ダメージが およぶ。"
+            }
+          },
+          {
+            "form": "メスのすがた",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 74,
+            "attack": 48,
+            "defense": 76,
+            "special_attack": 83,
+            "special_defense": 81,
+            "speed": 104,
+            "ability1": "するどいめ",
+            "ability2": "すりぬけ",
+            "dream_ability": "かちき",
+            "description": {
+                "scarlet": "オスよりも 攻撃的。 どれだけ 強力な サイコパワーを 使っても 無表情の まま。",
+                "violet": "危険を 感じると サイコパワーを 最大出力で 放射。 相手のことなど 気にしていない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "106",
+        "globalNo": "774",
+        "status": [
+          {
+            "form": "りゅうせいのすがた",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 60,
+            "defense": 100,
+            "special_attack": 60,
+            "special_defense": 100,
+            "speed": 60,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "オゾン層で 生まれる ポケモン。 コアを 包みこむ 外の 殻が 重くなると 地上に 落ちる。",
+                "violet": "触られたり 呼びかけられたりすると なにかしらの 反応を みせるが 意思によるものかは わかっていない。"
+            }
+          },
+          {
+            "form": "いろのコア",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 60,
+            "defense": 100,
+            "special_attack": 60,
+            "special_defense": 100,
+            "speed": 60,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "地上に 落ちてきた メテノは 宇宙に 戻ろうとしているが 想いは 叶わず 消えていくのみ。",
+                "violet": "大気中の チリが エサ。 チリに 含まれる 成分によって コアの 色が 決まるという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "107",
+        "globalNo": "408",
+        "status": [
+          {
+            "form": "",
+            "type1": "いわ",
+            "type2": "",
+            "hp": 67,
+            "attack": 125,
+            "defense": 40,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 58,
+            "ability1": "かたやぶり",
+            "ability2": "",
+            "dream_ability": "ちからずく",
+            "description": {
+                "scarlet": "1億年ほど 前の 密林で 暮らしていた。 得意の 頭突きで プテラに 対抗 していた。",
+                "violet": "ズガイドス同士が 頭を ぶつけあうことで 頑丈な 頭が さらに 鍛えられる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "108",
+        "globalNo": "409",
+        "status": [
+          {
+            "form": "",
+            "type1": "いわ",
+            "type2": "",
+            "hp": 97,
+            "attack": 165,
+            "defense": 60,
+            "special_attack": 65,
+            "special_defense": 50,
+            "speed": 58,
+            "ability1": "かたやぶり",
+            "ability2": "",
+            "dream_ability": "ちからずく",
+            "description": {
+                "scarlet": "どんな 衝撃にも 耐えられる 分厚い 頭がい骨に 押さえられて 脳みそは 大きく ならなかった。",
+                "violet": "頭を 激しく ぶつけ合っても 頭がい骨は 厚さ 30センチも あるので 気絶したりしない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "109",
+        "globalNo": "410",
+        "status": [
+          {
+            "form": "",
+            "type1": "いわ",
+            "type2": "はがね",
+            "hp": 30,
+            "attack": 42,
+            "defense": 118,
+            "special_attack": 42,
+            "special_defense": 88,
+            "speed": 30,
+            "ability1": "がんじょう",
+            "ability2": "",
+            "dream_ability": "ぼうおん",
+            "description": {
+                "scarlet": "抜群の 防御力を 持つ。 そのため とくに 争うこともなく 草や 木の実を 食べて 過ごす。",
+                "violet": "頑丈な 顔のおかげで 敵は 少なかったと 思われる。 太古の ジャングルに 棲んでいた。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "110",
+        "globalNo": "411",
+        "status": [
+          {
+            "form": "",
+            "type1": "いわ",
+            "type2": "はがね",
+            "hp": 60,
+            "attack": 52,
+            "defense": 168,
+            "special_attack": 47,
+            "special_defense": 138,
+            "speed": 30,
+            "ability1": "がんじょう",
+            "ability2": "",
+            "dream_ability": "ぼうおん",
+            "description": {
+                "scarlet": "正面からであれば あらゆる 攻撃を ガードできるが 後ろを 取られると なす術なし。",
+                "violet": "群れで 暮らす トリデプスたちは 敵に 襲われると 横に 並び 硬い 顔で 攻撃を 防ぐ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "111",
+        "globalNo": "572",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 55,
+            "attack": 50,
+            "defense": 40,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 75,
+            "ability1": "メロメロボディ",
+            "ability2": "テクニシャン",
+            "dream_ability": "スキルリンク",
+            "description": {
+                "scarlet": "自分の 体や 巣の 掃除で 汚れた 尻尾は 綺麗な 湧き水で 1日 かけて 洗う。",
+                "violet": "きれい好きな 性格の ポケモン。 尻尾を ほうきがわりに いつも 棲み処の ほこりを 払っている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "112",
+        "globalNo": "573",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 75,
+            "attack": 95,
+            "defense": 60,
+            "special_attack": 65,
+            "special_defense": 60,
+            "speed": 115,
+            "ability1": "メロメロボディ",
+            "ability2": "テクニシャン",
+            "dream_ability": "スキルリンク",
+            "description": {
+                "scarlet": "白い 体毛は 特別な 油で コーティングされているので 敵の 攻撃を 受け流すのだ。",
+                "violet": "全身から 染み出す 油は とても なめらか。 肌荒れに 悩む 人にも 効果的なのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "113",
+        "globalNo": "227",
+        "status": [
+          {
+            "form": "",
+            "type1": "はがね",
+            "type2": "ひこう",
+            "hp": 65,
+            "attack": 80,
+            "defense": 140,
+            "special_attack": 40,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "するどいめ",
+            "ability2": "がんじょう",
+            "dream_ability": "くだけるよろい",
+            "description": {
+                "scarlet": "頑丈で 重そうな 鉄の 体だが 薄くて 軽いので 時速300キロで とべる。",
+                "violet": "抜け落ちた 羽根は 薄く 鋭いので 刀として 使われていたことも あったらしい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "114",
+        "globalNo": "333",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 45,
+            "attack": 40,
+            "defense": 60,
+            "special_attack": 40,
+            "special_defense": 75,
+            "speed": 50,
+            "ability1": "しぜんかいふく",
+            "ability2": "",
+            "dream_ability": "ノーてんき",
+            "description": {
+                "scarlet": "真綿の ような 翼の 手入れは 絶対に 欠かさない。 汚れると 水浴びをして きれいに 洗う。",
+                "violet": "自分も まわりも きれいでないと 落ち着かない 性格。 汚れを 見つけると 羽で ふき取る。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "115",
+        "globalNo": "334",
+        "status": [
+          {
+            "form": "",
+            "type1": "ドラゴン",
+            "type2": "ひこう",
+            "hp": 75,
+            "attack": 70,
+            "defense": 90,
+            "special_attack": 70,
+            "special_defense": 105,
+            "speed": 80,
+            "ability1": "しぜんかいふく",
+            "ability2": "",
+            "dream_ability": "ノーてんき",
+            "description": {
+                "scarlet": "心が 通い合った 人がいると 柔らかく 美しい 羽で そっと 包み込み ハミングする。",
+                "violet": "晴れた日 綿雲に まぎれながら 大空を 自由に 飛びまわり 美しい ソプラノで 歌う。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "116",
+        "globalNo": "81",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "はがね",
+            "hp": 25,
+            "attack": 35,
+            "defense": 70,
+            "special_attack": 95,
+            "special_defense": 55,
+            "speed": 45,
+            "ability1": "じりょく",
+            "ability2": "がんじょう",
+            "dream_ability": "アナライズ",
+            "description": {
+                "scarlet": "左右にある ユニットから だす 電磁波で 重力を さえぎって 空に 浮かぶのだ。",
+                "violet": "空中に 浮いたまま 移動して 左右の ユニットから 電磁波などを 放射する。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "117",
+        "globalNo": "82",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "はがね",
+            "hp": 50,
+            "attack": 60,
+            "defense": 95,
+            "special_attack": 120,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "じりょく",
+            "ability2": "がんじょう",
+            "dream_ability": "アナライズ",
+            "description": {
+                "scarlet": "3つのコイルは 強い 磁力で 結びついている。 そばに寄ると 強い 耳鳴りに 襲われる。",
+                "violet": "連結した タイプの コイルは 太陽の 黒点が 多いとき たくさん 現れると 言われる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "118",
+        "globalNo": "462",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "はがね",
+            "hp": 70,
+            "attack": 70,
+            "defense": 115,
+            "special_attack": 130,
+            "special_defense": 90,
+            "speed": 60,
+            "ability1": "じりょく",
+            "ability2": "がんじょう",
+            "dream_ability": "アナライズ",
+            "description": {
+                "scarlet": "怪電波を 発信しながら 空を 飛びまわり 未知の 電波を 受信 しているという。",
+                "violet": "特殊な 磁場で レアコイルの 分子 構造が 組み換えられて ジバコイルに 進化した。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "119",
+        "globalNo": "311",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 60,
+            "attack": 50,
+            "defense": 40,
+            "special_attack": 85,
+            "special_defense": 75,
+            "speed": 95,
+            "ability1": "プラス",
+            "ability2": "",
+            "dream_ability": "ひらいしん",
+            "description": {
+                "scarlet": "体から 火花を 散らして 仲間を 応援。 電柱に 登り 電気を 吸収する。",
+                "violet": "電柱から 電気を 吸い取る。 体に 溜めた 電気を ショートさせて 音を 出す。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "120",
+        "globalNo": "312",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 60,
+            "attack": 40,
+            "defense": 50,
+            "special_attack": 75,
+            "special_defense": 85,
+            "speed": 95,
+            "ability1": "マイナス",
+            "ability2": "",
+            "dream_ability": "ちくでん",
+            "description": {
+                "scarlet": "マイナンと プラスルの 電気は 血液の 流れを 良くして こりを ほぐす 効果が ある。",
+                "violet": "水が 苦手。 雨が 降りだすと 軒下で 雨宿り。 火花の ボンボンで 仲間を 励ます。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "121",
+        "globalNo": "559",
+        "status": [
+          {
+            "form": "",
+            "type1": "あく",
+            "type2": "かくとう",
+            "hp": 50,
+            "attack": 75,
+            "defense": 70,
+            "special_attack": 35,
+            "special_defense": 70,
+            "speed": 48,
+            "ability1": "だっぴ",
+            "ability2": "じしんかじょう",
+            "dream_ability": "いかく",
+            "description": {
+                "scarlet": "だるんと のびた 皮を 首まで 引っ張りあげて ガード。 皮が のびている 個体ほど 偉いらしい。",
+                "violet": "視線の 合った 相手に いきなり 頭突き攻撃を 仕掛ける。 とても 硬い 頭がい骨を 持つ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "122",
+        "globalNo": "560",
+        "status": [
+          {
+            "form": "",
+            "type1": "あく",
+            "type2": "かくとう",
+            "hp": 65,
+            "attack": 90,
+            "defense": 115,
+            "special_attack": 45,
+            "special_defense": 115,
+            "speed": 58,
+            "ability1": "だっぴ",
+            "ability2": "じしんかじょう",
+            "dream_ability": "いかく",
+            "description": {
+                "scarlet": "縄張りに 入ってきた 相手を 集団で 打ちのめす。 口から 酸性の 体液を 飛ばす。",
+                "violet": "粗暴だが 自分の 家族や 群れの 仲間や 縄張りを とっても 大切にしている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "123",
+        "globalNo": "622",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "ゴースト",
+            "hp": 59,
+            "attack": 74,
+            "defense": 50,
+            "special_attack": 35,
+            "special_defense": 50,
+            "speed": 35,
+            "ability1": "てつのこぶし",
+            "ability2": "ぶきよう",
+            "dream_ability": "ノーガード",
+            "description": {
+                "scarlet": "幻の 古代文明の 科学によって 生み出された ポケモンと 考えられている。",
+                "violet": "謎の エネルギーにより 活動。 古代から 動き続けているので そろそろ パワーが 尽きるとも。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "124",
+        "globalNo": "623",
+        "status": [
+          {
+            "form": "",
+            "type1": "じめん",
+            "type2": "ゴースト",
+            "hp": 89,
+            "attack": 124,
+            "defense": 80,
+            "special_attack": 55,
+            "special_defense": 80,
+            "speed": 55,
+            "ability1": "てつのこぶし",
+            "ability2": "ぶきよう",
+            "dream_ability": "ノーガード",
+            "description": {
+                "scarlet": "胸の 封印が 解けてしまうと 見境なく 暴れまわって 街を がれきの 山に 変える。",
+                "violet": "ポケモンや 人を 守るために 古代人に よって 生みだされた。 謎の エネルギーで 活動する。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "125",
+        "globalNo": "322",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "じめん",
+            "hp": 60,
+            "attack": 60,
+            "defense": 40,
+            "special_attack": 65,
+            "special_defense": 45,
+            "speed": 35,
+            "ability1": "どんかん",
+            "ability2": "たんじゅん",
+            "dream_ability": "マイペース",
+            "description": {
+                "scarlet": "1200度の マグマが 体内で 燃えている。 寒くなると マグマが 固まるので 動きが 鈍くなる。",
+                "violet": "背中の コブの 中で 燃える マグマが エネルギーとなって すごい 力を 発揮するのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "126",
+        "globalNo": "323",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "じめん",
+            "hp": 70,
+            "attack": 100,
+            "defense": 70,
+            "special_attack": 105,
+            "special_defense": 75,
+            "speed": 40,
+            "ability1": "マグマのよろい",
+            "ability2": "ハードロック",
+            "dream_ability": "いかりのつぼ",
+            "description": {
+                "scarlet": "火山の 火口で 生活する。 10年ごとに 背中の コブが 大噴火することで 有名だ。",
+                "violet": "怒ると 灼熱の マグマを 背中の コブから 噴き上げる。 火山の 火口に 棲み処が ある。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "127",
+        "globalNo": "854",
+        "status": [
+          {
+            "form": "がんさくフォルム",
+            "type1": "ゴースト",
+            "type2": "",
+            "hp": 40,
+            "attack": 45,
+            "defense": 45,
+            "special_attack": 74,
+            "special_defense": 54,
+            "speed": 50,
+            "ability1": "くだけるよろい",
+            "ability2": "",
+            "dream_ability": "のろわれボディ",
+            "description": {
+                "scarlet": "寂しく 死んだ者の 魂が 飲み残しの 紅茶に 取り憑いた。 ホテルや 民家に 現れる。",
+                "violet": "飲まれることで 体に 入り込み 内側から 生体エネルギーを 奪うのだ。 その味は 不味い。"
+            }
+          },
+          {
+            "form": "しんさくフォルム",
+            "type1": "ゴースト",
+            "type2": "",
+            "hp": 40,
+            "attack": 45,
+            "defense": 45,
+            "special_attack": 74,
+            "special_defense": 54,
+            "speed": 50,
+            "ability1": "くだけるよろい",
+            "ability2": "",
+            "dream_ability": "のろわれボディ",
+            "description": {
+                "scarlet": "こだわりぬいた カップや 紅茶を 用意し ヤバチャが 取り憑くのを 待ち続ける マニアも いるのだ。",
+                "violet": "アンティークの ティーカップに 棲みついた 姿。 貴重だが ヤバチャの 不味さは 変わらない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "128",
+        "globalNo": "855",
+        "status": [
+          {
+            "form": "がんさくフォルム",
+            "type1": "ゴースト",
+            "type2": "",
+            "hp": 60,
+            "attack": 65,
+            "defense": 65,
+            "special_attack": 134,
+            "special_defense": 114,
+            "speed": 70,
+            "ability1": "くだけるよろい",
+            "ability2": "",
+            "dream_ability": "のろわれボディ",
+            "description": {
+                "scarlet": "紅茶で できた 体は クセは あるものの 美味しいが 飲みすぎると 死んでしまうことも。",
+                "violet": "ティーポットに 忍びこんで 飲みかけの 紅茶の 中に 自分を 注いで 増えていく。"
+            }
+          },
+          {
+            "form": "しんさくフォルム",
+            "type1": "ゴースト",
+            "type2": "",
+            "hp": 60,
+            "attack": 65,
+            "defense": 65,
+            "special_attack": 134,
+            "special_defense": 114,
+            "speed": 70,
+            "ability1": "くだけるよろい",
+            "ability2": "",
+            "dream_ability": "のろわれボディ",
+            "description": {
+                "scarlet": "入っている ティーポットによる 違いは ないが もとの 紅茶によって 気質が 変わるらしい。",
+                "violet": "飲むと 危険だが 美味い。 危険を 恐れない グルメたちは 日々 ポットデスを 飲み続ける。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "129",
+        "globalNo": "137",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 65,
+            "attack": 60,
+            "defense": 70,
+            "special_attack": 85,
+            "special_defense": 75,
+            "speed": 40,
+            "ability1": "トレース",
+            "ability2": "ダウンロード",
+            "dream_ability": "アナライズ",
+            "description": {
+                "scarlet": "呼吸を していないので どんなところでも 活躍できると 期待される 人工の ポケモン。",
+                "violet": "最高の 科学力で 生み出された 人工の ポケモン。 電子空間を 移動できる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "130",
+        "globalNo": "233",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 85,
+            "attack": 80,
+            "defense": 90,
+            "special_attack": 105,
+            "special_defense": 95,
+            "speed": 60,
+            "ability1": "トレース",
+            "ability2": "ダウンロード",
+            "dream_ability": "アナライズ",
+            "description": {
+                "scarlet": "最新科学で 進化した 人工の ポケモン。 ときどき プログラムにない 反応をみせる。",
+                "violet": "惑星開発が できるよう ポリゴンを バージョンアップしたが まだ 空も 飛べない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "131",
+        "globalNo": "474",
+        "status": [
+          {
+            "form": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 85,
+            "attack": 80,
+            "defense": 70,
+            "special_attack": 135,
+            "special_defense": 75,
+            "speed": 90,
+            "ability1": "てきおうりょく",
+            "ability2": "ダウンロード",
+            "dream_ability": "アナライズ",
+            "description": {
+                "scarlet": "さらに 優れた ポケモンを 目指し 追加した プログラムに 不具合が あったらしく 動きが おかしい。",
+                "violet": "異次元でも 活躍できるよう プログラムを 修正したが 狙い通りには いかなかった。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "132",
+        "globalNo": "595",
+        "status": [
+          {
+            "form": "",
+            "type1": "むし",
+            "type2": "でんき",
+            "hp": 50,
+            "attack": 47,
+            "defense": 50,
+            "special_attack": 57,
+            "special_defense": 50,
+            "speed": 65,
+            "ability1": "ふくがん",
+            "ability2": "きんちょうかん",
+            "dream_ability": "むしのしらせ",
+            "description": {
+                "scarlet": "街中で 暮らす バチュルは 民家の コンセントから 電気を 吸い取る 術を 覚えている。",
+                "violet": "自分では 電気を つくれないので ほかの 大きな ポケモンに とりつき 静電気を 吸いとる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "133",
+        "globalNo": "596",
+        "status": [
+          {
+            "form": "",
+            "type1": "むし",
+            "type2": "でんき",
+            "hp": 70,
+            "attack": 77,
+            "defense": 60,
+            "special_attack": 97,
+            "special_defense": 60,
+            "speed": 108,
+            "ability1": "ふくがん",
+            "ability2": "きんちょうかん",
+            "dream_ability": "むしのしらせ",
+            "description": {
+                "scarlet": "電気を 帯びた 糸で 罠を 仕掛ける。 感電して 動けない 獲物を ゆっくりと いただくのだ。",
+                "violet": "敵に 襲われると 電気を 帯びた 糸を たくさん 吐き出して 電気の バリアを 作る。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "134",
+        "globalNo": "602",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 35,
+            "attack": 55,
+            "defense": 40,
+            "special_attack": 45,
+            "special_defense": 40,
+            "speed": 60,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "1匹の 電力は 小さいが たくさんの シビシラスが つながると 雷と 同じ 威力になる。",
+                "violet": "群れで 行動する ポケモン。電気を 作る 器官を 持ち ピンチになると 発電する。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "135",
+        "globalNo": "603",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 65,
+            "attack": 85,
+            "defense": 70,
+            "special_attack": 75,
+            "special_defense": 70,
+            "speed": 40,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "丸い 模様が 発電 器官。相手に 巻きついてから 模様を 押しつけて 電気を 流すのだ。",
+                "violet": "食欲 旺盛な ポケモン。獲物を 見つけると 襲いかかり 電気で しびれさせてから 食べる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "136",
+        "globalNo": "604",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 85,
+            "attack": 115,
+            "defense": 80,
+            "special_attack": 105,
+            "special_defense": 80,
+            "speed": 50,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "腕の 力で 海から はい出し 水辺の 獲物に 襲いかかる。 一瞬で 海へ 引きずりこむ。",
+                "violet": "吸盤に なっている 口で はりついて キバを 刺しこみ 強力な 電気を 流す。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "137",
+        "globalNo": "374",
+        "status": [
+          {
+            "form": "",
+            "type1": "はがね",
+            "type2": "エスパー",
+            "hp": 40,
+            "attack": 55,
+            "defense": 80,
+            "special_attack": 35,
+            "special_defense": 60,
+            "speed": 30,
+            "ability1": "クリアボディ",
+            "ability2": "",
+            "dream_ability": "ライトメタル",
+            "description": {
+                "scarlet": "体から 出ている 磁力と 地上の 磁力を 反発させて 空に 浮かぶのだ。",
+                "violet": "細胞 すべてが 磁石で 体から 磁力を 発信し 仲間と 会話 している。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "138",
+        "globalNo": "375",
+        "status": [
+          {
+            "form": "",
+            "type1": "はがね",
+            "type2": "エスパー",
+            "hp": 60,
+            "attack": 75,
+            "defense": 100,
+            "special_attack": 55,
+            "special_defense": 80,
+            "speed": 50,
+            "ability1": "クリアボディ",
+            "ability2": "",
+            "dream_ability": "ライトメタル",
+            "description": {
+                "scarlet": "2匹の ダンバルが 合体した。 2つの 脳みそが 連結したので サイコパワーは より 強くなった。",
+                "violet": "磁力を 放つ 鉱物が 好物。 時速 100キロで ノズパスを 追いつめるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "139",
+        "globalNo": "376",
+        "status": [
+          {
+            "form": "",
+            "type1": "はがね",
+            "type2": "エスパー",
+            "hp": 80,
+            "attack": 135,
+            "defense": 130,
+            "special_attack": 95,
+            "special_defense": 90,
+            "speed": 70,
+            "ability1": "クリアボディ",
+            "ability2": "",
+            "dream_ability": "ライトメタル",
+            "description": {
+                "scarlet": "4本脚を 折りたたんで 飛ぶ。 4つの 脳は スーパーコンピュータ よりも 優れていると いわれる。",
+                "violet": "4つの ツメと 大きな 体で 獲物を しっかり 押さえつけると お腹の 歯で バリバリ かじる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "140",
+        "globalNo": "610",
+        "status": [
+          {
+            "form": "",
+            "type1": "ドラゴン",
+            "type2": "",
+            "hp": 46,
+            "attack": 87,
+            "defense": 60,
+            "special_attack": 30,
+            "special_defense": 40,
+            "speed": 57,
+            "ability1": "とうそうしん",
+            "ability2": "かたやぶり",
+            "dream_ability": "きんちょうかん",
+            "description": {
+                "scarlet": "地面に 作った 巣穴に 棲む。 大昔の 人は キバを 包丁の 代わりにしていた。",
+                "violet": "岩や 樹木に 独特の 歯形を 見かけたら 近くに キバゴが 棲んでいるはずだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "141",
+        "globalNo": "611",
+        "status": [
+          {
+            "form": "",
+            "type1": "ドラゴン",
+            "type2": "",
+            "hp": 66,
+            "attack": 117,
+            "defense": 70,
+            "special_attack": 40,
+            "special_defense": 50,
+            "speed": 67,
+            "ability1": "とうそうしん",
+            "ability2": "かたやぶり",
+            "dream_ability": "きんちょうかん",
+            "description": {
+                "scarlet": "キバは 折れると 生えてこないので ここぞというとき 以外は 使わないように しているらしい。",
+                "violet": "太い キバを 使って 獲物を きれいに 捌いて 食べるものと 保存する ものに 分けるのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "142",
+        "globalNo": "612",
+        "status": [
+          {
+            "form": "",
+            "type1": "ドラゴン",
+            "type2": "",
+            "hp": 76,
+            "attack": 147,
+            "defense": 90,
+            "special_attack": 60,
+            "special_defense": 70,
+            "speed": 97,
+            "ability1": "とうそうしん",
+            "ability2": "かたやぶり",
+            "dream_ability": "きんちょうかん",
+            "description": {
+                "scarlet": "洞窟や 廃鉱山が ねぐら。 おとなしいが キバに 触れられると 激しく 怒るので 要注意。",
+                "violet": "自慢の キバで 敵を 圧倒。 鉄塔を 一刀のもとに 切り捨てる 切れ味を 誇る。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "143",
+        "globalNo": "86",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 65,
+            "attack": 45,
+            "defense": 55,
+            "special_attack": 45,
+            "special_defense": 70,
+            "speed": 45,
+            "ability1": "あついしぼう",
+            "ability2": "うるおいボディ",
+            "dream_ability": "アイスボディ",
+            "description": {
+                "scarlet": "頭に でっぱりが あって 非常に 硬い。 頭突きで 氷山を 割って 進む。",
+                "violet": "寒くなるほど 元気になって 氷の 浮かぶ 冷たい 海を うれしそうに 泳ぎまわる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "144",
+        "globalNo": "87",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "こおり",
+            "hp": 90,
+            "attack": 70,
+            "defense": 80,
+            "special_attack": 70,
+            "special_defense": 95,
+            "speed": 70,
+            "ability1": "あついしぼう",
+            "ability2": "うるおいボディ",
+            "dream_ability": "アイスボディ",
+            "description": {
+                "scarlet": "水の 温度が 下がる 夜 食べものを 求め 泳ぎまわる。 昼間は 浅い 海底で 寝る。",
+                "violet": "寒さに 勝つため 体の中に 熱エネルギーを 蓄える。 寒い 海も 8ノットで 進む。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "145",
+        "globalNo": "131",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "こおり",
+            "hp": 130,
+            "attack": 85,
+            "defense": 80,
+            "special_attack": 85,
+            "special_defense": 95,
+            "speed": 60,
+            "ability1": "ちょすい",
+            "ability2": "シェルアーマー",
+            "dream_ability": "うるおいボディ",
+            "description": {
+                "scarlet": "人を 背中に乗せて 海を行く。 機嫌がいいと きれいな 鳴き声で 歌うことも あるらしい。",
+                "violet": "人の 言葉を 理解する 高い 知能を持ち 背中に 人を乗せて 海を泳ぐのが 好きな ポケモン。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "146",
+        "globalNo": "211",
+        "status": [
+          {
+            "form": "ヒスイのすがた",
+            "type1": "あく",
+            "type2": "どく",
+            "hp": 65,
+            "attack": 95,
+            "defense": 85,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 85,
+            "ability1": "どくのトゲ",
+            "ability2": "すいすい",
+            "dream_ability": "いかく",
+            "description": {
+                "scarlet": "寒い 土地の 水辺に 生息。 ほかの 地方の ハリーセンよりも 毒針は 太く 短い。",
+                "violet": "エサから 毒素を 摂取する。 紫色が 際立つ 針は 猛毒を たたえた 証拠。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "147",
+        "globalNo": "904",
+        "status": [
+          {
+            "form": "",
+            "type1": "あく",
+            "type2": "どく",
+            "hp": 85,
+            "attack": 115,
+            "defense": 95,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 85,
+            "ability1": "どくのトゲ",
+            "ability2": "すいすい",
+            "dream_ability": "いかく",
+            "description": {
+                "scarlet": "眠っているときでも 動くものが 近づくと 毒針が 無意識に 反応し 突き刺してくるぞ。",
+                "violet": "凶暴で 気性が 荒い。 毒針の 先端は ギザギザで 刺さると 簡単には 抜けない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "148",
+        "globalNo": "577",
+        "status": [
+          {
+            "form": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 45,
+            "attack": 30,
+            "defense": 40,
+            "special_attack": 105,
+            "special_defense": 50,
+            "speed": 20,
+            "ability1": "ぼうじん",
+            "ability2": "マジックガード",
+            "dream_ability": "さいせいりょく",
+            "description": {
+                "scarlet": "特殊な 液体で 体が 包まれているため どんな 環境でも 生きられる。",
+                "violet": "サイコパワーを 放出して 襲ってきた 敵を 撃退。 テレパシーで 仲間と 会話する。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "149",
+        "globalNo": "578",
+        "status": [
+          {
+            "form": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 65,
+            "attack": 40,
+            "defense": 50,
+            "special_attack": 125,
+            "special_defense": 60,
+            "speed": 30,
+            "ability1": "ぼうじん",
+            "ability2": "マジックガード",
+            "dream_ability": "さいせいりょく",
+            "description": {
+                "scarlet": "2つに 分裂した 脳みそを 持っているため いきなり 違う 行動を とることが あるのだ。",
+                "violet": "2つに 分裂した 脳みそが 同じことを 考えたとき 最大パワーが 発揮される。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "150",
+        "globalNo": "579",
+        "status": [
+          {
+            "form": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 110,
+            "attack": 65,
+            "defense": 75,
+            "special_attack": 125,
+            "special_defense": 85,
+            "speed": 30,
+            "ability1": "ぼうじん",
+            "ability2": "マジックガード",
+            "dream_ability": "さいせいりょく",
+            "description": {
+                "scarlet": "発揮した サイコパワーを 使い 特殊な 液体で つくられた 腕を 操り 岩を 砕く。",
+                "violet": "ランクルス 同士が 握手すると 脳みそが ネットワークで つながり サイコパワーが 増幅されるのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "151",
+        "globalNo": "209",
+        "status": [
+          {
+            "form": "",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 60,
+            "attack": 80,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 30,
+            "ability1": "いかく",
+            "ability2": "にげあし",
+            "dream_ability": "びびり",
+            "description": {
+                "scarlet": "じつは 臆病な 性格。 怯えているのが ばれないように 必死に 唸り声を あげる。",
+                "violet": "唸り声は 相手を 不安に させる。 普段は のんびり屋で 1日の 半分は 寝ているよ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "152",
+        "globalNo": "210",
+        "status": [
+          {
+            "form": "",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 90,
+            "attack": 120,
+            "defense": 75,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 45,
+            "ability1": "いかく",
+            "ability2": "はやあし",
+            "dream_ability": "びびり",
+            "description": {
+                "scarlet": "本当は 臆病で 怖がり。 襲われると 必死に 手足を 振って 敵を 追い払おうとする。",
+                "violet": "大きな 口を 開いて 太い キバを 見せつければ たいていの ポケモンは 逃げ出す。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "153",
+        "globalNo": "613",
+        "status": [
+          {
+            "form": "",
+            "type1": "こおり",
+            "type2": "",
+            "hp": 55,
+            "attack": 70,
+            "defense": 40,
+            "special_attack": 60,
+            "special_defense": 40,
+            "speed": 40,
+            "ability1": "ゆきがくれ",
+            "ability2": "ゆきかき",
+            "dream_ability": "びびり",
+            "description": {
+                "scarlet": "寒い 地域の 海辺に 多い。 鼻水が 垂れていない ときは 病気の 可能性が ある。",
+                "violet": "くしゃみを 始めたら 注意。 冷気を まとった 鼻水を 浴びると 凍傷になるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "154",
+        "globalNo": "614",
+        "status": [
+          {
+            "form": "",
+            "type1": "こおり",
+            "type2": "",
+            "hp": 95,
+            "attack": 130,
+            "defense": 80,
+            "special_attack": 70,
+            "special_defense": 80,
+            "speed": 50,
+            "ability1": "ゆきがくれ",
+            "ability2": "ゆきかき",
+            "dream_ability": "すいすい",
+            "description": {
+                "scarlet": "肉食で 獰猛な ポケモン。 獲物を 捕まえると 冷気を 吐きかけ 凍らせて 保存する。",
+                "violet": "北国では 白い悪魔 と 恐れられる。 冷気を まとった ツメと キバで 獲物を 襲う。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "155",
+        "globalNo": "27",
+        "status": [
+          {
+            "form": "アローラのすがた",
+            "type1": "こおり",
+            "type2": "はがね",
+            "hp": 50,
+            "attack": 75,
+            "defense": 90,
+            "special_attack": 10,
+            "special_defense": 35,
+            "speed": 40,
+            "ability1": "ゆきがくれ",
+            "ability2": "",
+            "dream_ability": "ゆきかき",
+            "description": {
+                "scarlet": "雪山に 棲む。 鋼の甲羅は とても 頑丈だが 硬すぎて 身体を 丸めることが できない。",
+                "violet": "氷の 上で サンドを 滑らせ その距離を 競う。 古来から 続く アローラの祭りの ひとつ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "156",
+        "globalNo": "28",
+        "status": [
+          {
+            "form": "アローラのすがた",
+            "type1": "こおり",
+            "type2": "はがね",
+            "hp": 75,
+            "attack": 100,
+            "defense": 120,
+            "special_attack": 25,
+            "special_defense": 65,
+            "speed": 65,
+            "ability1": "ゆきがくれ",
+            "ability2": "",
+            "dream_ability": "ゆきかき",
+            "description": {
+                "scarlet": "火山噴火 から 逃れるうちに 雪山に 棲みつくように なった。 雪しぶきをあげ 雪原を 駆ける。",
+                "violet": "鋼の針を 氷が おおう。 刺さると 深い 傷と 一緒に 凍傷にも なってしまうぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "157",
+        "globalNo": "37",
+        "status": [
+          {
+            "form": "アローラのすがた",
+            "type1": "こおり",
+            "type2": "",
+            "hp": 38,
+            "attack": 41,
+            "defense": 40,
+            "special_attack": 50,
+            "special_defense": 65,
+            "speed": 65,
+            "ability1": "ゆきがくれ",
+            "ability2": "",
+            "dream_ability": "ゆきふらし",
+            "description": {
+                "scarlet": "マイナス50度の 冷気を 吐く。 アローラの老人は ケオケオという 昔の 名前で 呼ぶことも。",
+                "violet": "暑いときには 6本の 尻尾で 氷の礫を 作り あたりに ばらまいて 身体を 冷やす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "158",
+        "globalNo": "38",
+        "status": [
+          {
+            "form": "アローラのすがた",
+            "type1": "こおり",
+            "type2": "",
+            "hp": 73,
+            "attack": 67,
+            "defense": 75,
+            "special_attack": 81,
+            "special_defense": 100,
+            "speed": 109,
+            "ability1": "ゆきがくれ",
+            "ability2": "",
+            "dream_ability": "ゆきふらし",
+            "description": {
+                "scarlet": "体毛から 氷の粒を 生み 敵に 浴びせかける。 怒らせると 一瞬で 氷漬けに される。",
+                "violet": "穏やかな 気質。 キュウコンの リージョンフォームと わかるまでは 神の化身と 敬われていた。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "159",
+        "globalNo": "459",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "こおり",
+            "hp": 60,
+            "attack": 62,
+            "defense": 50,
+            "special_attack": 62,
+            "special_defense": 60,
+            "speed": 40,
+            "ability1": "ゆきふらし",
+            "ability2": "",
+            "dream_ability": "ぼうおん",
+            "description": {
+                "scarlet": "寒い 季節は 山の ふもとまで 降りてくるが 春に なると 雪が 残る 山頂に 戻っていく。",
+                "violet": "人間に 興味が あるのか 雪山で 足跡を 見つけると そのまわりに 集まって来る。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "160",
+        "globalNo": "460",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "こおり",
+            "hp": 90,
+            "attack": 92,
+            "defense": 75,
+            "special_attack": 92,
+            "special_defense": 85,
+            "speed": 60,
+            "ability1": "ゆきふらし",
+            "ability2": "",
+            "dream_ability": "ぼうおん",
+            "description": {
+                "scarlet": "万年雪が 積もる 山脈で 静かに 暮らす。ブリザードを 発生させて 姿を 隠す。",
+                "violet": "雪の花が 咲くころ どこからか 姿を 現し 花が 散ると また どこかに 姿を 隠す。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "161",
+        "globalNo": "884",
+        "status": [
+          {
+            "form": "",
+            "type1": "はがね",
+            "type2": "ドラゴン",
+            "hp": 70,
+            "attack": 95,
+            "defense": 115,
+            "special_attack": 120,
+            "special_defense": 50,
+            "speed": 85,
+            "ability1": "ライトメタル",
+            "ability2": "ヘヴィメタル",
+            "dream_ability": "すじがねいり",
+            "description": {
+                "scarlet": "特殊な 金属の 体は 鏡面加工のように 滑らか。 キズに 強く しかも 軽量。",
+                "violet": "金属の ボディは 頑丈だが 熱が こもってしまうので 尻尾の スリットから 放熱している。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "162",
+        "globalNo": "1018",
+        "status": [
+          {
+            "form": "",
+            "type1": "はがね",
+            "type2": "ドラゴン",
+            "hp": 90,
+            "attack": 105,
+            "defense": 130,
+            "special_attack": 125,
+            "special_defense": 65,
+            "speed": 85,
+            "ability1": "じきゅうりょく",
+            "ability2": "がんじょう",
+            "dream_ability": "すじがねいり",
+            "description": {
+                "scarlet": "まわりから 静電気を 集める。 四つん這いの 体勢で 撃ち出す ビームは 絶大な 威力。",
+                "violet": "山中で 穴を 掘り エサを 探す。 落盤に 巻きこまれても へっちゃらなくらい 頑丈。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "163",
+        "globalNo": "1019",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "ドラゴン",
+            "hp": 106,
+            "attack": 80,
+            "defense": 110,
+            "special_attack": 120,
+            "special_defense": 80,
+            "speed": 44,
+            "ability1": "かんろなミツ",
+            "ability2": "さいせいりょく",
+            "dream_ability": "ねんちゃく",
+            "description": {
+                "scarlet": "7匹の オロチュが 蜜飴で 作った りんごのなかで 暮らす。 真ん中の オロチュが 司令塔。",
+                "violet": "気まぐれな オロチュたちの 寄り合い 所帯。 まれに 気持ちが 合うと 本来の 力を 発揮する。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "164",
+        "globalNo": "1",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 45,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "ようりょくそ",
+            "description": {
+                "scarlet": "生まれて しばらくの あいだ 背中の タネに 詰まった 栄養を 取って 育つ。",
+                "violet": "生まれたときから 背中に タネを 背負っている。 体が 大きく 育つごとに タネも 大きくなる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "165",
+        "globalNo": "2",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 60,
+            "attack": 62,
+            "defense": 63,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 60,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "ようりょくそ",
+            "description": {
+                "scarlet": "太陽の 光を 浴びるほど 体に 力が わいて 背中の つぼみが 育っていく。",
+                "violet": "背中の つぼみは 養分を 吸収して ふくらむ。 花の咲くころ いい匂いが する。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "166",
+        "globalNo": "3",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 80,
+            "attack": 82,
+            "defense": 83,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 80,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "ようりょくそ",
+            "description": {
+                "scarlet": "浴びた 太陽の 光を エネルギーに 変換できるので 夏の ほうが 強くなる。",
+                "violet": "大きな 花びらを 広げ 太陽の 光を 浴びていると 体に 元気が みなぎっていく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "167",
+        "globalNo": "4",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 39,
+            "attack": 52,
+            "defense": 43,
+            "special_attack": 60,
+            "special_defense": 50,
+            "speed": 65,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "サンパワー",
+            "description": {
+                "scarlet": "尻尾で 燃える 炎は 生命力の 表れ。 元気がないと 炎は 弱まる。",
+                "violet": "尻尾の 先の 炎は 元気なら 少しくらい 濡れても 消えることなく 燃え盛る。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "168",
+        "globalNo": "5",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 58,
+            "attack": 64,
+            "defense": 58,
+            "special_attack": 80,
+            "special_defense": 65,
+            "speed": 80,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "サンパワー",
+            "description": {
+                "scarlet": "燃える 尻尾を 振り回すと まわりの 温度が どんどん 上がって 相手を 苦しめる。",
+                "violet": "燃えたぎるような 性格で いつも 戦う 相手を 探している。 勝たないと 血が 静まらない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "169",
+        "globalNo": "6",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "ひこう",
+            "hp": 78,
+            "attack": 84,
+            "defense": 78,
+            "special_attack": 109,
+            "special_defense": 85,
+            "speed": 100,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "サンパワー",
+            "description": {
+                "scarlet": "本気で 怒った リザードンの 尻尾の 先の 炎は 青白く 燃え上がる。",
+                "violet": "翼で 大空高く 舞う。 戦いの 経験を 積むほど 炎の 温度は 上がっていく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "170",
+        "globalNo": "7",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 44,
+            "attack": 48,
+            "defense": 65,
+            "special_attack": 50,
+            "special_defense": 64,
+            "speed": 43,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "あめうけざら",
+            "description": {
+                "scarlet": "生まれたあと 背中が ふくらんで 硬い 甲羅が できる。 口から 強力な 泡を 出す。",
+                "violet": "生まれたては 柔らかい 甲羅も すぐに 指でつつくと 弾くほどの 弾力性を 持つようになる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "171",
+        "globalNo": "8",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 59,
+            "attack": 63,
+            "defense": 80,
+            "special_attack": 65,
+            "special_defense": 80,
+            "speed": 58,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "あめうけざら",
+            "description": {
+                "scarlet": "長くて ふさふさの 尻尾は 長生きの シンボル。 とくに お年寄りに 人気がある。",
+                "violet": "しばしば 水中に 隠れ 獲物を 狙う。 高速で 泳ぐとき 耳で バランスをとる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "172",
+        "globalNo": "9",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 79,
+            "attack": 83,
+            "defense": 100,
+            "special_attack": 85,
+            "special_defense": 105,
+            "speed": 78,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "あめうけざら",
+            "description": {
+                "scarlet": "噴射した 水の 勢いに 負けないように わざと 体重を 重くしているのだ。",
+                "violet": "甲羅に 噴射口が あって ロケットのような 勢いで 突っ込んでくる すごい やつだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "173",
+        "globalNo": "152",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 45,
+            "attack": 49,
+            "defense": 65,
+            "special_attack": 49,
+            "special_defense": 65,
+            "speed": 45,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "リーフガード",
+            "description": {
+                "scarlet": "日差しを 浴びるのが 大好き。 頭の 葉っぱを 使って 暖かい 場所を 探す。",
+                "violet": "いい 香りの 葉っぱは まわりの 湿度や 温度を 探る 能力を 持っている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "174",
+        "globalNo": "153",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 60,
+            "attack": 62,
+            "defense": 80,
+            "special_attack": 63,
+            "special_defense": 80,
+            "speed": 60,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "リーフガード",
+            "description": {
+                "scarlet": "首の まわりから 出される スパイシーな 香りを 嗅いでいると なぜだか 戦いたくなる。",
+                "violet": "首の まわりの 葉っぱから 漂う 香りを かいだ 人は 体に 力が みなぎってくる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "175",
+        "globalNo": "154",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 80,
+            "attack": 82,
+            "defense": 100,
+            "special_attack": 83,
+            "special_defense": 100,
+            "speed": 80,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "リーフガード",
+            "description": {
+                "scarlet": "メガニウムの そばに いると 森林浴を したような すがすがしい 気分に なれる。",
+                "violet": "メガニウムが 吐き出す 息には 枯れた 草木を よみがえらせる 力が 秘められている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "176",
+        "globalNo": "155",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 39,
+            "attack": 52,
+            "defense": 43,
+            "special_attack": 60,
+            "special_defense": 50,
+            "speed": 65,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "もらいび",
+            "description": {
+                "scarlet": "いつもは 背中を まるめている。 怒ったとき 驚いたとき 背中から 炎が 吹き出す。",
+                "violet": "背中から 吹き出す 炎は 怒ったときが いちばん 強く 燃え上がり 敵を 驚かせる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "177",
+        "globalNo": "156",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 58,
+            "attack": 64,
+            "defense": 58,
+            "special_attack": 80,
+            "special_defense": 65,
+            "speed": 80,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "もらいび",
+            "description": {
+                "scarlet": "戦いの前 背中を 向けて 自分の 炎が どれくらい すごいかを 相手に 見せつける。",
+                "violet": "体を 覆う 毛皮は ぜったいに 燃えたりしない。 どんな 炎攻撃も 平気だ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "178",
+        "globalNo": "157",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 78,
+            "attack": 84,
+            "defense": 78,
+            "special_attack": 109,
+            "special_defense": 85,
+            "speed": 100,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "もらいび",
+            "description": {
+                "scarlet": "燃えさかる 体毛を こすり合わせ 爆風を 起こして 攻撃する 大技を 隠し持っている。",
+                "violet": "怒りが 最高潮のとき 触ったもの すべて 一瞬で 燃え上がらせるほどに 熱い。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "179",
+        "globalNo": "158",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 50,
+            "attack": 65,
+            "defense": 64,
+            "special_attack": 44,
+            "special_defense": 48,
+            "speed": 43,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "ちからずく",
+            "description": {
+                "scarlet": "発達した あごは パワフルで なんでも 噛み砕いて しまうので 親のトレーナーでも 要注意。",
+                "violet": "目の前で 動くもの すべてに 噛みつく 暴れん坊。 うかつに 後ろを 見せては いけない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "180",
+        "globalNo": "159",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 65,
+            "attack": 80,
+            "defense": 80,
+            "special_attack": 59,
+            "special_defense": 63,
+            "speed": 58,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "ちからずく",
+            "description": {
+                "scarlet": "一度 咥えた 獲物は ぜったい 離さないように キバの 先が 反り返っている。",
+                "violet": "大口を 開けて 攻撃。 噛みついたとき 抜けた キバは 次から次に 生えてくる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "181",
+        "globalNo": "160",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 85,
+            "attack": 105,
+            "defense": 100,
+            "special_attack": 79,
+            "special_defense": 83,
+            "speed": 78,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "ちからずく",
+            "description": {
+                "scarlet": "大きく 力強い あごで 噛みつくと そのまま 首を振って 相手を ずたずたに 引きちぎる。",
+                "violet": "大きな 体を 持っているが 力強い 後ろ脚を 使って 地上でも 素早く 動く。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "182",
+        "globalNo": "252",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "special_attack": 65,
+            "special_defense": 55,
+            "speed": 70,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "かるわざ",
+            "description": {
+                "scarlet": "足の 裏の 小さな トゲが 壁や 天井に 引っかかるので 逆さまに なっても 落ちないのだ。",
+                "violet": "垂直の 壁も すいすい 登る。 尻尾で 空気の 湿度を 感じ 明日の 天気を 当てる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "183",
+        "globalNo": "253",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 50,
+            "attack": 65,
+            "defense": 45,
+            "special_attack": 85,
+            "special_defense": 65,
+            "speed": 95,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "かるわざ",
+            "description": {
+                "scarlet": "発達した 太ももの 筋肉が 驚異的な 瞬発力と 跳躍力を 生み出すぞ。",
+                "violet": "大木の 枝から枝へ 身軽に 飛び移り 移動する。 驚異的な 瞬発力。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "184",
+        "globalNo": "254",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 70,
+            "attack": 85,
+            "defense": 65,
+            "special_attack": 105,
+            "special_defense": 85,
+            "speed": 120,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "かるわざ",
+            "description": {
+                "scarlet": "ジャングルを 身軽に 走りまわり 腕に 生えた 切れ味 鋭い 葉っぱで 獲物を 仕留めるのだ。",
+                "violet": "腕に 生えた 葉っぱは 刀の 切れ味。 木の枝を 身軽に 飛び移り 敵に 襲いかかる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "185",
+        "globalNo": "255",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 45,
+            "attack": 60,
+            "defense": 40,
+            "special_attack": 70,
+            "special_defense": 50,
+            "speed": 45,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "かそく",
+            "description": {
+                "scarlet": "お腹に 炎袋を 持つ。 抱きしめると ぽかぽか 温かい。 命ある 限り 燃え続ける。",
+                "violet": "お腹に 炎を 燃やす 袋を 持っているので 抱きしめると 湯たんぽのように 温かい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "186",
+        "globalNo": "256",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "かくとう",
+            "hp": 60,
+            "attack": 85,
+            "defense": 60,
+            "special_attack": 85,
+            "special_defense": 60,
+            "speed": 55,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "かそく",
+            "description": {
+                "scarlet": "鋭い 鳴き声を あげて 集中力を 高める。 足技は 破壊力 抜群。",
+                "violet": "戦いに なると 体内の 炎が 激しく 燃え上がる。 キックは 破壊力 抜群だ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "187",
+        "globalNo": "257",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "かくとう",
+            "hp": 80,
+            "attack": 120,
+            "defense": 70,
+            "special_attack": 110,
+            "special_defense": 70,
+            "speed": 80,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "かそく",
+            "description": {
+                "scarlet": "強敵に 出会うと 手首から 炎を 噴き出す。 ジャンプで ビルを 跳び越す 脚力。",
+                "violet": "30階建ての ビルを ジャンプで 跳び越す 跳躍力。 敵を 炎のパンチで 焼きつくす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "188",
+        "globalNo": "258",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 50,
+            "attack": 70,
+            "defense": 50,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 40,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "しめりけ",
+            "description": {
+                "scarlet": "大きな 岩を コナゴナに 砕く パワーを もつ。 川底の 泥に 体を 埋めて 休む。",
+                "violet": "大きな 尾びれで 水を かけば ぐんぐん スピードが 上がる。 小さい 体でも 力持ち。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "189",
+        "globalNo": "259",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "じめん",
+            "hp": 70,
+            "attack": 85,
+            "defense": 70,
+            "special_attack": 60,
+            "special_defense": 70,
+            "speed": 50,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "しめりけ",
+            "description": {
+                "scarlet": "ドロドロに ぬかるんだ 足場で 生活する うちに 鍛えられ 強靭な 足腰に なった。",
+                "violet": "ドロドロの 足場で 本領を 発揮する。 身動きの とれない 相手を 一気に 追い込むぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "190",
+        "globalNo": "260",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "じめん",
+            "hp": 100,
+            "attack": 110,
+            "defense": 90,
+            "special_attack": 85,
+            "special_defense": 90,
+            "speed": 60,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "しめりけ",
+            "description": {
+                "scarlet": "岩の ように 硬い 腕を 一振り するだけで 巨大な 岩を コナゴナに 砕くぞ。",
+                "violet": "両腕は 岩のように 硬く 一振りで 相手を 叩きのめす。 美しい 砂浜で 巣作り。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "191",
+        "globalNo": "387",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 55,
+            "attack": 68,
+            "defense": 64,
+            "special_attack": 45,
+            "special_defense": 55,
+            "speed": 31,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "シェルアーマー",
+            "description": {
+                "scarlet": "土で できた 背中の 甲羅を 触って ほどよく 湿っていたなら その ナエトルは とても 元気だ。",
+                "violet": "太陽の 光を 浴びて 全身で 光合成を する。 甲羅は 土が 硬くなったもの。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "192",
+        "globalNo": "388",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 75,
+            "attack": 89,
+            "defense": 85,
+            "special_attack": 55,
+            "special_defense": 65,
+            "speed": 36,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "シェルアーマー",
+            "description": {
+                "scarlet": "森で 暮らす ハヤシガメは 自分だけが 知っている きれいな 湧き水の 場所が あるという。",
+                "violet": "きれいな 水が わき出る 場所を 知っていて 仲間の ポケモンを 背中に 乗せて そこまで 運ぶ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "193",
+        "globalNo": "389",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "じめん",
+            "hp": 95,
+            "attack": 109,
+            "defense": 105,
+            "special_attack": 75,
+            "special_defense": 85,
+            "speed": 56,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "シェルアーマー",
+            "description": {
+                "scarlet": "大昔の 人々は 大地の 下には 巨大な ドダイトスが いると 空想していた。",
+                "violet": "ドダイトスの 背中で 生まれて ドダイトスの 背中で 一生を まっとうする ポケモンも いる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "194",
+        "globalNo": "390",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 44,
+            "attack": 58,
+            "defense": 44,
+            "special_attack": 58,
+            "special_defense": 44,
+            "speed": 61,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "てつのこぶし",
+            "description": {
+                "scarlet": "とても 身軽な ポケモン。 まわりが 燃えないように お尻の 炎を 消してから 眠る。",
+                "violet": "お腹で 作られた ガスが お尻で 燃えている。 体調が 悪いと 炎が 弱くなる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "195",
+        "globalNo": "391",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "かくとう",
+            "hp": 64,
+            "attack": 78,
+            "defense": 52,
+            "special_attack": 78,
+            "special_defense": 52,
+            "speed": 81,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "てつのこぶし",
+            "description": {
+                "scarlet": "尻尾の 炎の 勢いを うまく コントロールして 自分の 得意な 間合いで 戦うのだ。",
+                "violet": "尻尾の 炎の 大きさと 青い くまどりが 鮮やかなほど 群れの中で 地位が 高いのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "196",
+        "globalNo": "392",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "かくとう",
+            "hp": 76,
+            "attack": 104,
+            "defense": 71,
+            "special_attack": 104,
+            "special_defense": 71,
+            "speed": 108,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "てつのこぶし",
+            "description": {
+                "scarlet": "素早さで 相手を 翻弄する。 両手 両足を 使った 独特の 戦い方を する。",
+                "violet": "手足に 炎を まとった 独特の 格闘技を 使い どんな 相手にも 立ち向かう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "197",
+        "globalNo": "393",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 53,
+            "attack": 51,
+            "defense": 53,
+            "special_attack": 61,
+            "special_defense": 56,
+            "speed": 40,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "かちき",
+            "description": {
+                "scarlet": "歩くのは 苦手で こけたりするが ポッチャマの プライドは 高く 気にせず 堂々と 胸を はる。",
+                "violet": "世話を 焼かれることが 嫌い。 トレーナーの 指示を 聞かないので 仲良くなるのが難しい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "198",
+        "globalNo": "394",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 64,
+            "attack": 66,
+            "defense": 68,
+            "special_attack": 81,
+            "special_defense": 76,
+            "speed": 50,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "かちき",
+            "description": {
+                "scarlet": "仲間を 作らずに 暮らす。 翼の 強烈な 一撃は 大木を 真っ二つに へし折る。",
+                "violet": "どの ポッタイシも 自分が 一番 偉いと 考えるため 群れを 作ることは 不可能だ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "199",
+        "globalNo": "395",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "はがね",
+            "hp": 84,
+            "attack": 86,
+            "defense": 88,
+            "special_attack": 111,
+            "special_defense": 101,
+            "speed": 60,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "かちき",
+            "description": {
+                "scarlet": "プライドを 傷つける者は 流氷をも 切断する 翼で 真っ二つにする。",
+                "violet": "無駄な 争いは やらないが 群れの 安全を 脅かす 敵は 容赦なく 叩きのめす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "200",
+        "globalNo": "495",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 45,
+            "attack": 45,
+            "defense": 55,
+            "special_attack": 45,
+            "special_defense": 55,
+            "speed": 63,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "あまのじゃく",
+            "description": {
+                "scarlet": "尻尾の 葉っぱで 日差しを 受けて エネルギーを 作りだすと 動きが 素早くなり 技の きれも 増す。",
+                "violet": "群れることを 好まない 性質。 短い 腕の 代わりに ツルを 器用に 操り 暮らしている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "201",
+        "globalNo": "496",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 60,
+            "attack": 60,
+            "defense": 75,
+            "special_attack": 60,
+            "special_defense": 75,
+            "speed": 83,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "あまのじゃく",
+            "description": {
+                "scarlet": "低い 姿勢で 草の中を 縫うように 走り抜け つるのムチで 容赦なく 叩きのめす。",
+                "violet": "高すぎる プライドが 玉にきず。 ほかの ポケモンと 連携できる ようになるまで 時間が かかる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "202",
+        "globalNo": "497",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 75,
+            "attack": 75,
+            "defense": 95,
+            "special_attack": 75,
+            "special_defense": 95,
+            "speed": 113,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "あまのじゃく",
+            "description": {
+                "scarlet": "太陽の 光から 生成した エネルギーを 長い 体の中で 数十倍に 増幅させる。",
+                "violet": "相手を すくませる 眼光と 威風堂々たる その 姿から 森の君主 と 呼ばれている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "203",
+        "globalNo": "498",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 65,
+            "attack": 63,
+            "defense": 45,
+            "special_attack": 45,
+            "special_defense": 45,
+            "speed": 45,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "あついしぼう",
+            "description": {
+                "scarlet": "見かけによらず 身軽な 動きで 敵を 翻弄。 左右の 鼻の 穴から 火の玉を 連射する。",
+                "violet": "食いしん坊の 大食漢。 よく利く 鼻で エサを 見つけだし こんがり 焼きあげてから いただく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "204",
+        "globalNo": "499",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "かくとう",
+            "hp": 90,
+            "attack": 93,
+            "defense": 55,
+            "special_attack": 70,
+            "special_defense": 55,
+            "speed": 55,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "あついしぼう",
+            "description": {
+                "scarlet": "戦いになると ヒートアップ。 体温が 急上昇して 灼熱の 火の玉に なるのだ。",
+                "violet": "仲間を 助けるためなら どんな 強敵にも 立ち向かう 強さを 持つが 空腹には 勝てない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "205",
+        "globalNo": "500",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "かくとう",
+            "hp": 110,
+            "attack": 123,
+            "defense": 65,
+            "special_attack": 100,
+            "special_defense": 65,
+            "speed": 65,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "あついしぼう",
+            "description": {
+                "scarlet": "胸の奥で 燃えさかる 炎が あごから 勢いよく 噴き出して 炎の髭に なっているのだ。",
+                "violet": "ピンチになるほど 楽しくなるらしく 首まわりの 炎は 燃え盛り パワーと スピードが アップする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "206",
+        "globalNo": "501",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 55,
+            "attack": 55,
+            "defense": 45,
+            "special_attack": 63,
+            "special_defense": 45,
+            "speed": 45,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "シェルアーマー",
+            "description": {
+                "scarlet": "お腹の ホタチを 小刀のように 使って 敵の 技を 受けてから 素早く 切り返し 反撃する。",
+                "violet": "人が 砥石を 使う 姿を 真似して ホタチを 河原の 石で 手入れするようになったと 言われる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "207",
+        "globalNo": "502",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 75,
+            "attack": 75,
+            "defense": 60,
+            "special_attack": 83,
+            "special_defense": 60,
+            "speed": 60,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "シェルアーマー",
+            "description": {
+                "scarlet": "流れる 水の如く 2枚の ホタチを 扱う 動きを 人は 剣術の 手本にしたという。",
+                "violet": "勤勉で ストイックな 性質。 地道な 反復練習により ホタチ捌きを 自分のものにする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "208",
+        "globalNo": "503",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 95,
+            "attack": 100,
+            "defense": 85,
+            "special_attack": 108,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "シェルアーマー",
+            "description": {
+                "scarlet": "居合抜きの 手練れ。 前脚の 鎧に 仕込まれた 大太刀の 一振りで 勝負を 決める。",
+                "violet": "群れを 統率して 決まりを 守らない ものは 容赦なく 叩きのめす 厳格な 性質。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "209",
+        "globalNo": "650",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 56,
+            "attack": 61,
+            "defense": 65,
+            "special_attack": 48,
+            "special_defense": 45,
+            "speed": 38,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "ぼうだん",
+            "description": {
+                "scarlet": "頭突きを 当てる 寸前 力を 込めると 頭の トゲが 鋭く 尖り 敵の 体を 貫く。",
+                "violet": "エサの 木の実を たくさん 食べると 頭と 体を 覆う 樹皮の 殻が 頑丈に 育つのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "210",
+        "globalNo": "651",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 61,
+            "attack": 78,
+            "defense": 95,
+            "special_attack": 56,
+            "special_defense": 58,
+            "speed": 57,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "ぼうだん",
+            "description": {
+                "scarlet": "頑丈な 殻で 守られるが ずっしりと 重たいので 自然と 足腰が 鍛えられるのだ。",
+                "violet": "体当たり いっぱつで トレーラーを ふっとばす。 激しく ぶつかっても 痛みに 鈍感なので 平気。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "211",
+        "globalNo": "652",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "かくとう",
+            "hp": 88,
+            "attack": 107,
+            "defense": 122,
+            "special_attack": 74,
+            "special_defense": 75,
+            "speed": 64,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "ぼうだん",
+            "description": {
+                "scarlet": "仲間が ピンチのときは 腕の シールドを 広げて 自ら 盾となり 攻撃を 防ぐ。",
+                "violet": "争いを 避ける 穏やかな 性格だが いざとなると トゲの こぶしで 相手を 叩きのめす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "212",
+        "globalNo": "653",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 40,
+            "attack": 45,
+            "defense": 40,
+            "special_attack": 62,
+            "special_defense": 60,
+            "speed": 60,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "マジシャン",
+            "description": {
+                "scarlet": "気持ちが 昂りやすい 性格。 体温も 上がり過ぎるので 耳で 放熱して 冷静になるのだ。",
+                "violet": "小枝は フォッコの おやつ。 ポリポリ かじると 強敵に 立ち向かう 勇気が 湧いてくる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "213",
+        "globalNo": "654",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 59,
+            "attack": 59,
+            "defense": 58,
+            "special_attack": 90,
+            "special_defense": 70,
+            "speed": 73,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "マジシャン",
+            "description": {
+                "scarlet": "尻尾の 木の枝に つけた 火を 振って 仲間に 合図を 送る。 危険なときは クルクル 回す。",
+                "violet": "木の枝を 尻尾から 引き抜くとき 着火。 その 炎を 火種に 強力な 技を 繰りだす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "214",
+        "globalNo": "655",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "エスパー",
+            "hp": 75,
+            "attack": 69,
+            "defense": 72,
+            "special_attack": 114,
+            "special_defense": 100,
+            "speed": 104,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "マジシャン",
+            "description": {
+                "scarlet": "杖の 先の 炎で 焦げ跡を 地面に 残す。 昔の 人は その 形で 占いをしていた。",
+                "violet": "念力で 炎を 操る。 摂氏3000度の 炎の 渦が 相手を 包みこみ 焼きつくす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "215",
+        "globalNo": "656",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 41,
+            "attack": 56,
+            "defense": 40,
+            "special_attack": 62,
+            "special_defense": 44,
+            "speed": 71,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "へんげんじざい",
+            "description": {
+                "scarlet": "呑気に 見えるが 敵を 欺く 演技。 一転 目にも留まらない スピードで 敵を 圧倒する。",
+                "violet": "ずば抜けた ジャンプ力を 活かし 敵の 頭上から もっちりした 泡を 投げつけて 翻弄する。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "216",
+        "globalNo": "657",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 54,
+            "attack": 63,
+            "defense": 52,
+            "special_attack": 83,
+            "special_defense": 56,
+            "speed": 97,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "へんげんじざい",
+            "description": {
+                "scarlet": "地形を 活かした 戦法が 得意。 小石を 泡で 包んだ つぶては 百発百中だ。",
+                "violet": "垂直の 壁に 指先で ぴたりと 張りついて 高層ビルも すいすいと 登りきることができる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "217",
+        "globalNo": "658",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "あく",
+            "hp": 72,
+            "attack": 95,
+            "defense": 67,
+            "special_attack": 103,
+            "special_defense": 71,
+            "speed": 122,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "へんげんじざい",
+            "description": {
+                "scarlet": "首に 巻きつけた ながーい 舌に 触れる 空気の 動きで 見えない 敵の 様子を 察知するのだ。",
+                "violet": "太ももから 染み出した 粘液で 作った 手裏剣は 鋼鉄の ワイヤーを すぱりと 断ち切るぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "218",
+        "globalNo": "722",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "ひこう",
+            "hp": 68,
+            "attack": 55,
+            "defense": 55,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 42,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "えんかく",
+            "description": {
+                "scarlet": "一切 音を 立てず 滑空し 敵に 急接近。 気づかぬ間に 強烈な 蹴りを 浴びせる。",
+                "violet": "狭くて 暗い場所が 落ち着く。 トレーナーの ふところや バッグを 巣の 代わりに することも あるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "219",
+        "globalNo": "723",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "ひこう",
+            "hp": 78,
+            "attack": 75,
+            "defense": 75,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 52,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "えんかく",
+            "description": {
+                "scarlet": "ナルシストで 綺麗好き。 マメに お手入れ してあげないと いうことを 聞かなく なることも。",
+                "violet": "刃羽根と 呼ばれる 鋭い 羽根を 敵や 獲物に 投げつける。 ほぼ 百発百中 だ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "220",
+        "globalNo": "724",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "ゴースト",
+            "hp": 78,
+            "attack": 107,
+            "defense": 75,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 70,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "えんかく",
+            "description": {
+                "scarlet": "翼に 仕込まれた 矢羽を つがえて 放つ。 100メートル 先の 小石も 貫く 精度。",
+                "violet": "矢羽を つがえ 相手に 放つ。 絶対 外せないときは 頭の ツルを引き 集中するのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "221",
+        "globalNo": "725",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 45,
+            "attack": 65,
+            "defense": 40,
+            "special_attack": 60,
+            "special_defense": 40,
+            "speed": 70,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "いかく",
+            "description": {
+                "scarlet": "しつこく つきまとわれると 心を 開かなくなる。 懐いてきても 過剰な スキンシップは 禁物。",
+                "violet": "毛づくろいで お腹に 溜まった 抜け毛を 燃やして 火を 吹く。 毛の 吐きかたで 炎も 変化。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "222",
+        "globalNo": "726",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 65,
+            "attack": 85,
+            "defense": 50,
+            "special_attack": 80,
+            "special_defense": 50,
+            "speed": 90,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "いかく",
+            "description": {
+                "scarlet": "首の 付け根に 炎の 鈴が ある。 炎が 噴きだすとき リンリンと 高い音が 鳴る。",
+                "violet": "なつくと トレーナーにも 甘えるが 力は 強く ツメも 鋭い。 全身 傷だらけに されるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "223",
+        "globalNo": "727",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "あく",
+            "hp": 95,
+            "attack": 115,
+            "defense": 90,
+            "special_attack": 80,
+            "special_defense": 90,
+            "speed": 60,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "いかく",
+            "description": {
+                "scarlet": "闘争心に 火が つくと 腰の まわりに ある 炎も ひと際 激しく 燃え上がる。",
+                "violet": "強烈な パンチや キックを お見舞いしたあと へその あたりから 炎を 吹き出し とどめを 刺す。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "224",
+        "globalNo": "728",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 50,
+            "attack": 54,
+            "defense": 54,
+            "special_attack": 66,
+            "special_defense": 56,
+            "speed": 40,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "うるおいボイス",
+            "description": {
+                "scarlet": "水の バルーンを 操る。 大きな バルーンを 作るため コツコツ 練習を 繰り返す。",
+                "violet": "鼻で ふくらませる バルーンは 日々 練習を 重ねることで 少しずつ 大きく なっていく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "225",
+        "globalNo": "729",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 60,
+            "attack": 69,
+            "defense": 69,
+            "special_attack": 91,
+            "special_defense": 81,
+            "speed": 50,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "うるおいボイス",
+            "description": {
+                "scarlet": "ダンスが 得意で 踊りながら 次々に 水の バルーンを 作りだし 敵に ぶつけるぞ。",
+                "violet": "仲間を 思う 気持ちが 強い。 トレーナーが 落ち込んでいると ダンスを 踊って 励まそうとする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "226",
+        "globalNo": "730",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "フェアリー",
+            "hp": 80,
+            "attack": 74,
+            "defense": 74,
+            "special_attack": 126,
+            "special_defense": 116,
+            "speed": 60,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "うるおいボイス",
+            "description": {
+                "scarlet": "アシレーヌに とって 戦いは ステージ。 華麗に 歌って 舞い踊り 獲物を 仕留める。",
+                "violet": "歌姫の 異名を 持つ。 月夜の 晩に 群れを 率いて 歌う 姿は 幻想的。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "227",
+        "globalNo": "810",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 50,
+            "attack": 65,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 65,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "グラスメイカー",
+            "description": {
+                "scarlet": "持っている スティックは サルノリの 体内からの エネルギーを 浴びて 堅さと しなやかさが 増している。",
+                "violet": "あらゆるものを スティックで 叩くうちに どんどん 楽しくなり リズムの ノリも よくなっていく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "228",
+        "globalNo": "811",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 70,
+            "attack": 85,
+            "defense": 70,
+            "special_attack": 55,
+            "special_defense": 60,
+            "speed": 80,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "グラスメイカー",
+            "description": {
+                "scarlet": "2本の スティックを 使いこなし 激しい ビートを 刻むだけでなく 戦いでも 相手を 打ちのめす。",
+                "violet": "激しい ビートを 刻むことに 夢中に なりすぎて トレーナーの 指示を 聞かなくなることも ある。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "229",
+        "globalNo": "812",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 100,
+            "attack": 125,
+            "defense": 90,
+            "special_attack": 60,
+            "special_defense": 70,
+            "speed": 85,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "グラスメイカー",
+            "description": {
+                "scarlet": "穏やかな 気性の 持ち主だが 調和を 乱すものは 許さず 反省するまで 厳しく 指導。",
+                "violet": "ボスに 挑むものが 現れると ドラミングバトルが 始まり 勝った方が 群れの ボスとなる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "230",
+        "globalNo": "813",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 50,
+            "attack": 71,
+            "defense": 40,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 69,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "リベロ",
+            "description": {
+                "scarlet": "全身が 温まることで 本来の パワーを 発揮できる。 そのため 準備運動を する。",
+                "violet": "炎エネルギーが 集まる 足の 肉球は 高温になり 相手に 大ダメージを 与える。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "231",
+        "globalNo": "814",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 65,
+            "attack": 86,
+            "defense": 60,
+            "special_attack": 55,
+            "special_defense": 60,
+            "speed": 94,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "リベロ",
+            "description": {
+                "scarlet": "ふかふかの 体毛の おかげで 炎エネルギーを 温めやすく さらに 強い 炎を 出せる。",
+                "violet": "多彩な キック技が 自慢だが 炎で 熱くなった 額で 繰り出す 頭突きも 強力。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "232",
+        "globalNo": "815",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 80,
+            "attack": 116,
+            "defense": 75,
+            "special_attack": 65,
+            "special_defense": 75,
+            "speed": 119,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "リベロ",
+            "description": {
+                "scarlet": "熱くなりやすい 性格だが 信頼する トレーナーが いると 隙のない 戦い方を みせる。",
+                "violet": "炎で 作った ボールを 操って 相手を 牽制したり 目くらましに 使ったりする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "233",
+        "globalNo": "816",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 50,
+            "attack": 40,
+            "defense": 40,
+            "special_attack": 70,
+            "special_defense": 40,
+            "speed": 70,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "スナイパー",
+            "description": {
+                "scarlet": "口から 吹き出す 水の弾で 木の実を 撃ち落として 食べる。 狙いは 百発百中だ。",
+                "violet": "警戒心が 強く どうしても 戦わないと いけない ときは 姿を 消してから 攻撃する。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "234",
+        "globalNo": "817",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 65,
+            "attack": 60,
+            "defense": 55,
+            "special_attack": 95,
+            "special_defense": 55,
+            "speed": 90,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "スナイパー",
+            "description": {
+                "scarlet": "粘液まみれの 長い 舌を 目にも 留まらない 速さで 伸ばし 獲物を 見事に 仕留めてみせる。",
+                "violet": "面倒くさがりな 性格だが 知能は 高く 罠を 仕掛けて 自分の 棲み処を 守っている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "235",
+        "globalNo": "818",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 70,
+            "attack": 85,
+            "defense": 65,
+            "special_attack": 125,
+            "special_defense": 65,
+            "speed": 120,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "スナイパー",
+            "description": {
+                "scarlet": "目の 特殊な レンズを使って 相手の 体温などを 感知して 急所を 見抜き 攻撃する。",
+                "violet": "紳士的な 振る舞いを みせるが 根っこは 怠け者のまま なので トレーナーが 見ていないと さぼる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "236",
+        "globalNo": "1020",
+        "status": [
+          {
+            "form": "",
+            "type1": "ほのお",
+            "type2": "ドラゴン",
+            "hp": 105,
+            "attack": 115,
+            "defense": 121,
+            "special_attack": 65,
+            "special_defense": 93,
+            "speed": 91,
+            "ability1": "こだいかっせい",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "目撃報告は ごくわずか。 火柱を 噴き 暴れる 姿の 短い 映像が 存在する。",
+                "violet": "化石から 復元された エンテイ と オカルト雑誌が 掲載した 怪しい ポケモンに 似ている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "237",
+        "globalNo": "1021",
+        "status": [
+          {
+            "form": "",
+            "type1": "でんき",
+            "type2": "ドラゴン",
+            "hp": 125,
+            "attack": 73,
+            "defense": 91,
+            "special_attack": 137,
+            "special_defense": 89,
+            "speed": 75,
+            "ability1": "こだいかっせい",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "体毛から 放つ 雷で あたりを 焼きつくすと いわれる。 詳しいことは わかっていない。",
+                "violet": "オカルト雑誌が 取り上げて 短い あいだ 話題になった ライコウの 祖先に 似ている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "238",
+        "globalNo": "1023",
+        "status": [
+          {
+            "form": "",
+            "type1": "はがね",
+            "type2": "エスパー",
+            "hp": 90,
+            "attack": 72,
+            "defense": 100,
+            "special_attack": 122,
+            "special_defense": 108,
+            "speed": 98,
+            "ability1": "クォークチャージ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "コバルオン型の 最新 兵器 と オカルト雑誌が 紹介した 謎の 物体に 似ている。",
+                "violet": "光る 刃を 撃ちだし あたりの すべてを 切り裂いたらしいが ほかに 情報はなく 正体不明。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "239",
+        "globalNo": "1022",
+        "status": [
+          {
+            "form": "",
+            "type1": "いわ",
+            "type2": "エスパー",
+            "hp": 90,
+            "attack": 120,
+            "defense": 80,
+            "special_attack": 68,
+            "special_defense": 108,
+            "speed": 124,
+            "ability1": "クォークチャージ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "悪の 組織に 改造された テラキオン と 怪しい雑誌が とりあげた ポケモンに 似ている。",
+                "violet": "金属質の ボディらしい。 名前は 古い 本に 記された 謎の 物体から つけられた。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "240",
+        "globalNo": "1024",
+        "status": [
+          {
+            "form": "ノーマルフォルム",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 90,
+            "attack": 65,
+            "defense": 85,
+            "special_attack": 65,
+            "special_defense": 85,
+            "speed": 60,
+            "ability1": "テラスチェンジ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "エネルギーを 硬い 結晶に 変える 能力で 身を 守る。 テラスタルの おおもとの ポケモン。",
+                "violet": "古代の パルデアで 暮らしていたが 地殻変動に 巻きこまれてしまい 絶滅したと 考えられていた。"
+            }
+          },
+          {
+            "form": "テラスタルフォルム",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 110,
+            "special_attack": 105,
+            "special_defense": 110,
+            "speed": 85,
+            "ability1": "テラスシェル",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "危険を 察知すると テラスタルの 結晶で 頑丈な 甲羅を 作りだして 戦いに 備える。",
+                "violet": "テラスタルの 甲羅は 相手の 技を 受けると そのエネルギーを 吸い取って 自分のものにする。"
+            }
+          },
+          {
+            "form": "ステラフォルム",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 160,
+            "attack": 105,
+            "defense": 110,
+            "special_attack": 130,
+            "special_defense": 110,
+            "speed": 85,
+            "ability1": "ゼロフォーミング",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "テラスタルエネルギーが 異常に 増幅した 姿。 古代人が 考えた 世界に 似ている。",
+                "violet": "地底に 埋もれた 姿は まるで 宇宙に 浮かぶ 星のようだと 古い 探検記に 記される。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "241",
+        "globalNo": "1009",
+        "status": [
+          {
+            "form": "",
+            "type1": "みず",
+            "type2": "ドラゴン",
+            "hp": 99,
+            "attack": 83,
+            "defense": 91,
+            "special_attack": 125,
+            "special_defense": 83,
+            "speed": 109,
+            "ability1": "こだいかっせい",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "謎多き 凶暴な 生物。 古い 探検記に 記された 水の 怪物から 名付けられた。",
+                "violet": "超古代の スイクンの 姿と オカルト雑誌が 掲載した イラストに 似た 姿をしている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "242",
+        "globalNo": "1010",
+        "status": [
+          {
+            "form": "",
+            "type1": "くさ",
+            "type2": "エスパー",
+            "hp": 90,
+            "attack": 130,
+            "defense": 88,
+            "special_attack": 70,
+            "special_defense": 108,
+            "speed": 104,
+            "ability1": "クォークチャージ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "オカルト雑誌が 取り上げた 未来の ビリジオンの 姿と 多くの 特徴が 一致する。",
+                "violet": "わずかな 目撃談によると 光り輝く 剣で 大木や 大岩を なます切りにしたという。"
             }
           }
         ]
