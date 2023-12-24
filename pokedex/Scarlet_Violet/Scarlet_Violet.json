@@ -1,6 +1,6 @@
 {
   "version":"2.0.0",
-  "update": "20231223",
+  "update": "20231224",
   "game_version": "Scarlet_Violet",
   "pokedex": {
     "パルデア図鑑": [
@@ -15973,7 +15973,7 @@
           {
             "form": "いどのめん",
             "type1": "くさ",
-            "type2": "",
+            "type2": "みず",
             "hp": 80,
             "attack": 120,
             "defense": 84,
@@ -15991,7 +15991,7 @@
           {
             "form": "かまどのめん",
             "type1": "くさ",
-            "type2": "",
+            "type2": "ほのお",
             "hp": 80,
             "attack": 120,
             "defense": 84,
@@ -16009,7 +16009,7 @@
           {
             "form": "いしずえのめん",
             "type1": "くさ",
-            "type2": "",
+            "type2": "いわ",
             "hp": 80,
             "attack": 120,
             "defense": 84,
