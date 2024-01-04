@@ -1,6 +1,6 @@
 {
   "version":"100",
-  "update": "20231217",
+  "update": "20240104",
   "pokedex": [
     {
       "id": 1,
@@ -10739,6 +10739,36 @@
           "classification": "プラズマポケモン",
           "height": "0.3",
           "weight": "0.3"
+        },
+        {
+          "form": "ヒートロトム",
+          "classification": "プラズマポケモン",
+          "height": "0.3",
+          "weight": "0.3"
+        },
+        {
+          "form": "ウォッシュロトム",
+          "classification": "プラズマポケモン",
+          "height": "0.3",
+          "weight": "0.3"
+        },
+        {
+          "form": "フロストロトム",
+          "classification": "プラズマポケモン",
+          "height": "0.3",
+          "weight": "0.3"
+        },
+        {
+          "form": "スピンロトム",
+          "classification": "プラズマポケモン",
+          "height": "0.3",
+          "weight": "0.3"
+        },
+        {
+          "form": "カットロトム",
+          "classification": "プラズマポケモン",
+          "height": "0.3",
+          "weight": "0.3"
         }
       ]
     },
@@ -16167,7 +16197,25 @@
       },
       "": [
         {
-          "form": "",
+          "form": "めらめらスタイル",
+          "classification": "ダンスポケモン",
+          "height": "0.6",
+          "weight": "3.4"
+        },
+        {
+          "form": "ぱちぱちスタイル",
+          "classification": "ダンスポケモン",
+          "height": "0.6",
+          "weight": "3.4"
+        },
+        {
+          "form": "ふらふらスタイル",
+          "classification": "ダンスポケモン",
+          "height": "0.6",
+          "weight": "3.4"
+        },
+        {
+          "form": "まいまいスタイル",
           "classification": "ダンスポケモン",
           "height": "0.6",
           "weight": "3.4"
