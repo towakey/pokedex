@@ -1,6 +1,6 @@
 {
   "version":"2.0.0",
-  "update": "20230325",
+  "update": "20240108",
   "game_version": "Diamond_Pearl_Platinum",
   "pokedex": {
     "シンオウ図鑑": [
@@ -1109,7 +1109,45 @@
         "globalNo": "412",
         "status": [
           {
-            "form": "",
+            "form": "くさきのミノ",
+            "type1": "むし",
+            "type2": "",
+            "hp": 40,
+            "attack": 29,
+            "defense": 45,
+            "special_attack": 29,
+            "special_defense": 45,
+            "speed": 36,
+            "ability1": "だっぴ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "diamond": "つめたい こがらしを ふせぐため こえだや おちばを ざいりょうに みのを つくり からだを おおう。",
+                "pearl": "たたかいで ミノが こわれてしまうと ちかくにある ざいりょうで ミノを すぐに つくりなおす。",
+                "platinum": "からだをつつむ ざいりょうが ない ばしょで うまれても ミノムッチは いつのまにか ミノを まとっている。"
+            }
+          },
+          {
+            "form": "すなちのミノ",
+            "type1": "むし",
+            "type2": "",
+            "hp": 40,
+            "attack": 29,
+            "defense": 45,
+            "special_attack": 29,
+            "special_defense": 45,
+            "speed": 36,
+            "ability1": "だっぴ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "diamond": "つめたい こがらしを ふせぐため こえだや おちばを ざいりょうに みのを つくり からだを おおう。",
+                "pearl": "たたかいで ミノが こわれてしまうと ちかくにある ざいりょうで ミノを すぐに つくりなおす。",
+                "platinum": "からだをつつむ ざいりょうが ない ばしょで うまれても ミノムッチは いつのまにか ミノを まとっている。"
+            }
+          },
+          {
+            "form": "ゴミのミノ",
             "type1": "むし",
             "type2": "",
             "hp": 40,
@@ -1134,9 +1172,47 @@
         "globalNo": "413",
         "status": [
           {
-            "form": "",
+            "form": "くさきのミノ",
             "type1": "むし",
             "type2": "くさ",
+            "hp": 60,
+            "attack": 59,
+            "defense": 85,
+            "special_attack": 79,
+            "special_defense": 105,
+            "speed": 36,
+            "ability1": "きけんよち",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "diamond": "ミノムッチから しんかしたとき みのが からだの いちぶに なった。いっしょう みのを ぬぐことはない。",
+                "pearl": "しんかした ばしょによって すがたが かわる。みぢかにある ざいりょうが からだの いちぶに なるのだ。",
+                "platinum": "しんかするとき まわりにある ざいりょうを からだに とりこむため おおくの バリエーションが ある。"
+            }
+          },
+          {
+            "form": "すなちのミノ",
+            "type1": "むし",
+            "type2": "じめん",
+            "hp": 60,
+            "attack": 59,
+            "defense": 85,
+            "special_attack": 79,
+            "special_defense": 105,
+            "speed": 36,
+            "ability1": "きけんよち",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "diamond": "ミノムッチから しんかしたとき みのが からだの いちぶに なった。いっしょう みのを ぬぐことはない。",
+                "pearl": "しんかした ばしょによって すがたが かわる。みぢかにある ざいりょうが からだの いちぶに なるのだ。",
+                "platinum": "しんかするとき まわりにある ざいりょうを からだに とりこむため おおくの バリエーションが ある。"
+            }
+          },
+          {
+            "form": "ゴミのミノ",
+            "type1": "むし",
+            "type2": "はがね",
             "hp": 60,
             "attack": 59,
             "defense": 85,
@@ -1459,7 +1535,26 @@
         "globalNo": "421",
         "status": [
           {
-            "form": "",
+            "form": "ネガフォルム",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 70,
+            "attack": 60,
+            "defense": 70,
+            "special_attack": 87,
+            "special_defense": 78,
+            "speed": 85,
+            "ability1": "フラワーギフト",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "diamond": "ひざしが つよくなると はなひらく。 つぼみの ときに たえしのんだ うっぷんを いっきに はらすのだ。",
+                "pearl": "つぼみの ときは おとなしいが はなが ひらくと いつも ニコニコ。ひが かけると つぼみに もどる。",
+                "platinum": "つよい ひざしを かんじとると とざしていた はなびらを ひろげ ぜんしんで にっこうを あびる。"
+            }
+          },
+          {
+            "form": "ポジフォルム",
             "type1": "くさ",
             "type2": "",
             "hp": 70,
@@ -1484,7 +1579,26 @@
         "globalNo": "422",
         "status": [
           {
-            "form": "",
+            "form": "にしのうみ",
+            "type1": "みず",
+            "type2": "",
+            "hp": 76,
+            "attack": 48,
+            "defense": 48,
+            "special_attack": 57,
+            "special_defense": 62,
+            "speed": 34,
+            "ability1": "ねんちゃく",
+            "ability2": "よびみず",
+            "dream_ability": "",
+            "description": {
+                "diamond": "せいそくちにより ちがった かたちや いろを している。 シンオウちほうでは 2しゅるいが かくにんされている。",
+                "pearl": "みずべに せいそくする。 せいそくちの かんきょうに あわせて からだの かたちが へんかした。",
+                "platinum": "やわらかい からだを つよくおすと むらさきいろの なぞの えきたいが にじみでるので ようちゅうい。"
+            }
+          },
+          {
+            "form": "ひがしのうみ",
             "type1": "みず",
             "type2": "",
             "hp": 76,
@@ -1509,7 +1623,26 @@
         "globalNo": "423",
         "status": [
           {
-            "form": "",
+            "form": "にしのうみ",
+            "type1": "みず",
+            "type2": "じめん",
+            "hp": 111,
+            "attack": 83,
+            "defense": 68,
+            "special_attack": 92,
+            "special_defense": 82,
+            "speed": 39,
+            "ability1": "ねんちゃく",
+            "ability2": "よびみず",
+            "dream_ability": "",
+            "description": {
+                "diamond": "ホネがなく グニャグニャの からだ。 からだの いちぶが ちぎれても すぐに さいせいされて もとどおり。",
+                "pearl": "おおむかしは じょうぶな カラで からだを まもっていたらしい。 うみの あさせに せいそくする。",
+                "platinum": "むかしは じょうぶな カラで せなか ぜんたいを おおっていた。 さいぼうに その なごりが ある。"
+            }
+          },
+          {
+            "form": "ひがしのうみ",
             "type1": "みず",
             "type2": "じめん",
             "hp": 111,
@@ -5234,7 +5367,7 @@
         "globalNo": "487",
         "status": [
           {
-            "form": "",
+            "form": "アナザーフォルム",
             "type1": "ゴースト",
             "type2": "ドラゴン",
             "hp": 150,

@@ -1,6 +1,6 @@
 {
   "version":"2.0.0",
-  "update": "20230409",
+  "update": "20240108",
   "game_version": "LegendsArceus",
   "pokedex": {
     "ヒスイ図鑑": [
@@ -3923,7 +3923,7 @@
         "globalNo": "550",
         "status": [
           {
-            "form": "しろすじのすがた",
+            "form": "しろすじ",
             "type1": "みず",
             "type2": "",
             "hp": 70,

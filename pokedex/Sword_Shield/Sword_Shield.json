@@ -1,6 +1,6 @@
 {
   "version":"2.0.0",
-  "update": "20231228",
+  "update": "20240108",
   "game_version": "Sword_Shield",
   "pokedex": {
     "ガラル図鑑": [
@@ -3897,7 +3897,7 @@
         "globalNo": "550",
         "status": [
           {
-            "form": "あかすじのすがた",
+            "form": "あかすじ",
             "type1": "みず",
             "type2": "",
             "hp": 70,
@@ -3915,7 +3915,7 @@
             }
           },
           {
-            "form": "あおすじのすがた",
+            "form": "あおすじ",
             "type1": "みず",
             "type2": "",
             "hp": 70,
@@ -9969,7 +9969,7 @@
         "globalNo": "555",
         "status": [
           {
-            "form": "ガラルのすがた",
+            "form": "ガラルのすがた・ノーマルモード",
             "type1": "こおり",
             "type2": "",
             "hp": 105,
@@ -10005,7 +10005,7 @@
             }
           },
           {
-            "form": "",
+            "form": "ノーマルモード",
             "type1": "ほのお",
             "type2": "",
             "hp": 105,
@@ -10521,8 +10521,296 @@
             }
           },
           {
-            "form": "タイプ:ノーマル以外",
-            "type1": "ノーマル",
+            "form": "タイプ:ほのお",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sword": "かくせいした のうりょくによって そうびした メモリに あわせて <タイプ名>タイプに へんかできる。",
+                "shield": "そうびした メモリによって タイプが チェンジする のうりょくを もつ。 <タイプ名>タイプの すがた。"
+            }
+          },
+          {
+            "form": "タイプ:みず",
+            "type1": "みず",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sword": "かくせいした のうりょくによって そうびした メモリに あわせて <タイプ名>タイプに へんかできる。",
+                "shield": "そうびした メモリによって タイプが チェンジする のうりょくを もつ。 <タイプ名>タイプの すがた。"
+            }
+          },
+          {
+            "form": "タイプ:でんき",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sword": "かくせいした のうりょくによって そうびした メモリに あわせて <タイプ名>タイプに へんかできる。",
+                "shield": "そうびした メモリによって タイプが チェンジする のうりょくを もつ。 <タイプ名>タイプの すがた。"
+            }
+          },
+          {
+            "form": "タイプ:くさ",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sword": "かくせいした のうりょくによって そうびした メモリに あわせて <タイプ名>タイプに へんかできる。",
+                "shield": "そうびした メモリによって タイプが チェンジする のうりょくを もつ。 <タイプ名>タイプの すがた。"
+            }
+          },
+          {
+            "form": "タイプ:こおり",
+            "type1": "こおり",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sword": "かくせいした のうりょくによって そうびした メモリに あわせて <タイプ名>タイプに へんかできる。",
+                "shield": "そうびした メモリによって タイプが チェンジする のうりょくを もつ。 <タイプ名>タイプの すがた。"
+            }
+          },
+          {
+            "form": "タイプ:かくとう",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sword": "かくせいした のうりょくによって そうびした メモリに あわせて <タイプ名>タイプに へんかできる。",
+                "shield": "そうびした メモリによって タイプが チェンジする のうりょくを もつ。 <タイプ名>タイプの すがた。"
+            }
+          },
+          {
+            "form": "タイプ:どく",
+            "type1": "どく",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sword": "かくせいした のうりょくによって そうびした メモリに あわせて <タイプ名>タイプに へんかできる。",
+                "shield": "そうびした メモリによって タイプが チェンジする のうりょくを もつ。 <タイプ名>タイプの すがた。"
+            }
+          },
+          {
+            "form": "タイプ:じめん",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sword": "かくせいした のうりょくによって そうびした メモリに あわせて <タイプ名>タイプに へんかできる。",
+                "shield": "そうびした メモリによって タイプが チェンジする のうりょくを もつ。 <タイプ名>タイプの すがた。"
+            }
+          },
+          {
+            "form": "タイプ:ひこう",
+            "type1": "ひこう",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sword": "かくせいした のうりょくによって そうびした メモリに あわせて <タイプ名>タイプに へんかできる。",
+                "shield": "そうびした メモリによって タイプが チェンジする のうりょくを もつ。 <タイプ名>タイプの すがた。"
+            }
+          },
+          {
+            "form": "タイプ:エスパー",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sword": "かくせいした のうりょくによって そうびした メモリに あわせて <タイプ名>タイプに へんかできる。",
+                "shield": "そうびした メモリによって タイプが チェンジする のうりょくを もつ。 <タイプ名>タイプの すがた。"
+            }
+          },
+          {
+            "form": "タイプ:むし",
+            "type1": "むし",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sword": "かくせいした のうりょくによって そうびした メモリに あわせて <タイプ名>タイプに へんかできる。",
+                "shield": "そうびした メモリによって タイプが チェンジする のうりょくを もつ。 <タイプ名>タイプの すがた。"
+            }
+          },
+          {
+            "form": "タイプ:いわ",
+            "type1": "いわ",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sword": "かくせいした のうりょくによって そうびした メモリに あわせて <タイプ名>タイプに へんかできる。",
+                "shield": "そうびした メモリによって タイプが チェンジする のうりょくを もつ。 <タイプ名>タイプの すがた。"
+            }
+          },
+          {
+            "form": "タイプ:ゴースト",
+            "type1": "ゴースト",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sword": "かくせいした のうりょくによって そうびした メモリに あわせて <タイプ名>タイプに へんかできる。",
+                "shield": "そうびした メモリによって タイプが チェンジする のうりょくを もつ。 <タイプ名>タイプの すがた。"
+            }
+          },
+          {
+            "form": "タイプ:ドラゴン",
+            "type1": "ドラゴン",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sword": "かくせいした のうりょくによって そうびした メモリに あわせて <タイプ名>タイプに へんかできる。",
+                "shield": "そうびした メモリによって タイプが チェンジする のうりょくを もつ。 <タイプ名>タイプの すがた。"
+            }
+          },
+          {
+            "form": "タイプ:あく",
+            "type1": "あく",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sword": "かくせいした のうりょくによって そうびした メモリに あわせて <タイプ名>タイプに へんかできる。",
+                "shield": "そうびした メモリによって タイプが チェンジする のうりょくを もつ。 <タイプ名>タイプの すがた。"
+            }
+          },
+          {
+            "form": "タイプ:はがね",
+            "type1": "はがね",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sword": "かくせいした のうりょくによって そうびした メモリに あわせて <タイプ名>タイプに へんかできる。",
+                "shield": "そうびした メモリによって タイプが チェンジする のうりょくを もつ。 <タイプ名>タイプの すがた。"
+            }
+          },
+          {
+            "form": "タイプ:フェアリー",
+            "type1": "フェアリー",
             "type2": "",
             "hp": 95,
             "attack": 95,
@@ -12617,7 +12905,7 @@
         "globalNo": "550",
         "status": [
           {
-            "form": "あかすじのすがた",
+            "form": "あかすじ",
             "type1": "みず",
             "type2": "",
             "hp": 70,
@@ -12635,7 +12923,7 @@
             }
           },
           {
-            "form": "あおすじのすがた",
+            "form": "あおすじ",
             "type1": "みず",
             "type2": "",
             "hp": 70,
@@ -13703,7 +13991,7 @@
         "globalNo": "555",
         "status": [
           {
-            "form": "ガラルのすがた",
+            "form": "ガラルのすがた・ノーマルモード",
             "type1": "こおり",
             "type2": "",
             "hp": 105,

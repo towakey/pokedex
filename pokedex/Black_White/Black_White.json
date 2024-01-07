@@ -1,6 +1,6 @@
 {
   "version":"2.0.0",
-  "update": "20230701",
+  "update": "20240108",
   "game_version": "Black_White",
   "pokedex": {
     "イッシュ図鑑": [
@@ -1353,7 +1353,25 @@
         "globalNo": "550",
         "status": [
           {
-            "form": "",
+            "form": "あかすじ",
+            "type1": "みず",
+            "type2": "",
+            "hp": 70,
+            "attack": 92,
+            "defense": 65,
+            "special_attack": 80,
+            "special_defense": 55,
+            "speed": 98,
+            "ability1": "すてみ",
+            "ability2": "てきおうりょく",
+            "dream_ability": "かたやぶり",
+            "description": {
+                "black": "あかと あおの バスラオは すぐに ケンカするほど なかが わるい。とても らんぼうな ポケモン。",
+                "white": "あかと あおの バスラオは なかが わるいが なぜか いろの ちがう こたいが むれに まぎれこんでいる。"
+            }
+          },
+          {
+            "form": "あおすじ",
             "type1": "みず",
             "type2": "",
             "hp": 70,
@@ -2211,7 +2229,61 @@
         "globalNo": "585",
         "status": [
           {
-            "form": "",
+            "form": "はるのすがた",
+            "type1": "ノーマル",
+            "type2": "くさ",
+            "hp": 60,
+            "attack": 60,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 50,
+            "speed": 75,
+            "ability1": "ようりょくそ",
+            "ability2": "そうしょく",
+            "dream_ability": "てんのめぐみ",
+            "description": {
+                "black": "たいもうが のやまの くさと おなじ いろと かおりに かわる。てきいを かんじると くさむらに かくれる。",
+                "white": "きせつの かわりめに なると たいもうと においが へんかする。きせつを つげる ポケモン。"
+            }
+          },
+          {
+            "form": "なつのすがた",
+            "type1": "ノーマル",
+            "type2": "くさ",
+            "hp": 60,
+            "attack": 60,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 50,
+            "speed": 75,
+            "ability1": "ようりょくそ",
+            "ability2": "そうしょく",
+            "dream_ability": "てんのめぐみ",
+            "description": {
+                "black": "たいもうが のやまの くさと おなじ いろと かおりに かわる。てきいを かんじると くさむらに かくれる。",
+                "white": "きせつの かわりめに なると たいもうと においが へんかする。きせつを つげる ポケモン。"
+            }
+          },
+          {
+            "form": "あきのすがた",
+            "type1": "ノーマル",
+            "type2": "くさ",
+            "hp": 60,
+            "attack": 60,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 50,
+            "speed": 75,
+            "ability1": "ようりょくそ",
+            "ability2": "そうしょく",
+            "dream_ability": "てんのめぐみ",
+            "description": {
+                "black": "たいもうが のやまの くさと おなじ いろと かおりに かわる。てきいを かんじると くさむらに かくれる。",
+                "white": "きせつの かわりめに なると たいもうと においが へんかする。きせつを つげる ポケモン。"
+            }
+          },
+          {
+            "form": "ふゆのすがた",
             "type1": "ノーマル",
             "type2": "くさ",
             "hp": 60,
@@ -2235,7 +2307,61 @@
         "globalNo": "586",
         "status": [
           {
-            "form": "",
+            "form": "はるのすがた",
+            "type1": "ノーマル",
+            "type2": "くさ",
+            "hp": 80,
+            "attack": 100,
+            "defense": 70,
+            "special_attack": 60,
+            "special_defense": 70,
+            "speed": 95,
+            "ability1": "ようりょくそ",
+            "ability2": "そうしょく",
+            "dream_ability": "てんのめぐみ",
+            "description": {
+                "black": "きせつに よって すみかを かえる。ひとびとは メブキジカの ツノで きせつの うつりかわりを かんじる。",
+                "white": "きせつによって ツノに はえる くさばなが かわる。りっぱな ツノの もちぬしが むれを ひきいている。"
+            }
+          },
+          {
+            "form": "なつのすがた",
+            "type1": "ノーマル",
+            "type2": "くさ",
+            "hp": 80,
+            "attack": 100,
+            "defense": 70,
+            "special_attack": 60,
+            "special_defense": 70,
+            "speed": 95,
+            "ability1": "ようりょくそ",
+            "ability2": "そうしょく",
+            "dream_ability": "てんのめぐみ",
+            "description": {
+                "black": "きせつに よって すみかを かえる。ひとびとは メブキジカの ツノで きせつの うつりかわりを かんじる。",
+                "white": "きせつによって ツノに はえる くさばなが かわる。りっぱな ツノの もちぬしが むれを ひきいている。"
+            }
+          },
+          {
+            "form": "あきのすがた",
+            "type1": "ノーマル",
+            "type2": "くさ",
+            "hp": 80,
+            "attack": 100,
+            "defense": 70,
+            "special_attack": 60,
+            "special_defense": 70,
+            "speed": 95,
+            "ability1": "ようりょくそ",
+            "ability2": "そうしょく",
+            "dream_ability": "てんのめぐみ",
+            "description": {
+                "black": "きせつに よって すみかを かえる。ひとびとは メブキジカの ツノで きせつの うつりかわりを かんじる。",
+                "white": "きせつによって ツノに はえる くさばなが かわる。りっぱな ツノの もちぬしが むれを ひきいている。"
+            }
+          },
+          {
+            "form": "ふゆのすがた",
             "type1": "ノーマル",
             "type2": "くさ",
             "hp": 80,

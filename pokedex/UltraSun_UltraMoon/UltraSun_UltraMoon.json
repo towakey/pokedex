@@ -6711,7 +6711,7 @@
         "globalNo": "773",
         "status": [
           {
-            "form": "",
+            "form": "タイプ:ノーマル",
             "type1": "ノーマル",
             "type2": "",
             "hp": 95,
@@ -6724,8 +6724,314 @@
             "ability2": "",
             "dream_ability": "",
             "description": {
-                "ultrasun": "タイプ:ノーマル",
-                "ultramoon": "タイプ:ノーマル"
+                "ultrasun": "かくせいし しんかした すがた。 おもい マスクから ときはなたれ スピードが おおはばに アップ。",
+                "ultramoon": "せいぎょマスクを はかい できたのは パートナーとの きずなに よって つよい せいしんりょくを えたからだ。"
+            }
+          },
+          {
+            "form": "タイプ:ほのお",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かくせいに せいこう。 でんせつの ポケモンのように じぶんのタイプを へんかさせ たたかうことが できる。",
+                "ultramoon": "ふういんされた タイプチェンジの のうりょくを かいほう。 わきあがる エネルギーで ぎんいろに かがやく。"
+            }
+          },
+          {
+            "form": "タイプ:みず",
+            "type1": "みず",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かくせいに せいこう。 でんせつの ポケモンのように じぶんのタイプを へんかさせ たたかうことが できる。",
+                "ultramoon": "ふういんされた タイプチェンジの のうりょくを かいほう。 わきあがる エネルギーで ぎんいろに かがやく。"
+            }
+          },
+          {
+            "form": "タイプ:でんき",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かくせいに せいこう。 でんせつの ポケモンのように じぶんのタイプを へんかさせ たたかうことが できる。",
+                "ultramoon": "ふういんされた タイプチェンジの のうりょくを かいほう。 わきあがる エネルギーで ぎんいろに かがやく。"
+            }
+          },
+          {
+            "form": "タイプ:くさ",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かくせいに せいこう。 でんせつの ポケモンのように じぶんのタイプを へんかさせ たたかうことが できる。",
+                "ultramoon": "ふういんされた タイプチェンジの のうりょくを かいほう。 わきあがる エネルギーで ぎんいろに かがやく。"
+            }
+          },
+          {
+            "form": "タイプ:こおり",
+            "type1": "こおり",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かくせいに せいこう。 でんせつの ポケモンのように じぶんのタイプを へんかさせ たたかうことが できる。",
+                "ultramoon": "ふういんされた タイプチェンジの のうりょくを かいほう。 わきあがる エネルギーで ぎんいろに かがやく。"
+            }
+          },
+          {
+            "form": "タイプ:かくとう",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かくせいに せいこう。 でんせつの ポケモンのように じぶんのタイプを へんかさせ たたかうことが できる。",
+                "ultramoon": "ふういんされた タイプチェンジの のうりょくを かいほう。 わきあがる エネルギーで ぎんいろに かがやく。"
+            }
+          },
+          {
+            "form": "タイプ:どく",
+            "type1": "どく",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かくせいに せいこう。 でんせつの ポケモンのように じぶんのタイプを へんかさせ たたかうことが できる。",
+                "ultramoon": "ふういんされた タイプチェンジの のうりょくを かいほう。 わきあがる エネルギーで ぎんいろに かがやく。"
+            }
+          },
+          {
+            "form": "タイプ:じめん",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かくせいに せいこう。 でんせつの ポケモンのように じぶんのタイプを へんかさせ たたかうことが できる。",
+                "ultramoon": "ふういんされた タイプチェンジの のうりょくを かいほう。 わきあがる エネルギーで ぎんいろに かがやく。"
+            }
+          },
+          {
+            "form": "タイプ:ひこう",
+            "type1": "ひこう",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かくせいに せいこう。 でんせつの ポケモンのように じぶんのタイプを へんかさせ たたかうことが できる。",
+                "ultramoon": "ふういんされた タイプチェンジの のうりょくを かいほう。 わきあがる エネルギーで ぎんいろに かがやく。"
+            }
+          },
+          {
+            "form": "タイプ:エスパー",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かくせいに せいこう。 でんせつの ポケモンのように じぶんのタイプを へんかさせ たたかうことが できる。",
+                "ultramoon": "ふういんされた タイプチェンジの のうりょくを かいほう。 わきあがる エネルギーで ぎんいろに かがやく。"
+            }
+          },
+          {
+            "form": "タイプ:むし",
+            "type1": "むし",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かくせいに せいこう。 でんせつの ポケモンのように じぶんのタイプを へんかさせ たたかうことが できる。",
+                "ultramoon": "ふういんされた タイプチェンジの のうりょくを かいほう。 わきあがる エネルギーで ぎんいろに かがやく。"
+            }
+          },
+          {
+            "form": "タイプ:いわ",
+            "type1": "いわ",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かくせいに せいこう。 でんせつの ポケモンのように じぶんのタイプを へんかさせ たたかうことが できる。",
+                "ultramoon": "ふういんされた タイプチェンジの のうりょくを かいほう。 わきあがる エネルギーで ぎんいろに かがやく。"
+            }
+          },
+          {
+            "form": "タイプ:ゴースト",
+            "type1": "ゴースト",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かくせいに せいこう。 でんせつの ポケモンのように じぶんのタイプを へんかさせ たたかうことが できる。",
+                "ultramoon": "ふういんされた タイプチェンジの のうりょくを かいほう。 わきあがる エネルギーで ぎんいろに かがやく。"
+            }
+          },
+          {
+            "form": "タイプ:ドラゴン",
+            "type1": "ドラゴン",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かくせいに せいこう。 でんせつの ポケモンのように じぶんのタイプを へんかさせ たたかうことが できる。",
+                "ultramoon": "ふういんされた タイプチェンジの のうりょくを かいほう。 わきあがる エネルギーで ぎんいろに かがやく。"
+            }
+          },
+          {
+            "form": "タイプ:あく",
+            "type1": "あく",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かくせいに せいこう。 でんせつの ポケモンのように じぶんのタイプを へんかさせ たたかうことが できる。",
+                "ultramoon": "ふういんされた タイプチェンジの のうりょくを かいほう。 わきあがる エネルギーで ぎんいろに かがやく。"
+            }
+          },
+          {
+            "form": "タイプ:はがね",
+            "type1": "はがね",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かくせいに せいこう。 でんせつの ポケモンのように じぶんのタイプを へんかさせ たたかうことが できる。",
+                "ultramoon": "ふういんされた タイプチェンジの のうりょくを かいほう。 わきあがる エネルギーで ぎんいろに かがやく。"
+            }
+          },
+          {
+            "form": "タイプ:フェアリー",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かくせいに せいこう。 でんせつの ポケモンのように じぶんのタイプを へんかさせ たたかうことが できる。",
+                "ultramoon": "ふういんされた タイプチェンジの のうりょくを かいほう。 わきあがる エネルギーで ぎんいろに かがやく。"
             }
           }
         ]

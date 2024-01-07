@@ -5115,7 +5115,7 @@
         "globalNo": "773",
         "status": [
           {
-            "form": "",
+            "form": "タイプ:ノーマル",
             "type1": "ノーマル",
             "type2": "",
             "hp": 95,
@@ -5128,8 +5128,314 @@
             "ability2": "",
             "dream_ability": "",
             "description": {
-                "sun": "タイプ:ノーマル",
-                "moon": "タイプ:ノーマル"
+                "sun": "パートナーとの しんらいで かくせい。 じざいに タイプを チェンジする のうりょくを はっきし たたかう。",
+                "moon": "そのなは タイプ:ヌルを はじめて このすがたに しんか させた しょうねんに よって なづけられた。"
+            }
+          },
+          {
+            "form": "タイプ:ほのお",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "せいぎょマスクを みずから はかい。 とくしゅメモリを そうび することで タイプを かえられるように なった。",
+                "moon": "かくせいし ARシステムが はつどう。 とくしゅな メモリに たいおうして タイプチェンジし てきに たちむかう。"
+            }
+          },
+          {
+            "form": "タイプ:みず",
+            "type1": "みず",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "せいぎょマスクを みずから はかい。 とくしゅメモリを そうび することで タイプを かえられるように なった。",
+                "moon": "かくせいし ARシステムが はつどう。 とくしゅな メモリに たいおうして タイプチェンジし てきに たちむかう。"
+            }
+          },
+          {
+            "form": "タイプ:でんき",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "せいぎょマスクを みずから はかい。 とくしゅメモリを そうび することで タイプを かえられるように なった。",
+                "moon": "かくせいし ARシステムが はつどう。 とくしゅな メモリに たいおうして タイプチェンジし てきに たちむかう。"
+            }
+          },
+          {
+            "form": "タイプ:くさ",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "せいぎょマスクを みずから はかい。 とくしゅメモリを そうび することで タイプを かえられるように なった。",
+                "moon": "かくせいし ARシステムが はつどう。 とくしゅな メモリに たいおうして タイプチェンジし てきに たちむかう。"
+            }
+          },
+          {
+            "form": "タイプ:こおり",
+            "type1": "こおり",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "せいぎょマスクを みずから はかい。 とくしゅメモリを そうび することで タイプを かえられるように なった。",
+                "moon": "かくせいし ARシステムが はつどう。 とくしゅな メモリに たいおうして タイプチェンジし てきに たちむかう。"
+            }
+          },
+          {
+            "form": "タイプ:かくとう",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "せいぎょマスクを みずから はかい。 とくしゅメモリを そうび することで タイプを かえられるように なった。",
+                "moon": "かくせいし ARシステムが はつどう。 とくしゅな メモリに たいおうして タイプチェンジし てきに たちむかう。"
+            }
+          },
+          {
+            "form": "タイプ:どく",
+            "type1": "どく",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "せいぎょマスクを みずから はかい。 とくしゅメモリを そうび することで タイプを かえられるように なった。",
+                "moon": "かくせいし ARシステムが はつどう。 とくしゅな メモリに たいおうして タイプチェンジし てきに たちむかう。"
+            }
+          },
+          {
+            "form": "タイプ:じめん",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "せいぎょマスクを みずから はかい。 とくしゅメモリを そうび することで タイプを かえられるように なった。",
+                "moon": "かくせいし ARシステムが はつどう。 とくしゅな メモリに たいおうして タイプチェンジし てきに たちむかう。"
+            }
+          },
+          {
+            "form": "タイプ:ひこう",
+            "type1": "ひこう",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "せいぎょマスクを みずから はかい。 とくしゅメモリを そうび することで タイプを かえられるように なった。",
+                "moon": "かくせいし ARシステムが はつどう。 とくしゅな メモリに たいおうして タイプチェンジし てきに たちむかう。"
+            }
+          },
+          {
+            "form": "タイプ:エスパー",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "せいぎょマスクを みずから はかい。 とくしゅメモリを そうび することで タイプを かえられるように なった。",
+                "moon": "かくせいし ARシステムが はつどう。 とくしゅな メモリに たいおうして タイプチェンジし てきに たちむかう。"
+            }
+          },
+          {
+            "form": "タイプ:むし",
+            "type1": "むし",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "せいぎょマスクを みずから はかい。 とくしゅメモリを そうび することで タイプを かえられるように なった。",
+                "moon": "かくせいし ARシステムが はつどう。 とくしゅな メモリに たいおうして タイプチェンジし てきに たちむかう。"
+            }
+          },
+          {
+            "form": "タイプ:いわ",
+            "type1": "いわ",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "せいぎょマスクを みずから はかい。 とくしゅメモリを そうび することで タイプを かえられるように なった。",
+                "moon": "かくせいし ARシステムが はつどう。 とくしゅな メモリに たいおうして タイプチェンジし てきに たちむかう。"
+            }
+          },
+          {
+            "form": "タイプ:ゴースト",
+            "type1": "ゴースト",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "せいぎょマスクを みずから はかい。 とくしゅメモリを そうび することで タイプを かえられるように なった。",
+                "moon": "かくせいし ARシステムが はつどう。 とくしゅな メモリに たいおうして タイプチェンジし てきに たちむかう。"
+            }
+          },
+          {
+            "form": "タイプ:ドラゴン",
+            "type1": "ドラゴン",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "せいぎょマスクを みずから はかい。 とくしゅメモリを そうび することで タイプを かえられるように なった。",
+                "moon": "かくせいし ARシステムが はつどう。 とくしゅな メモリに たいおうして タイプチェンジし てきに たちむかう。"
+            }
+          },
+          {
+            "form": "タイプ:あく",
+            "type1": "あく",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "せいぎょマスクを みずから はかい。 とくしゅメモリを そうび することで タイプを かえられるように なった。",
+                "moon": "かくせいし ARシステムが はつどう。 とくしゅな メモリに たいおうして タイプチェンジし てきに たちむかう。"
+            }
+          },
+          {
+            "form": "タイプ:はがね",
+            "type1": "はがね",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "せいぎょマスクを みずから はかい。 とくしゅメモリを そうび することで タイプを かえられるように なった。",
+                "moon": "かくせいし ARシステムが はつどう。 とくしゅな メモリに たいおうして タイプチェンジし てきに たちむかう。"
+            }
+          },
+          {
+            "form": "タイプ:フェアリー",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 95,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "ARシステム",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "せいぎょマスクを みずから はかい。 とくしゅメモリを そうび することで タイプを かえられるように なった。",
+                "moon": "かくせいし ARシステムが はつどう。 とくしゅな メモリに たいおうして タイプチェンジし てきに たちむかう。"
             }
           }
         ]

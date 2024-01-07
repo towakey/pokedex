@@ -1,6 +1,6 @@
 {
   "version":"100",
-  "update": "20240107",
+  "update": "20240108",
   "pokedex": [
     {
       "id": 1,
@@ -9503,7 +9503,13 @@
       },
       "": [
         {
-          "form": "",
+          "form": "ネガフォルム",
+          "classification": "サクラポケモン",
+          "height": "0.5",
+          "weight": "9.3"
+        },
+        {
+          "form": "ポジフォルム",
           "classification": "サクラポケモン",
           "height": "0.5",
           "weight": "9.3"
@@ -10937,7 +10943,7 @@
       },
       "": [
         {
-          "form": "",
+          "form": "アナザーフォルム",
           "classification": "はんこつポケモン",
           "height": "4.5",
           "weight": "750.0"
@@ -11043,10 +11049,16 @@
       },
       "": [
         {
-          "form": "",
+          "form": "ランドフォルム",
           "classification": "かんしゃポケモン",
           "height": "0.2",
           "weight": "2.1"
+        },
+        {
+          "form": "スカイフォルム",
+          "classification": "かんしゃポケモン",
+          "height": "0.4",
+          "weight": "5.2"
         }
       ]
     },
@@ -12354,7 +12366,13 @@
       },
       "": [
         {
-          "form": "",
+          "form": "ノーマルモード",
+          "classification": "えんじょうポケモン",
+          "height": "1.3",
+          "weight": "92.9"
+        },
+        {
+          "form": "ダルマモード",
           "classification": "えんじょうポケモン",
           "height": "1.3",
           "weight": "92.9"
@@ -12362,8 +12380,13 @@
       ],
       "region_form": [
         {
-          "region": "galar",
-          "form": "ガラルのすがた",
+          "form": "ガラルのすがた・ノーマルモード",
+          "classification": "えんじょうポケモン",
+          "height": "1.7",
+          "weight": "120.0"
+        },
+        {
+          "form": "ガラルのすがた・ダルマモード",
           "classification": "えんじょうポケモン",
           "height": "1.7",
           "weight": "120.0"
@@ -14185,9 +14208,15 @@
       },
       "": [
         {
-          "form": "",
+          "form": "けしんフォルム",
           "classification": "せんぷうポケモン",
           "height": "1.5",
+          "weight": "63.0"
+        },
+        {
+          "form": "れいじゅうフォルム",
+          "classification": "せんぷうポケモン",
+          "height": "1.4",
           "weight": "63.0"
         }
       ]
@@ -14205,9 +14234,15 @@
       },
       "": [
         {
-          "form": "",
+          "form": "けしんフォルム",
           "classification": "らいげきポケモン",
           "height": "1.5",
+          "weight": "61.0"
+        },
+        {
+          "form": "れいじゅうフォルム",
+          "classification": "らいげきポケモン",
+          "height": "3.0",
           "weight": "61.0"
         }
       ]
@@ -14265,9 +14300,15 @@
       },
       "": [
         {
-          "form": "",
+          "form": "けしんフォルム",
           "classification": "ほうじょうポケモン",
           "height": "1.5",
+          "weight": "68.0"
+        },
+        {
+          "form": "れいじゅうフォルム",
+          "classification": "ほうじょうポケモン",
+          "height": "1.3",
           "weight": "68.0"
         }
       ]
@@ -15111,7 +15152,13 @@
       },
       "": [
         {
-          "form": "",
+          "form": "オスのすがた",
+          "classification": "よくせいポケモン",
+          "height": "0.6",
+          "weight": "8.5"
+        },
+        {
+          "form": "メスのすがた",
           "classification": "よくせいポケモン",
           "height": "0.6",
           "weight": "8.5"
@@ -15171,7 +15218,13 @@
       },
       "": [
         {
-          "form": "",
+          "form": "シールドフォルム",
+          "classification": "おうけんポケモン",
+          "height": "1.7",
+          "weight": "53.0"
+        },
+        {
+          "form": "ブレードフォルム",
           "classification": "おうけんポケモン",
           "height": "1.7",
           "weight": "53.0"
@@ -15769,10 +15822,28 @@
       },
       "": [
         {
-          "form": "",
+          "form": "ふつうのサイズ",
           "classification": "かぼちゃポケモン",
           "height": "0.4",
           "weight": "5.0"
+        },
+        {
+          "form": "ちいさいサイズ",
+          "classification": "かぼちゃポケモン",
+          "height": "0.3",
+          "weight": "3.5"
+        },
+        {
+          "form": "おおきいサイズ",
+          "classification": "かぼちゃポケモン",
+          "height": "0.5",
+          "weight": "7.5"
+        },
+        {
+          "form": "とくだいサイズ",
+          "classification": "かぼちゃポケモン",
+          "height": "0.8",
+          "weight": "15.0"
         }
       ]
     },
@@ -15789,10 +15860,28 @@
       },
       "": [
         {
-          "form": "",
+          "form": "ふつうのサイズ",
           "classification": "かぼちゃポケモン",
           "height": "0.9",
           "weight": "12.5"
+        },
+        {
+          "form": "ちいさいサイズ",
+          "classification": "かぼちゃポケモン",
+          "height": "0.7",
+          "weight": "9.5"
+        },
+        {
+          "form": "おおきいサイズ",
+          "classification": "かぼちゃポケモン",
+          "height": "1.1",
+          "weight": "14.0"
+        },
+        {
+          "form": "とくだいサイズ",
+          "classification": "かぼちゃポケモン",
+          "height": "1.7",
+          "weight": "39.0"
         }
       ]
     },
@@ -17095,7 +17184,109 @@
       },
       "": [
         {
-          "form": "",
+          "form": "タイプ:ノーマル",
+          "classification": "じんこうポケモン",
+          "height": "2.3",
+          "weight": "100.5"
+        },
+        {
+          "form": "タイプ:ほのお",
+          "classification": "じんこうポケモン",
+          "height": "2.3",
+          "weight": "100.5"
+        },
+        {
+          "form": "タイプ:みず",
+          "classification": "じんこうポケモン",
+          "height": "2.3",
+          "weight": "100.5"
+        },
+        {
+          "form": "タイプ:でんき",
+          "classification": "じんこうポケモン",
+          "height": "2.3",
+          "weight": "100.5"
+        },
+        {
+          "form": "タイプ:くさ",
+          "classification": "じんこうポケモン",
+          "height": "2.3",
+          "weight": "100.5"
+        },
+        {
+          "form": "タイプ:こおり",
+          "classification": "じんこうポケモン",
+          "height": "2.3",
+          "weight": "100.5"
+        },
+        {
+          "form": "タイプ:かくとう",
+          "classification": "じんこうポケモン",
+          "height": "2.3",
+          "weight": "100.5"
+        },
+        {
+          "form": "タイプ:どく",
+          "classification": "じんこうポケモン",
+          "height": "2.3",
+          "weight": "100.5"
+        },
+        {
+          "form": "タイプ:じめん",
+          "classification": "じんこうポケモン",
+          "height": "2.3",
+          "weight": "100.5"
+        },
+        {
+          "form": "タイプ:ひこう",
+          "classification": "じんこうポケモン",
+          "height": "2.3",
+          "weight": "100.5"
+        },
+        {
+          "form": "タイプ:エスパー",
+          "classification": "じんこうポケモン",
+          "height": "2.3",
+          "weight": "100.5"
+        },
+        {
+          "form": "タイプ:むし",
+          "classification": "じんこうポケモン",
+          "height": "2.3",
+          "weight": "100.5"
+        },
+        {
+          "form": "タイプ:いわ",
+          "classification": "じんこうポケモン",
+          "height": "2.3",
+          "weight": "100.5"
+        },
+        {
+          "form": "タイプ:ゴースト",
+          "classification": "じんこうポケモン",
+          "height": "2.3",
+          "weight": "100.5"
+        },
+        {
+          "form": "タイプ:ドラゴン",
+          "classification": "じんこうポケモン",
+          "height": "2.3",
+          "weight": "100.5"
+        },
+        {
+          "form": "タイプ:あく",
+          "classification": "じんこうポケモン",
+          "height": "2.3",
+          "weight": "100.5"
+        },
+        {
+          "form": "タイプ:はがね",
+          "classification": "じんこうポケモン",
+          "height": "2.3",
+          "weight": "100.5"
+        },
+        {
+          "form": "タイプ:フェアリー",
           "classification": "じんこうポケモン",
           "height": "2.3",
           "weight": "100.5"
@@ -19747,10 +19938,16 @@
       },
       "": [
         {
-          "form": "",
+          "form": "れきせんのゆうしゃ",
           "classification": "つわものポケモン",
           "height": "2.8",
           "weight": "110.0"
+        },
+        {
+          "form": "けんのおう",
+          "classification": "つわものポケモン",
+          "height": "2.8",
+          "weight": "355.0"
         }
       ]
     },
@@ -19767,10 +19964,16 @@
       },
       "": [
         {
-          "form": "",
+          "form": "れきせんのゆうしゃ",
           "classification": "つわものポケモン",
           "height": "2.9",
           "weight": "210.0"
+        },
+        {
+          "form": "たてのおう",
+          "classification": "つわものポケモン",
+          "height": "2.9",
+          "weight": "785.0"
         }
       ]
     },
@@ -19791,6 +19994,12 @@
           "classification": "キョダイポケモン",
           "height": "20.0",
           "weight": "950.0"
+        },
+        {
+          "form": "ムゲンダイマックス",
+          "classification": "キョダイポケモン",
+          "height": "100.0",
+          "weight": ""
         }
       ]
     },
@@ -20127,7 +20336,13 @@
       },
       "": [
         {
-          "form": "",
+          "form": "けしんフォルム",
+          "classification": "あいぞうポケモン",
+          "height": "1.6",
+          "weight": "48.0"
+        },
+        {
+          "form": "れいじゅうフォルム",
           "classification": "あいぞうポケモン",
           "height": "1.6",
           "weight": "48.0"
