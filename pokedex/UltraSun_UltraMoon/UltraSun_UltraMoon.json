@@ -1,6 +1,6 @@
 {
   "version":"2.0.0",
-  "update": "20230701",
+  "update": "20240107",
   "game_version": "UltraSun_UltraMoon",
   "pokedex": {
     "アローラ図鑑": [
@@ -2565,7 +2565,79 @@
         "globalNo": "669",
         "status": [
           {
-            "form": "",
+            "form": "あかいはな",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 44,
+            "attack": 38,
+            "defense": 39,
+            "special_attack": 61,
+            "special_defense": 79,
+            "speed": 42,
+            "ability1": "フラワーベール",
+            "ability2": "",
+            "dream_ability": "きょうせい",
+            "description": {
+                "ultrasun": "はなの ちからが ないと キケン。 でも すきな いろと かたちが みつかるまで たびを つづけるぞ。",
+                "ultramoon": "あたまの かんむりは はなの かふんを あつめて つくったもの。 いやしの こうかが ひめられている。"
+            }
+          },
+          {
+            "form": "きいろのはな",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 44,
+            "attack": 38,
+            "defense": 39,
+            "special_attack": 61,
+            "special_defense": 79,
+            "speed": 42,
+            "ability1": "フラワーベール",
+            "ability2": "",
+            "dream_ability": "きょうせい",
+            "description": {
+                "ultrasun": "はなの ちからが ないと キケン。 でも すきな いろと かたちが みつかるまで たびを つづけるぞ。",
+                "ultramoon": "あたまの かんむりは はなの かふんを あつめて つくったもの。 いやしの こうかが ひめられている。"
+            }
+          },
+          {
+            "form": "オレンジいろのはな",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 44,
+            "attack": 38,
+            "defense": 39,
+            "special_attack": 61,
+            "special_defense": 79,
+            "speed": 42,
+            "ability1": "フラワーベール",
+            "ability2": "",
+            "dream_ability": "きょうせい",
+            "description": {
+                "ultrasun": "はなの ちからが ないと キケン。 でも すきな いろと かたちが みつかるまで たびを つづけるぞ。",
+                "ultramoon": "あたまの かんむりは はなの かふんを あつめて つくったもの。 いやしの こうかが ひめられている。"
+            }
+          },
+          {
+            "form": "あおいはな",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 44,
+            "attack": 38,
+            "defense": 39,
+            "special_attack": 61,
+            "special_defense": 79,
+            "speed": 42,
+            "ability1": "フラワーベール",
+            "ability2": "",
+            "dream_ability": "きょうせい",
+            "description": {
+                "ultrasun": "はなの ちからが ないと キケン。 でも すきな いろと かたちが みつかるまで たびを つづけるぞ。",
+                "ultramoon": "あたまの かんむりは はなの かふんを あつめて つくったもの。 いやしの こうかが ひめられている。"
+            }
+          },
+          {
+            "form": "しろいはな",
             "type1": "フェアリー",
             "type2": "",
             "hp": 44,
@@ -2589,7 +2661,79 @@
         "globalNo": "670",
         "status": [
           {
-            "form": "",
+            "form": "あかいはな",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 54,
+            "attack": 45,
+            "defense": 47,
+            "special_attack": 75,
+            "special_defense": 98,
+            "speed": 52,
+            "ability1": "フラワーベール",
+            "ability2": "",
+            "dream_ability": "きょうせい",
+            "description": {
+                "ultrasun": "はなを そだて じぶんの ぶきとして りよう。 うつくしくさいた はなほど きょうりょくなパワーを ひめている。",
+                "ultramoon": "じぶんの パワーを はなに あたえ こころを こめて せわを する。 かだんを あらすものは ゆるさない。"
+            }
+          },
+          {
+            "form": "きいろのはな",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 54,
+            "attack": 45,
+            "defense": 47,
+            "special_attack": 75,
+            "special_defense": 98,
+            "speed": 52,
+            "ability1": "フラワーベール",
+            "ability2": "",
+            "dream_ability": "きょうせい",
+            "description": {
+                "ultrasun": "はなを そだて じぶんの ぶきとして りよう。 うつくしくさいた はなほど きょうりょくなパワーを ひめている。",
+                "ultramoon": "じぶんの パワーを はなに あたえ こころを こめて せわを する。 かだんを あらすものは ゆるさない。"
+            }
+          },
+          {
+            "form": "オレンジいろのはな",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 54,
+            "attack": 45,
+            "defense": 47,
+            "special_attack": 75,
+            "special_defense": 98,
+            "speed": 52,
+            "ability1": "フラワーベール",
+            "ability2": "",
+            "dream_ability": "きょうせい",
+            "description": {
+                "ultrasun": "はなを そだて じぶんの ぶきとして りよう。 うつくしくさいた はなほど きょうりょくなパワーを ひめている。",
+                "ultramoon": "じぶんの パワーを はなに あたえ こころを こめて せわを する。 かだんを あらすものは ゆるさない。"
+            }
+          },
+          {
+            "form": "あおいはな",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 54,
+            "attack": 45,
+            "defense": 47,
+            "special_attack": 75,
+            "special_defense": 98,
+            "speed": 52,
+            "ability1": "フラワーベール",
+            "ability2": "",
+            "dream_ability": "きょうせい",
+            "description": {
+                "ultrasun": "はなを そだて じぶんの ぶきとして りよう。 うつくしくさいた はなほど きょうりょくなパワーを ひめている。",
+                "ultramoon": "じぶんの パワーを はなに あたえ こころを こめて せわを する。 かだんを あらすものは ゆるさない。"
+            }
+          },
+          {
+            "form": "しろいはな",
             "type1": "フェアリー",
             "type2": "",
             "hp": 54,
@@ -2613,7 +2757,79 @@
         "globalNo": "671",
         "status": [
           {
-            "form": "",
+            "form": "あかいはな",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 78,
+            "attack": 65,
+            "defense": 68,
+            "special_attack": 112,
+            "special_defense": 154,
+            "speed": 75,
+            "ability1": "フラワーベール",
+            "ability2": "",
+            "dream_ability": "きょうせい",
+            "description": {
+                "ultrasun": "そだてた はなばなを あやつる。 フラージェスの はなつ はなふぶきは うつくしさも パワーも あっとうてき。",
+                "ultramoon": "すうひゃくねんの じゅみょうをもつ。 ていえんを まもりつづけることに その いっしょうを ささげるという。"
+            }
+          },
+          {
+            "form": "きいろのはな",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 78,
+            "attack": 65,
+            "defense": 68,
+            "special_attack": 112,
+            "special_defense": 154,
+            "speed": 75,
+            "ability1": "フラワーベール",
+            "ability2": "",
+            "dream_ability": "きょうせい",
+            "description": {
+                "ultrasun": "そだてた はなばなを あやつる。 フラージェスの はなつ はなふぶきは うつくしさも パワーも あっとうてき。",
+                "ultramoon": "すうひゃくねんの じゅみょうをもつ。 ていえんを まもりつづけることに その いっしょうを ささげるという。"
+            }
+          },
+          {
+            "form": "オレンジいろのはな",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 78,
+            "attack": 65,
+            "defense": 68,
+            "special_attack": 112,
+            "special_defense": 154,
+            "speed": 75,
+            "ability1": "フラワーベール",
+            "ability2": "",
+            "dream_ability": "きょうせい",
+            "description": {
+                "ultrasun": "そだてた はなばなを あやつる。 フラージェスの はなつ はなふぶきは うつくしさも パワーも あっとうてき。",
+                "ultramoon": "すうひゃくねんの じゅみょうをもつ。 ていえんを まもりつづけることに その いっしょうを ささげるという。"
+            }
+          },
+          {
+            "form": "あおいはな",
+            "type1": "フェアリー",
+            "type2": "",
+            "hp": 78,
+            "attack": 65,
+            "defense": 68,
+            "special_attack": 112,
+            "special_defense": 154,
+            "speed": 75,
+            "ability1": "フラワーベール",
+            "ability2": "",
+            "dream_ability": "きょうせい",
+            "description": {
+                "ultrasun": "そだてた はなばなを あやつる。 フラージェスの はなつ はなふぶきは うつくしさも パワーも あっとうてき。",
+                "ultramoon": "すうひゃくねんの じゅみょうをもつ。 ていえんを まもりつづけることに その いっしょうを ささげるという。"
+            }
+          },
+          {
+            "form": "しろいはな",
             "type1": "フェアリー",
             "type2": "",
             "hp": 78,
