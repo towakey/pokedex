@@ -8817,7 +8817,7 @@
         "globalNo": "422",
         "status": [
           {
-            "form": "",
+            "form": "にしのうみ",
             "type1": "みず",
             "type2": "",
             "hp": 76,
@@ -8830,8 +8830,26 @@
             "ability2": "よびみず",
             "dream_ability": "すなのちから",
             "description": {
-                "ultrasun": "ひがしのうみ",
-                "ultramoon": "ひがしのうみ"
+                "ultrasun": "ふだん うみのなかに くらしているが ひふが かんそう するまでなら りくちでも かつどう できるぞ。",
+                "ultramoon": "キケンを かんじると むらさきいろの しるを だす。 あぶらあせの ような ものだと かんがえられている。"
+            }
+          },
+          {
+            "form": "ひがしのうみ",
+            "type1": "みず",
+            "type2": "",
+            "hp": 76,
+            "attack": 48,
+            "defense": 48,
+            "special_attack": 57,
+            "special_defense": 62,
+            "speed": 34,
+            "ability1": "ねんちゃく",
+            "ability2": "よびみず",
+            "dream_ability": "すなのちから",
+            "description": {
+                "ultrasun": "キケンを かんじると むらさきいろの しるを ふきだす。 きんちょうによる あぶらあせ という せつが ある。",
+                "ultramoon": "たかい さいせいのうりょくに めを つけた かがくしゃが さいぼうの せいぶんを ぶんせきちゅう。"
             }
           }
         ]
@@ -8841,7 +8859,7 @@
         "globalNo": "423",
         "status": [
           {
-            "form": "",
+            "form": "にしのうみ",
             "type1": "みず",
             "type2": "じめん",
             "hp": 111,
@@ -8854,8 +8872,26 @@
             "ability2": "よびみず",
             "dream_ability": "すなのちから",
             "description": {
-                "ultrasun": "ひがしのうみ",
-                "ultramoon": "ひがしのうみ"
+                "ultrasun": "むかしは カラを しょっていた。 せなかの おくに そのなごりの かたくて うすい さらが ある。",
+                "ultramoon": "すむ ばしょや エサの えいきょうで いろや かたちが へんか する。 なみの おだやかな いそべに おおい。"
+            }
+          },
+          {
+            "form": "ひがしのうみ",
+            "type1": "みず",
+            "type2": "じめん",
+            "hp": 111,
+            "attack": 83,
+            "defense": 68,
+            "special_attack": 92,
+            "special_defense": 82,
+            "speed": 39,
+            "ability1": "ねんちゃく",
+            "ability2": "よびみず",
+            "dream_ability": "すなのちから",
+            "description": {
+                "ultrasun": "おそわれると むらさきいろの しるを ふきだす。 どくでは ないが にくが にがくなるので くわれないのだ。",
+                "ultramoon": "ぶんるいじょうは シェルダーや パルシェンの しんせき。 うみから あがって エサを さがすことも ある。"
             }
           }
         ]
