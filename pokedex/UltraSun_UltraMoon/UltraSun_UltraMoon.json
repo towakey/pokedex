@@ -7119,7 +7119,7 @@
         "globalNo": "774",
         "status": [
           {
-            "form": "",
+            "form": "りゅうせいのすがた",
             "type1": "いわ",
             "type2": "ひこう",
             "hp": 60,
@@ -7132,8 +7132,26 @@
             "ability2": "",
             "dream_ability": "",
             "description": {
-                "ultrasun": "りゅうせいのすがた",
-                "ultramoon": "りゅうせいのすがた"
+                "ultrasun": "オゾンそうに すみ より つよい ポケモンの エサに なっている。 にげるうちに ちじょうに おちてくる。",
+                "ultramoon": "がいかくは とても がんじょうだが ちじょうに らっかする ショックで こっぱみじんに くだけてしまう。"
+            }
+          },
+          {
+            "form": "いろのコア",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 100,
+            "special_defense": 60,
+            "speed": 120,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "よぞらから ふってくる メテノと であえる スポットは かぎられていて アローラは きちょうな そのひとつ。",
+                "ultramoon": "がいかくの むけた すがた。 コアの いろの ちがいは たべた エサの せいぶんに よるもの。"
             }
           }
         ]
