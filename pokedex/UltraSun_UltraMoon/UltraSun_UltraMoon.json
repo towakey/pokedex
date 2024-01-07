@@ -8103,7 +8103,7 @@
         "globalNo": "778",
         "status": [
           {
-            "form": "",
+            "form": "ばけたすがた",
             "type1": "ゴースト",
             "type2": "フェアリー",
             "hp": 55,
@@ -8116,8 +8116,26 @@
             "ability2": "",
             "dream_ability": "",
             "description": {
-                "ultrasun": "ばけたすがた",
-                "ultramoon": "ばけたすがた"
+                "ultrasun": "おとなしい さみしがりや だけど ボロきれの なかみを みようとすると はげしく いやがり ていこうする。",
+                "ultramoon": "かがみの まえに たって ひっしに おれた くびを なおす。 なかなか なおらないので なかみは ないている。"
+            }
+          },
+          {
+            "form": "ばれたすがた",
+            "type1": "ゴースト",
+            "type2": "フェアリー",
+            "hp": 55,
+            "attack": 90,
+            "defense": 80,
+            "special_attack": 50,
+            "special_defense": 105,
+            "speed": 96,
+            "ability1": "ばけのかわ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "かぜが まって ぐうぜん なかみを みてしまった トレーナーは そのひの ばんに くるしみ もがいて しんだ。",
+                "ultramoon": "しょうたいが ばれそうで かなしい。 くびの ぶぶんを おった あいては ぜったい ゆるさず ふくしゅうする。"
             }
           }
         ]
