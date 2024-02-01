@@ -1,6 +1,6 @@
 {
   "version":"100",
-  "update": "20240108",
+  "update": "20240202",
   "pokedex": [
     {
       "id": 1,
@@ -16338,8 +16338,8 @@
     {
       "id": 733,
       "name": {
-        "jpn": "ヤングース",
-        "eng": "Yungoos",
+        "jpn": "ドデカバシ",
+        "eng": "Toucannon",
         "ger": "Tukanon",
         "fra": "Bazoucan",
         "kor": "왕큰부리",
