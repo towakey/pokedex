@@ -1,6 +1,6 @@
 {
   "version":"2.0.0",
-  "update": "20240107",
+  "update": "20240204",
   "game_version": "Scarlet_Violet",
   "pokedex": {
     "パルデア図鑑": [
@@ -22354,6 +22354,30 @@
             "description": {
                 "scarlet": "オカルト雑誌が 取り上げた 未来の ビリジオンの 姿と 多くの 特徴が 一致する。",
                 "violet": "わずかな 目撃談によると 光り輝く 剣で 大木や 大岩を なます切りにしたという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "243",
+        "globalNo": "1025",
+        "status": [
+          {
+            "form": "",
+            "type1": "どく",
+            "type2": "ゴースト",
+            "hp": 88,
+            "attack": 88,
+            "defense": 160,
+            "special_attack": 88,
+            "special_defense": 88,
+            "speed": 88,
+            "ability1": "どくくぐつ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "欲望と 能力を 引き出す 毒素の 餅を 食べさせて 食べた 相手を 鎖で 操るのだ。",
+                "violet": "モモ型の 殻は 猛毒の 貯蔵庫。 毒の 餅を 作り 人や ポケモンに ふるまう。"
             }
           }
         ]

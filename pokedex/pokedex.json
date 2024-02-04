@@ -1,6 +1,6 @@
 {
   "version":"100",
-  "update": "20240202",
+  "update": "20240204",
   "pokedex": [
     {
       "id": 1,
@@ -16638,16 +16638,16 @@
       },
       "": [
         {
-          "form": "むれたすがた",
-          "classification": "こざかなポケモン",
-          "height": "8.2",
-          "weight": "78.6"
-        },
-        {
           "form": "たんどくのすがた",
           "classification": "こざかなポケモン",
           "height": "0.2",
           "weight": "0.3"
+        },
+        {
+          "form": "むれたすがた",
+          "classification": "こざかなポケモン",
+          "height": "8.2",
+          "weight": "78.6"
         }
       ]
     },
@@ -17306,13 +17306,13 @@
       },
       "": [
         {
-          "form": "いろのコア",
+          "form": "りゅうせいのすがた",
           "classification": "ながれぼしポケモン",
           "height": "0.3",
           "weight": "40.0"
         },
         {
-          "form": "りゅうせいのすがた",
+          "form": "いろのコア",
           "classification": "ながれぼしポケモン",
           "height": "0.3",
           "weight": "40.0"
@@ -22840,6 +22840,26 @@
           "classification": "テラスタルポケモン",
           "height": "1.7",
           "weight": "77.0"
+        }
+      ]
+    },
+    {
+      "id": 1025,
+      "name": {
+        "jpn": "モモワロウ",
+        "eng": "Pecharunt",
+        "ger": "Infamomo",
+        "fra": "Pêchaminus",
+        "kor": "복숭악동",
+        "chs": "桃歹郎",
+        "cht": "桃歹郎"
+      },
+      "": [
+        {
+          "form": "",
+          "classification": "しはいポケモン",
+          "height": "0.3",
+          "weight": "0.3"
         }
       ]
     }
