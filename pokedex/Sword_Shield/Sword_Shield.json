@@ -1,6 +1,6 @@
 {
   "version":"2.0.0",
-  "update": "20240108",
+  "update": "20240902",
   "game_version": "Sword_Shield",
   "pokedex": {
     "ガラル図鑑": [
@@ -8421,7 +8421,25 @@
             }
           },
           {
-            "form": "キョダイマックス",
+            "form": "キョダイマックス・ハイなすがた",
+            "type1": "でんき",
+            "type2": "どく",
+            "hp": 75,
+            "attack": 98,
+            "defense": 70,
+            "special_attack": 114,
+            "special_defense": 70,
+            "speed": 75,
+            "ability1": "パンクロック",
+            "ability2": "マイナス",
+            "dream_ability": "テクニシャン",
+            "description": {
+                "sword": "ありあまる でんりょくが ぶき。 たくわえられた でんきの りょうは かみなりぐもを しのぐほど。",
+                "shield": "どくが のうまで めぐり ぼうそう。 あばれるたび どくの あせが ほとばしり だいちを けがす。"
+            }
+          },
+          {
+            "form": "キョダイマックス・ローなすがた",
             "type1": "でんき",
             "type2": "どく",
             "hp": 75,

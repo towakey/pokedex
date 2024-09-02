@@ -1,6 +1,6 @@
 {
   "version":"100",
-  "update": "20240204",
+  "update": "20240902",
   "pokedex": [
     {
       "id": 1,
@@ -16079,10 +16079,16 @@
       },
       "": [
         {
-          "form": "",
+          "form": "いましめられしフーパ",
           "classification": "いたずらポケモン",
           "height": "0.5",
           "weight": "9.0"
+        },
+        {
+          "form": "ときはなたれしフーパ",
+          "classification": "まじんポケモン",
+          "height": "6.5",
+          "weight": "490.0"
         }
       ]
     },

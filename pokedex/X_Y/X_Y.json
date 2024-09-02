@@ -1,6 +1,6 @@
 {
   "version":"2.0.0",
-  "update": "20240108",
+  "update": "20240902",
   "game_version": "X_Y",
   "pokedex": {
     "セントラルカロス図鑑": [
@@ -4569,7 +4569,7 @@
         "globalNo": "720",
         "status": [
           {
-            "form": "",
+            "form": "いましめられしフーパ",
             "type1": "エスパー",
             "type2": "ゴースト",
             "hp": 80,
@@ -4578,6 +4578,24 @@
             "special_attack": 150,
             "special_defense": 130,
             "speed": 70,
+            "ability1": "マジシャン",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "x": "くうかんを ゆがめる リングで あらゆる ものを はなれた ばしょへ とばしてしまう トラブルメーカー。",
+                "y": "きにいった ものを リングを つかい ひみつの すみかへ あつめている。リングを もぐって テレポートする。"
+            }
+          },
+          {
+            "form": "ときはなたれしフーパ",
+            "type1": "エスパー",
+            "type2": "あく",
+            "hp": 80,
+            "attack": 160,
+            "defense": 60,
+            "special_attack": 170,
+            "special_defense": 130,
+            "speed": 80,
             "ability1": "マジシャン",
             "ability2": "",
             "dream_ability": "",
