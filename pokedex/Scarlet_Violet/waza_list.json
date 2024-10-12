@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "update": "202407152155",
+  "update": "202410130056",
   "game_version": "Scarlet_Violet",
   "waza_list": {
     "paldea": {
@@ -2874,7 +2874,7 @@
         "power": "40",
         "accuracy": "100",
         "pp": " 40",
-        "description": ""
+        "description": "てかげん した こうげきで あいての HPを かならず 1だけ のこす。"
       },
       "テクスチャー": {
         "type": "ノーマル",
