@@ -34,13 +34,34 @@ CREATE TABLE pokedex (
 );
 SQL
 sqlite.execute(sql)
-# sqlite.commit
+
+sql = <<SQL
+DROP TABLE IF EXISTS version;
+SQL
+sqlite.execute(sql)
+
+sql = <<SQL
+CREATE TABLE version (
+    table_name TEXT,
+    update_date TEXT,
+    created_at TEXT
+);
+SQL
+sqlite.execute(sql)
 
 pokedex = JSON.parse(File.read('./pokedex/pokedex.json'))
+sql = <<SQL
+INSERT INTO version (table_name, update_date, created_at)
+VALUES (
+    '#{escape_sql_string('pokedex')}',
+    '#{escape_sql_string(pokedex["update"])}',
+    '#{escape_sql_string(Time.now.to_s)}'
+);
+SQL
+sqlite.execute(sql)
+
 pokedex["pokedex"].each do |pokemon|
-    puts pokemon
     pokemon[""].each do |form|
-        puts form
         sql = <<SQL
 INSERT INTO pokedex
 VALUES (
@@ -64,7 +85,7 @@ SQL
 
     if pokemon["region_form"]
         pokemon["region_form"].each do |form|
-            puts form
+            # puts form
             sql = <<SQL
 INSERT INTO pokedex
 VALUES (
@@ -107,7 +128,7 @@ VALUES (
     '#{escape_sql_string(form['weight'])}'
 );
 SQL
-            puts sql
+            # puts sql
             sqlite.execute(sql)
         end
     end
