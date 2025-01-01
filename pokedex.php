@@ -4,6 +4,7 @@ header('Content-Type: application/json; charset=utf-8');
 class PokedexAPI {
     private $db;
     private $response;
+    private $validRegions;
 
     public function __construct() {
         $this->db = new SQLite3('pokedex.db');
@@ -12,6 +13,28 @@ class PokedexAPI {
             'data' => null,
             'message' => ''
         ];
+        
+        // 有効な地方図鑑のリスト
+        $this->validRegions = [
+            'kanto' => 'カントー図鑑',
+            'johto' => 'ジョウト図鑑',
+            'hoenn' => 'ホウエン図鑑',
+            'sinnoh' => 'シンオウ図鑑',
+            'unova_bw' => 'イッシュ図鑑',
+            'unova_b2w2' => 'イッシュ図鑑',
+            'central_kalos' => 'セントラルカロス図鑑',
+            'coast_kalos' => 'コーストカロス図鑑',
+            'mountain_kalos' => 'マウンテンカロス図鑑',
+            'alola_sm' => 'アローラ図鑑',
+            'alola_usum' => 'アローラ図鑑',
+            'galar' => 'ガラル図鑑',
+            'crown_tundra' => 'カンムリ雪原図鑑',
+            'isle_of_armor' => 'ヨロイ島図鑑',
+            'hisui' => 'ヒスイ図鑑',
+            'paldea' => 'パルデア図鑑',
+            'kitakami' => 'キタカミ図鑑',
+            'blueberry' => 'ブルーベリー図鑑'
+        ];
     }
 
     public function handleRequest() {
@@ -19,25 +42,21 @@ class PokedexAPI {
         $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         $params = $_GET;
 
-        // デバッグ情報をレスポンスに追加
-        $this->response['debug'] = [
-            'original_path' => $path,
-            'request_uri' => $_SERVER['REQUEST_URI']
-        ];
+        // パスを分解して解析
+        $pathParts = explode('/', trim($path, '/'));
+        $endpoint = isset($pathParts[1]) ? $pathParts[1] : '';
 
         try {
-            switch ($path) {
-                case '/pokedex/global':
-                    $this->handleGlobalPokedex($params);
-                    break;
-                case '/pokedex/local':
-                    $this->handleLocalPokedex($params);
-                    break;
-                case '/pokedex/search':
-                    $this->handleSearch($params);
-                    break;
-                default:
-                    throw new Exception("Invalid endpoint: {$path}");
+            if ($endpoint === 'global') {
+                $this->handleGlobalPokedex($params);
+            } elseif ($endpoint === 'search') {
+                $this->handleSearch($params);
+            } elseif (isset($this->validRegions[$endpoint])) {
+                // 地方図鑑へのアクセス
+                $params['region'] = $endpoint;
+                $this->handleLocalPokedex($params);
+            } else {
+                throw new Exception("Invalid endpoint: {$endpoint}");
             }
         } catch (Exception $e) {
             $this->response['status'] = 'error';
@@ -74,8 +93,8 @@ class PokedexAPI {
         $region = $params['region'] ?? null;
         $id = $params['id'] ?? null;
 
-        if (!$region) {
-            throw new Exception('Region parameter is required');
+        if (!$region || !isset($this->validRegions[$region])) {
+            throw new Exception('Invalid region specified');
         }
 
         $query = '';
@@ -96,6 +115,7 @@ class PokedexAPI {
         }
 
         $this->response['data'] = $data;
+        $this->response['region_name'] = $this->validRegions[$region];
     }
 
     private function handleSearch($params) {
@@ -104,6 +124,10 @@ class PokedexAPI {
 
         if (!$keyword) {
             throw new Exception('Keyword parameter is required');
+        }
+
+        if ($region !== 'pokedex' && !isset($this->validRegions[$region])) {
+            throw new Exception('Invalid region specified');
         }
 
         $query = "SELECT * FROM $region WHERE 
@@ -127,9 +151,11 @@ class PokedexAPI {
         }
 
         $this->response['data'] = $data;
+        if ($region !== 'pokedex') {
+            $this->response['region_name'] = $this->validRegions[$region];
+        }
     }
 }
 
 $api = new PokedexAPI();
 $api->handleRequest();
-?>
