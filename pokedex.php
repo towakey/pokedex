@@ -99,11 +99,32 @@ class PokedexAPI {
 
         $query = '';
         if ($id) {
-            $query = "SELECT * FROM $region WHERE id = :id";
+            $query = "SELECT l.*, 
+                            p.jpn, p.eng, p.ger, p.fra, p.kor, p.chs, p.cht p.classification, p.height, p.weight
+                     FROM $region l
+                     LEFT JOIN pokedex p ON l.globalNo = p.id
+                     WHERE l.id = :id
+                     AND (
+                        CASE 
+                            WHEN substr(l.form, 1, 2) = 'メガ' THEN l.form = p.jpn
+                            ELSE l.form = p.form
+                        END
+                     )
+                     ";
             $stmt = $this->db->prepare($query);
             $stmt->bindValue(':id', $id, SQLITE3_TEXT);
         } else {
-            $query = "SELECT * FROM $region";
+            $query = "SELECT l.*, 
+                            p.jpn, p.eng, p.ger, p.fra, p.kor, p.chs, p.cht, p.classification, p.height, p.weight
+                     FROM $region l
+                     LEFT JOIN pokedex p ON l.globalNo = p.id
+                     AND (
+                        CASE 
+                            WHEN substr(l.form, 1, 2) = 'メガ' THEN l.form = p.jpn
+                            ELSE l.form = p.form
+                        END
+                     )
+                     ";
             $stmt = $this->db->prepare($query);
         }
 
