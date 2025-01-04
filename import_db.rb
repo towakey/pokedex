@@ -126,12 +126,7 @@ SQL
 
   def create_version_table
     sql = <<SQL
-DROP TABLE IF EXISTS version;
-SQL
-    @sqlite.execute(sql)
-
-    sql = <<SQL
-CREATE TABLE version (
+CREATE TABLE IF NOT EXISTS version (
     table_name TEXT,
     update_date TEXT,
     created_at TEXT
@@ -243,7 +238,7 @@ SQL
 
   def import_local_data
     @data["pokedex"][@pokedex_name[@table_name]].each do |pokemon|
-      puts "importing : #{pokemon}"
+      # puts "importing : #{pokemon}"
       import_local_pokemon(pokemon)
     end
   end
@@ -275,7 +270,6 @@ VALUES (
     #{version_values}
 );
 SQL
-      puts sql
       @sqlite.execute(sql)
     end
   end
@@ -381,26 +375,122 @@ SQL
   end
 end
 
+class WazaImporter < DataImporter
+  private
+
+  def create_global_table(table_name)
+    @sqlite.execute(<<-SQL)
+      CREATE TABLE IF NOT EXISTS waza (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        region TEXT,               -- 地方名（kanto, johto等）
+        pokedex_no TEXT,          -- 地方図鑑No
+        global_no TEXT,           -- 全国図鑑No
+        form TEXT,                -- フォーム名
+        learn_type TEXT,          -- 習得方法（initial:初期技, remember:思い出し, evolution:進化時, level:レベル技, machine:わざマシン）
+        level INTEGER,            -- レベル（レベル技の場合のみ）
+        waza_name TEXT,           -- 技名
+        UNIQUE(region, pokedex_no, global_no, form, learn_type, level, waza_name)
+      )
+    SQL
+  end
+
+  def import_data
+    # puts @data['game_version']
+    # region = File.basename(File.dirname(@data['game_version']))
+    region = @data['game_version']
+    
+    @data['waza'].each do |pokedex_name, pokedex_data|
+      puts "Importing waza data for #{pokedex_name}..."
+      region = pokedex_name
+      pokedex_data.each do |pokedex_no, pokemon_data|
+        global_no = pokemon_data['globalNo']
+        
+        # フォーム別のデータを処理
+        forms = pokemon_data.keys - ['globalNo']
+        forms.each do |form|
+          waza_data = pokemon_data[form]
+          
+          # 初期技
+          insert_waza(region, pokedex_no, global_no, form, 'initial', nil, waza_data[''])
+          
+          # 思い出し技
+          insert_waza(region, pokedex_no, global_no, form, 'remember', nil, waza_data['思い出し'])
+          
+          # 進化時
+          insert_waza(region, pokedex_no, global_no, form, 'evolution', nil, waza_data['進化時'])
+          
+          # レベル技
+          waza_data.each do |key, moves|
+            next unless key.match?(/^\d+$/)
+            insert_waza(region, pokedex_no, global_no, form, 'level', key.to_i, moves)
+          end
+          
+          # わざマシン
+          insert_waza(region, pokedex_no, global_no, form, 'machine', nil, waza_data['わざマシン']) if waza_data['わざマシン']
+        end
+      end
+      # バージョン情報を記録
+      record_version("waza_#{region}", @data["update"])
+    end
+
+  end
+
+  private
+
+  def insert_waza(region, pokedex_no, global_no, form, learn_type, level, moves)
+    return if moves.nil? || moves.empty?
+    
+    moves.each do |waza_name|
+      @sqlite.execute(<<-SQL, [region, pokedex_no, global_no, form, learn_type, level, waza_name])
+        INSERT OR IGNORE INTO waza 
+        (region, pokedex_no, global_no, form, learn_type, level, waza_name)
+        VALUES (?, ?, ?, ?, ?, ?, ?)
+      SQL
+    end
+  rescue SQLite3::Exception => e
+    puts "Error occurred while inserting waza: #{e.message}"
+    puts "Data: #{[region, pokedex_no, global_no, form, learn_type, level, waza_name].inspect}"
+  end
+end
+
 # スクリプトの実行
 if __FILE__ == $0
-  importer = PokedexImporter.new
-  importer.import('./pokedex/pokedex.json', 'pokedex', 'global')
-  importer.import('./pokedex/Red_Green_Blue_Yellow/Red_Green_Blue_Yellow.json', 'kanto', 'local')
-  importer.import('./pokedex/Gold_Silver_Crystal/Gold_Silver_Crystal.json', 'johto', 'local')
-  importer.import('./pokedex/Ruby_Sapphire_Emerald/Ruby_Sapphire_Emerald.json', 'hoenn', 'local')
-  importer.import('./pokedex/Diamond_Pearl_Platinum/Diamond_Pearl_Platinum.json', 'sinnoh', 'local')
-  importer.import('./pokedex/Black_White/Black_White.json', 'unova_bw', 'local')
-  importer.import('./pokedex/Black2_White2/Black2_White2.json', 'unova_b2w2', 'local')
-  importer.import('./pokedex/X_Y/X_Y.json', 'central_kalos', 'local')
-  importer.import('./pokedex/X_Y/X_Y.json', 'coast_kalos', 'local')
-  importer.import('./pokedex/X_Y/X_Y.json', 'mountain_kalos', 'local')
-  importer.import('./pokedex/Sun_Moon/Sun_Moon.json', 'alola_sm', 'local')
-  importer.import('./pokedex/UltraSun_UltraMoon/UltraSun_UltraMoon.json', 'alola_usum', 'local')
-  importer.import('./pokedex/Sword_Shield/Sword_Shield.json', 'galar', 'local')
-  importer.import('./pokedex/Sword_Shield/Sword_Shield.json', 'crown_tundra', 'local')
-  importer.import('./pokedex/Sword_Shield/Sword_Shield.json', 'isle_of_armor', 'local')
-  importer.import('./pokedex/LegendsArceus/LegendsArceus.json', 'hisui', 'local')
-  importer.import('./pokedex/Scarlet_Violet/Scarlet_Violet.json', 'paldea', 'local')
-  importer.import('./pokedex/Scarlet_Violet/Scarlet_Violet.json', 'kitakami', 'local')
-  importer.import('./pokedex/Scarlet_Violet/Scarlet_Violet.json', 'blueberry', 'local')
+  pokedex = PokedexImporter.new
+  pokedex.import('./pokedex/pokedex.json', 'pokedex', 'global')
+  pokedex.import('./pokedex/Red_Green_Blue_Yellow/Red_Green_Blue_Yellow.json', 'kanto', 'local')
+  pokedex.import('./pokedex/Gold_Silver_Crystal/Gold_Silver_Crystal.json', 'johto', 'local')
+  pokedex.import('./pokedex/Ruby_Sapphire_Emerald/Ruby_Sapphire_Emerald.json', 'hoenn', 'local')
+  pokedex.import('./pokedex/Diamond_Pearl_Platinum/Diamond_Pearl_Platinum.json', 'sinnoh', 'local')
+  pokedex.import('./pokedex/Black_White/Black_White.json', 'unova_bw', 'local')
+  pokedex.import('./pokedex/Black2_White2/Black2_White2.json', 'unova_b2w2', 'local')
+  pokedex.import('./pokedex/X_Y/X_Y.json', 'central_kalos', 'local')
+  pokedex.import('./pokedex/X_Y/X_Y.json', 'coast_kalos', 'local')
+  pokedex.import('./pokedex/X_Y/X_Y.json', 'mountain_kalos', 'local')
+  pokedex.import('./pokedex/Sun_Moon/Sun_Moon.json', 'alola_sm', 'local')
+  pokedex.import('./pokedex/UltraSun_UltraMoon/UltraSun_UltraMoon.json', 'alola_usum', 'local')
+  pokedex.import('./pokedex/Sword_Shield/Sword_Shield.json', 'galar', 'local')
+  pokedex.import('./pokedex/Sword_Shield/Sword_Shield.json', 'crown_tundra', 'local')
+  pokedex.import('./pokedex/Sword_Shield/Sword_Shield.json', 'isle_of_armor', 'local')
+  pokedex.import('./pokedex/LegendsArceus/LegendsArceus.json', 'hisui', 'local')
+  pokedex.import('./pokedex/Scarlet_Violet/Scarlet_Violet.json', 'paldea', 'local')
+  pokedex.import('./pokedex/Scarlet_Violet/Scarlet_Violet.json', 'kitakami', 'local')
+  pokedex.import('./pokedex/Scarlet_Violet/Scarlet_Violet.json', 'blueberry', 'local')
+
+  # Dir.glob("pokedex/*").each do |dir|
+  #   region = File.basename(dir)
+  #   next unless File.directory?(dir)
+    
+  #   pokedex_file = "#{dir}/pokedex.json"
+  #   if File.exist?(pokedex_file)
+  #     puts "Importing #{pokedex_file}..."
+  #     importer.import(pokedex_file, region, 'local')
+  #   end
+  # end
+
+  # 技データのインポート
+  waza = WazaImporter.new
+  Dir.glob("pokedex/*/waza.json").each do |file_path|
+    puts "Importing #{file_path}..."
+    waza.import(file_path, 'waza', 'global')
+  end
 end
