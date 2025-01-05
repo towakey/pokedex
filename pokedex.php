@@ -136,7 +136,9 @@ class PokedexAPI {
                             WHEN substr(l.form, 1, 2) = 'メガ' THEN l.form = p.jpn
                             ELSE l.form = p.form
                         END
-                    )";
+                    )
+                    GROUP BY l.id, l.globalNo, l.form
+                    ORDER BY CAST(l.id AS INTEGER)";
 
             $stmt = $this->db->prepare($query);
             $stmt->bindValue(':id', $id, SQLITE3_TEXT);
@@ -181,7 +183,8 @@ class PokedexAPI {
                             ELSE l.form = p.form
                         END
                     )
-                    GROUP BY l.id, l.globalNo, l.form";
+                    GROUP BY l.id, l.globalNo, l.form
+                    ORDER BY CAST(l.id AS INTEGER)";
             $stmt = $this->db->prepare($query);
         }
 
