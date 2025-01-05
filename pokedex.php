@@ -41,6 +41,11 @@ class PokedexAPI {
         $region = isset($_GET['region']) ? $_GET['region'] : null;
         $id = isset($_GET['id']) ? $_GET['id'] : null;
 
+        if ($region === 'global') {
+            $this->handleGlobalPokedex(['id' => $id]);
+            return;
+        }
+
         if (!$region || !array_key_exists($region, $this->validRegions)) {
             $this->response['error'] = 'Invalid region';
             $this->response['valid_regions'] = array_keys($this->validRegions);
@@ -169,6 +174,30 @@ class PokedexAPI {
 
         $this->response['data'] = $data;
         $this->response['region_name'] = $this->validRegions[$region];
+    }
+
+    private function handleGlobalPokedex($params) {
+        $id = $params['id'] ?? null;
+        $query = '';
+
+        if ($id) {
+            $query = "SELECT * FROM pokedex WHERE id = :id";
+            $stmt = $this->db->prepare($query);
+            $stmt->bindValue(':id', $id, SQLITE3_TEXT);
+        } else {
+            $query = "SELECT * FROM pokedex ORDER BY CAST(id AS INTEGER)";
+            $stmt = $this->db->prepare($query);
+        }
+
+        $result = $stmt->execute();
+        $data = [];
+
+        while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
+            $data[] = $row;
+        }
+
+        $this->response['data'] = $data;
+        $this->response['status'] = 'success';
     }
 
     private function handleSearch($params) {
