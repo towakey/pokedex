@@ -100,6 +100,56 @@ http://localhost/pokedex/blueberry
 
 ```
 
+### 各地方図鑑取得(個別)
+```
+http://localhost/pokedex/kanto/1
+
+{
+    "status": "success",
+    "data": [
+        {
+            "id": "1",
+            "globalNo": "1",
+            "form": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 45,
+            "ability1": "",
+            "ability2": "",
+            "dream_ability": "",
+            "red": " うまれたときから せなかに しょくぶつの タネが あって すこしずつ おおきく そだつ。",
+            "green": " うまれたときから せなかに しょくぶつの タネが あって すこしずつ おおきく そだつ。",
+            "blue": " うまれたときから せなかに ふしぎな タネが うえてあって からだと ともに そだつという。",
+            "pikachu": " なんにちだって なにも たべなくても げんき! せなかのタネに たくさん えいようが あるから へいきだ!",
+            "jpn": "フシギダネ",
+            "eng": "Bulbasaur",
+            "ger": "Bisasam",
+            "fra": "Bulbizarre",
+            "kor": "이상해씨",
+            "chs": "妙蛙种子",
+            "cht": "妙蛙種子",
+            "classification": "たねポケモン",
+            "height": "0.7",
+            "weight": "6.9",
+            "waza_list": {
+                "initial": null,
+                "remember": null,
+                "evolution": null,
+                "level": null,
+                "machine": null
+            }
+        }
+    ],
+    "message": "",
+    "region_name": "カントー図鑑"
+}
+```
+
 ---
 ## ライセンス
 
