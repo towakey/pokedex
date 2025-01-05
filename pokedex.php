@@ -38,63 +38,25 @@ class PokedexAPI {
     }
 
     public function handleRequest() {
-        $method = $_SERVER['REQUEST_METHOD'];
-        $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-        $params = $_GET;
+        $region = isset($_GET['region']) ? $_GET['region'] : null;
+        $id = isset($_GET['id']) ? $_GET['id'] : null;
 
-        // パスを分解して解析
-        $pathParts = explode('/', trim($path, '/'));
-        $endpoint = isset($pathParts[1]) ? $pathParts[1] : '';
-
-        try {
-            if ($endpoint === 'global') {
-                $this->handleGlobalPokedex($params);
-            } elseif ($endpoint === 'search') {
-                $this->handleSearch($params);
-            } elseif (isset($this->validRegions[$endpoint])) {
-                // 地方図鑑へのアクセス
-                $params['region'] = $endpoint;
-                $this->handleLocalPokedex($params);
-            } else {
-                throw new Exception("Invalid endpoint: {$endpoint}");
-            }
-        } catch (Exception $e) {
-            $this->response['status'] = 'error';
-            $this->response['message'] = $e->getMessage();
+        if (!$region || !array_key_exists($region, $this->validRegions)) {
+            $this->response['error'] = 'Invalid region';
+            $this->response['valid_regions'] = array_keys($this->validRegions);
+            return;
         }
 
-        echo json_encode($this->response, JSON_UNESCAPED_UNICODE);
-    }
-
-    private function handleGlobalPokedex($params) {
-        $id = $params['id'] ?? null;
-        $query = '';
-
-        if ($id) {
-            $query = "SELECT * FROM pokedex WHERE id = :id";
-            $stmt = $this->db->prepare($query);
-            $stmt->bindValue(':id', $id, SQLITE3_TEXT);
-        } else {
-            $query = "SELECT * FROM pokedex";
-            $stmt = $this->db->prepare($query);
-        }
-
-        $result = $stmt->execute();
-        $data = [];
-
-        while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
-            $data[] = $row;
-        }
-
-        $this->response['data'] = $data;
+        $this->handleLocalPokedex(['region' => $region, 'id' => $id]);
     }
 
     private function handleLocalPokedex($params) {
-        $region = $params['region'] ?? null;
+        $region = $params['region'];
         $id = $params['id'] ?? null;
+        $form = $params['form'] ?? '';
 
-        if (!$region || !isset($this->validRegions[$region])) {
-            throw new Exception('Invalid region specified');
+        if (!isset($this->validRegions[$region])) {
+            throw new Exception("Invalid region: {$region}");
         }
 
         $query = '';
@@ -143,7 +105,7 @@ class PokedexAPI {
             $stmt = $this->db->prepare($query);
             $stmt->bindValue(':id', $id, SQLITE3_TEXT);
             $stmt->bindValue(':global_no', $id, SQLITE3_TEXT);
-            $stmt->bindValue(':form', '', SQLITE3_TEXT);
+            $stmt->bindValue(':form', $form, SQLITE3_TEXT);
             $stmt->bindValue(':is_mega', substr($form, 0, 2) === 'メガ' ? 1 : 0, SQLITE3_INTEGER);
         } else {
             $query = "WITH moves AS (
@@ -246,7 +208,12 @@ class PokedexAPI {
             $this->response['region_name'] = $this->validRegions[$region];
         }
     }
+
+    public function getResponse() {
+        return $this->response;
+    }
 }
 
 $api = new PokedexAPI();
 $api->handleRequest();
+echo json_encode($api->getResponse(), JSON_UNESCAPED_UNICODE);

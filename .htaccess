@@ -2,4 +2,11 @@ RewriteEngine On
 RewriteBase /pokedex/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite for region/number pattern
+RewriteRule ^([^/]+)/([0-9]+)/?$ pokedex.php?region=$1&id=$2 [L,QSA]
+
+# Rewrite for region only
+RewriteRule ^([^/]+)/?$ pokedex.php?region=$1 [L,QSA]
+
 RewriteRule ^(.*)$ pokedex.php [QSA,L]
