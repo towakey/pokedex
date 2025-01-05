@@ -99,64 +99,89 @@ class PokedexAPI {
 
         $query = '';
         if ($id) {
-            $query = "SELECT l.*, 
-                            p.jpn, p.eng, p.ger, p.fra, p.kor, p.chs, p.cht, p.classification, p.height, p.weight,
+            $query = "WITH moves AS (
+                        SELECT 
+                            w.learn_type,
                             json_group_array(
                                 json_object(
-                                    'learn_type', w.learn_type,
                                     'level', w.level,
                                     'waza_name', w.waza_name
                                 )
-                            ) as waza_list
-                     FROM $region l
-                     LEFT JOIN pokedex p ON l.globalNo = p.id
-                     WHERE l.id = :id
-                     AND (
+                            ) as moves_by_type
+                        FROM waza w 
+                        WHERE w.region = '$region'
+                            AND w.global_no = :global_no
+                            AND (
+                                CASE 
+                                    WHEN :is_mega = 1 THEN w.form = :form
+                                    ELSE w.form = :form OR w.form = ''
+                                END
+                            )
+                        GROUP BY w.learn_type
+                    )
+                    SELECT l.*, 
+                           p.jpn, p.eng, p.ger, p.fra, p.kor, p.chs, p.cht, p.classification, p.height, p.weight,
+                           json_object(
+                               'initial', (SELECT moves_by_type FROM moves WHERE learn_type = 'initial'),
+                               'remember', (SELECT moves_by_type FROM moves WHERE learn_type = 'remember'),
+                               'evolution', (SELECT moves_by_type FROM moves WHERE learn_type = 'evolution'),
+                               'level', (SELECT moves_by_type FROM moves WHERE learn_type = 'level'),
+                               'machine', (SELECT moves_by_type FROM moves WHERE learn_type = 'machine')
+                           ) as waza_list
+                    FROM $region l
+                    LEFT JOIN pokedex p ON l.globalNo = p.id
+                    WHERE l.id = :id
+                    AND (
                         CASE 
                             WHEN substr(l.form, 1, 2) = 'メガ' THEN l.form = p.jpn
                             ELSE l.form = p.form
                         END
-                     )
-                     LEFT JOIN waza w ON w.region = '$region' 
-                        AND w.global_no = l.globalNo
-                        AND (
-                            CASE 
-                                WHEN substr(l.form, 1, 2) = 'メガ' THEN w.form = l.form
-                                ELSE w.form = l.form OR w.form = ''
-                            END
-                        )
-                     GROUP BY l.id, l.globalNo, l.form
-                     ";
+                    )";
+
             $stmt = $this->db->prepare($query);
             $stmt->bindValue(':id', $id, SQLITE3_TEXT);
+            $stmt->bindValue(':global_no', $id, SQLITE3_TEXT);
+            $stmt->bindValue(':form', '', SQLITE3_TEXT);
+            $stmt->bindValue(':is_mega', substr($form, 0, 2) === 'メガ' ? 1 : 0, SQLITE3_INTEGER);
         } else {
-            $query = "SELECT l.*, 
-                            p.jpn, p.eng, p.ger, p.fra, p.kor, p.chs, p.cht, p.classification, p.height, p.weight,
+            $query = "WITH moves AS (
+                        SELECT 
+                            w.learn_type,
                             json_group_array(
                                 json_object(
-                                    'learn_type', w.learn_type,
                                     'level', w.level,
                                     'waza_name', w.waza_name
                                 )
-                            ) as waza_list
-                     FROM $region l
-                     LEFT JOIN pokedex p ON l.globalNo = p.id
-                     AND (
+                            ) as moves_by_type
+                        FROM waza w 
+                        WHERE w.region = '$region'
+                            AND w.global_no = l.globalNo
+                            AND (
+                                CASE 
+                                    WHEN substr(l.form, 1, 2) = 'メガ' THEN w.form = l.form
+                                    ELSE w.form = l.form OR w.form = ''
+                                END
+                            )
+                        GROUP BY w.learn_type
+                    )
+                    SELECT l.*, 
+                           p.jpn, p.eng, p.ger, p.fra, p.kor, p.chs, p.cht, p.classification, p.height, p.weight,
+                           json_object(
+                               'initial', (SELECT moves_by_type FROM moves WHERE learn_type = 'initial'),
+                               'remember', (SELECT moves_by_type FROM moves WHERE learn_type = 'remember'),
+                               'evolution', (SELECT moves_by_type FROM moves WHERE learn_type = 'evolution'),
+                               'level', (SELECT moves_by_type FROM moves WHERE learn_type = 'level'),
+                               'machine', (SELECT moves_by_type FROM moves WHERE learn_type = 'machine')
+                           ) as waza_list
+                    FROM $region l
+                    LEFT JOIN pokedex p ON l.globalNo = p.id
+                    AND (
                         CASE 
                             WHEN substr(l.form, 1, 2) = 'メガ' THEN l.form = p.jpn
                             ELSE l.form = p.form
                         END
-                     )
-                     LEFT JOIN waza w ON w.region = '$region' 
-                        AND w.global_no = l.globalNo
-                        AND (
-                            CASE 
-                                WHEN substr(l.form, 1, 2) = 'メガ' THEN w.form = l.form
-                                ELSE w.form = l.form OR w.form = ''
-                            END
-                        )
-                     GROUP BY l.id, l.globalNo, l.form
-                     ";
+                    )
+                    GROUP BY l.id, l.globalNo, l.form";
             $stmt = $this->db->prepare($query);
         }
 
@@ -164,9 +189,15 @@ class PokedexAPI {
         $data = [];
 
         while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
-            // waza_listをJSONデコード
+            // waza_listの各learn_typeのJSONをデコード
             if (isset($row['waza_list'])) {
-                $row['waza_list'] = json_decode($row['waza_list'], true);
+                $waza_list = json_decode($row['waza_list'], true);
+                foreach ($waza_list as $type => $moves) {
+                    if ($moves !== null) {
+                        $waza_list[$type] = json_decode($moves, true);
+                    }
+                }
+                $row['waza_list'] = $waza_list;
             }
             $data[] = $row;
         }
