@@ -100,7 +100,14 @@ class PokedexAPI {
         $query = '';
         if ($id) {
             $query = "SELECT l.*, 
-                            p.jpn, p.eng, p.ger, p.fra, p.kor, p.chs, p.cht p.classification, p.height, p.weight
+                            p.jpn, p.eng, p.ger, p.fra, p.kor, p.chs, p.cht, p.classification, p.height, p.weight,
+                            json_group_array(
+                                json_object(
+                                    'learn_type', w.learn_type,
+                                    'level', w.level,
+                                    'waza_name', w.waza_name
+                                )
+                            ) as waza_list
                      FROM $region l
                      LEFT JOIN pokedex p ON l.globalNo = p.id
                      WHERE l.id = :id
@@ -110,12 +117,28 @@ class PokedexAPI {
                             ELSE l.form = p.form
                         END
                      )
+                     LEFT JOIN waza w ON w.region = '$region' 
+                        AND w.global_no = l.globalNo
+                        AND (
+                            CASE 
+                                WHEN substr(l.form, 1, 2) = 'メガ' THEN w.form = l.form
+                                ELSE w.form = l.form OR w.form = ''
+                            END
+                        )
+                     GROUP BY l.id, l.globalNo, l.form
                      ";
             $stmt = $this->db->prepare($query);
             $stmt->bindValue(':id', $id, SQLITE3_TEXT);
         } else {
             $query = "SELECT l.*, 
-                            p.jpn, p.eng, p.ger, p.fra, p.kor, p.chs, p.cht, p.classification, p.height, p.weight
+                            p.jpn, p.eng, p.ger, p.fra, p.kor, p.chs, p.cht, p.classification, p.height, p.weight,
+                            json_group_array(
+                                json_object(
+                                    'learn_type', w.learn_type,
+                                    'level', w.level,
+                                    'waza_name', w.waza_name
+                                )
+                            ) as waza_list
                      FROM $region l
                      LEFT JOIN pokedex p ON l.globalNo = p.id
                      AND (
@@ -124,6 +147,15 @@ class PokedexAPI {
                             ELSE l.form = p.form
                         END
                      )
+                     LEFT JOIN waza w ON w.region = '$region' 
+                        AND w.global_no = l.globalNo
+                        AND (
+                            CASE 
+                                WHEN substr(l.form, 1, 2) = 'メガ' THEN w.form = l.form
+                                ELSE w.form = l.form OR w.form = ''
+                            END
+                        )
+                     GROUP BY l.id, l.globalNo, l.form
                      ";
             $stmt = $this->db->prepare($query);
         }
@@ -132,6 +164,10 @@ class PokedexAPI {
         $data = [];
 
         while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
+            // waza_listをJSONデコード
+            if (isset($row['waza_list'])) {
+                $row['waza_list'] = json_decode($row['waza_list'], true);
+            }
             $data[] = $row;
         }
 
