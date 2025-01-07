@@ -1,5 +1,5 @@
 {
-  "update": "20240108",
+  "update": "20250107",
   "game_version": "Black2_White2",
   "pokedex": {
     "イッシュ図鑑": [
@@ -9,6 +9,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "エスパー",
             "type2": "ほのお",
             "hp": 100,
@@ -33,6 +36,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "",
             "hp": 45,
@@ -57,6 +63,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "",
             "hp": 60,
@@ -81,6 +90,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "",
             "hp": 75,
@@ -105,6 +117,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "",
             "hp": 65,
@@ -129,6 +144,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "かくとう",
             "hp": 90,
@@ -153,6 +171,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "かくとう",
             "hp": 110,
@@ -177,6 +198,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 55,
@@ -201,6 +225,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 75,
@@ -225,6 +252,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 95,
@@ -249,6 +279,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 45,
@@ -273,6 +306,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 60,
@@ -297,6 +333,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "あく",
             "type2": "",
             "hp": 41,
@@ -321,6 +360,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "あく",
             "type2": "",
             "hp": 64,
@@ -345,6 +387,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "ひこう",
             "hp": 50,
@@ -369,6 +414,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "ひこう",
             "hp": 62,
@@ -393,6 +441,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "ひこう",
             "hp": 80,
@@ -417,6 +468,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "くさ",
             "hp": 45,
@@ -441,6 +495,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "くさ",
             "hp": 55,
@@ -465,6 +522,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "くさ",
             "hp": 75,
@@ -489,6 +549,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "",
             "hp": 30,
@@ -513,6 +576,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "",
             "hp": 75,
@@ -537,6 +603,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 45,
@@ -561,6 +630,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 65,
@@ -585,6 +657,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 85,
@@ -609,6 +684,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "",
             "hp": 55,
@@ -633,6 +711,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "",
             "hp": 70,
@@ -657,6 +738,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "",
             "hp": 90,
@@ -681,6 +765,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 50,
@@ -705,6 +792,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 80,
@@ -729,6 +819,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 50,
@@ -753,6 +846,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 70,
@@ -777,6 +873,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 100,
@@ -801,6 +900,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "かくとう",
             "type2": "",
             "hp": 40,
@@ -825,6 +927,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "かくとう",
             "type2": "はがね",
             "hp": 70,
@@ -849,6 +954,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 100,
@@ -873,6 +981,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 103,
@@ -897,6 +1008,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "",
             "hp": 50,
@@ -921,6 +1035,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "",
             "hp": 75,
@@ -945,6 +1062,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "",
             "hp": 50,
@@ -969,6 +1089,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "",
             "hp": 75,
@@ -993,6 +1116,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 50,
@@ -1017,6 +1143,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 75,
@@ -1041,6 +1170,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "どく",
             "hp": 30,
@@ -1065,6 +1197,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "どく",
             "hp": 40,
@@ -1089,6 +1224,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "どく",
             "hp": 60,
@@ -1113,6 +1251,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "どく",
             "type2": "",
             "hp": 40,
@@ -1137,6 +1278,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "どく",
             "type2": "",
             "hp": 65,
@@ -1161,6 +1305,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "はがね",
             "hp": 25,
@@ -1185,6 +1332,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "はがね",
             "hp": 50,
@@ -1209,6 +1359,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "はがね",
             "hp": 70,
@@ -1233,6 +1386,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "",
             "hp": 55,
@@ -1257,6 +1413,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "",
             "hp": 90,
@@ -1281,6 +1440,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "",
             "hp": 45,
@@ -1305,6 +1467,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "",
             "hp": 65,
@@ -1329,6 +1494,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "",
             "hp": 75,
@@ -1353,6 +1521,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "",
             "hp": 45,
@@ -1377,6 +1548,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "",
             "hp": 65,
@@ -1401,6 +1575,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "",
             "hp": 75,
@@ -1425,6 +1602,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 30,
@@ -1449,6 +1629,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 55,
@@ -1473,6 +1656,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "どく",
             "type2": "ひこう",
             "hp": 40,
@@ -1497,6 +1683,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "どく",
             "type2": "ひこう",
             "hp": 75,
@@ -1521,6 +1710,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "どく",
             "type2": "ひこう",
             "hp": 85,
@@ -1545,6 +1737,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "どく",
             "type2": "",
             "hp": 80,
@@ -1569,6 +1764,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "どく",
             "type2": "",
             "hp": 105,
@@ -1593,6 +1791,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "エスパー",
             "type2": "ひこう",
             "hp": 55,
@@ -1617,6 +1818,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "エスパー",
             "type2": "ひこう",
             "hp": 67,
@@ -1641,6 +1845,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "いわ",
             "type2": "",
             "hp": 55,
@@ -1665,6 +1872,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "いわ",
             "type2": "",
             "hp": 70,
@@ -1689,6 +1899,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "いわ",
             "type2": "",
             "hp": 85,
@@ -1713,6 +1926,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "いわ",
             "hp": 35,
@@ -1737,6 +1953,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "はがね",
             "hp": 75,
@@ -1761,6 +1980,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "かくとう",
             "type2": "",
             "hp": 75,
@@ -1785,6 +2007,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "かくとう",
             "type2": "",
             "hp": 85,
@@ -1809,6 +2034,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "かくとう",
             "type2": "",
             "hp": 105,
@@ -1833,6 +2061,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "",
             "hp": 60,
@@ -1857,6 +2088,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "はがね",
             "hp": 110,
@@ -1881,6 +2115,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 50,
@@ -1905,6 +2142,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 70,
@@ -1929,6 +2169,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 55,
@@ -1953,6 +2196,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 65,
@@ -1977,6 +2223,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "",
             "hp": 40,
@@ -2001,6 +2250,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "",
             "hp": 60,
@@ -2025,6 +2277,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "",
             "hp": 45,
@@ -2049,6 +2304,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "",
             "hp": 70,
@@ -2073,6 +2331,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "エスパー",
             "type2": "",
             "hp": 76,
@@ -2097,6 +2358,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "エスパー",
             "type2": "",
             "hp": 116,
@@ -2121,6 +2385,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 50,
@@ -2145,6 +2412,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 70,
@@ -2169,6 +2439,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 95,
@@ -2193,6 +2466,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 55,
@@ -2217,6 +2493,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 130,
@@ -2241,6 +2520,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "",
             "hp": 65,
@@ -2265,6 +2547,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "",
             "hp": 65,
@@ -2289,6 +2574,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "エスパー",
             "type2": "",
             "hp": 65,
@@ -2313,6 +2601,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "あく",
             "type2": "",
             "hp": 95,
@@ -2337,6 +2628,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "",
             "hp": 65,
@@ -2361,6 +2655,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "こおり",
             "type2": "",
             "hp": 65,
@@ -2385,6 +2682,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "あく",
             "hp": 50,
@@ -2409,6 +2709,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "あく",
             "hp": 60,
@@ -2433,6 +2736,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "あく",
             "hp": 95,
@@ -2457,6 +2763,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "",
             "hp": 70,
@@ -2481,6 +2790,9 @@
         "status": [
           {
             "form": "ノーマルモード",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "",
             "hp": 105,
@@ -2499,6 +2811,9 @@
           },
           {
             "form": "ダルマモード",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "エスパー",
             "hp": 105,
@@ -2523,6 +2838,9 @@
         "status": [
           {
             "form": "あかすじ",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 70,
@@ -2541,6 +2859,9 @@
           },
           {
             "form": "あおすじ",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 70,
@@ -2565,6 +2886,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "どく",
             "type2": "",
             "hp": 50,
@@ -2589,6 +2913,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "どく",
             "type2": "",
             "hp": 80,
@@ -2613,6 +2940,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 55,
@@ -2637,6 +2967,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 75,
@@ -2661,6 +2994,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "ひこう",
             "hp": 70,
@@ -2685,6 +3021,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "ひこう",
             "hp": 100,
@@ -2709,6 +3048,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "あく",
             "type2": "ひこう",
             "hp": 70,
@@ -2733,6 +3075,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "あく",
             "type2": "ひこう",
             "hp": 110,
@@ -2757,6 +3102,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "",
             "hp": 50,
@@ -2781,6 +3129,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "",
             "hp": 75,
@@ -2805,6 +3156,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "いわ",
             "hp": 50,
@@ -2829,6 +3183,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "いわ",
             "hp": 70,
@@ -2853,6 +3210,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "あく",
             "type2": "かくとう",
             "hp": 50,
@@ -2877,6 +3237,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "あく",
             "type2": "かくとう",
             "hp": 65,
@@ -2901,6 +3264,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "",
             "hp": 75,
@@ -2925,6 +3291,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "エスパー",
             "type2": "ひこう",
             "hp": 72,
@@ -2949,6 +3318,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "",
             "hp": 45,
@@ -2973,6 +3345,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "ドラゴン",
             "hp": 50,
@@ -2997,6 +3372,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "ドラゴン",
             "hp": 80,
@@ -3021,6 +3399,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ゴースト",
             "type2": "",
             "hp": 38,
@@ -3045,6 +3426,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ゴースト",
             "type2": "",
             "hp": 58,
@@ -3069,6 +3453,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "いわ",
             "hp": 54,
@@ -3093,6 +3480,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "いわ",
             "hp": 74,
@@ -3117,6 +3507,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "いわ",
             "type2": "ひこう",
             "hp": 55,
@@ -3141,6 +3534,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "いわ",
             "type2": "ひこう",
             "hp": 75,
@@ -3165,6 +3561,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "はがね",
             "type2": "",
             "hp": 40,
@@ -3189,6 +3588,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "はがね",
             "type2": "",
             "hp": 60,
@@ -3213,6 +3615,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "はがね",
             "type2": "",
             "hp": 60,
@@ -3237,6 +3642,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "どく",
             "hp": 40,
@@ -3261,6 +3669,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "どく",
             "hp": 50,
@@ -3285,6 +3696,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "どく",
             "hp": 60,
@@ -3309,6 +3723,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "エスパー",
             "type2": "",
             "hp": 45,
@@ -3333,6 +3750,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "エスパー",
             "type2": "",
             "hp": 60,
@@ -3357,6 +3777,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "エスパー",
             "type2": "",
             "hp": 70,
@@ -3381,6 +3804,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "エスパー",
             "type2": "",
             "hp": 45,
@@ -3405,6 +3831,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "エスパー",
             "type2": "",
             "hp": 65,
@@ -3429,6 +3858,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "エスパー",
             "type2": "",
             "hp": 110,
@@ -3453,6 +3885,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "ひこう",
             "hp": 30,
@@ -3477,6 +3912,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "ひこう",
             "hp": 70,
@@ -3501,6 +3939,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "ひこう",
             "hp": 55,
@@ -3525,6 +3966,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "かくとう",
             "hp": 80,
@@ -3549,6 +3993,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "",
             "hp": 65,
@@ -3573,6 +4020,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "",
             "hp": 45,
@@ -3597,6 +4047,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "",
             "hp": 75,
@@ -3621,6 +4074,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 55,
@@ -3645,6 +4101,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 85,
@@ -3669,6 +4128,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "あく",
             "type2": "",
             "hp": 40,
@@ -3693,6 +4155,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "あく",
             "type2": "",
             "hp": 60,
@@ -3717,6 +4182,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "ひこう",
             "hp": 62,
@@ -3741,6 +4209,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "ひこう",
             "hp": 75,
@@ -3765,6 +4236,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "",
             "hp": 50,
@@ -3789,6 +4263,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "はがね",
             "hp": 70,
@@ -3813,6 +4290,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "",
             "hp": 50,
@@ -3837,6 +4317,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "",
             "hp": 80,
@@ -3861,6 +4344,9 @@
         "status": [
           {
             "form": "はるのすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "くさ",
             "hp": 60,
@@ -3879,6 +4365,9 @@
           },
           {
             "form": "なつのすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "くさ",
             "hp": 60,
@@ -3897,6 +4386,9 @@
           },
           {
             "form": "あきのすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "くさ",
             "hp": 60,
@@ -3915,6 +4407,9 @@
           },
           {
             "form": "ふゆのすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "くさ",
             "hp": 60,
@@ -3939,6 +4434,9 @@
         "status": [
           {
             "form": "はるのすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "くさ",
             "hp": 80,
@@ -3957,6 +4455,9 @@
           },
           {
             "form": "なつのすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "くさ",
             "hp": 80,
@@ -3975,6 +4476,9 @@
           },
           {
             "form": "あきのすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "くさ",
             "hp": 80,
@@ -3993,6 +4497,9 @@
           },
           {
             "form": "ふゆのすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "くさ",
             "hp": 80,
@@ -4017,6 +4524,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "どく",
             "hp": 69,
@@ -4041,6 +4551,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "どく",
             "hp": 114,
@@ -4065,6 +4578,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 70,
@@ -4089,6 +4605,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "いわ",
             "type2": "",
             "hp": 30,
@@ -4113,6 +4632,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "いわ",
             "type2": "はがね",
             "hp": 60,
@@ -4137,6 +4659,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "はがね",
             "type2": "いわ",
             "hp": 50,
@@ -4161,6 +4686,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "はがね",
             "type2": "いわ",
             "hp": 60,
@@ -4185,6 +4713,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "はがね",
             "type2": "いわ",
             "hp": 70,
@@ -4209,6 +4740,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "エスパー",
             "hp": 40,
@@ -4233,6 +4767,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "エスパー",
             "hp": 60,
@@ -4257,6 +4794,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "ほのお",
             "hp": 55,
@@ -4281,6 +4821,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "ほのお",
             "hp": 85,
@@ -4305,6 +4848,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "でんき",
             "hp": 50,
@@ -4329,6 +4875,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "でんき",
             "hp": 70,
@@ -4353,6 +4902,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "はがね",
             "hp": 44,
@@ -4377,6 +4929,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "はがね",
             "hp": 74,
@@ -4401,6 +4956,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "",
             "hp": 35,
@@ -4425,6 +4983,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "",
             "hp": 65,
@@ -4449,6 +5010,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "",
             "hp": 85,
@@ -4473,6 +5037,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "ゴースト",
             "hp": 55,
@@ -4497,6 +5064,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "ゴースト",
             "hp": 100,
@@ -4521,6 +5091,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 165,
@@ -4545,6 +5118,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ドラゴン",
             "type2": "",
             "hp": 46,
@@ -4569,6 +5145,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ドラゴン",
             "type2": "",
             "hp": 66,
@@ -4593,6 +5172,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ドラゴン",
             "type2": "",
             "hp": 76,
@@ -4617,6 +5199,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 73,
@@ -4641,6 +5226,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "どく",
             "type2": "",
             "hp": 73,
@@ -4665,6 +5253,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "エスパー",
             "type2": "",
             "hp": 55,
@@ -4689,6 +5280,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "エスパー",
             "type2": "",
             "hp": 75,
@@ -4713,6 +5307,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ゴースト",
             "type2": "ほのお",
             "hp": 50,
@@ -4737,6 +5334,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ゴースト",
             "type2": "ほのお",
             "hp": 60,
@@ -4761,6 +5361,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ゴースト",
             "type2": "ほのお",
             "hp": 60,
@@ -4785,6 +5388,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "",
             "hp": 85,
@@ -4809,6 +5415,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "はがね",
             "hp": 58,
@@ -4833,6 +5442,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "こおり",
             "type2": "",
             "hp": 55,
@@ -4857,6 +5469,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "こおり",
             "type2": "",
             "hp": 95,
@@ -4881,6 +5496,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "こおり",
             "type2": "",
             "hp": 70,
@@ -4905,6 +5523,9 @@
         "status": [
           {
             "form": "けしんフォルム",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ひこう",
             "type2": "",
             "hp": 79,
@@ -4923,6 +5544,9 @@
           },
           {
             "form": "れいじゅうフォルム",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ひこう",
             "type2": "",
             "hp": 79,
@@ -4947,6 +5571,9 @@
         "status": [
           {
             "form": "けしんフォルム",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "ひこう",
             "hp": 79,
@@ -4965,6 +5592,9 @@
           },
           {
             "form": "れいじゅうフォルム",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "でんき",
             "type2": "ひこう",
             "hp": 79,
@@ -4989,6 +5619,9 @@
         "status": [
           {
             "form": "けしんフォルム",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "ひこう",
             "hp": 89,
@@ -5007,6 +5640,9 @@
           },
           {
             "form": "れいじゅうフォルム",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "ひこう",
             "hp": 89,
@@ -5031,6 +5667,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "どく",
             "type2": "むし",
             "hp": 40,
@@ -5055,6 +5694,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "どく",
             "type2": "あく",
             "hp": 70,
@@ -5079,6 +5721,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ひこう",
             "type2": "はがね",
             "hp": 65,
@@ -5103,6 +5748,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "じめん",
             "hp": 60,
@@ -5127,6 +5775,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "じめん",
             "hp": 70,
@@ -5151,6 +5802,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "エスパー",
             "type2": "",
             "hp": 60,
@@ -5175,6 +5829,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "エスパー",
             "type2": "",
             "hp": 80,
@@ -5199,6 +5856,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ゴースト",
             "type2": "ひこう",
             "hp": 90,
@@ -5223,6 +5883,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ゴースト",
             "type2": "ひこう",
             "hp": 150,
@@ -5247,6 +5910,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ゴースト",
             "type2": "",
             "hp": 44,
@@ -5271,6 +5937,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ゴースト",
             "type2": "",
             "hp": 64,
@@ -5295,6 +5964,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "ひこう",
             "hp": 40,
@@ -5319,6 +5991,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "ひこう",
             "hp": 60,
@@ -5343,6 +6018,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "いわ",
             "type2": "エスパー",
             "hp": 70,
@@ -5367,6 +6045,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "いわ",
             "type2": "エスパー",
             "hp": 70,
@@ -5391,6 +6072,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "あく",
             "type2": "",
             "hp": 65,
@@ -5415,6 +6099,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "",
             "hp": 65,
@@ -5439,6 +6126,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "",
             "hp": 100,
@@ -5463,6 +6153,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "かくとう",
             "type2": "",
             "hp": 45,
@@ -5487,6 +6180,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "かくとう",
             "type2": "",
             "hp": 65,
@@ -5511,6 +6207,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ひこう",
             "type2": "じめん",
             "hp": 65,
@@ -5535,6 +6234,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ひこう",
             "type2": "じめん",
             "hp": 75,
@@ -5559,6 +6261,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "あく",
             "type2": "はがね",
             "hp": 45,
@@ -5583,6 +6288,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "あく",
             "type2": "はがね",
             "hp": 65,
@@ -5607,6 +6315,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "はがね",
             "type2": "かくとう",
             "hp": 91,
@@ -5631,6 +6342,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "いわ",
             "type2": "かくとう",
             "hp": 91,
@@ -5655,6 +6369,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "かくとう",
             "hp": 91,
@@ -5679,6 +6396,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 50,
@@ -5703,6 +6423,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "じめん",
             "hp": 75,
@@ -5727,6 +6450,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "じめん",
             "hp": 105,
@@ -5751,6 +6477,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "でんき",
             "hp": 109,
@@ -5775,6 +6504,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "いわ",
             "hp": 20,
@@ -5799,6 +6531,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "ひこう",
             "hp": 45,
@@ -5823,6 +6558,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ひこう",
             "type2": "みず",
             "hp": 65,
@@ -5847,6 +6585,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 35,
@@ -5871,6 +6612,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 75,
@@ -5895,6 +6639,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "いわ",
             "hp": 55,
@@ -5919,6 +6666,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 30,
@@ -5943,6 +6693,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "エスパー",
             "hp": 60,
@@ -5967,6 +6720,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 130,
@@ -5991,6 +6747,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 170,
@@ -6015,6 +6774,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "こおり",
             "hp": 130,
@@ -6039,6 +6801,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "こおり",
             "type2": "みず",
             "hp": 70,
@@ -6063,6 +6828,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "こおり",
             "type2": "みず",
             "hp": 90,
@@ -6087,6 +6855,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "こおり",
             "type2": "みず",
             "hp": 110,
@@ -6111,6 +6882,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "ひこう",
             "hp": 45,
@@ -6135,6 +6909,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ドラゴン",
             "type2": "ひこう",
             "hp": 75,
@@ -6159,6 +6936,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "",
             "hp": 38,
@@ -6183,6 +6963,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ほのお",
             "type2": "",
             "hp": 73,
@@ -6207,6 +6990,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "はがね",
             "type2": "エスパー",
             "hp": 57,
@@ -6231,6 +7017,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "はがね",
             "type2": "エスパー",
             "hp": 67,
@@ -6255,6 +7044,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "こおり",
             "type2": "あく",
             "hp": 55,
@@ -6279,6 +7071,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "こおり",
             "type2": "あく",
             "hp": 70,
@@ -6303,6 +7098,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "こおり",
             "type2": "ひこう",
             "hp": 45,
@@ -6327,6 +7125,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "こおり",
             "type2": "",
             "hp": 36,
@@ -6351,6 +7152,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "こおり",
             "type2": "",
             "hp": 51,
@@ -6375,6 +7179,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "こおり",
             "type2": "",
             "hp": 71,
@@ -6399,6 +7206,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "こおり",
             "hp": 50,
@@ -6423,6 +7233,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "こおり",
             "hp": 100,
@@ -6447,6 +7260,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "こおり",
             "hp": 110,
@@ -6471,6 +7287,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 48,
@@ -6495,6 +7314,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "はがね",
             "type2": "エスパー",
             "hp": 40,
@@ -6519,6 +7341,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "はがね",
             "type2": "エスパー",
             "hp": 60,
@@ -6543,6 +7368,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "はがね",
             "type2": "エスパー",
             "hp": 80,
@@ -6567,6 +7395,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 65,
@@ -6591,6 +7422,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "こおり",
             "hp": 90,
@@ -6615,6 +7449,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "かくとう",
             "type2": "",
             "hp": 120,
@@ -6639,6 +7476,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "かくとう",
             "type2": "",
             "hp": 75,
@@ -6663,6 +7503,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 95,
@@ -6687,6 +7530,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ドラゴン",
             "type2": "",
             "hp": 77,
@@ -6711,6 +7557,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "ゴースト",
             "hp": 59,
@@ -6735,6 +7584,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "じめん",
             "type2": "ゴースト",
             "hp": 89,
@@ -6759,6 +7611,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "あく",
             "type2": "ドラゴン",
             "hp": 52,
@@ -6783,6 +7638,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "あく",
             "type2": "ドラゴン",
             "hp": 72,
@@ -6807,6 +7665,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "あく",
             "type2": "ドラゴン",
             "hp": 92,
@@ -6831,6 +7692,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 60,
@@ -6855,6 +7719,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 80,
@@ -6879,6 +7746,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 150,
@@ -6903,6 +7773,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "",
             "hp": 43,
@@ -6927,6 +7800,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "あく",
             "hp": 63,
@@ -6951,6 +7827,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 90,
@@ -6975,6 +7854,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 115,
@@ -6999,6 +7881,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 140,
@@ -7023,6 +7908,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 90,
@@ -7047,6 +7935,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "",
             "hp": 110,
@@ -7071,6 +7962,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ひこう",
             "type2": "むし",
             "hp": 65,
@@ -7095,6 +7989,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ひこう",
             "type2": "むし",
             "hp": 86,
@@ -7119,6 +8016,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "ひこう",
             "hp": 99,
@@ -7143,6 +8043,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "くさ",
             "type2": "",
             "hp": 74,
@@ -7167,6 +8070,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "どく",
             "type2": "かくとう",
             "hp": 48,
@@ -7191,6 +8097,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "どく",
             "type2": "かくとう",
             "hp": 83,
@@ -7215,6 +8124,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "いわ",
             "type2": "じめん",
             "hp": 50,
@@ -7239,6 +8151,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "いわ",
             "type2": "じめん",
             "hp": 70,
@@ -7263,6 +8178,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "いわ",
             "type2": "あく",
             "hp": 100,
@@ -7287,6 +8205,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ドラゴン",
             "type2": "ほのお",
             "hp": 100,
@@ -7311,6 +8232,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ドラゴン",
             "type2": "でんき",
             "hp": 100,
@@ -7335,6 +8259,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ドラゴン",
             "type2": "こおり",
             "hp": 125,
@@ -7359,6 +8286,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "みず",
             "type2": "かくとう",
             "hp": 91,
@@ -7383,6 +8313,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "ノーマル",
             "type2": "エスパー",
             "hp": 100,
@@ -7407,6 +8340,9 @@
         "status": [
           {
             "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
             "type1": "むし",
             "type2": "はがね",
             "hp": 71,
