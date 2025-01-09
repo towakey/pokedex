@@ -198,7 +198,7 @@ SQL
 
     sql = <<SQL
 CREATE TABLE #{@table_name} (
-    id TEXT,
+    no TEXT,
     globalNo TEXT,
     form TEXT,
     region TEXT,
@@ -283,12 +283,12 @@ SQL
   end
 
   def import_base_form(pokemon)
-    return unless pokemon[""]
-    pokemon[""].each do |form|
+    return unless pokemon["form"]
+    pokemon["form"].each do |form|
       sql = <<SQL
 INSERT INTO #{@table_name}
 VALUES (
-    '#{pokemon['id']}',
+    '#{pokemon['no']}',
     '#{escape_sql_string(form['form'])}',
     '#{escape_sql_string(form['region'])}',
     '#{escape_sql_string(form['mega_evolution'])}',
@@ -315,7 +315,7 @@ SQL
       sql = <<SQL
 INSERT INTO #{@table_name}
 VALUES (
-    '#{pokemon['id']}',
+    '#{pokemon['no']}',
     '#{escape_sql_string(form['form'])}',
     '#{escape_sql_string(form['region'])}',
     '#{escape_sql_string(form['mega_evolution'])}',
@@ -342,7 +342,7 @@ SQL
       sql = <<SQL
 INSERT INTO #{@table_name}
 VALUES (
-    '#{pokemon['id']}',
+    '#{pokemon['no']}',
     '#{escape_sql_string(form['form'])}',
     '#{escape_sql_string(form['region'])}',
     '#{escape_sql_string(form['mega_evolution'])}',
@@ -369,7 +369,7 @@ SQL
       sql = <<SQL
 INSERT INTO #{@table_name}
 VALUES (
-    '#{pokemon['id']}',
+    '#{pokemon['no']}',
     '#{escape_sql_string(form['form'])}',
     '#{escape_sql_string(form['region'])}',
     '#{escape_sql_string(form['mega_evolution'])}',
