@@ -39,10 +39,10 @@ class PokedexAPI {
 
     public function handleRequest() {
         $region = isset($_GET['region']) ? $_GET['region'] : null;
-        $id = isset($_GET['id']) ? $_GET['id'] : null;
+        $no = isset($_GET['no']) ? $_GET['no'] : null;
 
         if ($region === 'global') {
-            $this->handleGlobalPokedex(['id' => $id]);
+            $this->handleGlobalPokedex(['no' => $no]);
             return;
         }
 
@@ -52,12 +52,12 @@ class PokedexAPI {
             return;
         }
 
-        $this->handleLocalPokedex(['region' => $region, 'id' => $id]);
+        $this->handleLocalPokedex(['region' => $region, 'no' => $no]);
     }
 
     private function handleLocalPokedex($params) {
         $region = $params['region'];
-        $id = $params['id'] ?? null;
+        $no = $params['no'] ?? null;
         $form = $params['form'] ?? '';
 
         if (!isset($this->validRegions[$region])) {
@@ -65,7 +65,7 @@ class PokedexAPI {
         }
 
         $query = '';
-        if ($id) {
+        if ($no) {
             $query = "WITH moves AS (
                         SELECT 
                             w.learn_type,
@@ -96,20 +96,20 @@ class PokedexAPI {
                                'machine', (SELECT moves_by_type FROM moves WHERE learn_type = 'machine')
                            ) as waza_list
                     FROM $region l
-                    LEFT JOIN pokedex p ON l.globalNo = p.id
-                    WHERE l.id = :id
+                    LEFT JOIN pokedex p ON l.globalNo = p.no
+                    WHERE l.no = :no
                     AND (
                         CASE 
                             WHEN substr(l.form, 1, 2) = 'メガ' THEN l.form = p.jpn
                             ELSE l.form = p.form
                         END
                     )
-                    GROUP BY l.id, l.globalNo, l.form
-                    ORDER BY CAST(l.id AS INTEGER)";
+                    GROUP BY l.no, l.globalNo, l.form
+                    ORDER BY CAST(l.no AS INTEGER)";
 
             $stmt = $this->db->prepare($query);
-            $stmt->bindValue(':id', $id, SQLITE3_TEXT);
-            $stmt->bindValue(':global_no', $id, SQLITE3_TEXT);
+            $stmt->bindValue(':no', $no, SQLITE3_TEXT);
+            $stmt->bindValue(':global_no', $no, SQLITE3_TEXT);
             $stmt->bindValue(':form', $form, SQLITE3_TEXT);
             $stmt->bindValue(':is_mega', substr($form, 0, 2) === 'メガ' ? 1 : 0, SQLITE3_INTEGER);
         } else {
@@ -143,15 +143,15 @@ class PokedexAPI {
                                'machine', (SELECT moves_by_type FROM moves WHERE learn_type = 'machine')
                            ) as waza_list
                     FROM $region l
-                    LEFT JOIN pokedex p ON l.globalNo = p.id
+                    LEFT JOIN pokedex p ON l.globalNo = p.no
                     AND (
                         CASE 
                             WHEN substr(l.form, 1, 2) = 'メガ' THEN l.form = p.jpn
                             ELSE l.form = p.form
                         END
                     )
-                    GROUP BY l.id, l.globalNo, l.form
-                    ORDER BY CAST(l.id AS INTEGER)";
+                    GROUP BY l.no, l.globalNo, l.form
+                    ORDER BY CAST(l.no AS INTEGER)";
             $stmt = $this->db->prepare($query);
         }
 
@@ -177,15 +177,15 @@ class PokedexAPI {
     }
 
     private function handleGlobalPokedex($params) {
-        $id = $params['id'] ?? null;
+        $no = $params['no'] ?? null;
         $query = '';
 
-        if ($id) {
-            $query = "SELECT * FROM pokedex WHERE id = :id";
+        if ($no) {
+            $query = "SELECT * FROM pokedex WHERE no = :no";
             $stmt = $this->db->prepare($query);
-            $stmt->bindValue(':id', $id, SQLITE3_TEXT);
+            $stmt->bindValue(':no', $no, SQLITE3_TEXT);
         } else {
-            $query = "SELECT * FROM pokedex ORDER BY CAST(id AS INTEGER)";
+            $query = "SELECT * FROM pokedex ORDER BY CAST(no AS INTEGER)";
             $stmt = $this->db->prepare($query);
         }
 
@@ -213,7 +213,7 @@ class PokedexAPI {
         }
 
         $query = "SELECT * FROM $region WHERE 
-                  id LIKE :keyword OR 
+                  no LIKE :keyword OR 
                   form LIKE :keyword OR 
                   type1 LIKE :keyword OR 
                   type2 LIKE :keyword OR 
