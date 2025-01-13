@@ -1,5 +1,5 @@
 {
-  "update": "20250106",
+  "update": "20250113",
   "pokedex": [
     {
       "no": 1,
@@ -23123,7 +23123,11 @@
           "form": "",
           "region": "",
           "mega_evolution": "",
-          "gigantamax": "",
+          "gigantamax": "ムゲンダイマックスムゲンダイナ",
+          "name": {
+            "jpn": "ムゲンダイマックスムゲンダイナ",
+            "eng": "Eternatus"
+          },
           "classification": "キョダイポケモン",
           "height": "100.0",
           "weight": ""
