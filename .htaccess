@@ -3,10 +3,11 @@ RewriteBase /pokedex/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# Rewrite for region/number pattern
-RewriteRule ^([^/]+)/([0-9]+)/?$ pokedex.php?region=$1&no=$2 [L,QSA]
+# Rewrite for pokedex/region/number pattern
+RewriteRule ^pokedex/([^/]+)/([0-9]+)/?$ pokedex.php?region=$1&no=$2 [L,QSA]
 
-# Rewrite for region only
-RewriteRule ^([^/]+)/?$ pokedex.php?region=$1 [L,QSA]
+# Rewrite for pokedex/region pattern
+RewriteRule ^pokedex/([^/]+)/?$ pokedex.php?region=$1 [L,QSA]
 
-RewriteRule ^(.*)$ pokedex.php [QSA,L]
+# Rewrite for pokedex only
+RewriteRule ^pokedex/?$ pokedex.php [L,QSA]
