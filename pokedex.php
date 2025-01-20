@@ -41,14 +41,20 @@ class PokedexAPI {
         $region = isset($_GET['region']) ? $_GET['region'] : null;
         $no = isset($_GET['no']) ? $_GET['no'] : null;
 
+        if (!$region) {
+            $this->response['error'] = 'Region parameter is required';
+            $this->response['valid_regions'] = array_merge(['global'], array_keys($this->validRegions));
+            return;
+        }
+
         if ($region === 'global') {
             $this->handleGlobalPokedex(['no' => $no]);
             return;
         }
 
-        if (!$region || !array_key_exists($region, $this->validRegions)) {
+        if (!array_key_exists($region, $this->validRegions)) {
             $this->response['error'] = 'Invalid region';
-            $this->response['valid_regions'] = array_keys($this->validRegions);
+            $this->response['valid_regions'] = array_merge(['global'], array_keys($this->validRegions));
             return;
         }
 
@@ -58,117 +64,72 @@ class PokedexAPI {
     private function handleLocalPokedex($params) {
         $region = $params['region'];
         $no = $params['no'] ?? null;
-        $form = $params['form'] ?? '';
 
         if (!isset($this->validRegions[$region])) {
             throw new Exception("Invalid region: {$region}");
         }
 
-        $query = '';
-        if ($no) {
-            $query = "WITH moves AS (
-                        SELECT 
-                            w.learn_type,
-                            json_group_array(
-                                json_object(
-                                    'level', w.level,
-                                    'waza_name', w.waza_name
-                                )
-                            ) as moves_by_type
-                        FROM waza w 
-                        WHERE w.region = '$region'
-                            AND w.global_no = :global_no
-                            AND (
-                                CASE 
-                                    WHEN :is_mega = 1 THEN w.form = :form
-                                    ELSE w.form = :form OR w.form = ''
-                                END
-                            )
-                        GROUP BY w.learn_type
-                    )
-                    SELECT l.*, 
-                           p.jpn, p.eng, p.ger, p.fra, p.kor, p.chs, p.cht, p.classification, p.height, p.weight,
-                           json_object(
-                               'initial', (SELECT moves_by_type FROM moves WHERE learn_type = 'initial'),
-                               'remember', (SELECT moves_by_type FROM moves WHERE learn_type = 'remember'),
-                               'evolution', (SELECT moves_by_type FROM moves WHERE learn_type = 'evolution'),
-                               'level', (SELECT moves_by_type FROM moves WHERE learn_type = 'level'),
-                               'machine', (SELECT moves_by_type FROM moves WHERE learn_type = 'machine')
-                           ) as waza_list
-                    FROM $region l
-                    LEFT JOIN pokedex p ON l.globalNo = p.no
-                    WHERE l.no = :no
-                    AND (
-                        CASE 
-                            WHEN substr(l.form, 1, 2) = 'メガ' THEN l.form = p.jpn
-                            ELSE l.form = p.form
-                        END
-                    )
-                    GROUP BY l.no, l.globalNo, l.form
-                    ORDER BY CAST(l.no AS INTEGER)";
+        // まず基本情報を取得
+        $query = "SELECT l.*, 
+                 p.jpn, p.eng, p.ger, p.fra, p.kor, p.chs, p.cht,
+                 p.classification, p.height, p.weight
+                 FROM $region l
+                 LEFT JOIN pokedex p ON l.globalNo = p.no";
 
-            $stmt = $this->db->prepare($query);
+        if ($no) {
+            $query .= " WHERE l.no = :no";
+        }
+        
+        $query .= " ORDER BY CAST(l.no AS INTEGER)";
+        
+        $stmt = $this->db->prepare($query);
+        if ($no) {
             $stmt->bindValue(':no', $no, SQLITE3_TEXT);
-            $stmt->bindValue(':global_no', $no, SQLITE3_TEXT);
-            $stmt->bindValue(':form', $form, SQLITE3_TEXT);
-            $stmt->bindValue(':is_mega', substr($form, 0, 2) === 'メガ' ? 1 : 0, SQLITE3_INTEGER);
-        } else {
-            $query = "WITH moves AS (
-                        SELECT 
-                            w.learn_type,
-                            json_group_array(
-                                json_object(
-                                    'level', w.level,
-                                    'waza_name', w.waza_name
-                                )
-                            ) as moves_by_type
-                        FROM waza w 
-                        WHERE w.region = '$region'
-                            AND w.global_no = l.globalNo
-                            AND (
-                                CASE 
-                                    WHEN substr(l.form, 1, 2) = 'メガ' THEN w.form = l.form
-                                    ELSE w.form = l.form OR w.form = ''
-                                END
-                            )
-                        GROUP BY w.learn_type
-                    )
-                    SELECT l.*, 
-                           p.jpn, p.eng, p.ger, p.fra, p.kor, p.chs, p.cht, p.classification, p.height, p.weight,
-                           json_object(
-                               'initial', (SELECT moves_by_type FROM moves WHERE learn_type = 'initial'),
-                               'remember', (SELECT moves_by_type FROM moves WHERE learn_type = 'remember'),
-                               'evolution', (SELECT moves_by_type FROM moves WHERE learn_type = 'evolution'),
-                               'level', (SELECT moves_by_type FROM moves WHERE learn_type = 'level'),
-                               'machine', (SELECT moves_by_type FROM moves WHERE learn_type = 'machine')
-                           ) as waza_list
-                    FROM $region l
-                    LEFT JOIN pokedex p ON l.globalNo = p.no
-                    AND (
-                        CASE 
-                            WHEN substr(l.form, 1, 2) = 'メガ' THEN l.form = p.jpn
-                            ELSE l.form = p.form
-                        END
-                    )
-                    GROUP BY l.no, l.globalNo, l.form
-                    ORDER BY CAST(l.no AS INTEGER)";
-            $stmt = $this->db->prepare($query);
         }
 
         $result = $stmt->execute();
         $data = [];
 
         while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
-            // waza_listの各learn_typeのJSONをデコード
-            if (isset($row['waza_list'])) {
-                $waza_list = json_decode($row['waza_list'], true);
-                foreach ($waza_list as $type => $moves) {
-                    if ($moves !== null) {
-                        $waza_list[$type] = json_decode($moves, true);
-                    }
-                }
-                $row['waza_list'] = $waza_list;
+            // 技情報を取得
+            $globalNo = $row['globalNo'];
+            $form = $row['form'];
+            
+            $waza_query = "SELECT learn_type, level, waza_name 
+                          FROM waza 
+                          WHERE region = :region 
+                          AND global_no = :global_no
+                          AND (
+                              CASE 
+                                  WHEN substr(:form, 1, 2) = 'メガ' THEN form = :form
+                                  ELSE form = :form OR form = ''
+                              END
+                          )";
+            
+            $waza_stmt = $this->db->prepare($waza_query);
+            $waza_stmt->bindValue(':region', $region, SQLITE3_TEXT);
+            $waza_stmt->bindValue(':global_no', $globalNo, SQLITE3_TEXT);
+            $waza_stmt->bindValue(':form', $form, SQLITE3_TEXT);
+            
+            $waza_result = $waza_stmt->execute();
+            
+            $waza_list = [
+                'initial' => [],
+                'remember' => [],
+                'evolution' => [],
+                'level' => [],
+                'machine' => []
+            ];
+            
+            while ($waza_row = $waza_result->fetchArray(SQLITE3_ASSOC)) {
+                $learn_type = $waza_row['learn_type'];
+                $waza_list[$learn_type][] = [
+                    'level' => $waza_row['level'],
+                    'waza_name' => $waza_row['waza_name']
+                ];
             }
+            
+            $row['waza_list'] = $waza_list;
             $data[] = $row;
         }
 
@@ -178,7 +139,6 @@ class PokedexAPI {
 
     private function handleGlobalPokedex($params) {
         $no = $params['no'] ?? null;
-        $query = '';
 
         if ($no) {
             $query = "SELECT * FROM pokedex WHERE no = :no";
@@ -200,44 +160,6 @@ class PokedexAPI {
         $this->response['status'] = 'success';
     }
 
-    private function handleSearch($params) {
-        $keyword = $params['keyword'] ?? null;
-        $region = $params['region'] ?? 'pokedex';
-
-        if (!$keyword) {
-            throw new Exception('Keyword parameter is required');
-        }
-
-        if ($region !== 'pokedex' && !isset($this->validRegions[$region])) {
-            throw new Exception('Invalid region specified');
-        }
-
-        $query = "SELECT * FROM $region WHERE 
-                  no LIKE :keyword OR 
-                  form LIKE :keyword OR 
-                  type1 LIKE :keyword OR 
-                  type2 LIKE :keyword OR 
-                  ability1 LIKE :keyword OR 
-                  ability2 LIKE :keyword OR 
-                  dream_ability LIKE :keyword";
-
-        $stmt = $this->db->prepare($query);
-        $keyword = "%$keyword%";
-        $stmt->bindValue(':keyword', $keyword, SQLITE3_TEXT);
-
-        $result = $stmt->execute();
-        $data = [];
-
-        while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
-            $data[] = $row;
-        }
-
-        $this->response['data'] = $data;
-        if ($region !== 'pokedex') {
-            $this->response['region_name'] = $this->validRegions[$region];
-        }
-    }
-
     public function getResponse() {
         return $this->response;
     }
@@ -245,4 +167,6 @@ class PokedexAPI {
 
 $api = new PokedexAPI();
 $api->handleRequest();
-echo json_encode($api->getResponse(), JSON_UNESCAPED_UNICODE);
+
+$response = $api->getResponse();
+echo json_encode($response, JSON_UNESCAPED_UNICODE);
