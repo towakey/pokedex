@@ -1,5 +1,5 @@
 {
-  "update": "20250107",
+  "update": "20250306",
   "game_version": "Sun_Moon",
   "pokedex": {
     "アローラ図鑑": [
@@ -5141,7 +5141,7 @@
         "globalNo": "351",
         "status": [
           {
-            "form": "",
+            "form": "ポワルンのすがた",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",
@@ -5157,8 +5157,71 @@
             "ability2": "",
             "dream_ability": "",
             "description": {
-                "sun": "ポワルンのすがた",
-                "moon": "ポワルンのすがた"
+                "sun": "てんきに よって すがたを かえる。 きおんや しつどの へんかが さいぼうに えいきょう するらしい。",
+                "moon": "きおんや しつどに さいぼうが びんかんに はんのうし すがたが かってに かわって しまうのだ。"
+            }
+          },
+          {
+            "form": "たいようのすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 70,
+            "attack": 70,
+            "defense": 70,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "てんきや",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "よく はれた ひの ポワルンの すがた。 ひふに ふれると いがいに あついので ちゅうい しよう。",
+                "moon": "かいせいに めぐまれたときの ポワルンの すがた。 からだは ポカポカと ほてっているぞ。"
+            }
+          },
+          {
+            "form": "あまみずのすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 70,
+            "attack": 70,
+            "defense": 70,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "てんきや",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "あめに したたる ポワルンの すがた。 からだを おすと スポンジの ように すこし みずが しみだしてくる。",
+                "moon": "ふりしきる あめに うたれる ポワルンの すがた。 からだは しっけを おびて ぬめっている。"
+            }
+          },
+          {
+            "form": "ゆきぐものすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "こおり",
+            "type2": "",
+            "hp": 70,
+            "attack": 70,
+            "defense": 70,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "てんきや",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "ゆきに ふられる ポワルンの すがた。ぜんしんが こおりの ようで たいおんは マイナス5ど ぜんご。",
+                "moon": "あられに ふられる ポワルンの すがた。 ひふは つめたく こおりの ように ツルツルだ。"
             }
           }
         ]

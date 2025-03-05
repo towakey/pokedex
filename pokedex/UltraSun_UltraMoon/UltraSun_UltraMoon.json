@@ -1,5 +1,5 @@
 {
-  "update": "20250107",
+  "update": "20250306",
   "game_version": "UltraSun_UltraMoon",
   "pokedex": {
     "アローラ図鑑": [
@@ -6488,7 +6488,7 @@
         "globalNo": "351",
         "status": [
           {
-            "form": "",
+            "form": "ポワルンのすがた",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",
@@ -6504,8 +6504,71 @@
             "ability2": "",
             "dream_ability": "",
             "description": {
-                "ultrasun": "ポワルンのすがた",
-                "ultramoon": "ポワルンのすがた"
+                "ultrasun": "てんきに よって すがたが かわるが かがくてきな はんのうの けっかで じぶんの いしでは ないらしい。",
+                "ultramoon": "てんきに よって すがたが かわる。 きしょうが あらくなるほど きしょうも あらっぽく なってくる。"
+            }
+          },
+          {
+            "form": "たいようのすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 70,
+            "attack": 70,
+            "defense": 70,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "てんきや",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "はれた ひの ポワルンの すがた。 ヒーターのまえに おく じっけんでは この かたちに へんかしなかった。",
+                "ultramoon": "あつい ひざしを あびていると このすがたに かわる。 ほてった からだを さわると パサパサするぞ。"
+            }
+          },
+          {
+            "form": "あまみずのすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 70,
+            "attack": 70,
+            "defense": 70,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "てんきや",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "あめに うたれると このすがたに へんかする。 みずで すこしだけ からだが ふくらみ ブヨブヨしている。",
+                "ultramoon": "あめに うたれる ポワルンの すがた。 シャワーを あびせた じっけんでは この かたちに へんかしなかった。"
+            }
+          },
+          {
+            "form": "ゆきぐものすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "こおり",
+            "type2": "",
+            "hp": 70,
+            "attack": 70,
+            "defense": 70,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "てんきや",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "あられを あびる ポワルンの すがた。 れいとうこに いれる じっけんでは この かたちに へんかしなかった。",
+                "ultramoon": "あられに うたれると この すがたに へんかする。 ぜんしん つめたく ひふは すこし こおっているぞ。"
             }
           }
         ]
