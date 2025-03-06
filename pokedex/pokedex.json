@@ -1,5 +1,5 @@
 {
-  "update": "20250113",
+  "update": "20250306",
   "pokedex": [
     {
       "no": 1,
@@ -9045,7 +9045,34 @@
       },
       "form": [
         {
-          "form": "",
+          "form": "ポワルンのすがた",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "classification": "てんきポケモン",
+          "height": "0.3",
+          "weight": "0.8"
+        },
+        {
+          "form": "たいようのすがた",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "classification": "てんきポケモン",
+          "height": "0.3",
+          "weight": "0.8"
+        },
+        {
+          "form": "あまみずのすがた",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "classification": "てんきポケモン",
+          "height": "0.3",
+          "weight": "0.8"
+        },
+        {
+          "form": "ゆきぐものすがた",
           "region": "",
           "mega_evolution": "",
           "gigantamax": "",
