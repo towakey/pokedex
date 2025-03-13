@@ -1,5 +1,5 @@
 {
-  "update": "20250306",
+  "update": "20250313",
   "pokedex": [
     {
       "no": 1,
@@ -75,7 +75,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガフシギバナ",
-            "eng": "MegaVenusaur"
+            "eng": "MegaVenusaur",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "たねポケモン",
           "height": "2.4",
@@ -88,7 +93,12 @@
           "gigantamax": "キョダイマックスフシギバナ",
           "name": {
             "jpn": "キョダイマックスフシギバナ",
-            "eng": "GigantamaxVenusaur"
+            "eng": "GigantamaxVenusaur",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "たねポケモン",
           "height": "24.0",
@@ -170,7 +180,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガリザードンX",
-            "eng": "MegaCharizardX"
+            "eng": "MegaCharizardX",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "かえんポケモン",
           "height": "1.7",
@@ -183,7 +198,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガリザードンY",
-            "eng": "MegaCharizardY"
+            "eng": "MegaCharizardY",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "かえんポケモン",
           "height": "1.7",
@@ -196,7 +216,12 @@
           "gigantamax": "キョダイマックスリザードン",
           "name": {
             "jpn": "キョダイマックスリザードン",
-            "eng": "GigantamaxCharizard"
+            "eng": "GigantamaxCharizard",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "かえんポケモン",
           "height": "28.0",
@@ -278,7 +303,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガカメックス",
-            "eng": "MegaBlastoise"
+            "eng": "MegaBlastoise",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "こうらポケモン",
           "height": "1.6",
@@ -291,7 +321,12 @@
           "gigantamax": "キョダイマックスカメックス",
           "name": {
             "jpn": "キョダイマックスカメックス",
-            "eng": "GigantamaxBlastoise"
+            "eng": "GigantamaxBlastoise",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "こうらポケモン",
           "height": "25.0",
@@ -373,7 +408,12 @@
           "gigantamax": "キョダイマックスバタフリー",
           "name": {
             "jpn": "キョダイマックスバタフリー",
-            "eng": "GigantamaxButterfree"
+            "eng": "GigantamaxButterfree",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ちょうちょポケモン",
           "height": "17.0",
@@ -455,7 +495,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガスピアー",
-            "eng": "MegaBeedrill"
+            "eng": "MegaBeedrill",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "どくばちポケモン",
           "height": "1.4",
@@ -537,7 +582,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガピジョット",
-            "eng": "MegaPidgeot"
+            "eng": "MegaPidgeot",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "とりポケモン",
           "height": "2.2",
@@ -729,7 +779,12 @@
           "gigantamax": "キョダイマックスピカチュウ",
           "name": {
             "jpn": "キョダイマックスピカチュウ",
-            "eng": "GigantamaxPikachu"
+            "eng": "GigantamaxPikachu",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ねずみポケモン",
           "height": "21.0",
@@ -1444,7 +1499,12 @@
           "gigantamax": "キョダイマックスニャース",
           "name": {
             "jpn": "キョダイマックスニャース",
-            "eng": "GigantamaxMeowth"
+            "eng": "GigantamaxMeowth",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ばけねこポケモン",
           "height": "33.0",
@@ -1783,7 +1843,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガフーディン",
-            "eng": "MegaAlakazam"
+            "eng": "MegaAlakazam",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ねんりきポケモン",
           "height": "1.2",
@@ -1865,7 +1930,12 @@
           "gigantamax": "キョダイマックスカイリキー",
           "name": {
             "jpn": "キョダイマックスカイリキー",
-            "eng": "GigantamaxMachamp"
+            "eng": "GigantamaxMachamp",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "",
           "height": "25.0",
@@ -2217,7 +2287,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガヤドラン",
-            "eng": "MegaSlowbro"
+            "eng": "MegaSlowbro",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "やどかりポケモン",
           "height": "2.0",
@@ -2579,7 +2654,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガゲンガー",
-            "eng": "MegaGengar"
+            "eng": "MegaGengar",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "シャドーポケモン",
           "height": "1.4",
@@ -2592,7 +2672,12 @@
           "gigantamax": "キョダイマックスゲンガー",
           "name": {
             "jpn": "キョダイマックスゲンガー",
-            "eng": "GigantamaxGengar"
+            "eng": "GigantamaxGengar",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "シャドーポケモン",
           "height": "20.0",
@@ -2720,7 +2805,12 @@
           "gigantamax": "キョダイマックスキングラー",
           "name": {
             "jpn": "キョダイマックスキングラー",
-            "eng": "GigantamaxKingler"
+            "eng": "GigantamaxKingler",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "はさみポケモン",
           "height": "19.0",
@@ -3146,7 +3236,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガガルーラ",
-            "eng": "MegaKangaskhan"
+            "eng": "MegaKangaskhan",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "おやこポケモン",
           "height": "2.2",
@@ -3444,7 +3539,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガカイロス",
-            "eng": "MegaPinsir"
+            "eng": "MegaPinsir",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "くわがたポケモン",
           "height": "1.7",
@@ -3553,7 +3653,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガギャラドス",
-            "eng": "MegaGyarados"
+            "eng": "MegaGyarados",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "きょうあくポケモン",
           "height": "6.5",
@@ -3589,7 +3694,12 @@
           "gigantamax": "キョダイマックスラプラス",
           "name": {
             "jpn": "キョダイマックスラプラス",
-            "eng": "GigantamaxLapras"
+            "eng": "GigantamaxLapras",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "のりものポケモン",
           "height": "24.0",
@@ -3648,7 +3758,12 @@
           "gigantamax": "キョダイマックスイーブイ",
           "name": {
             "jpn": "キョダイマックスイーブイ",
-            "eng": "GigantamaxEevee"
+            "eng": "GigantamaxEevee",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "しんかポケモン",
           "height": "18.0",
@@ -3868,7 +3983,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガプテラ",
-            "eng": "MegaAerodactyl"
+            "eng": "MegaAerodactyl",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "かせきポケモン",
           "height": "2.1",
@@ -3904,7 +4024,12 @@
           "gigantamax": "キョダイマックスカビゴン",
           "name": {
             "jpn": "キョダイマックスカビゴン",
-            "eng": "GigantamaxSnorlax"
+            "eng": "GigantamaxSnorlax",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "いねむりポケモン",
           "height": "35.0",
@@ -4105,7 +4230,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガミュウツーX",
-            "eng": "MegaMewtwoX"
+            "eng": "MegaMewtwoX",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "いでんしポケモン",
           "height": "2.3",
@@ -4118,7 +4248,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガミュウツーY",
-            "eng": "MegaMewtwoY"
+            "eng": "MegaMewtwoY",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "いでんしポケモン",
           "height": "1.5",
@@ -4853,7 +4988,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガデンリュウ",
-            "eng": "MegaAmpharos"
+            "eng": "MegaAmpharos",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ライトポケモン",
           "height": "1.4",
@@ -5505,7 +5645,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガハガネール",
-            "eng": "MegaSteelix"
+            "eng": "MegaSteelix",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "てつへびポケモン",
           "height": "10.5",
@@ -5619,7 +5764,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガハッサム",
-            "eng": "MegaScizor"
+            "eng": "MegaScizor",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "はさみポケモン",
           "height": "2.0",
@@ -5678,7 +5828,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガヘラクロス",
-            "eng": "MegaHeracross"
+            "eng": "MegaHeracross",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "1ぽんヅノポケモン",
           "height": "1.7",
@@ -6054,7 +6209,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガヘルガー",
-            "eng": "MegaHoundoom"
+            "eng": "MegaHoundoom",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ダークポケモン",
           "height": "1.9",
@@ -6504,7 +6664,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガバンギラス",
-            "eng": "MegaTyranitar"
+            "eng": "MegaTyranitar",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "よろいポケモン",
           "height": "2.0",
@@ -6655,7 +6820,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガジュカイン",
-            "eng": "MegaSceptile"
+            "eng": "MegaSceptile",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "みつりんポケモン",
           "height": "1.9",
@@ -6737,7 +6907,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガバシャーモ",
-            "eng": "MegaBlaziken"
+            "eng": "MegaBlaziken",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "もうかポケモン",
           "height": "1.9",
@@ -6819,7 +6994,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガラグラージ",
-            "eng": "MegaSwampert"
+            "eng": "MegaSwampert",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ぬまうおポケモン",
           "height": "1.9",
@@ -7356,7 +7536,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガサーナイト",
-            "eng": "MegaGardevoir"
+            "eng": "MegaGardevoir",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ほうようポケモン",
           "height": "1.6",
@@ -7829,7 +8014,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガヤミラミ",
-            "eng": "MegaSableye"
+            "eng": "MegaSableye",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "くらやみポケモン",
           "height": "0.5",
@@ -7865,7 +8055,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガクチート",
-            "eng": "MegaMawile"
+            "eng": "MegaMawile",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "あざむきポケモン",
           "height": "1.0",
@@ -7947,7 +8142,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガボスゴドラ",
-            "eng": "MegaAggron"
+            "eng": "MegaAggron",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "てつヨロイポケモン",
           "height": "2.2",
@@ -8006,7 +8206,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガチャーレム",
-            "eng": "MegaMedicham"
+            "eng": "MegaMedicham",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "めいそうポケモン",
           "height": "1.3",
@@ -8065,7 +8270,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガライボルト",
-            "eng": "MegaManectric"
+            "eng": "MegaManectric",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ほうでんポケモン",
           "height": "1.8",
@@ -8285,7 +8495,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガサメハダー",
-            "eng": "MegaSharpedo"
+            "eng": "MegaSharpedo",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "きょうぼうポケモン",
           "height": "2.5",
@@ -8390,7 +8605,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガバクーダ",
-            "eng": "MegaCamerupt"
+            "eng": "MegaCamerupt",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ふんかポケモン",
           "height": "2.5",
@@ -8656,7 +8876,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガチルタリス",
-            "eng": "MegaAltaria"
+            "eng": "MegaAltaria",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ハミングポケモン",
           "height": "1.5",
@@ -9156,7 +9381,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガジュペッタ",
-            "eng": "MegaBanette"
+            "eng": "MegaBanette",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ぬいぐるみポケモン",
           "height": "1.2",
@@ -9284,7 +9514,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガアブソル",
-            "eng": "MegaAbsol"
+            "eng": "MegaAbsol",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "わざわいポケモン",
           "height": "1.2",
@@ -9366,7 +9601,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガオニゴーリ",
-            "eng": "MegaGlalie"
+            "eng": "MegaGlalie",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "がんめんポケモン",
           "height": "2.1",
@@ -9632,7 +9872,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガボーマンダ",
-            "eng": "MegaSalamence"
+            "eng": "MegaSalamence",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ドラゴンポケモン",
           "height": "1.8",
@@ -9714,7 +9959,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガメタグロス",
-            "eng": "MegaMetagross"
+            "eng": "MegaMetagross",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "てつあしポケモン",
           "height": "2.5",
@@ -9819,7 +10069,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガラティアス",
-            "eng": "MegaLatias"
+            "eng": "MegaLatias",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "むげんポケモン",
           "height": "1.8",
@@ -9855,7 +10110,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガラティオス",
-            "eng": "MegaLatios"
+            "eng": "MegaLatios",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "むげんポケモン",
           "height": "2.3",
@@ -9891,7 +10151,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "ゲンシカイオーガ",
-            "eng": "PrimalKyogre"
+            "eng": "PrimalKyogre",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "かいていポケモン",
           "height": "9.8",
@@ -9927,7 +10192,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "ゲンシグラードン",
-            "eng": "PrimalGroudon"
+            "eng": "PrimalGroudon",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "たいりくポケモン",
           "height": "5.0",
@@ -9963,7 +10233,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガレックウザ",
-            "eng": "MegaRayquaza"
+            "eng": "MegaRayquaza",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "てんくうポケモン",
           "height": "10.8",
@@ -11078,7 +11353,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガミミロップ",
-            "eng": "MegaLopunny"
+            "eng": "MegaLopunny",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "うさぎポケモン",
           "height": "1.3",
@@ -11482,7 +11762,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガガブリアス",
-            "eng": "MegaGarchomp"
+            "eng": "MegaGarchomp",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "マッハポケモン",
           "height": "1.9",
@@ -11564,7 +11849,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガルカリオ",
-            "eng": "MegaLucario"
+            "eng": "MegaLucario",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "はどうポケモン",
           "height": "1.3",
@@ -11853,7 +12143,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガユキノオー",
-            "eng": "MegaAbomasnow"
+            "eng": "MegaAbomasnow",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "じゅひょうポケモン",
           "height": "2.7",
@@ -12211,7 +12506,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガエルレイド",
-            "eng": "MegaGallade"
+            "eng": "MegaGallade",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "やいばポケモン",
           "height": "1.6",
@@ -13602,7 +13902,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガタブンネ",
-            "eng": "MegaAudino"
+            "eng": "MegaAudino",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ヒヤリングポケモン",
           "height": "1.5",
@@ -14570,7 +14875,12 @@
           "gigantamax": "キョダイマックスダストダス",
           "name": {
             "jpn": "キョダイマックスダストダス",
-            "eng": "GigantamaxGarbodor"
+            "eng": "GigantamaxGarbodor",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ゴミすてばポケモン",
           "height": "21.0",
@@ -18528,7 +18838,12 @@
           "gigantamax": "",
           "name": {
             "jpn": "メガディアンシー",
-            "eng": "MegaDiancie"
+            "eng": "MegaDiancie",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ほうせきポケモン",
           "height": "1.1",
@@ -20881,7 +21196,12 @@
           "gigantamax": "キョダイマックスメルメタル",
           "name": {
             "jpn": "キョダイマックスメルメタル",
-            "eng": "GigantamaxMelmetal"
+            "eng": "GigantamaxMelmetal",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ナットポケモン",
           "height": "25.0",
@@ -20963,7 +21283,12 @@
           "gigantamax": "キョダイマックスゴリランダー",
           "name": {
             "jpn": "キョダイマックスゴリランダー",
-            "eng": "GigantamaxRillaboom"
+            "eng": "GigantamaxRillaboom",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ドラマーポケモン",
           "height": "28.0",
@@ -21045,7 +21370,12 @@
           "gigantamax": "キョダイマックスエースバーン",
           "name": {
             "jpn": "キョダイマックスエースバーン",
-            "eng": "GigantamaxCinderace"
+            "eng": "GigantamaxCinderace",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ストライカーポケモン",
           "height": "27.0",
@@ -21127,7 +21457,12 @@
           "gigantamax": "キョダイマックスインテレオン",
           "name": {
             "jpn": "キョダイマックスインテレオン",
-            "eng": "GigantamaxInteleon"
+            "eng": "GigantamaxInteleon",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "エージェントポケモン",
           "height": "40.0",
@@ -21255,7 +21590,12 @@
           "gigantamax": "キョダイマックスアーマーガア",
           "name": {
             "jpn": "キョダイマックスアーマーガア",
-            "eng": "GigantamaxCorviknight"
+            "eng": "GigantamaxCorviknight",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "カラスポケモン",
           "height": "14.0",
@@ -21337,7 +21677,12 @@
           "gigantamax": "キョダイマックスイオルブ",
           "name": {
             "jpn": "キョダイマックスイオルブ",
-            "eng": "GigantamaxOrbeetle"
+            "eng": "GigantamaxOrbeetle",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ななほしポケモン",
           "height": "14.0",
@@ -21534,7 +21879,12 @@
           "gigantamax": "キョダイマックスカジリガメ",
           "name": {
             "jpn": "キョダイマックスカジリガメ",
-            "eng": "GigantamaxDrednaw"
+            "eng": "GigantamaxDrednaw",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "かみつきポケモン",
           "height": "24.0",
@@ -21662,7 +22012,12 @@
           "gigantamax": "キョダイマックスセキタンザン",
           "name": {
             "jpn": "キョダイマックスセキタンザン",
-            "eng": "GigantamaxCoalossal"
+            "eng": "GigantamaxCoalossal",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "せきたんポケモン",
           "height": "42.0",
@@ -21721,7 +22076,12 @@
           "gigantamax": "キョダイマックスアップリュー",
           "name": {
             "jpn": "キョダイマックスアップリュー",
-            "eng": "GigantamaxFlapple"
+            "eng": "GigantamaxFlapple",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "りんごはねポケモン",
           "height": "24.0",
@@ -21757,7 +22117,12 @@
           "gigantamax": "キョダイマックスタルップル",
           "name": {
             "jpn": "キョダイマックスタルップル",
-            "eng": "GigantamaxAppletun"
+            "eng": "GigantamaxAppletun",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "りんごじるポケモン",
           "height": "24.0",
@@ -21816,7 +22181,12 @@
           "gigantamax": "キョダイマックスサダイジャ",
           "name": {
             "jpn": "キョダイマックスサダイジャ",
-            "eng": "GigantamaxSandaconda"
+            "eng": "GigantamaxSandaconda",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "すなへびポケモン",
           "height": "22.0",
@@ -21971,7 +22341,12 @@
           "gigantamax": "キョダイマックスストリンダー",
           "name": {
             "jpn": "キョダイマックスストリンダー",
-            "eng": "GigantamaxToxtricity"
+            "eng": "GigantamaxToxtricity",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "パンクポケモン",
           "height": "24.0",
@@ -21984,7 +22359,12 @@
           "gigantamax": "キョダイマックスストリンダー",
           "name": {
             "jpn": "キョダイマックスストリンダー",
-            "eng": "GigantamaxToxtricity"
+            "eng": "GigantamaxToxtricity",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "パンクポケモン",
           "height": "24.0",
@@ -22043,7 +22423,12 @@
           "gigantamax": "キョダイマックスマルヤクデ",
           "name": {
             "jpn": "キョダイマックスマルヤクデ",
-            "eng": "GigantamaxCentiskorch"
+            "eng": "GigantamaxCentiskorch",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "はつねつポケモン",
           "height": "75.0",
@@ -22235,7 +22620,12 @@
           "gigantamax": "キョダイマックスブリムオン",
           "name": {
             "jpn": "キョダイマックスブリムオン",
-            "eng": "GigantamaxHatterene"
+            "eng": "GigantamaxHatterene",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "せいじゃくポケモン",
           "height": "26.0",
@@ -22317,7 +22707,12 @@
           "gigantamax": "キョダイマックスオーロンゲ",
           "name": {
             "jpn": "キョダイマックスオーロンゲ",
-            "eng": "GigantamaxGrimmsnarl"
+            "eng": "GigantamaxGrimmsnarl",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ビルドアップポケモン",
           "height": "32.0",
@@ -22586,7 +22981,12 @@
           "gigantamax": "キョダイマックスマホイップ",
           "name": {
             "jpn": "キョダイマックスマホイップ",
-            "eng": "GigantamaxAlcremie"
+            "eng": "GigantamaxAlcremie",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "クリームポケモン",
           "height": "30.0",
@@ -22856,7 +23256,12 @@
           "gigantamax": "キョダイマックスダイオウドウ",
           "name": {
             "jpn": "キョダイマックスダイオウドウ",
-            "eng": "GigantamaxCopperajah"
+            "eng": "GigantamaxCopperajah",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "どうぞうポケモン",
           "height": "23.0",
@@ -22984,7 +23389,12 @@
           "gigantamax": "キョダイマックスジュラルドン",
           "name": {
             "jpn": "キョダイマックスジュラルドン",
-            "eng": "GigantamaxDuraludon"
+            "eng": "GigantamaxDuraludon",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "ごうきんポケモン",
           "height": "43.0",
@@ -23153,7 +23563,12 @@
           "gigantamax": "ムゲンダイマックスムゲンダイナ",
           "name": {
             "jpn": "ムゲンダイマックスムゲンダイナ",
-            "eng": "Eternatus"
+            "eng": "Eternatus",
+            "ger": "Endynalos",
+            "fra": "Éthernatos",
+            "kor": "무한다이노",
+            "chs": "无极汰那",
+            "cht": "無極汰那"
           },
           "classification": "キョダイポケモン",
           "height": "100.0",
@@ -23221,7 +23636,12 @@
           "gigantamax": "キョダイマックスウーラオス",
           "name": {
             "jpn": "キョダイマックスウーラオス",
-            "eng": "GigantamaxUrshifu"
+            "eng": "GigantamaxUrshifu",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "けんぽうポケモン",
           "height": "29.0",
@@ -23234,7 +23654,12 @@
           "gigantamax": "キョダイマックスウーラオス",
           "name": {
             "jpn": "キョダイマックスウーラオス",
-            "eng": "GigantamaxUrshifu"
+            "eng": "GigantamaxUrshifu",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
           },
           "classification": "けんぽうポケモン",
           "height": "26.0",
