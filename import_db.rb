@@ -469,6 +469,79 @@ class WazaImporter < DataImporter
   end
 end
 
+class AbilityImporter
+  def initialize
+    @sqlite = SQLite3::Database.new('pokedex.db')
+    @sqlite.results_as_hash = true
+  end
+
+  def import(json_path, table_name)
+    @table_name = table_name
+    @data = load_json(json_path)
+    
+    @sqlite.transaction
+    begin
+      create_table(@table_name)
+      import_data
+      record_version(@table_name, @data["update"])
+      @sqlite.commit
+    rescue SQLite3::Exception => e
+      @sqlite.rollback
+      raise e
+    end
+  end
+  
+  private
+  def load_json(json_path)
+    File.open(json_path, 'r:UTF-8') { |file| JSON.parse(file.read) }
+  end
+
+  def create_table(table_name)
+    @sqlite.execute(<<-SQL)
+      CREATE TABLE IF NOT EXISTS ability (
+        ability TEXT PRIMARY KEY,
+        description_Ruby_Sapphire_Emerald TEXT,
+        description_Diamond_Pearl_Platinum TEXT,
+        description_Black_White TEXT,
+        description_Black2_White2 TEXT,
+        description_X_Y TEXT,
+        description_Sun_Moon TEXT,
+        description_UltraSun_UltraMoon TEXT,
+        description_Sword_Shield TEXT,
+        description_Scarlet_Violet TEXT
+      )
+    SQL
+  end
+
+  def import_data
+    puts "Importing ability data..."
+    @data['ability'].each do |ability, description|
+      @sqlite.execute(<<-SQL, [ability, description['Ruby_Sapphire_Emerald'], description['Diamond_Pearl_Platinum'], description['Black_White'], description['Black2_White2'], description['X_Y'], description['Sun_Moon'], description['UltraSun_UltraMoon'], description['Sword_Shield'], description['Scarlet_Violet']])
+        INSERT OR IGNORE INTO ability
+        (ability, description_Ruby_Sapphire_Emerald, description_Diamond_Pearl_Platinum, description_Black_White, description_Black2_White2, description_X_Y, description_Sun_Moon, description_UltraSun_UltraMoon, description_Sword_Shield, description_Scarlet_Violet)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      SQL
+    end
+  end
+
+  def record_version(table_name, update_date)
+    update_date = update_date || Time.now.to_s
+    sql = <<SQL
+    INSERT INTO version (table_name, update_date, created_at)
+    VALUES (
+      '#{escape_sql_string(table_name)}',
+      '#{escape_sql_string(update_date)}',
+      '#{escape_sql_string(Time.now.to_s)}'
+    );
+SQL
+    @sqlite.execute(sql)
+  end
+
+  def escape_sql_string(str)
+    str.to_s.gsub("'", "''").gsub("\\", "\\\\")
+  end
+end
+
 # スクリプトの実行
 if __FILE__ == $0
   pokedex = PokedexImporter.new
@@ -509,4 +582,8 @@ if __FILE__ == $0
     puts "Importing #{file_path}..."
     waza.import(file_path, 'waza', 'global')
   end
+
+  ability = AbilityImporter.new
+  ability.import('./ability/ability.json', 'ability')
+
 end
