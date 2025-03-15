@@ -11,7 +11,7 @@ class PokedexAPI {
         $this->response = [
             'status' => 'success',
             'data' => null,
-            'message' => ''
+            'message' => 'This API is the Pokédex API.'
         ];
         
         // 有効な地方図鑑のリスト
@@ -40,6 +40,14 @@ class PokedexAPI {
     public function handleRequest() {
         $region = isset($_GET['region']) ? $_GET['region'] : null;
         $no = isset($_GET['no']) ? $_GET['no'] : null;
+        $mode = isset($_GET['mode']) ? $_GET['mode'] : 'index'; // デフォルト値をindexに設定
+
+        // modeの値を検証
+        if ($mode !== 'index' && $mode !== 'details') {
+            $this->response['status'] = 'error';
+            $this->response['error'] = 'Invalid mode parameter. Valid modes are: index, details';
+            return;
+        }
 
         if (!$region) {
             $this->response['error'] = 'Region parameter is required';
@@ -48,7 +56,7 @@ class PokedexAPI {
         }
 
         if ($region === 'global') {
-            $this->handleGlobalPokedex(['no' => $no]);
+            $this->handleGlobalPokedex(['no' => $no, 'mode' => $mode]);
             return;
         }
 
@@ -58,23 +66,49 @@ class PokedexAPI {
             return;
         }
 
-        $this->handleLocalPokedex(['region' => $region, 'no' => $no]);
+        $this->handleLocalPokedex(['region' => $region, 'no' => $no, 'mode' => $mode]);
     }
 
     private function handleLocalPokedex($params) {
         $region = $params['region'];
         $no = $params['no'] ?? null;
+        $mode = $params['mode'] ?? 'index';
+
+        // モードのバリデーションチェック（念のため）
+        if ($mode !== 'index' && $mode !== 'details') {
+            $this->response['status'] = 'error';
+            $this->response['error'] = 'Invalid mode parameter. Valid modes are: index, details';
+            return;
+        }
 
         if (!isset($this->validRegions[$region])) {
             throw new Exception("Invalid region: {$region}");
         }
 
-        // まず基本情報を取得
-        $query = "SELECT l.*, 
-                 p.jpn, p.eng, p.ger, p.fra, p.kor, p.chs, p.cht,
-                 p.classification, p.height, p.weight
-                 FROM $region l
-                 LEFT JOIN pokedex p ON l.globalNo = p.no";
+        // modeによって処理を分岐
+        if ($mode === 'details') {
+            // 詳細情報を返す場合はno必須
+            if (!$no) {
+                $this->response['error'] = 'No parameter is required for detail mode';
+                return;
+            }
+            $this->getDetailedPokemonInfo($region, $no);
+        } else {
+            // indexモードの場合はリスト表示
+            $this->getPokemonList($region, $no);
+        }
+
+        $this->response['region_name'] = $this->validRegions[$region];
+    }
+
+    // リスト表示用のメソッド
+    private function getPokemonList($region, $no = null) {
+        // リスト表示では必要最小限の情報のみ取得
+        $query = "SELECT l.no, l.globalNo, 
+                 p.jpn, p.eng,
+                 l.type1, l.type2
+                  FROM $region l
+                  LEFT JOIN pokedex p ON l.globalNo = p.no";
 
         if ($no) {
             $query .= " WHERE l.no = :no";
@@ -86,6 +120,30 @@ class PokedexAPI {
         if ($no) {
             $stmt->bindValue(':no', $no, SQLITE3_TEXT);
         }
+
+        $result = $stmt->execute();
+        $data = [];
+
+        while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
+            // リスト表示では技情報は含めない
+            $data[] = $row;
+        }
+
+        $this->response['data'] = $data;
+    }
+
+    // 詳細情報表示用のメソッド
+    private function getDetailedPokemonInfo($region, $no) {
+        // 詳細情報を取得
+        $query = "SELECT l.*, 
+                 p.jpn, p.eng, p.ger, p.fra, p.kor, p.chs, p.cht,
+                 p.classification, p.height, p.weight
+                 FROM $region l
+                 LEFT JOIN pokedex p ON l.globalNo = p.no
+                 WHERE l.no = :no";
+        
+        $stmt = $this->db->prepare($query);
+        $stmt->bindValue(':no', $no, SQLITE3_TEXT);
 
         $result = $stmt->execute();
         $data = [];
@@ -134,29 +192,62 @@ class PokedexAPI {
         }
 
         $this->response['data'] = $data;
-        $this->response['region_name'] = $this->validRegions[$region];
     }
 
     private function handleGlobalPokedex($params) {
         $no = $params['no'] ?? null;
+        $mode = $params['mode'] ?? 'index';
 
-        if ($no) {
+        // モードのバリデーションチェック（念のため）
+        if ($mode !== 'index' && $mode !== 'details') {
+            $this->response['status'] = 'error';
+            $this->response['error'] = 'Invalid mode parameter. Valid modes are: index, details';
+            return;
+        }
+
+        // 詳細モードの場合
+        if ($mode === 'details') {
+            if (!$no) {
+                $this->response['error'] = 'No parameter is required for detail mode';
+                return;
+            }
+
+            // グローバル図鑑の詳細情報を取得
             $query = "SELECT * FROM pokedex WHERE no = :no";
             $stmt = $this->db->prepare($query);
             $stmt->bindValue(':no', $no, SQLITE3_TEXT);
+            
+            $result = $stmt->execute();
+            $data = [];
+
+            while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
+                $data[] = $row;
+            }
+            
+            $this->response['data'] = $data;
         } else {
-            $query = "SELECT * FROM pokedex ORDER BY CAST(no AS INTEGER)";
-            $stmt = $this->db->prepare($query);
+            // インデックスモードの場合、リスト表示
+            if ($no) {
+                // noが指定されている場合は特定のポケモンのみ表示
+                $query = "SELECT no, jpn, eng FROM pokedex WHERE no = :no";
+                $stmt = $this->db->prepare($query);
+                $stmt->bindValue(':no', $no, SQLITE3_TEXT);
+            } else {
+                // 全ポケモンリスト表示
+                $query = "SELECT no, jpn, eng FROM pokedex ORDER BY CAST(no AS INTEGER)";
+                $stmt = $this->db->prepare($query);
+            }
+            
+            $result = $stmt->execute();
+            $data = [];
+
+            while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
+                $data[] = $row;
+            }
+            
+            $this->response['data'] = $data;
         }
 
-        $result = $stmt->execute();
-        $data = [];
-
-        while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
-            $data[] = $row;
-        }
-
-        $this->response['data'] = $data;
         $this->response['status'] = 'success';
     }
 
