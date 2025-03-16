@@ -399,13 +399,13 @@ class WazaImporter < DataImporter
       CREATE TABLE IF NOT EXISTS waza (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         region TEXT,               -- 地方名（kanto, johto等）
-        pokedex_no TEXT,          -- 地方図鑑No
+        no TEXT,                  -- 地方図鑑No
         global_no TEXT,           -- 全国図鑑No
         form TEXT,                -- フォーム名
         learn_type TEXT,          -- 習得方法（initial:初期技, remember:思い出し, evolution:進化時, level:レベル技, machine:わざマシン）
         level INTEGER,            -- レベル（レベル技の場合のみ）
         waza_name TEXT,           -- 技名
-        UNIQUE(region, pokedex_no, global_no, form, learn_type, level, waza_name)
+        UNIQUE(region, no, global_no, form, learn_type, level, waza_name)
       )
     SQL
   end
@@ -453,19 +453,71 @@ class WazaImporter < DataImporter
 
   private
 
-  def insert_waza(region, pokedex_no, global_no, form, learn_type, level, moves)
+  def insert_waza(region, no, global_no, form, learn_type, level, moves)
     return if moves.nil? || moves.empty?
     
     moves.each do |waza_name|
-      @sqlite.execute(<<-SQL, [region, pokedex_no, global_no, form, learn_type, level, waza_name])
+      @sqlite.execute(<<-SQL, [region, no, global_no, form, learn_type, level, waza_name])
         INSERT OR IGNORE INTO waza 
-        (region, pokedex_no, global_no, form, learn_type, level, waza_name)
+        (region, no, global_no, form, learn_type, level, waza_name)
         VALUES (?, ?, ?, ?, ?, ?, ?)
       SQL
     end
   rescue SQLite3::Exception => e
     puts "Error occurred while inserting waza: #{e.message}"
-    puts "Data: #{[region, pokedex_no, global_no, form, learn_type, level, waza_name].inspect}"
+    puts "Data: #{[region, no, global_no, form, learn_type, level, waza_name].inspect}"
+  end
+end
+
+class WazaMachineImporter < DataImporter
+  private
+
+  def create_global_table(table_name)
+    @sqlite.execute(<<-SQL)
+      DROP TABLE IF EXISTS waza_machine;
+    SQL
+    @sqlite.execute(<<-SQL)
+      CREATE TABLE IF NOT EXISTS waza_machine (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        region TEXT,               -- ゲームバージョン名（Scarlet_Violet等）
+        machine TEXT,             -- わざマシン番号（わざマシン1, わざマシン2等）
+        waza TEXT,                -- 技名
+        UNIQUE(region, machine)
+      )
+    SQL
+  end
+
+  def import_data
+    region = @data['game_version']
+    
+    puts "Importing waza_machine data for #{region}..."
+    
+    @data['waza_machine'].each do |machine, waza_data|
+      machine_name = machine.to_s
+      if !machine_name.start_with?('わざマシン')
+        machine_name = "わざマシン#{machine_name}"
+      end
+      
+      if waza_data.is_a?(String)
+        # Scarlet_Violetスタイル: 単純なキー/バリュー
+        @sqlite.execute(<<-SQL, [region, machine_name, waza_data])
+          INSERT OR IGNORE INTO waza_machine 
+          (region, machine, waza)
+          VALUES (?, ?, ?)
+        SQL
+      elsif waza_data.is_a?(Hash)
+        # Red_Green_Blue_Yellowスタイル: 詳細な技情報
+        @sqlite.execute(<<-SQL, [region, machine_name, waza_data['name']])
+          INSERT OR IGNORE INTO waza_machine 
+          (region, machine, waza)
+          VALUES (?, ?, ?)
+        SQL
+      end
+    end
+    
+    record_version("waza_machine_#{region}", @data["update"])
+  rescue SQLite3::Exception => e
+    puts "Error occurred while inserting waza_machine: #{e.message}"
   end
 end
 
@@ -546,6 +598,7 @@ end
 if __FILE__ == $0
   pokedex = PokedexImporter.new
   pokedex.import('./pokedex/pokedex.json', 'pokedex', 'global')
+
   pokedex.import('./pokedex/Red_Green_Blue_Yellow/Red_Green_Blue_Yellow.json', 'kanto', 'local')
   pokedex.import('./pokedex/Gold_Silver_Crystal/Gold_Silver_Crystal.json', 'johto', 'local')
   pokedex.import('./pokedex/Ruby_Sapphire_Emerald/Ruby_Sapphire_Emerald.json', 'hoenn', 'local')
@@ -565,25 +618,35 @@ if __FILE__ == $0
   pokedex.import('./pokedex/Scarlet_Violet/Scarlet_Violet.json', 'kitakami', 'local')
   pokedex.import('./pokedex/Scarlet_Violet/Scarlet_Violet.json', 'blueberry', 'local')
 
-  # Dir.glob("pokedex/*").each do |dir|
-  #   region = File.basename(dir)
-  #   next unless File.directory?(dir)
+  # 地方図鑑のインポート
+  Dir.glob('./pokedex/*').select { |f| File.directory?(f) }.each do |dir|
+    region = File.basename(dir)
+    # Red_Green_Blue_YellowとGold_Silver_Crystalは無視
+    next if ['Red_Green_Blue_Yellow', 'Gold_Silver_Crystal'].include?(region)
     
-  #   pokedex_file = "#{dir}/pokedex.json"
-  #   if File.exist?(pokedex_file)
-  #     puts "Importing #{pokedex_file}..."
-  #     importer.import(pokedex_file, region, 'local')
-  #   end
-  # end
+    if File.exist?("#{dir}/pokedex.json")
+      puts "Importing #{region} pokedex..."
+      pokedex.import("#{dir}/pokedex.json", region, 'local')
+    end
 
-  # 技データのインポート
-  waza = WazaImporter.new
-  Dir.glob("pokedex/*/waza.json").each do |file_path|
-    puts "Importing #{file_path}..."
-    waza.import(file_path, 'waza', 'global')
+    # わざデータのインポート
+    if File.exist?("#{dir}/waza.json")
+      puts "Importing #{region} waza data..."
+      waza = WazaImporter.new
+      waza.import("#{dir}/waza.json", "waza", 'global')
+    end
+
+    # わざマシンデータのインポート
+    if File.exist?("#{dir}/waza_machine.json")
+      puts "Importing #{region} waza_machine data..."
+      waza_machine = WazaMachineImporter.new
+      waza_machine.import("#{dir}/waza_machine.json", "waza_machine", 'global')
+    end
   end
 
-  ability = AbilityImporter.new
-  ability.import('./ability/ability.json', 'ability')
-
+  # 特性データのインポート
+  if File.exist?('./pokedex/ability.json')
+    ability = AbilityImporter.new
+    ability.import('./pokedex/ability.json', 'ability')
+  end
 end
