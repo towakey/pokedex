@@ -156,6 +156,7 @@ class PokedexAPI {
             $waza_query = "SELECT learn_type, level, waza_name 
                           FROM waza 
                           WHERE region = :region 
+                          AND no = :no
                           AND global_no = :global_no
                           AND (
                               CASE 
@@ -166,6 +167,7 @@ class PokedexAPI {
             
             $waza_stmt = $this->db->prepare($waza_query);
             $waza_stmt->bindValue(':region', $region, SQLITE3_TEXT);
+            $waza_stmt->bindValue(':no', $no, SQLITE3_TEXT);
             $waza_stmt->bindValue(':global_no', $globalNo, SQLITE3_TEXT);
             $waza_stmt->bindValue(':form', $form, SQLITE3_TEXT);
             
