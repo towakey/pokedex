@@ -470,6 +470,16 @@ class WazaImporter < DataImporter
 end
 
 class WazaMachineImporter < DataImporter
+  def initialize
+    super
+    create_global_table('waza_machine')
+  end
+
+  def import(json_file)
+    @data = load_json(json_file)
+    import_data
+  end
+
   private
 
   def create_global_table(table_name)
@@ -493,28 +503,33 @@ class WazaMachineImporter < DataImporter
     puts "Importing waza_machine data for #{region}..."
     
     @data['waza_machine'].each do |machine, waza_data|
+      # 機械名の処理 - すでに「わざマシン」が含まれているか確認
       machine_name = machine.to_s
       if !machine_name.start_with?('わざマシン')
         machine_name = "わざマシン#{machine_name}"
       end
       
-      if waza_data.is_a?(String)
-        # Scarlet_Violetスタイル: 単純なキー/バリュー
-        @sqlite.execute(<<-SQL, [region, machine_name, waza_data])
-          INSERT OR IGNORE INTO waza_machine 
-          (region, machine, waza)
-          VALUES (?, ?, ?)
-        SQL
-      elsif waza_data.is_a?(Hash)
-        # Red_Green_Blue_Yellowスタイル: 詳細な技情報
-        @sqlite.execute(<<-SQL, [region, machine_name, waza_data['name']])
-          INSERT OR IGNORE INTO waza_machine 
-          (region, machine, waza)
-          VALUES (?, ?, ?)
-        SQL
+      begin
+        if waza_data.is_a?(String)
+          # Scarlet_Violet, Ruby_Sapphire_Emeraldスタイル: 単純なキー/バリュー
+          @sqlite.execute(<<-SQL, [region, machine_name, waza_data])
+            INSERT OR IGNORE INTO waza_machine 
+            (region, machine, waza)
+            VALUES (?, ?, ?)
+          SQL
+        elsif waza_data.is_a?(Hash)
+          # Red_Green_Blue_Yellowスタイル: 詳細な技情報
+          @sqlite.execute(<<-SQL, [region, machine_name, waza_data['name']])
+            INSERT OR IGNORE INTO waza_machine 
+            (region, machine, waza)
+            VALUES (?, ?, ?)
+          SQL
+        end
+      rescue => e
+        puts "Error importing waza machine data for #{region}: #{machine_name} - #{e.message}"
       end
     end
-    
+    # バージョン情報の記録
     record_version("waza_machine_#{region}", @data["update"])
   rescue SQLite3::Exception => e
     puts "Error occurred while inserting waza_machine: #{e.message}"
@@ -618,29 +633,31 @@ if __FILE__ == $0
   pokedex.import('./pokedex/Scarlet_Violet/Scarlet_Violet.json', 'kitakami', 'local')
   pokedex.import('./pokedex/Scarlet_Violet/Scarlet_Violet.json', 'blueberry', 'local')
 
+  waza_machine = WazaMachineImporter.new
+  
   # 地方図鑑のインポート
   Dir.glob('./pokedex/*').select { |f| File.directory?(f) }.each do |dir|
     region = File.basename(dir)
-    # Red_Green_Blue_YellowとGold_Silver_Crystalは無視
-    next if ['Red_Green_Blue_Yellow', 'Gold_Silver_Crystal'].include?(region)
     
     if File.exist?("#{dir}/pokedex.json")
       puts "Importing #{region} pokedex..."
       pokedex.import("#{dir}/pokedex.json", region, 'local')
     end
 
-    # わざデータのインポート
     if File.exist?("#{dir}/waza.json")
       puts "Importing #{region} waza data..."
       waza = WazaImporter.new
       waza.import("#{dir}/waza.json", "waza", 'global')
     end
-
+    
     # わざマシンデータのインポート
     if File.exist?("#{dir}/waza_machine.json")
       puts "Importing #{region} waza_machine data..."
-      waza_machine = WazaMachineImporter.new
-      waza_machine.import("#{dir}/waza_machine.json", "waza_machine", 'global')
+      begin
+        waza_machine.import("#{dir}/waza_machine.json")
+      rescue => e
+        puts "Error importing waza_machine data from #{dir}/waza_machine.json: #{e.message}"
+      end
     end
   end
 
