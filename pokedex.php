@@ -222,11 +222,11 @@ class PokedexAPI {
             
             // 最終的な技リスト形式
             $waza_list = [
-                'initial_moves' => $initial_moves,
-                'remember_moves' => $remember_moves,
-                'evolution_moves' => $evolution_moves,
-                'level_moves' => $formatted_level_moves,
-                'machine_moves' => $machine_moves
+                '' => $initial_moves,
+                '思い出し' => $remember_moves,
+                '進化時' => $evolution_moves,
+                'lvup' => $formatted_level_moves,
+                'わざマシン' => $machine_moves
             ];
             
             $row['waza_list'] = $waza_list;
