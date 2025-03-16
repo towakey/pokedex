@@ -173,21 +173,61 @@ class PokedexAPI {
             
             $waza_result = $waza_stmt->execute();
             
-            $waza_list = [
-                'initial' => [],
-                'remember' => [],
-                'evolution' => [],
-                'level' => [],
-                'machine' => []
-            ];
+            // 技データ整理用の配列
+            $initial_moves = [];
+            $remember_moves = [];
+            $evolution_moves = [];
+            $level_moves = [];  // レベル技は一時的にここに格納
+            $machine_moves = [];
             
             while ($waza_row = $waza_result->fetchArray(SQLITE3_ASSOC)) {
                 $learn_type = $waza_row['learn_type'];
-                $waza_list[$learn_type][] = [
-                    'level' => $waza_row['level'],
-                    'waza_name' => $waza_row['waza_name']
+                
+                // 学習タイプに応じて適切な配列に格納
+                switch ($learn_type) {
+                    case 'initial':
+                        $initial_moves[] = $waza_row['waza_name'];
+                        break;
+                    case 'remember':
+                        $remember_moves[] = $waza_row['waza_name'];
+                        break;
+                    case 'evolution':
+                        $evolution_moves[] = $waza_row['waza_name'];
+                        break;
+                    case 'level':
+                        // レベル技は [レベル, 技名] の形式で一時保存
+                        $level_moves[] = [$waza_row['level'], $waza_row['waza_name']];
+                        break;
+                    case 'machine':
+                        $machine_moves[] = $waza_row['waza_name'];
+                        break;
+                }
+            }
+            
+            // レベル技をレベル順にソート
+            usort($level_moves, function($a, $b) {
+                return $a[0] - $b[0];
+            });
+            
+            // レベル技をフォーマット
+            $formatted_level_moves = [];
+            foreach ($level_moves as $move) {
+                $level = $move[0];
+                $name = $move[1];
+                $formatted_level_moves[] = [
+                    'level' => (int)$level,
+                    'name' => $name
                 ];
             }
+            
+            // 最終的な技リスト形式
+            $waza_list = [
+                'initial_moves' => $initial_moves,
+                'remember_moves' => $remember_moves,
+                'evolution_moves' => $evolution_moves,
+                'level_moves' => $formatted_level_moves,
+                'machine_moves' => $machine_moves
+            ];
             
             $row['waza_list'] = $waza_list;
             $data[] = $row;
