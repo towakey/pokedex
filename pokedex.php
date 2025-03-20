@@ -35,6 +35,26 @@ class PokedexAPI {
             'kitakami' => 'キタカミ図鑑',
             'blueberry' => 'ブルーベリー図鑑'
         ];
+        $this->validGames = [
+            'kanto' => 'Red_Green_Blue_Yellow',
+            'johto' => 'Gold_Silver_Crystal',
+            'hoenn' => 'Ruby_Sapphire_Emerald',
+            'sinnoh' => 'Diamond_Pearl_Platinum',
+            'unova_bw' => 'Black_White',
+            'unova_b2w2' => 'Black2_White2',
+            'central_kalos' => 'X_Y',
+            'coast_kalos' => 'X_Y',
+            'mountain_kalos' => 'X_Y',
+            'alola_sm' => 'Sun_Moon',
+            'alola_usum' => 'UltraSun_UltraMoon',
+            'galar' => 'Sword_Shield',
+            'crown_tundra' => 'Sword_Shield',
+            'isle_of_armor' => 'Sword_Shield',
+            'hisui' => 'LegendsArceus',
+            'paldea' => 'Scarlet_Violet',
+            'kitakami' => 'Scarlet_Violet',
+            'blueberry' => 'Scarlet_Violet'
+        ];
     }
 
     public function handleRequest() {
@@ -172,25 +192,25 @@ class PokedexAPI {
             $waza_stmt->bindValue(':form', $form, SQLITE3_TEXT);
             
             $waza_result = $waza_stmt->execute();
-            
+
+            $waza_machine_query = "SELECT machine, waza_name 
+            FROM waza_machine 
+            WHERE region = :region 
+            ";
+            $waza_machine_stmt = $this->db->prepare($waza_machine_query);
+            $waza_machine_stmt->bindValue(':region', $this->validGames[$region], SQLITE3_TEXT);
+            $waza_machine_result = $waza_machine_stmt->execute();
+            $waza_machine = [];
+            while ($waza_machine_row = $waza_machine_result->fetchArray(SQLITE3_ASSOC)) {
+                $waza_machine[$waza_machine_row['machine']] = $waza_machine_row['waza_name'];
+            }
+
             // 技データ整理用の配列
             $initial_moves = [];
             $remember_moves = [];
             $evolution_moves = [];
             $level_moves = [];  // レベル技は一時的にここに格納
             $machine_moves = [];
-
-            $waza_machine_query = "SELECT machine, waza_name 
-                                  FROM waza_machine 
-                                  WHERE region = :region 
-                                  AND no = :no
-                                  AND global_no = :global_no
-                                  AND (
-                                      CASE 
-                                          WHEN substr(:form, 1, 2) = 'メガ' THEN form = :form
-                                          ELSE form = :form OR form = ''
-                                      END
-                                  )";
             
             while ($waza_row = $waza_result->fetchArray(SQLITE3_ASSOC)) {
                 $learn_type = $waza_row['learn_type'];
@@ -211,7 +231,7 @@ class PokedexAPI {
                         $level_moves[] = [$waza_row['level'], $waza_row['waza_name']];
                         break;
                     case 'machine':
-                        $machine_moves[] = $waza_row['waza_name'];
+                        $machine_moves[$waza_row['waza_name']] = $waza_machine[$waza_row['waza_name']];
                         break;
                 }
             }
@@ -233,13 +253,22 @@ class PokedexAPI {
             }
 
             // waza_machineのデータをソート
-            usort($machine_moves, function($a, $b) {
+            uksort($machine_moves, function($a, $b) {
                 // 数字部分を抽出して数値として比較
                 if (preg_match('/(\d+)/', $a, $match_a) && preg_match('/(\d+)/', $b, $match_b)) {
                     return (int)$match_a[1] - (int)$match_b[1];
                 }
                 return strcmp($a, $b); // 数字がない場合は文字列として比較
             });
+
+            // // 連想配列をフォーマット
+            // $formatted_machine_moves = [];
+            // foreach ($machine_moves as $name => $machine) {
+            //     $formatted_machine_moves[] = [
+            //         'name' => $name,
+            //         'machine' => $machine
+            //     ];
+            // }
             
             // 最終的な技リスト形式
             $waza_list = [
