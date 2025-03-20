@@ -179,6 +179,18 @@ class PokedexAPI {
             $evolution_moves = [];
             $level_moves = [];  // レベル技は一時的にここに格納
             $machine_moves = [];
+
+            $waza_machine_query = "SELECT machine, waza_name 
+                                  FROM waza_machine 
+                                  WHERE region = :region 
+                                  AND no = :no
+                                  AND global_no = :global_no
+                                  AND (
+                                      CASE 
+                                          WHEN substr(:form, 1, 2) = 'メガ' THEN form = :form
+                                          ELSE form = :form OR form = ''
+                                      END
+                                  )";
             
             while ($waza_row = $waza_result->fetchArray(SQLITE3_ASSOC)) {
                 $learn_type = $waza_row['learn_type'];
@@ -219,6 +231,15 @@ class PokedexAPI {
                     'name' => $name
                 ];
             }
+
+            // waza_machineのデータをソート
+            usort($machine_moves, function($a, $b) {
+                // 数字部分を抽出して数値として比較
+                if (preg_match('/(\d+)/', $a, $match_a) && preg_match('/(\d+)/', $b, $match_b)) {
+                    return (int)$match_a[1] - (int)$match_b[1];
+                }
+                return strcmp($a, $b); // 数字がない場合は文字列として比較
+            });
             
             // 最終的な技リスト形式
             $waza_list = [
