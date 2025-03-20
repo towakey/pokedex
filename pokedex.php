@@ -228,7 +228,7 @@ class PokedexAPI {
                         break;
                     case 'level':
                         // レベル技は [レベル, 技名] の形式で一時保存
-                        $level_moves[] = [$waza_row['level'], $waza_row['waza_name']];
+                        $level_moves[$waza_row['level']][] = $waza_row['waza_name'];
                         break;
                     case 'machine':
                         $machine_moves[$waza_row['waza_name']] = $waza_machine[$waza_row['waza_name']];
@@ -236,22 +236,6 @@ class PokedexAPI {
                 }
             }
             
-            // レベル技をレベル順にソート
-            usort($level_moves, function($a, $b) {
-                return $a[0] - $b[0];
-            });
-            
-            // レベル技をフォーマット
-            $formatted_level_moves = [];
-            foreach ($level_moves as $move) {
-                $level = $move[0];
-                $name = $move[1];
-                $formatted_level_moves[] = [
-                    'level' => (int)$level,
-                    'name' => $name
-                ];
-            }
-
             // waza_machineのデータをソート
             uksort($machine_moves, function($a, $b) {
                 // 数字部分を抽出して数値として比較
@@ -260,22 +244,13 @@ class PokedexAPI {
                 }
                 return strcmp($a, $b); // 数字がない場合は文字列として比較
             });
-
-            // // 連想配列をフォーマット
-            // $formatted_machine_moves = [];
-            // foreach ($machine_moves as $name => $machine) {
-            //     $formatted_machine_moves[] = [
-            //         'name' => $name,
-            //         'machine' => $machine
-            //     ];
-            // }
             
             // 最終的な技リスト形式
             $waza_list = [
                 '' => $initial_moves,
                 '思い出し' => $remember_moves,
                 '進化時' => $evolution_moves,
-                'lvup' => $formatted_level_moves,
+                'lvup' => $level_moves,
                 'わざマシン' => $machine_moves
             ];
             
