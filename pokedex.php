@@ -90,6 +90,11 @@ class PokedexAPI {
     }
 
     private function getAbilityDescription($gameVersion, $abilityName) {
+        // 特性名が空の場合は空文字を返す
+        if (empty($abilityName)) {
+            return '';
+        }
+
         // 特性情報を取得
         $query = "SELECT description
                  FROM ability
@@ -101,12 +106,14 @@ class PokedexAPI {
         $stmt->bindValue(':abilityName', $abilityName, SQLITE3_TEXT);
 
         $result = $stmt->execute();
-        $data = [];
-
         $row = $result->fetchArray(SQLITE3_ASSOC);
 
-        if($row["description"] != NULL) return $row["description"];
-        else return '';
+        // $rowがfalseの場合（結果が見つからない場合）は空文字を返す
+        if ($row === false) {
+            return '';
+        }
+        
+        return $row["description"] ?? '';
     }
 
     private function handleLocalPokedex($params) {
