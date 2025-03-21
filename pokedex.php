@@ -89,6 +89,26 @@ class PokedexAPI {
         $this->handleLocalPokedex(['region' => $region, 'no' => $no, 'mode' => $mode]);
     }
 
+    private function getAbilityDescription($gameVersion, $abilityName) {
+        // 特性情報を取得
+        $query = "SELECT description
+                 FROM ability
+                 WHERE region = :gameVersion
+                 AND ability_name = :abilityName";
+        
+        $stmt = $this->db->prepare($query);
+        $stmt->bindValue(':gameVersion', $gameVersion, SQLITE3_TEXT);
+        $stmt->bindValue(':abilityName', $abilityName, SQLITE3_TEXT);
+
+        $result = $stmt->execute();
+        $data = [];
+
+        $row = $result->fetchArray(SQLITE3_ASSOC);
+
+        if($row["description"] != NULL) return $row["description"];
+        else return '';
+    }
+
     private function handleLocalPokedex($params) {
         $region = $params['region'];
         $no = $params['no'] ?? null;
@@ -125,7 +145,8 @@ class PokedexAPI {
     private function getPokemonList($region, $no = null) {
         // リスト表示では必要最小限の情報のみ取得
         $query = "SELECT l.no, l.globalNo, 
-                 p.jpn, p.eng,
+                 p.form, p.region, p.mega_evolution, p.gigantamax,
+                 p.jpn, p.eng, p.ger, p.fra, p.kor, p.chs, p.cht,
                  l.type1, l.type2
                   FROM $region l
                   LEFT JOIN pokedex p ON l.globalNo = p.no";
@@ -150,26 +171,6 @@ class PokedexAPI {
         }
 
         $this->response['data'] = $data;
-    }
-
-    private function getAbilityDescription($gameVersion, $abilityName) {
-        // 特性情報を取得
-        $query = "SELECT description
-                 FROM ability
-                 WHERE region = :gameVersion
-                 AND ability_name = :abilityName";
-        
-        $stmt = $this->db->prepare($query);
-        $stmt->bindValue(':gameVersion', $gameVersion, SQLITE3_TEXT);
-        $stmt->bindValue(':abilityName', $abilityName, SQLITE3_TEXT);
-
-        $result = $stmt->execute();
-        $data = [];
-
-        $row = $result->fetchArray(SQLITE3_ASSOC);
-
-        if($row["description"] != NULL) return $row["description"];
-        else return '';
     }
 
     // 詳細情報表示用のメソッド
