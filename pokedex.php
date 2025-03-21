@@ -319,16 +319,16 @@ class PokedexAPI {
             $this->response['data'] = $data;
         } else {
             // インデックスモードの場合、リスト表示
-            if ($no) {
-                // noが指定されている場合は特定のポケモンのみ表示
-                $query = "SELECT no, jpn, eng FROM pokedex WHERE no = :no";
-                $stmt = $this->db->prepare($query);
-                $stmt->bindValue(':no', $no, SQLITE3_TEXT);
-            } else {
+            // if ($no) {
+            //     // noが指定されている場合は特定のポケモンのみ表示
+            //     $query = "SELECT no, jpn, eng FROM pokedex WHERE no = :no";
+            //     $stmt = $this->db->prepare($query);
+            //     $stmt->bindValue(':no', $no, SQLITE3_TEXT);
+            // } else {
                 // 全ポケモンリスト表示
                 $query = "SELECT no, form, region, mega_evolution, gigantamax, jpn, eng, ger, fra, kor, chs, cht, classification, height, weight FROM pokedex ORDER BY CAST(no AS INTEGER)";
                 $stmt = $this->db->prepare($query);
-            }
+            // }
             
             $result = $stmt->execute();
             $data = [];
