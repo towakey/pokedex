@@ -152,6 +152,26 @@ class PokedexAPI {
         $this->response['data'] = $data;
     }
 
+    private function getAbilityDescription($gameVersion, $abilityName) {
+        // 特性情報を取得
+        $query = "SELECT description
+                 FROM ability
+                 WHERE region = :gameVersion
+                 AND ability_name = :abilityName";
+        
+        $stmt = $this->db->prepare($query);
+        $stmt->bindValue(':gameVersion', $gameVersion, SQLITE3_TEXT);
+        $stmt->bindValue(':abilityName', $abilityName, SQLITE3_TEXT);
+
+        $result = $stmt->execute();
+        $data = [];
+
+        $row = $result->fetchArray(SQLITE3_ASSOC);
+
+        if($row["description"] != NULL) return $row["description"];
+        else return '';
+    }
+
     // 詳細情報表示用のメソッド
     private function getDetailedPokemonInfo($region, $no) {
         // 詳細情報を取得
@@ -172,6 +192,10 @@ class PokedexAPI {
             // 技情報を取得
             $globalNo = $row['globalNo'];
             $form = $row['form'];
+
+            $row['ability1_description'] = $this->getAbilityDescription($this->validGames[$region], $row["ability1"]);
+            $row['ability2_description'] = $this->getAbilityDescription($this->validGames[$region], $row["ability2"]);
+            $row['dreame_ability_description'] = $this->getAbilityDescription($this->validGames[$region], $row["dream_ability"]);
             
             $waza_query = "SELECT learn_type, level, waza_name 
                           FROM waza 
