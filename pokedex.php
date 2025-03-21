@@ -188,7 +188,8 @@ class PokedexAPI {
                  p.classification, p.height, p.weight
                  FROM $region l
                  LEFT JOIN pokedex p ON l.globalNo = p.no
-                 WHERE l.no = :no";
+                 WHERE l.no = :no AND l.form = p.form AND l.region = p.region AND l.mega_evolution = p.mega_evolution AND l.gigantamax = p.gigantamax 
+                 ";
         
         $stmt = $this->db->prepare($query);
         $stmt->bindValue(':no', $no, SQLITE3_TEXT);
