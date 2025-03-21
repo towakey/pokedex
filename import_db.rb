@@ -491,7 +491,7 @@ class WazaMachineImporter < DataImporter
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         region TEXT,               -- ゲームバージョン名（Scarlet_Violet等）
         machine TEXT,             -- わざマシン番号（わざマシン1, わざマシン2等）
-        waza TEXT,                -- 技名
+        waza_name TEXT,                -- 技名
         UNIQUE(region, machine)
       )
     SQL
@@ -514,14 +514,14 @@ class WazaMachineImporter < DataImporter
           # Scarlet_Violet, Ruby_Sapphire_Emeraldスタイル: 単純なキー/バリュー
           @sqlite.execute(<<-SQL, [region, machine_name, waza_data])
             INSERT OR IGNORE INTO waza_machine 
-            (region, machine, waza)
+            (region, machine, waza_name)
             VALUES (?, ?, ?)
           SQL
         elsif waza_data.is_a?(Hash)
           # Red_Green_Blue_Yellowスタイル: 詳細な技情報
           @sqlite.execute(<<-SQL, [region, machine_name, waza_data['name']])
             INSERT OR IGNORE INTO waza_machine 
-            (region, machine, waza)
+            (region, machine, waza_name)
             VALUES (?, ?, ?)
           SQL
         end
@@ -537,69 +537,65 @@ class WazaMachineImporter < DataImporter
 end
 
 class AbilityImporter
-  def initialize
-    @sqlite = SQLite3::Database.new('pokedex.db')
-    @sqlite.results_as_hash = true
+  def initialize(db, json_path)
+    @sqlite = db
+    @json_path = json_path
+    @data = JSON.parse(File.read(json_path))
   end
 
-  def import(json_path, table_name)
-    @table_name = table_name
-    @data = load_json(json_path)
-    
-    @sqlite.transaction
-    begin
-      create_table(@table_name)
-      import_data
-      record_version(@table_name, @data["update"])
-      @sqlite.commit
-    rescue SQLite3::Exception => e
-      @sqlite.rollback
-      raise e
-    end
-  end
-  
-  private
-  def load_json(json_path)
-    File.open(json_path, 'r:UTF-8') { |file| JSON.parse(file.read) }
-  end
-
-  def create_table(table_name)
+  def create_table
+    # 特性テーブルの作成
     @sqlite.execute(<<-SQL)
       CREATE TABLE IF NOT EXISTS ability (
-        ability TEXT PRIMARY KEY,
-        description_Ruby_Sapphire_Emerald TEXT,
-        description_Diamond_Pearl_Platinum TEXT,
-        description_Black_White TEXT,
-        description_Black2_White2 TEXT,
-        description_X_Y TEXT,
-        description_Sun_Moon TEXT,
-        description_UltraSun_UltraMoon TEXT,
-        description_Sword_Shield TEXT,
-        description_Scarlet_Violet TEXT
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        ability_name TEXT NOT NULL,
+        region TEXT NOT NULL,
+        description TEXT NOT NULL,
+        UNIQUE(ability_name, region)
       )
     SQL
   end
 
   def import_data
+    # テーブルの作成
+    create_table
+
+    # 特性データの取得
+    abilities = @data["ability"]
+    
     puts "Importing ability data..."
-    @data['ability'].each do |ability, description|
-      @sqlite.execute(<<-SQL, [ability, description['Ruby_Sapphire_Emerald'], description['Diamond_Pearl_Platinum'], description['Black_White'], description['Black2_White2'], description['X_Y'], description['Sun_Moon'], description['UltraSun_UltraMoon'], description['Sword_Shield'], description['Scarlet_Violet']])
-        INSERT OR IGNORE INTO ability
-        (ability, description_Ruby_Sapphire_Emerald, description_Diamond_Pearl_Platinum, description_Black_White, description_Black2_White2, description_X_Y, description_Sun_Moon, description_UltraSun_UltraMoon, description_Sword_Shield, description_Scarlet_Violet)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-      SQL
+    
+    # データのインポート
+    abilities.each do |ability_name, regions|
+      regions.each do |region, description|
+        begin
+          @sqlite.execute(<<-SQL, [ability_name, region, description])
+            INSERT OR REPLACE INTO ability 
+            (ability_name, region, description)
+            VALUES (?, ?, ?)
+          SQL
+        rescue => e
+          puts "Error importing ability data for #{ability_name}: #{region} - #{e.message}"
+        end
+      end
     end
+    
+    # バージョン情報の記録
+    record_version("ability", @data["update"])
+    puts "Ability data import completed."
+  rescue SQLite3::Exception => e
+    puts "Error occurred while inserting ability data: #{e.message}"
   end
 
   def record_version(table_name, update_date)
     update_date = update_date || Time.now.to_s
     sql = <<SQL
-    INSERT INTO version (table_name, update_date, created_at)
-    VALUES (
-      '#{escape_sql_string(table_name)}',
-      '#{escape_sql_string(update_date)}',
-      '#{escape_sql_string(Time.now.to_s)}'
-    );
+INSERT INTO version (table_name, update_date, created_at)
+VALUES (
+    '#{escape_sql_string(table_name)}',
+    '#{escape_sql_string(update_date)}',
+    '#{escape_sql_string(Time.now.to_s)}'
+);
 SQL
     @sqlite.execute(sql)
   end
@@ -662,8 +658,8 @@ if __FILE__ == $0
   end
 
   # 特性データのインポート
-  if File.exist?('./pokedex/ability.json')
-    ability = AbilityImporter.new
-    ability.import('./pokedex/ability.json', 'ability')
+  if File.exist?('./ability/ability.json')
+    ability = AbilityImporter.new(SQLite3::Database.new('pokedex.db'), './ability/ability.json')
+    ability.import_data
   end
 end
