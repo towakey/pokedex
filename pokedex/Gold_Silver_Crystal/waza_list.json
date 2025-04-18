@@ -3,6 +3,14 @@
   "game_version": "Gold_Silver_Crystal",
   "waza_list": {
     "Gold_Silver_Crystal": {
+      "ほえる": {
+        "type": "ノーマル",
+        "category": "変化",
+        "power": "-",
+        "accuracy": "100",
+        "pp": "20",
+        "description": "ほえて てきを にげださせる てきが にげると せんとうは おわる。"
+      },
       "はたく": {
         "type": "ノーマル",
         "category": "物理",
