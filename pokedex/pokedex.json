@@ -1,5 +1,5 @@
 {
-  "update": "20250313",
+  "update": "20250420",
   "pokedex": [
     {
       "no": 1,
@@ -77,7 +77,7 @@
             "jpn": "メガフシギバナ",
             "eng": "MegaVenusaur",
             "ger": "",
-            "fra": "",
+            "fra": "Méga-Florizarre",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -95,7 +95,7 @@
             "jpn": "キョダイマックスフシギバナ",
             "eng": "GigantamaxVenusaur",
             "ger": "",
-            "fra": "",
+            "fra": "Florizarre Gigamax",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -112,7 +112,7 @@
         "jpn": "ヒトカゲ",
         "eng": "Charmander",
         "ger": "Glumanda",
-        "fra": "Salameche",
+        "fra": "Salamèche",
         "kor": "파이리",
         "chs": "小火龙",
         "cht": "小火龍"
@@ -182,7 +182,7 @@
             "jpn": "メガリザードンX",
             "eng": "MegaCharizardX",
             "ger": "",
-            "fra": "",
+            "fra": "Méga-Dracaufeu X",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -200,7 +200,7 @@
             "jpn": "メガリザードンY",
             "eng": "MegaCharizardY",
             "ger": "",
-            "fra": "",
+            "fra": "Méga-Dracaufeu Y",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -218,7 +218,7 @@
             "jpn": "キョダイマックスリザードン",
             "eng": "GigantamaxCharizard",
             "ger": "",
-            "fra": "",
+            "fra": "Dracaufeu Gigamax",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -305,7 +305,7 @@
             "jpn": "メガカメックス",
             "eng": "MegaBlastoise",
             "ger": "",
-            "fra": "",
+            "fra": "Méga-Tortank",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -323,7 +323,7 @@
             "jpn": "キョダイマックスカメックス",
             "eng": "GigantamaxBlastoise",
             "ger": "",
-            "fra": "",
+            "fra": "Tortank Gigamax",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -410,7 +410,7 @@
             "jpn": "キョダイマックスバタフリー",
             "eng": "GigantamaxButterfree",
             "ger": "",
-            "fra": "",
+            "fra": "Papilusion Gigamax",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -473,7 +473,7 @@
         "jpn": "スピアー",
         "eng": "Beedrill",
         "ger": "Bibor",
-        "fra": "Dardagnan",
+        "fra": "Dardargnan",
         "kor": "독침붕",
         "chs": "大针蜂",
         "cht": "大針蜂"
@@ -497,7 +497,7 @@
             "jpn": "メガスピアー",
             "eng": "MegaBeedrill",
             "ger": "",
-            "fra": "",
+            "fra": "Méga-Dardargnan",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -584,7 +584,7 @@
             "jpn": "メガピジョット",
             "eng": "MegaPidgeot",
             "ger": "",
-            "fra": "",
+            "fra": "Méga-Roucarnage",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -781,7 +781,7 @@
             "jpn": "キョダイマックスピカチュウ",
             "eng": "GigantamaxPikachu",
             "ger": "",
-            "fra": "",
+            "fra": "Pikachu Gigamax",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -1032,7 +1032,7 @@
         "jpn": "ピッピ",
         "eng": "Clefairy",
         "ger": "Piepi",
-        "fra": "Melofee",
+        "fra": "Mélofée",
         "kor": "삐삐",
         "chs": "皮皮",
         "cht": "皮皮"
@@ -1055,7 +1055,7 @@
         "jpn": "ピクシー",
         "eng": "Clefable",
         "ger": "Pixi",
-        "fra": "Melodelfe",
+        "fra": "Mélodelfe",
         "kor": "픽시",
         "chs": "皮可西",
         "cht": "皮可西"
@@ -1372,7 +1372,7 @@
         "jpn": "モルフォン",
         "eng": "Venomoth",
         "ger": "Omot",
-        "fra": "Aeromite",
+        "fra": "Aéromite",
         "kor": "도나리",
         "chs": "摩鲁蛾",
         "cht": "摩魯蛾"
@@ -1501,7 +1501,7 @@
             "jpn": "キョダイマックスニャース",
             "eng": "GigantamaxMeowth",
             "ger": "",
-            "fra": "",
+            "fra": "Miaouss Gigamax",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -1596,7 +1596,7 @@
         "jpn": "マンキー",
         "eng": "Mankey",
         "ger": "Menki",
-        "fra": "Ferosinge",
+        "fra": "Férosinge",
         "kor": "망키",
         "chs": "猴怪",
         "cht": "猴怪"
@@ -1729,7 +1729,7 @@
         "jpn": "ニョロゾ",
         "eng": "Poliwhirl",
         "ger": "Quaputzi",
-        "fra": "Tetarte",
+        "fra": "Têtarte",
         "kor": "수륙챙이",
         "chs": "蚊香君",
         "cht": "蚊香君"
@@ -1845,7 +1845,7 @@
             "jpn": "メガフーディン",
             "eng": "MegaAlakazam",
             "ger": "",
-            "fra": "",
+            "fra": "Méga-Alakazam",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -1932,7 +1932,7 @@
             "jpn": "キョダイマックスカイリキー",
             "eng": "GigantamaxMachamp",
             "ger": "",
-            "fra": "",
+            "fra": "Mackogneur Gigamax",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -1949,7 +1949,7 @@
         "jpn": "マダツボミ",
         "eng": "Bellsprout",
         "ger": "Knofensa",
-        "fra": "Chetiflor",
+        "fra": "Chétiflor",
         "kor": "모다피",
         "chs": "喇叭芽",
         "cht": "喇叭芽"
@@ -2289,7 +2289,7 @@
             "jpn": "メガヤドラン",
             "eng": "MegaSlowbro",
             "ger": "",
-            "fra": "",
+            "fra": "Méga-Flagadoss",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -2306,7 +2306,7 @@
         "jpn": "コイル",
         "eng": "Magnemite",
         "ger": "Magnetilo",
-        "fra": "Magneti",
+        "fra": "Magnéti",
         "kor": "코일",
         "chs": "小磁怪",
         "cht": "小磁怪"
@@ -2329,7 +2329,7 @@
         "jpn": "レアコイル",
         "eng": "Magneton",
         "ger": "Magneton",
-        "fra": "Magneton",
+        "fra": "Magnéton",
         "kor": "레어코일",
         "chs": "三合一磁怪",
         "cht": "三合一磁怪"
@@ -2656,7 +2656,7 @@
             "jpn": "メガゲンガー",
             "eng": "MegaGengar",
             "ger": "",
-            "fra": "",
+            "fra": "Méga-Ectoplasma",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -2674,7 +2674,7 @@
             "jpn": "キョダイマックスゲンガー",
             "eng": "GigantamaxGengar",
             "ger": "",
-            "fra": "",
+            "fra": "Ectoplasma Gigamax",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -2807,7 +2807,7 @@
             "jpn": "キョダイマックスキングラー",
             "eng": "GigantamaxKingler",
             "ger": "",
-            "fra": "",
+            "fra": "Krabboss Gigamax",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -2856,7 +2856,7 @@
         "jpn": "マルマイン",
         "eng": "Electrode",
         "ger": "Lektrobal",
-        "fra": "Electrode",
+        "fra": "Électrode",
         "kor": "붐볼",
         "chs": "顽皮雷弹",
         "cht": "頑皮雷彈"
@@ -3145,7 +3145,7 @@
         "jpn": "サイドン",
         "eng": "Rhydon",
         "ger": "Rizeros",
-        "fra": "Rhinoferos",
+        "fra": "Rhinoféros",
         "kor": "코뿌리",
         "chs": "钻角犀兽",
         "cht": "鑽角犀獸"
@@ -3238,7 +3238,7 @@
             "jpn": "メガガルーラ",
             "eng": "MegaKangaskhan",
             "ger": "",
-            "fra": "",
+            "fra": "Méga-Kangourex",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -3278,7 +3278,7 @@
         "jpn": "シードラ",
         "eng": "Seadra",
         "ger": "Seemon",
-        "fra": "Hypocean",
+        "fra": "Hypocéan",
         "kor": "시드라",
         "chs": "海刺龙",
         "cht": "海刺龍"
@@ -3301,7 +3301,7 @@
         "jpn": "トサキント",
         "eng": "Goldeen",
         "ger": "Goldini",
-        "fra": "Poissirene",
+        "fra": "Poissirène",
         "kor": "콘치",
         "chs": "角金鱼",
         "cht": "角金魚"
@@ -3393,7 +3393,7 @@
         "jpn": "バリヤード",
         "eng": "Mr.Mime",
         "ger": "Pantimos",
-        "fra": "M.Mime",
+        "fra": "M. Mime",
         "kor": "마임맨",
         "chs": "魔墙人偶",
         "cht": "魔牆人偶"
@@ -3425,7 +3425,7 @@
         "jpn": "ストライク",
         "eng": "Scyther",
         "ger": "Sichlor",
-        "fra": "Insecateur",
+        "fra": "Insécateur",
         "kor": "스라크",
         "chs": "飞天螳螂",
         "cht": "飛天螳螂"
@@ -3471,7 +3471,7 @@
         "jpn": "エレブー",
         "eng": "Electabuzz",
         "ger": "Elektek",
-        "fra": "Elektek",
+        "fra": "Élektek",
         "kor": "에레브",
         "chs": "电击兽",
         "cht": "電擊獸"
@@ -3541,7 +3541,7 @@
             "jpn": "メガカイロス",
             "eng": "MegaPinsir",
             "ger": "",
-            "fra": "",
+            "fra": "Méga-Scarabrute",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -3631,7 +3631,7 @@
         "jpn": "ギャラドス",
         "eng": "Gyarados",
         "ger": "Garados",
-        "fra": "Leviator",
+        "fra": "Léviator",
         "kor": "갸라도스",
         "chs": "暴鲤龙",
         "cht": "暴鯉龍"
@@ -3655,7 +3655,7 @@
             "jpn": "メガギャラドス",
             "eng": "MegaGyarados",
             "ger": "",
-            "fra": "",
+            "fra": "Méga-Léviator",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -3696,7 +3696,7 @@
             "jpn": "キョダイマックスラプラス",
             "eng": "GigantamaxLapras",
             "ger": "",
-            "fra": "",
+            "fra": "Lokhlass Gigamax",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -3713,7 +3713,7 @@
         "jpn": "メタモン",
         "eng": "Ditto",
         "ger": "Ditto",
-        "fra": "Metamorph",
+        "fra": "Métamorph",
         "kor": "메타몽",
         "chs": "百变怪",
         "cht": "百變怪"
@@ -3736,7 +3736,7 @@
         "jpn": "イーブイ",
         "eng": "Eevee",
         "ger": "Evoli",
-        "fra": "Evoli",
+        "fra": "Évoli",
         "kor": "이브이",
         "chs": "伊布",
         "cht": "伊布"
@@ -3760,7 +3760,7 @@
             "jpn": "キョダイマックスイーブイ",
             "eng": "GigantamaxEevee",
             "ger": "",
-            "fra": "",
+            "fra": "Évoli Gigamax",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -3961,7 +3961,7 @@
         "jpn": "プテラ",
         "eng": "Aerodactyl",
         "ger": "Aerodactyl",
-        "fra": "Ptera",
+        "fra": "Ptéra",
         "kor": "프테라",
         "chs": "化石翼龙",
         "cht": "化石翼龍"
@@ -3985,7 +3985,7 @@
             "jpn": "メガプテラ",
             "eng": "MegaAerodactyl",
             "ger": "",
-            "fra": "",
+            "fra": "Méga-Ptéra",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -4026,7 +4026,7 @@
             "jpn": "キョダイマックスカビゴン",
             "eng": "GigantamaxSnorlax",
             "ger": "",
-            "fra": "",
+            "fra": "Ronflex Gigamax",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -4075,7 +4075,7 @@
         "jpn": "サンダー",
         "eng": "Zapdos",
         "ger": "Zapdos",
-        "fra": "Electhor",
+        "fra": "Électhor",
         "kor": "썬더",
         "chs": "闪电鸟",
         "cht": "閃電鳥"
@@ -4232,7 +4232,7 @@
             "jpn": "メガミュウツーX",
             "eng": "MegaMewtwoX",
             "ger": "",
-            "fra": "",
+            "fra": "Méga-Mewtwo X",
             "kor": "",
             "chs": "",
             "cht": ""
@@ -4250,7 +4250,7 @@
             "jpn": "メガミュウツーY",
             "eng": "MegaMewtwoY",
             "ger": "",
-            "fra": "",
+            "fra": "Méga-Mewtwo Y",
             "kor": "",
             "chs": "",
             "cht": ""
