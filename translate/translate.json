@@ -1,133 +1,293 @@
-﻿{
+{
   "update": "20220618",
   "translate": [
     {
       "jpn": "ノーマル",
-      "eng": "Normal"
+      "eng": "Normal",
+      "ger": "Normal",
+      "fra": "Normal",
+      "kor": "노말",
+      "chs": "一般",
+      "cht": "一般"
     },
     {
       "jpn": "ほのお",
-      "eng": "Fire"
+      "eng": "Fire",
+      "ger": "Feuer",
+      "fra": "Feu",
+      "kor": "불꽃",
+      "chs": "火",
+      "cht": "火"
     },
     {
       "jpn": "みず",
-      "eng": "Water"
+      "eng": "Water",
+      "ger": "Wasser",
+      "fra": "Eau",
+      "kor": "물",
+      "chs": "水",
+      "cht": "水"
     },
     {
       "jpn": "でんき",
-      "eng": "Electric"
+      "eng": "Electric",
+      "ger": "Elektro",
+      "fra": "Électrik",
+      "kor": "전기",
+      "chs": "电",
+      "cht": "電"
     },
     {
       "jpn": "くさ",
-      "eng": "Grass"
+      "eng": "Grass",
+      "ger": "Pflanze",
+      "fra": "Plante",
+      "kor": "풀",
+      "chs": "草",
+      "cht": "草"
     },
     {
       "jpn": "こおり",
-      "eng": "Ice"
+      "eng": "Ice",
+      "ger": "Eis",
+      "fra": "Glace",
+      "kor": "얼음",
+      "chs": "冰",
+      "cht": "冰"
     },
     {
       "jpn": "かくとう",
-      "eng": "Fighting"
+      "eng": "Fighting",
+      "ger": "Kampf",
+      "fra": "Combat",
+      "kor": "격투",
+      "chs": "格斗",
+      "cht": "格鬥"
     },
     {
       "jpn": "どく",
-      "eng": "Poison"
+      "eng": "Poison",
+      "ger": "Gift",
+      "fra": "Poison",
+      "kor": "독",
+      "chs": "毒",
+      "cht": "毒"
     },
     {
       "jpn": "じめん",
-      "eng": "Ground"
+      "eng": "Ground",
+      "ger": "Boden",
+      "fra": "Sol",
+      "kor": "땅",
+      "chs": "地面",
+      "cht": "地面"
     },
     {
       "jpn": "ひこう",
-      "eng": "Flying"
+      "eng": "Flying",
+      "ger": "Flug",
+      "fra": "Vol",
+      "kor": "비행",
+      "chs": "飞行",
+      "cht": "飛行"
     },
     {
       "jpn": "エスパー",
-      "eng": "Psychic"
+      "eng": "Psychic",
+      "ger": "Psycho",
+      "fra": "Psy",
+      "kor": "에스퍼",
+      "chs": "超能力",
+      "cht": "超能力"
     },
     {
       "jpn": "むし",
-      "eng": "Bug"
+      "eng": "Bug",
+      "ger": "Käfer",
+      "fra": "Insecte",
+      "kor": "벌레",
+      "chs": "虫",
+      "cht": "蟲"
     },
     {
       "jpn": "いわ",
-      "eng": "Rock"
+      "eng": "Rock",
+      "ger": "Gestein",
+      "fra": "Roche",
+      "kor": "바위",
+      "chs": "岩石",
+      "cht": "岩石"
     },
     {
       "jpn": "ゴースト",
-      "eng": "Ghost"
+      "eng": "Ghost",
+      "ger": "Geist",
+      "fra": "Spectre",
+      "kor": "고스트",
+      "chs": "幽灵",
+      "cht": "幽靈"
     },
     {
       "jpn": "ドラゴン",
-      "eng": "Dragon"
+      "eng": "Dragon",
+      "ger": "Drache",
+      "fra": "Dragon",
+      "kor": "드래곤",
+      "chs": "龙",
+      "cht": "龍"
     },
     {
       "jpn": "あく",
-      "eng": "Dark"
+      "eng": "Dark",
+      "ger": "Unlicht",
+      "fra": "Ténèbres",
+      "kor": "악",
+      "chs": "恶",
+      "cht": "惡"
     },
     {
       "jpn": "はがね",
-      "eng": "Steel"
+      "eng": "Steel",
+      "ger": "Stahl",
+      "fra": "Acier",
+      "kor": "강철",
+      "chs": "钢",
+      "cht": "鋼"
     },
     {
       "jpn": "フェアリー",
-      "eng": "Fairy"
+      "eng": "Fairy",
+      "ger": "Fee",
+      "fra": "Fée",
+      "kor": "페어리",
+      "chs": "妖精",
+      "cht": "妖精"
     },
     {
       "jpn": "高さ",
-      "eng": "Height"
+      "eng": "Height",
+      "ger": "Höhe",
+      "fra": "Taille",
+      "kor": "키",
+      "chs": "身高",
+      "cht": "身高"
     },
     {
       "jpn": "重さ",
-      "eng": "Weight"
+      "eng": "Weight",
+      "ger": "Gewicht",
+      "fra": "Poids",
+      "kor": "몸무게",
+      "chs": "体重",
+      "cht": "體重"
     },
     {
       "jpn": "分類",
-      "eng": "Category"
+      "eng": "Category",
+      "ger": "Kategorie",
+      "fra": "Catégorie",
+      "kor": "분류",
+      "chs": "分类",
+      "cht": "分類"
     },
     {
       "jpn": "特性",
-      "eng": "Abilities"
+      "eng": "Abilities",
+      "ger": "Fähigkeiten",
+      "fra": "Talents",
+      "kor": "특성",
+      "chs": "特性",
+      "cht": "特性"
     },
     {
       "jpn": "性別",
-      "eng": "Gender"
+      "eng": "Gender",
+      "ger": "Geschlecht",
+      "fra": "Sexe",
+      "kor": "성별",
+      "chs": "性别",
+      "cht": "性別"
     },
     {
       "jpn": "タイプ",
-      "eng": "Type"
+      "eng": "Type",
+      "ger": "Typ",
+      "fra": "Type",
+      "kor": "타입",
+      "chs": "属性",
+      "cht": "屬性"
     },
     {
       "jpn": "弱点",
-      "eng": "Weaknesses"
+      "eng": "Weaknesses",
+      "ger": "Schwächen",
+      "fra": "Faiblesses",
+      "kor": "약점",
+      "chs": "弱点",
+      "cht": "弱點"
     },
     {
       "jpn": "HP",
-      "eng": "HP"
+      "eng": "HP",
+      "ger": "KP",
+      "fra": "PV",
+      "kor": "HP",
+      "chs": "HP",
+      "cht": "HP"
     },
     {
       "jpn": "こうげき",
-      "eng": "Attack"
+      "eng": "Attack",
+      "ger": "Angriff",
+      "fra": "Attaque",
+      "kor": "공격",
+      "chs": "攻击",
+      "cht": "攻擊"
     },
     {
       "jpn": "ぼうぎょ",
-      "eng": "Defense"
+      "eng": "Defense",
+      "ger": "Verteidigung",
+      "fra": "Défense",
+      "kor": "방어",
+      "chs": "防御",
+      "cht": "防禦"
     },
     {
       "jpn": "とくこう",
-      "eng": "Special Attack"
+      "eng": "Special Attack",
+      "ger": "Spezial-Angriff",
+      "fra": "Attaque Spéciale",
+      "kor": "특수공격",
+      "chs": "特攻",
+      "cht": "特攻"
     },
     {
       "jpn": "とくぼう",
-      "eng": "Special Defense"
+      "eng": "Special Defense",
+      "ger": "Spezial-Verteidigung",
+      "fra": "Défense Spéciale",
+      "kor": "특수방어",
+      "chs": "特防",
+      "cht": "特防"
     },
     {
       "jpn": "すばやさ",
-      "eng": "Speed"
+      "eng": "Speed",
+      "ger": "Initiative",
+      "fra": "Vitesse",
+      "kor": "스피드",
+      "chs": "速度",
+      "cht": "速度"
     },
     {
       "jpn": "進化系",
-      "eng": "Evolutions"
+      "eng": "Evolutions",
+      "ger": "Entwicklungen",
+      "fra": "Évolutions",
+      "kor": "진화",
+      "chs": "进化",
+      "cht": "進化"
     }
   ]
 }
