@@ -11912,7 +11912,7 @@
             }
           },
           {
-            "form": "タイプ:ほのお",
+            "form": "タイプ:ファイヤー",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",
@@ -11933,7 +11933,7 @@
             }
           },
           {
-            "form": "タイプ:みず",
+            "form": "タイプ:ウオーター",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",
@@ -11954,7 +11954,7 @@
             }
           },
           {
-            "form": "タイプ:でんき",
+            "form": "タイプ:エレクトロ",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",
@@ -11975,7 +11975,7 @@
             }
           },
           {
-            "form": "タイプ:くさ",
+            "form": "タイプ:グラス",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",
@@ -11996,7 +11996,7 @@
             }
           },
           {
-            "form": "タイプ:こおり",
+            "form": "タイプ:アイス",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",
@@ -12017,7 +12017,7 @@
             }
           },
           {
-            "form": "タイプ:かくとう",
+            "form": "タイプ:ファイト",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",
@@ -12038,7 +12038,7 @@
             }
           },
           {
-            "form": "タイプ:どく",
+            "form": "タイプ:ポイズン",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",
@@ -12059,7 +12059,7 @@
             }
           },
           {
-            "form": "タイプ:じめん",
+            "form": "タイプ:グラウンド",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",
@@ -12080,7 +12080,7 @@
             }
           },
           {
-            "form": "タイプ:ひこう",
+            "form": "タイプ:フライング",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",
@@ -12101,7 +12101,7 @@
             }
           },
           {
-            "form": "タイプ:エスパー",
+            "form": "タイプ:サイキック",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",
@@ -12122,7 +12122,7 @@
             }
           },
           {
-            "form": "タイプ:むし",
+            "form": "タイプ:バグ",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",
@@ -12143,7 +12143,7 @@
             }
           },
           {
-            "form": "タイプ:いわ",
+            "form": "タイプ:ロック",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",
@@ -12206,7 +12206,7 @@
             }
           },
           {
-            "form": "タイプ:あく",
+            "form": "タイプ:ダーク",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",
@@ -12227,7 +12227,7 @@
             }
           },
           {
-            "form": "タイプ:はがね",
+            "form": "タイプ:スチール",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",
