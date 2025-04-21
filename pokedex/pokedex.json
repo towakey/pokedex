@@ -20340,7 +20340,61 @@
           "weight": "40.0"
         },
         {
-          "form": "いろのコア",
+          "form": "あかいろのコア",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "classification": "ながれぼしポケモン",
+          "height": "0.3",
+          "weight": "40.0"
+        },
+        {
+          "form": "だいだいいろのコア",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "classification": "ながれぼしポケモン",
+          "height": "0.3",
+          "weight": "40.0"
+        },
+        {
+          "form": "きいろのコア",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "classification": "ながれぼしポケモン",
+          "height": "0.3",
+          "weight": "40.0"
+        },
+        {
+          "form": "みどりいろのコア",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "classification": "ながれぼしポケモン",
+          "height": "0.3",
+          "weight": "40.0"
+        },
+        {
+          "form": "みずいろのコア",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "classification": "ながれぼしポケモン",
+          "height": "0.3",
+          "weight": "40.0"
+        },
+        {
+          "form": "あおいろのコア",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "classification": "ながれぼしポケモン",
+          "height": "0.3",
+          "weight": "40.0"
+        },
+        {
+          "form": "むらさきいろのコア",
           "region": "",
           "mega_evolution": "",
           "gigantamax": "",

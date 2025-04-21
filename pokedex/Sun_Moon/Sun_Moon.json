@@ -6446,7 +6446,133 @@
             }
           },
           {
-            "form": "いろのコア",
+            "form": "あかいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 100,
+            "special_defense": 60,
+            "speed": 120,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "たいきちゅうの チリを くっている。 くった チリの せいぶんに よって コアの いろあいが 決まる。",
+                "moon": "コアが むきだしの ままだと じきに しょうめつ。 いそいで ボールに はいれれば いきながらえると いう。"
+            }
+          },
+          {
+            "form": "だいだいいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 100,
+            "special_defense": 60,
+            "speed": 120,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "たいきちゅうの チリを くっている。 くった チリの せいぶんに よって コアの いろあいが 決まる。",
+                "moon": "コアが むきだしの ままだと じきに しょうめつ。 いそいで ボールに はいれれば いきながらえると いう。"
+            }
+          },
+          {
+            "form": "きいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 100,
+            "special_defense": 60,
+            "speed": 120,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "たいきちゅうの チリを くっている。 くった チリの せいぶんに よって コアの いろあいが 決まる。",
+                "moon": "コアが むきだしの ままだと じきに しょうめつ。 いそいで ボールに はいれれば いきながらえると いう。"
+            }
+          },
+          {
+            "form": "みどりいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 100,
+            "special_defense": 60,
+            "speed": 120,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "たいきちゅうの チリを くっている。 くった チリの せいぶんに よって コアの いろあいが 決まる。",
+                "moon": "コアが むきだしの ままだと じきに しょうめつ。 いそいで ボールに はいれれば いきながらえると いう。"
+            }
+          },
+          {
+            "form": "みずいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 100,
+            "special_defense": 60,
+            "speed": 120,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "たいきちゅうの チリを くっている。 くった チリの せいぶんに よって コアの いろあいが 決まる。",
+                "moon": "コアが むきだしの ままだと じきに しょうめつ。 いそいで ボールに はいれれば いきながらえると いう。"
+            }
+          },
+          {
+            "form": "あおいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 100,
+            "special_defense": 60,
+            "speed": 120,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "sun": "たいきちゅうの チリを くっている。 くった チリの せいぶんに よって コアの いろあいが 決まる。",
+                "moon": "コアが むきだしの ままだと じきに しょうめつ。 いそいで ボールに はいれれば いきながらえると いう。"
+            }
+          },
+          {
+            "form": "むらさきいろのコア",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",

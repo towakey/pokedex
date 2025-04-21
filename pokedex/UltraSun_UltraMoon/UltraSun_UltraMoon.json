@@ -8468,7 +8468,133 @@
             }
           },
           {
-            "form": "いろのコア",
+            "form": "あかいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 100,
+            "special_defense": 60,
+            "speed": 120,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "よぞらから ふってくる メテノと であえる スポットは かぎられていて アローラは きちょうな そのひとつ。",
+                "ultramoon": "がいかくの むけた すがた。 コアの いろの ちがいは たべた エサの せいぶんに よるもの。"
+            }
+          },
+          {
+            "form": "だいだいいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 100,
+            "special_defense": 60,
+            "speed": 120,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "よぞらから ふってくる メテノと であえる スポットは かぎられていて アローラは きちょうな そのひとつ。",
+                "ultramoon": "がいかくの むけた すがた。 コアの いろの ちがいは たべた エサの せいぶんに よるもの。"
+            }
+          },
+          {
+            "form": "きいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 100,
+            "special_defense": 60,
+            "speed": 120,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "よぞらから ふってくる メテノと であえる スポットは かぎられていて アローラは きちょうな そのひとつ。",
+                "ultramoon": "がいかくの むけた すがた。 コアの いろの ちがいは たべた エサの せいぶんに よるもの。"
+            }
+          },
+          {
+            "form": "みどりいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 100,
+            "special_defense": 60,
+            "speed": 120,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "よぞらから ふってくる メテノと であえる スポットは かぎられていて アローラは きちょうな そのひとつ。",
+                "ultramoon": "がいかくの むけた すがた。 コアの いろの ちがいは たべた エサの せいぶんに よるもの。"
+            }
+          },
+          {
+            "form": "みずいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 100,
+            "special_defense": 60,
+            "speed": 120,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "よぞらから ふってくる メテノと であえる スポットは かぎられていて アローラは きちょうな そのひとつ。",
+                "ultramoon": "がいかくの むけた すがた。 コアの いろの ちがいは たべた エサの せいぶんに よるもの。"
+            }
+          },
+          {
+            "form": "あおいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 100,
+            "special_defense": 60,
+            "speed": 120,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "ultrasun": "よぞらから ふってくる メテノと であえる スポットは かぎられていて アローラは きちょうな そのひとつ。",
+                "ultramoon": "がいかくの むけた すがた。 コアの いろの ちがいは たべた エサの せいぶんに よるもの。"
+            }
+          },
+          {
+            "form": "むらさきいろのコア",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",

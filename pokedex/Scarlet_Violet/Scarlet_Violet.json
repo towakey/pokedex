@@ -21462,7 +21462,133 @@
             }
           },
           {
-            "form": "いろのコア",
+            "form": "あかいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 60,
+            "defense": 100,
+            "special_attack": 60,
+            "special_defense": 100,
+            "speed": 60,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "地上に 落ちてきた メテノは 宇宙に 戻ろうとしているが 想いは 叶わず 消えていくのみ。",
+                "violet": "大気中の チリが エサ。 チリに 含まれる 成分によって コアの 色が 決まるという。"
+            }
+          },
+          {
+            "form": "だいだいいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 60,
+            "defense": 100,
+            "special_attack": 60,
+            "special_defense": 100,
+            "speed": 60,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "地上に 落ちてきた メテノは 宇宙に 戻ろうとしているが 想いは 叶わず 消えていくのみ。",
+                "violet": "大気中の チリが エサ。 チリに 含まれる 成分によって コアの 色が 決まるという。"
+            }
+          },
+          {
+            "form": "きいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 60,
+            "defense": 100,
+            "special_attack": 60,
+            "special_defense": 100,
+            "speed": 60,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "地上に 落ちてきた メテノは 宇宙に 戻ろうとしているが 想いは 叶わず 消えていくのみ。",
+                "violet": "大気中の チリが エサ。 チリに 含まれる 成分によって コアの 色が 決まるという。"
+            }
+          },
+          {
+            "form": "みどりいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 60,
+            "defense": 100,
+            "special_attack": 60,
+            "special_defense": 100,
+            "speed": 60,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "地上に 落ちてきた メテノは 宇宙に 戻ろうとしているが 想いは 叶わず 消えていくのみ。",
+                "violet": "大気中の チリが エサ。 チリに 含まれる 成分によって コアの 色が 決まるという。"
+            }
+          },
+          {
+            "form": "みずいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 60,
+            "defense": 100,
+            "special_attack": 60,
+            "special_defense": 100,
+            "speed": 60,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "地上に 落ちてきた メテノは 宇宙に 戻ろうとしているが 想いは 叶わず 消えていくのみ。",
+                "violet": "大気中の チリが エサ。 チリに 含まれる 成分によって コアの 色が 決まるという。"
+            }
+          },
+          {
+            "form": "あおいろのコア",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 60,
+            "defense": 100,
+            "special_attack": 60,
+            "special_defense": 100,
+            "speed": 60,
+            "ability1": "リミットシールド",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+                "scarlet": "地上に 落ちてきた メテノは 宇宙に 戻ろうとしているが 想いは 叶わず 消えていくのみ。",
+                "violet": "大気中の チリが エサ。 チリに 含まれる 成分によって コアの 色が 決まるという。"
+            }
+          },
+          {
+            "form": "むらさきいろのコア",
             "region": "",
             "mega_evolution": "",
             "gigantamax": "",
