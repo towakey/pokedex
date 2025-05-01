@@ -45,6 +45,7 @@ erDiagram
         string gigantamax
         string language
         string version
+        string version_name
         string description
     }
     LOCAL_POKEDEX_TYPE_JSON {

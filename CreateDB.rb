@@ -196,6 +196,24 @@ if __FILE__ == $0
       )
     SQL
 
+    # table:local_pokedex_description
+    # Drop tables
+    db.execute("DROP TABLE IF EXISTS local_pokedex_description")
+    # Create tables
+    db.execute(<<-SQL)
+      CREATE TABLE IF NOT EXISTS local_pokedex_description (
+        globalNo TEXT,
+        form TEXT,
+        region TEXT,
+        mega_evolution TEXT,
+        gigantamax TEXT,
+        version TEXT,
+        version_name TEXT,
+        language TEXT,
+        description TEXT
+      )
+    SQL
+
     pokedex_json = JSON.parse(File.read('./pokedex/Red_Green_Blue_Yellow/Red_Green_Blue_Yellow.json'))
     game_version = pokedex_json['game_version']
 
@@ -261,6 +279,23 @@ if __FILE__ == $0
             form['speed']
           ]
         )
+
+        form['description'].each do |language, description|
+          db.execute(
+            "INSERT INTO local_pokedex_description (globalNo, form, region, mega_evolution, gigantamax, version, version_name, language, description) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            [
+              pokemon['globalNo'],
+              form['form'],
+              form['region'],
+              form['mega_evolution'],
+              form['gigantamax'],
+              game_version,
+              language,
+              'jpn',
+              description
+            ]
+          )
+        end
       end
     end
 
