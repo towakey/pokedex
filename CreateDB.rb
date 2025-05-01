@@ -214,87 +214,104 @@ if __FILE__ == $0
       )
     SQL
 
-    pokedex_json = JSON.parse(File.read('./pokedex/Red_Green_Blue_Yellow/Red_Green_Blue_Yellow.json'))
-    game_version = pokedex_json['game_version']
+    local_pokedex_array = {}
+    local_pokedex_array["red_green_blue_yellow"] = ["カントー図鑑"]
+    local_pokedex_array["gold_silver_crystal"] = ["ジョウト図鑑"]
+    local_pokedex_array["ruby_sapphire_emerald"] = ["ホウエン図鑑"]
+    local_pokedex_array["diamond_pearl_platinum"] = ["シンオウ図鑑"]
+    local_pokedex_array["black_white"] = ["イッシュ図鑑"]
+    local_pokedex_array["black2_white2"] = ["イッシュ図鑑"]
+    local_pokedex_array["x_y"] = ["セントラルカロス図鑑", "コーストカロス図鑑", "マウンテンカロス図鑑"]
+    local_pokedex_array["sun_moon"] = ["アローラ図鑑"]
+    local_pokedex_array["UltraSun_UltraMoon"] = ["アローラ図鑑"]
+    local_pokedex_array["sword_shield"] = ["ガラル図鑑", "カンムリ雪原図鑑", "ヨロイ島図鑑"]
+    local_pokedex_array["LegendsArceus"] = ["ヒスイ図鑑"]
+    local_pokedex_array["Scarlet_Violet"] = ["パルデア図鑑", "キタカミ図鑑", "ブルーベリー図鑑"]
 
-    pokedex_json["pokedex"]["カントー図鑑"].each do |pokemon|
-      pokemon["status"].each do |form|
-        db.execute(
-          "INSERT INTO local_pokedex (no, globalNo, form, region, mega_evolution, gigantamax, version, pokedex) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
-          [
-            pokemon['no'],
-            pokemon['globalNo'],
-            form['form'],
-            form['region'],
-            form['mega_evolution'],
-            form['gigantamax'],
-            game_version,
-            'カントー図鑑'
-          ]
-        )
+    local_pokedex_array.each do |game_version, local_pokedex|
+      pokedex_json = JSON.parse(File.read("./pokedex/#{game_version}/#{game_version}.json"))
 
-        db.execute(
-          "INSERT INTO local_pokedex_type (globalNo, form, region, mega_evolution, gigantamax, version, type1, type2) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
-          [
-            pokemon['globalNo'],
-            form['form'],
-            form['region'],
-            form['mega_evolution'],
-            form['gigantamax'],
-            game_version,
-            form['type1'],
-            form['type2']
-          ]
-        )
+      local_pokedex.each do |pokedex_name|  
+        pokedex_json["pokedex"][pokedex_name].each do |pokemon|
+          pokemon["status"].each do |form|
+            db.execute(
+              "INSERT INTO local_pokedex (no, globalNo, form, region, mega_evolution, gigantamax, version, pokedex) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+              [
+                pokemon['no'],
+                pokemon['globalNo'],
+                form['form'],
+                form['region'],
+                form['mega_evolution'],
+                form['gigantamax'],
+                game_version,
+                'カントー図鑑'
+              ]
+            )
 
-        db.execute(
-          "INSERT INTO local_pokedex_ability (globalNo, form, region, mega_evolution, gigantamax, version, ability1, ability2, dream_ability) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
-          [
-            pokemon['globalNo'],
-            form['form'],
-            form['region'],
-            form['mega_evolution'],
-            form['gigantamax'],
-            game_version,
-            form['ability1'],
-            form['ability2'],
-            form['dream_ability']
-          ]
-        )
+            db.execute(
+              "INSERT INTO local_pokedex_type (globalNo, form, region, mega_evolution, gigantamax, version, type1, type2) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+              [
+                pokemon['globalNo'],
+                form['form'],
+                form['region'],
+                form['mega_evolution'],
+                form['gigantamax'],
+                game_version,
+                form['type1'],
+                form['type2']
+              ]
+            )
 
-        db.execute(
-          "INSERT INTO local_pokedex_status (globalNo, form, region, mega_evolution, gigantamax, version, hp, attack, defense, special_attack, special_defense, speed) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
-          [
-            pokemon['globalNo'],
-            form['form'],
-            form['region'],
-            form['mega_evolution'],
-            form['gigantamax'],
-            game_version,
-            form['hp'],
-            form['attack'],
-            form['defense'],
-            form['special_attack'],
-            form['special_defense'],
-            form['speed']
-          ]
-        )
+            db.execute(
+              "INSERT INTO local_pokedex_ability (globalNo, form, region, mega_evolution, gigantamax, version, ability1, ability2, dream_ability) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+              [
+                pokemon['globalNo'],
+                form['form'],
+                form['region'],
+                form['mega_evolution'],
+                form['gigantamax'],
+                game_version,
+                form['ability1'],
+                form['ability2'],
+                form['dream_ability']
+              ]
+            )
 
-        form['description'].each do |language, description|
-          db.execute(
-            "INSERT INTO local_pokedex_description (globalNo, form, region, mega_evolution, gigantamax, version, version_name, language, description) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
-            [
-              pokemon['globalNo'],
-              form['form'],
-              form['region'],
-              form['mega_evolution'],
-              form['gigantamax'],
-              game_version,
-              language,
-              'jpn',
-              description
-            ]
-          )
+            db.execute(
+              "INSERT INTO local_pokedex_status (globalNo, form, region, mega_evolution, gigantamax, version, hp, attack, defense, special_attack, special_defense, speed) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+              [
+                pokemon['globalNo'],
+                form['form'],
+                form['region'],
+                form['mega_evolution'],
+                form['gigantamax'],
+                game_version,
+                form['hp'],
+                form['attack'],
+                form['defense'],
+                form['special_attack'],
+                form['special_defense'],
+                form['speed']
+              ]
+            )
+
+            form['description'].each do |language, description|
+              db.execute(
+                "INSERT INTO local_pokedex_description (globalNo, form, region, mega_evolution, gigantamax, version, version_name, language, description) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                [
+                  pokemon['globalNo'],
+                  form['form'],
+                  form['region'],
+                  form['mega_evolution'],
+                  form['gigantamax'],
+                  game_version,
+                  language,
+                  'jpn',
+                  description
+                ]
+              )
+            end
+          end
         end
       end
     end
