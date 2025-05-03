@@ -466,88 +466,168 @@ if __FILE__ == $0
     end
 
 
-        # -----------------------------------------------------
-        puts "load for local waza"
-        # load for local waza
-        # table:local_waza
-        # Drop tables
-        db.execute("DROP TABLE IF EXISTS local_pokedex_waza")
-        # Create tables
-        db.execute(<<-SQL)
-          CREATE TABLE IF NOT EXISTS local_pokedex_waza (
-            globalNo TEXT,
-            form TEXT,
-            region TEXT,
-            mega_evolution TEXT,
-            gigantamax TEXT,
-            version TEXT,
-            conditions TEXT,
-            waza TEXT,
-          )
-        SQL
+    # -----------------------------------------------------
+    # puts "load for local waza"
+    # load for local waza
+    # table:local_pokedex_waza
+    # Drop tables
+    db.execute("DROP TABLE IF EXISTS local_pokedex_waza")
+    # Create tables
+    db.execute(<<-SQL)
+      CREATE TABLE IF NOT EXISTS local_pokedex_waza (
+        globalNo TEXT,
+        form TEXT,
+        region TEXT,
+        mega_evolution TEXT,
+        gigantamax TEXT,
+        version TEXT,
+        pokedex TEXT,
+        conditions TEXT,
+        waza TEXT
+      )
+    SQL
     
-        # table:local_pokedex_waza_machine
-        # Drop tables
-        db.execute("DROP TABLE IF EXISTS local_pokedex_waza_machine")
-        # Create tables
-        db.execute(<<-SQL)
-          CREATE TABLE IF NOT EXISTS local_pokedex_waza_machine (
-            globalNo TEXT,
-            form TEXT,
-            region TEXT,
-            mega_evolution TEXT,
-            gigantamax TEXT,
-            version TEXT,
-            machine_no TEXT,
-          )
-        SQL
+    # table:local_pokedex_waza_machine
+    # Drop tables
+    db.execute("DROP TABLE IF EXISTS local_pokedex_waza_machine")
+    # Create tables
+    db.execute(<<-SQL)
+      CREATE TABLE IF NOT EXISTS local_pokedex_waza_machine (
+        globalNo TEXT,
+        form TEXT,
+        region TEXT,
+        mega_evolution TEXT,
+        gigantamax TEXT,
+        version TEXT,
+        pokedex TEXT,
+        machine_no TEXT
+      )
+    SQL
     
-        local_waza_array = {}
-        local_waza_array["red_green_blue_yellow"] = ["kanto"]
-        local_waza_array["gold_silver_crystal"] = ["johto"]
-        local_waza_array["ruby_sapphire_emerald"] = ["hoenn"]
-        local_waza_array["diamond_pearl_platinum"] = ["sinnoh"]
-        local_waza_array["black_white"] = ["unova"]
-        local_waza_array["black2_white2"] = ["unova"]
-        local_waza_array["x_y"] = ["central_kalos", "coast_kalos", "mountain_kalos"]
-        local_waza_array["sun_moon"] = ["alola"]
-        local_waza_array["UltraSun_UltraMoon"] = ["alola"]
-        local_waza_array["sword_shield"] = ["galar", "isle_of_armor", "crown_tundra"]
-        local_waza_array["LegendsArceus"] = ["hisui"]
-        local_waza_array["Scarlet_Violet"] = ["paldea", "kitakami", "blueberry"]
+    local_waza_array = {}
+    local_waza_array["Red_Green_Blue_Yellow"] = ["red", "green", "blue", "pikachu"]
+    local_waza_array["Gold_Silver_Crystal"] = ["johto"]
+    local_waza_array["ruby_sapphire_emerald"] = ["hoenn"]
+    local_waza_array["diamond_pearl_platinum"] = ["sinnoh"]
+    local_waza_array["black_white"] = ["unova"]
+    local_waza_array["black2_white2"] = ["unova"]
+    local_waza_array["x_y"] = ["central_kalos", "coast_kalos", "mountain_kalos"]
+    local_waza_array["sun_moon"] = ["alola"]
+    local_waza_array["UltraSun_UltraMoon"] = ["alola"]
+    local_waza_array["sword_shield"] = ["galar", "isle_of_armor", "crown_tundra"]
+    local_waza_array["LegendsArceus"] = ["hisui"]
+    local_waza_array["Scarlet_Violet"] = ["paldea", "kitakami", "blueberry"]
     
-        local_waza_array.each do |game_version, regions|
-          if File.exist?("./pokedex/#{game_version}/waza.json")
-            waza_json = JSON.parse(File.read("./pokedex/#{game_version}/waza.json"))
-            version_key = waza_json['game_version']
-            waza_json["waza"][regions].each do |no, waza_data|
-              db.execute(
-                "INSERT INTO local_pokedex_waza (globalNo, form, region, mega_evolution, gigantamax, version, conditions, waza) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
-                [
-                  waza_data['globalNo'],
-                  game_version,
-                  regions,
-                  waza_data['type'],
-                  waza_data['category'],
-                  waza_data['pp'],
-                  waza_data['power'],
-                  waza_data['accuracy'],
-                ]
-              )
-    
-              db.execute(
-                "INSERT INTO local_waza_language (waza, version, language, name, description) VALUES (?, ?, ?, ?, ?)",
-                [
-                  waza_name,
-                  game_version,
-                  'jpn',
-                  waza_name,
-                  waza_data['description'],
-                ]
-              )
+    local_waza_array.each do |game_version, regions|
+      if File.exist?("./pokedex/#{game_version}/waza.json")
+        puts "load for local waza #{game_version}"
+        waza_json = JSON.parse(File.read("./pokedex/#{game_version}/waza.json"))
+        version_key = waza_json['game_version']
+        regions.each do |region|
+          waza_json["waza"][region].each do |waza_data|
+            waza_data["form"].each do |form_data|
+              form_data[""].each do |form_version_data|
+                db.execute(
+                  "INSERT INTO local_pokedex_waza (globalNo, form, region, mega_evolution, gigantamax, version, pokedex, conditions, waza) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                  [
+                    waza_data['globalNo'],
+                    form_data['form'],
+                    form_data['region'],
+                    form_data['mega_evolution'],
+                    form_data['gigantamax'],
+                    game_version,
+                    region,
+                    '基本',
+                    form_version_data
+                  ]
+                )
+              end
+              form_data["思い出し"].each do |form_version_data|
+                db.execute(
+                  "INSERT INTO local_pokedex_waza (globalNo, form, region, mega_evolution, gigantamax, version, pokedex, conditions, waza) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                  [
+                    waza_data['globalNo'],
+                    form_data['form'],
+                    form_data['region'],
+                    form_data['mega_evolution'],
+                    form_data['gigantamax'],
+                    game_version,
+                    region,
+                    '思い出し',
+                    form_version_data
+                  ]
+                )
+              end
+              form_data["進化時"].each do |form_version_data|
+                db.execute(
+                  "INSERT INTO local_pokedex_waza (globalNo, form, region, mega_evolution, gigantamax, version, pokedex, conditions, waza) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                  [
+                    waza_data['globalNo'],
+                    form_data['form'],
+                    form_data['region'],
+                    form_data['mega_evolution'],
+                    form_data['gigantamax'],
+                    game_version,
+                    region,
+                    '進化時',
+                    form_version_data
+                  ]
+                )
+              end
+              form_data["わざマシン"].each do |form_waza_machine_data|
+                db.execute(
+                  "INSERT INTO local_pokedex_waza_machine (globalNo, form, region, mega_evolution, gigantamax, version, pokedex, machine_no) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+                  [
+                    waza_data['globalNo'],
+                    form_data['form'],
+                    form_data['region'],
+                    form_data['mega_evolution'],
+                    form_data['gigantamax'],
+                    game_version,
+                    region,
+                    form_waza_machine_data
+                  ]
+                )
+              end
+
+              form_data.each do |key, form_version_data|
+                next if key == "" || key == "思い出し" || key == "進化時" || key == "わざマシン" || key == "form" || key == "region" || key == "mega_evolution" || key == "gigantamax"
+                form_version_data.each do |waza|
+                  db.execute(
+                    "INSERT INTO local_pokedex_waza (globalNo, form, region, mega_evolution, gigantamax, version, pokedex, conditions, waza) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                    [
+                      waza_data['globalNo'],
+                      form_data['form'],
+                      form_data['region'],
+                      form_data['mega_evolution'],
+                      form_data['gigantamax'],
+                      game_version,
+                      region,
+                      key,
+                      waza
+                    ]
+                  )
+                end
+              end
             end
           end
         end
+      end
+    end
+    
+        # db.execute(
+        #         "INSERT INTO local_waza_language (waza, version, language, name, description) VALUES (?, ?, ?, ?, ?)",
+        #         [
+        #           waza_name,
+        #           game_version,
+        #           'jpn',
+        #           waza_name,
+        #           waza_data['description'],
+        #         ]
+        #       )
+        #     end
+        #   end
+        # end
     
     db.commit
   rescue SQLite3::Exception => e
