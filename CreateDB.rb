@@ -57,7 +57,15 @@ if __FILE__ == $0
       )
     SQL
 
-    pokedex_json = JSON.parse(File.read('./pokedex/pokedex.json'))
+    # JSONパースエラー時にファイル内容を表示しないようにする
+    begin
+      content = File.read("./pokedex/pokedex.json")
+      pokedex_json = JSON.parse(content)
+    rescue JSON::ParserError => e
+      STDERR.puts "pokedex.json のパースに失敗しました: #{e.message}"
+      exit 1
+    end
+
     pokedex_json["pokedex"].each do |pokemon|
       pokemon["form"].each do |form|
         db.execute(
@@ -209,7 +217,6 @@ if __FILE__ == $0
         mega_evolution TEXT,
         gigantamax TEXT,
         version TEXT,
-        version_name TEXT,
         language TEXT,
         description TEXT
       )
@@ -230,7 +237,14 @@ if __FILE__ == $0
     local_pokedex_array["Scarlet_Violet"] = ["パルデア図鑑", "キタカミ図鑑", "ブルーベリー図鑑"]
 
     local_pokedex_array.each do |game_version, local_pokedex|
-      pokedex_json = JSON.parse(File.read("./pokedex/#{game_version}/#{game_version}.json"))
+      # JSONパースエラー時にファイル内容を表示しないようにする
+      begin
+        content = File.read("./pokedex/#{game_version}/#{game_version}.json")
+        pokedex_json = JSON.parse(content)
+      rescue JSON::ParserError => e
+        STDERR.puts "#{game_version}.json のパースに失敗しました: #{e.message}"
+        exit 1
+      end
 
       local_pokedex.each do |pokedex_name|  
         pokedex_json["pokedex"][pokedex_name].each do |pokemon|
@@ -297,15 +311,17 @@ if __FILE__ == $0
             )
 
             form['description'].each do |language, description|
+              if description == "" then
+                next
+              end
               db.execute(
-                "INSERT INTO local_pokedex_description (globalNo, form, region, mega_evolution, gigantamax, version, version_name, language, description) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                "INSERT INTO local_pokedex_description (globalNo, form, region, mega_evolution, gigantamax, version, language, description) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
                 [
                   pokemon['globalNo'],
                   form['form'],
                   form['region'],
                   form['mega_evolution'],
                   form['gigantamax'],
-                  game_version,
                   language,
                   'jpn',
                   description
@@ -316,13 +332,6 @@ if __FILE__ == $0
         end
       end
     end
-
-    # description_json = JSON.parse(File.read("./pokedex/description.json"))
-    # description_json["description"].each do |pokedex|
-    #   db.execute(<<-SQL)
-    #     INSERT INTO pokedex_description (globalNo, form, region, mega_evolution, gigantamax, language, description) VALUES (?, ?, ?, ?, ?, ?, ?)
-    #   SQL
-    # end
 
     # -----------------------------------------------------
     puts "load for local waza list"
@@ -372,7 +381,15 @@ if __FILE__ == $0
     local_waza_array["Scarlet_Violet"] = ["パルデア図鑑", "キタカミ図鑑", "ブルーベリー図鑑"]
 
     local_waza_array.each do |game_version, local_waza|
-      waza_json = JSON.parse(File.read("./pokedex/#{game_version}/waza_list.json"))
+      # JSONパースエラー時にファイル内容を表示しないようにする
+      begin
+        content = File.read("./pokedex/#{game_version}/waza_list.json")
+        waza_json = JSON.parse(content)
+      rescue JSON::ParserError => e
+        STDERR.puts "waza_list.json のパースに失敗しました: #{e.message}"
+        exit 1
+      end
+
       version_key = waza_json['game_version']
       waza_json["waza_list"][version_key].each do |waza_name, waza_data|
         db.execute(
@@ -418,7 +435,15 @@ if __FILE__ == $0
 
     local_waza_array.each do |game_version, local_waza|
       if File.exist?("./pokedex/#{game_version}/waza_machine.json")
-        waza_json = JSON.parse(File.read("./pokedex/#{game_version}/waza_machine.json"))
+        # JSONパースエラー時にファイル内容を表示しないようにする
+        begin
+          content = File.read("./pokedex/#{game_version}/waza_machine.json")
+          waza_json = JSON.parse(content)
+        rescue JSON::ParserError => e
+          STDERR.puts "waza_machine.json のパースに失敗しました: #{e.message}"
+          exit 1
+        end
+
         version_key = waza_json['game_version']
         waza_json["waza_machine"].each do |waza_name, waza_data|
           db.execute(
@@ -449,7 +474,15 @@ if __FILE__ == $0
       )
     SQL
 
-    ability_json = JSON.parse(File.read("./ability/ability.json"))
+    # JSONパースエラー時にファイル内容を表示しないようにする
+    begin
+      content = File.read("./ability/ability.json")
+      ability_json = JSON.parse(content)
+    rescue JSON::ParserError => e
+      STDERR.puts "ability.json のパースに失敗しました: #{e.message}"
+      exit 1
+    end
+
     ability_json["ability"].each do |ability_name, ability_data|
       ability_data.each do |version, ability_version_data|
         db.execute(
@@ -521,7 +554,15 @@ if __FILE__ == $0
     local_waza_array.each do |game_version, regions|
       if File.exist?("./pokedex/#{game_version}/waza.json")
         puts "load for local waza #{game_version}"
-        waza_json = JSON.parse(File.read("./pokedex/#{game_version}/waza.json"))
+        # JSONパースエラー時にファイル内容を表示しないようにする
+        begin
+          content = File.read("./pokedex/#{game_version}/waza.json")
+          waza_json = JSON.parse(content)
+        rescue JSON::ParserError => e
+          STDERR.puts "waza.json のパースに失敗しました: #{e.message}"
+          exit 1
+        end
+
         version_key = waza_json['game_version']
         regions.each do |region|
           waza_json["waza"][region].each do |waza_data|
@@ -628,10 +669,130 @@ if __FILE__ == $0
         #     end
         #   end
         # end
-    
+
+    version_array = [
+      "red",
+      "green",
+      "blue",
+      "pikachu",
+      "gold",
+      "silver",
+      "crystal",
+      "ruby",
+      "sapphire",
+      "emerald",
+      "firered",
+      "leafgreen",
+      "diamond",
+      "pearl",
+      "platinum",
+      "heartgold",
+      "soulsilver",
+      "black",
+      "white",
+      "black2",
+      "white2",
+      "X",
+      "X_kanji",
+      "Y",
+      "Y_kanji",
+      "omegaruby",
+      "omegaruby_kanji",
+      "alphasapphire",
+      "alphasapphire_kanji",
+      "sun",
+      "sun_kanji",
+      "moon",
+      "moon_kanji",
+      "ultrasun",
+      "ultrasun_kanji",
+      "ultramoon",
+      "ultramoon_kanji",
+      "letsgopikachu",
+      "letsgopikachu_kanji",
+      "letsgoeevee",
+      "letsgoeevee_kanji",
+      "sword",
+      "sword_kanji",
+      "shield",
+      "shield_kanji",
+      "legends_arceus",
+      "moon_kanji",
+      "ultrasun",
+      "ultrasun_kanji",
+      "ultramoon",
+      "ultramoon_kanji",
+      "letsgopikachu",
+      "letsgopikachu_kanji",
+      "letsgoeevee",
+      "letsgoeevee_kanji",
+      "sword",
+      "sword_kanji",
+      "shield",
+      "shield_kanji",
+      "legends_arceus",
+      "brilliantdiamond",
+      "brilliantdiamond_kanji",
+      "shiningpearl",
+      "shiningpearl_kanji",
+      "scarlet",
+      "violet",
+      "pokemongo",
+      "pokemonpinball",
+      "pokemonranger",
+      "pokemonstadium",
+      "pokemonstadium2",
+      "new_pokemon_snap"
+    ]
+    # JSONパースエラー時にファイル内容を表示しないようにする
+    begin
+      content = File.read("./pokedex/description.json")
+      description_json = JSON.parse(content)
+    rescue JSON::ParserError => e
+      # エラー内容をファイルに出力
+      log_path = File.join(__dir__, "description_parse_error.log")
+      File.open(log_path, "w:UTF-8") do |f|
+        if e.message =~ /(\d+):/
+          pos = $1.to_i
+          line = content[0...pos].count("\n") + 1
+          f.puts "description.json のパースに失敗しました (#{line}行目): #{e.message}"
+        else
+          f.puts "description.json のパースに失敗しました: #{e.message}"
+        end
+        f.puts content
+      end
+      STDERR.puts "エラー内容を #{log_path} に出力しました"
+      exit 1
+    end
+
+    description_json["description"].each do |pokedex|
+      # puts pokedex['globalNo']
+      version_array.each do |version|
+        if pokedex[version] == "" then
+          next
+        end
+        sql = <<-SQL
+INSERT INTO local_pokedex_description (globalNo, form, region, mega_evolution, gigantamax, version, language, description)
+SELECT ?,?,?,?,?,?,?,?
+WHERE NOT EXISTS (
+  SELECT 1 FROM local_pokedex_description
+  WHERE globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND version = ? AND language = ?
+)
+SQL
+        db.execute(sql, [
+          pokedex['globalNo'], pokedex['form'], pokedex['region'],
+          pokedex['mega_evolution'], pokedex['gigantamax'], version,
+          'jpn', pokedex[version],
+          pokedex['globalNo'], pokedex['form'], pokedex['region'],
+          pokedex['mega_evolution'], pokedex['gigantamax'], version,
+          'jpn'
+        ])
+      end
+    end
+
     db.commit
   rescue SQLite3::Exception => e
-    puts "Error occurred while creating database: #{e.message}"
+    # puts "Error occurred while creating database: #{e.message}"
     db.rollback
   end
 end
