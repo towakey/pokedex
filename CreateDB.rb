@@ -259,7 +259,7 @@ if __FILE__ == $0
                 form['mega_evolution'],
                 form['gigantamax'],
                 game_version,
-                'カントー図鑑'
+                pokedex_name
               ]
             )
 
