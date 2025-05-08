@@ -111,10 +111,10 @@ erDiagram
         string pp
         string power
         string accuracy
-        string priority
     }
     LOCAL_WAZA_LANGUAGE_JSON {
         string waza FK
+        string version
         string language
         string name
         string description
@@ -133,6 +133,7 @@ erDiagram
 
     ABILITY_LANGUAGE_JSON {
         string ability FK
+        string version
         string language
         string name
         string description
