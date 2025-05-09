@@ -10,6 +10,13 @@ DB_PATH = File.expand_path('new_pokedex.db', __dir__)
 OUT_DIR = File.join(__dir__, 'pokedex', VERSION)
 FileUtils.mkdir_p(OUT_DIR)
 
+# オプション: 第二引数にデータ取得元バージョンを指定出来る
+# 例) ruby DB2JSON.rb firered_leafgreen ruby_sapphire_emerald
+#     → 出力ファイルは firered_leafgreen.json だが、種族値などは
+#        ruby_sapphire_emerald から優先取得し、無い場合 firered_leafgreen を使う
+SOURCE_VERSION = (ARGV[1] || VERSION).downcase
+PRIORITY_VERSIONS = [SOURCE_VERSION, VERSION].uniq
+
 db = SQLite3::Database.new(DB_PATH)
 db.results_as_hash = true
 
@@ -25,6 +32,33 @@ json_root = {
   'game_version' => VERSION,
   'pokedex'      => {}
 }
+
+# テーブルごとに参照元バージョンを上書きできる設定
+# 例: 'firered_leafgreen' で種族値などを 'ruby_sapphire_emerald' から取る
+FALLBACK_BY_DB = {
+  type: {
+    'firered_leafgreen' => 'ruby_sapphire_emerald'
+  },
+  ability: {
+    'firered_leafgreen' => 'ruby_sapphire_emerald'
+  },
+  status: {
+    'firered_leafgreen' => 'ruby_sapphire_emerald'
+  },
+  description: {
+    'firered_leafgreen' => 'ruby_sapphire_emerald'
+  }
+}
+
+# 汎用ヘルパー: 優先バージョン順で最初にヒットした行を返す
+def fetch_row_with_fallback(db, table_key, base_key, sql, specific_versions = nil)
+  versions = specific_versions || [FALLBACK_BY_DB.dig(table_key, VERSION), VERSION].compact.uniq
+  versions.each do |v|
+    row = db.get_first_row(sql, base_key + [v])
+    return row if row
+  end
+  nil
+end
 
 pokedex_names.each do |pokedex_name|
   # その図鑑に載っているポケモンを図鑑番号順に取得
@@ -53,45 +87,47 @@ SQL
         key = [f['globalNo'], f['form'], f['region'],
                f['mega_evolution'], f['gigantamax']]
 
-        type    = db.get_first_row(<<~SQL, [*key, VERSION])
-          SELECT type1, type2
-            FROM local_pokedex_type
-           WHERE globalNo    = ?
-             AND form        = ?
-             AND region      = ?
-             AND mega_evolution = ?
-             AND gigantamax  = ?
-             AND version     = ?
-        SQL
+        type    = fetch_row_with_fallback(db, :type, key, <<~SQL)
+             SELECT type1, type2
+               FROM local_pokedex_type
+              WHERE globalNo    = ?
+                AND form        = ?
+                AND region      = ?
+                AND mega_evolution = ?
+                AND gigantamax  = ?
+                AND version     = ?
+           SQL
 
-        ability = db.get_first_row(<<~SQL, [*key, VERSION])
-          SELECT ability1, ability2, dream_ability
-            FROM local_pokedex_ability
-           WHERE globalNo    = ?
-             AND form        = ?
-             AND region      = ?
-             AND mega_evolution = ?
-             AND gigantamax  = ?
-             AND version     = ?
-        SQL
+        ability = fetch_row_with_fallback(db, :ability, key, <<~SQL)
+             SELECT ability1, ability2, dream_ability
+               FROM local_pokedex_ability
+              WHERE globalNo    = ?
+                AND form        = ?
+                AND region      = ?
+                AND mega_evolution = ?
+                AND gigantamax  = ?
+                AND version     = ?
+           SQL
 
-        stats   = db.get_first_row(<<~SQL, [*key, VERSION]) || {}
-           SELECT hp, attack, defense, special_attack,
-                  special_defense, speed
-             FROM local_pokedex_status
-            WHERE globalNo    = ?
-             AND form        = ?
-             AND region      = ?
-             AND mega_evolution = ?
-             AND gigantamax  = ?
-             AND version     = ?
-         SQL
+        stats = fetch_row_with_fallback(db, :status, key, <<~SQL) || {}
+             SELECT hp, attack, defense, special_attack,
+                    special_defense, speed
+               FROM local_pokedex_status
+              WHERE globalNo    = ?
+                AND form        = ?
+                AND region      = ?
+                AND mega_evolution = ?
+                AND gigantamax  = ?
+                AND version     = ?
+           SQL
 
         # 対応するバージョン名を自動取得 (例: x_y → ["x","y"])
         desc_versions = VERSION.split('_')
         descriptions = {}
         desc_versions.each do |ver|
-          descriptions[ver] = db.get_first_value(<<~SQL, [*key, ver])
+          versions_list = [ver, FALLBACK_BY_DB.dig(:description, VERSION)].compact.uniq
+
+          sql = <<~SQL
             SELECT description
               FROM local_pokedex_description
              WHERE globalNo    = ?
@@ -102,6 +138,10 @@ SQL
                AND version     = ?
                AND language    = 'jpn'
           SQL
+
+          desc_row = fetch_row_with_fallback(db, :description, key, sql, versions_list)
+
+          descriptions[ver] = desc_row ? desc_row['description'] : ''
         end
 
         {
