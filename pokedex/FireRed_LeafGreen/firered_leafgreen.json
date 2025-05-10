@@ -1,0 +1,4085 @@
+{
+  "update": "20250510",
+  "game_version": "firered_leafgreen",
+  "pokedex": {
+    "カントー図鑑": [
+      {
+        "no": "1",
+        "globalNo": "1",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 45,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " うまれたときから せなかに しょくぶつの タネが あって すこしずつ おおきく そだつ。",
+              "leafgreen": " うまれたときから せなかに ふしぎな タネが うえてあって からだと ともに そだつという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "2",
+        "globalNo": "2",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 60,
+            "attack": 62,
+            "defense": 63,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 60,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " つぼみが せなかに ついていて ようぶんを きゅうしゅうしていくと おおきな はなが さくという。",
+              "leafgreen": " せなかの つぼみが おおきく そだってくると 2ほんあしで たつことが できなくなるらしい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "3",
+        "globalNo": "3",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 80,
+            "attack": 82,
+            "defense": 83,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 80,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " はなから うっとりする かおりが ただよい たたかうものの きもちを なだめてしまう。",
+              "leafgreen": " たいようエネルギーを えいようにして おおきなハナが ひらく。ひなたに ひきよせられるように いどうする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "4",
+        "globalNo": "4",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 39,
+            "attack": 52,
+            "defense": 43,
+            "special_attack": 60,
+            "special_defense": 50,
+            "speed": 65,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " うまれたときから しっぽに ほのおが ともっている。ほのおが きえたとき その いのちは おわって しまう。",
+              "leafgreen": " あついものを このむ せいかく。あめに ぬれると しっぽの さきから けむりが でるという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "5",
+        "globalNo": "5",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 58,
+            "attack": 64,
+            "defense": 58,
+            "special_attack": 80,
+            "special_defense": 65,
+            "speed": 80,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " シッポを ふりまわして あいてを なぎたおし するどい ツメで ズタズタに ひきさいてしまう。",
+              "leafgreen": " もえる シッポを ふりまわすと まわりの おんどが どんどん あがって あいてを くるしめる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "6",
+        "globalNo": "6",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "ひこう",
+            "hp": 78,
+            "attack": 84,
+            "defense": 78,
+            "special_attack": 109,
+            "special_defense": 85,
+            "speed": 100,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ちじょう 1400メートル まで ハネを つかって とぶことができる。こうねつの ほのおを はく。",
+              "leafgreen": " がんせきも やけるような  しゃくねつの ほのおを はいて やまかじを おこすことが ある。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "7",
+        "globalNo": "7",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 44,
+            "attack": 48,
+            "defense": 65,
+            "special_attack": 50,
+            "special_defense": 64,
+            "speed": 43,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ながい くびを こうらのなかに ひっこめるとき いきおいよく みずでっぽうを はっしゃする。",
+              "leafgreen": " うまれたあと せなかが ふくらんで かたい こうらが できる。くちから きょうりょくな あわを だす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "8",
+        "globalNo": "8",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 59,
+            "attack": 63,
+            "defense": 80,
+            "special_attack": 65,
+            "special_defense": 80,
+            "speed": 58,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ペットとして にんきが たかい。また けで おおわれた しっぽは ながいきする シンボルだ。",
+              "leafgreen": " しばしば すいちゅうに かくれ えものを ねらう。はやく およぐとき みみを うごかして バランスをとる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "9",
+        "globalNo": "9",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 79,
+            "attack": 83,
+            "defense": 100,
+            "special_attack": 85,
+            "special_defense": 105,
+            "speed": 78,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " からだが おもたく のしかかって あいてを きぜつさせる。ピンチの ときは カラに かくれる。",
+              "leafgreen": " こうらに ふんしゃこうが あって ロケットのような いきおいで つっこんでくる すごい やつだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "10",
+        "globalNo": "10",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "",
+            "hp": 45,
+            "attack": 30,
+            "defense": 35,
+            "special_attack": 20,
+            "special_defense": 20,
+            "speed": 45,
+            "ability1": "りんぷん",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " みどりの ひふに おおわれている。だっぴして せいちょうすると いとを かけて サナギに かわる。",
+              "leafgreen": " あしは みじかいが きゅうばんに なっているので さかでも かべでも くたびれることなく すすんでいく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "11",
+        "globalNo": "11",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "",
+            "hp": 50,
+            "attack": 20,
+            "defense": 55,
+            "special_attack": 25,
+            "special_defense": 25,
+            "speed": 30,
+            "ability1": "だっぴ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " かたい カラに つつまれているが なかみは やわらかいので つよい こうげきには たえられない。",
+              "leafgreen": " カラが かたくなるまえに つよい しょうげきを うけると なかみが でてしまうので ちゅうい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "12",
+        "globalNo": "12",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 45,
+            "defense": 50,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 70,
+            "ability1": "ふくがん",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ハネは みずを はじく りんぷんに まもられている。あめの ひでも そらを とぶことが できる。",
+              "leafgreen": " こまかく はやく はばたいたら もうどくの りんぷんが かぜに のって とんでくるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "13",
+        "globalNo": "13",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "どく",
+            "hp": 40,
+            "attack": 35,
+            "defense": 30,
+            "special_attack": 20,
+            "special_defense": 20,
+            "speed": 50,
+            "ability1": "りんぷん",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " もりや くさちに おおく せいそく。あたまの さきに 5センチぐらいの ちいさく するどい どくばりをもつ。",
+              "leafgreen": " もりに おおく ハッパを たべる。あたまに するどい ハリをもち さされると どくに おかされる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "14",
+        "globalNo": "14",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "どく",
+            "hp": 45,
+            "attack": 25,
+            "defense": 50,
+            "special_attack": 25,
+            "special_defense": 25,
+            "speed": 35,
+            "ability1": "だっぴ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " おとなの からだを つくるための いちじてきな じょうたい。じぶんでは ほとんど うごけない。",
+              "leafgreen": " じぶんでは ほとんど うごけないが あぶないときは かたくなって みを まもっているようだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "15",
+        "globalNo": "15",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "どく",
+            "hp": 65,
+            "attack": 80,
+            "defense": 40,
+            "special_attack": 45,
+            "special_defense": 80,
+            "speed": 75,
+            "ability1": "むしのしらせ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " しゅうだんで あらわれることもある。もうスピードで とびまわり おしりの どくばりで さしまくる。",
+              "leafgreen": " こうそくで とんでくると りょうてと おしりにある おおきな どくばりを つかって あいてを せめる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "16",
+        "globalNo": "16",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 40,
+            "attack": 45,
+            "defense": 40,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 56,
+            "ability1": "するどいめ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " たたかいは すきではない。くさむらの なかに かくれて ちいさい むしなどを とらえる。",
+              "leafgreen": " もりや はやしに おおく ぶんぷ。ちじょうでも はげしく はばたいて すなを かけたりする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "17",
+        "globalNo": "17",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 63,
+            "attack": 60,
+            "defense": 55,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 71,
+            "ability1": "するどいめ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " あしの ツメが はったつしている。エサの タマタマを つかんで 100キロさきの す まで はこぶ。",
+              "leafgreen": " ひろい なわばりを もっており しんにゅうする じゃまものは てっていてきに つつかれてしまう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "18",
+        "globalNo": "18",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 83,
+            "attack": 80,
+            "defense": 75,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 91,
+            "ability1": "するどいめ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " うつくしい ハネを ひろげて あいてを いかくする。マッハ2で そらを とびまわる。",
+              "leafgreen": " エサを さがすとき すいめん すれすれを すべるように とんで コイキングなどを わしづかみにする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "19",
+        "globalNo": "19",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 30,
+            "attack": 56,
+            "defense": 35,
+            "special_attack": 25,
+            "special_defense": 35,
+            "speed": 72,
+            "ability1": "こんじょう",
+            "ability2": "にげあし",
+            "dream_ability": "",
+            "description": {
+              "firered": " キバは ながくて するどい。いっしょう のびつづけるので かたい モノを かじって けずる。",
+              "leafgreen": " なんでも かじって こうげき。ちいさいうえに うごきが すばやく いろんな ところに しゅつぼつする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "20",
+        "globalNo": "20",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 55,
+            "attack": 81,
+            "defense": 60,
+            "special_attack": 50,
+            "special_defense": 70,
+            "speed": 97,
+            "ability1": "こんじょう",
+            "ability2": "にげあし",
+            "dream_ability": "",
+            "description": {
+              "firered": " うしろあしの ゆびは 3ぼんで ちいさな みずかきが ついている。かわを およいで わたる。",
+              "leafgreen": " ヒゲで からだの バランスを とっているので もし きられると うごきが のろく なるらしい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "21",
+        "globalNo": "21",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 40,
+            "attack": 60,
+            "defense": 30,
+            "special_attack": 31,
+            "special_defense": 31,
+            "speed": 70,
+            "ability1": "するどいめ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " いそがしく あちこちを とびまわる。たいりょくは すくないが オウムがえしを つかうと てごわい。",
+              "leafgreen": " くさむらの むしなどを たべる。はねが みじかいために いつも いそがしく はばたいている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "22",
+        "globalNo": "22",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 65,
+            "attack": 90,
+            "defense": 65,
+            "special_attack": 61,
+            "special_defense": 61,
+            "speed": 100,
+            "ability1": "するどいめ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " おおきな つばさで おおぞらを とびつづけることが できる。1にち おりなくても だいじょうぶ。",
+              "leafgreen": " おおきな つばさで おおぞらを とびつづけることが できる。1かいも おりなくても へいきだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "23",
+        "globalNo": "23",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 35,
+            "attack": 60,
+            "defense": 44,
+            "special_attack": 40,
+            "special_defense": 54,
+            "speed": 55,
+            "ability1": "いかく",
+            "ability2": "だっぴ",
+            "dream_ability": "",
+            "description": {
+              "firered": " くさちなどに おおく せいそくする。したを チロチロ させて まわりの きけんを かんじとる。",
+              "leafgreen": " まったく けはいを かんじさせずに いどうする。ポッポや オニスズメの たまごを まるのみ してしまう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "24",
+        "globalNo": "24",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 60,
+            "attack": 85,
+            "defense": 69,
+            "special_attack": 65,
+            "special_defense": 79,
+            "speed": 80,
+            "ability1": "いかく",
+            "ability2": "だっぴ",
+            "dream_ability": "",
+            "description": {
+              "firered": " おなかの もようが こわいかおに みえる。よわいてきは そのもようを みただけで にげだしてしまう。",
+              "leafgreen": " おなかの おそろしい もようは ちいきに よって なんしゅるいか パターンが あるという ウワサだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "25",
+        "globalNo": "25",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 35,
+            "attack": 55,
+            "defense": 30,
+            "special_attack": 50,
+            "special_defense": 40,
+            "speed": 90,
+            "ability1": "せいでんき",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ほっぺたの りょうがわに ちいさい でんきぶくろを もつ。ピンチのときに ほうでんする。",
+              "leafgreen": " なんびきかが あつまっていると そこに もうれつな でんきが たまり いなずまが おちることがあるという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "26",
+        "globalNo": "26",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 60,
+            "attack": 90,
+            "defense": 55,
+            "special_attack": 90,
+            "special_defense": 80,
+            "speed": 100,
+            "ability1": "せいでんき",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " でんげきは 10まんボルトに たっすることもあり ヘタにさわると インドぞうでも きぜつする。",
+              "leafgreen": " ながい しっぽが アースになって みを まもるため じぶんじしんは こうでんあつにも しびれないのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "27",
+        "globalNo": "27",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 50,
+            "attack": 75,
+            "defense": 85,
+            "special_attack": 20,
+            "special_defense": 30,
+            "speed": 40,
+            "ability1": "すながくれ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " じめんに あなを ほって すむ。じぶんに きけんが せまると まるくなって みを まもる。",
+              "leafgreen": " みずけの すくない ばしょに ふかい あなを ほって かくれる。えものを ねらうときは でてくる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "28",
+        "globalNo": "28",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 75,
+            "attack": 100,
+            "defense": 110,
+            "special_attack": 45,
+            "special_defense": 55,
+            "speed": 65,
+            "ability1": "すながくれ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " すばしっこく はしり まわり せなかのハリと するどいツメでの こうげきが とくい。",
+              "leafgreen": " せなかを まるめると トゲトゲの ボールみたいだ。そのまま ころがって ぶつかってきたり にげたりする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "29",
+        "globalNo": "29",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 55,
+            "attack": 47,
+            "defense": 52,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 41,
+            "ability1": "どくのトゲ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ちいさくても どくばりの いりょくは きょうれつで ちゅういが ひつよう。メスのほうが つのが ちいさい。",
+              "leafgreen": " からだは ちいさくても どくばりを もつため ちゅういが ひつようだ。メスのほうが ツノが ちいさい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "30",
+        "globalNo": "30",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 70,
+            "attack": 62,
+            "defense": 67,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 56,
+            "ability1": "どくのトゲ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " メスなので せいかくは おんこう。くちから だす ちょうおんぱは あいてを まどわす ちからがある。",
+              "leafgreen": " メスなので ツノのそだちが おそい。ひっかいたり かみついたりと にくだんせんを このむ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "31",
+        "globalNo": "31",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "じめん",
+            "hp": 90,
+            "attack": 82,
+            "defense": 87,
+            "special_attack": 75,
+            "special_defense": 85,
+            "speed": 76,
+            "ability1": "どくのトゲ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " かたくて はりのような ウロコが からだを おおっている。こうふんすると はりが さかだつ。",
+              "leafgreen": " かたい うろこで こうげきから みを まもる。かんろくの ある ボディから おおわざを くりだす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "32",
+        "globalNo": "32",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 46,
+            "attack": 57,
+            "defense": 40,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 50,
+            "ability1": "どくのトゲ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " みみが おおきく とおくの おとを きくとき はばたくように うごく。おこると どくばりを だす。",
+              "leafgreen": " みみを たてて きけんを かんじとる。からだの とげが おおきいほど つよい どくをだす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "33",
+        "globalNo": "33",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 61,
+            "attack": 72,
+            "defense": 57,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 65,
+            "ability1": "どくのトゲ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " おこりやすい せいかく。はったつした ツノを ふりまわして ダイヤモンドも くしざしに する。",
+              "leafgreen": " すぐに おこって たたかおうとする。しかも あたまの ツノは ささると きょうれつな どくそをだす しくみ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "34",
+        "globalNo": "34",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "じめん",
+            "hp": 81,
+            "attack": 92,
+            "defense": 77,
+            "special_attack": 85,
+            "special_defense": 75,
+            "speed": 85,
+            "ability1": "どくのトゲ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " いしのように かたい ひふと ながく のびた ツノが とくちょう。ツノには どくもあるので ちゅうい。",
+              "leafgreen": " ふとい しっぽを ふりまわして あいてを しめつける。そして せぼねを へしおって しまう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "35",
+        "globalNo": "35",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 70,
+            "attack": 45,
+            "defense": 48,
+            "special_attack": 60,
+            "special_defense": 65,
+            "speed": 35,
+            "ability1": "メロメロボディ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " あいくるしい すがたから ペットように にんきが ある。ただし なかなか みつけられない。",
+              "leafgreen": " ふしぎで かわいいので おおくの ファンがいる。ただし せいそくちが かぎられ みつけるのが たいへん。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "36",
+        "globalNo": "36",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 95,
+            "attack": 70,
+            "defense": 73,
+            "special_attack": 85,
+            "special_defense": 90,
+            "speed": 60,
+            "ability1": "メロメロボディ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " みみが よくて 1キロ はなれた ところで おとした はりのおとを みごとに ききわけられる。",
+              "leafgreen": " ようせいの なかまで めったに ひとまえに でてこない。けはいを かんじて すぐ にげてしまうようだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "37",
+        "globalNo": "37",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 38,
+            "attack": 41,
+            "defense": 40,
+            "special_attack": 50,
+            "special_defense": 65,
+            "speed": 65,
+            "ability1": "もらいび",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " こどもだが 6ほんの しっぽが うつくしい。せいちょうすると さらに しっぽが ふえる。",
+              "leafgreen": " うまれたとき しっぽは まっしろで 1ぽんしかない。そだつと やがて さきが わかれて しっぽが ふえる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "38",
+        "globalNo": "38",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 73,
+            "attack": 76,
+            "defense": 75,
+            "special_attack": 81,
+            "special_defense": 100,
+            "speed": 100,
+            "ability1": "もらいび",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " おうごんに かがやく たいもうと 9ほんの ながい しっぽを もつ。1000ねんは いきると いわれる。",
+              "leafgreen": " あたまがよくて しゅうねんぶかい。ふざけて しっぽを つかむと 1000ねん たたられるという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "39",
+        "globalNo": "39",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 115,
+            "attack": 45,
+            "defense": 20,
+            "special_attack": 45,
+            "special_defense": 25,
+            "speed": 20,
+            "ability1": "メロメロボディ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " まるくて おおきい ひとみで さそいこみ ここちよい うたを うたい あいてを ねむらせる。",
+              "leafgreen": " つぶらな ひとみが ゆれるとき ねむたくなるような ふしぎで きもちのいい うたを うたう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "40",
+        "globalNo": "40",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 140,
+            "attack": 70,
+            "defense": 45,
+            "special_attack": 75,
+            "special_defense": 50,
+            "speed": 45,
+            "ability1": "メロメロボディ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " キメ こまかく しなやかな たいもうは うっとりするほど。けがわは こうきゅうひんだ。",
+              "leafgreen": " ボディーに だんりょくせいが あり おこらせると いきを すいこんで どんどん おおきく ふくらむ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "41",
+        "globalNo": "41",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "ひこう",
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "special_attack": 30,
+            "special_defense": 40,
+            "speed": 55,
+            "ability1": "せいしんりょく",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " りょうほうの めが そんざいしない。くちから ちょうおんぱを だして くらやみを とびまわる。",
+              "leafgreen": " くらい ばしょに しゅうだんで はっせいする。ちょうおんぱを だして ターゲットに ちかづいていく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "42",
+        "globalNo": "42",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "ひこう",
+            "hp": 75,
+            "attack": 80,
+            "defense": 70,
+            "special_attack": 65,
+            "special_defense": 75,
+            "speed": 90,
+            "ability1": "せいしんりょく",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " するどいキバで かみついて いちどに 300シーシーの ちを すいとってしまう。",
+              "leafgreen": " かみついたら さいご。しぬほど ちを すいまくるので おもたくなって じぶんで とべなくなることもある。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "43",
+        "globalNo": "43",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 45,
+            "attack": 50,
+            "defense": 55,
+            "special_attack": 75,
+            "special_defense": 65,
+            "speed": 30,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " べつめい アルキメンデス。よるに なると 2ほんの ねっこで 300メートルも あるくという。",
+              "leafgreen": " ひるまは かおを じめんに うめて あまり うごかない。よるに なると たねを まきながら あるきまわる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "44",
+        "globalNo": "44",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 60,
+            "attack": 65,
+            "defense": 70,
+            "special_attack": 85,
+            "special_defense": 75,
+            "speed": 40,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " めしべが はなつ とてつもなく くさい においは 2キロさきまで とどき きを うしなわせる。",
+              "leafgreen": " すこしずつ しみだしてくるのは よだれではない。みつのようなしるで えものを おびきよせているのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "45",
+        "globalNo": "45",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 75,
+            "attack": 80,
+            "defense": 85,
+            "special_attack": 100,
+            "special_defense": 90,
+            "speed": 50,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " せかいいち おおきい はなびらから アレルギーを おこす かふんを オニの ように ばらまく。",
+              "leafgreen": " はなびらが おおきいほど たくさん かふんを だすが あたまが おもたくて つかれてしまうという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "46",
+        "globalNo": "46",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "くさ",
+            "hp": 35,
+            "attack": 70,
+            "defense": 55,
+            "special_attack": 45,
+            "special_defense": 55,
+            "speed": 25,
+            "ability1": "ほうし",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " むしの せなかに はえているのは とうちゅうかそう という キノコ。そだつと キノコも おおきくなる。",
+              "leafgreen": " あなを ほって きのねっこを すう。せなかの キノコは からだから エキスを もらい せいちょうする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "47",
+        "globalNo": "47",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "くさ",
+            "hp": 60,
+            "attack": 95,
+            "defense": 80,
+            "special_attack": 60,
+            "special_defense": 80,
+            "speed": 30,
+            "ability1": "ほうし",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " キノコの カサから どくほうしを まきちらす。しかし ちゅうごくでは このほうしを かんぽうやくに する。",
+              "leafgreen": " ムシの からだより おおきくなった キノコの いしで かつどうする。しめった ばしょを このむという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "48",
+        "globalNo": "48",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "どく",
+            "hp": 60,
+            "attack": 55,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 55,
+            "speed": 45,
+            "ability1": "ふくがん",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " くらやみでも めが レーダーの やくわりをして かつどうできる。めから ビームを はっしゃする。",
+              "leafgreen": " おおきな きのしたに すんでいて むしなどを たべて いるらしい。よるは あかりのそばに やってくる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "49",
+        "globalNo": "49",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "どく",
+            "hp": 70,
+            "attack": 65,
+            "defense": 60,
+            "special_attack": 90,
+            "special_defense": 75,
+            "speed": 90,
+            "ability1": "りんぷん",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " はねに りんぷんが ついていて ヒラヒラと はばたくたびに もうどくの こなを ばらまく。",
+              "leafgreen": " ハネを おおっている りんぷんは  いろの ちがいに よって さまざまな どくを もっている らしい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "50",
+        "globalNo": "50",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 10,
+            "attack": 55,
+            "defense": 25,
+            "special_attack": 35,
+            "special_defense": 45,
+            "speed": 95,
+            "ability1": "ありじごく",
+            "ability2": "すながくれ",
+            "dream_ability": "",
+            "description": {
+              "firered": " ちちゅうの あさいところを いどう。ほりすすんだあとは じめんが もりあがっているので すぐわかる。",
+              "leafgreen": " ちか1メートルくらいを ほりすすみ きのねっこなどを かじって いきる。たまに ちじょうに かおをだす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "51",
+        "globalNo": "51",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 35,
+            "attack": 80,
+            "defense": 50,
+            "special_attack": 50,
+            "special_defense": 70,
+            "speed": 120,
+            "ability1": "ありじごく",
+            "ability2": "すながくれ",
+            "dream_ability": "",
+            "description": {
+              "firered": " ちちゅうを ほりすすんで あいてが ゆだんしているところを べつの ばしょから こうげきする。",
+              "leafgreen": " チームワークに すぐれた 3つごの ディグダ。ちか 100キロまで ほって じしんを おこすこともある。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "52",
+        "globalNo": "52",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 90,
+            "ability1": "ものひろい",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ひるまは ねてばかりいる。 よるになると めが かがやき なわばりを あるきまわる。",
+              "leafgreen": " まるいものが だいすき。 よなよな でかけては おちている コインを ひろい あつめて かえってくる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "53",
+        "globalNo": "53",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 65,
+            "attack": 70,
+            "defense": 60,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 115,
+            "ability1": "じゅうなん",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " きしょうが はげしく しっぽを まっすぐ たてたら よう ちゅうい。とびかかって かみつく まえぶれだ。",
+              "leafgreen": " けなみが うつくしく ペットに したがる ひとも おおいが すぐ ひっかいたり するので てごわいぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "54",
+        "globalNo": "54",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 50,
+            "attack": 52,
+            "defense": 48,
+            "special_attack": 65,
+            "special_defense": 50,
+            "speed": 55,
+            "ability1": "しめりけ",
+            "ability2": "ノーてんき",
+            "dream_ability": "",
+            "description": {
+              "firered": " いつも ずつうに なやまされている。この ずつうが はげしくなると ふしぎな ちからを つかいはじめる。",
+              "leafgreen": " ボーッとした かおに ゆだんすると すかさず ねんりきや かなしばりを つかってくる あなどれない やつだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "55",
+        "globalNo": "55",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 80,
+            "attack": 82,
+            "defense": 78,
+            "special_attack": 95,
+            "special_defense": 80,
+            "speed": 85,
+            "ability1": "しめりけ",
+            "ability2": "ノーてんき",
+            "dream_ability": "",
+            "description": {
+              "firered": " てのひらが みずかきに なっていて およぐのが とくい。みずうみなどで ゆうがな すがたが みかけられる。",
+              "leafgreen": " ゆうがた みずうみの ほとりを かれいに およぐ すがたを カッパと まちがえる ひとがいる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "56",
+        "globalNo": "56",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 40,
+            "attack": 80,
+            "defense": 35,
+            "special_attack": 35,
+            "special_defense": 45,
+            "speed": 70,
+            "ability1": "やるき",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " みのこなしが かるく きょうぼうな せいかく。おこって あばれると てが つけられなくなる。",
+              "leafgreen": " ふだんは きげんが よくても ちょっとした ことで いきなり あばれだすから こわいのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "57",
+        "globalNo": "57",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 65,
+            "attack": 105,
+            "defense": 60,
+            "special_attack": 60,
+            "special_defense": 70,
+            "speed": 95,
+            "ability1": "やるき",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " いつも もうれつに おこっており にげても にげても どこまでも おいかけてくる。",
+              "leafgreen": " なぜか もうれつに おこって にげても にげても どこまでも おいかけてくる せいかくだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "58",
+        "globalNo": "58",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 55,
+            "attack": 70,
+            "defense": 45,
+            "special_attack": 70,
+            "special_defense": 50,
+            "speed": 60,
+            "ability1": "いかく",
+            "ability2": "もらいび",
+            "dream_ability": "",
+            "description": {
+              "firered": " ひとなつこく せいじつな せいかく。てきには ほえて かみつき おいはらおうとする。",
+              "leafgreen": " なわばり いしきが とても つよい。ゆだんして ちかづくと ほえられ かみつかれ いたいめに あう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "59",
+        "globalNo": "59",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 90,
+            "attack": 110,
+            "defense": 80,
+            "special_attack": 100,
+            "special_defense": 80,
+            "speed": 95,
+            "ability1": "いかく",
+            "ability2": "もらいび",
+            "dream_ability": "",
+            "description": {
+              "firered": " ちゅうごくの いいつたえにある でんせつの ポケモン。ものすごい スピードで はしるという。",
+              "leafgreen": " むかしから おおくの ひとを とりこにした うつくしい ポケモン。とぶように かろやかに はしる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "60",
+        "globalNo": "60",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 40,
+            "attack": 50,
+            "defense": 40,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 90,
+            "ability1": "しめりけ",
+            "ability2": "ちょすい",
+            "dream_ability": "",
+            "description": {
+              "firered": " スベスベした くろいひふは うすく しめっている。ないぞうの いちぶが すけて うずまきじょうに みえる。",
+              "leafgreen": " まだ あしが はえた ばかりで うまく あるけない。みずの なかを およいでる ほうが すきなようだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "61",
+        "globalNo": "61",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 65,
+            "attack": 65,
+            "defense": 65,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 90,
+            "ability1": "しめりけ",
+            "ability2": "ちょすい",
+            "dream_ability": "",
+            "description": {
+              "firered": " 2ほんの あしは はったつしており  ちじょうで くらせるのに なぜか すいちゅう せいかつが すき。",
+              "leafgreen": " りくでも すいちゅうでも くらせる。ちじょうでは いつも あせをかき ひふを ぬめぬめ させている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "62",
+        "globalNo": "62",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "かくとう",
+            "hp": 90,
+            "attack": 85,
+            "defense": 95,
+            "special_attack": 70,
+            "special_defense": 90,
+            "speed": 70,
+            "ability1": "しめりけ",
+            "ability2": "ちょすい",
+            "dream_ability": "",
+            "description": {
+              "firered": " およぎが とくいで クロールや バタフライが できる。オリンピックの せんしゅも かなわないほど はやい。",
+              "leafgreen": " クロールや バタフライが とくいで オリンピックの せんしゅでも  ぐんぐんと おいぬいていく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "63",
+        "globalNo": "63",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 25,
+            "attack": 20,
+            "defense": 15,
+            "special_attack": 105,
+            "special_defense": 55,
+            "speed": 90,
+            "ability1": "シンクロ",
+            "ability2": "せいしんりょく",
+            "dream_ability": "",
+            "description": {
+              "firered": " 1にち 18じかんは ねている。ねむってる あいだでも さまざまな ちょうのうりょくを つかう。",
+              "leafgreen": " あいての かんがえてる ことを よみとって ピンチに なるまえに テレポートで にげてしまう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "64",
+        "globalNo": "64",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 40,
+            "attack": 35,
+            "defense": 30,
+            "special_attack": 120,
+            "special_defense": 70,
+            "speed": 105,
+            "ability1": "シンクロ",
+            "ability2": "せいしんりょく",
+            "dream_ability": "",
+            "description": {
+              "firered": " あるあさのこと。 ちょうのうりょく しょうねんが ベッドから めざめると ユンゲラーに へんしん していた。",
+              "leafgreen": " からだから とくべつな アルファはが でていて そばに ちかよるだけで あたまが いたくなってくる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "65",
+        "globalNo": "65",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 55,
+            "attack": 50,
+            "defense": 45,
+            "special_attack": 135,
+            "special_defense": 85,
+            "speed": 120,
+            "ability1": "シンクロ",
+            "ability2": "せいしんりょく",
+            "dream_ability": "",
+            "description": {
+              "firered": " ちからわざを あまり このまず ちょうのうりょくを じざいに あやつって あいてを たおす。",
+              "leafgreen": " スーパーコンピュータより すばやく けいさんする ずのうを もつ。ちのうしすうは だいたい5000。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "66",
+        "globalNo": "66",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 70,
+            "attack": 80,
+            "defense": 50,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 35,
+            "ability1": "こんじょう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ぜんしんが きんにくに なっており こどもほどの おおきさしかないのに おとな 100にんを なげとばせる。",
+              "leafgreen": " きんにくを きたえるのが だいすきで さまざまな かくとうぎに いどみ ますます つよく そだっていく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "67",
+        "globalNo": "67",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 80,
+            "attack": 100,
+            "defense": 70,
+            "special_attack": 50,
+            "special_defense": 60,
+            "speed": 45,
+            "ability1": "こんじょう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " つかれることのない きょうじんな にくたいを もつ。おもい にもつの うんぱんなどの しごとを てつだう。",
+              "leafgreen": " すごく きょうじんな にくたいなので パワーセーブ ベルトを つけて つよさを せいぎょしている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "68",
+        "globalNo": "68",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 90,
+            "attack": 130,
+            "defense": 80,
+            "special_attack": 65,
+            "special_defense": 85,
+            "speed": 55,
+            "ability1": "こんじょう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " はったつした 4ほんの うでは 2びょうかんに 1000ぱつの パンチを くりだすことができる。",
+              "leafgreen": " スーパー パワフルな パンチを くらった ものは ちへいせんまで ふっとんで いってしまうという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "69",
+        "globalNo": "69",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 50,
+            "attack": 75,
+            "defense": 35,
+            "special_attack": 70,
+            "special_defense": 30,
+            "speed": 40,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ひとの かおのような ツボミから でんせつの マンドラゴラの いっしゅ ではないかと ささやかれている。",
+              "leafgreen": " ちいさい むしを とらえて たべる。あしの ねっこを つかい すいぶんを ほきゅうすることも あるらしい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "70",
+        "globalNo": "70",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 65,
+            "attack": 90,
+            "defense": 50,
+            "special_attack": 85,
+            "special_defense": 45,
+            "speed": 55,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ハッパの ぶぶんは カッターになって あいてを きりさく。くちからは なんでも とかす えきたいを はく。",
+              "leafgreen": " まず どくのこなを はき あいての うごきを とめて しまってから ようかいえきで とどめを さす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "71",
+        "globalNo": "71",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 80,
+            "attack": 105,
+            "defense": 65,
+            "special_attack": 100,
+            "special_defense": 60,
+            "speed": 70,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ミツの ような かおりで くちの なかに さそいこまれたら さいご。ようかいえきで とかされてしまう。",
+              "leafgreen": " ジャングルの おくちに ウツボット ばかり いる ちたいが あって いったら 2どと かえってこれない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "72",
+        "globalNo": "72",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "みず",
+            "hp": 40,
+            "attack": 40,
+            "defense": 35,
+            "special_attack": 50,
+            "special_defense": 100,
+            "speed": 70,
+            "ability1": "クリアボディ",
+            "ability2": "ヘドロえき",
+            "dream_ability": "",
+            "description": {
+              "firered": " すいしょうの ように すきとおった めだまから ふしぎな ひかりの ビームを はっしゃする。",
+              "leafgreen": " うみの あさい ところを ただよう。つりびとが まちがって つりあげ さされる ことが おおいと きく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "73",
+        "globalNo": "73",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "みず",
+            "hp": 80,
+            "attack": 70,
+            "defense": 65,
+            "special_attack": 80,
+            "special_defense": 120,
+            "speed": 100,
+            "ability1": "クリアボディ",
+            "ability2": "ヘドロえき",
+            "dream_ability": "",
+            "description": {
+              "firered": " 80ぽん の しょくしゅが じゆうに うごく。さされると どくに おかされ するどい いたみが はしる。",
+              "leafgreen": " しょくしゅは ふだん みじかくて えものを さすときに ながく のびて からみつくのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "74",
+        "globalNo": "74",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 40,
+            "attack": 80,
+            "defense": 100,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 20,
+            "ability1": "いしあたま",
+            "ability2": "がんじょう",
+            "dream_ability": "",
+            "description": {
+              "firered": " まるくて もちやすいので つかんで あいてに なげて ぶつける イシツブテ がっせんが できる。",
+              "leafgreen": " そうげんや やまに せいそくする。いしころに にていて きがつかずに ふんだり つまずいたり してしまう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "75",
+        "globalNo": "75",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 55,
+            "attack": 95,
+            "defense": 115,
+            "special_attack": 45,
+            "special_defense": 45,
+            "speed": 35,
+            "ability1": "いしあたま",
+            "ability2": "がんじょう",
+            "dream_ability": "",
+            "description": {
+              "firered": " やまのなかの さかみちを あるいていると ゴローンが ころがって くることが ある。",
+              "leafgreen": " さかみちを ころがりながら いどう。じゃまな ものは どんどん おしつぶして すすんでいく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "76",
+        "globalNo": "76",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 80,
+            "attack": 110,
+            "defense": 130,
+            "special_attack": 55,
+            "special_defense": 65,
+            "speed": 45,
+            "ability1": "いしあたま",
+            "ability2": "がんじょう",
+            "dream_ability": "",
+            "description": {
+              "firered": " がんばんのような かたい カラで おおわれている。1ねんに 1かい だっぴして おおきくなる。",
+              "leafgreen": " がんせきのような かたい からだで できている。ダイナマイトで ばくはしても ダメージを うけない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "77",
+        "globalNo": "77",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 50,
+            "attack": 85,
+            "defense": 55,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 90,
+            "ability1": "にげあし",
+            "ability2": "もらいび",
+            "dream_ability": "",
+            "description": {
+              "firered": " からだが かるく あしの ちからが ものすごい。1かいの ジャンプで とうきょうタワーも とびこえる。",
+              "leafgreen": " あしの ヒヅメは ダイヤモンドの 10ばい かたい。どんな ものでも  ペチャンコに ふみつぶしてしまう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "78",
+        "globalNo": "78",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 65,
+            "attack": 100,
+            "defense": 70,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 105,
+            "ability1": "にげあし",
+            "ability2": "もらいび",
+            "dream_ability": "",
+            "description": {
+              "firered": " じそくは さいこう 240キロ。メラメラ もえながら しんかんせんと おなじ スピードで かけぬける。",
+              "leafgreen": " はやく うごく ぶったいを みると きょうそう したくなり もうれつな スピードで おいかけ はじめる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "79",
+        "globalNo": "79",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "エスパー",
+            "hp": 90,
+            "attack": 65,
+            "defense": 65,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 15,
+            "ability1": "どんかん",
+            "ability2": "マイペース",
+            "dream_ability": "",
+            "description": {
+              "firered": " いつも ボーッとしていて なにを かんがえているか わからない。しっぽで エサを つるのが とくい。",
+              "leafgreen": " うごきが のろく まぬけ。たたかれても 5びょう たってから いたさを かんじるほどだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "80",
+        "globalNo": "80",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "エスパー",
+            "hp": 95,
+            "attack": 75,
+            "defense": 110,
+            "special_attack": 100,
+            "special_defense": 80,
+            "speed": 30,
+            "ability1": "どんかん",
+            "ability2": "マイペース",
+            "dream_ability": "",
+            "description": {
+              "firered": " ヤドンが うみへ エサを とりにいったとき シェルダーに しっぽをかまれ ヤドランになった。",
+              "leafgreen": " くっついている シェルダーは ヤドンの たべのこした ものを エサにして いきているという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "81",
+        "globalNo": "81",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "はがね",
+            "hp": 25,
+            "attack": 35,
+            "defense": 70,
+            "special_attack": 95,
+            "special_defense": 55,
+            "speed": 45,
+            "ability1": "がんじょう",
+            "ability2": "じりょく",
+            "dream_ability": "",
+            "description": {
+              "firered": " くうちゅうに ういたまま いどうして さゆうの ユニットから でんじはなどを ほうしゃする。",
+              "leafgreen": " はんじゅうりょくで ういてるらしい。どこから ともなく あらわれて でんじはなどを ほうしゃする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "82",
+        "globalNo": "82",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "はがね",
+            "hp": 50,
+            "attack": 60,
+            "defense": 95,
+            "special_attack": 120,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "がんじょう",
+            "ability2": "じりょく",
+            "dream_ability": "",
+            "description": {
+              "firered": " ふくすうの コイルが れんけつして きょうりょくな じりょくせんと こうでんあつを ほうしゃする。",
+              "leafgreen": " れんけつした タイプの コイルは たいようの こくてんが おおいとき たくさん あらわれると いわれる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "83",
+        "globalNo": "83",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 52,
+            "attack": 65,
+            "defense": 55,
+            "special_attack": 58,
+            "special_defense": 62,
+            "speed": 60,
+            "ability1": "するどいめ",
+            "ability2": "せいしんりょく",
+            "dream_ability": "",
+            "description": {
+              "firered": " じぶんの すを つくるための しょくぶつの クキを いっぽん いつも もって あるいている。",
+              "leafgreen": " もっている クキは たいせつな ぶきでもあり かたなを ふるように いろんなものを きることが できる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "84",
+        "globalNo": "84",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ひこう",
+            "type2": "ノーマル",
+            "hp": 35,
+            "attack": 85,
+            "defense": 45,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 75,
+            "ability1": "にげあし",
+            "ability2": "はやおき",
+            "dream_ability": "",
+            "description": {
+              "firered": " とつぜんへんいで みつかった ふたつの あたまを もつ ポケモン。じそく 100キロで はしる。",
+              "leafgreen": " とぶのは にがてだが はしるのは  はやく きょだいな あしあとを のこして だいちを かけぬける。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "85",
+        "globalNo": "85",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ひこう",
+            "type2": "ノーマル",
+            "hp": 60,
+            "attack": 110,
+            "defense": 70,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 100,
+            "ability1": "にげあし",
+            "ability2": "はやおき",
+            "dream_ability": "",
+            "description": {
+              "firered": " めったに みつからない ちんしゅ。3つの あたまは よろこび かなしみ いかりの かんじょうを あらわす。",
+              "leafgreen": " 3つの あたまで こうどな さくせんを あやつる。ねるときも どれか 1つは おきているという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "86",
+        "globalNo": "86",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 65,
+            "attack": 45,
+            "defense": 55,
+            "special_attack": 45,
+            "special_defense": 70,
+            "speed": 45,
+            "ability1": "あついしぼう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " みずいろの たいもうに おおわれた ひふは ぶあつくて じょうぶ。れいか40ど でも かつどうできる。",
+              "leafgreen": " あたまに でっぱりが あって ひじょうに かたい。ずつきで ひょうざんを わって すすむ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "87",
+        "globalNo": "87",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "こおり",
+            "hp": 90,
+            "attack": 70,
+            "defense": 80,
+            "special_attack": 70,
+            "special_defense": 95,
+            "speed": 70,
+            "ability1": "あついしぼう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ぜんしんが まっしろな けで おおわれている。さむさに つよく むしろ さむいほど げんきになる。",
+              "leafgreen": " さむさに かつため からだの なかに ねつ エネルギーを たくわえる。さむい うみも 8ノットで すすむ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "88",
+        "globalNo": "88",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 80,
+            "attack": 80,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 50,
+            "speed": 25,
+            "ability1": "あくしゅう",
+            "ability2": "ねんちゃく",
+            "dream_ability": "",
+            "description": {
+              "firered": " つきからの エックスせんを あびた ヘドロが ベトベターに へんかした。 きたないモノが だいこうぶつ。",
+              "leafgreen": " きたない ばしょに あらわれる。 こうじょうが ながす ヘドロ はいえきを のんで いきている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "89",
+        "globalNo": "89",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 105,
+            "attack": 105,
+            "defense": 75,
+            "special_attack": 65,
+            "special_defense": 100,
+            "speed": 50,
+            "ability1": "あくしゅう",
+            "ability2": "ねんちゃく",
+            "dream_ability": "",
+            "description": {
+              "firered": " ふだんは じめんに まざっていて わからない。からだに さわると もうどくに おかされる。",
+              "leafgreen": " きたない ヘドロが ぜんしんに まとわりつく。あしあとに さわっただけで どくに おかされる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "90",
+        "globalNo": "90",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 30,
+            "attack": 65,
+            "defense": 100,
+            "special_attack": 45,
+            "special_defense": 25,
+            "speed": 40,
+            "ability1": "シェルアーマー",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ダイヤモンドよりも かたいカラに おおわれている。しかし なかは いがいと やわらかい。",
+              "leafgreen": " かたいカラは どんな こうげきも はねかえす。ひらいた ときに なかを こうげき されると よわい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "91",
+        "globalNo": "91",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "こおり",
+            "hp": 50,
+            "attack": 95,
+            "defense": 180,
+            "special_attack": 85,
+            "special_defense": 45,
+            "speed": 70,
+            "ability1": "シェルアーマー",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " カラが ひじょうに かたく ナパームだんでも こわせない。こうげきするときだけ ひらく。",
+              "leafgreen": " こうげきを うけると ひょうめんの トゲが つぎつぎと とんでくる。ないぶの しょうたいは ふめい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "92",
+        "globalNo": "92",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "ゴースト",
+            "hp": 30,
+            "attack": 35,
+            "defense": 30,
+            "special_attack": 100,
+            "special_defense": 35,
+            "speed": 80,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " うすい ガスじょうの せいめいたい。ガスに つつまれると インドぞうも 2びょうで たおれる。",
+              "leafgreen": " すがたが ほとんど みえない。しらない あいだに ガスに おかされて きを うしなう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "93",
+        "globalNo": "93",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "ゴースト",
+            "hp": 45,
+            "attack": 50,
+            "defense": 45,
+            "special_attack": 115,
+            "special_defense": 55,
+            "speed": 95,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " くらやみで だれもいないのに みられているような きがしたら そこに ゴーストが いるのだ。",
+              "leafgreen": " ブロックの かべも すりぬけるので いじげん くうかんの じゅうにん ではないかと うわさに なっている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "94",
+        "globalNo": "94",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "ゴースト",
+            "hp": 60,
+            "attack": 65,
+            "defense": 60,
+            "special_attack": 130,
+            "special_defense": 75,
+            "speed": 110,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " やまで そうなんしたとき いのちをうばいに くらやみから あらわれることが あるという。",
+              "leafgreen": " まんげつのよる かげが かってに うごきだして わらうのは ゲンガーの しわざに ちがいない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "95",
+        "globalNo": "95",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 35,
+            "attack": 45,
+            "defense": 160,
+            "special_attack": 30,
+            "special_defense": 45,
+            "speed": 70,
+            "ability1": "いしあたま",
+            "ability2": "がんじょう",
+            "dream_ability": "",
+            "description": {
+              "firered": " ふだんは つちのなかに すんでいる。ちちゅうを じそく 80キロで ほりながら エサを さがす。",
+              "leafgreen": " せいちょうすると からだの がんせきせいぶんが へんかして くろい ダイヤモンドのようになる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "96",
+        "globalNo": "96",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 60,
+            "attack": 48,
+            "defense": 45,
+            "special_attack": 43,
+            "special_defense": 90,
+            "speed": 42,
+            "ability1": "ふみん",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ユメを たべるという でんせつの いきもの バクの しそん。さいみんじゅつが とくいだ。",
+              "leafgreen": " ねむらせては ユメを たべるが  わるい ユメばかり たべてると おなかを こわすことが あるらしい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "97",
+        "globalNo": "97",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 85,
+            "attack": 73,
+            "defense": 70,
+            "special_attack": 73,
+            "special_defense": 115,
+            "speed": 67,
+            "ability1": "ふみん",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ふりこのようなものを もちあるく。こどもに さいみんじゅつを かけて どこかへ つれさるじけんが あった。",
+              "leafgreen": " あいてと めが あったときに さいみんじゅつなど かずかずの ちょうのうりょくを つかうという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "98",
+        "globalNo": "98",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 30,
+            "attack": 105,
+            "defense": 90,
+            "special_attack": 25,
+            "special_defense": 25,
+            "speed": 50,
+            "ability1": "かいりきバサミ",
+            "ability2": "シェルアーマー",
+            "dream_ability": "",
+            "description": {
+              "firered": " うみの ちかくで みつかる。おおきな ハサミは もぎとっても あとから また はえてくる。",
+              "leafgreen": " ハサミは きょうりょくな ぶきであり よこに あるくとき からだの バランスをとる やくめも はたす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "99",
+        "globalNo": "99",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 55,
+            "attack": 130,
+            "defense": 115,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 75,
+            "ability1": "かいりきバサミ",
+            "ability2": "シェルアーマー",
+            "dream_ability": "",
+            "description": {
+              "firered": " かたい ハサミは 1まんばりきの パワーを もっているが おおきすぎて うごきが にぶい。",
+              "leafgreen": " ハサミは 1まんばりきの スーパーパワーを ひめているのだが おおきすぎて うまく うごかない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "100",
+        "globalNo": "100",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 40,
+            "attack": 30,
+            "defense": 50,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 100,
+            "ability1": "せいでんき",
+            "ability2": "ぼうおん",
+            "dream_ability": "",
+            "description": {
+              "firered": " しょうたい ふめいの いきもの。いやなおとを だしたり とつぜん じばくする ことも あるという。",
+              "leafgreen": " はつでんしょなどに あらわれる。モンスターボールと まちがえて さわって しびれるひとが おおい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "101",
+        "globalNo": "101",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 60,
+            "attack": 50,
+            "defense": 70,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 140,
+            "ability1": "せいでんき",
+            "ability2": "ぼうおん",
+            "dream_ability": "",
+            "description": {
+              "firered": " すこしの しげきに はんのうして ばくはつする。バクダンボールという あだなで こわがられて いる。",
+              "leafgreen": " ぼうだいな エレクトン エネルギーを ためこんでおり ちょっとした しげきで だいばくはつを おこす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "102",
+        "globalNo": "102",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "エスパー",
+            "hp": 60,
+            "attack": 40,
+            "defense": 80,
+            "special_attack": 60,
+            "special_defense": 45,
+            "speed": 40,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " なにかの たまごの ようだが じつは しょくぶつの タネにちかい いきもの であることが わかった。",
+              "leafgreen": " たまごだと おもって さわると なかまが どんどん あつまってきて しゅうだん こうげきに あう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "103",
+        "globalNo": "103",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "エスパー",
+            "hp": 95,
+            "attack": 95,
+            "defense": 85,
+            "special_attack": 125,
+            "special_defense": 65,
+            "speed": 55,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " あるく ねったいうりん とよばれる。みの ひとつひとつに かおがあって それぞれ いしを もっている。",
+              "leafgreen": " ごくまれに あたまの どれか ひとつが じめんに おちると タマタマになって うごきだすという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "104",
+        "globalNo": "104",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 50,
+            "attack": 50,
+            "defense": 95,
+            "special_attack": 40,
+            "special_defense": 50,
+            "speed": 35,
+            "ability1": "いしあたま",
+            "ability2": "ひらいしん",
+            "dream_ability": "",
+            "description": {
+              "firered": " しにわかれた ははおやの ほねを あたまに かぶっている。さびしいとき おおごえで なくという。",
+              "leafgreen": " あたまに ほねの ヘルメットを かぶって いるので ほんとうの かおを みたものは いない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "105",
+        "globalNo": "105",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 60,
+            "attack": 80,
+            "defense": 110,
+            "special_attack": 50,
+            "special_defense": 80,
+            "speed": 45,
+            "ability1": "いしあたま",
+            "ability2": "ひらいしん",
+            "dream_ability": "",
+            "description": {
+              "firered": " からだも ちいさく もともと よわかった。ホネを つかうようになり せいかくが きょうぼうか した。",
+              "leafgreen": " ほねは だいじな ぶき である。ブーメランの ように なげて えものに ぶつけ きぜつ させる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "106",
+        "globalNo": "106",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 50,
+            "attack": 120,
+            "defense": 53,
+            "special_attack": 35,
+            "special_defense": 110,
+            "speed": 87,
+            "ability1": "じゅうなん",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " あしが じゆうに のびちぢみして とおく はなれている ばあいでも あいてを けりあげることが できる。",
+              "leafgreen": " いそいで はしるとき だんだん あしが のびていって ものすごい おおまたに なって すすむ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "107",
+        "globalNo": "107",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 50,
+            "attack": 105,
+            "defense": 79,
+            "special_attack": 35,
+            "special_defense": 110,
+            "speed": 76,
+            "ability1": "するどいめ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " プロボクサーの たましいが のりうつっている。パンチのスピードは しんかんせんよりも はやい。",
+              "leafgreen": " なんにも してない ようでも みえない スピードで パンチを だしまくってるから きを つけろ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "108",
+        "globalNo": "108",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 90,
+            "attack": 55,
+            "defense": 75,
+            "special_attack": 60,
+            "special_defense": 75,
+            "speed": 30,
+            "ability1": "マイペース",
+            "ability2": "どんかん",
+            "dream_ability": "",
+            "description": {
+              "firered": " したが しんちょうの 2ばいもある。エサをとったり こうげきをしたりと まるで てのように うごかせる。",
+              "leafgreen": " ベロが カメレオン みたいに ぐんぐん のびていく。なめられると なぜか ピリピリ しびれてくる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "109",
+        "globalNo": "109",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 40,
+            "attack": 65,
+            "defense": 95,
+            "special_attack": 60,
+            "special_defense": 45,
+            "speed": 35,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " うすい バルーンじょうの からだに もうどくの ガスが つまっている。ちかくにくると くさい。",
+              "leafgreen": " たいないに いろいろな どくガスが たまっているため ときどき だいばくはつを おこすことも。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "110",
+        "globalNo": "110",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 65,
+            "attack": 90,
+            "defense": 120,
+            "special_attack": 85,
+            "special_defense": 70,
+            "speed": 60,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ごくまれに とつぜんへんいで ふたごの ちいさい ドガースが れんけつしたまま でることがある。",
+              "leafgreen": " 2つの どくガスの せいぶんが ながい じかん ふきだまる ばしょで ふたごの ドガースが でるらしい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "111",
+        "globalNo": "111",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 80,
+            "attack": 85,
+            "defense": 95,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 25,
+            "ability1": "いしあたま",
+            "ability2": "ひらいしん",
+            "dream_ability": "",
+            "description": {
+              "firered": " あたまは わるいが ちからが つよく こうそうビルも たいあたりで コナゴナに ふんさいする。",
+              "leafgreen": " ほねが じょうぶで にんげんの 1000ばい かたい。たいあたりで おおがたトレーラーも ふっとばす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "112",
+        "globalNo": "112",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 105,
+            "attack": 130,
+            "defense": 120,
+            "special_attack": 45,
+            "special_defense": 45,
+            "speed": 40,
+            "ability1": "いしあたま",
+            "ability2": "ひらいしん",
+            "dream_ability": "",
+            "description": {
+              "firered": " しんかして うしろあし だけで たつようになった。ツノで つかれると がんせきにも あながあいてしまう。",
+              "leafgreen": " ぜんしんを よろいのような ひふで まもっている。2000どの マグマの なかでも いきられる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "113",
+        "globalNo": "113",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 250,
+            "attack": 5,
+            "defense": 5,
+            "special_attack": 35,
+            "special_defense": 105,
+            "speed": 50,
+            "ability1": "しぜんかいふく",
+            "ability2": "てんのめぐみ",
+            "dream_ability": "",
+            "description": {
+              "firered": " 1にちに いくつか たまごを うむ。その たまごは えいよう まんてんで ものすごく おいしい らしい。 ",
+              "leafgreen": " せいそくすうが とても すくない。つかまえた ひとには しあわせを もたらすと いわれている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "114",
+        "globalNo": "114",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 65,
+            "attack": 55,
+            "defense": 115,
+            "special_attack": 100,
+            "special_defense": 40,
+            "speed": 60,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ブルーの つるしょくぶつが からみあい しょうたいは みえない。ちかづくものに からみついてくる。",
+              "leafgreen": " ぜんしんが かいそうのような ツルに おおわれていて あるくたびに ゆらゆら ゆれる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "115",
+        "globalNo": "115",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 105,
+            "attack": 95,
+            "defense": 80,
+            "special_attack": 40,
+            "special_defense": 80,
+            "speed": 90,
+            "ability1": "はやおき",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " メスは おなかの ふくろに こどもを いれて そだてる。れんぞくパンチ こうげきが とくい。",
+              "leafgreen": " こどもは ははおやの おなかにある ふくろから ほとんど でてこない。やく3ねんで おやばなれする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "116",
+        "globalNo": "116",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 30,
+            "attack": 40,
+            "defense": 70,
+            "special_attack": 70,
+            "special_defense": 25,
+            "speed": 60,
+            "ability1": "すいすい",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ぜんまいのように クルクルまかれた しっぽで からだの バランスをとる。くちから スミを はくことが ある。",
+              "leafgreen": " すいめんから いきおいよく スミを はっしゃして とんでいる ムシを うちおとす ことが あるという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "117",
+        "globalNo": "117",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 55,
+            "attack": 65,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 45,
+            "speed": 85,
+            "ability1": "どくのトゲ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " うかつに さわろうとすると からだじゅうに はえる トゲに さされて きぜつすることも ある。",
+              "leafgreen": " ハネと しっぽを すばやく うごかし まえを むいたまま うしろへ およぐことも できる ポケモン。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "118",
+        "globalNo": "118",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 45,
+            "attack": 67,
+            "defense": 60,
+            "special_attack": 35,
+            "special_defense": 50,
+            "speed": 63,
+            "ability1": "すいすい",
+            "ability2": "みずのベール",
+            "dream_ability": "",
+            "description": {
+              "firered": " せビレ むなビレが きんにくのように はったつしており すいちゅうを 5ノットの はやさで およぐ。",
+              "leafgreen": " およぐとき おビレが ドレスのように しなやかに ゆれるので すいちゅうの じょおうと よばれる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "119",
+        "globalNo": "119",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 80,
+            "attack": 92,
+            "defense": 65,
+            "special_attack": 65,
+            "special_defense": 80,
+            "speed": 68,
+            "ability1": "すいすい",
+            "ability2": "みずのベール",
+            "dream_ability": "",
+            "description": {
+              "firered": " ドリルのように とがっている ツノで いわはだを くりぬき じぶんの すを つくっている。",
+              "leafgreen": " あきが くると さんらんの ために ながれに さからって ちからづよく かわを およぐ すがたが みられる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "120",
+        "globalNo": "120",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 30,
+            "attack": 45,
+            "defense": 55,
+            "special_attack": 70,
+            "special_defense": 55,
+            "speed": 85,
+            "ability1": "しぜんかいふく",
+            "ability2": "はっこう",
+            "dream_ability": "",
+            "description": {
+              "firered": " うみべに おおく あらわれ よるになると ちゅうしんが あかく てんめつする。",
+              "leafgreen": " からだの いちぶを きりとられても じこさいせいして もとに もどる なぞの おおい いきものだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "121",
+        "globalNo": "121",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "エスパー",
+            "hp": 60,
+            "attack": 75,
+            "defense": 85,
+            "special_attack": 100,
+            "special_defense": 85,
+            "speed": 115,
+            "ability1": "しぜんかいふく",
+            "ability2": "はっこう",
+            "dream_ability": "",
+            "description": {
+              "firered": " きかがくてきな ボディーから うちゅうせいぶつ ではないかと じもとでは うたがわれている。",
+              "leafgreen": " まんなかの コアとよばれる ぶぶんは なないろに かがやく。これを ほうせきにする ひとも いるという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "122",
+        "globalNo": "122",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 40,
+            "attack": 45,
+            "defense": 65,
+            "special_attack": 100,
+            "special_defense": 120,
+            "speed": 90,
+            "ability1": "ぼうおん",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ひとを しんじこませるのが うまい。パントマイムで つくったカベが ほんとうに あらわれるという。",
+              "leafgreen": " パントマイムの じゃまを すると とつぜん おおきな てのひらで おうふくビンタを してくるという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "123",
+        "globalNo": "123",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ひこう",
+            "type2": "むし",
+            "hp": 70,
+            "attack": 110,
+            "defense": 80,
+            "special_attack": 55,
+            "special_defense": 80,
+            "speed": 105,
+            "ability1": "むしのしらせ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " するどいカマで えものを きりさき いきのねを とめる。ごくまれに ハネをつかって とぶ。",
+              "leafgreen": " ニンジャの ような すばやさ。あまりに はやく うごいたときは なんびきも いるように みえる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "124",
+        "globalNo": "124",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "こおり",
+            "type2": "エスパー",
+            "hp": 65,
+            "attack": 50,
+            "defense": 35,
+            "special_attack": 115,
+            "special_defense": 95,
+            "speed": 95,
+            "ability1": "どんかん",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " にんげんのような ことばを はなすが まだ なにをいっているか ふめいで げんざい けんきゅうされている。",
+              "leafgreen": " こしを ふるように あるいている。ゆだんをすると おもわず つられて おどってしまうという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "125",
+        "globalNo": "125",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 65,
+            "attack": 83,
+            "defense": 57,
+            "special_attack": 95,
+            "special_defense": 85,
+            "speed": 105,
+            "ability1": "せいでんき",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " つよい でんきが だいこうぶつで おおきな はつでんしょ などに  しばしば あらわれる。",
+              "leafgreen": " はつでんしょ ふきんから すがたを けしたとき まちに だいていでんが おこると いわれている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "126",
+        "globalNo": "126",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 65,
+            "attack": 95,
+            "defense": 57,
+            "special_attack": 100,
+            "special_defense": 85,
+            "speed": 93,
+            "ability1": "ほのおのからだ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " かざんの かこうちかくで みつかった。くちから ほのおをはく。たいおんは 1200ど もある。",
+              "leafgreen": " みずから オレンジいろに もえていて ほのおの なかに かくれると まったく みわけが つかなくなる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "127",
+        "globalNo": "127",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "",
+            "hp": 65,
+            "attack": 125,
+            "defense": 100,
+            "special_attack": 55,
+            "special_defense": 70,
+            "speed": 85,
+            "ability1": "かいりきバサミ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " 2ほんの ながい ツノは パワフル。いちど はさまれて しまったら ちぎれるまで はなさない。",
+              "leafgreen": " ツノに はさんでも ちぎれない ばあいは はさんだまま ふりまわし なげとばす せんぽうを つかう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "128",
+        "globalNo": "128",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 75,
+            "attack": 100,
+            "defense": 95,
+            "special_attack": 40,
+            "special_defense": 70,
+            "speed": 110,
+            "ability1": "いかく",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " たいあたりしてくるとき 3ぼんの しっぽで じぶんの からだを ピシピシと たたく。",
+              "leafgreen": " えものに ねらいを つけると しっぽで からだを たたきながら まっすぐ つっこんでくる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "129",
+        "globalNo": "129",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 20,
+            "attack": 10,
+            "defense": 55,
+            "special_attack": 15,
+            "special_defense": 20,
+            "speed": 80,
+            "ability1": "すいすい",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ちからも スピードも ほとんどダメ。せかいで いちばん よわくて なさけない ポケモンだ。",
+              "leafgreen": " おおむかしは まだ もうすこし つよかったらしい。しかし いまは かなしい くらいに よわいのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "130",
+        "globalNo": "130",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ひこう",
+            "type2": "みず",
+            "hp": 95,
+            "attack": 125,
+            "defense": 79,
+            "special_attack": 60,
+            "special_defense": 100,
+            "speed": 81,
+            "ability1": "いかく",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " ひじょうに きょうぼうな せいかく。 くちからだす はかいこうせんは すべてのものを やきつくす。",
+              "leafgreen": " めったに すがたを あらわさないが ひとたび あばれだすと おおきな としが かいめつする ときもある。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "131",
+        "globalNo": "131",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "こおり",
+            "hp": 130,
+            "attack": 85,
+            "defense": 80,
+            "special_attack": 85,
+            "special_defense": 95,
+            "speed": 60,
+            "ability1": "シェルアーマー",
+            "ability2": "ちょすい",
+            "dream_ability": "",
+            "description": {
+              "firered": " ひとのことばを りかいする たかい ちのうをもつ。うみの うえを ひとをのせて すすむのが すき。",
+              "leafgreen": " かつて たくさん つかまえたため ぜつめつ すんぜんに なっている。せなかに ひとをのせて すすむ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "132",
+        "globalNo": "132",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 48,
+            "attack": 48,
+            "defense": 48,
+            "special_attack": 48,
+            "special_defense": 48,
+            "speed": 48,
+            "ability1": "じゅうなん",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " からだの さいぼうの つくりを じぶんで くみかえて ほかの せいめいたいに へんしんする。",
+              "leafgreen": " さいぼうそしきを いっしゅんで コピーして あいて そっくりに へんしんする のうりょくがある。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "133",
+        "globalNo": "133",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 55,
+            "attack": 55,
+            "defense": 50,
+            "special_attack": 45,
+            "special_defense": 65,
+            "speed": 55,
+            "ability1": "にげあし",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " 3しゅるいの ポケモンに しんかする かのうせいを もつ めずらしい ポケモンだ。",
+              "leafgreen": " ふきそくな いでんしを もつ。いしからでる ほうしゃせんによって からだが とつぜんへんいを おこす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "134",
+        "globalNo": "134",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 130,
+            "attack": 65,
+            "defense": 60,
+            "special_attack": 110,
+            "special_defense": 95,
+            "speed": 65,
+            "ability1": "ちょすい",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " からだの さいぼうの つくりが みずの ぶんしと にている。みずに とけると みえなくなる。",
+              "leafgreen": " みずべに すむが しっぽには さかなのような ひれが のこっていて にんぎょと まちがう ひともいる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "135",
+        "globalNo": "135",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 65,
+            "attack": 65,
+            "defense": 60,
+            "special_attack": 110,
+            "special_defense": 95,
+            "speed": 130,
+            "ability1": "ちくでん",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " おこったり おどろいたりすると ぜんしんの けが はりの ように さかだって あいてを つらぬく。",
+              "leafgreen": " くうきちゅうの マイナスイオンを すいこんで やく10000ボルトの でんきを はきだすことができる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "136",
+        "globalNo": "136",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 65,
+            "attack": 130,
+            "defense": 60,
+            "special_attack": 95,
+            "special_defense": 110,
+            "speed": 65,
+            "ability1": "もらいび",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " たいないに ほのおぶくろが あり ふかく いきを すいこんだあと 1700どの ひを はく。",
+              "leafgreen": " からだに ほのおを ためてるとき たいおんが 900ど いじょうに あがるので ひじょうに きけん。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "137",
+        "globalNo": "137",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 65,
+            "attack": 60,
+            "defense": 70,
+            "special_attack": 85,
+            "special_defense": 75,
+            "speed": 40,
+            "ability1": "トレース",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " さいこうの かがくりょくを つかい ついに じんこうの ポケモンを つくることに せいこうした。",
+              "leafgreen": " からだが プログラムで できている。でんしくうかんを じゆうじざいに いどうできる のうりょくをもつ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "138",
+        "globalNo": "138",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "みず",
+            "hp": 35,
+            "attack": 40,
+            "defense": 100,
+            "special_attack": 90,
+            "special_defense": 55,
+            "speed": 35,
+            "ability1": "シェルアーマー",
+            "ability2": "すいすい",
+            "dream_ability": "",
+            "description": {
+              "firered": " おおむかし うみに すんでいた こだい ポケモン。10ぽんの あしを くねらせて およぐ。",
+              "leafgreen": " ぜつめつした ポケモンだが まれに かせきが はっけんされ そこから いきかえらせることが できる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "139",
+        "globalNo": "139",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "みず",
+            "hp": 70,
+            "attack": 60,
+            "defense": 125,
+            "special_attack": 115,
+            "special_defense": 70,
+            "speed": 55,
+            "ability1": "シェルアーマー",
+            "ability2": "すいすい",
+            "dream_ability": "",
+            "description": {
+              "firered": " しょくしゅが てあしの ように はったつ してる。しがみつくと どうじに かみついて くる。",
+              "leafgreen": " するどい キバと しょくしゅを もちながら カラが おおきすぎて エサを とれず ぜつめつしたらしい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "140",
+        "globalNo": "140",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "みず",
+            "hp": 30,
+            "attack": 80,
+            "defense": 90,
+            "special_attack": 55,
+            "special_defense": 45,
+            "speed": 55,
+            "ability1": "カブトアーマー",
+            "ability2": "すいすい",
+            "dream_ability": "",
+            "description": {
+              "firered": " こだい せいぶつの かせきから さいせいしたポケモン。かたい カラで みを まもっている。",
+              "leafgreen": " とおい むかしに うみだった ちそうから かせきが はっけんされ ふっかつ させた ポケモンである。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "141",
+        "globalNo": "141",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "みず",
+            "hp": 60,
+            "attack": 115,
+            "defense": 105,
+            "special_attack": 65,
+            "special_defense": 70,
+            "speed": 80,
+            "ability1": "カブトアーマー",
+            "ability2": "すいすい",
+            "dream_ability": "",
+            "description": {
+              "firered": " すいちゅうを じゆうに およぎ するどい カマで えものを とらえ たいえきを すいとってしまう。",
+              "leafgreen": " やせてるので およぐのが はやい。えものを カマで きりさき たいえきを のこらず すいだす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "142",
+        "globalNo": "142",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "ひこう",
+            "hp": 80,
+            "attack": 105,
+            "defense": 65,
+            "special_attack": 60,
+            "special_defense": 75,
+            "speed": 130,
+            "ability1": "いしあたま",
+            "ability2": "プレッシャー",
+            "dream_ability": "",
+            "description": {
+              "firered": " こはくに のこされた きょうりゅうの いでんしから ふっかつさせた。たかいこえで なきながら とぶ。",
+              "leafgreen": " のこぎりのような かたちの キバで あいての のどを かみきってしまう。きょうぼうな こだいの ポケモンだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "143",
+        "globalNo": "143",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 160,
+            "attack": 110,
+            "defense": 65,
+            "special_attack": 65,
+            "special_defense": 110,
+            "speed": 30,
+            "ability1": "めんえき",
+            "ability2": "あついしぼう",
+            "dream_ability": "",
+            "description": {
+              "firered": " 1にちに たべものを 400キロ たべないと きが すまない。たべおわると ねむってしまう。",
+              "leafgreen": " ぐうたらで たべては ねるだけ。だから どんどん ふとっていき ますます なまけてしまうらしい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "144",
+        "globalNo": "144",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "こおり",
+            "type2": "ひこう",
+            "hp": 90,
+            "attack": 85,
+            "defense": 100,
+            "special_attack": 95,
+            "special_defense": 125,
+            "speed": 85,
+            "ability1": "プレッシャー",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " でんせつの とりポケモンの ひとつ。ながい しっぽが たなびいて とんでいく すがたは すばらしい。",
+              "leafgreen": " ゆきやまで さむくて しにそうなとき めのまえに あらわれるといわれる でんせつの れいとうポケモン。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "145",
+        "globalNo": "145",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "ひこう",
+            "hp": 90,
+            "attack": 90,
+            "defense": 85,
+            "special_attack": 125,
+            "special_defense": 90,
+            "speed": 100,
+            "ability1": "プレッシャー",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " でんせつの とりポケモンの ひとつ。とぶときに バチバチと なにかの はじけるような おとがする。",
+              "leafgreen": " くもの うえから きょだいな いなずまを おとしながら あらわれる でんせつの とりポケモンである。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "146",
+        "globalNo": "146",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "ひこう",
+            "hp": 90,
+            "attack": 100,
+            "defense": 90,
+            "special_attack": 125,
+            "special_defense": 85,
+            "speed": 90,
+            "ability1": "プレッシャー",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " でんせつの とりポケモンの ひとつ。オレンジいろの もえるようなハネが みるものを あっとうする。",
+              "leafgreen": " むかしから ひのとりでんせつとして しられる。 はばたくたびに はねが あかるく もえあがり うつくしい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "147",
+        "globalNo": "147",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ドラゴン",
+            "type2": "",
+            "hp": 41,
+            "attack": 64,
+            "defense": 45,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 50,
+            "ability1": "だっぴ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " こどもでも しんちょうは 2メートル いじょう。だっぴを くりかえして おおきくなる。",
+              "leafgreen": " ながいあいだ まぼろしの ポケモンと よばれた。わずかだが すいちゅうに すんでいることが わかった。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "148",
+        "globalNo": "148",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ドラゴン",
+            "type2": "",
+            "hp": 61,
+            "attack": 84,
+            "defense": 65,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "だっぴ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " うみや みずうみなどに すむという。はねをもたないが たまに そらを とぶ すがたが もくげきされる。",
+              "leafgreen": " オーラに つつまれる しんせいな いきものらしい。てんきを かえる ちからを もつと いわれている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "149",
+        "globalNo": "149",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ドラゴン",
+            "type2": "ひこう",
+            "hp": 91,
+            "attack": 134,
+            "defense": 95,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 80,
+            "ability1": "せいしんりょく",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " おおきな たいかくで そらを とぶ。ちきゅうを やく16じかんで 1しゅう してしまう。",
+              "leafgreen": " すがたを みたひとは すくないが じつざいする うみのけしん。ちのうも にんげんに ひってき するらしい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "150",
+        "globalNo": "150",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 106,
+            "attack": 110,
+            "defense": 90,
+            "special_attack": 154,
+            "special_defense": 90,
+            "speed": 130,
+            "ability1": "プレッシャー",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " けんきゅうの ために いでんしを どんどん くみかえていった けっか きょうぼうな ポケモンに なった。",
+              "leafgreen": " ひとりの かがくしゃが なんねんも おそろしい いでんし けんきゅうを つづけた けっか たんじょうした。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "151",
+        "globalNo": "151",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 100,
+            "attack": 100,
+            "defense": 100,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 100,
+            "ability1": "シンクロ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "firered": " みなみアメリカに せいそくする ぜつめつしたはずの ポケモン。ちのうがたかく なんでも おぼえる。",
+              "leafgreen": " いまでも まぼろしの ポケモンと いわれる。そのすがたを みたものは ぜんこくでも ほとんど いない。"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
