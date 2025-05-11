@@ -226,6 +226,7 @@ if __FILE__ == $0
     local_pokedex_array["red_green_blue_yellow"] = ["カントー図鑑"]
     local_pokedex_array["gold_silver_crystal"] = ["ジョウト図鑑"]
     local_pokedex_array["ruby_sapphire_emerald"] = ["ホウエン図鑑"]
+    local_pokedex_array["firered_leafgreen"] = ["カントー図鑑"]
     local_pokedex_array["diamond_pearl_platinum"] = ["シンオウ図鑑"]
     local_pokedex_array["black_white"] = ["イッシュ図鑑"]
     local_pokedex_array["black2_white2"] = ["イッシュ図鑑"]
@@ -238,6 +239,7 @@ if __FILE__ == $0
 
     local_pokedex_array.each do |game_version, local_pokedex|
       # JSONパースエラー時にファイル内容を表示しないようにする
+      puts "load for #{game_version}.json"
       begin
         content = File.read("./pokedex/#{game_version}/#{game_version}.json")
         pokedex_json = JSON.parse(content)
@@ -670,6 +672,7 @@ if __FILE__ == $0
         #   end
         # end
 
+    puts "load for local description"
     version_array = [
       "red",
       "green",
