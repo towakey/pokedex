@@ -1,0 +1,5831 @@
+{
+  "update": "20250513",
+  "game_version": "OmegaRuby_AlphaSapphire",
+  "pokedex": {
+    "ホウエン図鑑": [
+      {
+        "no": "1",
+        "globalNo": "252",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "special_attack": 65,
+            "special_defense": 55,
+            "speed": 70,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "かるわざ",
+            "description": {
+              "omegaruby": "あしの うらの ちいさな トゲを ひっかけて すいちょくの カベを のぼることが できる。ふとい しっぽを たたきつけて こうげきする。",
+              "alphasapphire": "ちんちゃく れいせい なにごとにも どうじない。からだの おおきな ポケモンに にらまれても いっぽも ひかずに にらみかえすぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "2",
+        "globalNo": "253",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 50,
+            "attack": 65,
+            "defense": 45,
+            "special_attack": 85,
+            "special_defense": 65,
+            "speed": 95,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "かるわざ",
+            "description": {
+              "omegaruby": "からだから はえた はっぱは もりの なかで てきから すがたを かくす ときに べんり。みつりんに くらす きのぼりの めいしゅ。",
+              "alphasapphire": "えだから えだへ みがるに とびまわる。どんなに すばやい ポケモンも もりの なかで ジュプトルを つかまえる ことは ふかのうだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "3",
+        "globalNo": "254",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 70,
+            "attack": 85,
+            "defense": 65,
+            "special_attack": 105,
+            "special_defense": 85,
+            "speed": 120,
+            "ability1": "しんりょく",
+            "ability2": "",
+            "dream_ability": "かるわざ",
+            "description": {
+              "omegaruby": "からだに はえた はっぱは するどい きれあじ。すばやい みのこなしで きの えだを とびまわり てきの ずじょうや はいごから おそいかかるぞ。",
+              "alphasapphire": "せなかの タネには じゅもくを げんきにする えいようが たくさん つまっていると いわれる。もりの きを だいじに そだてている ポケモン。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "4",
+        "globalNo": "255",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 45,
+            "attack": 60,
+            "defense": 40,
+            "special_attack": 70,
+            "special_defense": 50,
+            "speed": 45,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "かそく",
+            "description": {
+              "omegaruby": "トレーナーに くっついて ちょこちょこ あるく。くちから とばす ほのおは せっし 1000ど。あいてを くろコゲにする しゃくねつの たまだ。",
+              "alphasapphire": "たいないに ほのおを もやす ばしょが あるので だきしめると ぽかぽか とっても あたたかい。ぜんしん ふかふかの うもうに おおわれている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "5",
+        "globalNo": "256",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "かくとう",
+            "hp": 60,
+            "attack": 85,
+            "defense": 60,
+            "special_attack": 85,
+            "special_defense": 60,
+            "speed": 55,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "かそく",
+            "description": {
+              "omegaruby": "のやまを はしりまわって あしこしを きたえる。スピードと パワーを かねそなえた あしは 1びょうかんに 10ぱつの キックを くりだす。",
+              "alphasapphire": "クチバシから はきだす しゃくねつの ほのおと はかいりょく ばつぐんの キックで たたかう。なきごえが おおきいので とても やかましい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "6",
+        "globalNo": "257",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "かくとう",
+            "hp": 80,
+            "attack": 120,
+            "defense": 70,
+            "special_attack": 110,
+            "special_defense": 70,
+            "speed": 80,
+            "ability1": "もうか",
+            "ability2": "",
+            "dream_ability": "かそく",
+            "description": {
+              "omegaruby": "たたかいに なると てくびから しゃくねつの ほのおを ふきあげ ゆうかんに いどみかかる。あいてが てごわいほど はげしく もえあがる。",
+              "alphasapphire": "きょうじんな あしこしを もち 30かい だての ビルも らくらく とびこす ことが できる。ほのおの パンチで あいてを くろこげに する。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "7",
+        "globalNo": "258",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 50,
+            "attack": 70,
+            "defense": 50,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 40,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "しめりけ",
+            "description": {
+              "omegaruby": "あたまの ひれは とても びんかんな レーダー。みずや くうきの うごきから めを つかわずに まわりの ようすを キャッチすることが できる。",
+              "alphasapphire": "すいちゅうでは ほっぺの エラで こきゅうする。ピンチに なると からだより おおきな いわを こなごなに くだく パワーを はっきする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "8",
+        "globalNo": "259",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "じめん",
+            "hp": 70,
+            "attack": 85,
+            "defense": 70,
+            "special_attack": 60,
+            "special_defense": 70,
+            "speed": 50,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "しめりけ",
+            "description": {
+              "omegaruby": "ちじょうでも せいかつできる ように からだの ひょうめんを うすい ねんまくが つつんでいる。しおの ひいた かいがんで どろあそびを する。",
+              "alphasapphire": "すいちゅうを およぐより どろの なかを すすむ ほうが だんぜん はやく いどうできる。あしこしが はったつして 2ほんあしで あるく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "9",
+        "globalNo": "260",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "じめん",
+            "hp": 100,
+            "attack": 110,
+            "defense": 90,
+            "special_attack": 85,
+            "special_defense": 90,
+            "speed": 60,
+            "ability1": "げきりゅう",
+            "ability2": "",
+            "dream_ability": "しめりけ",
+            "description": {
+              "omegaruby": "おもさ 1トンいじょう ある いわの かたまりを かるがる ひっぱる パワーを もつ ポケモンだ。にごった すいちゅうも みとおす しりょく。",
+              "alphasapphire": "ラグラージは なみおとや しおかぜの わずかな ちがいを ヒレで かんじ あらしを よかんする。あらしになると いわを つみあげ すを まもる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "10",
+        "globalNo": "261",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "あく",
+            "type2": "",
+            "hp": 35,
+            "attack": 55,
+            "defense": 35,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 35,
+            "ability1": "にげあし",
+            "ability2": "はやあし",
+            "dream_ability": "びびり",
+            "description": {
+              "omegaruby": "うごく ものを みつけると すぐに かみつく。えものが ヘトヘトに なるまで おいかけまわすが はんげきされると しりごみする ことも あるよ。",
+              "alphasapphire": "なんでも たべる ざっしょくせいの ポケモン。からだに くらべ おおきな キバが とくちょう。しっぽの けを さかだてて てきを いかくする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "11",
+        "globalNo": "262",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "あく",
+            "type2": "",
+            "hp": 70,
+            "attack": 90,
+            "defense": 70,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 70,
+            "ability1": "いかく",
+            "ability2": "はやあし",
+            "dream_ability": "じしんかじょう",
+            "description": {
+              "omegaruby": "どうもうな うなりごえを あげながら しせいを ひくく している ときは こうげきの まえぶれ。するどく とがった キバで がぶりと かみつく。",
+              "alphasapphire": "グループで こうどうしていた やせいの ちが のこっているので すぐれた トレーナー だけを リーダーと みとめて めいれいに したがう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "12",
+        "globalNo": "263",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 38,
+            "attack": 30,
+            "defense": 41,
+            "special_attack": 30,
+            "special_defense": 41,
+            "speed": 60,
+            "ability1": "ものひろい",
+            "ability2": "くいしんぼう",
+            "dream_ability": "はやあし",
+            "description": {
+              "omegaruby": "いつも あっち こっちへ ジグザグ あるくのは こうきしんが とても つよくて めに うつる いろんな ものに きょうみを もつからだ。",
+              "alphasapphire": "せなかの かたい けを じゅもくに こすりつけ じぶんの なわばりで ある しるしを つける。しんだ ふりを して てきの めを ごまかすぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "13",
+        "globalNo": "264",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 78,
+            "attack": 70,
+            "defense": 61,
+            "special_attack": 50,
+            "special_defense": 61,
+            "speed": 100,
+            "ability1": "ものひろい",
+            "ability2": "くいしんぼう",
+            "dream_ability": "はやあし",
+            "description": {
+              "omegaruby": "まっすぐに つっぱしり しょうがいぶつが ある ときは ちょっかくに おれまがって よける。ゆるやかに カーブした みちが とても にがて。",
+              "alphasapphire": "えもの めがけて いっちょくせんに つっぱしる。じそく 100キロを こえる スピードを だすが いちど きゅうていし しないと まがれないのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "14",
+        "globalNo": "265",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "",
+            "hp": 45,
+            "attack": 45,
+            "defense": 35,
+            "special_attack": 20,
+            "special_defense": 30,
+            "speed": 20,
+            "ability1": "りんぷん",
+            "ability2": "",
+            "dream_ability": "にげあし",
+            "description": {
+              "omegaruby": "おしりの トゲで きの かわを はがして しみだした じゅえきを しょくりょうに する。きゅうばんの あしは ガラスでも すべらない。",
+              "alphasapphire": "エサにしようと つかまえにきた オオスバメに おしりの トゲを むけて ていこうする。しみだした どくで あいてを よわらせるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "15",
+        "globalNo": "266",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "",
+            "hp": 50,
+            "attack": 35,
+            "defense": 55,
+            "special_attack": 25,
+            "special_defense": 25,
+            "speed": 15,
+            "ability1": "だっぴ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "おちない ように いとを えだに まきつけて からだを ささえながら しんかを まっている。ちいさな あなから そとの ようすを うかがう。",
+              "alphasapphire": "しんかするまで なにも たべずに たえていると かんがえられていたが どうやら いとに ついた あまみずで かわきを いやしているらしい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "16",
+        "globalNo": "267",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 70,
+            "defense": 50,
+            "special_attack": 100,
+            "special_defense": 50,
+            "speed": 65,
+            "ability1": "むしのしらせ",
+            "ability2": "",
+            "dream_ability": "とうそうしん",
+            "description": {
+              "omegaruby": "あまい かふんが だいこうぶつの ポケモン。はなを つけた はちうえを まどべに おけば かふんを あつめに かならず とんでくるよ。",
+              "alphasapphire": "くるりと まいた はりの ような ながい くちは かふんを あつめる ときに とても べんり。はるかぜに のって かふんを あつめて まわる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "17",
+        "globalNo": "268",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "",
+            "hp": 50,
+            "attack": 35,
+            "defense": 55,
+            "special_attack": 25,
+            "special_defense": 25,
+            "speed": 15,
+            "ability1": "だっぴ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "マユルドの からだは くちから だした ほそい いとが からだを つつみ かたくなった もの。マユの なかで しんかの じゅんびを している。",
+              "alphasapphire": "うごくと つよい からだに しんか できないので どんなに いためつけられても じっと している。そのとき うけた いたみは ずっと わすれない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "18",
+        "globalNo": "269",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "どく",
+            "hp": 60,
+            "attack": 50,
+            "defense": 70,
+            "special_attack": 50,
+            "special_defense": 90,
+            "speed": 65,
+            "ability1": "りんぷん",
+            "ability2": "",
+            "dream_ability": "ふくがん",
+            "description": {
+              "omegaruby": "あかりに ひきよせられる しゅうせいを もつ。まちあかりに さそわれた ドクケイルの むれが がいろじゅの はっぱを たべちらかしてしまう。",
+              "alphasapphire": "はばたくと こまかい こなが まいあがる。すいこむと プロレスラーも ねこむ もうどくだ。しょっかくの レーダーで エサを さがす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "19",
+        "globalNo": "270",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "くさ",
+            "hp": 40,
+            "attack": 30,
+            "defense": 30,
+            "special_attack": 40,
+            "special_defense": 50,
+            "speed": 30,
+            "ability1": "すいすい",
+            "ability2": "あめうけざら",
+            "dream_ability": "マイペース",
+            "description": {
+              "omegaruby": "いけや みずうみの すいめんに ういて くらす。はっぱが かれると よわってしまうが きれいな みずを もとめて たまに りくちを いどうする。",
+              "alphasapphire": "もともとは ちじょうで せいかつしていたが あたまの はっぱが おもくなったので みずに うかんで くらすようになったと いわれている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "20",
+        "globalNo": "271",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "くさ",
+            "hp": 60,
+            "attack": 50,
+            "defense": 50,
+            "special_attack": 60,
+            "special_defense": 70,
+            "speed": 50,
+            "ability1": "すいすい",
+            "ability2": "あめうけざら",
+            "dream_ability": "マイペース",
+            "description": {
+              "omegaruby": "ゆうぐれになると かつどうする やこうせい。つりびとを みかけると すいちゅうから いとを ひっぱり ジャマをしては よろこんでいる。",
+              "alphasapphire": "からだじゅう ヌルヌルした ねんえきで おおわれ その てで さわられると とても きもちわるい。にんげんの こどもと よく まちがえられる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "21",
+        "globalNo": "272",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "くさ",
+            "hp": 80,
+            "attack": 70,
+            "defense": 70,
+            "special_attack": 90,
+            "special_defense": 100,
+            "speed": 70,
+            "ability1": "すいすい",
+            "ability2": "あめうけざら",
+            "dream_ability": "マイペース",
+            "description": {
+              "omegaruby": "ようきな おんがくを みみにすると おどりだす。ハイキングを している こどもの がっしょうに さそわれて すがたを あらわすと いわれている。",
+              "alphasapphire": "ようきな リズムを きくと からだの さいぼうが かっぱつに かつどうを はじめる たいしつ。たたかいでも すごい パワーを はっきするぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "22",
+        "globalNo": "273",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 40,
+            "attack": 40,
+            "defense": 50,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 30,
+            "ability1": "ようりょくそ",
+            "ability2": "はやおき",
+            "dream_ability": "わるいてぐせ",
+            "description": {
+              "omegaruby": "あたまの てっぺんを きの えだに くっつけて ぶらさがり ながら すいぶんを すいとっている。みずを のむほど からだが ツヤツヤ ひかる。",
+              "alphasapphire": "えだに ぶらさがる すがたは きのみ そっくり。いきなり うごいて ポケモンを ビックリさせる。1にち 1かい はっぱで からだを みがくよ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "23",
+        "globalNo": "274",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "あく",
+            "hp": 70,
+            "attack": 70,
+            "defense": 40,
+            "special_attack": 60,
+            "special_defense": 40,
+            "speed": 60,
+            "ability1": "ようりょくそ",
+            "ability2": "はやおき",
+            "dream_ability": "わるいてぐせ",
+            "description": {
+              "omegaruby": "うっそうと しげった もりに すむ ポケモン。たまに もりを でては ひとを おどろかせる。ながい はなを つかまれるのは だいきらい。",
+              "alphasapphire": "あたまの はっぱを ぬいて くさぶえを つくる。コノハナが かなでる くさぶえの ねいろは もりで まよった ひとを ふあんにさせる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "24",
+        "globalNo": "275",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "あく",
+            "hp": 90,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 90,
+            "special_defense": 60,
+            "speed": 80,
+            "ability1": "ようりょくそ",
+            "ability2": "はやおき",
+            "dream_ability": "わるいてぐせ",
+            "description": {
+              "omegaruby": "じゅれい 1000ねんを こえた たいぼくの てっぺんに すむと いわれる なぞの ポケモン。はっぱの うちわで きょうふうを まきおこす。",
+              "alphasapphire": "おおきな うちわは ふうそく 30メートルの きょうふうを おこし なんでも ふきとばす。もりの おくで ひっそり くらす ポケモンだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "25",
+        "globalNo": "276",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 40,
+            "attack": 55,
+            "defense": 30,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 85,
+            "ability1": "こんじょう",
+            "ability2": "",
+            "dream_ability": "きもったま",
+            "description": {
+              "omegaruby": "どんな つよい あいてでも ゆうかんに いどむ。まけても へこたれない こんじょうの もちぬし。おなかが すくと おおごえで ないて しまう。",
+              "alphasapphire": "すだちを おえたばかり なので よるに なると さみしく なって ないてしまう ことも ある。もりに すむ ケムッソを つかまえて たべる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "26",
+        "globalNo": "277",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 85,
+            "defense": 60,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 125,
+            "ability1": "こんじょう",
+            "ability2": "",
+            "dream_ability": "きもったま",
+            "description": {
+              "omegaruby": "はるか じょうくうを えんを えがく ように とびまわり えものを みつけると きゅうこうか。あしの ツメで がっしり つかんで にがさない。",
+              "alphasapphire": "ツヤの ある はねの ていれは おこたらない。オオスバメが 2ひき あつまると かならず おたがいの はねを きれいに ていれするぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "27",
+        "globalNo": "278",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "ひこう",
+            "hp": 40,
+            "attack": 30,
+            "defense": 30,
+            "special_attack": 55,
+            "special_defense": 30,
+            "speed": 85,
+            "ability1": "するどいめ",
+            "ability2": "",
+            "dream_ability": "あめうけざら",
+            "description": {
+              "omegaruby": "エサや だいじな ものを くちばしに はさみ いろんな ばしょに かくす しゅうせいを もつ。かぜに のって すべる ように そらを とぶ。",
+              "alphasapphire": "うみから ふく じょうしょう きりゅうに のり ほそながい つばさを のばして かっくうする。ながい くちばしは エサを とるときに べんり。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "28",
+        "globalNo": "279",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 50,
+            "defense": 100,
+            "special_attack": 85,
+            "special_defense": 70,
+            "speed": 65,
+            "ability1": "するどいめ",
+            "ability2": "",
+            "dream_ability": "あめうけざら",
+            "description": {
+              "omegaruby": "ちいさな ポケモンや タマゴを クチバシに いれて はこぶ そらの はこびやだ。うみべの けわしい がけに すを つくる。",
+              "alphasapphire": "かいめん すれすれを とび エサを さがす。おおきな クチバシを うみの なかへ いれて エサを すくいとり ひとのみで たべるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "29",
+        "globalNo": "280",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "フェアリー",
+            "hp": 28,
+            "attack": 25,
+            "defense": 25,
+            "special_attack": 45,
+            "special_defense": 35,
+            "speed": 40,
+            "ability1": "シンクロ",
+            "ability2": "トレース",
+            "dream_ability": "テレパシー",
+            "description": {
+              "omegaruby": "あたまの ツノで ひとの きもちを かんじとる。ひとまえには めったに すがたを あらわさないが まえむきな きもちを キャッチすると ちかよる。",
+              "alphasapphire": "ひとの かんじょうを さっちする ちからを もち トレーナーが あかるい きぶんの ときには いっしょに なって よろこぶ ポケモンだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "30",
+        "globalNo": "281",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "フェアリー",
+            "hp": 38,
+            "attack": 35,
+            "defense": 35,
+            "special_attack": 65,
+            "special_defense": 55,
+            "speed": 50,
+            "ability1": "シンクロ",
+            "ability2": "トレース",
+            "dream_ability": "テレパシー",
+            "description": {
+              "omegaruby": "トレーナーの あかるい かんじょうに ふれている キルリアは うつくしく せいちょうすると いう。はったつした のうで サイコパワーを あやつる。",
+              "alphasapphire": "あたまの ツノで ぞうふくされた サイコパワーが つかわれるとき まわりの くうかんが ねじまがり げんじつには ない けしきが みえると いう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "31",
+        "globalNo": "282",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "フェアリー",
+            "hp": 68,
+            "attack": 65,
+            "defense": 65,
+            "special_attack": 125,
+            "special_defense": 115,
+            "speed": 80,
+            "ability1": "シンクロ",
+            "ability2": "トレース",
+            "dream_ability": "テレパシー",
+            "description": {
+              "omegaruby": "みらいを よちする のうりょくで トレーナーの きけんを さっちしたとき さいだい パワーの サイコエネルギーを つかうと いわれている。",
+              "alphasapphire": "サイコパワーで くうかんを ねじまげ ちいさな ブラックホールを つくりだす ちからを もつ。いのちがけで トレーナーを まもる ポケモン。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "32",
+        "globalNo": "475",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "かくとう",
+            "hp": 68,
+            "attack": 125,
+            "defense": 65,
+            "special_attack": 65,
+            "special_defense": 115,
+            "speed": 80,
+            "ability1": "ふくつのこころ",
+            "ability2": "",
+            "dream_ability": "せいぎのこころ",
+            "description": {
+              "omegaruby": "あいての かんがえを びんかんに キャッチする のうりょくを もつため さきに こうげきが できるのだ。",
+              "alphasapphire": "のびちぢみする ひじの かたなで たたかう。 いあいの めいしゅ。 れいぎ ただしい ポケモン。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "33",
+        "globalNo": "283",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "みず",
+            "hp": 40,
+            "attack": 30,
+            "defense": 32,
+            "special_attack": 50,
+            "special_defense": 52,
+            "speed": 65,
+            "ability1": "すいすい",
+            "ability2": "",
+            "dream_ability": "あめうけざら",
+            "description": {
+              "omegaruby": "つまさきから あぶらが にじみでて いるので みずの うえを すべる ように あるけるのだ。いけや みずうみの びせいぶつを たべている。",
+              "alphasapphire": "きけんを かんじると あたまの さきっぽから みずあめのような あまい えきたいを だす。これが こうぶつの ポケモンも いるよ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "34",
+        "globalNo": "284",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "ひこう",
+            "hp": 70,
+            "attack": 60,
+            "defense": 62,
+            "special_attack": 80,
+            "special_defense": 82,
+            "speed": 60,
+            "ability1": "いかく",
+            "ability2": "",
+            "dream_ability": "きんちょうかん",
+            "description": {
+              "omegaruby": "しょっかくの めだま もようで てきを いかく。4まいの はねを つかい ヘリコプターの ように くうちゅうで ぜんごさゆう じゆうに すすめる。",
+              "alphasapphire": "おこった ひょうじょうの めだま もようが かなしそうに たれさがっている ときは ゆうだちの ふりだす ぜんちょうと いわれる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "35",
+        "globalNo": "285",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 60,
+            "attack": 40,
+            "defense": 60,
+            "special_attack": 40,
+            "special_defense": 60,
+            "speed": 35,
+            "ability1": "ほうし",
+            "ability2": "ポイズンヒール",
+            "dream_ability": "はやあし",
+            "description": {
+              "omegaruby": "ふかい もりの しめった じめんに せいそく。おちばの したで じっとしていることが おおい。おちばが つもって できた ふようどを たべる。",
+              "alphasapphire": "きけんを かんじると からだを ふるわせて あたまの てっぺんから ほうしを ばらまくぞ。くさきも しおれてしまうほどの もうどくだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "36",
+        "globalNo": "286",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "かくとう",
+            "hp": 60,
+            "attack": 130,
+            "defense": 80,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 70,
+            "ability1": "ほうし",
+            "ability2": "ポイズンヒール",
+            "dream_ability": "テクニシャン",
+            "description": {
+              "omegaruby": "かろやかな フットワークで てきに ちかづき のびちぢみする うでで パンチを くりだす。ボクサー かおまけの テクニックの もちぬし。",
+              "alphasapphire": "シッポの タネは どくの ほうしが かたまって できた ものなので たべたら たいへんだ。ひとくちで おなかが グルグル なりだすぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "37",
+        "globalNo": "287",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 60,
+            "attack": 60,
+            "defense": 60,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 30,
+            "ability1": "なまけ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "1にち 20じかん いじょう ねそべっている。ほとんど からだを うごかさないので はっぱを 3まい たべれば 1にちの しょくじが おわる。",
+              "alphasapphire": "しんぞうの こどうは 1ぷんかんに 1かい。とにかく じっと ねそべっている ポケモンで うごく すがたを みることは ほとんど ない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "38",
+        "globalNo": "288",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 80,
+            "attack": 80,
+            "defense": 80,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 90,
+            "ability1": "やるき",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "いつも あばれたくて ウズウズ している。1ぷんでも すわっている ことが たえられない。うごいて いないと ストレスが たまってしまう。",
+              "alphasapphire": "じっとしている ことが できない ポケモンだ。ねむろうとしても からだの ちが たぎってしまい もりじゅうを かけまわらないと おさまらない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "39",
+        "globalNo": "289",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 150,
+            "attack": 160,
+            "defense": 100,
+            "special_attack": 95,
+            "special_defense": 65,
+            "speed": 100,
+            "ability1": "なまけ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "1にちじゅう ねそべったまま くらす ポケモン。ての とどく ばしょに はえている くさを たべ くさが なくなると しぶしぶ ばしょを かえる。",
+              "alphasapphire": "そうげんに きざまれた はんけい 1メートルの わっかは ケッキングが ねそべったまま まわりの くさを たべつくして できた ものだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "40",
+        "globalNo": "63",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 25,
+            "attack": 20,
+            "defense": 15,
+            "special_attack": 105,
+            "special_defense": 55,
+            "speed": 90,
+            "ability1": "シンクロ",
+            "ability2": "せいしんりょく",
+            "dream_ability": "マジックガード",
+            "description": {
+              "omegaruby": "1にち 18じかん ねむっている ポケモン。ねむったままでも てきの けはいを さっちすると テレポートして にげる ことが できるぞ。",
+              "alphasapphire": "まいにち 18じかん ねむらないと ねぶそくで ちょうのうりょくが つかえなくなってしまう。おそわれると ねたまま テレポートで にげる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "41",
+        "globalNo": "64",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 40,
+            "attack": 35,
+            "defense": 30,
+            "special_attack": 120,
+            "special_defense": 70,
+            "speed": 105,
+            "ability1": "シンクロ",
+            "ability2": "せいしんりょく",
+            "dream_ability": "マジックガード",
+            "description": {
+              "omegaruby": "ずつうを おこす とくしゅな アルファはを だすので つよい せいしんりょくの もちぬしじゃ ないと ユンゲラーの トレーナーには なれない。",
+              "alphasapphire": "ぎんの スプーンは アルファはを たかめる。スプーンが ないと いつもの はんぶんしか ちょうのうりょくを つかえなくなると いう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "42",
+        "globalNo": "65",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 55,
+            "attack": 50,
+            "defense": 45,
+            "special_attack": 135,
+            "special_defense": 95,
+            "speed": 120,
+            "ability1": "シンクロ",
+            "ability2": "せいしんりょく",
+            "dream_ability": "マジックガード",
+            "description": {
+              "omegaruby": "のうが どんどん おおきくなったので くびでは ささえきれないほど あたまが おもくなった。ちょうのうりょくで あたまを ささえているのだ。",
+              "alphasapphire": "むげんに ふえる のうさいぼうが ちのうしすう 5000の スーパーずのうを つくりだした。せかいの できごとを すべて きおくしている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "43",
+        "globalNo": "290",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "じめん",
+            "hp": 31,
+            "attack": 45,
+            "defense": 90,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 40,
+            "ability1": "ふくがん",
+            "ability2": "",
+            "dream_ability": "にげあし",
+            "description": {
+              "omegaruby": "なんねんも まっくらな つちの なかで くらす。きの ねっこから えいようを きゅうしゅうして じっと うごかず しんかの ときを まっている。",
+              "alphasapphire": "するどい ツメで じゅもくの ねっこを けずり すいぶんや えいようを きゅうしゅうする。たいようの ひかりは まぶしいので にがて。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "44",
+        "globalNo": "291",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "ひこう",
+            "hp": 61,
+            "attack": 90,
+            "defense": 45,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 160,
+            "ability1": "かそく",
+            "ability2": "",
+            "dream_ability": "すりぬけ",
+            "description": {
+              "omegaruby": "こうそくで うごきまわり すがたが みえない。なきごえしか きこえて こないので ながいあいだ とうめいな ポケモンと かんがえられていた。",
+              "alphasapphire": "じょうずに そだてないと いうことを きかず おおごえで なきつづけるので トレーナーの うでが ためされる ポケモンと いわれている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "45",
+        "globalNo": "292",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "ゴースト",
+            "hp": 1,
+            "attack": 90,
+            "defense": 45,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 40,
+            "ability1": "ふしぎなまもり",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "かたい からだは ぴくりとも うごかない。せなかから からだの くうどうを のぞくと たましいを すいとられると しんじられている。",
+              "alphasapphire": "ツチニンが しんかしたとき なぜか かってに モンスターボールに はいっている ポケモンだ。からだは まったく うごかず いきも しない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "46",
+        "globalNo": "293",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 64,
+            "attack": 51,
+            "defense": 23,
+            "special_attack": 51,
+            "special_defense": 23,
+            "speed": 28,
+            "ability1": "ぼうおん",
+            "ability2": "",
+            "dream_ability": "びびり",
+            "description": {
+              "omegaruby": "ふだんは ちゅういしないと ききとれない くらい ちいさな こえだが きけんを さっち すると ずつうを おこす ほどの おおごえで なきだす。",
+              "alphasapphire": "ひとたび おおごえで なきだすと じぶんの こえに びっくりして さらに はげしく なく。なきやむと つかれて ねむってしまう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "47",
+        "globalNo": "294",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 84,
+            "attack": 71,
+            "defense": 43,
+            "special_attack": 71,
+            "special_defense": 43,
+            "speed": 48,
+            "ability1": "ぼうおん",
+            "ability2": "",
+            "dream_ability": "きもったま",
+            "description": {
+              "omegaruby": "もくぞうの いえを コナゴナに ふきとばすほどの おおごえを だして あいてを いためつける。まるい みみが スピーカーの はたらきを する。",
+              "alphasapphire": "あしを ふみならしながら おおごえを だす。おおごえを だしたあとは しばらくの あいだ なにも きこえなくなってしまうのが じゃくてん。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "48",
+        "globalNo": "295",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 104,
+            "attack": 91,
+            "defense": 63,
+            "special_attack": 91,
+            "special_defense": 73,
+            "speed": 68,
+            "ability1": "ぼうおん",
+            "ability2": "",
+            "dream_ability": "きもったま",
+            "description": {
+              "omegaruby": "おおごえの しんどうで じしんを おこす。からだの あなから くうきを はげしく すいこみ はじめたら おおごえを だす まえぶれだ。",
+              "alphasapphire": "からだの あなから ふえの ような おとを だして なかまに きもちを つたえている。おおごえは たたかう ときしか ださないのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "49",
+        "globalNo": "296",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 72,
+            "attack": 60,
+            "defense": 30,
+            "special_attack": 20,
+            "special_defense": 30,
+            "speed": 25,
+            "ability1": "あついしぼう",
+            "ability2": "こんじょう",
+            "dream_ability": "ちからずく",
+            "description": {
+              "omegaruby": "なんかい たおされても あきらめず たちあがる。たちあがるたび しんかするための エネルギーが からだの なかに どんどん たくわえられていく。",
+              "alphasapphire": "ぜったいに あきらめない こんじょうを もつ。たくさん たべ よく ねて うんどうする ことで からだの なかに エネルギーが じゅうまんする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "50",
+        "globalNo": "297",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 144,
+            "attack": 120,
+            "defense": 60,
+            "special_attack": 40,
+            "special_defense": 60,
+            "speed": 50,
+            "ability1": "あついしぼう",
+            "ability2": "こんじょう",
+            "dream_ability": "ちからずく",
+            "description": {
+              "omegaruby": "いろんな ばしょで はりての けいこに はげむ。きょうれつな はりて こうげきを くらうと でんしんばしらも いちげきで まっぷたつだ。",
+              "alphasapphire": "ふとった からだは きんにくの かたまり。ぐぐっと ぜんしんに ちからを こめると きんにくは いわと おなじ かたさになるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "51",
+        "globalNo": "118",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 45,
+            "attack": 67,
+            "defense": 60,
+            "special_attack": 35,
+            "special_defense": 50,
+            "speed": 63,
+            "ability1": "すいすい",
+            "ability2": "みずのベール",
+            "dream_ability": "ひらいしん",
+            "description": {
+              "omegaruby": "すいちゅうで ゆうがに たなびく ひれが とても うつくしい ポケモンだが ゆだんを していると きょうれつな ツノの ひとつきを くらうぞ。",
+              "alphasapphire": "かわや いけを およぐ ことが だいすきなので すいそう なんかに いれていたら ぶあつい ガラスも ツノの ひとつきで わって にげるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "52",
+        "globalNo": "119",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 80,
+            "attack": 92,
+            "defense": 65,
+            "special_attack": 65,
+            "special_defense": 80,
+            "speed": 68,
+            "ability1": "すいすい",
+            "ability2": "みずのベール",
+            "dream_ability": "ひらいしん",
+            "description": {
+              "omegaruby": "あきに なると メスに プロポーズする ために かわぞこで おどる オスを みることが できる。からだの いろが もっとも うつくしい きせつ。",
+              "alphasapphire": "タマゴを まもるため オスと メスは こうたいで すの まわりを およぎまわり パトロールする。タマゴが かえるまで ひとつきいじょう つづく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "53",
+        "globalNo": "129",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 20,
+            "attack": 10,
+            "defense": 55,
+            "special_attack": 15,
+            "special_defense": 20,
+            "speed": 80,
+            "ability1": "すいすい",
+            "ability2": "",
+            "dream_ability": "びびり",
+            "description": {
+              "omegaruby": " はねる ことしか しない なさけない ポケモン。なぜ はねるのか しらべた けんきゅうしゃが いるほど とにかく はねて はねて はねまくる。",
+              "alphasapphire": " はねている だけで まんぞくに たたかえないため よわいと おもわれているが どんなに よごれた みずでも くらせる しぶとい ポケモンなのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "54",
+        "globalNo": "130",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "ひこう",
+            "hp": 95,
+            "attack": 125,
+            "defense": 79,
+            "special_attack": 60,
+            "special_defense": 100,
+            "speed": 81,
+            "ability1": "いかく",
+            "ability2": "",
+            "dream_ability": "じしんかじょう",
+            "description": {
+              "omegaruby": " コイキングから ギャラドスに しんかする とき のうさいぼうの こうぞうが くみかわる ために せいかくが きょうぼうに なると いわれている。",
+              "alphasapphire": " いちど あばれはじめると すべてを もやさないと きょうぼうな ちが おさまらなく なってしまう。 ひとつき あばれつづけた きろくが のこる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "55",
+        "globalNo": "298",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "フェアリー",
+            "hp": 50,
+            "attack": 20,
+            "defense": 40,
+            "special_attack": 20,
+            "special_defense": 40,
+            "speed": 20,
+            "ability1": "あついしぼう",
+            "ability2": "ちからもち",
+            "dream_ability": "そうしょく",
+            "description": {
+              "omegaruby": "なげなわの ようりょうで しっぽを ふりまわし なげた ときの ちからで とんでいく。さいこう 10メートル とんだ きろくが ある。",
+              "alphasapphire": "しっぽには せいちょうする ために ひつような えいようが たっぷり つまっているぞ。だんりょくの ある しっぽに のって あそぶ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "56",
+        "globalNo": "183",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "フェアリー",
+            "hp": 70,
+            "attack": 20,
+            "defense": 50,
+            "special_attack": 20,
+            "special_defense": 50,
+            "speed": 40,
+            "ability1": "あついしぼう",
+            "ability2": "ちからもち",
+            "dream_ability": "そうしょく",
+            "description": {
+              "omegaruby": "あぶらの つまった しっぽは うきわの かわり。すいめんに しっぽだけが ういている ときは もぐって みずくさを たべている めじるしだ。",
+              "alphasapphire": " ながれの はやい かわで エサを とる ときは しっぽを かわべりの きの みきに まきつける。しっぽは だんりょくがあって のびる しくみ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "57",
+        "globalNo": "184",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "フェアリー",
+            "hp": 100,
+            "attack": 50,
+            "defense": 80,
+            "special_attack": 60,
+            "special_defense": 80,
+            "speed": 50,
+            "ability1": "あついしぼう",
+            "ability2": "ちからもち",
+            "dream_ability": "そうしょく",
+            "description": {
+              "omegaruby": "ながい みみは マリルリの だいじな センサー。みみを すませば ながれの はげしい かわでも そこに いる えものの しゅるいが わかるぞ。",
+              "alphasapphire": " くうきの ふうせんを つくる ことが できる。ポケモンが おぼれていると くうきだまを だして こきゅうが できる ように してあげるのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "58",
+        "globalNo": "74",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "じめん",
+            "hp": 40,
+            "attack": 80,
+            "defense": 100,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 20,
+            "ability1": "いしあたま",
+            "ability2": "がんじょう",
+            "dream_ability": "すながくれ",
+            "description": {
+              "omegaruby": " ながいきの イシツブテほど からだの かどは けずれ まるくなっていくが きもちは いつまでも ごつごつ とがって あらあらしいのだ。",
+              "alphasapphire": " じめんに はんぶん うまり ぐっすり ねむる。とざんしゃに ふまれても まったく おきないよ。あさ エサを さがして さかを ころがりおちる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "59",
+        "globalNo": "75",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "じめん",
+            "hp": 55,
+            "attack": 95,
+            "defense": 115,
+            "special_attack": 45,
+            "special_defense": 45,
+            "speed": 35,
+            "ability1": "いしあたま",
+            "ability2": "がんじょう",
+            "dream_ability": "すながくれ",
+            "description": {
+              "omegaruby": " いわを たべて せいちょうする ポケモンだ。 コケの ついた いわの ほうが すき らしい。 1にちに 1トンの いわを たべてしまうぞ。",
+              "alphasapphire": " やまの ふもとから さんちょうまで のぼる あいだに だいすきな いわを ガリガリ たべる。 ちょうじょうに つくと また ころがりおちる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "60",
+        "globalNo": "76",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "じめん",
+            "hp": 80,
+            "attack": 120,
+            "defense": 130,
+            "special_attack": 55,
+            "special_defense": 65,
+            "speed": 45,
+            "ability1": "いしあたま",
+            "ability2": "がんじょう",
+            "dream_ability": "すながくれ",
+            "description": {
+              "omegaruby": " おおきな じしんが おこると やまに すんでいる ゴローニャが なんびきも ふもとまで ごろごろ ころがり おちてくる ことが あるよ。",
+              "alphasapphire": " やまの しゃめんに ほってある みぞは ころがり おちてきた ゴローニャが みんかに ぶつからない ように するための とおりみちに なっているぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "61",
+        "globalNo": "299",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "",
+            "hp": 30,
+            "attack": 45,
+            "defense": 135,
+            "special_attack": 45,
+            "special_defense": 90,
+            "speed": 30,
+            "ability1": "がんじょう",
+            "ability2": "じりょく",
+            "dream_ability": "すなのちから",
+            "description": {
+              "omegaruby": "じしゃくの はなは いつも きたを むいている。ノズパスどうしは じしゃくが はんぱつしあうため ちかくで かおを あわせる ことが できない。",
+              "alphasapphire": "じしゃくの はなを きたに むけたまま まったく うごかないと いわれていたが 1ねんに 1センチ いどう している ことが かんそくされた。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "62",
+        "globalNo": "476",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "はがね",
+            "hp": 60,
+            "attack": 55,
+            "defense": 145,
+            "special_attack": 75,
+            "special_defense": 150,
+            "speed": 40,
+            "ability1": "がんじょう",
+            "ability2": "じりょく",
+            "dream_ability": "すなのちから",
+            "description": {
+              "omegaruby": "ぜんしんから つよい じりょくを だしている。3この チビノーズと よばれる ユニットを あやつる。",
+              "alphasapphire": "チビノーズと よばれる ちいさな 3つの ユニットを じりょくで じゆうじざいに あやつっている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "63",
+        "globalNo": "300",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 50,
+            "attack": 45,
+            "defense": 45,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 50,
+            "ability1": "メロメロボディ",
+            "ability2": "ノーマルスキン",
+            "dream_ability": "ミラクルスキン",
+            "description": {
+              "omegaruby": "うごく ものを みつけると むちゅうに なって おいかけまわす しゅうせいを もつ ポケモン。じぶんの シッポを おいかけて めを まわす。",
+              "alphasapphire": "じぶんの シッポを おいかけまわす ポケモン。やせいは もりの じゅもくの あなで くらす。あいくるしい かおで ペットとして だいにんき。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "64",
+        "globalNo": "301",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 70,
+            "attack": 65,
+            "defense": 65,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 70,
+            "ability1": "メロメロボディ",
+            "ability2": "ノーマルスキン",
+            "dream_ability": "ミラクルスキン",
+            "description": {
+              "omegaruby": "マイペースで じゆうきままな くらしを このむ。きのむくまま エサを たべたり ねむったり しているので 1にちの リズムが バラバラだ。",
+              "alphasapphire": "きまった すみかを もたずに くらす ポケモン。ほかの ポケモンが ねどこに ちかよって きても けっして あらそわず ねる ばしょを かえる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "65",
+        "globalNo": "41",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "ひこう",
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "special_attack": 30,
+            "special_defense": 40,
+            "speed": 55,
+            "ability1": "せいしんりょく",
+            "ability2": "",
+            "dream_ability": "すりぬけ",
+            "description": {
+              "omegaruby": " ひるま くらやみで じっと しているのは たいようの ひかりを ながい じかん あびると ぜんしんが かるく やけどしてしまうからだ。",
+              "alphasapphire": " たいようの ひかりを あびると たいちょうが わるくなるので ひるまは どうくつや ふるびた いえの のきしたに ぶらさがって ねている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "66",
+        "globalNo": "42",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "ひこう",
+            "hp": 75,
+            "attack": 80,
+            "defense": 70,
+            "special_attack": 65,
+            "special_defense": 75,
+            "speed": 90,
+            "ability1": "せいしんりょく",
+            "ability2": "",
+            "dream_ability": "すりぬけ",
+            "description": {
+              "omegaruby": "いきものの けつえきが だいこうぶつ。とくに まよなか かつどうする ことが おおく いきちを もとめて よぞらを とびまわる。",
+              "alphasapphire": "4ほんの キバで かみつき けつえきを のむ。つきの でてない まっくらな よるは かっぱつに とびまわり ひとや ポケモンを おそうぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "67",
+        "globalNo": "169",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "ひこう",
+            "hp": 85,
+            "attack": 90,
+            "defense": 80,
+            "special_attack": 70,
+            "special_defense": 80,
+            "speed": 130,
+            "ability1": "せいしんりょく",
+            "ability2": "",
+            "dream_ability": "すりぬけ",
+            "description": {
+              "omegaruby": "うでか あしの どちらかだけで はばたいている ときは ながい きょりを とんでいる しょうこ。つかれると はばたく ハネを かえるのだ。",
+              "alphasapphire": "みみを すまさないと きこえないほど ちいさな はおとで ねらった えものに しのびよるぞ。うしろあしの ハネで えだに つかまり やすむ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "68",
+        "globalNo": "72",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "どく",
+            "hp": 40,
+            "attack": 40,
+            "defense": 35,
+            "special_attack": 50,
+            "special_defense": 100,
+            "speed": 70,
+            "ability1": "クリアボディ",
+            "ability2": "ヘドロえき",
+            "dream_ability": "あめうけざら",
+            "description": {
+              "omegaruby": "からだの ほとんどが みずで できているので うみから でると からからに ひからびてしまう。ひからびた ときは うみに もどしてあげよう。",
+              "alphasapphire": "たいようこうせんを からだの なかの すいぶんで くっせつさせて ビームの エネルギーに かえる。すいしょうの ような めだまから はっしゃする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "69",
+        "globalNo": "73",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "どく",
+            "hp": 80,
+            "attack": 70,
+            "defense": 65,
+            "special_attack": 80,
+            "special_defense": 120,
+            "speed": 100,
+            "ability1": "クリアボディ",
+            "ability2": "ヘドロえき",
+            "dream_ability": "あめうけざら",
+            "description": {
+              "omegaruby": "あたまの あかい たまが ひかるとき はげしい ちょうおんぱが あたりに はっしゃ される。そのとき かいめんが はげしく なみうつという。",
+              "alphasapphire": "じゆうに のびちぢみする しょくしゅで えものを からめとり もうどくを あたえて よわらせる。いっぺんに 80ぴきの えものを つかまえるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "70",
+        "globalNo": "302",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "あく",
+            "type2": "ゴースト",
+            "hp": 50,
+            "attack": 75,
+            "defense": 75,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 50,
+            "ability1": "するどいめ",
+            "ability2": "あとだし",
+            "dream_ability": "いたずらごころ",
+            "description": {
+              "omegaruby": "どうくつの おくで ひっそりと せいかつする。くらやみで ひとみが あやしく かがやく とき ひとの たましいを うばうと おそれられている。",
+              "alphasapphire": "するどい ツメで つちを ほり いしを たべる。いしに ふくまれた せいぶんは けっしょうとなり からだの ひょうめんに うかびあがってくる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "71",
+        "globalNo": "303",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "はがね",
+            "type2": "フェアリー",
+            "hp": 50,
+            "attack": 85,
+            "defense": 85,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 50,
+            "ability1": "かいりきバサミ",
+            "ability2": "いかく",
+            "dream_ability": "ちからずく",
+            "description": {
+              "omegaruby": "はがねの ツノが へんけいした おおきな あご。おとなしそうな かおに ゆだんを していると とつぜん ふりむき バクリと かみつかれるぞ。",
+              "alphasapphire": "あいてを ゆだんさせ おおきな あごで がぶり。かわいい かおに だまされると きけんだよ。はがねの あごは ツノが へんけいした ものだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "72",
+        "globalNo": "304",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "はがね",
+            "type2": "いわ",
+            "hp": 50,
+            "attack": 70,
+            "defense": 100,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 30,
+            "ability1": "がんじょう",
+            "ability2": "いしあたま",
+            "dream_ability": "ヘヴィメタル",
+            "description": {
+              "omegaruby": "はがねの からだを つくるため てっこうせきを やまから ほりだして たべているが たまに はしや レールを たべてしまう こまりものだ。",
+              "alphasapphire": "こうてつの からだで おもいっきり ぶつかれば おおきな ダンプカーも いちげきで バラバラだ。こわれた ダンプカーを むしゃむしゃ たべるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "73",
+        "globalNo": "305",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "はがね",
+            "type2": "いわ",
+            "hp": 60,
+            "attack": 90,
+            "defense": 140,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 40,
+            "ability1": "がんじょう",
+            "ability2": "いしあたま",
+            "dream_ability": "ヘヴィメタル",
+            "description": {
+              "omegaruby": "えいよう まんてんの わきみずを おなかいっぱい のむ ことで はがねの からだが きたえられる。おいしい わきみずの ちかくに すを つくる。",
+              "alphasapphire": "いしや みずに ふくまれる てつぶんを たべる。てっこうせきの うもれた やまに すを つくるが てつを とりにくる にんげんと あらそいになる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "74",
+        "globalNo": "306",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "はがね",
+            "type2": "いわ",
+            "hp": 70,
+            "attack": 110,
+            "defense": 180,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 50,
+            "ability1": "がんじょう",
+            "ability2": "いしあたま",
+            "dream_ability": "ヘヴィメタル",
+            "description": {
+              "omegaruby": "やま ひとつを じぶんの なわばりに していて あらした あいては ようしゃなく たたきのめす。いつも やまの なかを みまわり している。",
+              "alphasapphire": "どしゃくずれや やまかじで やまが あれると せっせと つちを はこび きの なえを うえて じぶんの なわばりを きれいに そうじする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "75",
+        "globalNo": "66",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 70,
+            "attack": 80,
+            "defense": 50,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 35,
+            "ability1": "こんじょう",
+            "ability2": "ノーガード",
+            "dream_ability": "ふくつのこころ",
+            "description": {
+              "omegaruby": "どんなに うんどうを しても いたくならない とくべつな きんにくを もつ ポケモン。おとな 100にんを なげとばす パワー。",
+              "alphasapphire": "ゴローンを もちあげて からだを きたえる。すべての かくとうぎを マスターするために せかいじゅうを たびする ワンリキーも いる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "76",
+        "globalNo": "67",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 80,
+            "attack": 100,
+            "defense": 70,
+            "special_attack": 50,
+            "special_defense": 60,
+            "speed": 45,
+            "ability1": "こんじょう",
+            "ability2": "ノーガード",
+            "dream_ability": "ふくつのこころ",
+            "description": {
+              "omegaruby": "きたえあげた きんにくは はがねの かたさ。すもうとりの からだも ゆび 1ぽんで らくらく もちあげてしまう かいりきの ポケモンだ。",
+              "alphasapphire": "にんげんの ちからしごとを てつだいながら からだを まいにち きたえている ポケモン。やすみの ひには のやまで からだを きたえる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "77",
+        "globalNo": "68",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "かくとう",
+            "type2": "",
+            "hp": 90,
+            "attack": 130,
+            "defense": 80,
+            "special_attack": 65,
+            "special_defense": 85,
+            "speed": 55,
+            "ability1": "こんじょう",
+            "ability2": "ノーガード",
+            "dream_ability": "ふくつのこころ",
+            "description": {
+              "omegaruby": "なんでも なげとばす パワーを もつが こまかい さぎょうを すると うでが からまってしまう。かんがえる よりも さきに からだが うごく。",
+              "alphasapphire": "あらゆる かくとうぎを マスターした ポケモン。4ほんの うでで つかまれたら もう おわり。ちへいせんの むこうまで なげとばされてしまう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "78",
+        "globalNo": "307",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "かくとう",
+            "type2": "エスパー",
+            "hp": 30,
+            "attack": 40,
+            "defense": 55,
+            "special_attack": 40,
+            "special_defense": 55,
+            "speed": 60,
+            "ability1": "ヨガパワー",
+            "ability2": "",
+            "dream_ability": "テレパシー",
+            "description": {
+              "omegaruby": "やまおくで ヨガの しゅぎょうを している。めいそうを していても しゅうちゅうりょくが とぎれてしまうため しゅぎょうは おわらない。",
+              "alphasapphire": "めいそうで せいしんエネルギーを たかめている。1にちに きのみを 1こだけしか たべない。あまり たべない ことも しゅぎょうの ひとつ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "79",
+        "globalNo": "308",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "かくとう",
+            "type2": "エスパー",
+            "hp": 60,
+            "attack": 60,
+            "defense": 75,
+            "special_attack": 60,
+            "special_defense": 75,
+            "speed": 80,
+            "ability1": "ヨガパワー",
+            "ability2": "",
+            "dream_ability": "テレパシー",
+            "description": {
+              "omegaruby": "めいそうする ことで からだの エネルギーが たかまり だい6かんが するどくなる という。のやまと いったいになって けはいを けす。",
+              "alphasapphire": "ヨガの ちからで だい6かんが はったつして サイコパワーを あやつれる ように なった。1かげつかん なにも たべずに めいそうする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "80",
+        "globalNo": "309",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 40,
+            "attack": 45,
+            "defense": 40,
+            "special_attack": 65,
+            "special_defense": 40,
+            "speed": 65,
+            "ability1": "せいでんき",
+            "ability2": "ひらいしん",
+            "dream_ability": "マイナス",
+            "description": {
+              "omegaruby": "ながい たいもうに でんきを ためている。でんりゅうで あしの きんにくを しげきして ばくはつてきな しゅんぱつりょくを うみだす。",
+              "alphasapphire": "めにも とまらぬ スピードで はしる ポケモン。くうきの まさつで でんきを はっせいさせて ぜんしんの たいもうに たくわえている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "81",
+        "globalNo": "310",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 70,
+            "attack": 75,
+            "defense": 60,
+            "special_attack": 105,
+            "special_defense": 60,
+            "speed": 105,
+            "ability1": "せいでんき",
+            "ability2": "ひらいしん",
+            "dream_ability": "マイナス",
+            "description": {
+              "omegaruby": "たてがみから いつも ほうでんしているため ひばなで やまかじを おこしてしまう ことも。たたかいに なると かみなりぐもを つくりだす。",
+              "alphasapphire": "たてがみから つよい でんきを はっしている。くうきちゅうの でんきを たてがみに あつめ あたまの うえに かみなりぐもを つくりだす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "82",
+        "globalNo": "311",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 60,
+            "attack": 50,
+            "defense": 40,
+            "special_attack": 85,
+            "special_defense": 75,
+            "speed": 95,
+            "ability1": "プラス",
+            "ability2": "",
+            "dream_ability": "ひらいしん",
+            "description": {
+              "omegaruby": "いつも なかまを おうえんしている ポケモン。なかまが がんばると からだを ショートさせて パチパチと ひばなの おとを たてて よろこぶ。",
+              "alphasapphire": "なかまを おうえんする ときは ぜんしんから でんきの ひばなを だして パチパチ ひかる。なかまが まけると おおごえで ないてしまう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "83",
+        "globalNo": "312",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 60,
+            "attack": 40,
+            "defense": 50,
+            "special_attack": 75,
+            "special_defense": 85,
+            "speed": 95,
+            "ability1": "マイナス",
+            "ability2": "",
+            "dream_ability": "ちくでん",
+            "description": {
+              "omegaruby": "じぶんよりも なかまの おうえんが だいじ。からだから はっする でんきを ショートさせて はでに ひばなを だしながら おうえんするぞ。",
+              "alphasapphire": "なかまの おうえんが だいすきな ポケモン。なかまが まけそうに なると からだから でる ひばなの かずが どんどん ふえていくよ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "84",
+        "globalNo": "81",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "はがね",
+            "hp": 25,
+            "attack": 35,
+            "defense": 70,
+            "special_attack": 95,
+            "special_defense": 55,
+            "speed": 45,
+            "ability1": "じりょく",
+            "ability2": "がんじょう",
+            "dream_ability": "アナライズ",
+            "description": {
+              "omegaruby": " でんせんに くっついて でんきを たべている。ていでんに なったら ブレーカーを しらべよう。コイルが びっしり くっついて いるかも。",
+              "alphasapphire": " さゆうの ユニットから でんじはを だす ことで じゅうりょくを さえぎり くうちゅうに うかぶ。たいないの でんきが なくなると とべなくなる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "85",
+        "globalNo": "82",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "はがね",
+            "hp": 50,
+            "attack": 60,
+            "defense": 95,
+            "special_attack": 120,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "じりょく",
+            "ability2": "がんじょう",
+            "dream_ability": "アナライズ",
+            "description": {
+              "omegaruby": " つよい じりょくで きかいを こわしてしまうので おおきな まちでは サイレンを ならして レアコイルの たいりょう はっせいを しらせる。",
+              "alphasapphire": " きょうりょくな じりょくせんで せいみつきかいを こわしてしまうため モンスターボールに いれて おかないと ちゅういされる まちも あるという。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "86",
+        "globalNo": "462",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "はがね",
+            "hp": 70,
+            "attack": 70,
+            "defense": 115,
+            "special_attack": 130,
+            "special_defense": 90,
+            "speed": 60,
+            "ability1": "じりょく",
+            "ability2": "がんじょう",
+            "dream_ability": "アナライズ",
+            "description": {
+              "omegaruby": "つよすぎる じりょくを だして ジバコイルどうし ひきよせあって まったく うごけなくなったりする。",
+              "alphasapphire": "とくしゅな じばの えいきょうで レアコイルが しんかした。 3つの ユニットから じりょくを だす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "87",
+        "globalNo": "100",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 40,
+            "attack": 30,
+            "defense": 50,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 100,
+            "ability1": "ぼうおん",
+            "ability2": "せいでんき",
+            "dream_ability": "ゆうばく",
+            "description": {
+              "omegaruby": " モンスターボールを つくっている かいしゃで はじめて はっけんされた ことと すがたかたちが にている ことの かんけいは まだ ナゾである。",
+              "alphasapphire": " すこしの ショックで すぐに ばくはつする。モンスターボールに きょうりょくな パルスを あびせた ときに うまれたと ウワサされている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "88",
+        "globalNo": "101",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 60,
+            "attack": 50,
+            "defense": 70,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 140,
+            "ability1": "ぼうおん",
+            "ability2": "せいでんき",
+            "dream_ability": "ゆうばく",
+            "description": {
+              "omegaruby": " くうきちゅうの でんきエネルギーを たべる。カミナリの おちる ひは でんきを たべすぎた マルマインが あちらこちらで だいばくはつする。",
+              "alphasapphire": " でんきに ひきよせられる せいしつを もつ。おもに はつでんしょに あつまってきて つくった ばかりの でんきを たべてしまう こまりものだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "89",
+        "globalNo": "313",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "",
+            "hp": 65,
+            "attack": 73,
+            "defense": 55,
+            "special_attack": 47,
+            "special_defense": 75,
+            "speed": 85,
+            "ability1": "はっこう",
+            "ability2": "むしのしらせ",
+            "dream_ability": "いたずらごころ",
+            "description": {
+              "omegaruby": "ひが くれると しっぽから ひかりを だして あかるさや てんめつで なかまと かいわする。イルミーゼの あまい かおりに ひきよせられる。",
+              "alphasapphire": "しっぽの あかりを つかって しゅうだんで よぞらに きかがくてきな ずけいを えがく。イルミーゼの だす あまい かおりが だいすき。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "90",
+        "globalNo": "314",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "",
+            "hp": 65,
+            "attack": 47,
+            "defense": 55,
+            "special_attack": 73,
+            "special_defense": 75,
+            "speed": 85,
+            "ability1": "どんかん",
+            "ability2": "いろめがね",
+            "dream_ability": "いたずらごころ",
+            "description": {
+              "omegaruby": "あまい かおりで バルビートを ひきよせる。たくさん あつまった バルビートを ゆうどうして よぞらに きかがくてきな ずけいを えがくぞ。",
+              "alphasapphire": "バルビートを ゆうどうして サインを えがく。ふくざつな サインを えがく イルミーゼほど なかまから そんけいされると いわれているよ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "91",
+        "globalNo": "43",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 45,
+            "attack": 50,
+            "defense": 55,
+            "special_attack": 75,
+            "special_defense": 65,
+            "speed": 30,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "にげあし",
+            "description": {
+              "omegaruby": " ひるま じめんの なかに からだを うめて つちの えいようを ぜんしんで すいあげている。こえた つちほど はっぱに ツヤが でるという。",
+              "alphasapphire": " えいよう たっぷりの つちを さがして うまる。ひるま つちに うまっている ときには あしが きの ねっこのような かたちを しているらしい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "92",
+        "globalNo": "44",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 60,
+            "attack": 65,
+            "defense": 70,
+            "special_attack": 85,
+            "special_defense": 75,
+            "speed": 40,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "あくしゅう",
+            "description": {
+              "omegaruby": "きけんを かんじると めしべの はなつ くさい においは さらに つよまるが こころ おだやかな ときは くさい においを ださないのだ。",
+              "alphasapphire": "どうやら クサイハナは くちから たらしている もうれつに くさい ニオイが だいすき らしい。ニオイを かいで さらに みつを あふれさせる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "93",
+        "globalNo": "45",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 75,
+            "attack": 80,
+            "defense": 85,
+            "special_attack": 110,
+            "special_defense": 90,
+            "speed": 50,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "ほうし",
+            "description": {
+              "omegaruby": "どくかふんは ひどい アレルギーを おこす。ジャングルで うつくしい はなを みつけても うかつに ちかよらない ほうが いいよ。",
+              "alphasapphire": "せかいいち おおきな はなびらで えものを おびきよせ どくの かふんを あびせかける。うごけなくなった えものを つかまえて たべる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "94",
+        "globalNo": "182",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 75,
+            "attack": 80,
+            "defense": 95,
+            "special_attack": 90,
+            "special_defense": 100,
+            "speed": 50,
+            "ability1": "ようりょくそ",
+            "ability2": "",
+            "dream_ability": "いやしのこころ",
+            "description": {
+              "omegaruby": "たいようの ひかりを いっぱい あびると からだの はっぱが くるくる まわり はじめる。キレイハナの ダンスは なんごくの めいぶつだ。",
+              "alphasapphire": "より くさい クサイハナから しんかした ほうが きれいな はなを つけた キレイハナに なるよ。よるに なると はなびらを つぼめて ねむる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "95",
+        "globalNo": "84",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 35,
+            "attack": 85,
+            "defense": 45,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 75,
+            "ability1": "にげあし",
+            "ability2": "はやおき",
+            "dream_ability": "ちどりあし",
+            "description": {
+              "omegaruby": "2つの あたまが どうじに ねむることは ない。ねている とき てきから おそわれない ように かわりばんこで みはりを しているからだ。",
+              "alphasapphire": "2つの あたまは おなじ のうみそを もつ。まれに べつべつの のうを もった ドードーが うまれてくると けんきゅうで ほうこくされた。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "96",
+        "globalNo": "85",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 60,
+            "attack": 110,
+            "defense": 70,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 100,
+            "ability1": "にげあし",
+            "ability2": "はやおき",
+            "dream_ability": "ちどりあし",
+            "description": {
+              "omegaruby": "3つの あたまが べつべつの ほうこうを むいている ときは けいかいしている しょうこ。うかつに ちかよると くちばしで つつかれるぞ。",
+              "alphasapphire": "3つあるのは あたまだけでは ないらしい。しんぞうと はいも 3つなので いきぎれしないで ながい きょりを はしる ことが できるのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "97",
+        "globalNo": "406",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 40,
+            "attack": 30,
+            "defense": 35,
+            "special_attack": 50,
+            "special_defense": 70,
+            "speed": 55,
+            "ability1": "しぜんかいふく",
+            "ability2": "どくのトゲ",
+            "dream_ability": "リーフガード",
+            "description": {
+              "omegaruby": "あたたかい ひざしを あびると つぼみが ひらき かふんを とばす。きれいな みずの ちかくが すみか。",
+              "alphasapphire": "ふゆの あいだは つぼみを とざして さむさに たえる。はるになると つぼみを ひらき かふんを とばす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "98",
+        "globalNo": "315",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 50,
+            "attack": 60,
+            "defense": 45,
+            "special_attack": 100,
+            "special_defense": 80,
+            "speed": 65,
+            "ability1": "しぜんかいふく",
+            "ability2": "どくのトゲ",
+            "dream_ability": "リーフガード",
+            "description": {
+              "omegaruby": "りょうての はなを ねらう あいてには するどい トゲを とばして こうげきする。はなの かおりは きもちを なごませる。",
+              "alphasapphire": "ごく まれに めずらしい いろの はなを さかせている ロゼリアが いると いわれる。あたまの トゲは もうどくを もっているぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "99",
+        "globalNo": "407",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "どく",
+            "hp": 60,
+            "attack": 70,
+            "defense": 65,
+            "special_attack": 125,
+            "special_defense": 105,
+            "speed": 90,
+            "ability1": "しぜんかいふく",
+            "ability2": "どくのトゲ",
+            "dream_ability": "テクニシャン",
+            "description": {
+              "omegaruby": "あまい かおりで えものを さそい りょううでの どくのムチを つかって さしたり しめたりして しとめる。",
+              "alphasapphire": "ダンサーのような みのこなしで どくの トゲが びっしりと ならんだ ムチを あやつり こうげきする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "100",
+        "globalNo": "316",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 70,
+            "attack": 43,
+            "defense": 53,
+            "special_attack": 43,
+            "special_defense": 53,
+            "speed": 40,
+            "ability1": "ヘドロえき",
+            "ability2": "ねんちゃく",
+            "dream_ability": "くいしんぼう",
+            "description": {
+              "omegaruby": "からだの ほとんどが いぶくろで できているので じぶんと おなじ おおきさの ものも のみこむ。とくしゅな いえきで なんでも しょうかするぞ。",
+              "alphasapphire": "からだの だいぶぶんが いぶくろで できていて しんぞうや のうみそは とても ちいさい。なんでも とかす とくしゅな いえきを もつ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "101",
+        "globalNo": "317",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 100,
+            "attack": 73,
+            "defense": 83,
+            "special_attack": 73,
+            "special_defense": 83,
+            "speed": 55,
+            "ability1": "ヘドロえき",
+            "ability2": "ねんちゃく",
+            "dream_ability": "くいしんぼう",
+            "description": {
+              "omegaruby": "えものを みつけると けあなから もうどくの たいえきを ふきだして あびせかけるぞ。よわった ところを おおきな くちで ペロリ。",
+              "alphasapphire": "はが 1ぽんも ないので なんでも まるのみ。いっぱいに あけた くちは とても おおきく じどうしゃの タイヤだって すっぽり はいるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "102",
+        "globalNo": "318",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "あく",
+            "hp": 45,
+            "attack": 90,
+            "defense": 20,
+            "special_attack": 65,
+            "special_defense": 20,
+            "speed": 65,
+            "ability1": "さめはだ",
+            "ability2": "",
+            "dream_ability": "かそく",
+            "description": {
+              "omegaruby": "はったつした アゴと するどく とがった キバは ふなぞこを かみちぎる ほどの はかいりょく。キバニアに おそわれ しずんだ ふねは おおい。",
+              "alphasapphire": "テリトリーを あらす ものには しゅうだんで おそいかかり とがった キバで やつざきにする。1ぴきに なると とたんに よわごしに なるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "103",
+        "globalNo": "319",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "あく",
+            "hp": 70,
+            "attack": 120,
+            "defense": 40,
+            "special_attack": 95,
+            "special_defense": 40,
+            "speed": 95,
+            "ability1": "さめはだ",
+            "ability2": "",
+            "dream_ability": "かそく",
+            "description": {
+              "omegaruby": "うみのギャングと よばれ おそれられている。おれても すぐに はえかわる キバを もち おおがたタンカーも 1ぴきで バラバラに する。",
+              "alphasapphire": "かいすいを おしりの あなから ふきだして じそく120キロで およぐことが できる。ながい きょりを およげないのが じゃくてんだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "104",
+        "globalNo": "320",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 130,
+            "attack": 70,
+            "defense": 35,
+            "special_attack": 70,
+            "special_defense": 35,
+            "speed": 60,
+            "ability1": "みずのベール",
+            "ability2": "どんかん",
+            "dream_ability": "プレッシャー",
+            "description": {
+              "omegaruby": "めの うえに ついている はなの あなから からだに ためた かいすいを ふきだし ひとを おどろかすのが だいすきな ポケモンだ。",
+              "alphasapphire": "からだに かいすいを ためると ボールの ように じめんで とびはねることが できるように なる。たくさん ためると たかく ジャンプできる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "105",
+        "globalNo": "321",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 170,
+            "attack": 90,
+            "defense": 45,
+            "special_attack": 90,
+            "special_defense": 45,
+            "speed": 60,
+            "ability1": "みずのベール",
+            "ability2": "どんかん",
+            "dream_ability": "プレッシャー",
+            "description": {
+              "omegaruby": "みつかった なかでは さいだいの ポケモン。おおうなばらを ゆったりと およぎ おおきな くちで いっきに たいりょうの エサを たべる。",
+              "alphasapphire": "えものを おいたてる ために すいちゅうから ジャンプして おおきな みずしぶきを あげる。むれで ジャンプする すがたは だいはくりょく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "106",
+        "globalNo": "322",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "じめん",
+            "hp": 60,
+            "attack": 60,
+            "defense": 40,
+            "special_attack": 65,
+            "special_defense":45,
+            "speed": 35,
+            "ability1": "どんかん",
+            "ability2": "たんじゅん",
+            "dream_ability": "マイペース",
+            "description": {
+              "omegaruby": "たたかれても きが つかない にぶさ だが くうふくは 1びょうでも がまん できない。からだの なかでは マグマが にえたぎっている。",
+              "alphasapphire": "1200どの マグマを からだに ためている。みずに ぬれると マグマが ひえて かたまり おもたくなるので うごきが にぶって しまう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "107",
+        "globalNo": "323",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "じめん",
+            "hp": 70,
+            "attack": 100,
+            "defense": 70,
+            "special_attack": 105,
+            "special_defense": 75,
+            "speed": 40,
+            "ability1": "マグマのよろい",
+            "ability2": "ハードロック",
+            "dream_ability": "いかりのつぼ",
+            "description": {
+              "omegaruby": "からだの なかに かざんを もつ ポケモンだ。からだに たまった せっし 1まんどの マグマを ときどき せなかの コブから ふきあげている。",
+              "alphasapphire": "せなかの コブは ほねが かたちを かえたもの。にえたぎった マグマを ときどき ふきあげる。おこった ときに よく ふんかする らしい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "108",
+        "globalNo": "218",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 40,
+            "attack": 40,
+            "defense": 40,
+            "special_attack": 70,
+            "special_defense": 40,
+            "speed": 20,
+            "ability1": "マグマのよろい",
+            "ability2": "ほのおのからだ",
+            "dream_ability": "くだけるよろい",
+            "description": {
+              "omegaruby": "からだの なかでは しゃくねつの ようがんが うずまいているが ひえると かたまって しまい くずれて からだが ちいさく なっていく。",
+              "alphasapphire": "からだの なかでは けつえきの かわりに ひつような えいようと さんそを はこぶために しゃくねつの マグマが じゅんかんしている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "109",
+        "globalNo": "219",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "いわ",
+            "hp": 50,
+            "attack": 50,
+            "defense": 120,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 30,
+            "ability1": "マグマのよろい",
+            "ability2": "ほのおのからだ",
+            "dream_ability": "くだけるよろい",
+            "description": {
+              "omegaruby": "カラは ひふが ひえて かたまった もの。さわった だけで ボロボロと くずれて しまう。マグマに はいると もとの おおきさに もどる。",
+              "alphasapphire": "たいおんが やく1まんども あるので あまつぶに うたれると じょうきが もうもうと たちこめて あたりは ふかい きりに おおわれると いう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "110",
+        "globalNo": "324",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 70,
+            "attack": 85,
+            "defense": 140,
+            "special_attack": 85,
+            "special_defense": 70,
+            "speed": 20,
+            "ability1": "しろいけむり",
+            "ability2": "",
+            "dream_ability": "シェルアーマー",
+            "description": {
+              "omegaruby": "やまを ほって せきたんを みつけては せっせと こうらの くうどうに いれて もやす ポケモン。おそわれると くろい けむりを だして にげる。",
+              "alphasapphire": "せきたんを もやして エネルギーを つくりだす。ひの いきおいが よわまると げんきが なくなり たたかう ときは せきたんを たくさん もやす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "111",
+        "globalNo": "88",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 80,
+            "attack": 80,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 50,
+            "speed": 25,
+            "ability1": "あくしゅう",
+            "ability2": "ねんちゃく",
+            "dream_ability": "どくしゅ",
+            "description": {
+              "omegaruby": " ドロドロ ブヨブヨした からだは どんなに ほそい すきまにも はいりこむことが できる。 げすいかんに もぐって きたない みずを のむ。",
+              "alphasapphire": " おせんされた かいていの ヘドロから うまれた。 きたない ものが だいすきで からだじゅうから バイキンだらけの えきたいを たれながしている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "112",
+        "globalNo": "89",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 105,
+            "attack": 105,
+            "defense": 75,
+            "special_attack": 65,
+            "special_defense": 100,
+            "speed": 50,
+            "ability1": "あくしゅう",
+            "ability2": "ねんちゃく",
+            "dream_ability": "どくしゅ",
+            "description": {
+              "omegaruby": " からだから しみだしている たいえきは はなが まがるほど きょうれつな においを はなつ。1てきで プールのみずが にごり においだす。",
+              "alphasapphire": " きたない ものが だいこうぶつなので ゴミを みちばたに すてる ような ひとが すんでいる まちには ベトベトンが あつまってくるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "113",
+        "globalNo": "109",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 40,
+            "attack": 65,
+            "defense": 95,
+            "special_attack": 60,
+            "special_defense": 45,
+            "speed": 35,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "しげきを あたえると ガスの どくそが つよまり からだの あちこちから いきおいよく ふきだす。まんまるに ふくらんだ あと だいばくはつする。",
+              "alphasapphire": "なまゴミと からだの どくそを かがくはんのう させる ことで もうどくの ガスを つくりだす。きおんが たかいほど ガスが たくさん できる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "114",
+        "globalNo": "110",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 65,
+            "attack": 90,
+            "defense": 120,
+            "special_attack": 85,
+            "special_defense": 70,
+            "speed": 60,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": " くさった なまゴミから でる ガスが だいすき。そうじを しない いえに すみつき かぞくが ねしずまった まよなか ゴミばこを あさる。",
+              "alphasapphire": " ふたごの からだを こうごに しぼませたり ふくらませたりして どくガスを まぜている。まぜるほど どくそが つよまり くさくなる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "115",
+        "globalNo": "325",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 60,
+            "attack": 25,
+            "defense": 35,
+            "special_attack": 70,
+            "special_defense": 80,
+            "speed": 60,
+            "ability1": "あついしぼう",
+            "ability2": "マイペース",
+            "dream_ability": "くいしんぼう",
+            "description": {
+              "omegaruby": "シッポで びょんびょん とびはねる ポケモン。とびはねる しんどうで しんぞうを うごかして いるので とびはねる ことは やめられないのだ。",
+              "alphasapphire": "あたまに のせた しんじゅが バネブーの サイコパワーを たかめる はたらきをする。おおきな しんじゅを いつも さがしている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "116",
+        "globalNo": "326",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 80,
+            "attack": 45,
+            "defense": 65,
+            "special_attack": 90,
+            "special_defense": 110,
+            "speed": 80,
+            "ability1": "あついしぼう",
+            "ability2": "マイペース",
+            "dream_ability": "くいしんぼう",
+            "description": {
+              "omegaruby": "サイコパワーの はどうを くろしんじゅで つよめ じゆうじざいに あいてを あやつる ポケモン。ちからを つかうとき はないきが あらくなるぞ。",
+              "alphasapphire": "くろしんじゅを りようして ふしぎな ちからを つかうとき きみょうな ステップで おどりだす。くろしんじゅは びじゅつひんの かちを もつ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "117",
+        "globalNo": "27",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 50,
+            "attack": 75,
+            "defense": 85,
+            "special_attack": 20,
+            "special_defense": 30,
+            "speed": 40,
+            "ability1": "すながくれ",
+            "ability2": "",
+            "dream_ability": "すなかき",
+            "description": {
+              "omegaruby": "すいぶんを むだなく きゅうしゅうする からだの つくりなので かんそうした すなちでも へいき。 からだを まるめて てきの こうげきを ふせぐ。",
+              "alphasapphire": "からからに かわいた ひふは とても かたく まるくなると どんな こうげきでも はねかえす。 よなかは さばくの すなに もぐって ねむる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "118",
+        "globalNo": "28",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 75,
+            "attack": 100,
+            "defense": 110,
+            "special_attack": 45,
+            "special_defense": 55,
+            "speed": 65,
+            "ability1": "すながくれ",
+            "ability2": "",
+            "dream_ability": "すなかき",
+            "description": {
+              "omegaruby": " からだの トゲは ひふが かたくなったもの。1ねんに 1かい ふるい トゲが ぬけおちて あたらしい トゲが したから はえてくる。",
+              "alphasapphire": " せなかを まるめると トゲトゲの ボールみたい。トゲに さされて ひるんだ あいてに とびかかり するどい ツメで ばりばり ひっかきまくるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "119",
+        "globalNo": "327",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 60,
+            "attack": 60,
+            "defense": 60,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 60,
+            "ability1": "マイペース",
+            "ability2": "ちどりあし",
+            "dream_ability": "あまのじゃく",
+            "description": {
+              "omegaruby": "よのなかに いる パッチールは みんな ちがう ところに ブチもようが あると いわれている。おぼつかない あゆみが おどりのように みえる。",
+              "alphasapphire": "おなじ ブチもようは ないと いわれている。いつも めを まわしている ような フラフラした うごきには てきを まどわせる こうかが ある。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "120",
+        "globalNo": "227",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "はがね",
+            "type2": "ひこう",
+            "hp": 65,
+            "attack": 80,
+            "defense": 140,
+            "special_attack": 40,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "するどいめ",
+            "ability2": "がんじょう",
+            "dream_ability": "くだけるよろい",
+            "description": {
+              "omegaruby": "ぜんしんが かたい ヨロイに おおわれている。じそく 300キロの スピードで そらを とび かたなの きれあじを もつ ハネで きりさく。",
+              "alphasapphire": "たたかいを くりかえして ボロボロに なった はがねの ハネは 1ねんに 1かい はえかわり もとどおりの きれあじを とりもどすのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "121",
+        "globalNo": "328",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 45,
+            "attack": 100,
+            "defense": 45,
+            "special_attack": 45,
+            "special_defense": 45,
+            "speed": 10,
+            "ability1": "かいりきバサミ",
+            "ability2": "ありじごく",
+            "dream_ability": "ちからずく",
+            "description": {
+              "omegaruby": "すりばちじょうの すあなの そこで じっと えものが おちて くるのを まちつづけている。おおきな アゴは いわをも くだく いりょく。",
+              "alphasapphire": "だっしゅつ ふかのうな あなを さばくに つくり えものが くるのを ひたすら まちかまえている。みずが なくても 1しゅうかんは へっちゃら。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "122",
+        "globalNo": "329",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "ドラゴン",
+            "hp": 50,
+            "attack": 70,
+            "defense": 50,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 70,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "2まいの ハネを はげしく しんどうさせて ちょうおんぱを だし えものを きぜつさせる。にんげんも ずつうを おこす ほどの いりょく。",
+              "alphasapphire": "ビブラーバの ハネは まだ せいちょうとちゅう。ながい きょりを とぶ よりも しんどうさせて ちょうおんぱを だす ほうが とくいなのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "123",
+        "globalNo": "330",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "ドラゴン",
+            "hp": 80,
+            "attack": 100,
+            "defense": 80,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 100,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "さばくの せいれいと よばれる ポケモン。ハネの はばたきで すなを まいあげるため とんでいる ときは いつも すなあらしの なか。",
+              "alphasapphire": "はばたきで おこす すなあらしの なかから うたごえの ような はおと だけが きこえるため フライゴンは さばくの せいれいと いわれた。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "124",
+        "globalNo": "331",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "",
+            "hp": 50,
+            "attack": 85,
+            "defense": 40,
+            "special_attack": 85,
+            "special_defense": 40,
+            "speed": 35,
+            "ability1": "すながくれ",
+            "ability2": "",
+            "dream_ability": "ちょすい",
+            "description": {
+              "omegaruby": "さばく など かんそうした ちいきに せいそく。つよい はなの かおりで えものを さそいこみ するどい からだの トゲを とばして しとめる。",
+              "alphasapphire": "あめの すくない きびしい かんきょう ほど きれいで かおりの つよい はなを さかせる。トゲの ついた うでを ふりまわして たたかう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "125",
+        "globalNo": "332",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "あく",
+            "hp": 70,
+            "attack": 115,
+            "defense": 60,
+            "special_attack": 115,
+            "special_defense": 60,
+            "speed": 55,
+            "ability1": "すながくれ",
+            "ability2": "",
+            "dream_ability": "ちょすい",
+            "description": {
+              "omegaruby": "さばくの ひざしで すいぶんを うしなわない ように ひるまは じっと たちつくしている。きおんの さがる よるに かつどうを はじめる。",
+              "alphasapphire": "まよなか さばくを あるく たびびとの うしろを ぞろぞろと しゅうだんで くっついて あるく。つかれて うごけなく なるのを まっているのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "126",
+        "globalNo": "333",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "ひこう",
+            "hp": 45,
+            "attack": 40,
+            "defense": 60,
+            "special_attack": 40,
+            "special_defense": 75,
+            "speed": 50,
+            "ability1": "しぜんかいふく",
+            "ability2": "",
+            "dream_ability": "ノーてんき",
+            "description": {
+              "omegaruby": "わたぐもの ような ふさふさの つばさを もつ。ひとを こわがらず わたの ぼうし みたいに あたまに ちょこんと のっかる ポケモンだ。",
+              "alphasapphire": "よごれたものを みると わたの ような つばさで せっせと ふきとる きれいずきな ポケモンだ。つばさが よごれると かわで みずあびを する。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "127",
+        "globalNo": "334",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ドラゴン",
+            "type2": "ひこう",
+            "hp": 75,
+            "attack": 70,
+            "defense": 90,
+            "special_attack": 70,
+            "special_defense": 105,
+            "speed": 80,
+            "ability1": "しぜんかいふく",
+            "ability2": "",
+            "dream_ability": "ノーてんき",
+            "description": {
+              "omegaruby": "わたぐもに まぎれて おおぞらを まう。すきとおった こえで メロディを さえずれば みみにした ものは うっとり ゆめごこち。",
+              "alphasapphire": "うつくしい ソプラノで うたう ポケモン。わたぐもの ような つばさで じょうしょう きりゅうを うけて おおぞらへ まいあがる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "128",
+        "globalNo": "335",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 73,
+            "attack": 115,
+            "defense": 60,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 90,
+            "ability1": "めんえき",
+            "ability2": "",
+            "dream_ability": "どくぼうそう",
+            "description": {
+              "omegaruby": "しゅくてき ハブネークとの たたかいの きおくが からだじゅうの さいぼうに きざみこまれている。びんしょうな みのこなしで こうげきを かわす。",
+              "alphasapphire": "ふだんは 4ほんあしで こうどうして いるが おこると うしろあしで たち ツメが とびだす。ハブネークとは せんぞから つづく ライバルだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "129",
+        "globalNo": "336",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "どく",
+            "type2": "",
+            "hp": 73,
+            "attack": 100,
+            "defense": 60,
+            "special_attack": 100,
+            "special_defense": 60,
+            "speed": 65,
+            "ability1": "だっぴ",
+            "ability2": "",
+            "dream_ability": "すりぬけ",
+            "description": {
+              "omegaruby": "せんぞだいだい ザングースと たたかってきた。からだの キズは はげしい たたかいの しるし。するどい きれあじの しっぽで こうげきするぞ。",
+              "alphasapphire": "かたなの ような しっぽは てきを きりさくのと どうじに しみだした もうどくを あびせるぞ。しゅくてき ザングースと たたかい つづける。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "130",
+        "globalNo": "337",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "エスパー",
+            "hp": 70,
+            "attack": 55,
+            "defense": 65,
+            "special_attack": 95,
+            "special_defense": 85,
+            "speed": 70,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "いんせきの おちた ばしょから みつかったため うちゅうから やってきた ポケモンという せつも あるが まだ しょうめいされていない。",
+              "alphasapphire": "まんげつの じき かっぱつになる しゅうせい。くうちゅうに ういて いどうし あかい ひとみは みたものの からだを すくませる はくりょく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "131",
+        "globalNo": "338",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "エスパー",
+            "hp": 70,
+            "attack": 95,
+            "defense": 85,
+            "special_attack": 55,
+            "special_defense": 65,
+            "speed": 70,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "うちゅうから おちてきたと いわれる しんしゅ。くうちゅうに うかび おともなく いどうする。たたかいに なると つよい ひかりを はなつ。",
+              "alphasapphire": "たいよう こうせんが パワーの みなもと。あいての こころを よみとると いわれている。からだを かいてんさせて こうねつを はなつ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "132",
+        "globalNo": "339",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "じめん",
+            "hp": 50,
+            "attack": 48,
+            "defense": 43,
+            "special_attack": 46,
+            "special_defense": 41,
+            "speed": 60,
+            "ability1": "どんかん",
+            "ability2": "きけんよち",
+            "dream_ability": "うるおいボディ",
+            "description": {
+              "omegaruby": "びんかんな ヒゲは すぐれた レーダーだ。ドロの なかから 2ほんの ヒゲだけを だして えものが ちかよってくるのを まちかまえている。",
+              "alphasapphire": "からだが ヌルヌルの まくで おおわれているので てきに つかまれても ヌルリと にげだせるのだ。ヌルヌルが かわくと からだが よわってしまう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "133",
+        "globalNo": "340",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "じめん",
+            "hp": 110,
+            "attack": 78,
+            "defense": 73,
+            "special_attack": 76,
+            "special_defense": 71,
+            "speed": 60,
+            "ability1": "どんかん",
+            "ability2": "きけんよち",
+            "dream_ability": "うるおいボディ",
+            "description": {
+              "omegaruby": "なわばり いしきが とても つよい ポケモン。おおきな ぬま ぜんぶを なわばりに している。てきが ちかづくと あばれて じしんを おこす。",
+              "alphasapphire": "おおあばれ すると ぬまの しゅうい 5キロの はんいで じしんの ような ゆれが おこる。ほんとうの じしんを よちする ちからも もつ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "134",
+        "globalNo": "341",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 43,
+            "attack": 80,
+            "defense": 65,
+            "special_attack": 50,
+            "special_defense": 35,
+            "speed": 35,
+            "ability1": "かいりきバサミ",
+            "ability2": "シェルアーマー",
+            "dream_ability": "てきおうりょく",
+            "description": {
+              "omegaruby": "もともと がいこくに すんでいた ポケモンを ペットとして つれてきた ものが やせいかした。せいめいりょくが つよいので どんどん ふえた。",
+              "alphasapphire": "するどい ハサミで えものを つかまえる。すき きらいが ないので なんでも たべるぞ。きたない みずでも へっちゃらな ポケモン。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "135",
+        "globalNo": "342",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "あく",
+            "hp": 63,
+            "attack": 120,
+            "defense": 85,
+            "special_attack": 90,
+            "special_defense": 55,
+            "speed": 55,
+            "ability1": "かいりきバサミ",
+            "ability2": "シェルアーマー",
+            "dream_ability": "てきおうりょく",
+            "description": {
+              "omegaruby": "すぐに たたかいを いどむ きしょうの あらさ。シザリガーの すむ いけには ほかの いきものが すみつかず さみしい ばしょに なってしまう。",
+              "alphasapphire": "だっぴした ちょくごは こうらが やわらかい。こうらが かたくなるまで てきの こうげきを さけるため かわぞこの あなに かくれている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "136",
+        "globalNo": "343",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "エスパー",
+            "hp": 40,
+            "attack": 40,
+            "defense": 55,
+            "special_attack": 40,
+            "special_defense": 70,
+            "speed": 55,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "いっぽんあしで かいてん しながら いどうする。ヤジロンと にんげんが いっしょに くらす こだいの へきがが いせきから はっけんされた。",
+              "alphasapphire": "なかまを みつけると すぐに あつまって きて いっせいに なきごえを あげるので うるさい。いっぽんあしで きように たったまま ねむる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "137",
+        "globalNo": "344",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "エスパー",
+            "hp": 60,
+            "attack": 70,
+            "defense": 105,
+            "special_attack": 70,
+            "special_defense": 120,
+            "speed": 75,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "こだいじんの どろにんぎょうが かいこうせんを あびて せいめいを やどしたと いわれている。くうちゅうに ういて いどうしている。",
+              "alphasapphire": "2まんねんまえに さかえた こだい ぶんめいの どろにんぎょうから うまれた ナゾの ポケモン。りょうてから ビームを はっしゃするぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "138",
+        "globalNo": "345",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "くさ",
+            "hp": 66,
+            "attack": 41,
+            "defense": 77,
+            "special_attack": 61,
+            "special_defense": 87,
+            "speed": 23,
+            "ability1": "きゅうばん",
+            "ability2": "",
+            "dream_ability": "よびみず",
+            "description": {
+              "omegaruby": "やく 1おくねんまえに ぜつめつした ポケモン。かいていの いわに くっつき はなびらの ような しょくしゅで よってきた えものを つかまえる。",
+              "alphasapphire": "かせきから さいせいした こだいの ポケモン。いわに くっつき あるく ことが できない。2つの めで じっと えものを さがしている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "139",
+        "globalNo": "346",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "くさ",
+            "hp": 86,
+            "attack": 81,
+            "defense": 97,
+            "special_attack": 81,
+            "special_defense": 107,
+            "speed": 43,
+            "ability1": "きゅうばん",
+            "ability2": "",
+            "dream_ability": "よびみず",
+            "description": {
+              "omegaruby": "うみの そこで エサを さがして あるきまわる。きの えだの ような くびを じざいに のばして 8まいの しょくしゅで えものを つかまえる。",
+              "alphasapphire": "からだが おもりがわりに なっているので うみが あれても ながされる ことは ない。しょくしゅから つよい しょうかえきを だす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "140",
+        "globalNo": "347",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "むし",
+            "hp": 45,
+            "attack": 95,
+            "defense": 50,
+            "special_attack": 40,
+            "special_defense": 50,
+            "speed": 75,
+            "ability1": "カブトアーマー",
+            "ability2": "",
+            "dream_ability": "すいすい",
+            "description": {
+              "omegaruby": "たいこの かせきから よみがえった ポケモン。あたたかい うみに せいそくし はったつした 2ほんの ツメで えものを がっちり つかむ。",
+              "alphasapphire": "ポケモンの せんぞの いっしゅと いわれている。からだの よこに ついた 8まいの はねを くねらせて たいこの うみを およいでいた。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "141",
+        "globalNo": "348",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "むし",
+            "hp": 75,
+            "attack": 125,
+            "defense": 100,
+            "special_attack": 70,
+            "special_defense": 80,
+            "speed": 45,
+            "ability1": "カブトアーマー",
+            "ability2": "",
+            "dream_ability": "すいすい",
+            "description": {
+              "omegaruby": "こうらは あらゆる こうげきを はねかえす。のび ちぢみする きょだいな 2ほんの ツメは てっぱんを くしざしにする ほどの いりょくだ。",
+              "alphasapphire": "おおむかし ぜつめつした ポケモンの いっしゅ。ちじょうで くらすとき べんりな ように 2ほんの あしで あるくように なったと いう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "142",
+        "globalNo": "174",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "フェアリー",
+            "hp": 90,
+            "attack": 30,
+            "defense": 15,
+            "special_attack": 40,
+            "special_defense": 20,
+            "speed": 15,
+            "ability1": "メロメロボディ",
+            "ability2": "かちき",
+            "dream_ability": "フレンドガード",
+            "description": {
+              "omegaruby": "せいたいが まだ じゅうぶんに はったつして いないので うたい つづけると ノドが いたむ。きれいな おがわの みずで うがいをするよ。",
+              "alphasapphire": "マシュマロ みたいな さわりごこちの からだから ほんのり あまい においが ただよってくるよ。においは てきの きもちを おだやかにする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "143",
+        "globalNo": "39",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "フェアリー",
+            "hp": 115,
+            "attack": 45,
+            "defense": 20,
+            "special_attack": 45,
+            "special_defense": 25,
+            "speed": 20,
+            "ability1": "メロメロボディ",
+            "ability2": "かちき",
+            "dream_ability": "フレンドガード",
+            "description": {
+              "omegaruby": "こえの はちょうを じざいに かえる せいたいを もっているので あいてが いちばん ねむくなる はちょうで うたを うたう ことが できる。",
+              "alphasapphire": "うたう ときは いちども いきつぎをしない。なかなか ねむらない てきを あいてに した ときは いきを できない プリンも いのちがけ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "144",
+        "globalNo": "40",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "フェアリー",
+            "hp": 140,
+            "attack": 70,
+            "defense": 45,
+            "special_attack": 85,
+            "special_defense": 50,
+            "speed": 45,
+            "ability1": "メロメロボディ",
+            "ability2": "かちき",
+            "dream_ability": "おみとおし",
+            "description": {
+              "omegaruby": "おおきな まるい ひとみの ひょうめんには なみだの うすい まくが いつも はっている。ほこりが ついても すぐに あらい ながされる。",
+              "alphasapphire": "だんりょくせいに すぐれた からだは おおきく いきを すいこむと どこまでも ふくれていく。ふくらんだ プクリンは ふんわり はねるよ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "145",
+        "globalNo": "349",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 20,
+            "attack": 15,
+            "defense": 20,
+            "special_attack": 10,
+            "special_defense": 55,
+            "speed": 80,
+            "ability1": "すいすい",
+            "ability2": "どんかん",
+            "dream_ability": "てきおうりょく",
+            "description": {
+              "omegaruby": "うまれつき ヒレが ボロボロで みっともないため だれにも あいてに されない ポケモンだ。うみと かわの どちらでも せいかつできる。",
+              "alphasapphire": "からだは ボロボロだが どこでも いきていける しぶとい せいめいりょくを もつ ポケモン。しかし ノロマなので すぐに つかまってしまう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "146",
+        "globalNo": "350",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 95,
+            "attack": 60,
+            "defense": 79,
+            "special_attack": 100,
+            "special_defense": 125,
+            "speed": 81,
+            "ability1": "ふしぎなうろこ",
+            "ability2": "かちき",
+            "dream_ability": "メロメロボディ",
+            "description": {
+              "omegaruby": "もっとも うつくしい ポケモンと いわれている。いかりや にくしみの こころを いやして あらそいを しずめる ちからを もっている。",
+              "alphasapphire": "おおきな みずうみの そこに すんでいる。からだが あざやかな ピンクいろに かがやくとき すさんだ こころを いやす はどうを はなつ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "147",
+        "globalNo": "351",
+        "status": [
+          {
+            "form": "ポワルンのすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 70,
+            "attack": 70,
+            "defense": 70,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "てんきや",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "てんきに よって すがたが かわる ポケモン。ちいさい からだを まもる ために だいしぜんの おおきな パワーを つかえる ように なった。",
+              "alphasapphire": "しぜんの ちからを うけて たいよう あまみず ゆきぐもに すがたを かえる ポケモン。きしょうが かわると きしょうも かわるぞ。"
+            }
+          },
+          {
+            "form": "たいようのすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 70,
+            "attack": 70,
+            "defense": 70,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "てんきや",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "てんきに よって すがたが かわる ポケモン。ちいさい からだを まもる ために だいしぜんの おおきな パワーを つかえる ように なった。",
+              "alphasapphire": "しぜんの ちからを うけて たいよう あまみず ゆきぐもに すがたを かえる ポケモン。きしょうが かわると きしょうも かわるぞ。"
+            }
+          },
+          {
+            "form": "あまみずのすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 70,
+            "attack": 70,
+            "defense": 70,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "てんきや",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "てんきに よって すがたが かわる ポケモン。ちいさい からだを まもる ために だいしぜんの おおきな パワーを つかえる ように なった。",
+              "alphasapphire": "しぜんの ちからを うけて たいよう あまみず ゆきぐもに すがたを かえる ポケモン。きしょうが かわると きしょうも かわるぞ。"
+            }
+          },
+          {
+            "form": "ゆきぐものすがた",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "こおり",
+            "type2": "",
+            "hp": 70,
+            "attack": 70,
+            "defense": 70,
+            "special_attack": 70,
+            "special_defense": 70,
+            "speed": 70,
+            "ability1": "てんきや",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "てんきに よって すがたが かわる ポケモン。ちいさい からだを まもる ために だいしぜんの おおきな パワーを つかえる ように なった。",
+              "alphasapphire": "しぜんの ちからを うけて たいよう あまみず ゆきぐもに すがたを かえる ポケモン。きしょうが かわると きしょうも かわるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "148",
+        "globalNo": "120",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 30,
+            "attack": 45,
+            "defense": 55,
+            "special_attack": 70,
+            "special_defense": 55,
+            "speed": 85,
+            "ability1": "はっこう",
+            "ability2": "しぜんかいふく",
+            "dream_ability": "アナライズ",
+            "description": {
+              "omegaruby": "なつの おわりごろ よるに すなはまへ いくと コアと よばれる きかんを あかく ひからせた ヒトデマンが ほしの ように みえるよ。",
+              "alphasapphire": "ちゅうしんの あかい コアを てんめつさせて よぞらの ほしと こうしん している らしい。 からだは ちぎれても じこさいせい するぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "149",
+        "globalNo": "121",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "エスパー",
+            "hp": 60,
+            "attack": 75,
+            "defense": 85,
+            "special_attack": 100,
+            "special_defense": 85,
+            "speed": 115,
+            "ability1": "はっこう",
+            "ability2": "しぜんかいふく",
+            "dream_ability": "アナライズ",
+            "description": {
+              "omegaruby": "からだの ちゅうしんに ある コアと よばれる ぶぶんが なないろに かがやく ことから うみのほうせき という べつめいを つけられた。",
+              "alphasapphire": "ほしがたの からだを スクリューの ように かいてんさせて すいちゅうを およぎまわる。 ちゅうおうに ある コアが なないろに ひかる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "150",
+        "globalNo": "352",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "",
+            "hp": 60,
+            "attack": 90,
+            "defense": 70,
+            "special_attack": 60,
+            "special_defense": 120,
+            "speed": 40,
+            "ability1": "へんしょく",
+            "ability2": "",
+            "dream_ability": "へんげんじざい",
+            "description": {
+              "omegaruby": "からだの いろを じざいに かえる ことで まわりの けしきに とけこむ ことが できる。おなかの ギザギザもよう だけは かえられない。",
+              "alphasapphire": "からだを けしきと おなじ いろに かえて えものに きづかれない ように しのびよる。ながく のびる ベロで すばやく つかまえる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "151",
+        "globalNo": "353",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ゴースト",
+            "type2": "",
+            "hp": 44,
+            "attack": 75,
+            "defense": 35,
+            "special_attack": 63,
+            "special_defense": 33,
+            "speed": 45,
+            "ability1": "ふみん",
+            "ability2": "おみとおし",
+            "dream_ability": "のろわれボディ",
+            "description": {
+              "omegaruby": "ねたみ うらみの かんじょうに ひきよせられる。だれかを うらむ こころが つよく なると カゲボウズが のきしたに ずらりと ならぶぞ。",
+              "alphasapphire": "ひとの こころに ある うらみや ねたみ などの かんじょうを たべて せいちょうする ポケモン。うらむ こころを さがして まちを さまよう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "152",
+        "globalNo": "354",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ゴースト",
+            "type2": "",
+            "hp": 64,
+            "attack": 115,
+            "defense": 65,
+            "special_attack": 83,
+            "special_defense": 63,
+            "speed": 65,
+            "ability1": "ふみん",
+            "ability2": "おみとおし",
+            "dream_ability": "のろわれボディ",
+            "description": {
+              "omegaruby": "じぶんの からだを はりで キズつける とき つよい のろいの エネルギーが はっせいする。もとは すてられた かわいそうな ぬいぐるみ。",
+              "alphasapphire": "すてられた ぬいぐるみの わたに のろいの エネルギーが しみこんで ポケモンに なった。くちを あけると エネルギーが にげてしまう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "153",
+        "globalNo": "355",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ゴースト",
+            "type2": "",
+            "hp": 20,
+            "attack": 40,
+            "defense": 90,
+            "special_attack": 30,
+            "special_defense": 90,
+            "speed": 25,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "おみとおし",
+            "description": {
+              "omegaruby": "どんなに あつい カベも とおりぬける。ねらわれたら さいご あさひが のぼるまで ずっと おいかけられる ことに なるぞ。",
+              "alphasapphire": "まよなか やみに まぎれて さまよっている。ママに しかられるような わるいこは ヨマワルに さらわれるという いいつたえが のこっている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "154",
+        "globalNo": "356",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ゴースト",
+            "type2": "",
+            "hp": 40,
+            "attack": 70,
+            "defense": 130,
+            "special_attack": 60,
+            "special_defense": 130,
+            "speed": 25,
+            "ability1": "プレッシャー",
+            "ability2": "",
+            "dream_ability": "おみとおし",
+            "description": {
+              "omegaruby": "からだの なかみは くうどうで なにも ない。ブラックホールの ように なんでも すいこみ すいこまれると もどって これないと いわれる。",
+              "alphasapphire": "どんな おおきさの ものも すいこんで しまう。あやしげな ての うごきと ひとつめの ちからで あいてを さいみん じょうたいにして あやつる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "155",
+        "globalNo": "477",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ゴースト",
+            "type2": "",
+            "hp": 45,
+            "attack": 100,
+            "defense": 135,
+            "special_attack": 65,
+            "special_defense": 135,
+            "speed": 45,
+            "ability1": "プレッシャー",
+            "ability2": "",
+            "dream_ability": "おみとおし",
+            "description": {
+              "omegaruby": "だんりょくのある からだの なかに いきばのない たましいを とりこんで あのよに つれていくと いわれる。",
+              "alphasapphire": "あたまの アンテナで れいかいからの でんぱを じゅしん。 しじを うけて ひとを れいかいへ つれていくのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "156",
+        "globalNo": "357",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "くさ",
+            "type2": "ひこう",
+            "hp": 99,
+            "attack": 68,
+            "defense": 83,
+            "special_attack": 72,
+            "special_defense": 87,
+            "speed": 51,
+            "ability1": "ようりょくそ",
+            "ability2": "サンパワー",
+            "dream_ability": "しゅうかく",
+            "description": {
+              "omegaruby": "くびの フサは あまくて こどもに だいにんき。くだものが だいこうぶつで たべつづけて いたら くびに くだものが できるように なったらしい。",
+              "alphasapphire": "なんごくの こどもたちは トロピウスの くびに なった くだものの フサを おやつに たべるよ。せなかの はっぱを はばたかせて そらを とぶ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "157",
+        "globalNo": "433",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 45,
+            "attack": 30,
+            "defense": 50,
+            "special_attack": 65,
+            "special_defense": 50,
+            "speed": 45,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "はねるたび リリンと おとを だす。たかい しゅうはすうの なきごえで あいての みみを きこえなくする。",
+              "alphasapphire": "とびはねると くちのなかにある たまが あちこちに はんしゃして すずのような ねいろと なる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "158",
+        "globalNo": "358",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 65,
+            "attack": 50,
+            "defense": 70,
+            "special_attack": 95,
+            "special_defense": 80,
+            "speed": 65,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "こえを からだの くうどうに はんきょうさせる。おこった ときの なきごえは てきを ふきとばす いりょくを もった ちょうおんぱに なるぞ。",
+              "alphasapphire": "かぜが つよくなると きの えだや のきしたに あたまの きゅうばんで ぶらさがり なきだす。ながい シッポで きのみを つまんで たべる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "159",
+        "globalNo": "359",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "あく",
+            "type2": "",
+            "hp": 65,
+            "attack": 130,
+            "defense": 60,
+            "special_attack": 75,
+            "special_defense": 60,
+            "speed": 75,
+            "ability1": "プレッシャー",
+            "ability2": "きょううん",
+            "dream_ability": "せいぎのこころ",
+            "description": {
+              "omegaruby": "アブソルが ひとまえに あらわれると かならず じしんや つなみなどの さいがいが おこったので わざわいポケモン という べつめいで よばれた。",
+              "alphasapphire": "しぜんさいがいを キャッチする ちからを もつ。けわしい さんがくちたいに せいそくし めったに やまの ふもとには おりてこない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "160",
+        "globalNo": "37",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 38,
+            "attack": 41,
+            "defense": 40,
+            "special_attack": 50,
+            "special_defense": 65,
+            "speed": 65,
+            "ability1": "もらいび",
+            "ability2": "",
+            "dream_ability": "ひでり",
+            "description": {
+              "omegaruby": " うまれた ときは しろい 1ぽんの しっぽ。あいじょうを たっぷり うけると しっぽは 6ぽんに わかれて みごとな まきげになる。",
+              "alphasapphire": " からだの なかで ほのおが いつも もえている。ひるま きおんが あがると たいおんも たかく なってしまうので くちから ほのおを にがす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "161",
+        "globalNo": "38",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ほのお",
+            "type2": "",
+            "hp": 73,
+            "attack": 76,
+            "defense": 75,
+            "special_attack": 81,
+            "special_defense": 100,
+            "speed": 100,
+            "ability1": "もらいび",
+            "ability2": "",
+            "dream_ability": "ひでり",
+            "description": {
+              "omegaruby": "まっかな ひとみは あやしい ひかりを はなち あいての こころを じざいに あやつる。 1000ねんかん いきると いわれている。",
+              "alphasapphire": "9にんの せいなる ちからを もった せんにんが がったいして うまれたという でんせつが ある。 ちのうが たかく ひとの ことばを りかいする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "162",
+        "globalNo": "172",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 20,
+            "attack": 40,
+            "defense": 15,
+            "special_attack": 35,
+            "special_defense": 35,
+            "speed": 60,
+            "ability1": "せいでんき",
+            "ability2": "",
+            "dream_ability": "ひらいしん",
+            "description": {
+              "omegaruby": " かみなりぐもが でている ときや くうきの かんそうした ひは でんきが たまりやすい。パチパチ せいでんきの おとが なっているよ。",
+              "alphasapphire": " なかまと あそんでいるとき おたがいの でんきが ショートして ひばなを だす ことが あるぞ。ひばなに びっくり すると なきだしてしまうよ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "163",
+        "globalNo": "25",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 35,
+            "attack": 55,
+            "defense": 40,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 90,
+            "ability1": "せいでんき",
+            "ability2": "",
+            "dream_ability": "ひらいしん",
+            "description": {
+              "omegaruby": " はじめて みる ものには でんげきを あてる。くろこげの きのみが おちていたら それは でんげきの つよさを まちがえた しょうこだよ。",
+              "alphasapphire": " ほっぺの でんきぶくろの でんきは まよなか ねている あいだに ためられている らしいよ。ねぼけて ほうでんしてしまう ことが ある。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "164",
+        "globalNo": "26",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "でんき",
+            "type2": "",
+            "hp": 60,
+            "attack": 90,
+            "defense": 55,
+            "special_attack": 90,
+            "special_defense": 80,
+            "speed": 110,
+            "ability1": "せいでんき",
+            "ability2": "",
+            "dream_ability": "ひらいしん",
+            "description": {
+              "omegaruby": " でんきぶくろに でんきが たまりすぎた ときは しっぽを じめんに つけて ほうでんする。す の ちかくには じめんに やけこげが ある。",
+              "alphasapphire": " よわい でんきを ぜんしんから だしているので くらやみでは うっすら ひかって みえるよ。シッポを じめんに さして でんきを にがす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "165",
+        "globalNo": "54",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 50,
+            "attack": 52,
+            "defense": 48,
+            "special_attack": 65,
+            "special_defense": 50,
+            "speed": 55,
+            "ability1": "しめりけ",
+            "ability2": "ノーてんき",
+            "dream_ability": "すいすい",
+            "description": {
+              "omegaruby": "ふしぎな ちからを はっきしている コダックから ねむっている ときにだけ でるはずの のうはが かんそくされて がっかいの わだいに なった。",
+              "alphasapphire": "ふしぎな ちからを つかった きおくが ないのは ちからを はっきした ときは じゅくすいしている ときと おなじ じょうたいだから らしい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "166",
+        "globalNo": "55",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 80,
+            "attack": 82,
+            "defense": 78,
+            "special_attack": 95,
+            "special_defense": 80,
+            "speed": 85,
+            "ability1": "しめりけ",
+            "ability2": "ノーてんき",
+            "dream_ability": "すいすい",
+            "description": {
+              "omegaruby": "てあしの みずかきと りゅうせんけいの からだが すいちゅうで おそるべき スピードを うみだす。きんメダリスト よりも だんぜん はやいぞ。",
+              "alphasapphire": "およぐ スピードは ポケモンじゅうで いちばん。あらしで おおあれの うみでも へっちゃら。なんぱせんから ひとを たすける ことも ある。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "167",
+        "globalNo": "360",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 95,
+            "attack": 23,
+            "defense": 48,
+            "special_attack": 23,
+            "special_defense": 48,
+            "speed": 23,
+            "ability1": "かげふみ",
+            "ability2": "",
+            "dream_ability": "テレパシー",
+            "description": {
+              "omegaruby": "いつも ニコニコ えがおの ソーナノ。おこっているときは しっぽに ちゅうもく。じめんを パタパタ たたいているぞ。",
+              "alphasapphire": "つきのよる なかまたちと おしくらまんじゅう。ぎゅうぎゅう おされて がまんづよくなる。きょうれつな カウンターを くりだす くんれん。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "168",
+        "globalNo": "202",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 190,
+            "attack": 33,
+            "defense": 58,
+            "special_attack": 33,
+            "special_defense": 58,
+            "speed": 33,
+            "ability1": "かげふみ",
+            "ability2": "",
+            "dream_ability": "テレパシー",
+            "description": {
+              "omegaruby": " 2ひき いじょう あつまると がまん くらべを はじめるが くうふくを がまんして しまうので ソーナンス トレーナーは ちゅういが ひつよう。",
+              "alphasapphire": " ひたすら がまんする ポケモンだが しっぽを こうげきされる ことだけは がまん できない。あいてを みちづれにする チャンスを うかがう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "169",
+        "globalNo": "177",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "ひこう",
+            "hp": 40,
+            "attack": 50,
+            "defense": 45,
+            "special_attack": 70,
+            "special_defense": 45,
+            "speed": 70,
+            "ability1": "シンクロ",
+            "ability2": "はやおき",
+            "dream_ability": "マジックミラー",
+            "description": {
+              "omegaruby": "はねが まだ そだって いないので とべない。めを あわせると じっと みつめるが あいてが すこしでも うごくと とびはねて にげていく。",
+              "alphasapphire": "ジャンプりょくの はったつした ポケモン。おとなの せたけ いじょうある たかさの えだに ひらりと とびのり きのめを ついばむ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "170",
+        "globalNo": "178",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "ひこう",
+            "hp": 65,
+            "attack": 75,
+            "defense": 70,
+            "special_attack": 95,
+            "special_defense": 70,
+            "speed": 95,
+            "ability1": "シンクロ",
+            "ability2": "はやおき",
+            "dream_ability": "マジックミラー",
+            "description": {
+              "omegaruby": "いちにちじゅう ネイティオが じっとしているのは みらいよちで わかった おそろしい できごとに おびえているからだと しんじられている。",
+              "alphasapphire": "1にちじゅう たいようを みつめて うごかない。みらいを みとおす ちからを もつと しんじられ せいなる ポケモンとして まつる ひとも いる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "171",
+        "globalNo": "203",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ノーマル",
+            "type2": "エスパー",
+            "hp": 70,
+            "attack": 80,
+            "defense": 65,
+            "special_attack": 90,
+            "special_defense": 65,
+            "speed": 85,
+            "ability1": "せいしんりょく",
+            "ability2": "はやおき",
+            "dream_ability": "そうしょく",
+            "description": {
+              "omegaruby": "シッポの あたまにも ちいさな のうが ある。においや おとに はんのうして こうげきするので うしろから ちかよると いきなり かみつかれる。",
+              "alphasapphire": "しっぽの のうは かんがえごとが できないほど ちいさいけど ねむらなくても へいき なので 24じかん あたりを みはりつづけて いるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "172",
+        "globalNo": "231",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 90,
+            "attack": 60,
+            "defense": 60,
+            "special_attack": 40,
+            "special_defense": 40,
+            "speed": 40,
+            "ability1": "ものひろい",
+            "ability2": "",
+            "dream_ability": "すながくれ",
+            "description": {
+              "omegaruby": "かわの ほとりに たてあなを ほって くらす。すみかの ちかくに はなの しるしを つけて じぶんの ばしょだと なかまに おしえているよ。",
+              "alphasapphire": " ながい はなを つかって みずあびを する。なかまが あつまってくると みずを かけあう。ずぶぬれの からだを みずべで かわかすよ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "173",
+        "globalNo": "232",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "",
+            "hp": 90,
+            "attack": 120,
+            "defense": 120,
+            "special_attack": 60,
+            "special_defense": 60,
+            "speed": 50,
+            "ability1": "がんじょう",
+            "ability2": "",
+            "dream_ability": "すながくれ",
+            "description": {
+              "omegaruby": "からだを まるめて こうそくかいてん しながら あいてに とっしんする こうげきが とくい。ころがり はじめると なかなか とまれなくなる。",
+              "alphasapphire": "かたい からだで ぶつかれば いえも こわれる。その ちからを つかって やまみちを ふさいだ どしゃくずれを どかす しごとを てつだうよ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "174",
+        "globalNo": "127",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "",
+            "hp": 65,
+            "attack": 125,
+            "defense": 100,
+            "special_attack": 55,
+            "special_defense": 70,
+            "speed": 85,
+            "ability1": "かいりきバサミ",
+            "ability2": "かたやぶり",
+            "dream_ability": "じしんかじょう",
+            "description": {
+              "omegaruby": " じぶんの たいじゅうの 2ばいも ある あいてを ツノで はさみ かるがる もちあげる かいりき。さむい ばしょでは からだの うごきが にぶる。",
+              "alphasapphire": " たくましい 2ほんの ツノの ひょうめんに ある トゲが あいての からだに ふかく くいこむので はさまれると かんたんに はずせないのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "175",
+        "globalNo": "214",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "むし",
+            "type2": "かくとう",
+            "hp": 80,
+            "attack": 125,
+            "defense": 75,
+            "special_attack": 40,
+            "special_defense": 95,
+            "speed": 85,
+            "ability1": "むしのしらせ",
+            "ability2": "こんじょう",
+            "dream_ability": "じしんかじょう",
+            "description": {
+              "omegaruby": " いっちょくせんに てきの ふところに もぐりこみ たくましい ツノで すくいあげ なげとばす。たいぼくも ねこそぎ たおす ほどの パワーだ。",
+              "alphasapphire": "てあしの するどい ツメが じめんや じゅもくに ふかく くいこむので じまんの ツノで あいてを なげとばす とき おもいっきり ふんばれるのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "176",
+        "globalNo": "111",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 80,
+            "attack": 85,
+            "defense": 95,
+            "special_attack": 30,
+            "special_defense": 30,
+            "speed": 25,
+            "ability1": "ひらいしん",
+            "ability2": "いしあたま",
+            "dream_ability": "すてみ",
+            "description": {
+              "omegaruby": "ひたすら まっすぐ つきすすみ こわしまくる。こうてつの かたまりに ぶつかっても へいきだが 1にち たつと ちょっと いたみを かんじる。",
+              "alphasapphire": "はしっているうちに もくてきを わすれるほど のうみそが ちいさく あたまが わるいぞ。なにかを こわすと たまに おもいだすらしい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "177",
+        "globalNo": "112",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 105,
+            "attack": 130,
+            "defense": 120,
+            "special_attack": 45,
+            "special_defense": 45,
+            "speed": 40,
+            "ability1": "ひらいしん",
+            "ability2": "いしあたま",
+            "dream_ability": "すてみ",
+            "description": {
+              "omegaruby": "ツノは ダイヤモンドの げんせきを くだき しっぽの いちげきは ビルを なぎたおす。かたい ひふは たいほうでも キズつかない。",
+              "alphasapphire": "ドリルに なる ツノで がんせきを はかいする。マグマを ふきださせてしまう ことも あるが よろいの ような ひふは あつさを かんじない。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "178",
+        "globalNo": "464",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん",
+            "type2": "いわ",
+            "hp": 115,
+            "attack": 140,
+            "defense": 130,
+            "special_attack": 55,
+            "special_defense": 55,
+            "speed": 40,
+            "ability1": "ひらいしん",
+            "ability2": "ハードロック",
+            "dream_ability": "すてみ",
+            "description": {
+              "omegaruby": "てのひらの あなから イシツブテを はっしゃ。 ぜんしんの プロテクターは かざんの ふんかにも たえられる。",
+              "alphasapphire": "いわを てのひらの あなに つめて きんにくの ちからで はっしゃする。 まれに イシツブテを とばす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "179",
+        "globalNo": "361",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "こおり",
+            "type2": "",
+            "hp": 50,
+            "attack": 50,
+            "defense": 50,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 50,
+            "ability1": "せいしんりょく",
+            "ability2": "アイスボディ",
+            "dream_ability": "ムラっけ",
+            "description": {
+              "omegaruby": "ゆきの おおい とちで くらす ポケモン。はるや なつの ゆきの ふらない きせつには しょうにゅうどうの おくで しずかに くらす。",
+              "alphasapphire": "ゆきや こおりだけを たべて くらしている。ユキワラシの おとずれた いえは だいだい さかえるという いいつたえが のこっている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "180",
+        "globalNo": "362",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "こおり",
+            "type2": "",
+            "hp": 80,
+            "attack": 80,
+            "defense": 80,
+            "special_attack": 80,
+            "special_defense": 80,
+            "speed": 80,
+            "ability1": "せいしんりょく",
+            "ability2": "アイスボディ",
+            "dream_ability": "ムラっけ",
+            "description": {
+              "omegaruby": "いわの からだを こおりの よろいで かためた。くうきちゅうの すいぶんを こおらせて じゆうな かたちに かえる のうりょくを もつ ポケモン。",
+              "alphasapphire": "こおりを じざいに あつかう ちからを もつ。えものを いっしゅんで こおらせて うごけなく なった ところを おいしく いただくのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "181",
+        "globalNo": "478",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "こおり",
+            "type2": "ゴースト",
+            "hp": 70,
+            "attack": 80,
+            "defense": 70,
+            "special_attack": 80,
+            "special_defense": 70,
+            "speed": 110,
+            "ability1": "ゆきがくれ",
+            "ability2": "",
+            "dream_ability": "のろわれボディ",
+            "description": {
+              "omegaruby": "マイナス50どの れいきを はいて あいてを こおらせる。 どうたいに みえる ぶぶんは じつは くうどう。",
+              "alphasapphire": "ゆきやまで そうなんした じょせいの うまれかわりという いいつたえが ゆきの おおい とちに のこる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "182",
+        "globalNo": "363",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "こおり",
+            "type2": "みず",
+            "hp": 70,
+            "attack": 40,
+            "defense": 50,
+            "special_attack": 55,
+            "special_defense": 50,
+            "speed": 25,
+            "ability1": "あついしぼう",
+            "ability2": "アイスボディ",
+            "dream_ability": "どんかん",
+            "description": {
+              "omegaruby": "あるくより ころがる ほうが だんぜん はやい。しょくじの じかんは みんなが いっせいに てを たたいて よろこぶので けっこう うるさいのだ。",
+              "alphasapphire": "いつも ころがって いどうする ポケモンだ。りゅうひょうの きせつに こおりの うえを ころがり うみを わたる すがたを みかける。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "183",
+        "globalNo": "364",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "こおり",
+            "type2": "みず",
+            "hp": 90,
+            "attack": 60,
+            "defense": 70,
+            "special_attack": 75,
+            "special_defense": 70,
+            "speed": 45,
+            "ability1": "あついしぼう",
+            "ability2": "アイスボディ",
+            "dream_ability": "どんかん",
+            "description": {
+              "omegaruby": "はじめて めにした ものは かならず はなで クルクル まわしてみる しゅうせいを もつ。タマザラシを まわして あそぶ ことが ある。",
+              "alphasapphire": "しょっちゅう はなで なにかを まわしている。まわしながら においや かんしょくを たしかめて すきな ものと きらいな ものを わけるのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "184",
+        "globalNo": "365",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "こおり",
+            "type2": "みず",
+            "hp": 110,
+            "attack": 80,
+            "defense": 90,
+            "special_attack": 95,
+            "special_defense": 90,
+            "speed": 65,
+            "ability1": "あついしぼう",
+            "ability2": "アイスボディ",
+            "dream_ability": "どんかん",
+            "description": {
+              "omegaruby": "はったつした 2ほんの キバは 10トンも ある ひょうざんを いちげきで ふんさいする。しぼうが ぶあつく ひょうてんかでも へいき。",
+              "alphasapphire": "おおきな キバで ひょうざんを くだきながら ひょうてんかの うみを およぎまわる。ぶあつい しぼうが こうげきを はねかえす。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "185",
+        "globalNo": "366",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 35,
+            "attack": 64,
+            "defense": 85,
+            "special_attack": 74,
+            "special_defense": 55,
+            "speed": 32,
+            "ability1": "シェルアーマー",
+            "ability2": "びびり",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "がんじょうな カラは みを まもる だけではなく えものを はさんで つかまえる ことも できる。そだった パールルの かいがらは キズだらけ。",
+              "alphasapphire": "かたい かいがらに まもられて せいちょうする。ほんたいが カラに おさまり きらなくなると しんかの しゅんかんが ちかづいた しょうこ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "186",
+        "globalNo": "367",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 55,
+            "attack": 104,
+            "defense": 105,
+            "special_attack": 94,
+            "special_defense": 75,
+            "speed": 52,
+            "ability1": "すいすい",
+            "ability2": "みずのベール",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "とても ふかい うみの そこに すんでいるため ながい あいだ ひとに みつからなかった。くらい しんかいでも よく みえる めを もつ。",
+              "alphasapphire": "さかなの かたちをした シッポで おびきよせ おおきな くちで エサを まるのみ する。ヘビのように からだを くねらせて およぐ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "187",
+        "globalNo": "368",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 55,
+            "attack": 84,
+            "defense": 105,
+            "special_attack": 114,
+            "special_defense": 75,
+            "speed": 52,
+            "ability1": "すいすい",
+            "ability2": "うるおいボディ",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "みなみの しんかいに せいそくする ポケモン。しんかいの すいあつに きたえられた からだは ちょっとの こうげきでは キズも つかない。",
+              "alphasapphire": "およぐ すがたは ゆうがで とても きれいだが えものを みつけると ほそい くちを からだに さしこんで たいえきを ずるずる すするぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "188",
+        "globalNo": "369",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "いわ",
+            "hp": 100,
+            "attack": 90,
+            "defense": 130,
+            "special_attack": 45,
+            "special_defense": 65,
+            "speed": 55,
+            "ability1": "すいすい",
+            "ability2": "いしあたま",
+            "dream_ability": "がんじょう",
+            "description": {
+              "omegaruby": "1おくねんの ながい あいだ まったく すがたが かわらずに しんかいで くらしていた ポケモン。はの ない くちで びせいぶつだけを たべる。",
+              "alphasapphire": "しんかい ちょうさで はっけんされた ちんしゅ。ごつごつした いわの ような うろこで おおわれ かいていの すいあつに たえる からだを もつ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "189",
+        "globalNo": "222",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "いわ",
+            "hp": 55,
+            "attack": 55,
+            "defense": 85,
+            "special_attack": 65,
+            "special_defense": 85,
+            "speed": 35,
+            "ability1": "はりきり",
+            "ability2": "しぜんかいふく",
+            "dream_ability": "さいせいりょく",
+            "description": {
+              "omegaruby": " サンゴの えだは たいようの ひかりを あびると なないろに キラキラ かがやき とても きれい。おれても ひとばんで もとどおりに はえてくる。",
+              "alphasapphire": " あたたかい うみに あつまった サニーゴは ちいさい ポケモンたちの かくれがに なる。すいおんが さがると みなみへ いどうする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "190",
+        "globalNo": "170",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "でんき",
+            "hp": 75,
+            "attack": 38,
+            "defense": 38,
+            "special_attack": 56,
+            "special_defense": 56,
+            "speed": 67,
+            "ability1": "ちくでん",
+            "ability2": "はっこう",
+            "dream_ability": "ちょすい",
+            "description": {
+              "omegaruby": "2ほんの しょくしゅから プラスと マイナスの でんきを ながして えものを きぜつ させる。でんきの あかりは なかまとの サインだ。",
+              "alphasapphire": "つよい でんきを はっせいさせる さいぼうが 2ほんの しょくしゅの なかに つまっている。じぶんも ちょっと ピリピリ しびれるらしい。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "191",
+        "globalNo": "171",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "でんき",
+            "hp": 125,
+            "attack": 58,
+            "defense": 58,
+            "special_attack": 76,
+            "special_defense": 76,
+            "speed": 67,
+            "ability1": "ちくでん",
+            "ability2": "はっこう",
+            "dream_ability": "ちょすい",
+            "description": {
+              "omegaruby": "しんかいのほし と よばれる ポケモンだ。しょくしゅの なかの バクテリアと たいえきを かがくはんのうさせる ことで ひかりを つくる。",
+              "alphasapphire": "よなかに ふねから くらい うみを のぞきこむと しんかいを およぐ ランターンの ひかりが ほしぞらの ように みえる ことが あるよ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "192",
+        "globalNo": "370",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 43,
+            "attack": 30,
+            "defense": 55,
+            "special_attack": 40,
+            "special_defense": 65,
+            "speed": 97,
+            "ability1": "すいすい",
+            "ability2": "",
+            "dream_ability": "うるおいボディ",
+            "description": {
+              "omegaruby": "ねったいの あさい うみで くらしている。カップルを みつけると うしろに くっついて およぐ ことから この なまえが つけられた。",
+              "alphasapphire": "ハートがたの からだは あいじょうの シンボル。ラブカスに であった カップルは えいえんの あいが やくそくされると いわれているよ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "193",
+        "globalNo": "116",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 30,
+            "attack": 40,
+            "defense": 70,
+            "special_attack": 70,
+            "special_defense": 25,
+            "speed": 60,
+            "ability1": "すいすい",
+            "ability2": "スナイパー",
+            "dream_ability": "しめりけ",
+            "description": {
+              "omegaruby": "ちいさな ムシや いわばの コケを たべる。 かいりゅうが はやく なると しっぽを いわばや サンゴに まきつけ ながされない ように する。",
+              "alphasapphire": "きけんを かんじると はんしゃてきに くちから まっくろい スミを はきだして にげるぞ。 せびれを きように うごかして およぐ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "194",
+        "globalNo": "117",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 55,
+            "attack": 65,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 45,
+            "speed": 85,
+            "ability1": "どくのトゲ",
+            "ability2": "スナイパー",
+            "dream_ability": "しめりけ",
+            "description": {
+              "omegaruby": "サンゴの えだの すきまに もぐって ねむる。シードラに きづかず サンゴを とろうとして どくの トゲに さされてしまう ことが ある。",
+              "alphasapphire": "からだを かいてんさせて うずまきを つくる。ぎょせんも のみこまれる ほどの げきりゅうで えものを よわらせてから まるごと のみこむ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "195",
+        "globalNo": "230",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "ドラゴン",
+            "hp": 75,
+            "attack": 95,
+            "defense": 95,
+            "special_attack": 95,
+            "special_defense": 95,
+            "speed": 85,
+            "ability1": "すいすい",
+            "ability2": "スナイパー",
+            "dream_ability": "しめりけ",
+            "description": {
+              "omegaruby": "せいぶつの すまない しんかいに せいそくする。キングドラの あくびが さかまく かいりゅうを ひきおこすと ながい あいだ しんじられてきた。",
+              "alphasapphire": "いきものの すまない かいていで ねむっている。たいふうが やってくると めを さまして えものを さがしに うろつきまわると いわれる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "196",
+        "globalNo": "371",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ドラゴン",
+            "type2": "",
+            "hp": 45,
+            "attack": 75,
+            "defense": 60,
+            "special_attack": 40,
+            "special_defense": 30,
+            "speed": 50,
+            "ability1": "いしあたま",
+            "ability2": "",
+            "dream_ability": "ちからずく",
+            "description": {
+              "omegaruby": "おおぞらを とぶことを ゆめみて くりかえし だんがいから とびおりている うちに あたまが きたえられ こうてつの ように かたく なった。",
+              "alphasapphire": "おおぞらを とぶことを ゆめみている ポケモン。とべない くやしさを はらす ように おおいわに いしあたまを うちつけては コナゴナに くだく。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "197",
+        "globalNo": "372",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ドラゴン",
+            "type2": "",
+            "hp": 65,
+            "attack": 95,
+            "defense": 100,
+            "special_attack": 60,
+            "special_defense": 50,
+            "speed": 50,
+            "ability1": "いしあたま",
+            "ability2": "",
+            "dream_ability": "ぼうじん",
+            "description": {
+              "omegaruby": "かたい カラの ないぶは さいぼうが へんかして あたらしい からだを つくっている さいちゅう。カラが とても おもいので うごきは にぶいぞ。",
+              "alphasapphire": "からだを おおっているのは ホネのような もの。とても かたく てきの こうげきを はねかえす。ほらあなで みを ひそめ しんかを まっている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "198",
+        "globalNo": "373",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ドラゴン",
+            "type2": "ひこう",
+            "hp": 95,
+            "attack": 135,
+            "defense": 80,
+            "special_attack": 110,
+            "special_defense": 80,
+            "speed": 100,
+            "ability1": "いかく",
+            "ability2": "",
+            "dream_ability": "じしんかじょう",
+            "description": {
+              "omegaruby": "つばさが ほしいと つよく おもい つづけてきた けっか からだの さいぼうが とつぜんへんいを おこし みごとな つばさが はえてきたと いう。",
+              "alphasapphire": "ゆめにまで みた つばさが やっと はえてきた。うれしい きもちを あらわすため おおぞらを とびまわり ほのおを はいて よろこんでいる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "199",
+        "globalNo": "374",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "はがね",
+            "type2": "エスパー",
+            "hp": 40,
+            "attack": 55,
+            "defense": 80,
+            "special_attack": 35,
+            "special_defense": 60,
+            "speed": 30,
+            "ability1": "クリアボディ",
+            "ability2": "",
+            "dream_ability": "ライトメタル",
+            "description": {
+              "omegaruby": "からだの なかでは けつえきの かわりに きょうりょくな じりょくが めぐっている。じりょくの はどうで なかまと かいわする。",
+              "alphasapphire": "からだから でている じりょくと ちきゅうの じりょくを はんぱつさせて ちゅうに うかぶ。おしりの ツメを がけに くいこませて ねむる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "200",
+        "globalNo": "375",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "はがね",
+            "type2": "エスパー",
+            "hp": 60,
+            "attack": 75,
+            "defense": 100,
+            "special_attack": 55,
+            "special_defense": 80,
+            "speed": 50,
+            "ability1": "クリアボディ",
+            "ability2": "",
+            "dream_ability": "ライトメタル",
+            "description": {
+              "omegaruby": "2ひきの ダンバルが がったいした すがた。2つの のうを じりょくの しんけいが むすぶ ことで つよい サイコエネルギーを うみだす。",
+              "alphasapphire": "2ひきの ダンバルが がったいしたとき 2つの のうが じりょくの しんけいで むすばれる。うでを うしろへ まわし こうそくで いどう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "201",
+        "globalNo": "376",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "はがね",
+            "type2": "エスパー",
+            "hp": 80,
+            "attack": 135,
+            "defense": 130,
+            "special_attack": 95,
+            "special_defense": 90,
+            "speed": 70,
+            "ability1": "クリアボディ",
+            "ability2": "",
+            "dream_ability": "ライトメタル",
+            "description": {
+              "omegaruby": "4つの のうみそは スーパーコンピュータよりも はやく むずかしい けいさんの こたえを だす。 4ほんあしを おりたたみ くうちゅうに うかぶ。",
+              "alphasapphire": "2ひきの メタングが がったいした すがた。 きょたいで えものを おさえつけながら おなかに ある おおきな くちで たべるのだ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "202",
+        "globalNo": "377",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "いわ",
+            "type2": "",
+            "hp": 80,
+            "attack": 100,
+            "defense": 200,
+            "special_attack": 50,
+            "special_defense": 100,
+            "speed": 50,
+            "ability1": "クリアボディ",
+            "ability2": "",
+            "dream_ability": "がんじょう",
+            "description": {
+              "omegaruby": "むかし ひとに ふういんされた ポケモン。たたかいで からだが くずれると じぶんで あたらしい いわを さがして なおすと いう。",
+              "alphasapphire": "からだを つくっている がんせきは すべて ちがう とちから ほりだされた ものであると さいきんの けんきゅうで はんめいした。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "203",
+        "globalNo": "378",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "こおり",
+            "type2": "",
+            "hp": 80,
+            "attack": 50,
+            "defense": 100,
+            "special_attack": 100,
+            "special_defense": 200,
+            "speed": 50,
+            "ability1": "クリアボディ",
+            "ability2": "",
+            "dream_ability": "アイスボディ",
+            "description": {
+              "omegaruby": "ひょうがじだいに つくられた こおりの からだは ほのおでも とかす ことが できない。マイナス 200どの れいきを あやつる。",
+              "alphasapphire": "マイナス200どの れいきが からだを つつむ。ちかづいた だけでも こおりついて しまうぞ。マグマでも とけない こおりの からだを もつ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "204",
+        "globalNo": "379",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "はがね",
+            "type2": "",
+            "hp": 80,
+            "attack": 75,
+            "defense": 150,
+            "special_attack": 75,
+            "special_defense": 150,
+            "speed": 50,
+            "ability1": "クリアボディ",
+            "ability2": "",
+            "dream_ability": "ライトメタル",
+            "description": {
+              "omegaruby": "どんな きんぞくよりも かたい からだを もつ。からだの なかは くうどうに なっているらしく たべている ものも わからない ポケモンだ。",
+              "alphasapphire": "むかし ひとによって ふういんされた ポケモン。からだを つくる きんぞくは ちきゅうじょうに そんざいしない ぶっしつと かんがえられている。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "205",
+        "globalNo": "380",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ドラゴン",
+            "type2": "エスパー",
+            "hp": 80,
+            "attack": 80,
+            "defense": 90,
+            "special_attack": 110,
+            "special_defense": 130,
+            "speed": 110,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "にんげんの こころを びんかんに かんじとる。てきいを キャッチすると ぜんしんの はねを さかだてて はげしく なきごえで いかくする。",
+              "alphasapphire": "ちのうが たかく ひとの ことばを りかいする。ガラスの ような うもうで からだを つつみこみ ひかりを くっせつさせて すがたを かえる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "206",
+        "globalNo": "381",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ドラゴン",
+            "type2": "エスパー",
+            "hp": 80,
+            "attack": 90,
+            "defense": 80,
+            "special_attack": 130,
+            "special_defense": 110,
+            "speed": 110,
+            "ability1": "ふゆう",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "みた ものや かんがえた イメージを あいてに えいぞうとして みせる のうりょくを もつ。にんげんの ことばを りかいすることが できる。",
+              "alphasapphire": "やさしい こころの もちぬしにしか なつかない。うでを おりたたむと くうきていこうが へって ジェットき よりも はやく そらを とべるぞ。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "207",
+        "globalNo": "382",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "みず",
+            "type2": "",
+            "hp": 100,
+            "attack": 100,
+            "defense": 90,
+            "special_attack": 150,
+            "special_defense": 140,
+            "speed": 90,
+            "ability1": "あめふらし",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "しぜんのエネルギーに よって ゲンシカイキし ほんらいの すがたを とりもどす。そのちからは あらしを よびよせ うみを ひろげる。",
+              "alphasapphire": "うみの けしん と つたわる ポケモン。しぜんのエネルギーを もとめて グラードンと あらそいを くりかえしたという でんせつが ある。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "208",
+        "globalNo": "383",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "じめん  ",
+            "type2": "",
+            "hp": 100,
+            "attack": 150,
+            "defense": 140,
+            "special_attack": 100,
+            "special_defense": 90,
+            "speed": 90,
+            "ability1": "ひでり",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "だいちの けしん と つたわる ポケモン。しぜんのエネルギーを もとめて カイオーガと あらそいを くりかえしたという でんせつが ある。",
+              "alphasapphire": "しぜんのエネルギーに よって ゲンシカイキし ほんらいの すがたを とりもどす。そのちからは マグマを うみだし だいちを ひろげる。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "209",
+        "globalNo": "384",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "ドラゴン",
+            "type2": "ひこう",
+            "hp": 105,
+            "attack": 150,
+            "defense": 90,
+            "special_attack": 150,
+            "special_defense": 90,
+            "speed": 95,
+            "ability1": "エアロック",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "なんおくねんも いきつづけていると いわれる。グラードンと カイオーガの あらそいを おさめたという でんせつが のこされている。",
+              "alphasapphire": "オゾンそうを とびつづけ エサとなる いんせきを くらう。たいないに たまった いんせきの エネルギーで メガシンカする。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "210",
+        "globalNo": "385",
+        "status": [
+          {
+            "form": "",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "はがね",
+            "type2": "エスパー",
+            "hp": 100,
+            "attack": 100,
+            "defense": 100,
+            "special_attack": 100,
+            "special_defense": 100,
+            "speed": 100,
+            "ability1": "てんのめぐみ",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "めざめた とき あたまの たんざくに かかれた ねがいを かなえると いう でんせつを もつ。きけんを かんじると ねむったまま たたかう。",
+              "alphasapphire": "きよらかな こえで うたを きかせて あげると 1000ねんの ねむりから めを さます。ひとの ねがいを なんでも かなえると いう。"
+            }
+          }
+        ]
+      },
+      {
+        "no": "211",
+        "globalNo": "386",
+        "status": [
+          {
+            "form": "ノーマルフォルム",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 50,
+            "attack": 150,
+            "defense": 50,
+            "special_attack": 150,
+            "special_defense": 50,
+            "speed": 150,
+            "ability1": "プレッシャー",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "レーザーを あびた うちゅうウィルスの DNAが とつぜんへんいを おこして うまれた ポケモン。 むねの すいしょうたいが のうみそ らしい。",
+              "alphasapphire": "うちゅうウィルスから たんじょうした ポケモン。 ちのうが たかく ちょうのうりょくを あやつる。 むねの すいしょうたいから レーザーを だす。"
+            }
+          },
+          {
+            "form": "アタックフォルム",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 50,
+            "attack": 180,
+            "defense": 20,
+            "special_attack": 180,
+            "special_defense": 20,
+            "speed": 150,
+            "ability1": "プレッシャー",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "レーザーを あびた うちゅうウィルスの DNAが とつぜんへんいを おこして うまれた ポケモン。 むねの すいしょうたいが のうみそ らしい。",
+              "alphasapphire": "うちゅうウィルスから たんじょうした ポケモン。 ちのうが たかく ちょうのうりょくを あやつる。 むねの すいしょうたいから レーザーを だす。"
+            }
+          },
+          {
+            "form": "ディフェンスフォルム",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 50,
+            "attack": 70,
+            "defense": 160,
+            "special_attack": 70,
+            "special_defense": 160,
+            "speed": 90,
+            "ability1": "プレッシャー",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "レーザーを あびた うちゅうウィルスの DNAが とつぜんへんいを おこして うまれた ポケモン。 むねの すいしょうたいが のうみそ らしい。",
+              "alphasapphire": "うちゅうウィルスから たんじょうした ポケモン。 ちのうが たかく ちょうのうりょくを あやつる。 むねの すいしょうたいから レーザーを だす。"
+            }
+          },
+          {
+            "form": "スピードフォルム",
+            "region": "",
+            "mega_evolution": "",
+            "gigantamax": "",
+            "type1": "エスパー",
+            "type2": "",
+            "hp": 50,
+            "attack": 95,
+            "defense": 90,
+            "special_attack": 95,
+            "special_defense": 90,
+            "speed": 180,
+            "ability1": "プレッシャー",
+            "ability2": "",
+            "dream_ability": "",
+            "description": {
+              "omegaruby": "レーザーを あびた うちゅうウィルスの DNAが とつぜんへんいを おこして うまれた ポケモン。 むねの すいしょうたいが のうみそ らしい。",
+              "alphasapphire": "うちゅうウィルスから たんじょうした ポケモン。 ちのうが たかく ちょうのうりょくを あやつる。 むねの すいしょうたいから レーザーを だす。"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
