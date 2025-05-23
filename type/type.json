@@ -263,7 +263,7 @@
       }
     },
     {
-      "geme_version": ["Gold_Silver_Crystal","Ruby_Sapphire_Emerald","Diamond_Pearl_Platinum","Black_White","Black2_White2"],
+      "geme_version": ["Gold_Silver_Crystal","Ruby_Sapphire_Emerald","FireRed_LeafGreen","Diamond_Pearl_Platinum","HeartGold_SoulSilver","Black_White","Black2_White2"],
       "type": {
         "ノーマル":{
           "ノーマル":1,
