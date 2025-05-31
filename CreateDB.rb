@@ -3,7 +3,7 @@ require 'sqlite3'
 require 'json'
 
 if __FILE__ == $0
-  db = SQLite3::Database.new('new_pokedex.db')
+  db = SQLite3::Database.new('pokedex.db')
   begin
     db.transaction
     
@@ -15,6 +15,7 @@ if __FILE__ == $0
     # Create tables
     db.execute(<<-SQL)
       CREATE TABLE IF NOT EXISTS pokedex (
+        id TEXT,
         globalNo TEXT,
         form TEXT,
         region TEXT,
@@ -31,6 +32,7 @@ if __FILE__ == $0
     # Create tables
     db.execute(<<-SQL)
       CREATE TABLE IF NOT EXISTS pokedex_name (
+        id TEXT,
         globalNo TEXT,
         form TEXT,
         region TEXT,
@@ -47,6 +49,7 @@ if __FILE__ == $0
     # Create tables
     db.execute(<<-SQL)
       CREATE TABLE IF NOT EXISTS pokedex_classification (
+        id TEXT,
         globalNo TEXT,
         form TEXT,
         region TEXT,
@@ -69,8 +72,9 @@ if __FILE__ == $0
     pokedex_json["pokedex"].each do |pokemon|
       pokemon["form"].each do |form|
         db.execute(
-          "INSERT INTO pokedex (globalNo, form, region, mega_evolution, gigantamax, height, weight) VALUES (?, ?, ?, ?, ?, ?, ?)",
+          "INSERT INTO pokedex (id, globalNo, form, region, mega_evolution, gigantamax, height, weight) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
           [
+            pokemon['no'].to_s+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
             pokemon['no'],
             form['form'],
             form['region'],
@@ -82,8 +86,9 @@ if __FILE__ == $0
         )
 
         db.execute(
-          "INSERT INTO pokedex_classification (globalNo, form, region, mega_evolution, gigantamax, language, classification) VALUES (?, ?, ?, ?, ?, ?, ?)",
+          "INSERT INTO pokedex_classification (id, globalNo, form, region, mega_evolution, gigantamax, language, classification) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
           [
+            pokemon['no'].to_s+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
             pokemon['no'],
             form['form'],
             form['region'],
@@ -98,8 +103,9 @@ if __FILE__ == $0
         if form['name'] then
           form['name'].each do |language, name|
             db.execute(
-              "INSERT INTO pokedex_name (globalNo, form, region, mega_evolution, gigantamax, language, name) VALUES (?, ?, ?, ?, ?, ?, ?)",
+              "INSERT INTO pokedex_name (id, globalNo, form, region, mega_evolution, gigantamax, language, name) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
               [
+                pokemon['no'].to_s+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
                 pokemon['no'],
                 form['form'],
                 form['region'],
@@ -113,8 +119,9 @@ if __FILE__ == $0
         else
           pokemon['name'].each do |language, name|
             db.execute(
-              "INSERT INTO pokedex_name (globalNo, form, region, mega_evolution, gigantamax, language, name) VALUES (?, ?, ?, ?, ?, ?, ?)",
+              "INSERT INTO pokedex_name (id, globalNo, form, region, mega_evolution, gigantamax, language, name) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
               [
+                pokemon['no'].to_s+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
                 pokemon['no'],
                 form['form'],
                 form['region'],
@@ -138,6 +145,7 @@ if __FILE__ == $0
     # Create tables
     db.execute(<<-SQL)
       CREATE TABLE IF NOT EXISTS local_pokedex (
+        id TEXT,
         no TEXT,
         globalNo TEXT,
         form TEXT,
@@ -155,6 +163,7 @@ if __FILE__ == $0
     # Create tables
     db.execute(<<-SQL)
       CREATE TABLE IF NOT EXISTS local_pokedex_type (
+        id TEXT,
         globalNo TEXT,
         form TEXT,
         region TEXT,
@@ -172,6 +181,7 @@ if __FILE__ == $0
     # Create tables
     db.execute(<<-SQL)
       CREATE TABLE IF NOT EXISTS local_pokedex_ability (
+        id TEXT,
         globalNo TEXT,
         form TEXT,
         region TEXT,
@@ -190,6 +200,7 @@ if __FILE__ == $0
     # Create tables
     db.execute(<<-SQL)
       CREATE TABLE IF NOT EXISTS local_pokedex_status (
+        id TEXT,
         globalNo TEXT,
         form TEXT,
         region TEXT,
@@ -211,6 +222,7 @@ if __FILE__ == $0
     # Create tables
     db.execute(<<-SQL)
       CREATE TABLE IF NOT EXISTS local_pokedex_description (
+        id TEXT,
         globalNo TEXT,
         form TEXT,
         region TEXT,
@@ -228,6 +240,7 @@ if __FILE__ == $0
     local_pokedex_array["ruby_sapphire_emerald"] = ["ホウエン図鑑"]
     local_pokedex_array["firered_leafgreen"] = ["カントー図鑑"]
     local_pokedex_array["diamond_pearl_platinum"] = ["シンオウ図鑑"]
+    local_pokedex_array["heartgold_soulsilver"] = ["ジョウト図鑑"]
     local_pokedex_array["black_white"] = ["イッシュ図鑑"]
     local_pokedex_array["black2_white2"] = ["イッシュ図鑑"]
     local_pokedex_array["x_y"] = ["セントラルカロス図鑑", "コーストカロス図鑑", "マウンテンカロス図鑑"]
@@ -252,8 +265,9 @@ if __FILE__ == $0
         pokedex_json["pokedex"][pokedex_name].each do |pokemon|
           pokemon["status"].each do |form|
             db.execute(
-              "INSERT INTO local_pokedex (no, globalNo, form, region, mega_evolution, gigantamax, version, pokedex) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+              "INSERT INTO local_pokedex (id, no, globalNo, form, region, mega_evolution, gigantamax, version, pokedex) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
               [
+                pokemon['globalNo'].to_s+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
                 pokemon['no'],
                 pokemon['globalNo'],
                 form['form'],
@@ -266,8 +280,9 @@ if __FILE__ == $0
             )
 
             db.execute(
-              "INSERT INTO local_pokedex_type (globalNo, form, region, mega_evolution, gigantamax, version, type1, type2) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+              "INSERT INTO local_pokedex_type (id, globalNo, form, region, mega_evolution, gigantamax, version, type1, type2) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
               [
+                pokemon['globalNo'].to_s+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
                 pokemon['globalNo'],
                 form['form'],
                 form['region'],
@@ -280,8 +295,9 @@ if __FILE__ == $0
             )
 
             db.execute(
-              "INSERT INTO local_pokedex_ability (globalNo, form, region, mega_evolution, gigantamax, version, ability1, ability2, dream_ability) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+              "INSERT INTO local_pokedex_ability (id, globalNo, form, region, mega_evolution, gigantamax, version, ability1, ability2, dream_ability) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
               [
+                pokemon['globalNo'].to_s+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
                 pokemon['globalNo'],
                 form['form'],
                 form['region'],
@@ -295,8 +311,9 @@ if __FILE__ == $0
             )
 
             db.execute(
-              "INSERT INTO local_pokedex_status (globalNo, form, region, mega_evolution, gigantamax, version, hp, attack, defense, special_attack, special_defense, speed) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+              "INSERT INTO local_pokedex_status (id, globalNo, form, region, mega_evolution, gigantamax, version, hp, attack, defense, special_attack, special_defense, speed) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
               [
+                pokemon['globalNo'].to_s+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
                 pokemon['globalNo'],
                 form['form'],
                 form['region'],
@@ -317,8 +334,9 @@ if __FILE__ == $0
                 next
               end
               db.execute(
-                "INSERT INTO local_pokedex_description (globalNo, form, region, mega_evolution, gigantamax, version, language, description) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+                "INSERT INTO local_pokedex_description (id, globalNo, form, region, mega_evolution, gigantamax, version, language, description) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
                 [
+                  pokemon['no'].to_s+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
                   pokemon['globalNo'],
                   form['form'],
                   form['region'],
@@ -510,6 +528,7 @@ if __FILE__ == $0
     # Create tables
     db.execute(<<-SQL)
       CREATE TABLE IF NOT EXISTS local_pokedex_waza (
+        id TEXT,
         globalNo TEXT,
         form TEXT,
         region TEXT,
@@ -528,6 +547,7 @@ if __FILE__ == $0
     # Create tables
     db.execute(<<-SQL)
       CREATE TABLE IF NOT EXISTS local_pokedex_waza_machine (
+        id TEXT,
         globalNo TEXT,
         form TEXT,
         region TEXT,
@@ -571,8 +591,9 @@ if __FILE__ == $0
             waza_data["form"].each do |form_data|
               form_data[""].each do |form_version_data|
                 db.execute(
-                  "INSERT INTO local_pokedex_waza (globalNo, form, region, mega_evolution, gigantamax, version, pokedex, conditions, waza) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                  "INSERT INTO local_pokedex_waza (id, globalNo, form, region, mega_evolution, gigantamax, version, pokedex, conditions, waza) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                   [
+                    waza_data['globalNo'].to_s+'_'+form_data['form'].to_s+'_'+form_data['region'].to_s+'_'+form_data['mega_evolution'].to_s+'_'+form_data['gigantamax'].to_s,
                     waza_data['globalNo'],
                     form_data['form'],
                     form_data['region'],
@@ -587,8 +608,9 @@ if __FILE__ == $0
               end
               form_data["思い出し"].each do |form_version_data|
                 db.execute(
-                  "INSERT INTO local_pokedex_waza (globalNo, form, region, mega_evolution, gigantamax, version, pokedex, conditions, waza) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                  "INSERT INTO local_pokedex_waza (id, globalNo, form, region, mega_evolution, gigantamax, version, pokedex, conditions, waza) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                   [
+                    waza_data['globalNo'].to_s+'_'+form_data['form'].to_s+'_'+form_data['region'].to_s+'_'+form_data['mega_evolution'].to_s+'_'+form_data['gigantamax'].to_s,
                     waza_data['globalNo'],
                     form_data['form'],
                     form_data['region'],
@@ -603,8 +625,9 @@ if __FILE__ == $0
               end
               form_data["進化時"].each do |form_version_data|
                 db.execute(
-                  "INSERT INTO local_pokedex_waza (globalNo, form, region, mega_evolution, gigantamax, version, pokedex, conditions, waza) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                  "INSERT INTO local_pokedex_waza (id, globalNo, form, region, mega_evolution, gigantamax, version, pokedex, conditions, waza) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                   [
+                    waza_data['globalNo'].to_s+'_'+form_data['form'].to_s+'_'+form_data['region'].to_s+'_'+form_data['mega_evolution'].to_s+'_'+form_data['gigantamax'].to_s,
                     waza_data['globalNo'],
                     form_data['form'],
                     form_data['region'],
@@ -619,8 +642,9 @@ if __FILE__ == $0
               end
               form_data["わざマシン"].each do |form_waza_machine_data|
                 db.execute(
-                  "INSERT INTO local_pokedex_waza_machine (globalNo, form, region, mega_evolution, gigantamax, version, pokedex, machine_no) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+                  "INSERT INTO local_pokedex_waza_machine (id, globalNo, form, region, mega_evolution, gigantamax, version, pokedex, machine_no) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
                   [
+                    waza_data['globalNo'].to_s+'_'+form_data['form'].to_s+'_'+form_data['region'].to_s+'_'+form_data['mega_evolution'].to_s+'_'+form_data['gigantamax'].to_s,
                     waza_data['globalNo'],
                     form_data['form'],
                     form_data['region'],
@@ -637,8 +661,9 @@ if __FILE__ == $0
                 next if key == "" || key == "思い出し" || key == "進化時" || key == "わざマシン" || key == "form" || key == "region" || key == "mega_evolution" || key == "gigantamax"
                 form_version_data.each do |waza|
                   db.execute(
-                    "INSERT INTO local_pokedex_waza (globalNo, form, region, mega_evolution, gigantamax, version, pokedex, conditions, waza) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                    "INSERT INTO local_pokedex_waza (id, globalNo, form, region, mega_evolution, gigantamax, version, pokedex, conditions, waza) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                     [
+                      waza_data['globalNo'].to_s+'_'+form_data['form'].to_s+'_'+form_data['region'].to_s+'_'+form_data['mega_evolution'].to_s+'_'+form_data['gigantamax'].to_s,
                       waza_data['globalNo'],
                       form_data['form'],
                       form_data['region'],
@@ -695,10 +720,10 @@ if __FILE__ == $0
       "white",
       "black2",
       "white2",
-      "X",
-      "X_kanji",
-      "Y",
-      "Y_kanji",
+      "x",
+      "x_kanji",
+      "y",
+      "y_kanji",
       "omegaruby",
       "omegaruby_kanji",
       "alphasapphire",
@@ -775,14 +800,15 @@ if __FILE__ == $0
           next
         end
         sql = <<-SQL
-INSERT INTO local_pokedex_description (globalNo, form, region, mega_evolution, gigantamax, version, language, description)
-SELECT ?,?,?,?,?,?,?,?
+INSERT INTO local_pokedex_description (id, globalNo, form, region, mega_evolution, gigantamax, version, language, description)
+SELECT ?,?,?,?,?,?,?,?,?
 WHERE NOT EXISTS (
   SELECT 1 FROM local_pokedex_description
   WHERE globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND version = ? AND language = ?
 )
 SQL
         db.execute(sql, [
+          pokedex['globalNo'].to_s+'_'+pokedex['form'].to_s+'_'+pokedex['region'].to_s+'_'+pokedex['mega_evolution'].to_s+'_'+pokedex['gigantamax'].to_s,
           pokedex['globalNo'], pokedex['form'], pokedex['region'],
           pokedex['mega_evolution'], pokedex['gigantamax'], version,
           'jpn', pokedex[version],
