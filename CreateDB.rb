@@ -336,7 +336,7 @@ if __FILE__ == $0
               db.execute(
                 "INSERT INTO local_pokedex_description (id, globalNo, form, region, mega_evolution, gigantamax, version, language, description) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
                 [
-                  pokemon['no'].to_s+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
+                  pokemon['globalNo'].to_s+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
                   pokemon['globalNo'],
                   form['form'],
                   form['region'],
@@ -809,11 +809,19 @@ WHERE NOT EXISTS (
 SQL
         db.execute(sql, [
           pokedex['globalNo'].to_s+'_'+pokedex['form'].to_s+'_'+pokedex['region'].to_s+'_'+pokedex['mega_evolution'].to_s+'_'+pokedex['gigantamax'].to_s,
-          pokedex['globalNo'], pokedex['form'], pokedex['region'],
-          pokedex['mega_evolution'], pokedex['gigantamax'], version,
-          'jpn', pokedex[version],
-          pokedex['globalNo'], pokedex['form'], pokedex['region'],
-          pokedex['mega_evolution'], pokedex['gigantamax'], version,
+          pokedex['globalNo'], 
+          pokedex['form'], 
+          pokedex['region'],
+          pokedex['mega_evolution'], 
+          pokedex['gigantamax'], 
+          version,
+          'jpn', 
+          pokedex[version],
+          pokedex['globalNo'], 
+          pokedex['form'], 
+          pokedex['region'],
+          pokedex['mega_evolution'], 
+          pokedex['gigantamax'], version,
           'jpn'
         ])
       end
