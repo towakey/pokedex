@@ -330,11 +330,16 @@ if __FILE__ == $0
             )
 
             form['description'].each do |language, description|
-              if description == "" then
+              if description == "" or description == nil then
                 next
               end
               db.execute(
-                "INSERT INTO local_pokedex_description (id, globalNo, form, region, mega_evolution, gigantamax, version, language, description) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                "INSERT INTO local_pokedex_description (id, globalNo, form, region, mega_evolution, gigantamax, version, language, description)
+                SELECT ?,?,?,?,?,?,?,?,? 
+                WHERE NOT EXISTS ( 
+                  SELECT 1 FROM local_pokedex_description 
+                  WHERE id = ? AND globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND version = ? AND language = ? 
+                )",
                 [
                   pokemon['globalNo'].to_s+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
                   pokemon['globalNo'],
@@ -344,7 +349,16 @@ if __FILE__ == $0
                   form['gigantamax'],
                   language,
                   'jpn',
-                  description
+                  description,
+                  # 重複チェック用のパラメータ
+                  pokemon['globalNo'].to_s+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
+                  pokemon['globalNo'],
+                  form['form'],
+                  form['region'],
+                  form['mega_evolution'],
+                  form['gigantamax'],
+                  language,
+                  'jpn'
                 ]
               )
             end
@@ -796,7 +810,7 @@ if __FILE__ == $0
     description_json["description"].each do |pokedex|
       # puts pokedex['globalNo']
       version_array.each do |version|
-        if pokedex[version] == "" then
+        if pokedex[version] == "" or pokedex[version] == nil then
           next
         end
         sql = <<-SQL
@@ -804,7 +818,7 @@ INSERT INTO local_pokedex_description (id, globalNo, form, region, mega_evolutio
 SELECT ?,?,?,?,?,?,?,?,?
 WHERE NOT EXISTS (
   SELECT 1 FROM local_pokedex_description
-  WHERE globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND version = ? AND language = ?
+  WHERE id = ? AND globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND version = ? AND language = ?
 )
 SQL
         db.execute(sql, [
@@ -817,11 +831,14 @@ SQL
           version,
           'jpn', 
           pokedex[version],
+
+          pokedex['globalNo'].to_s+'_'+pokedex['form'].to_s+'_'+pokedex['region'].to_s+'_'+pokedex['mega_evolution'].to_s+'_'+pokedex['gigantamax'].to_s,
           pokedex['globalNo'], 
           pokedex['form'], 
           pokedex['region'],
           pokedex['mega_evolution'], 
-          pokedex['gigantamax'], version,
+          pokedex['gigantamax'], 
+          version,
           'jpn'
         ])
       end
