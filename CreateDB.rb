@@ -294,8 +294,29 @@ if __FILE__ == $0
                 form['mega_evolution'],
                 form['gigantamax'],
                 game_version,
-                form['type1'],
-                form['type2'],
+                if form['type1'] && form['type2'] && form['type1'] != form['type2']
+                  # タイプの順序を定義
+                  type_order = [
+                    'ノーマル', 'ほのお', 'みず', 'でんき', 'くさ', 'こおり', 'かくとう', 'どく', 'じめん', 
+                    'ひこう', 'エスパー', 'むし', 'いわ', 'ゴースト', 'ドラゴン', 'あく', 'はがね', 'フェアリー'
+                  ]
+                  type1 = form['type1']
+                  type2 = form['type2']
+                  
+                  # タイプが存在するかチェック
+                  idx1 = type_order.index(type1)
+                  idx2 = type_order.index(type2)
+                  
+                  # 両方のタイプが存在する場合のみ順序を入れ替え
+                  if idx1 && idx2
+                    idx1 > idx2 ? [type2, type1] : [type1, type2]
+                  else
+                    # いずれかのタイプが存在しない場合はそのままの順序で返す
+                    [form['type1'], form['type2']]
+                  end
+                else
+                  [form['type1'], form['type2']]
+                end,
                 # 重複チェック用のパラメータ
                 pokemon['globalNo'].to_s.rjust(4, '0')+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
                 pokemon['globalNo'].to_s.rjust(4, '0'),
@@ -304,7 +325,7 @@ if __FILE__ == $0
                 form['mega_evolution'],
                 form['gigantamax'],
                 game_version
-              ]
+              ].flatten
             )
 
             db.execute(
