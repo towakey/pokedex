@@ -235,7 +235,7 @@ if __FILE__ == $0
     SQL
 
     local_pokedex_array = {}
-    local_pokedex_array["red_green_blue_yellow"] = ["カントー図鑑"]
+    local_pokedex_array["red_green_blue_pikachu"] = ["カントー図鑑"]
     local_pokedex_array["gold_silver_crystal"] = ["ジョウト図鑑"]
     local_pokedex_array["ruby_sapphire_emerald"] = ["ホウエン図鑑"]
     local_pokedex_array["firered_leafgreen"] = ["カントー図鑑"]
@@ -435,7 +435,7 @@ if __FILE__ == $0
     SQL
 
     local_waza_array = {}
-    local_waza_array["red_green_blue_yellow"] = ["カントー図鑑"]
+    local_waza_array["red_green_blue_pikachu"] = ["カントー図鑑"]
     local_waza_array["gold_silver_crystal"] = ["ジョウト図鑑"]
     local_waza_array["ruby_sapphire_emerald"] = ["ホウエン図鑑"]
     local_waza_array["diamond_pearl_platinum"] = ["シンオウ図鑑"]
