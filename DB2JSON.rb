@@ -6,7 +6,7 @@ require 'json'
 require 'fileutils'
 
 VERSION = (ARGV[0] || 'x_y').downcase  # 例: 'x_y'
-DB_PATH = File.expand_path('new_pokedex.db', __dir__)
+DB_PATH = File.expand_path('pokedex.db', __dir__)
 OUT_DIR = File.join(__dir__, 'pokedex', VERSION)
 FileUtils.mkdir_p(OUT_DIR)
 
@@ -164,7 +164,43 @@ SQL
         }
       end
 
-      { 'no' => no, 'globalNo' => global_no, 'status' => status_arr }
+      if row['region'] == 'アローラのすがた' then
+        region_value = '01'
+      elsif row['region'] == 'ガラルのすがた' then
+        region_value = '02'
+      elsif row['region'] == 'ヒスイのすがた' then
+        region_value = '03'
+      elsif row['region'] == 'パルデアのすがた' then
+        region_value = '04'
+      else
+        region_value = '00'
+      end
+      
+      if row['gigantamax'].to_s.empty? then
+        gigantamax_value = '0'
+      else
+        gigantamax_value = '1'
+      end
+      
+      if row['mega_evolution'].to_s.empty? then
+        mega_evolution_value = '0'
+      else
+        mega_evolution_value = '1'
+      end
+
+      if row['form'].to_s.empty? then
+        form_value = '00'
+      else
+        form_value = '01'
+      end
+
+      spare1 = '0'
+      spare2 = '0'
+      mf = '0'
+      out_of_index = '000'
+      shiny = '0'
+      id = row['globalNo'].to_s.rjust(4, '0') + "_" + region_value.to_s + spare1.to_s + spare2.to_s + gigantamax_value.to_s + mega_evolution_value.to_s + form_value.to_s + "_" + mf.to_s + "_" + out_of_index.to_s.rjust(3, '0') + "_" + shiny.to_s
+      { 'id' => id, 'no' => no, 'globalNo' => global_no, 'status' => status_arr }
     end
 end
 
