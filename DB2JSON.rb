@@ -5,7 +5,19 @@ require 'sqlite3'
 require 'json'
 require 'fileutils'
 
-VERSION = (ARGV[0] || 'x_y').downcase  # 例: 'x_y'
+# 引数(例: "LegendsArceus" / "Legends_Arceus" / "legends_arceus")を
+# データベース用のスネークケース(例: "legends_arceus")に正規化するメソッド
+def normalize_version_name(name)
+  return '' if name.nil?
+  return name.downcase if name.include?('_')
+  # CamelCase → snake_case
+  # name.gsub(/([a-z])([A-Z])/, '\\1_\\2').downcase
+  name.gsub(/([a-z])([A-Z])/, '\\1\\2').downcase
+end
+
+RAW_VERSION = ARGV[0] || 'LegendsArceus'
+VERSION     = normalize_version_name(RAW_VERSION)
+puts VERSION
 DB_PATH = File.expand_path('pokedex.db', __dir__)
 OUT_DIR = File.join(__dir__, 'pokedex', VERSION)
 FileUtils.mkdir_p(OUT_DIR)
@@ -24,7 +36,7 @@ db.results_as_hash = true
 pokedex_names = db.execute(<<~SQL, [VERSION]).map { |r| r['pokedex'] }.uniq
   SELECT pokedex
     FROM local_pokedex
-   WHERE version = ?
+   WHERE version = ? COLLATE NOCASE
 SQL
 
 json_root = {
@@ -60,12 +72,52 @@ def fetch_row_with_fallback(db, table_key, base_key, sql, specific_versions = ni
   nil
 end
 
+def generate_pokemon_id(no, region, spare1, spare2, gigantamax, mega_evolution, form, mf, out_of_index, shiny)
+  if region == 'アローラのすがた' then
+    region_value = '01'
+  elsif region == 'ガラルのすがた' then
+    region_value = '02'
+  elsif region == 'ヒスイのすがた' then
+    region_value = '03'
+  elsif region == 'パルデアのすがた' then
+    region_value = '04'
+  else
+    region_value = '00'
+  end
+  
+  if gigantamax.to_s.empty? then
+    gigantamax_value = '0'
+  else
+    gigantamax_value = '1'
+  end
+  
+  if mega_evolution.to_s.empty? then
+    mega_evolution_value = '0'
+  else
+    mega_evolution_value = '1'
+  end
+
+  if form.to_s.empty? then
+    form_value = '00'
+  else
+    form_value = '01'
+  end
+
+  # spare1 = '0'
+  # spare2 = '0'
+  # mf = '0'
+  # out_of_index = '000'
+  # shiny = '0'
+
+  no.to_s.rjust(4, '0') + "_" + region_value.to_s.rjust(2, '0') + spare1 + spare2 + gigantamax_value + mega_evolution_value + form_value + "_" + mf.to_s + "_" + out_of_index.to_s.rjust(3, '0') + "_" + shiny.to_s
+end
+
 pokedex_names.each do |pokedex_name|
   # その図鑑に載っているポケモンを図鑑番号順に取得
   pokemons = db.execute(<<~SQL, [VERSION, pokedex_name])
     SELECT no, globalNo
       FROM local_pokedex
-     WHERE version = ? AND pokedex = ?
+     WHERE version = ? COLLATE NOCASE AND pokedex = ?
   GROUP BY no, globalNo
   ORDER BY CAST(no AS INTEGER)
 SQL
@@ -79,7 +131,7 @@ SQL
       forms = db.execute(<<~SQL, [VERSION, global_no])
         SELECT *
           FROM local_pokedex
-         WHERE version = ?
+         WHERE version = ? COLLATE NOCASE
            AND globalNo = ?
       SQL
 
@@ -95,7 +147,7 @@ SQL
                 AND region      = ?
                 AND mega_evolution = ?
                 AND gigantamax  = ?
-                AND version     = ?
+                AND version     = ? COLLATE NOCASE
            SQL
 
         ability = fetch_row_with_fallback(db, :ability, key, <<~SQL)
@@ -106,7 +158,7 @@ SQL
                 AND region      = ?
                 AND mega_evolution = ?
                 AND gigantamax  = ?
-                AND version     = ?
+                AND version     = ? COLLATE NOCASE
            SQL
 
         stats = fetch_row_with_fallback(db, :status, key, <<~SQL) || {}
@@ -118,7 +170,7 @@ SQL
                 AND region      = ?
                 AND mega_evolution = ?
                 AND gigantamax  = ?
-                AND version     = ?
+                AND version     = ? COLLATE NOCASE
            SQL
 
         # 対応するバージョン名を自動取得 (例: x_y → ["x","y"])
@@ -135,7 +187,7 @@ SQL
                AND region      = ?
                AND mega_evolution = ?
                AND gigantamax  = ?
-               AND version     = ?
+               AND version     = ? COLLATE NOCASE
                AND language    = 'jpn'
           SQL
 
@@ -145,6 +197,7 @@ SQL
         end
 
         {
+          'id'          => generate_pokemon_id(row['globalNo'], f['region'], '0', '0', f['gigantamax'], f['mega_evolution'], f['form'], '0', '000', '0'),
           'form'          => f['form'],
           'region'        => f['region'],
           'mega_evolution'=> f['mega_evolution'],
@@ -164,42 +217,7 @@ SQL
         }
       end
 
-      if row['region'] == 'アローラのすがた' then
-        region_value = '01'
-      elsif row['region'] == 'ガラルのすがた' then
-        region_value = '02'
-      elsif row['region'] == 'ヒスイのすがた' then
-        region_value = '03'
-      elsif row['region'] == 'パルデアのすがた' then
-        region_value = '04'
-      else
-        region_value = '00'
-      end
-      
-      if row['gigantamax'].to_s.empty? then
-        gigantamax_value = '0'
-      else
-        gigantamax_value = '1'
-      end
-      
-      if row['mega_evolution'].to_s.empty? then
-        mega_evolution_value = '0'
-      else
-        mega_evolution_value = '1'
-      end
-
-      if row['form'].to_s.empty? then
-        form_value = '00'
-      else
-        form_value = '01'
-      end
-
-      spare1 = '0'
-      spare2 = '0'
-      mf = '0'
-      out_of_index = '000'
-      shiny = '0'
-      id = row['globalNo'].to_s.rjust(4, '0') + "_" + region_value.to_s + spare1.to_s + spare2.to_s + gigantamax_value.to_s + mega_evolution_value.to_s + form_value.to_s + "_" + mf.to_s + "_" + out_of_index.to_s.rjust(3, '0') + "_" + shiny.to_s
+      id = generate_pokemon_id(row['globalNo'], row['region'], '0', '0', row['gigantamax'], row['mega_evolution'], row['form'], '0', '000', '0')
       { 'id' => id, 'no' => no, 'globalNo' => global_no, 'status' => status_arr }
     end
 end
