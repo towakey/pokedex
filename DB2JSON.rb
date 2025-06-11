@@ -134,8 +134,14 @@ SQL
          WHERE version = ? COLLATE NOCASE
            AND globalNo = ?
       SQL
+      # SQLite3::Database#execute が返す配列は凍結されている場合があるため、
+      # 非破壊版 uniq で新しい配列を受け取るように修正
+      forms = forms.uniq { |f| [f['form'], f['region'], f['mega_evolution'], f['gigantamax']] }
 
-      status_arr = forms.map do |f|
+      status_arr = forms.each_with_index.map do |f, idx|
+        # フォームごとの連番 (01, 02, ...) を生成
+        form_seq = (idx).to_s.rjust(2, '0')
+
         key = [f['globalNo'], f['form'], f['region'],
                f['mega_evolution'], f['gigantamax']]
 
