@@ -97,8 +97,11 @@ def generate_pokemon_id(no, region, spare1, spare2, gigantamax, mega_evolution, 
     mega_evolution_value = '1'
   end
 
-  if form.to_s.empty? then
+  if form.to_s.empty?
     form_value = '00'
+  elsif form.to_s =~ /^\d+$/
+    # If form is purely numeric (e.g., sequence index), use it directly with zero padding
+    form_value = form.to_i.to_s.rjust(2, '0')
   else
     form_value = '01'
   end
@@ -128,10 +131,11 @@ SQL
       global_no = row['globalNo']
 
       # 形態ごとの status をまとめる
-      forms = db.execute(<<~SQL, [VERSION, global_no])
+      forms = db.execute(<<~SQL, [VERSION, pokedex_name, global_no])
         SELECT *
           FROM local_pokedex
          WHERE version = ? COLLATE NOCASE
+           AND pokedex = ?
            AND globalNo = ?
       SQL
       # SQLite3::Database#execute が返す配列は凍結されている場合があるため、
@@ -203,7 +207,7 @@ SQL
         end
 
         {
-          'id'          => generate_pokemon_id(row['globalNo'], f['region'], '0', '0', f['gigantamax'], f['mega_evolution'], f['form'], '0', '000', '0'),
+          'id'          => generate_pokemon_id(row['globalNo'], f['region'], '0', '0', f['gigantamax'], f['mega_evolution'], form_seq, '0', '000', '0'),
           'form'          => f['form'],
           'region'        => f['region'],
           'mega_evolution'=> f['mega_evolution'],
