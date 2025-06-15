@@ -29037,6 +29037,48 @@
             "chs": "蕾冠王",
             "cht": "蕾冠王"
           }
+        },
+        {
+          "id": "0898_00000001_5_000_0",
+          "form": "はくばじょうのすがた",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "classification": {
+            "jpn": "エンペラーポケモン"
+          },
+          "height": "2.4",
+          "weight": "809.1",
+          "name": {
+            "jpn": "バドレックス",
+            "eng": "Calyrex",
+            "ger": "Coronospa",
+            "fra": "Sylveroy",
+            "kor": "버드렉스",
+            "chs": "蕾冠王",
+            "cht": "蕾冠王"
+          }
+        },
+        {
+          "id": "0898_00000002_5_000_0",
+          "form": "こくばじょうのすがた",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "classification": {
+            "jpn": "エンペラーポケモン"
+          },
+          "height": "2.4",
+          "weight": "53.6",
+          "name": {
+            "jpn": "バドレックス",
+            "eng": "Calyrex",
+            "ger": "Coronospa",
+            "fra": "Sylveroy",
+            "kor": "버드렉스",
+            "chs": "蕾冠王",
+            "cht": "蕾冠王"
+          }
         }
       ]
     },
