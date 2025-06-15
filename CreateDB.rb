@@ -74,7 +74,7 @@ if __FILE__ == $0
         db.execute(
           "INSERT INTO pokedex (id, globalNo, form, region, mega_evolution, gigantamax, height, weight) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
           [
-            pokemon['no'].to_s.rjust(4, '0')+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
+            form['id'],
             pokemon['no'].to_s.rjust(4, '0'),
             form['form'],
             form['region'],
@@ -88,7 +88,7 @@ if __FILE__ == $0
         db.execute(
           "INSERT INTO pokedex_classification (id, globalNo, form, region, mega_evolution, gigantamax, language, classification) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
           [
-            pokemon['no'].to_s.rjust(4, '0')+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
+            form['id'],
             pokemon['no'].to_s.rjust(4, '0'),
             form['form'],
             form['region'],
@@ -96,7 +96,7 @@ if __FILE__ == $0
             form['gigantamax'],
             # form['language'],
             'jpn',                  # 現時点では日本語のみ
-            form['classification']
+            form['classification']['jpn']
           ]
         )
 
@@ -105,7 +105,7 @@ if __FILE__ == $0
             db.execute(
               "INSERT INTO pokedex_name (id, globalNo, form, region, mega_evolution, gigantamax, language, name) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
               [
-                pokemon['no'].to_s.rjust(4, '0')+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
+                form['id'],
                 pokemon['no'].to_s.rjust(4, '0'),
                 form['form'],
                 form['region'],
@@ -121,7 +121,7 @@ if __FILE__ == $0
             db.execute(
               "INSERT INTO pokedex_name (id, globalNo, form, region, mega_evolution, gigantamax, language, name) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
               [
-                pokemon['no'].to_s.rjust(4, '0')+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
+                form['id'],
                 pokemon['no'].to_s.rjust(4, '0'),
                 form['form'],
                 form['region'],
@@ -267,7 +267,7 @@ if __FILE__ == $0
             db.execute(
               "INSERT INTO local_pokedex (id, no, globalNo, form, region, mega_evolution, gigantamax, version, pokedex) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
               [
-                pokemon['globalNo'].to_s.rjust(4, '0')+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
+                form['id'],
                 pokemon['no'].to_s.rjust(4, '0'),
                 pokemon['globalNo'].to_s.rjust(4, '0'),
                 form['form'],
@@ -287,7 +287,7 @@ if __FILE__ == $0
                 WHERE id = ? AND globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND version = ?
               )",
               [
-                pokemon['globalNo'].to_s.rjust(4, '0')+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
+                form['id'],
                 pokemon['globalNo'].to_s.rjust(4, '0'),
                 form['form'],
                 form['region'],
@@ -318,7 +318,7 @@ if __FILE__ == $0
                   [form['type1'], form['type2']]
                 end,
                 # 重複チェック用のパラメータ
-                pokemon['globalNo'].to_s.rjust(4, '0')+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
+                form['id'],
                 pokemon['globalNo'].to_s.rjust(4, '0'),
                 form['form'],
                 form['region'],
@@ -331,7 +331,7 @@ if __FILE__ == $0
             db.execute(
               "INSERT INTO local_pokedex_ability (id, globalNo, form, region, mega_evolution, gigantamax, version, ability1, ability2, dream_ability) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
               [
-                pokemon['globalNo'].to_s.rjust(4, '0')+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
+                form['id'],
                 pokemon['globalNo'].to_s.rjust(4, '0'),
                 form['form'],
                 form['region'],
@@ -347,7 +347,7 @@ if __FILE__ == $0
             db.execute(
               "INSERT INTO local_pokedex_status (id, globalNo, form, region, mega_evolution, gigantamax, version, hp, attack, defense, special_attack, special_defense, speed) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
               [
-                pokemon['globalNo'].to_s.rjust(4, '0')+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
+                form['id'],
                 pokemon['globalNo'].to_s.rjust(4, '0'),
                 form['form'],
                 form['region'],
@@ -375,7 +375,7 @@ if __FILE__ == $0
                   WHERE id = ? AND globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND version = ? AND language = ? 
                 )",
                 [
-                  pokemon['globalNo'].to_s.rjust(4, '0')+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
+                  form['id'],
                   pokemon['globalNo'].to_s.rjust(4, '0'),
                   form['form'],
                   form['region'],
@@ -385,7 +385,7 @@ if __FILE__ == $0
                   'jpn',
                   description,
                   # 重複チェック用のパラメータ
-                  pokemon['globalNo'].to_s.rjust(4, '0')+"_"+form['form'].to_s+"_"+form['region'].to_s+"_"+form['mega_evolution'].to_s+"_"+form['gigantamax'].to_s,
+                  form['id'],
                   pokemon['globalNo'].to_s.rjust(4, '0'),
                   form['form'],
                   form['region'],
@@ -641,7 +641,7 @@ if __FILE__ == $0
                 db.execute(
                   "INSERT INTO local_pokedex_waza (id, globalNo, form, region, mega_evolution, gigantamax, version, pokedex, conditions, waza) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                   [
-                    waza_data['globalNo'].to_s.rjust(4, '0')+'_'+form_data['form'].to_s+'_'+form_data['region'].to_s+'_'+form_data['mega_evolution'].to_s+'_'+form_data['gigantamax'].to_s,
+                    form_data['id'],
                     waza_data['globalNo'].to_s.rjust(4, '0'),
                     form_data['form'],
                     form_data['region'],
@@ -658,7 +658,7 @@ if __FILE__ == $0
                 db.execute(
                   "INSERT INTO local_pokedex_waza (id, globalNo, form, region, mega_evolution, gigantamax, version, pokedex, conditions, waza) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                   [
-                    waza_data['globalNo'].to_s.rjust(4, '0')+'_'+form_data['form'].to_s+'_'+form_data['region'].to_s+'_'+form_data['mega_evolution'].to_s+'_'+form_data['gigantamax'].to_s,
+                    form_data['id'],
                     waza_data['globalNo'].to_s.rjust(4, '0'),
                     form_data['form'],
                     form_data['region'],
@@ -675,7 +675,7 @@ if __FILE__ == $0
                 db.execute(
                   "INSERT INTO local_pokedex_waza (id, globalNo, form, region, mega_evolution, gigantamax, version, pokedex, conditions, waza) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                   [
-                    waza_data['globalNo'].to_s.rjust(4, '0')+'_'+form_data['form'].to_s+'_'+form_data['region'].to_s+'_'+form_data['mega_evolution'].to_s+'_'+form_data['gigantamax'].to_s,
+                    form_data['id'],
                     waza_data['globalNo'].to_s.rjust(4, '0'),
                     form_data['form'],
                     form_data['region'],
@@ -692,7 +692,7 @@ if __FILE__ == $0
                 db.execute(
                   "INSERT INTO local_pokedex_waza_machine (id, globalNo, form, region, mega_evolution, gigantamax, version, pokedex, machine_no) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
                   [
-                    waza_data['globalNo'].to_s.rjust(4, '0')+'_'+form_data['form'].to_s+'_'+form_data['region'].to_s+'_'+form_data['mega_evolution'].to_s+'_'+form_data['gigantamax'].to_s,
+                    form_data['id'],
                     waza_data['globalNo'].to_s.rjust(4, '0'),
                     form_data['form'],
                     form_data['region'],
@@ -711,7 +711,7 @@ if __FILE__ == $0
                   db.execute(
                     "INSERT INTO local_pokedex_waza (id, globalNo, form, region, mega_evolution, gigantamax, version, pokedex, conditions, waza) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                     [
-                      waza_data['globalNo'].to_s.rjust(4, '0')+'_'+form_data['form'].to_s+'_'+form_data['region'].to_s+'_'+form_data['mega_evolution'].to_s+'_'+form_data['gigantamax'].to_s,
+                      form_data['id'],
                       waza_data['globalNo'].to_s.rjust(4, '0'),
                       form_data['form'],
                       form_data['region'],
@@ -855,26 +855,26 @@ WHERE NOT EXISTS (
   WHERE id = ? AND globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND version = ? AND language = ?
 )
 SQL
-        db.execute(sql, [
-          pokedex['globalNo'].to_s.rjust(4, '0')+'_'+pokedex['form'].to_s+'_'+pokedex['region'].to_s+'_'+pokedex['mega_evolution'].to_s+'_'+pokedex['gigantamax'].to_s,
-          pokedex['globalNo'].to_s.rjust(4, '0'), 
-          pokedex['form'], 
-          pokedex['region'],
-          pokedex['mega_evolution'], 
-          pokedex['gigantamax'], 
-          version,
-          'jpn', 
-          pokedex[version],
+        # db.execute(sql, [
+        #   pokedex['globalNo'].to_s.rjust(4, '0')+'_'+pokedex['form'].to_s+'_'+pokedex['region'].to_s+'_'+pokedex['mega_evolution'].to_s+'_'+pokedex['gigantamax'].to_s,
+        #   pokedex['globalNo'].to_s.rjust(4, '0'), 
+        #   pokedex['form'], 
+        #   pokedex['region'],
+        #   pokedex['mega_evolution'], 
+        #   pokedex['gigantamax'], 
+        #   version,
+        #   'jpn', 
+        #   pokedex[version],
 
-          pokedex['globalNo'].to_s.rjust(4, '0')+'_'+pokedex['form'].to_s+'_'+pokedex['region'].to_s+'_'+pokedex['mega_evolution'].to_s+'_'+pokedex['gigantamax'].to_s,
-          pokedex['globalNo'].to_s.rjust(4, '0'), 
-          pokedex['form'], 
-          pokedex['region'],
-          pokedex['mega_evolution'], 
-          pokedex['gigantamax'], 
-          version,
-          'jpn'
-        ])
+        #   pokedex['globalNo'].to_s.rjust(4, '0')+'_'+pokedex['form'].to_s+'_'+pokedex['region'].to_s+'_'+pokedex['mega_evolution'].to_s+'_'+pokedex['gigantamax'].to_s,
+        #   pokedex['globalNo'].to_s.rjust(4, '0'), 
+        #   pokedex['form'], 
+        #   pokedex['region'],
+        #   pokedex['mega_evolution'], 
+        #   pokedex['gigantamax'], 
+        #   version,
+        #   'jpn'
+        # ])
       end
     end
 
