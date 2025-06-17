@@ -75,7 +75,7 @@ if __FILE__ == $0
           "INSERT INTO pokedex (id, globalNo, form, region, mega_evolution, gigantamax, height, weight) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
           [
             form['id'],
-            pokemon['no'].to_s.rjust(4, '0'),
+            pokemon['globalNo'].to_s.rjust(4, '0'),
             form['form'],
             form['region'],
             form['mega_evolution'],
@@ -89,7 +89,7 @@ if __FILE__ == $0
           "INSERT INTO pokedex_classification (id, globalNo, form, region, mega_evolution, gigantamax, language, classification) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
           [
             form['id'],
-            pokemon['no'].to_s.rjust(4, '0'),
+            pokemon['globalNo'].to_s.rjust(4, '0'),
             form['form'],
             form['region'],
             form['mega_evolution'],
@@ -106,7 +106,7 @@ if __FILE__ == $0
               "INSERT INTO pokedex_name (id, globalNo, form, region, mega_evolution, gigantamax, language, name) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
               [
                 form['id'],
-                pokemon['no'].to_s.rjust(4, '0'),
+                pokemon['globalNo'].to_s.rjust(4, '0'),
                 form['form'],
                 form['region'],
                 form['mega_evolution'],
@@ -122,7 +122,7 @@ if __FILE__ == $0
               "INSERT INTO pokedex_name (id, globalNo, form, region, mega_evolution, gigantamax, language, name) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
               [
                 form['id'],
-                pokemon['no'].to_s.rjust(4, '0'),
+                pokemon['globalNo'].to_s.rjust(4, '0'),
                 form['form'],
                 form['region'],
                 form['mega_evolution'],
