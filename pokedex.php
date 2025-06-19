@@ -155,7 +155,7 @@ try {
 
     $validRegions = [
         'global' => ['全国図鑑', 'global', ['global']],
-        'kanto' => ['カントー図鑑', 'red_green_blue_yellow', ['red', 'green', 'blue', 'pikachu']],
+        'kanto' => ['カントー図鑑', 'red_green_blue_pikachu', ['red', 'green', 'blue', 'pikachu']],
         'johto' => ['ジョウト図鑑', 'gold_silver_crystal', ['gold', 'silver', 'crystal']],
         'hoenn' => ['ホウエン図鑑', 'ruby_sapphire_emerald', ['ruby', 'sapphire', 'emerald']],
         'kanto_frlg' => ['カントー図鑑', 'firered_leafgreen', ['firered', 'leafgreen']],
@@ -454,12 +454,14 @@ try {
                 FROM local_pokedex
                 WHERE pokedex = :pokedex
                 AND no = :no
+                AND version = :version
                 ORDER BY CAST(no AS INTEGER) ASC
             ";
             
             $rows = $db->query($query, [
                 ':pokedex' => $validRegions[$region][0],
-                ':no' => $no
+                ':no' => $no,
+                ':version' => $validRegions[$region][1]
             ]);
             
             $result = [];
