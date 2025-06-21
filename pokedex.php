@@ -196,6 +196,7 @@ try {
             $rows = $db->query($query);
             $result = [];
             foreach ($rows as $row) {
+                $row['no'] = $row['globalNo'];
                 // ポケモン名を取得
                 $pokedex_name= $db->query("SELECT * FROM pokedex_name WHERE id = :id", [
                     ':id' => $row['id']
@@ -390,6 +391,7 @@ try {
             // print_r($rows);
             $result = [];
             foreach ($rows as $row) {
+                $row['no'] = $row['globalNo'];
                 // ポケモン名を取得
                 $pokedex_name= $db->query("SELECT * FROM pokedex_name WHERE id = :id", [
                     ':id' => $row['id']
