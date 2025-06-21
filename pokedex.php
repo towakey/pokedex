@@ -264,11 +264,13 @@ try {
                 SELECT *
                 FROM local_pokedex
                 WHERE pokedex = :pokedex
+                AND version = :version
                 ORDER BY CAST(no AS INTEGER) ASC
             ";
             
             $rows = $db->query($query, [
-                ':pokedex' => $validRegions[$region][0]
+                ':pokedex' => $validRegions[$region][0],
+                ':version' => $validRegions[$region][1]
             ]);
             
             // noをキーに、各ポケモンのデータを配列として保持
