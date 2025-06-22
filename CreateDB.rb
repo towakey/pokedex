@@ -245,10 +245,10 @@ if __FILE__ == $0
     local_pokedex_array["black2_white2"] = ["イッシュ図鑑"]
     local_pokedex_array["x_y"] = ["セントラルカロス図鑑", "コーストカロス図鑑", "マウンテンカロス図鑑"]
     local_pokedex_array["sun_moon"] = ["アローラ図鑑"]
-    local_pokedex_array["UltraSun_UltraMoon"] = ["アローラ図鑑"]
+    local_pokedex_array["ultrasun_ultramoon"] = ["アローラ図鑑"]
     local_pokedex_array["sword_shield"] = ["ガラル図鑑", "カンムリ雪原図鑑", "ヨロイ島図鑑"]
-    local_pokedex_array["LegendsArceus"] = ["ヒスイ図鑑"]
-    local_pokedex_array["Scarlet_Violet"] = ["パルデア図鑑", "キタカミ図鑑", "ブルーベリー図鑑"]
+    local_pokedex_array["legendsarceus"] = ["ヒスイ図鑑"]
+    local_pokedex_array["scarlet_violet"] = ["パルデア図鑑", "キタカミ図鑑", "ブルーベリー図鑑"]
 
     local_pokedex_array.each do |game_version, local_pokedex|
       # JSONパースエラー時にファイル内容を表示しないようにする
