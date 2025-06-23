@@ -174,7 +174,7 @@ try {
         'galar' => ['ガラル図鑑', 'sword_shield', ['sword', 'shield']],
         'crown_tundra' => ['カンムリ雪原図鑑', 'sword_shield', ['sword', 'shield']],
         'isle_of_armor' => ['ヨロイ島図鑑', 'sword_shield', ['sword', 'shield']],
-        'hisui' => ['ヒスイ図鑑', 'LegendsArceus', ['LegendsArceus']],
+        'hisui' => ['ヒスイ図鑑', 'legendsarceus', ['legendsarceus']],
         'paldea' => ['パルデア図鑑', 'scarlet_violet', ['scarlet', 'violet']],
         'kitakami' => ['キタカミ図鑑', 'scarlet_violet', ['scarlet', 'violet']],
         'blueberry' => ['ブルーベリー図鑑', 'scarlet_violet', ['scarlet', 'violet']]
@@ -207,6 +207,27 @@ try {
                 }
                 $row['name'] = $name;
 
+                // ポケモンタイプを取得（有効なバージョンを末尾から探索）
+                $typeFound = false;
+                foreach (array_reverse($validRegions) as $ver) {
+                    $pokedex_type = $db->query("SELECT * FROM local_pokedex_type WHERE id = :id AND version = :version", [
+                        ':id' => $row['id'],
+                        ':version' => $ver[1]
+                    ]);
+                    if (!empty($pokedex_type)) {
+                        foreach ($pokedex_type as $value) {
+                            $row['type1'] = $value['type1'];
+                            $row['type2'] = $value['type2'];
+                        }
+                        $typeFound = true;
+                        break;
+                    }
+                }
+                if (!$typeFound) {
+                    $row['type1'] = null;
+                    $row['type2'] = null;
+                }
+
                 // 分類を取得
                 $pokedex_classification= $db->query("SELECT * FROM pokedex_classification WHERE id = :id", [
                     ':id' => $row['id']
@@ -225,33 +246,6 @@ try {
                     $row['height'] = $value['height'];
                     $row['weight'] = $value['weight'];
                 }
-
-                // 図鑑説明を取得（バージョンでフィルタリング）
-                // $versionConditions = [];
-                // $params = [':id' => $row['id']];
-                // $i = 0;
-
-                // foreach ($validRegions[$region][2] as $version) {
-                //     $paramName = ":version{$i}";
-                //     $versionConditions[] = $paramName;
-                //     $params[$paramName] = $version;
-                //     $i++;
-                // }
-
-                // $description = [];
-                // if (!empty($versionConditions)) {
-                //     $query = "SELECT * FROM local_pokedex_description 
-                //             WHERE id = :id AND version IN (" . implode(',', $versionConditions) . ")";
-                //     $pokedex_description = $db->query($query, $params);
-                    
-                //     foreach ($pokedex_description as $value) {
-                //         if (!isset($description[$value['version']])) {
-                //             $description[$value['version']] = [];
-                //         }
-                //         $description[$value['version']][$value['language']] = $value['description'];
-                //     }
-                // }
-                // $row['description'] = $description;
 
                 // 配列が初期化されていない場合は初期化
                 if (!isset($result[$row['globalNo']])) {
@@ -289,13 +283,13 @@ try {
 
                 // ポケモンタイプを取得
                 $pokedex_type= $db->query("SELECT * FROM local_pokedex_type WHERE id = :id AND version = :version", [
-                    ':id' => $row['id'],
+                        ':id' => $row['id'],
                     ':version' => $validRegions[$region][1]
-                ]);
-                foreach ($pokedex_type as $value) {
-                    $row['type1'] = $value['type1'];
-                    $row['type2'] = $value['type2'];
-                }
+                    ]);
+                        foreach ($pokedex_type as $value) {
+                            $row['type1'] = $value['type1'];
+                            $row['type2'] = $value['type2'];
+                        }
 
                 // 分類を取得
                 $pokedex_classification= $db->query("SELECT * FROM pokedex_classification WHERE id = :id", [
@@ -401,6 +395,27 @@ try {
                     $name[$value['language']] = $value['name'];
                 }
                 $row['name'] = $name;
+
+                // ポケモンタイプを取得（有効なバージョンを末尾から探索）
+                $typeFound = false;
+                foreach (array_reverse($validRegions) as $ver) {
+                    $pokedex_type = $db->query("SELECT * FROM local_pokedex_type WHERE id = :id AND version = :version", [
+                        ':id' => $row['id'],
+                        ':version' => $ver[1]
+                    ]);
+                    if (!empty($pokedex_type)) {
+                        foreach ($pokedex_type as $value) {
+                            $row['type1'] = $value['type1'];
+                            $row['type2'] = $value['type2'];
+                        }
+                        $typeFound = true;
+                        break;
+                    }
+                }
+                if (!$typeFound) {
+                    $row['type1'] = null;
+                    $row['type2'] = null;
+                }
 
                 // 分類を取得
                 $pokedex_classification= $db->query("SELECT * FROM pokedex_classification WHERE id = :id", [
@@ -536,6 +551,27 @@ try {
                         $row['ability1'] = $value['ability1'];
                         $row['ability2'] = $value['ability2'];
                         $row['dream_ability'] = $value['dream_ability'];
+                    }
+
+                    // 特性の説明文を取得（日本語）
+                    $abilities = ['ability1', 'ability2', 'dream_ability'];
+                    foreach ($abilities as $abilityField) {
+                        $abilityName = $row[$abilityField] ?? null;
+                        if ($abilityName) {
+                            $abilityDescription = null;
+                            // 地方に紐づくゲームバージョンを新しい順に探索
+                            $searchVersions = $validRegions[$region][1];
+                            $abilityRow = $db->querySingle(
+                                "SELECT * FROM ability_language WHERE ability = :ability AND version = :version LIMIT 1",
+                                [
+                                    ':ability' => $abilityName,
+                                    ':version' => $searchVersions
+                                ]
+                            );
+                            $row[$abilityField . '_description'] = [$abilityRow['language'] => $abilityRow['description']];
+                        } else {
+                            $row[$abilityField . '_description'] = null;
+                        }
                     }
 
                     // 図鑑説明を取得（バージョンでフィルタリング）
