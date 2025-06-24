@@ -3,7 +3,7 @@
   "game_version": "",
   "type": [
     {
-      "geme_version": ["Red_Green_Blue_Yellow"],
+      "geme_version": ["red_green_blue_pikachu"],
       "type": {
         "ノーマル":{
           "ノーマル":1,
@@ -263,7 +263,7 @@
       }
     },
     {
-      "geme_version": ["Gold_Silver_Crystal","Ruby_Sapphire_Emerald","FireRed_LeafGreen","Diamond_Pearl_Platinum","HeartGold_SoulSilver","Black_White","Black2_White2"],
+      "geme_version": ["gold_silver_crystal","ruby_sapphire_emerald","firered_leafgreen","diamond_pearl_platinum","heartgold_soulsilver","black_white","black2_white2"],
       "type": {
         "ノーマル":{
           "ノーマル":1,
@@ -591,7 +591,7 @@
       }
     },
     {
-      "geme_version": ["X_Y","Sun_Moon","UltraSun_UltraMoon","Sword_Shield","LegendsArceus","Scarlet_Violet"],
+      "geme_version": ["x_y","sun_moon","ultraSun_ultraMoon","sword_shield","legendsarceus","scarlet_violet"],
       "type": {
         "ノーマル":{
           "ノーマル":1,
