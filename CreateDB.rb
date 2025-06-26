@@ -229,6 +229,7 @@ if __FILE__ == $0
         mega_evolution TEXT,
         gigantamax TEXT,
         version TEXT,
+        ver TEXT,
         language TEXT,
         description TEXT
       )
@@ -363,16 +364,16 @@ if __FILE__ == $0
               ]
             )
 
-            form['description'].each do |language, description|
+            form['description'].each do |version, description|
               if description == "" or description == nil then
                 next
               end
               db.execute(
-                "INSERT INTO local_pokedex_description (id, globalNo, form, region, mega_evolution, gigantamax, version, language, description)
-                SELECT ?,?,?,?,?,?,?,?,? 
+                "INSERT INTO local_pokedex_description (id, globalNo, form, region, mega_evolution, gigantamax, version, ver, language, description)
+                SELECT ?,?,?,?,?,?,?,?,?,? 
                 WHERE NOT EXISTS ( 
                   SELECT 1 FROM local_pokedex_description 
-                  WHERE id = ? AND globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND version = ? AND language = ? 
+                  WHERE id = ? AND globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND version = ? AND ver = ? AND language = ? 
                 )",
                 [
                   form['id'],
@@ -381,7 +382,8 @@ if __FILE__ == $0
                   form['region'],
                   form['mega_evolution'],
                   form['gigantamax'],
-                  language,
+                  game_version,
+                  version,
                   'jpn',
                   description,
                   # 重複チェック用のパラメータ
@@ -391,7 +393,8 @@ if __FILE__ == $0
                   form['region'],
                   form['mega_evolution'],
                   form['gigantamax'],
-                  language,
+                  game_version,
+                  version,
                   'jpn'
                 ]
               )

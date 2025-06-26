@@ -48,18 +48,18 @@ json_root = {
 # テーブルごとに参照元バージョンを上書きできる設定
 # 例: 'firered_leafgreen' で種族値などを 'ruby_sapphire_emerald' から取る
 FALLBACK_BY_DB = {
-  type: {
-    'firered_leafgreen' => 'ruby_sapphire_emerald'
-  },
-  ability: {
-    'firered_leafgreen' => 'ruby_sapphire_emerald'
-  },
-  status: {
-    'firered_leafgreen' => 'ruby_sapphire_emerald'
-  },
-  description: {
-    'firered_leafgreen' => 'ruby_sapphire_emerald'
-  }
+  # type: {
+  #   'firered_leafgreen' => 'ruby_sapphire_emerald'
+  # },
+  # ability: {
+  #   'firered_leafgreen' => 'ruby_sapphire_emerald'
+  # },
+  # status: {
+  #   'firered_leafgreen' => 'ruby_sapphire_emerald'
+  # },
+  # description: {
+  #   'firered_leafgreen' => 'ruby_sapphire_emerald'
+  # }
 }
 
 # 汎用ヘルパー: 優先バージョン順で最初にヒットした行を返す
@@ -118,7 +118,7 @@ end
 pokedex_names.each do |pokedex_name|
   # その図鑑に載っているポケモンを図鑑番号順に取得
   pokemons = db.execute(<<~SQL, [VERSION, pokedex_name])
-    SELECT no, globalNo
+    SELECT id, no, globalNo
       FROM local_pokedex
      WHERE version = ? COLLATE NOCASE AND pokedex = ?
   GROUP BY no, globalNo
@@ -198,16 +198,18 @@ SQL
                AND mega_evolution = ?
                AND gigantamax  = ?
                AND version     = ? COLLATE NOCASE
+               AND ver         = ?
                AND language    = 'jpn'
           SQL
 
-          desc_row = fetch_row_with_fallback(db, :description, key, sql, versions_list)
+          # base_key には version を追加し、SQL の version, ver 両方のプレースホルダに対応させる
+          desc_row = fetch_row_with_fallback(db, :description, key + [VERSION], sql, versions_list)
 
           descriptions[ver] = desc_row ? desc_row['description'] : ''
         end
 
         {
-          'id'          => generate_pokemon_id(row['globalNo'], f['region'], '0', '0', f['gigantamax'], f['mega_evolution'], form_seq, '0', '000', '0'),
+          'id'            => f['id'],
           'form'          => f['form'],
           'region'        => f['region'],
           'mega_evolution'=> f['mega_evolution'],
@@ -227,7 +229,8 @@ SQL
         }
       end
 
-      id = generate_pokemon_id(row['globalNo'], row['region'], '0', '0', row['gigantamax'], row['mega_evolution'], row['form'], '0', '000', '0')
+      # id = generate_pokemon_id(row['globalNo'], row['region'], '0', '0', row['gigantamax'], row['mega_evolution'], row['form'], '0', '000', '0')
+      id = row['id']
       { 'id' => id, 'no' => no, 'globalNo' => global_no, 'status' => status_arr }
     end
 end
