@@ -350,14 +350,14 @@ try {
                 $description = [];
                 if (!empty($versionConditions)) {
                     $query = "SELECT * FROM local_pokedex_description 
-                            WHERE id = :id AND version IN (" . implode(',', $versionConditions) . ")";
+                            WHERE id = :id AND ver IN (" . implode(',', $versionConditions) . ")";
                     $pokedex_description = $db->query($query, $params);
                     
                     foreach ($pokedex_description as $value) {
-                        if (!isset($description[$value['version']])) {
-                            $description[$value['version']] = [];
+                        if (!isset($description[$value['ver']])) {
+                            $description[$value['ver']] = [];
                         }
-                        $description[$value['version']][$value['language']] = $value['description'];
+                        $description[$value['ver']][$value['language']] = $value['description'];
                     }
                 }
                 $row['description'] = $description;
@@ -589,14 +589,14 @@ try {
                     $description = [];
                     if (!empty($versionConditions)) {
                         $query = "SELECT * FROM local_pokedex_description 
-                                WHERE id = :id AND version IN (" . implode(',', $versionConditions) . ")";
+                                WHERE id = :id AND ver IN (" . implode(',', $versionConditions) . ")";
                         $pokedex_description = $db->query($query, $params);
                         
                         foreach ($pokedex_description as $value) {
-                            if (!isset($description[$value['version']])) {
-                                $description[$value['version']] = [];
+                            if (!isset($description[$value['ver']])) {
+                                $description[$value['ver']] = [];
                             }
-                            $description[$value['version']][$value['language']] = $value['description'];
+                            $description[$value['ver']][$value['language']] = $value['description'];
                         }
                     }
                     $row['description'] = $description;
