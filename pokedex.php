@@ -150,6 +150,8 @@ try {
     
     $region = isset($_GET['region']) ? $_GET['region'] : null;
     $no = isset($_GET['no']) ? $_GET['no'] : null;
+    // 追加: existsエンドポイント用パラメータ
+    $mode = isset($_GET['mode']) ? $_GET['mode'] : null;
     $result = [];
 
     if (!$region && !$no) {
@@ -183,6 +185,43 @@ try {
     // 無効なリージョンが指定された場合
     if ($region && !isset($validRegions[$region])) {
         throw new Exception('無効なリージョンが指定されました');
+    }
+
+    // exists モード: 指定したglobalNoが地域図鑑に存在するか判定
+    if ($mode === 'exists') {
+        if (!$region || $no === null) {
+            throw new Exception('region と no を指定してください');
+        }
+
+        if ($region === 'global') {
+            // 全国図鑑の場合は globalNo = no と同義
+            $existsResult = $no;
+        } else {
+            // 有効なリージョンは既に検証済みだが、念のためチェック
+            if (!isset($validRegions[$region])) {
+                throw new Exception('無効なリージョンが指定されました');
+            }
+            $pokedexName  = $validRegions[$region][0];
+            $versionName  = $validRegions[$region][1];
+
+            $row = $db->querySingle(
+                "SELECT no FROM local_pokedex WHERE globalNo = :globalNo AND pokedex = :pokedex AND version = :version LIMIT 1",
+                [
+                    ':globalNo' => $no,
+                    ':pokedex' => $pokedexName,
+                    ':version' => $versionName
+                ]
+            );
+            
+            $existsResult = $row ? intval($row['no']) : -1;
+
+        }
+
+        echo json_encode([
+            'success' => true,
+            'result'  => $existsResult
+        ]);
+        exit;
     }
 
     // リージョンが指定されているがNoが指定されていない場合はリスト表示
