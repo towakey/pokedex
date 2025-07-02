@@ -150,6 +150,8 @@ try {
     
     $region = isset($_GET['region']) ? $_GET['region'] : null;
     $no = isset($_GET['no']) ? $_GET['no'] : null;
+    // idパラメータ（existsエンドポイントで使用）
+    $id = isset($_GET['id']) ? $_GET['id'] : null;
     // 追加: existsエンドポイント用パラメータ
     $mode = isset($_GET['mode']) ? $_GET['mode'] : null;
     $result = [];
@@ -189,13 +191,13 @@ try {
 
     // exists モード: 指定したglobalNoが地域図鑑に存在するか判定
     if ($mode === 'exists') {
-        if (!$region || $no === null) {
-            throw new Exception('region と no を指定してください');
+        if (!$region || ($no === null && $id === null)) {
+            throw new Exception('region と (no または id) を指定してください');
         }
 
         if ($region === 'global') {
-            // 全国図鑑の場合は globalNo = no と同義
-            $existsResult = $no;
+            // 全国図鑑の場合は id または globalNo をそのまま返す
+            $existsResult = ($id !== null) ? $id : $no;
         } else {
             // 有効なリージョンは既に検証済みだが、念のためチェック
             if (!isset($validRegions[$region])) {
@@ -204,14 +206,25 @@ try {
             $pokedexName  = $validRegions[$region][0];
             $versionName  = $validRegions[$region][1];
 
-            $row = $db->querySingle(
-                "SELECT no FROM local_pokedex WHERE globalNo = :globalNo AND pokedex = :pokedex AND version = :version LIMIT 1",
-                [
-                    ':globalNo' => $no,
-                    ':pokedex' => $pokedexName,
-                    ':version' => $versionName
-                ]
-            );
+            if ($id !== null) {
+                $row = $db->querySingle(
+                    "SELECT no FROM local_pokedex WHERE id = :id AND pokedex = :pokedex AND version = :version LIMIT 1",
+                    [
+                        ':id' => $id,
+                        ':pokedex' => $pokedexName,
+                        ':version' => $versionName
+                    ]
+                );
+            } else {
+                $row = $db->querySingle(
+                    "SELECT no FROM local_pokedex WHERE globalNo = :globalNo AND pokedex = :pokedex AND version = :version LIMIT 1",
+                    [
+                        ':globalNo' => $no,
+                        ':pokedex' => $pokedexName,
+                        ':version' => $versionName
+                    ]
+                );
+            }
             
             $existsResult = $row ? intval($row['no']) : -1;
 
