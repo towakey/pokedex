@@ -17492,27 +17492,6 @@
             "chs": "迭失棺",
             "cht": "死神棺"
           }
-        },
-        {
-          "id": "0563_02000000_0_000_0",
-          "form": "",
-          "region": "ガラルのすがた",
-          "mega_evolution": "",
-          "gigantamax": "",
-          "classification": {
-            "jpn": "かんおけポケモン"
-          },
-          "height": "1.6",
-          "weight": "66.6",
-          "name": {
-            "jpn": "デスカーン",
-            "eng": "Cofagrigus",
-            "ger": "Echnatoll",
-            "fra": "Tutankafer",
-            "kor": "데스니칸",
-            "chs": "迭失棺",
-            "cht": "死神棺"
-          }
         }
       ]
     },
