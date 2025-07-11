@@ -154,6 +154,51 @@ try {
     $id = isset($_GET['id']) ? $_GET['id'] : null;
     // 追加: existsエンドポイント用パラメータ
     $mode = isset($_GET['mode']) ? $_GET['mode'] : null;
+
+    // description モード: globalNo と language から図鑑説明を取得
+    if ($mode === 'description') {
+        $globalNo = isset($_GET['globalNo']) ? $_GET['globalNo'] : null;
+        $languageParam = isset($_GET['language']) ? $_GET['language'] : null;
+
+        // globalNo もしくは id のどちらかが必要
+        if ($globalNo === null && $id === null) {
+            throw new Exception('globalNo または id のいずれかを指定してください');
+        }
+        if ($languageParam === null) {
+            throw new Exception('language を指定してください');
+        }
+
+        // ポケモン内部IDを取得
+        if ($id !== null) {
+            $pokemonId = $id;
+        } else {
+            // globalNo からポケモンIDを取得
+            $row = $db->querySingle(
+                "SELECT id FROM pokedex WHERE globalNo = :globalNo LIMIT 1",
+                [':globalNo' => $globalNo]
+            );
+
+            if (!$row) {
+                throw new Exception('指定されたポケモンが見つかりません');
+            }
+            $pokemonId = $row['id'];
+        }
+
+        // 該当する説明文を取得
+        $descriptions = $db->query(
+            "SELECT ver, version, pokedex, description FROM local_pokedex_description WHERE id = :id AND language = :language ORDER BY ver ASC",
+            [
+                ':id' => $pokemonId,
+                ':language' => $languageParam
+            ]
+        );
+
+        echo json_encode([
+            'success' => true,
+            'data' => $descriptions
+        ]);
+        exit;
+    }
     $result = [];
 
     if (!$region && !$no) {
@@ -675,8 +720,8 @@ try {
     ]);
     
 } catch (Exception $e) {
-    // エラーレスポンス
-    http_response_code(400);
+    // エラーレスポンス (HTTP 200で返すよう変更)
+    // http_response_code(400);
     echo json_encode([
         'success' => false,
         'error' => $e->getMessage()

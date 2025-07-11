@@ -230,6 +230,7 @@ if __FILE__ == $0
         gigantamax TEXT,
         version TEXT,
         ver TEXT,
+        pokedex TEXT,
         language TEXT,
         description TEXT
       )
@@ -369,11 +370,11 @@ if __FILE__ == $0
                 next
               end
               db.execute(
-                "INSERT INTO local_pokedex_description (id, globalNo, form, region, mega_evolution, gigantamax, version, ver, language, description)
-                SELECT ?,?,?,?,?,?,?,?,?,? 
+                "INSERT INTO local_pokedex_description (id, globalNo, form, region, mega_evolution, gigantamax, version, ver, pokedex, language, description)
+                SELECT ?,?,?,?,?,?,?,?,?,?,? 
                 WHERE NOT EXISTS ( 
                   SELECT 1 FROM local_pokedex_description 
-                  WHERE id = ? AND globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND version = ? AND ver = ? AND language = ? 
+                  WHERE id = ? AND globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND version = ? AND ver = ? AND pokedex = ? AND language = ? 
                 )",
                 [
                   form['id'],
@@ -384,6 +385,7 @@ if __FILE__ == $0
                   form['gigantamax'],
                   game_version,
                   version,
+                  pokedex_name,
                   'jpn',
                   description,
                   # 重複チェック用のパラメータ
@@ -395,6 +397,7 @@ if __FILE__ == $0
                   form['gigantamax'],
                   game_version,
                   version,
+                  pokedex_name,
                   'jpn'
                 ]
               )
