@@ -5153,6 +5153,27 @@
             "chs": "快龙",
             "cht": "快龍"
           }
+        },
+        {
+          "id": "0149_00000100_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "メガカイリュー",
+          "gigantamax": "",
+          "classification": {
+            "jpn": "ドラゴンポケモン"
+          },
+          "height": "2.2",
+          "weight": "290.0",
+          "name": {
+            "jpn": "メガカイリュー",
+            "eng": "MegaDragonite",
+            "ger": "",
+            "fra": "",
+            "kor": "",
+            "chs": "",
+            "cht": ""
+          }
         }
       ]
     },
