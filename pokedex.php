@@ -665,9 +665,9 @@ try {
                                     ':version' => $searchVersions
                                 ]
                             );
-                            $row[$abilityField . '_description'] = [$abilityRow['language'] => $abilityRow['description']];
+                            $row[$abilityField . '_description'] = [($abilityRow['language'] ?? "") => ($abilityRow['description'] ?? "")];
                         } else {
-                            $row[$abilityField . '_description'] = null;
+                            $row[$abilityField . '_description'] = ["" => ""];
                         }
                     }
 
@@ -684,15 +684,17 @@ try {
                     }
 
                     $description = [];
+                    // すべてのバージョンに対してキーを初期化（空文字列で）
+                    foreach ($validRegions[$region][2] as $version) {
+                        $description[$version] = ['jpn' => '', 'eng' => ''];
+                    }
+                    
                     if (!empty($versionConditions)) {
                         $query = "SELECT * FROM local_pokedex_description 
                                 WHERE id = :id AND ver IN (" . implode(',', $versionConditions) . ")";
                         $pokedex_description = $db->query($query, $params);
                         
                         foreach ($pokedex_description as $value) {
-                            if (!isset($description[$value['ver']])) {
-                                $description[$value['ver']] = [];
-                            }
                             $description[$value['ver']][$value['language']] = $value['description'];
                         }
                     }
