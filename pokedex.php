@@ -199,6 +199,87 @@ try {
         ]);
         exit;
     }
+
+    // search モード: description テーブルを検索
+    if ($mode === 'search') {
+        $item = isset($_GET['item']) ? $_GET['item'] : null;
+        $word = isset($_GET['word']) ? $_GET['word'] : null;
+
+        // item と word の両方が必要
+        if ($item === null || $word === null) {
+            throw new Exception('item と word を指定してください');
+        }
+
+        // item=description の場合のみ対応
+        if ($item === 'description') {
+            // description カラムを LIKE 検索
+            $searchResults = $db->query(
+                "SELECT * FROM local_pokedex_description WHERE description LIKE :word ORDER BY id ASC",
+                [
+                    ':word' => '%' . $word . '%'
+                ]
+            );
+
+            echo json_encode([
+                'success' => true,
+                'data' => $searchResults,
+                'search_word' => $word,
+                'results_count' => count($searchResults)
+            ]);
+            exit;
+        } else {
+            throw new Exception('現在はitem=descriptionのみサポートしています');
+        }
+    }
+
+    // exists モード: 指定したglobalNoが地域図鑑に存在するか判定
+    if ($mode === 'exists') {
+        if (!$region || ($no === null && $id === null)) {
+            throw new Exception('region と (no または id) を指定してください');
+        }
+
+        if ($region === 'global') {
+            // 全国図鑑の場合は id または globalNo をそのまま返す
+            $existsResult = ($id !== null) ? $id : $no;
+        } else {
+            // 有効なリージョンは既に検証済みだが、念のためチェック
+            if (!isset($validRegions[$region])) {
+                throw new Exception('無効なリージョンが指定されました');
+            }
+            $pokedexName  = $validRegions[$region][0];
+            $versionName  = $validRegions[$region][1];
+
+            if ($id !== null) {
+                $row = $db->querySingle(
+                    "SELECT no FROM local_pokedex WHERE id = :id AND pokedex = :pokedex AND version = :version LIMIT 1",
+                    [
+                        ':id' => $id,
+                        ':pokedex' => $pokedexName,
+                        ':version' => $versionName
+                    ]
+                );
+            } else {
+                $row = $db->querySingle(
+                    "SELECT no FROM local_pokedex WHERE globalNo = :globalNo AND pokedex = :pokedex AND version = :version LIMIT 1",
+                    [
+                        ':globalNo' => $no,
+                        ':pokedex' => $pokedexName,
+                        ':version' => $versionName
+                    ]
+                );
+            }
+            
+            $existsResult = $row ? intval($row['no']) : -1;
+
+        }
+
+        echo json_encode([
+            'success' => true,
+            'result'  => $existsResult
+        ]);
+        exit;
+    }
+
     $result = [];
 
     if (!$region && !$no) {
