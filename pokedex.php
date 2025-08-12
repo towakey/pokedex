@@ -220,11 +220,54 @@ try {
                 ]
             );
 
+            // 検索結果にlocal_pokedexの情報を統合
+            $integratedResults = [];
+            foreach ($searchResults as $result) {
+                // local_pokedexテーブルから追加情報を取得
+                $localPokedexInfo = $db->querySingle(
+                    "SELECT * FROM local_pokedex WHERE id = :id AND version = :version AND pokedex = :pokedex LIMIT 1",
+                    [
+                        ':id' => $result['id'],
+                        ':version' => $result['version'],
+                        ':pokedex' => $result['pokedex']
+                    ]
+                );
+
+                // 結果を統合
+                $integratedResult = $result;
+                if ($localPokedexInfo) {
+                    // local_pokedexの情報を追加
+                    $integratedResult['no'] = $localPokedexInfo['no'];
+                    $integratedResult['globalNo'] = $localPokedexInfo['globalNo'];
+                    $integratedResult['region'] = $localPokedexInfo['pokedex'];
+                    $integratedResult['version_info'] = $localPokedexInfo['version'];
+                    
+                    // ポケモン名を取得
+                    $pokedex_name = $db->query("SELECT * FROM pokedex_name WHERE id = :id", [
+                        ':id' => $result['id']
+                    ]);
+                    $name = [];
+                    foreach ($pokedex_name as $nameValue) {
+                        $name[$nameValue['language']] = $nameValue['name'];
+                    }
+                    $integratedResult['name'] = $name;
+                } else {
+                    // local_pokedexに情報がない場合はnullで埋める
+                    $integratedResult['no'] = null;
+                    $integratedResult['globalNo'] = null;
+                    $integratedResult['region'] = $result['pokedex'];
+                    $integratedResult['version_info'] = $result['version'];
+                    $integratedResult['name'] = [];
+                }
+                
+                $integratedResults[] = $integratedResult;
+            } 
+
             echo json_encode([
                 'success' => true,
-                'data' => $searchResults,
+                'data' => $integratedResults,
                 'search_word' => $word,
-                'results_count' => count($searchResults)
+                'results_count' => count($integratedResults)
             ]);
             exit;
         } else {
@@ -232,54 +275,7 @@ try {
         }
     }
 
-    // exists モード: 指定したglobalNoが地域図鑑に存在するか判定
-    if ($mode === 'exists') {
-        if (!$region || ($no === null && $id === null)) {
-            throw new Exception('region と (no または id) を指定してください');
-        }
-
-        if ($region === 'global') {
-            // 全国図鑑の場合は id または globalNo をそのまま返す
-            $existsResult = ($id !== null) ? $id : $no;
-        } else {
-            // 有効なリージョンは既に検証済みだが、念のためチェック
-            if (!isset($validRegions[$region])) {
-                throw new Exception('無効なリージョンが指定されました');
-            }
-            $pokedexName  = $validRegions[$region][0];
-            $versionName  = $validRegions[$region][1];
-
-            if ($id !== null) {
-                $row = $db->querySingle(
-                    "SELECT no FROM local_pokedex WHERE id = :id AND pokedex = :pokedex AND version = :version LIMIT 1",
-                    [
-                        ':id' => $id,
-                        ':pokedex' => $pokedexName,
-                        ':version' => $versionName
-                    ]
-                );
-            } else {
-                $row = $db->querySingle(
-                    "SELECT no FROM local_pokedex WHERE globalNo = :globalNo AND pokedex = :pokedex AND version = :version LIMIT 1",
-                    [
-                        ':globalNo' => $no,
-                        ':pokedex' => $pokedexName,
-                        ':version' => $versionName
-                    ]
-                );
-            }
-            
-            $existsResult = $row ? intval($row['no']) : -1;
-
-        }
-
-        echo json_encode([
-            'success' => true,
-            'result'  => $existsResult
-        ]);
-        exit;
-    }
-
+ 
     $result = [];
 
     if (!$region && !$no) {
