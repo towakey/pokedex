@@ -752,6 +752,39 @@ if __FILE__ == $0
         # end
 
     puts "load for local description"
+
+    game_version_convert = {
+      "red_green_blue_pikachu": ["red","green","blue","pikachu"],
+      "gold_silver_crystal": ["gold","silver","crystal"],
+      "ruby_sapphire_emerald": ["ruby","sapphire","emerald"],
+      "firered_leafgreen": ["firered","leafgreen"],
+      "diamond_pearl_platinum": ["diamond","pearl","platinum"],
+      "heartgold_soulsilver": ["heartgold","soulsilver"],
+      "black_white": ["black","white"],
+      "black2_white2": ["black2","white2"],
+      "x_y": ["x","y","x_kanji","y_kanji"],
+      "omegaruby_alphasapphire": ["omegaruby","omegaruby_kanji","alphasapphire","alphasapphire_kanji"],
+      "sun_moon": ["sun","sun_kanji","moon","moon_kanji"],
+      "ultrasun_ultramoon": ["ultrasun","ultramoon","ultrasun_kanji","ultramoon_kanji"],
+      "letsgopikachu": ["letsgopikachu","letsgopikachu_kanji","letsgoeevee","letsgoeevee_kanji"],
+      "sword_shield": ["sword","sword_kanji","shield","shield_kanji"],
+      "legendsarceus": ["legendsarceus"],
+      "brilliantdiamond_shiningpearl": ["brilliantdiamond","brilliantdiamond_kanji","shiningpearl","shiningpearl_kanji"],
+      "scarlet_violet": ["scarlet","violet"],
+      "pokemongo": ["pokemongo"],
+      "pokemonpinball": ["pokemonpinball"],
+      "pokemonranger": ["pokemonranger"],
+      "pokemonstadium": ["pokemonstadium"],
+      "pokemonstadium2": ["pokemonstadium2"],
+      "new_pokemon_snap": ["new_pokemon_snap"]
+    }
+    
+    # version からグループキー（例: "x_y"）を逆引きするためのハッシュを生成
+    version_to_key = {}
+    game_version_convert.each do |key, versions|
+      versions.each { |v| version_to_key[v] = key.to_s }
+    end
+
     version_array = [
       "red",
       "green",
@@ -785,20 +818,6 @@ if __FILE__ == $0
       "sun",
       "sun_kanji",
       "moon",
-      "moon_kanji",
-      "ultrasun",
-      "ultrasun_kanji",
-      "ultramoon",
-      "ultramoon_kanji",
-      "letsgopikachu",
-      "letsgopikachu_kanji",
-      "letsgoeevee",
-      "letsgoeevee_kanji",
-      "sword",
-      "sword_kanji",
-      "shield",
-      "shield_kanji",
-      "legends_arceus",
       "moon_kanji",
       "ultrasun",
       "ultrasun_kanji",
@@ -853,40 +872,100 @@ if __FILE__ == $0
         if pokedex[version] == "" or pokedex[version] == nil then
           next
         end
-        sql = <<-SQL
-INSERT INTO local_pokedex_description (id, globalNo, form, region, mega_evolution, gigantamax, version, language, description)
-SELECT ?,?,?,?,?,?,?,?,?
-WHERE NOT EXISTS (
-  SELECT 1 FROM local_pokedex_description
-  WHERE id = ? AND globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND version = ? AND language = ?
-)
-SQL
-        # db.execute(sql, [
-        #   pokedex['globalNo'].to_s.rjust(4, '0')+'_'+pokedex['form'].to_s+'_'+pokedex['region'].to_s+'_'+pokedex['mega_evolution'].to_s+'_'+pokedex['gigantamax'].to_s,
-        #   pokedex['globalNo'].to_s.rjust(4, '0'), 
-        #   pokedex['form'], 
-        #   pokedex['region'],
-        #   pokedex['mega_evolution'], 
-        #   pokedex['gigantamax'], 
-        #   version,
-        #   'jpn', 
-        #   pokedex[version],
+        
+        # 重複チェック用のユニークキー
+        # unique_key = "#{pokedex['globalNo'].to_s.rjust(4, '0')}_#{pokedex['form']}_#{pokedex['region']}_#{pokedex['mega_evolution']}_#{pokedex['gigantamax']}_#{version}_jpn"
+        
+        # 重複チェック
+        check_sql = "SELECT COUNT(*) FROM local_pokedex_description WHERE globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND ver = ? AND language = ?"
+        result = db.get_first_value(check_sql, [
+          pokedex['globalNo'].to_s.rjust(4, '0'), 
+          pokedex['form'], 
+          pokedex['region'],
+          pokedex['mega_evolution'], 
+          pokedex['gigantamax'], 
+          version,
+          'jpn'
+        ])
+        
+        # 重複していない場合のみ挿入
+        if result == 0
+          # version に対応するグループキー（例: "x_y"）を取得。該当がない場合は version をそのまま使用
+          ver_key = version_to_key[version] || version
 
-        #   pokedex['globalNo'].to_s.rjust(4, '0')+'_'+pokedex['form'].to_s+'_'+pokedex['region'].to_s+'_'+pokedex['mega_evolution'].to_s+'_'+pokedex['gigantamax'].to_s,
-        #   pokedex['globalNo'].to_s.rjust(4, '0'), 
-        #   pokedex['form'], 
-        #   pokedex['region'],
-        #   pokedex['mega_evolution'], 
-        #   pokedex['gigantamax'], 
-        #   version,
-        #   'jpn'
-        # ])
+          # pokedex 名の決定: local_pokedex_array の値を使用
+          # legends_arceus と legendsarceus のキー差異に対応
+          lookup_key = ver_key
+          # if !local_pokedex_array.key?(lookup_key) && ver_key == 'legends_arceus' && local_pokedex_array.key?('legendsarceus')
+          #   lookup_key = 'legendsarceus'
+          # end
+          names = local_pokedex_array[lookup_key]
+          pokedex_name =
+            if names.nil? || names.empty?
+              ""
+            else
+              case lookup_key
+              when 'x_y'
+                case pokedex['region']
+                when 'central_kalos' then names[0]
+                when 'coast_kalos' then names[1]
+                when 'mountain_kalos' then names[2]
+                else names[0]
+                end
+              when 'sword_shield'
+                case pokedex['region']
+                when 'galar' then names[0]
+                when 'crown_tundra' then names[1]
+                when 'isle_of_armor' then names[2]
+                else names[0]
+                end
+              when 'scarlet_violet'
+                case pokedex['region']
+                when 'paldea' then names[0]
+                when 'kitakami' then names[1]
+                when 'blueberry' then names[2]
+                else names[0]
+                end
+              else
+                names[0]
+              end
+            end
+
+          insert_sql = "INSERT INTO local_pokedex_description (id, globalNo, form, region, mega_evolution, gigantamax, version, ver, pokedex, language, description) VALUES (?,?,?,?,?,?,?,?,?,?,?)"
+          # local_pokedex から ID を検索（globalNo, form, region, mega_evolution, gigantamax）
+          id_value = db.get_first_value(
+            "SELECT id FROM local_pokedex WHERE globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? LIMIT 1",
+            [
+              pokedex['globalNo'].to_s.rjust(4, '0'),
+              pokedex['form'],
+              pokedex['region'],
+              pokedex['mega_evolution'],
+              pokedex['gigantamax']
+            ]
+          )
+          # 見つからない場合は従来の合成IDをフォールバック
+          id_value ||= pokedex['globalNo'].to_s.rjust(4, '0')+'_'+pokedex['form'].to_s+'_'+pokedex['region'].to_s+'_'+pokedex['mega_evolution'].to_s+'_'+pokedex['gigantamax'].to_s
+
+          db.execute(insert_sql, [
+            id_value,
+            pokedex['globalNo'].to_s.rjust(4, '0'), 
+            pokedex['form'], 
+            pokedex['region'],
+            pokedex['mega_evolution'], 
+            pokedex['gigantamax'], 
+            ver_key,
+            version,
+            pokedex_name,
+            'jpn', 
+            pokedex[version]
+          ])
+        end
       end
     end
-
+    puts "commit"
     db.commit
   rescue SQLite3::Exception => e
-    # puts "Error occurred while creating database: #{e.message}"
+    puts "Error occurred while creating database: #{e.message}"
     db.rollback
   end
 end
