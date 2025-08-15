@@ -515,9 +515,16 @@ try {
                 $i = 0;
 
                 foreach ($validRegions[$region][2] as $version) {
+                    // 通常版
                     $paramName = ":version{$i}";
                     $versionConditions[] = $paramName;
                     $params[$paramName] = $version;
+                    $i++;
+                    
+                    // _kanji版
+                    $paramName = ":version{$i}";
+                    $versionConditions[] = $paramName;
+                    $params[$paramName] = $version . '_kanji';
                     $i++;
                 }
 
@@ -754,9 +761,16 @@ try {
                     $i = 0;
 
                     foreach ($validRegions[$region][2] as $version) {
+                        // 通常版
                         $paramName = ":version{$i}";
                         $versionConditions[] = $paramName;
                         $params[$paramName] = $version;
+                        $i++;
+                        
+                        // _kanji版
+                        $paramName = ":version{$i}";
+                        $versionConditions[] = $paramName;
+                        $params[$paramName] = $version . '_kanji';
                         $i++;
                     }
 
@@ -764,6 +778,7 @@ try {
                     // すべてのバージョンに対してキーを初期化（空文字列で）
                     foreach ($validRegions[$region][2] as $version) {
                         $description[$version] = ['jpn' => '', 'eng' => ''];
+                        $description[$version . '_kanji'] = ['jpn' => '', 'eng' => ''];
                     }
                     
                     if (!empty($versionConditions)) {
