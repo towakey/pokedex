@@ -869,7 +869,7 @@ if __FILE__ == $0
       exit 1
     end
 
-    description_json["description"].each do |pokedex|
+    description_json["description"].each do |id, pokedex|
       # puts pokedex['globalNo']
       version_array.each do |version|
         if pokedex[version] == "" or pokedex[version] == nil then
@@ -883,7 +883,7 @@ if __FILE__ == $0
         # check_sql = "SELECT COUNT(*) FROM local_pokedex_description WHERE globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND ver = ? AND language = ?"
         check_sql = "SELECT COUNT(*) FROM local_pokedex_description WHERE id = ? AND ver = ? AND language = ?"
         result = db.get_first_value(check_sql, [
-          pokedex['id'], 
+          id, 
           version,
           'jpn'
         ])
