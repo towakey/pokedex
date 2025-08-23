@@ -831,13 +831,16 @@ if __FILE__ == $0
       "sword_kanji",
       "shield",
       "shield_kanji",
-      "legends_arceus",
+      "legendsarceus",
+      "legendsarceus_h",
       "brilliantdiamond",
       "brilliantdiamond_kanji",
       "shiningpearl",
       "shiningpearl_kanji",
       "scarlet",
+      "scarlet_h",
       "violet",
+      "violet_h",
       "pokemongo",
       "pokemonpinball",
       "pokemonranger",
@@ -877,13 +880,10 @@ if __FILE__ == $0
         # unique_key = "#{pokedex['globalNo'].to_s.rjust(4, '0')}_#{pokedex['form']}_#{pokedex['region']}_#{pokedex['mega_evolution']}_#{pokedex['gigantamax']}_#{version}_jpn"
         
         # 重複チェック
-        check_sql = "SELECT COUNT(*) FROM local_pokedex_description WHERE globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND ver = ? AND language = ?"
+        # check_sql = "SELECT COUNT(*) FROM local_pokedex_description WHERE globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND ver = ? AND language = ?"
+        check_sql = "SELECT COUNT(*) FROM local_pokedex_description WHERE id = ? AND ver = ? AND language = ?"
         result = db.get_first_value(check_sql, [
-          pokedex['globalNo'].to_s.rjust(4, '0'), 
-          pokedex['form'], 
-          pokedex['region'],
-          pokedex['mega_evolution'], 
-          pokedex['gigantamax'], 
+          pokedex['id'], 
           version,
           'jpn'
         ])
