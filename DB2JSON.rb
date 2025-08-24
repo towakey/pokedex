@@ -13,6 +13,7 @@ TARGET_VERSIONS = [
   ['Ruby_Sapphire_Emerald'],
   ['Firered_Leafgreen'],
   ['Diamond_Pearl_Platinum'],
+  ['HeartGold_SoulSilver'],
   ['Black_White'],
   ['Black2_White2'],
   ['X_Y'],
