@@ -69,13 +69,13 @@ if __FILE__ == $0
       exit 1
     end
 
-    pokedex_json["pokedex"].each do |pokemon|
-      pokemon["form"].each do |form|
+    pokedex_json["pokedex"].each do |global_no, pokemon|
+      pokemon.each do |form_id, form|
         db.execute(
           "INSERT INTO pokedex (id, globalNo, form, region, mega_evolution, gigantamax, height, weight) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
           [
-            form['id'],
-            pokemon['globalNo'].to_s.rjust(4, '0'),
+            form_id,
+            global_no,
             form['form'],
             form['region'],
             form['mega_evolution'],
@@ -88,8 +88,8 @@ if __FILE__ == $0
         db.execute(
           "INSERT INTO pokedex_classification (id, globalNo, form, region, mega_evolution, gigantamax, language, classification) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
           [
-            form['id'],
-            pokemon['globalNo'].to_s.rjust(4, '0'),
+            form_id,
+            global_no,
             form['form'],
             form['region'],
             form['mega_evolution'],
@@ -105,24 +105,8 @@ if __FILE__ == $0
             db.execute(
               "INSERT INTO pokedex_name (id, globalNo, form, region, mega_evolution, gigantamax, language, name) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
               [
-                form['id'],
-                pokemon['globalNo'].to_s.rjust(4, '0'),
-                form['form'],
-                form['region'],
-                form['mega_evolution'],
-                form['gigantamax'],
-                language,
-                name
-              ]
-            )
-          end
-        else
-          pokemon['name'].each do |language, name|
-            db.execute(
-              "INSERT INTO pokedex_name (id, globalNo, form, region, mega_evolution, gigantamax, language, name) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
-              [
-                form['id'],
-                pokemon['globalNo'].to_s.rjust(4, '0'),
+                form_id,
+                global_no,
                 form['form'],
                 form['region'],
                 form['mega_evolution'],
@@ -264,14 +248,14 @@ if __FILE__ == $0
       end
 
       local_pokedex.each do |pokedex_name|  
-        pokedex_json["pokedex"][pokedex_name].each do |pokemon|
-          pokemon["status"].each do |form|
+        pokedex_json["pokedex"][pokedex_name].each do |global_no, pokemon|
+          pokemon.each do |form_id, form|
             db.execute(
               "INSERT INTO local_pokedex (id, no, globalNo, form, region, mega_evolution, gigantamax, version, pokedex) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
               [
-                form['id'],
-                pokemon['no'].to_s.rjust(4, '0'),
-                pokemon['globalNo'].to_s.rjust(4, '0'),
+                form_id,
+                global_no,
+                global_no,
                 form['form'],
                 form['region'],
                 form['mega_evolution'],
@@ -320,8 +304,8 @@ if __FILE__ == $0
                   [form['type1'], form['type2']]
                 end,
                 # 重複チェック用のパラメータ
-                form['id'],
-                pokemon['globalNo'].to_s.rjust(4, '0'),
+                form_id,
+                global_no,
                 form['form'],
                 form['region'],
                 form['mega_evolution'],
@@ -333,8 +317,8 @@ if __FILE__ == $0
             db.execute(
               "INSERT INTO local_pokedex_ability (id, globalNo, form, region, mega_evolution, gigantamax, version, ability1, ability2, dream_ability) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
               [
-                form['id'],
-                pokemon['globalNo'].to_s.rjust(4, '0'),
+                form_id,
+                global_no,
                 form['form'],
                 form['region'],
                 form['mega_evolution'],
@@ -349,8 +333,8 @@ if __FILE__ == $0
             db.execute(
               "INSERT INTO local_pokedex_status (id, globalNo, form, region, mega_evolution, gigantamax, version, hp, attack, defense, special_attack, special_defense, speed) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
               [
-                form['id'],
-                pokemon['globalNo'].to_s.rjust(4, '0'),
+                form_id,
+                global_no,
                 form['form'],
                 form['region'],
                 form['mega_evolution'],
@@ -377,8 +361,8 @@ if __FILE__ == $0
                   WHERE id = ? AND globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND version = ? AND ver = ? AND pokedex = ? AND language = ? 
                 )",
                 [
-                  form['id'],
-                  pokemon['globalNo'].to_s.rjust(4, '0'),
+                  form_id,
+                  global_no,
                   form['form'],
                   form['region'],
                   form['mega_evolution'],
@@ -389,8 +373,8 @@ if __FILE__ == $0
                   'jpn',
                   description,
                   # 重複チェック用のパラメータ
-                  form['id'],
-                  pokemon['globalNo'].to_s.rjust(4, '0'),
+                  form_id,
+                  global_no,
                   form['form'],
                   form['region'],
                   form['mega_evolution'],
