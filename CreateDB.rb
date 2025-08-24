@@ -248,14 +248,16 @@ if __FILE__ == $0
       end
 
       local_pokedex.each do |pokedex_name|  
-        pokedex_json["pokedex"][pokedex_name].each do |global_no, pokemon|
+        pokedex_json["pokedex"][pokedex_name].each do |no, pokemon|
+          # puts "no: #{no}"
           pokemon.each do |form_id, form|
+            # puts "form_id: #{form_id}"
             db.execute(
               "INSERT INTO local_pokedex (id, no, globalNo, form, region, mega_evolution, gigantamax, version, pokedex) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
               [
                 form_id,
-                global_no,
-                global_no,
+                no,
+                form_id.split('_')[0],
                 form['form'],
                 form['region'],
                 form['mega_evolution'],
@@ -273,8 +275,8 @@ if __FILE__ == $0
                 WHERE id = ? AND globalNo = ? AND form = ? AND region = ? AND mega_evolution = ? AND gigantamax = ? AND version = ?
               )",
               [
-                form['id'],
-                pokemon['globalNo'].to_s.rjust(4, '0'),
+                form_id,
+                form_id.split('_')[0],
                 form['form'],
                 form['region'],
                 form['mega_evolution'],
@@ -305,7 +307,7 @@ if __FILE__ == $0
                 end,
                 # 重複チェック用のパラメータ
                 form_id,
-                global_no,
+                form_id.split('_')[0],
                 form['form'],
                 form['region'],
                 form['mega_evolution'],
@@ -318,7 +320,7 @@ if __FILE__ == $0
               "INSERT INTO local_pokedex_ability (id, globalNo, form, region, mega_evolution, gigantamax, version, ability1, ability2, dream_ability) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
               [
                 form_id,
-                global_no,
+                form_id.split('_')[0],
                 form['form'],
                 form['region'],
                 form['mega_evolution'],
@@ -334,7 +336,7 @@ if __FILE__ == $0
               "INSERT INTO local_pokedex_status (id, globalNo, form, region, mega_evolution, gigantamax, version, hp, attack, defense, special_attack, special_defense, speed) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
               [
                 form_id,
-                global_no,
+                form_id.split('_')[0],
                 form['form'],
                 form['region'],
                 form['mega_evolution'],
@@ -362,7 +364,7 @@ if __FILE__ == $0
                 )",
                 [
                   form_id,
-                  global_no,
+                  form_id.split('_')[0],
                   form['form'],
                   form['region'],
                   form['mega_evolution'],
@@ -374,7 +376,7 @@ if __FILE__ == $0
                   description,
                   # 重複チェック用のパラメータ
                   form_id,
-                  global_no,
+                  form_id.split('_')[0],
                   form['form'],
                   form['region'],
                   form['mega_evolution'],
