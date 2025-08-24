@@ -153,24 +153,29 @@ TARGET_VERSIONS.each do |version_config|
     ORDER BY CAST(no AS INTEGER)
     SQL
 
-    json_root['pokedex'][pokedex_name] =
-      pokemons.map do |row|
-        no        = row['no']
-        global_no = row['globalNo']
+    # noをキーとした連想配列を作成
+    json_root['pokedex'][pokedex_name] = {}
+    
+    pokemons.each do |row|
+      no        = row['no']
+      global_no = row['globalNo']
 
-        # 形態ごとの status をまとめる
-        forms = db.execute(<<~SQL, [version, pokedex_name, global_no])
-          SELECT *
-            FROM local_pokedex
-           WHERE version = ? COLLATE NOCASE
-             AND pokedex = ?
-             AND globalNo = ?
-        SQL
-        # SQLite3::Database#execute が返す配列は凍結されている場合があるため、
-        # 非破壊版 uniq で新しい配列を受け取るように修正
-        forms = forms.uniq { |f| [f['form'], f['region'], f['mega_evolution'], f['gigantamax']] }
+      # 形態ごとの status をまとめる
+      forms = db.execute(<<~SQL, [version, pokedex_name, global_no])
+        SELECT *
+          FROM local_pokedex
+         WHERE version = ? COLLATE NOCASE
+           AND pokedex = ?
+           AND globalNo = ?
+      SQL
+      # SQLite3::Database#execute が返す配列は凍結されている場合があるため、
+      # 非破壊版 uniq で新しい配列を受け取るように修正
+      forms = forms.uniq { |f| [f['form'], f['region'], f['mega_evolution'], f['gigantamax']] }
 
-      status_arr = forms.each_with_index.map do |f, idx|
+      # noをキーとした連想配列を初期化（存在しない場合のみ）
+      json_root['pokedex'][pokedex_name][no] ||= {}
+
+      forms.each_with_index do |f, idx|
         # フォームごとの連番 (01, 02, ...) を生成
         form_seq = (idx).to_s.rjust(2, '0')
 
@@ -236,8 +241,9 @@ TARGET_VERSIONS.each do |version_config|
           descriptions[ver] = desc_row ? desc_row['description'] : ''
         end
 
-        {
-          'id'            => f['id'],
+        # idをキーとして各フォームデータを格納
+        form_id = f['id']
+        json_root['pokedex'][pokedex_name][no][form_id] = {
           'form'          => f['form'],
           'region'        => f['region'],
           'mega_evolution'=> f['mega_evolution'],
@@ -256,11 +262,7 @@ TARGET_VERSIONS.each do |version_config|
           'description'   => descriptions.transform_values { |v| v.to_s }
         }
       end
-
-        # id = generate_pokemon_id(row['globalNo'], row['region'], '0', '0', row['gigantamax'], row['mega_evolution'], row['form'], '0', '000', '0')
-        id = row['id']
-        { 'id' => id, 'no' => no, 'globalNo' => global_no, 'status' => status_arr }
-      end
+    end
   end
 
   File.write(File.join(out_dir, "#{version}.json"),
