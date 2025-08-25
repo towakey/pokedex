@@ -2121,6 +2121,26 @@
           "chs": "大食花",
           "cht": "大食花"
         }
+      },
+      "0071_00000100_0_000_0": {
+        "form": "",
+        "region": "",
+        "mega_evolution": "メガウツボット",
+        "gigantamax": "",
+        "classification": {
+          "jpn": "ハエとりポケモン"
+        },
+        "height": "4.5",
+        "weight": "125.5",
+        "name": {
+          "jpn": "メガウツボット",
+          "eng": "MegaVictreebel",
+          "ger": "",
+          "fra": "",
+          "kor": "",
+          "chs": "",
+          "cht": ""
+        }
       }
     },
     "0072": {
