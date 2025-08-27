@@ -1,0 +1,113 @@
+{
+  "local_pokedex_mapping": {
+    "red_green_blue_pikachu": {
+      "pokedex": [{"jpn": "カントー図鑑"}],
+      "version": {
+        "red": {"title": "ポケットモンスター 赤", "shortTitle": "赤", "description": "発売日：1996年02月27日"},
+        "green": {"title": "ポケットモンスター 緑", "shortTitle": "緑", "description": "発売日：1996年02月27日", "image": "01_01"},
+        "blue": {"title": "ポケットモンスター 青", "shortTitle": "青", "description": "発売日：1996年10月15日"},
+        "pikachu": {"title": "ポケットモンスター ピカチュウ", "shortTitle": "ピカチュウ", "description": "発売日：1998年09月12日"}
+      }
+    },
+    "gold_silver_crystal": {
+      "pokedex": [{"jpn": "ジョウト図鑑"}],
+      "version": {
+        "gold": {"title": "ポケットモンスター 金", "shortTitle": "金", "description": "発売日：1999年11月21日"},
+        "silver": {"title": "ポケットモンスター 銀", "shortTitle": "銀", "description": "発売日：1999年11月21日"},
+        "crystal": {"title": "ポケットモンスター クリスタル", "shortTitle": "クリスタル", "description": "発売日：2000年12月14日"}
+      }
+    },
+    "ruby_sapphire_emerald": {
+      "pokedex": [{"jpn": "ホウエン図鑑"}],
+      "version": {
+        "ruby": {"title": "ポケットモンスター ルビー", "shortTitle": "ルビー", "description": "発売日：2002年11月21日"},
+        "sapphire": {"title": "ポケットモンスター サファイア", "shortTitle": "サファイア", "description": "発売日：2002年11月21日"},
+        "emerald": {"title": "ポケットモンスター エメラルド", "shortTitle": "エメラルド", "description": "発売日：2004年09月16日"}
+      }
+    },
+    "firered_leafgreen": {
+      "pokedex": [{"jpn": "カントー図鑑"}],
+      "version": {
+        "firered": {"title": "ポケットモンスター ファイアレッド", "shortTitle": "ファイアレッド", "description": "発売日：2004年1月29日"},
+        "leafgreen": {"title": "ポケットモンスター リーフグリーン", "shortTitle": "リーフグリーン", "description": "発売日：2004年1月29日"}
+      }
+    },
+    "diamond_pearl_platinum": {
+      "pokedex": [{"jpn": "シンオウ図鑑"}],
+      "version": {
+        "diamond": {"title": "ポケットモンスター ダイアモンド", "shortTitle": "ダイアモンド", "description": "発売日：2006年09月28日"},
+        "pearl": {"title": "ポケットモンスター パール", "shortTitle": "パール", "description": "発売日：2006年09月28日"},
+        "platinum": {"title": "ポケットモンスター プラチナ", "shortTitle": "プラチナ", "description": "発売日：2008年09月13日"}
+      }
+    },
+    "heartgold_soulsilver": {
+      "pokedex": [{"jpn": "ジョウト図鑑"}],
+      "version": {
+        "heartgold": {"title": "ポケットモンスター ハートゴールド", "shortTitle": "ハートゴールド", "description": "発売日：2009年09月12日"},
+        "soulsilver": {"title": "ポケットモンスター ソウルシルバー", "shortTitle": "ソウルシルバー", "description": "発売日：2009年09月12日"}
+      }
+    },
+    "black_white": {
+      "pokedex": [{"jpn": "イッシュ図鑑"}],
+      "version": {
+        "black": {"title": "ポケットモンスター ブラック", "shortTitle": "ブラック", "description": "発売日：2010年09月18日"},
+        "white": {"title": "ポケットモンスター ホワイト", "shortTitle": "ホワイト", "description": "発売日：2010年09月18日"}
+      }
+    },
+    "black2_white2": {
+      "pokedex": [{"jpn": "イッシュ図鑑"}],
+      "version": {
+        "black2": {"title": "ポケットモンスター ブラック2", "shortTitle": "ブラック2", "description": "発売日：2012年06月23日"},
+        "white2": {"title": "ポケットモンスター ホワイト2", "shortTitle": "ホワイト2", "description": "発売日：2012年06月23日"}
+      }
+    },
+    "x_y": {
+      "pokedex": [{"jpn": "セントラルカロス図鑑"}, {"jpn": "コーストカロス図鑑"}, {"jpn": "マウンテンカロス図鑑"}],
+      "version": {
+        "x": {"title": "ポケットモンスター X", "shortTitle": "X", "description": "発売日：2013年10月12日"},
+        "y": {"title": "ポケットモンスター Y", "shortTitle": "Y", "description": "発売日：2013年10月12日"}
+      }
+    },
+    "sun_moon": {
+      "pokedex": [{"jpn": "アローラ図鑑"}],
+      "version": {
+        "sun": {"title": "ポケットモンスター サン", "shortTitle": "サン", "description": "発売日：2014年11月21日"},
+        "moon": {"title": "ポケットモンスター ムーン", "shortTitle": "ムーン", "description": "発売日：2014年11月21日"}
+      }
+    },
+    "ultrasun_ultramoon": {
+      "pokedex": [{"jpn": "アローラ図鑑"}],
+      "version": {
+        "ultrasun": {"title": "ポケットモンスター ウルトラサン", "shortTitle": "ウルトラサン", "description": "発売日：2016年11月18日"},
+        "ultramoon": {"title": "ポケットモンスター ウルトラムーン", "shortTitle": "ウルトラムーン", "description": "発売日：2016年11月18日"}
+      }
+    },
+    "sword_shield": {
+      "pokedex": [{"jpn": "ガラル図鑑"}, {"jpn": "カンムリ雪原図鑑"}, {"jpn": "ヨロイ島図鑑"}],
+      "version": {
+        "sword": {"title": "ポケットモンスター ソード", "shortTitle": "ソード", "description": "発売日：2019年11月15日"},
+        "shield": {"title": "ポケットモンスター シールド", "shortTitle": "シールド", "description": "発売日：2019年11月15日"}
+      }
+    },
+    "legendsarceus": {
+      "pokedex": [{"jpn": "ヒスイ図鑑"}],
+      "version": {
+        "legendsarceus": {"title": "ポケモン Legends アルセウス", "shortTitle": "アルセウス", "description": "発売日：2022年01月28日"}
+      }
+    },
+    "scarlet_violet": {
+      "pokedex": [{"jpn": "パルデア図鑑"}, {"jpn": "キタカミ図鑑"}, {"jpn": "ブルーベリー図鑑"}],
+      "version": {
+        "scarlet": {"title": "ポケットモンスター スカーレット", "shortTitle": "スカーレット", "description": "発売日：2022年11月18日"},
+        "violet": {"title": "ポケットモンスター バイオレット", "shortTitle": "バイオレット", "description": "発売日：2022年11月18日"}
+      }
+    }
+  },
+  "region_mapping": {
+    "アローラのすがた": "01",
+    "ガラルのすがた": "02", 
+    "ヒスイのすがた": "03",
+    "パルデアのすがた": "04"
+  },
+  "default_region_value": "00"
+}
