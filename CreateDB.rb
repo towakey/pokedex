@@ -43,6 +43,19 @@ if __FILE__ == $0
       )
     SQL
 
+    # table:pokedex_form
+    # Drop tables
+    db.execute("DROP TABLE IF EXISTS pokedex_form")
+    # Create tables
+    db.execute(<<-SQL)
+      CREATE TABLE IF NOT EXISTS pokedex_form (
+        id TEXT,
+        globalNo TEXT,
+        language TEXT,
+        form TEXT
+      )
+    SQL
+
     # table:pokedex_classification
     # Drop tables
     db.execute("DROP TABLE IF EXISTS pokedex_classification")
@@ -220,23 +233,22 @@ if __FILE__ == $0
       )
     SQL
 
-    local_pokedex_array = {}
-    local_pokedex_array["red_green_blue_pikachu"] = ["カントー図鑑"]
-    local_pokedex_array["gold_silver_crystal"] = ["ジョウト図鑑"]
-    local_pokedex_array["ruby_sapphire_emerald"] = ["ホウエン図鑑"]
-    local_pokedex_array["firered_leafgreen"] = ["カントー図鑑"]
-    local_pokedex_array["diamond_pearl_platinum"] = ["シンオウ図鑑"]
-    local_pokedex_array["heartgold_soulsilver"] = ["ジョウト図鑑"]
-    local_pokedex_array["black_white"] = ["イッシュ図鑑"]
-    local_pokedex_array["black2_white2"] = ["イッシュ図鑑"]
-    local_pokedex_array["x_y"] = ["セントラルカロス図鑑", "コーストカロス図鑑", "マウンテンカロス図鑑"]
-    local_pokedex_array["sun_moon"] = ["アローラ図鑑"]
-    local_pokedex_array["ultrasun_ultramoon"] = ["アローラ図鑑"]
-    local_pokedex_array["sword_shield"] = ["ガラル図鑑", "カンムリ雪原図鑑", "ヨロイ島図鑑"]
-    local_pokedex_array["legendsarceus"] = ["ヒスイ図鑑"]
-    local_pokedex_array["scarlet_violet"] = ["パルデア図鑑", "キタカミ図鑑", "ブルーベリー図鑑"]
+    # 設定をJSONファイルから読み込み
+    begin
+      content = File.read("./config/pokedex_config.json")
+      config = JSON.parse(content)
+      local_pokedex_array = config["local_pokedex_mapping"]
+    rescue JSON::ParserError => e
+      STDERR.puts "pokedex_config.json のパースに失敗しました: #{e.message}"
+      exit 1
+    rescue Errno::ENOENT => e
+      STDERR.puts "pokedex_config.json が見つかりません: #{e.message}"
+      exit 1
+    end
 
-    local_pokedex_array.each do |game_version, local_pokedex|
+    local_pokedex_array.each do |game_version, game_config|
+      # pokedex配列からjpn値を取得
+      local_pokedex = game_config["pokedex"].map { |p| p["jpn"] }
       # JSONパースエラー時にファイル内容を表示しないようにする
       puts "load for #{game_version}.json"
       begin

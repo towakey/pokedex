@@ -36,6 +36,11 @@ rows.each do |row|
 
   pokemon_by_no[global_no] ||= {}
 
+  # フォーム（forms）を pokedex_form テーブルから取得
+  form_rows = db.execute('SELECT language, form FROM pokedex_form WHERE id = ?', [row['id']])
+  forms_hash = {}
+  form_rows.each { |f| forms_hash[f['language']] = f['form'] }
+
   # 分類（classification）を pokedex_classification テーブルから取得
   classification_rows = db.execute('SELECT language, classification FROM pokedex_classification WHERE id = ?', [row['id']])
   classification_hash = {}
@@ -49,6 +54,7 @@ rows.each do |row|
     'region'         => row['region'],
     'mega_evolution' => row['mega_evolution'],
     'gigantamax'     => row['gigantamax'],
+    'forms'          => forms_hash,
     'classification' => classification_hash,
     'height'         => row['height'],
     'weight'         => row['weight']
