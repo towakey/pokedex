@@ -46,6 +46,20 @@ end
 
 DB_PATH = File.expand_path('pokedex.db', __dir__)
 
+# 設定をJSONファイルから読み込み
+begin
+  content = File.read(File.expand_path('config/pokedex_config.json', __dir__))
+  config = JSON.parse(content)
+  REGION_MAPPING = config["region_mapping"]
+  DEFAULT_REGION_VALUE = config["default_region_value"]
+rescue JSON::ParserError => e
+  STDERR.puts "pokedex_config.json のパースに失敗しました: #{e.message}"
+  exit 1
+rescue Errno::ENOENT => e
+  STDERR.puts "pokedex_config.json が見つかりません: #{e.message}"
+  exit 1
+end
+
 # TARGET_VERSIONSの各バージョンを処理
 TARGET_VERSIONS.each do |version_config|
   raw_version = version_config[0]
@@ -102,17 +116,7 @@ TARGET_VERSIONS.each do |version_config|
   end
 
   generate_pokemon_id = lambda do |no, region, spare1, spare2, gigantamax, mega_evolution, form, mf, out_of_index, shiny|
-    if region == 'アローラのすがた' then
-      region_value = '01'
-    elsif region == 'ガラルのすがた' then
-      region_value = '02'
-    elsif region == 'ヒスイのすがた' then
-      region_value = '03'
-    elsif region == 'パルデアのすがた' then
-      region_value = '04'
-    else
-      region_value = '00'
-    end
+    region_value = REGION_MAPPING[region] || DEFAULT_REGION_VALUE
     
     if gigantamax.to_s.empty? then
       gigantamax_value = '0'
