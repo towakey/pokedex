@@ -98,20 +98,37 @@ if __FILE__ == $0
           ]
         )
 
-        db.execute(
-          "INSERT INTO pokedex_classification (id, globalNo, form, region, mega_evolution, gigantamax, language, classification) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
-          [
-            form_id,
-            global_no,
-            form['form'],
-            form['region'],
-            form['mega_evolution'],
-            form['gigantamax'],
-            # form['language'],
-            'jpn',                  # 現時点では日本語のみ
-            form['classification']['jpn']
-          ]
-        )
+        if form['classification'] then
+          form['classification'].each do |language, classification|
+            db.execute(
+              "INSERT INTO pokedex_classification (id, globalNo, form, region, mega_evolution, gigantamax, language, classification) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+              [
+                form_id,
+                global_no,
+                form['form'],
+                form['region'],
+                form['mega_evolution'],
+                form['gigantamax'],
+                language,
+                classification
+              ]
+            )
+          end
+        end
+
+        if form['forms'] then
+          form['forms'].each do |language, form_name|
+            db.execute(
+              "INSERT INTO pokedex_form (id, globalNo, language, form) VALUES (?, ?, ?, ?)",
+              [
+                form_id,
+                global_no,
+                language,
+                form_name
+              ]
+            )
+          end
+        end
 
         if form['name'] then
           form['name'].each do |language, name|
