@@ -5389,6 +5389,47 @@
           "chs": "大食花",
           "cht": "大食花"
         }
+      },
+      "0071_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+          "jpn": "メガウツボット",
+          "eng": "Mega Victreebel",
+          "fra": "",
+          "ita": "",
+          "ger": "",
+          "spa": "",
+          "kor": "",
+          "chs": "",
+          "cht": ""
+        },
+        "classification": {
+          "jpn": "ハエとりポケモン",
+          "eng": "Flycatcher Pokémon",
+          "fra": "Pokémon Carnivore",
+          "ita": "Pokémon Moschivoro",
+          "ger": "Fliegentod-Pokémon",
+          "spa": "Pokémon Atrapamoscas",
+          "kor": "파리잡이포켓몬",
+          "chs": "捕蝇宝可梦",
+          "cht": "捕蠅寶可夢"
+        },
+        "height": "4.5",
+        "weight": "125.5",
+        "name": {
+          "jpn": "ウツボット",
+          "eng": "Victreebel",
+          "fra": "Empiflor",
+          "ita": "Victreebel",
+          "ger": "Sarzenia",
+          "spa": "Victreebel",
+          "kor": "우츠보트",
+          "chs": "大食花",
+          "cht": "大食花"
+        }
       }
     },
     "0072": {
@@ -45202,6 +45243,47 @@
           "chs": "乌贼王",
           "cht": "烏賊王"
         }
+      },
+      "0687_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+          "jpn": "メガカラマネロ",
+          "eng": "Mega Malamar",
+          "fra": "",
+          "ita": "",
+          "ger": "",
+          "spa": "",
+          "kor": "",
+          "chs": "",
+          "cht": ""
+        },
+        "classification": {
+          "jpn": "ぎゃくてんポケモン",
+          "eng": "Overturning Pokémon",
+          "fra": "Pokémon Révolution",
+          "ita": "Pokémon Giravolta",
+          "ger": "Inversions-Pokémon",
+          "spa": "Pokémon Revolución",
+          "kor": "역전포켓몬",
+          "chs": "倒转宝可梦",
+          "cht": "倒轉寶可夢"
+        },
+        "height": "2.9",
+        "weight": "69.8",
+        "name": {
+          "jpn": "カラマネロ",
+          "eng": "Malamar",
+          "fra": "Sepiatroce",
+          "ita": "Malamar",
+          "ger": "Calamanero",
+          "spa": "Malamar",
+          "kor": "칼라마네로",
+          "chs": "乌贼王",
+          "cht": "烏賊王"
+        }
       }
     },
     "0688": {
@@ -45793,6 +45875,47 @@
         },
         "height": "0.8",
         "weight": "21.5",
+        "name": {
+          "jpn": "ルチャブル",
+          "eng": "Hawlucha",
+          "fra": "Brutalibré",
+          "ita": "Hawlucha",
+          "ger": "Resladero",
+          "spa": "Hawlucha",
+          "kor": "루차불",
+          "chs": "摔角鹰人",
+          "cht": "摔角鷹人"
+        }
+      },
+      "0701_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+          "jpn": "メガルチャブル",
+          "eng": "Mega Hawlucha",
+          "fra": "",
+          "ita": "",
+          "ger": "",
+          "spa": "",
+          "kor": "",
+          "chs": "",
+          "cht": ""
+        },
+        "classification": {
+          "jpn": "レスリングポケモン",
+          "eng": "Wrestling Pokémon",
+          "fra": "Pokémon Catcheur",
+          "ita": "Pokémon Lottalibera",
+          "ger": "Wrestling-Pokémon",
+          "spa": "Pokémon Lucha Libre",
+          "kor": "레슬링포켓몬",
+          "chs": "摔角宝可梦",
+          "cht": "摔角寶可夢"
+        },
+        "height": "1.0",
+        "weight": "25.0",
         "name": {
           "jpn": "ルチャブル",
           "eng": "Hawlucha",
