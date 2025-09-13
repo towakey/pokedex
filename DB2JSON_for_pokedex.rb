@@ -46,6 +46,10 @@ rows.each do |row|
   classification_hash = {}
   classification_rows.each { |c| classification_hash[c['language']] = c['classification'] }
 
+  # タマゴグループ（egg）を pokedex_egg テーブルから取得
+  egg_rows = db.execute('SELECT egg FROM pokedex_egg WHERE id = ?', [row['id']])
+  egg_array = egg_rows.map { |e| e['egg'] }
+
   form_id = row['id']
 
   form_hash = {
@@ -56,6 +60,7 @@ rows.each do |row|
     'gigantamax'     => row['gigantamax'],
     'forms'          => forms_hash,
     'classification' => classification_hash,
+    'egg'            => egg_array,
     'height'         => row['height'],
     'weight'         => row['weight']
   }
