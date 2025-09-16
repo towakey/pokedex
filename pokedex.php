@@ -412,6 +412,26 @@ try {
                 }
                 $row['classification'] = $classification;
 
+                // フォーム情報を取得
+                $pokedex_form = $db->query("SELECT * FROM pokedex_form WHERE id = :id", [
+                    ':id' => $row['id']
+                ]);
+                $forms = [];
+                foreach ($pokedex_form as $value) {
+                    $forms[$value['language']] = $value['form'];
+                }
+                $row['forms'] = $forms;
+
+                // タマゴグループを取得
+                $pokedex_egg = $db->query("SELECT egg FROM pokedex_egg WHERE id = :id", [
+                    ':id' => $row['id']
+                ]);
+                $egg = [];
+                foreach ($pokedex_egg as $value) {
+                    $egg[] = $value['egg'];
+                }
+                $row['egg'] = $egg;
+
                 // 高さと重さを取得
                 $pokedex= $db->query("SELECT * FROM pokedex WHERE id = :id", [
                     ':id' => $row['id']
@@ -457,13 +477,13 @@ try {
 
                 // ポケモンタイプを取得
                 $pokedex_type= $db->query("SELECT * FROM local_pokedex_type WHERE id = :id AND version = :version", [
-                        ':id' => $row['id'],
+                    ':id' => $row['id'],
                     ':version' => $validRegions[$region][1]
-                    ]);
-                        foreach ($pokedex_type as $value) {
-                            $row['type1'] = $value['type1'];
-                            $row['type2'] = $value['type2'];
-                        }
+                ]);
+                foreach ($pokedex_type as $value) {
+                    $row['type1'] = $value['type1'];
+                    $row['type2'] = $value['type2'];
+                }
 
                 // 分類を取得
                 $pokedex_classification= $db->query("SELECT * FROM pokedex_classification WHERE id = :id", [
@@ -474,6 +494,16 @@ try {
                     $classification[$value['language']] = $value['classification'];
                 }
                 $row['classification'] = $classification;
+
+                // フォーム情報を取得
+                $pokedex_form = $db->query("SELECT * FROM pokedex_form WHERE id = :id", [
+                    ':id' => $row['id']
+                ]);
+                $forms = [];
+                foreach ($pokedex_form as $value) {
+                    $forms[$value['language']] = $value['form'];
+                }
+                $row['forms'] = $forms;
 
                 // 高さと重さを取得
                 $pokedex= $db->query("SELECT * FROM pokedex WHERE id = :id", [
@@ -509,39 +539,39 @@ try {
                     $row['dream_ability'] = $value['dream_ability'];
                 }
 
-                // 図鑑説明を取得（バージョンでフィルタリング）
-                $versionConditions = [];
-                $params = [':id' => $row['id']];
-                $i = 0;
+                // // 図鑑説明を取得（バージョンでフィルタリング）
+                // $versionConditions = [];
+                // $params = [':id' => $row['id']];
+                // $i = 0;
 
-                foreach ($validRegions[$region][2] as $version) {
-                    // 通常版
-                    $paramName = ":version{$i}";
-                    $versionConditions[] = $paramName;
-                    $params[$paramName] = $version;
-                    $i++;
+                // foreach ($validRegions[$region][2] as $version) {
+                //     // 通常版
+                //     $paramName = ":version{$i}";
+                //     $versionConditions[] = $paramName;
+                //     $params[$paramName] = $version;
+                //     $i++;
                     
-                    // _kanji版
-                    $paramName = ":version{$i}";
-                    $versionConditions[] = $paramName;
-                    $params[$paramName] = $version . '_kanji';
-                    $i++;
-                }
+                //     // _kanji版
+                //     $paramName = ":version{$i}";
+                //     $versionConditions[] = $paramName;
+                //     $params[$paramName] = $version . '_kanji';
+                //     $i++;
+                // }
 
-                $description = [];
-                if (!empty($versionConditions)) {
-                    $query = "SELECT * FROM local_pokedex_description 
-                            WHERE id = :id AND ver IN (" . implode(',', $versionConditions) . ")";
-                    $pokedex_description = $db->query($query, $params);
+                // $description = [];
+                // if (!empty($versionConditions)) {
+                //     $query = "SELECT * FROM local_pokedex_description 
+                //             WHERE id = :id AND ver IN (" . implode(',', $versionConditions) . ")";
+                //     $pokedex_description = $db->query($query, $params);
                     
-                    foreach ($pokedex_description as $value) {
-                        if (!isset($description[$value['ver']])) {
-                            $description[$value['ver']] = [];
-                        }
-                        $description[$value['ver']][$value['language']] = $value['description'];
-                    }
-                }
-                $row['description'] = $description;
+                //     foreach ($pokedex_description as $value) {
+                //         if (!isset($description[$value['ver']])) {
+                //             $description[$value['ver']] = [];
+                //         }
+                //         $description[$value['ver']][$value['language']] = $value['description'];
+                //     }
+                // }
+                // $row['description'] = $description;
 
                 // 配列が初期化されていない場合は初期化
                 if (!isset($result[$row['no']])) {
@@ -607,6 +637,26 @@ try {
                     $classification[$value['language']] = $value['classification'];
                 }
                 $row['classification'] = $classification;
+
+                // フォーム情報を取得
+                $pokedex_form = $db->query("SELECT * FROM pokedex_form WHERE id = :id", [
+                    ':id' => $row['id']
+                ]);
+                $forms = [];
+                foreach ($pokedex_form as $value) {
+                    $forms[$value['language']] = $value['form'];
+                }
+                $row['forms'] = $forms;
+
+                // タマゴグループを取得
+                $pokedex_egg = $db->query("SELECT egg FROM pokedex_egg WHERE id = :id", [
+                    ':id' => $row['id']
+                ]);
+                $egg = [];
+                foreach ($pokedex_egg as $value) {
+                    $egg[] = $value['egg'];
+                }
+                $row['egg'] = $egg;
 
                 // 高さと重さを取得
                 $pokedex= $db->query("SELECT * FROM pokedex WHERE id = :id", [
@@ -699,6 +749,16 @@ try {
                         $classification[$value['language']] = $value['classification'];
                     }
                     $row['classification'] = $classification;
+
+                    // フォーム情報を取得
+                    $pokedex_form = $db->query("SELECT * FROM pokedex_form WHERE id = :id", [
+                        ':id' => $row['id']
+                    ]);
+                    $forms = [];
+                    foreach ($pokedex_form as $value) {
+                        $forms[$value['language']] = $value['form'];
+                    }
+                    $row['forms'] = $forms;
 
                     // 高さと重さを取得
                     $pokedex= $db->query("SELECT * FROM pokedex WHERE id = :id", [
