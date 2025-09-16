@@ -89,6 +89,20 @@ if __FILE__ == $0
       )
     SQL
 
+    # table:pokedex_map
+    # Drop tables
+    db.execute("DROP TABLE IF EXISTS pokedex_map")
+    # Create tables
+    db.execute(<<-SQL)
+      CREATE TABLE IF NOT EXISTS pokedex_map (
+        id TEXT,
+        globalNo TEXT,
+        verID TEXT,
+        language TEXT,
+        dex TEXT
+      )
+    SQL
+
     # JSONパースエラー時にファイル内容を表示しないようにする
     begin
       content = File.read("./pokedex/pokedex.json")
@@ -159,6 +173,23 @@ if __FILE__ == $0
                 form['gigantamax'],
                 language,
                 name
+              ]
+            )
+          end
+        end
+
+        if form['egg'] then
+          form['egg'].each do |egg_group|
+            db.execute(
+              "INSERT INTO pokedex_egg (id, globalNo, form, region, mega_evolution, gigantamax, egg) VALUES (?, ?, ?, ?, ?, ?, ?)",
+              [
+                form_id,
+                global_no,
+                form['form'],
+                form['region'],
+                form['mega_evolution'],
+                form['gigantamax'],
+                egg_group
               ]
             )
           end
@@ -993,6 +1024,52 @@ if __FILE__ == $0
         end
       end
     end
+
+    # description_map.json を pokedex_map テーブルに格納
+    puts "load description_map.json for pokedex_map"
+    
+    description_map_file = './pokedex/description_map.json'
+    
+    if File.exist?(description_map_file)
+      puts "Processing #{description_map_file}"
+      
+      begin
+        content = File.read(description_map_file)
+        description_map_json = JSON.parse(content)
+      rescue JSON::ParserError => e
+        STDERR.puts "#{description_map_file} のパースに失敗しました: #{e.message}"
+      else
+        # description_map.jsonのデータ構造に基づいて処理
+        description_map_json["data"].each do |global_no, pokemon_data|
+          pokemon_data.each do |pokemon_id, id_data|
+            id_data.each do |ver_id, version_data|
+              version_data.each do |language, dex_text|
+                # dex_textが存在し、空でない場合のみ挿入
+                if dex_text && !dex_text.empty?
+                  # 重複チェック
+                  existing_count = db.get_first_value(
+                    "SELECT COUNT(*) FROM pokedex_map WHERE globalNo = ? AND id = ? AND verID = ? AND language = ?",
+                    [global_no, pokemon_id, ver_id, language]
+                  )
+                  
+                  if existing_count == 0
+                    db.execute(
+                      "INSERT INTO pokedex_map (id, globalNo, verID, language, dex) VALUES (?, ?, ?, ?, ?)",
+                      [pokemon_id, global_no, ver_id, language, dex_text]
+                    )
+                  end
+                end
+              end
+            end
+          end
+        end
+        
+        puts "Completed processing #{description_map_file}"
+      end
+    else
+      puts "Warning: #{description_map_file} not found"
+    end
+    
     puts "commit"
     db.commit
   rescue SQLite3::Exception => e
