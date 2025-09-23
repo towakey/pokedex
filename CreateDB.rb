@@ -103,6 +103,20 @@ if __FILE__ == $0
       )
     SQL
 
+    # table:pokedex_description
+    # Drop tables
+    db.execute("DROP TABLE IF EXISTS pokedex_description")
+    # Create tables
+    db.execute(<<-SQL)
+      CREATE TABLE IF NOT EXISTS pokedex_description (
+        id TEXT,
+        globalNo TEXT,
+        verID TEXT,
+        language TEXT,
+        dex TEXT
+      )
+    SQL
+
     # JSONパースエラー時にファイル内容を表示しないようにする
     begin
       content = File.read("./pokedex/pokedex.json")
