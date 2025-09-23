@@ -52,7 +52,7 @@ CSV.foreach(csv_file_path, headers: true, encoding: 'UTF-8') do |row|
       dex_safe = dex_text || ''
 
       # 値をエスケープ（シングルクォートをエスケープ）
-      id_escaped = id_safe.gsub("'", "''")+"_0_000_0"
+      id_escaped = id_safe.gsub("'", "''")
       global_no_escaped = global_no_safe.gsub("'", "''")
       ver_id_escaped = ver_id_safe.gsub("'", "''")
       language_escaped = language_code.gsub("'", "''")
