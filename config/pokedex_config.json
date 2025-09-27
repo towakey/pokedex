@@ -103,6 +103,238 @@
       }
     }
   },
+  "version_mapping": {
+    "01_00": {
+      "name_eng": "red",
+      "name_jpn": "赤",
+      "release_day": "1996/2/27"
+    },
+    "01_01": {
+      "name_eng": "green",
+      "name_jpn": "緑",
+      "release_day": "1996/2/27"
+    },
+    "01_10": {
+      "name_eng": "blue",
+      "name_jpn": "青",
+      "release_day": "1996/10/15"
+    },
+    "01_20": {
+      "name_eng": "pikachu",
+      "name_jpn": "ピカチュウ",
+      "release_day": "1998/9/12"
+    },
+    "01_60": {
+      "name_eng": "pokemonpinball",
+      "name_jpn": "ポケモンピンボール",
+      "release_day": "1999/4/14"
+    },
+    "01_70": {
+      "name_eng": "pokemonstadium",
+      "name_jpn": "ポケモンスタジアム2",
+      "release_day": "1999/4/30"
+    },
+    "02_00": {
+      "name_eng": "gold",
+      "name_jpn": "金",
+      "release_day": "1999/11/21"
+    },
+    "02_01": {
+      "name_eng": "silver",
+      "name_jpn": "銀",
+      "release_day": "1999/11/21"
+    },
+    "02_10": {
+      "name_eng": "crystal",
+      "name_jpn": "クリスタル",
+      "release_day": "2000/12/14"
+    },
+    "03_00": {
+      "name_eng": "ruby",
+      "name_jpn": "ルビー",
+      "release_day": "2002/11/21"
+    },
+    "03_01": {
+      "name_eng": "sapphire",
+      "name_jpn": "サファイア",
+      "release_day": "2002/11/21"
+    },
+    "03_10": {
+      "name_eng": "firered",
+      "name_jpn": "ファイアレッド",
+      "release_day": "2004/1/29"
+    },
+    "03_11": {
+      "name_eng": "leafgreen",
+      "name_jpn": "リーフグリーン",
+      "release_day": "2004/1/29"
+    },
+    "03_20": {
+      "name_eng": "emerald",
+      "name_jpn": "エメラルド",
+      "release_day": "2004/9/16"
+    },
+    "04_00": {
+      "name_eng": "diamond",
+      "name_jpn": "ダイヤモンド",
+      "release_day": "2006/9/28"
+    },
+    "04_01": {
+      "name_eng": "pearl",
+      "name_jpn": "パール",
+      "release_day": "2006/9/28"
+    },
+    "04_10": {
+      "name_eng": "platinum",
+      "name_jpn": "プラチナ",
+      "release_day": "2008/9/13"
+    },
+    "04_20": {
+      "name_eng": "heartgold",
+      "name_jpn": "ハートゴールド",
+      "release_day": "2009/9/12"
+    },
+    "04_21": {
+      "name_eng": "soulsilver",
+      "name_jpn": "ソウルシルバー",
+      "release_day": "2009/9/12"
+    },
+    "05_00": {
+      "name_eng": "black",
+      "name_jpn": "ブラック",
+      "release_day": "2010/9/18"
+    },
+    "05_01": {
+      "name_eng": "white",
+      "name_jpn": "ホワイト",
+      "release_day": "2010/9/18"
+    },
+    "05_10": {
+      "name_eng": "black2",
+      "name_jpn": "ブラック2",
+      "release_day": "2012/6/23"
+    },
+    "05_11": {
+      "name_eng": "white2",
+      "name_jpn": "ホワイト2",
+      "release_day": "2012/6/23"
+    },
+    "06_00": {
+      "name_eng": "x",
+      "name_jpn": "X",
+      "release_day": "2013/10/12"
+    },
+    "06_01": {
+      "name_eng": "y",
+      "name_jpn": "Y",
+      "release_day": "2013/10/12"
+    },
+    "06_10": {
+      "name_eng": "omegaruby",
+      "name_jpn": "オメガルビー",
+      "release_day": "2014/11/21"
+    },
+    "06_11": {
+      "name_eng": "alphasapphire",
+      "name_jpn": "アルファサファイア",
+      "release_day": "2014/11/21"
+    },
+    "07_00": {
+      "name_eng": "sun",
+      "name_jpn": "サン",
+      "release_day": "2016/11/18"
+    },
+    "07_01": {
+      "name_eng": "moon",
+      "name_jpn": "ムーン",
+      "release_day": "2016/11/18"
+    },
+    "07_10": {
+      "name_eng": "ultrasun",
+      "name_jpn": "ウルトラサン",
+      "release_day": "2017/11/17"
+    },
+    "07_11": {
+      "name_eng": "ultramoon",
+      "name_jpn": "ウルトラムーン",
+      "release_day": "2017/11/17"
+    },
+    "07_20": {
+      "name_eng": "letsgopikachu",
+      "name_jpn": "Let's Go! ピカチュウ",
+      "release_day": "2018/11/16"
+    },
+    "07_21": {
+      "name_eng": "letsgoeevee",
+      "name_jpn": "Let's Go! イーブイ",
+      "release_day": "2018/11/16"
+    },
+    "08_00": {
+      "name_eng": "sword",
+      "name_jpn": "ソード",
+      "release_day": "2019/11/15"
+    },
+    "08_01": {
+      "name_eng": "shield",
+      "name_jpn": "シールド",
+      "release_day": "2019/11/15"
+    },
+    "08_05": {
+      "name_eng": "newpokemonsnap",
+      "name_jpn": "New ポケモンスナップ",
+      "release_day": "2021/4/30"
+    },
+    "08_10": {
+      "name_eng": "brilliantdiamond",
+      "name_jpn": "ブリリアントダイヤモンド",
+      "release_day": "2021/11/19"
+    },
+    "08_11": {
+      "name_eng": "shiningpearl",
+      "name_jpn": "シャイニングパール",
+      "release_day": "2021/11/19"
+    },
+    "08_20": {
+      "name_eng": "legendsarceus",
+      "name_jpn": "LEGENDS アルセウス",
+      "release_day": "2022/1/28"
+    },
+    "09_00": {
+      "name_eng": "scarlet",
+      "name_jpn": "スカーレット",
+      "release_day": "2022/11/18"
+    },
+    "09_01": {
+      "name_eng": "violet",
+      "name_jpn": "バイオレット",
+      "release_day": "2022/11/18"
+    },
+    "09_03": {
+      "name_eng": "sleep",
+      "name_jpn": "Pokémon Sleep",
+      "release_day": "2023/7/20"
+    },
+    "09_10": {
+      "name_eng": "legendsza",
+      "name_jpn": "LEGENDS Z-A",
+      "release_day": "2025/10/16"
+    },
+    "99_00": {
+      "name_eng": "books",
+      "name_jpn": "書籍",
+      "release_day": ""
+    },
+    "99_01": {
+      "name_eng": "official_site",
+      "name_jpn": "公式サイト",
+      "release_day": ""
+    },
+    "99_02": {
+      "name_eng": "videos",
+      "name_jpn": "動画",
+      "release_day": ""
+    }
+  },
   "region_mapping": {
     "アローラのすがた": "01",
     "ガラルのすがた": "02", 

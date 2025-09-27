@@ -311,6 +311,176 @@ try {
         throw new Exception('無効なリージョンが指定されました');
     }
 
+    // description_map モード: ポケモンの図鑑説明をマップ形式で取得
+    if ($mode === 'description_map') {
+        if (!$region || !$no) {
+            throw new Exception('region と no を指定してください');
+        }
+
+        if ($region !== 'global') {
+            throw new Exception('description_map モードでは region=global のみサポートしています');
+        }
+
+        // ポケモンIDを取得（pokedex_dex_mapテーブルから）
+        // noパラメータを4桁の文字列にフォーマット
+        $globalNoStr = sprintf("%04d", intval($no));
+
+        $dexMapData = $db->query(
+            "SELECT id, verID FROM pokedex_dex_map WHERE globalNo = :globalNoStr",
+            [':globalNoStr' => $globalNoStr]
+        );
+
+        if (empty($dexMapData)) {
+            throw new Exception('指定されたポケモンが見つかりません');
+        }
+
+        // configファイルからversion_mappingを読み込み
+        $configFile = 'config/pokedex_config.json';
+        if (!file_exists($configFile)) {
+            throw new Exception('設定ファイルが見つかりません');
+        }
+
+        $configContent = file_get_contents($configFile);
+        $config = json_decode($configContent, true);
+
+        if (!$config || !isset($config['version_mapping'])) {
+            throw new Exception('設定ファイルの読み込みに失敗しました');
+        }
+
+        $versionMapping = $config['version_mapping'];
+
+        // pokedex_dex_mapの結果をポケモンIDごとにまとめる（CSVの行順を維持）
+        $mapRowsById = [];
+        foreach ($dexMapData as $mapRow) {
+            $pokemonId = $mapRow['id'];
+            $verIdRaw = isset($mapRow['verID']) ? trim($mapRow['verID']) : '';
+            if (!isset($mapRowsById[$pokemonId])) {
+                $mapRowsById[$pokemonId] = [];
+            }
+            if ($verIdRaw !== '') {
+                $mapRowsById[$pokemonId][] = $verIdRaw;
+            }
+        }
+
+        // 各ポケモンIDに対してpokedex_descriptionからデータを取得し、HTML生成スクリプトと同等の構造を整形
+        $allDescriptions = [];
+        foreach ($mapRowsById as $pokemonId => $verIdGroups) {
+            $descriptionsData = $db->query(
+                "SELECT verID, language, dex FROM pokedex_description WHERE id = :id ORDER BY verID ASC, language ASC",
+                [':id' => $pokemonId]
+            );
+
+            $descriptionByVerId = [];
+            foreach ($descriptionsData as $desc) {
+                $versionIdKey = trim($desc['verID']);
+                if ($versionIdKey === '') {
+                    continue;
+                }
+                if (!isset($descriptionByVerId[$versionIdKey])) {
+                    $descriptionByVerId[$versionIdKey] = [];
+                }
+                $descriptionByVerId[$versionIdKey][$desc['language']] = $desc['dex'];
+            }
+
+            $groupedDescriptions = [];
+
+            foreach ($verIdGroups as $verGroupRaw) {
+                $verGroupKey = trim($verGroupRaw);
+                if ($verGroupKey === '') {
+                    continue;
+                }
+
+                $verIds = array_values(array_filter(array_map('trim', explode(',', $verGroupKey)), function ($value) {
+                    return $value !== '';
+                }));
+
+                if (empty($verIds)) {
+                    continue;
+                }
+
+                $versionNames = [];
+                foreach ($verIds as $vid) {
+                    if (isset($versionMapping[$vid]) && !empty($versionMapping[$vid]['name_eng'])) {
+                        $versionNames[] = $versionMapping[$vid]['name_eng'];
+                    } else {
+                        $versionNames[] = $vid;
+                    }
+                }
+
+                $baseGroupKeyParts = array_map(function ($name) {
+                    $normalized = trim((string) $name);
+                    return $normalized === '' ? 'unknown' : strtolower($normalized);
+                }, $versionNames);
+
+                $baseGroupKey = implode('_', $baseGroupKeyParts);
+                if ($baseGroupKey === '') {
+                    $baseGroupKey = strtolower(str_replace(',', '_', $verGroupKey));
+                }
+
+                $groupKey = $baseGroupKey;
+                $suffix = 2;
+                while (isset($groupedDescriptions[$groupKey])) {
+                    $groupKey = $baseGroupKey . '_' . $suffix;
+                    $suffix++;
+                }
+
+                $representativeVerId = $verIds[count($verIds) - 1];
+
+                $groupEntry = [
+                    'raw_ver_group' => $verGroupKey,
+                    'ver_ids' => $verIds,
+                    'version_names' => $versionNames,
+                    'representative_ver_id' => $representativeVerId,
+                ];
+
+                if (isset($descriptionByVerId[$verGroupKey]) && !empty($descriptionByVerId[$verGroupKey])) {
+                    $groupEntry['common'] = $descriptionByVerId[$verGroupKey];
+                } elseif ($representativeVerId && isset($descriptionByVerId[$representativeVerId])) {
+                    $groupEntry['common'] = $descriptionByVerId[$representativeVerId];
+                }
+
+                foreach ($verIds as $singleVerId) {
+                    if (!isset($descriptionByVerId[$singleVerId])) {
+                        continue;
+                    }
+
+                    $singleKeyBase = (isset($versionMapping[$singleVerId]) && !empty($versionMapping[$singleVerId]['name_eng']))
+                        ? $versionMapping[$singleVerId]['name_eng']
+                        : $singleVerId;
+
+                    $singleKeyNormalized = strtolower(trim((string) $singleKeyBase));
+                    if ($singleKeyNormalized === '') {
+                        $singleKeyNormalized = strtolower($singleVerId);
+                    }
+
+                    $candidateKey = $singleKeyNormalized;
+                    $index = 2;
+                    while (isset($groupEntry[$candidateKey])) {
+                        $candidateKey = $singleKeyNormalized . '_' . $index;
+                        $index++;
+                    }
+
+                    $groupEntry[$candidateKey] = $descriptionByVerId[$singleVerId];
+                }
+
+                $groupedDescriptions[$groupKey] = $groupEntry;
+            }
+
+            if (empty($groupedDescriptions) && !empty($descriptionByVerId)) {
+                $groupedDescriptions = $descriptionByVerId;
+            }
+
+            $allDescriptions[$pokemonId] = $groupedDescriptions;
+        }
+
+        echo json_encode([
+            'success' => true,
+            'data' => $allDescriptions, // IDをキーとしたオブジェクト形式
+            'globalNo' => sprintf("%04d", intval($no))
+        ]);
+        exit;
+    }
+
     // exists モード: 指定したglobalNoが地域図鑑に存在するか判定
     if ($mode === 'exists') {
         if (!$region || ($no === null && $id === null)) {
