@@ -488,8 +488,57 @@ try {
         }
 
         if ($region === 'global') {
-            // 全国図鑑の場合は id または globalNo をそのまま返す
-            $existsResult = ($id !== null) ? $id : $no;
+            // 全国図鑑の場合は各地域での存在を確認し、結果を配列で返す
+            $existsResult = [];
+
+            // ポケモンIDを取得（複数の可能性がある）
+            if ($id !== null) {
+                $pokemonIds = [$id];
+            } else {
+                // globalNo からポケモンIDの一覧を取得
+                $rows = $db->query(
+                    "SELECT id FROM pokedex WHERE globalNo = :globalNo",
+                    [':globalNo' => $no]
+                );
+
+                if (empty($rows)) {
+                    // ポケモンが見つからない場合はすべての地域で-1を返す
+                    foreach ($validRegions as $regionKey => $regionData) {
+                        if ($regionKey !== 'global') {
+                            $existsResult[$regionKey] = -1;
+                        }
+                    }
+                } else {
+                    $pokemonIds = array_column($rows, 'id');
+                }
+            }
+
+            if (!empty($pokemonIds)) {
+                // 各IDについて各地域での存在確認
+                foreach ($pokemonIds as $pokemonId) {
+                    $idResults = [];
+
+                    foreach ($validRegions as $regionKey => $regionData) {
+                        if ($regionKey === 'global') continue; // global自体はスキップ
+
+                        $pokedexName = $regionData[0];
+                        $versionName = $regionData[1];
+
+                        $row = $db->querySingle(
+                            "SELECT no FROM local_pokedex WHERE id = :id AND pokedex = :pokedex AND version = :version LIMIT 1",
+                            [
+                                ':id' => $pokemonId,
+                                ':pokedex' => $pokedexName,
+                                ':version' => $versionName
+                            ]
+                        );
+
+                        $idResults[$regionKey] = $row ? intval($row['no']) : -1;
+                    }
+
+                    $existsResult[$pokemonId] = $idResults;
+                }
+            }
         } else {
             // 有効なリージョンは既に検証済みだが、念のためチェック
             if (!isset($validRegions[$region])) {
