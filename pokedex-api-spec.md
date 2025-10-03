@@ -1,25 +1,31 @@
 # Pokedex API 仕様書
 
 ## 概要
-Pokedex APIは、ポケモンの図鑑情報を提供するRESTful APIです。地域別図鑑、ポケモンの詳細情報、図鑑説明の検索などの機能を提供します。
+Pokedex APIは`pokedex.db`（SQLite3）を参照しながら、ポケモンの地域図鑑データや図鑑説明、検索機能、存在判定、図鑑説明マッピングを1つのエンドポイント`pokedex.php`で提供します。
 
 ## 基本情報
 - **エンドポイント**: `pokedex.php`
-- **HTTPメソッド**: GET
+- **HTTPメソッド**: GET（プリフライトではOPTIONSを許可）
 - **レスポンス形式**: JSON
 - **文字エンコーディング**: UTF-8
-- **CORS**: 全てのオリジンからのアクセスを許可
+- **CORS**: `Access-Control-Allow-Origin: *`
+- **設定ファイル**: `config/pokedex_config.json`（地域/バージョン/VerIDマッピング）
 
 ## 共通レスポンス形式
-
 ### 成功時
 ```json
 {
     "success": true,
     "data": {},
-    "region": "地域名（日本語）"
+    "region": "カントー図鑑",
+    "search_word": "たね",
+    "search_items": ["description"],
+    "language": "jpn",
+    "results_count": 1,
+    "globalNo": "0001"
 }
 ```
+`region`、`search_word`、`search_items`、`language`、`results_count`、`globalNo`などはモードに応じて任意で付与されます。
 
 ### エラー時
 ```json
@@ -28,103 +34,49 @@ Pokedex APIは、ポケモンの図鑑情報を提供するRESTful APIです。�
     "error": "エラーメッセージ"
 }
 ```
+HTTPステータスコードは常に200で返却されます。
 
-## エンドポイント一覧
+## モード一覧
+| mode値 | 説明 | 主な追加パラメータ |
+|--------|------|-------------------|
+| (未指定) | 地域図鑑の一覧/詳細取得 | `region`, `no` |
+| `description` | 特定ポケモンの図鑑説明を取得 | `globalNo` or `id`, `language` |
+| `search` | 図鑑説明/名称/分類を全文検索 | `items`, `word`, `language` |
+| `exists` | 地域図鑑内の存在有無を確認 | `region`, `no` or `id` |
+| `description_map` | 図鑑説明のバージョングループマッピング取得 | `region`, `no` |
 
-### 1. 図鑑説明取得 (mode=description)
+## 共通クエリパラメータ
+| パラメータ | 型 | 必須 | 既定値 | 説明 |
+|------------|----|------|--------|------|
+| `mode` | string | × | `null` | 処理モードを切り替え。未指定時は地域図鑑アクセス。 |
+| `region` | string | 条件付き | `null` | 地域コード。`mode`未指定/`exists`/`description_map`で利用。 |
+| `no` | integer or string | 条件付き | `null` | 地域図鑑番号。`region`とセットで使用。`description_map`では全国図鑑番号扱い。 |
+| `id` | integer or string | 条件付き | `null` | `pokedex.id`。`mode=description`/`search`/`exists`で利用可能。 |
+| `globalNo` | integer or string | 条件付き | `null` | 全国図鑑番号。4桁ゼロ埋め・素の数値どちらも許容。 |
+| `language` | string | 条件付き | `jpn` | 言語コード。`mode=description`必須、`mode=search`は`all`指定でフィルタ解除。 |
+| `items` | string | `mode=search`で必須 | `description` | 検索対象（カンマ区切り）: `description`/`name`/`classification`。 |
+| `word` | string | `mode=search`で必須 | `null` | 部分一致検索キーワード。 |
 
-指定したポケモンの図鑑説明を言語別に取得します。
+## モード詳細
 
-#### リクエストパラメータ
-| パラメータ | 型 | 必須 | 説明 |
-|-----------|---|------|------|
-| mode | string | ✓ | "description" 固定 |
-| globalNo | integer | ○ | 全国図鑑番号（idとの択一） |
-| id | integer | ○ | ポケモンID（globalNoとの択一） |
-| language | string | ✓ | 言語コード（例: "jpn", "eng"） |
+### 1. 地域図鑑アクセス（mode未指定）
+- **一覧取得**: `region`のみ指定。`
+  - `region=global`では`pokedex`テーブルを対象に、`data`キーは`globalNo`（ゼロ埋め）で配列を返却。
+  - その他の地域は`local_pokedex`を基点に関連テーブルを引き、`hp`や`ability`等も含め返却。
+- **詳細取得**: `region`と`no`を併用。該当地域・番号のレコードを1配列として返却し、バージョンごとの図鑑説明（通常版 + `_kanji`派生）を初期化済みで提供。
 
-#### レスポンス例
-```json
-{
-    "success": true,
-    "data": [
-        {
-            "id": "1",
-            "language": "jpn",
-            "description": "たねポケモン。背中に種がついている。"
-        }
-    ]
-}
-```
-
-### 2. 図鑑説明検索 (mode=search)
-
-図鑑説明内のテキストを検索します。
-
-#### リクエストパラメータ
-| パラメータ | 型 | 必須 | 説明 |
-|-----------|---|------|------|
-| mode | string | ✓ | "search" 固定 |
-| item | string | ✓ | "description" 固定（現在サポートされている項目） |
-| word | string | ✓ | 検索キーワード |
-
-#### レスポンス例
-```json
-{
-    "success": true,
-    "data": [
-        {
-            "id": "1",
-            "language": "jpn",
-            "description": "たねポケモン。背中に種がついている。",
-            "ver": "red"
-        }
-    ]
-}
-```
-
-### 3. 存在確認 (mode=exists)
-
-指定したポケモンが地域図鑑に存在するかを確認します。
-
-#### リクエストパラメータ
-| パラメータ | 型 | 必須 | 説明 |
-|-----------|---|------|------|
-| mode | string | ✓ | "exists" 固定 |
-| region | string | ✓ | 地域名 |
-| no | integer | ○ | 図鑑番号（idとの択一） |
-| id | integer | ○ | ポケモンID（noとの択一） |
-
-#### レスポンス例
-```json
-{
-    "success": true,
-    "result": 1
-}
-```
-※ `result`: 地域図鑑での番号。存在しない場合は -1
-
-### 4. 地域図鑑一覧取得
-
-指定した地域の全ポケモン一覧を取得します。
-
-#### リクエストパラメータ
-| パラメータ | 型 | 必須 | 説明 |
-|-----------|---|------|------|
-| region | string | ✓ | 地域名 |
-
-#### レスポンス例
+#### 一覧レスポンス例（region=global）
 ```json
 {
     "success": true,
     "data": {
-        "1": [
+        "0001": [
             {
-                "id": "1",
-                "no": "1",
-                "globalNo": "1",
-                "pokedex": "カントー図鑑",
-                "version": "red_green_blue_pikachu",
+                "id": "0001",
+                "no": "0001",
+                "globalNo": "0001",
+                "pokedex": "全国図鑑",
+                "version": "global",
                 "name": {
                     "jpn": "フシギダネ",
                     "eng": "Bulbasaur"
@@ -135,50 +87,29 @@ Pokedex APIは、ポケモンの図鑑情報を提供するRESTful APIです。�
                     "jpn": "たねポケモン",
                     "eng": "Seed Pokémon"
                 },
+                "forms": {
+                    "jpn": "通常"
+                },
+                "egg": ["植物", "怪獣"],
                 "height": "0.7",
-                "weight": "6.9",
-                "hp": "45",
-                "attack": "49",
-                "defense": "49",
-                "special_attack": "65",
-                "special_defense": "65",
-                "speed": "45",
-                "ability1": "しんりょく",
-                "ability2": null,
-                "dream_ability": "ようりょくそ",
-                "description": {
-                    "red": {
-                        "jpn": "たねポケモン。背中に種がついている。",
-                        "eng": "A strange seed was planted on its back at birth."
-                    }
-                }
+                "weight": "6.9"
             }
         ]
     },
-    "region": "カントー図鑑"
+    "region": "全国図鑑"
 }
 ```
 
-### 5. ポケモン詳細情報取得
-
-指定した地域の特定のポケモンの詳細情報を取得します。
-
-#### リクエストパラメータ
-| パラメータ | 型 | 必須 | 説明 |
-|-----------|---|------|------|
-| region | string | ✓ | 地域名 |
-| no | integer | ✓ | 図鑑番号 |
-
-#### レスポンス例
+#### 詳細レスポンス例（region=kanto, no=1）
 ```json
 {
     "success": true,
     "data": {
-        "1": [
+        "001": [
             {
-                "id": "1",
-                "no": "1",
-                "globalNo": "1",
+                "id": "0001",
+                "no": "001",
+                "globalNo": "0001",
                 "pokedex": "カントー図鑑",
                 "version": "red_green_blue_pikachu",
                 "name": {
@@ -190,6 +121,9 @@ Pokedex APIは、ポケモンの図鑑情報を提供するRESTful APIです。�
                 "classification": {
                     "jpn": "たねポケモン",
                     "eng": "Seed Pokémon"
+                },
+                "forms": {
+                    "jpn": "通常"
                 },
                 "height": "0.7",
                 "weight": "6.9",
@@ -203,7 +137,7 @@ Pokedex APIは、ポケモンの図鑑情報を提供するRESTful APIです。�
                 "ability2": null,
                 "dream_ability": "ようりょくそ",
                 "ability1_description": {
-                    "jpn": "HPが減ったときくさタイプの技の威力が上がる。"
+                    "jpn": "HPが減るとくさタイプの技の威力が上がる。"
                 },
                 "ability2_description": {
                     "": ""
@@ -216,8 +150,16 @@ Pokedex APIは、ポケモンの図鑑情報を提供するRESTful APIです。�
                         "jpn": "たねポケモン。背中に種がついている。",
                         "eng": ""
                     },
+                    "red_kanji": {
+                        "jpn": "",
+                        "eng": ""
+                    },
                     "green": {
                         "jpn": "たねポケモン。背中に種がついている。",
+                        "eng": ""
+                    },
+                    "green_kanji": {
+                        "jpn": "",
                         "eng": ""
                     }
                 }
@@ -228,136 +170,241 @@ Pokedex APIは、ポケモンの図鑑情報を提供するRESTful APIです。�
 }
 ```
 
-## 対応地域一覧
+### 2. 図鑑説明取得（mode=description）
+| パラメータ | 必須 | 説明 |
+|------------|------|------|
+| `mode` | ✓ | `description`固定 |
+| `globalNo` | △ | `id`と排他。全国図鑑番号から内部IDを引く。 |
+| `id` | △ | 内部ID。`globalNo`と排他。 |
+| `language` | ✓ | 言語コード（例: `jpn`, `eng`） |
 
-| 地域コード | 地域名（日本語） | バージョン | 対応ゲーム |
-|-----------|-----------------|-----------|------------|
-| global | 全国図鑑 | global | 全ゲーム |
-| kanto | カントー図鑑 | red_green_blue_pikachu | 赤・緑・青・ピカチュウ |
-| johto | ジョウト図鑑 | gold_silver_crystal | 金・銀・クリスタル |
-| hoenn | ホウエン図鑑 | ruby_sapphire_emerald | ルビー・サファイア・エメラルド |
-| sinnoh | シンオウ図鑑 | diamond_pearl_platinum | ダイヤモンド・パール・プラチナ |
-| unova | イッシュ図鑑 | black_white | ブラック・ホワイト |
-| unova_b2w2 | イッシュ図鑑 | black2_white2 | ブラック2・ホワイト2 |
-| central_kalos | セントラルカロス図鑑 | x_y | X・Y |
-| coast_kalos | コーストカロス図鑑 | x_y | X・Y |
-| mountain_kalos | マウンテンカロス図鑑 | x_y | X・Y |
-| alola_sm | アローラ図鑑 | sun_moon | サン・ムーン |
-| alola_usum | アローラ図鑑 | ultrasun_ultramoon | ウルトラサン・ウルトラムーン |
-| galar | ガラル図鑑 | sword_shield | ソード・シールド |
-| crown_tundra | カンムリ雪原図鑑 | sword_shield | ソード・シールド |
-| isle_of_armor | ヨロイ島図鑑 | sword_shield | ソード・シールド |
-| hisui | ヒスイ図鑑 | legendsarceus | レジェンズアルセウス |
-| paldea | パルデア図鑑 | scarlet_violet | スカーレット・バイオレット |
-| kitakami | キタカミ図鑑 | scarlet_violet | スカーレット・バイオレット |
-| blueberry | ブルーベリー図鑑 | scarlet_violet | スカーレット・バイオレット |
+レスポンス例:
+```json
+{
+    "success": true,
+    "data": [
+        {
+            "ver": "red",
+            "version": "red_green_blue_pikachu",
+            "pokedex": "カントー図鑑",
+            "description": "たねポケモン。背中に種がついている。"
+        }
+    ]
+}
+```
+`ver`はゲームバージョン、`version`はバージョングループ名、`pokedex`は地域図鑑名です。
+
+### 3. 図鑑説明検索（mode=search）
+| パラメータ | 必須 | 説明 |
+|------------|------|------|
+| `mode` | ✓ | `search`固定 |
+| `word` | ✓ | 部分一致で検索する語句 |
+| `items` | ✓ | 検索対象。カンマ区切りで`description`/`name`/`classification`を指定。 |
+| `language` | × | 既定`jpn`。`all`指定で言語制限なし。 |
+
+レスポンス例:
+```json
+{
+    "success": true,
+    "data": [
+        {
+            "id": "0001",
+            "matched_fields": ["description", "name"],
+            "description": "たねポケモン。背中に種がついている。",
+            "verID": "01_00",
+            "matched_name": "フシギダネ",
+            "name": {
+                "jpn": "フシギダネ",
+                "eng": "Bulbasaur"
+            },
+            "imageId": "0001",
+            "globalNo": "0001",
+            "pokedex": "カントー図鑑",
+            "no": "001",
+            "ver": "red_green_blue_pikachu",
+            "language": "jpn"
+        }
+    ],
+    "search_word": "たね",
+    "search_items": ["description", "name"],
+    "language": "jpn",
+    "results_count": 1
+}
+```
+`verID`は`pokedex_description.verID`、`ver`は`convertVerIdToVersion()`で変換したバージョングループ名です。
+
+### 4. 地域存在確認（mode=exists）
+| パラメータ | 必須 | 説明 |
+|------------|------|------|
+| `mode` | ✓ | `exists`固定 |
+| `region` | ✓ | 地域コード。`global`は特別扱い。 |
+| `no` | △ | 地域図鑑番号。`id`と排他。 |
+| `id` | △ | 内部ID。`no`と排他。 |
+
+レスポンス例（地域指定時）:
+```json
+{
+    "success": true,
+    "result": 25
+}
+```
+レスポンス例（`region=global`）:
+```json
+{
+    "success": true,
+    "result": {
+        "0001": {
+            "kanto": 1,
+            "kanto_frlg": 1,
+            "johto": 226,
+            "johto_hgss": 231,
+            "hoenn": -1,
+            "galar": -1,
+            "paldea": -1
+        }
+    }
+}
+```
+`-1`は該当地域で未収録であることを示します。
+
+### 5. 図鑑説明マッピング取得（mode=description_map）
+| パラメータ | 必須 | 説明 |
+|------------|------|------|
+| `mode` | ✓ | `description_map`固定 |
+| `region` | ✓ | 現状`global`のみサポート |
+| `no` | ✓ | 全国図鑑番号（数値または4桁文字列） |
+
+レスポンス例:
+```json
+{
+    "success": true,
+    "data": {
+        "0001": {
+            "red_green_blue_pikachu": {
+                "raw_ver_group": "01_00,01_01,01_10,01_20",
+                "ver_ids": ["01_00", "01_01", "01_10", "01_20"],
+                "version_names": ["red", "green", "blue", "pikachu"],
+                "representative_ver_id": "01_20",
+                "common": {
+                    "jpn": "たねポケモン。背中に種がついている。"
+                },
+                "red": {
+                    "jpn": "たねポケモン。背中に種がついている。"
+                }
+            }
+        }
+    },
+    "globalNo": "0001"
+}
+```
+`pokedex_dex_map`のverIDグループを用いて、共通説明・個別verID説明をまとめて返却します。
+
+## 対応地域一覧
+| 地域コード | 地域名（日本語） | バージョングループ | 図鑑説明用バージョン配列 |
+|------------|------------------|----------------------|---------------------------|
+| global | 全国図鑑 | global | global |
+| kanto | カントー図鑑 | red_green_blue_pikachu | red, green, blue, pikachu |
+| johto | ジョウト図鑑 | gold_silver_crystal | gold, silver, crystal |
+| hoenn | ホウエン図鑑 | ruby_sapphire_emerald | ruby, sapphire, emerald |
+| kanto_frlg | カントー図鑑 | firered_leafgreen | firered, leafgreen |
+| sinnoh | シンオウ図鑑 | diamond_pearl_platinum | diamond, pearl, platinum |
+| johto_hgss | ジョウト図鑑 | heartgold_soulsilver | heartgold, soulsilver |
+| unova_bw | イッシュ図鑑 | black_white | black, white |
+| unova_b2w2 | イッシュ図鑑 | black2_white2 | black2, white2 |
+| central_kalos | セントラルカロス図鑑 | x_y | x, y |
+| coast_kalos | コーストカロス図鑑 | x_y | x, y |
+| mountain_kalos | マウンテンカロス図鑑 | x_y | x, y |
+| alola_sm | アローラ図鑑 | sun_moon | sun, moon |
+| alola_usum | アローラ図鑑 | ultrasun_ultramoon | ultrasun, ultramoon |
+| galar | ガラル図鑑 | sword_shield | sword, shield |
+| crown_tundra | カンムリ雪原図鑑 | sword_shield | sword, shield |
+| isle_of_armor | ヨロイ島図鑑 | sword_shield | sword, shield |
+| hisui | ヒスイ図鑑 | legendsarceus | legendsarceus |
+| paldea | パルデア図鑑 | scarlet_violet | scarlet, violet |
+| kitakami | キタカミ図鑑 | scarlet_violet | scarlet, violet |
+| blueberry | ブルーベリー図鑑 | scarlet_violet | scarlet, violet |
+※ `_kanji`派生は自動的に付加され、空文字で初期化されます。
 
 ## レスポンスフィールド詳細
-
-### ポケモン基本情報
+### 共通フィールド
 | フィールド | 型 | 説明 |
-|-----------|---|------|
-| id | string | ポケモンの内部ID |
-| no | string | 地域図鑑での番号 |
-| globalNo | string | 全国図鑑番号 |
-| pokedex | string | 図鑑名（日本語） |
-| version | string | ゲームバージョン識別子 |
+|------------|----|------|
+| `id` | string | `pokedex.id`（フォームID）。 |
+| `no` | string | 地域図鑑番号。`region=global`では`globalNo`と同値。 |
+| `globalNo` | string | 全国図鑑番号（ゼロ埋め文字列）。 |
+| `pokedex` | string | 図鑑名（日本語）。 |
+| `version` | string or null | バージョングループ名。 |
+| `name` | object | 言語別名称（`pokedex_name`）。 |
+| `classification` | object | 言語別分類（`pokedex_classification`）。 |
+| `forms` | object | 言語別フォーム名（`pokedex_form`）。 |
+| `type1`/`type2` | string or null | タイプ（`local_pokedex_type`）。 |
+| `egg` | array | タマゴグループ（グローバル一覧/詳細で返却）。 |
+| `height`/`weight` | string | 身長(m)/体重(kg)。 |
+| `hp`/`attack`/`defense`/`special_attack`/`special_defense`/`speed` | string | 能力値（地域指定時のみ）。 |
+| `ability1`/`ability2`/`dream_ability` | string or null | 特性。 |
+| `ability*_description` | object | 特性説明。見つからない場合は`{"": ""}`。 |
+| `description` | object | バージョン x 言語の図鑑説明。未取得でも全バージョンキーを初期化。 |
+| `imageId` | string | `pokedex_name.id`。`mode=search`のみ。 |
+| `ver` | string or null | `local_pokedex.version`を`version_mapping`で変換した値（searchのみ）。 |
+| `matched_fields` | array | `mode=search`でヒットした項目名。 |
+| `matched_name`/`matched_classification` | string | ヒットした名称/分類。 |
+| `verID` | string | `pokedex_description.verID`（searchのみ）。 |
 
-### ポケモン名称・分類
+### description_map固有
 | フィールド | 型 | 説明 |
-|-----------|---|------|
-| name | object | ポケモン名（言語別） |
-| name.jpn | string | 日本語名 |
-| name.eng | string | 英語名 |
-| classification | object | 分類（言語別） |
-| classification.jpn | string | 日本語分類 |
-| classification.eng | string | 英語分類 |
+|------------|----|------|
+| `raw_ver_group` | string | CSV由来のverID連結文字列。 |
+| `ver_ids` | array | 個別verID。 |
+| `version_names` | array | `version_mapping`の英語名。 |
+| `representative_ver_id` | string | グループ代表のverID。 |
+| `common` | object | グループ共通説明（存在時のみ）。 |
+| `<version_name>` | object | 個別verIDの言語別説明。 |
 
-### ポケモンタイプ・能力値
-| フィールド | 型 | 説明 |
-|-----------|---|------|
-| type1 | string | タイプ1 |
-| type2 | string/null | タイプ2（なしの場合はnull） |
-| height | string | 高さ（メートル） |
-| weight | string | 重さ（キログラム） |
-| hp | string | HP |
-| attack | string | こうげき |
-| defense | string | ぼうぎょ |
-| special_attack | string | とくこう |
-| special_defense | string | とくぼう |
-| speed | string | すばやさ |
-
-### 特性情報
-| フィールド | 型 | 説明 |
-|-----------|---|------|
-| ability1 | string/null | 特性1 |
-| ability2 | string/null | 特性2 |
-| dream_ability | string/null | 夢特性 |
-| ability1_description | object | 特性1の説明（言語別） |
-| ability2_description | object | 特性2の説明（言語別） |
-| dream_ability_description | object | 夢特性の説明（言語別） |
-
-### 図鑑説明
-| フィールド | 型 | 説明 |
-|-----------|---|------|
-| description | object | 図鑑説明（バージョン・言語別） |
-| description.{version} | object | 各バージョンの説明 |
-| description.{version}.jpn | string | 日本語説明 |
-| description.{version}.eng | string | 英語説明 |
-
-## エラーハンドリング
-
-### よくあるエラー
-- `無効なリージョンが指定されました`: 対応していない地域コードが指定された場合
-- `region と (no または id) を指定してください`: 必須パラメータが不足している場合
-- `指定されたポケモンが見つかりません`: 指定された番号のポケモンが存在しない場合
-- `現在はitem=descriptionのみサポートしています`: 検索モードで未対応の項目が指定された場合
-- `リージョンまたはポケモンNoを指定してください`: 基本的なパラメータが不足している場合
+## エラーメッセージ例
+- **`globalNo または id のいずれかを指定してください`**: `mode=description`で識別子未指定。
+- **`language を指定してください`**: `mode=description`で`language`未指定。
+- **`word を指定してください`**: `mode=search`でキーワード未指定。
+- **`検索項目を指定してください`**: `mode=search`で`items`未指定。
+- **`有効な検索項目が指定されていません`**: `items`に未対応値のみ指定。
+- **`リージョンまたはポケモンNoを指定してください`**: `mode`未指定時に必須パラメータ不足。
+- **`無効なリージョンが指定されました`**: `validRegions`に存在しない`region`指定。
+- **`region と (no または id) を指定してください`**: `mode=exists`で引数不足。
+- **`region と no を指定してください`**: `mode=description_map`で必須不足。
+- **`description_map モードでは region=global のみサポートしています`**: 非対応`region`指定。
+- **`設定ファイルが見つかりません` / `設定ファイルの読み込みに失敗しました`**: `description_map`処理時に設定ファイル異常。
+- **`指定されたポケモンが見つかりません`**: DB照会結果が空。
 
 ## 使用例
-
-### 1. カントー図鑑の全ポケモン取得
-```
+```text
 GET pokedex.php?region=kanto
-```
-
-### 2. フシギダネの詳細情報取得
-```
-GET pokedex.php?region=kanto&no=1
-```
-
-### 3. ポケモンの図鑑説明取得
-```
-GET pokedex.php?mode=description&globalNo=1&language=jpn
-```
-
-### 4. 図鑑説明検索
-```
-GET pokedex.php?mode=search&item=description&word=たね
-```
-
-### 5. ポケモンの存在確認
-```
-GET pokedex.php?mode=exists&region=kanto&no=1
+GET pokedex.php?region=kanto&no=25
+GET pokedex.php?mode=description&globalNo=25&language=jpn
+GET pokedex.php?mode=search&items=description,name&word=たね&language=jpn
+GET pokedex.php?mode=exists&region=paldea&no=1
+GET pokedex.php?mode=exists&region=global&no=1
+GET pokedex.php?mode=description_map&region=global&no=25
 ```
 
 ## 注意事項
+- **`no`/`globalNo`の入力形式**: 数値/文字列どちらも受付。内部処理で文字列比較する箇所があるためゼロ埋め推奨。
+- **`language=all`検索**: 言語フィルタが外れるためレスポンス件数が多くなる可能性があります。
+- **特性説明の取得範囲**: 一致するバージョン1件のみを返却し、見つからない場合は空オブジェクト（`{"": ""}`）。
+- **version_mapping依存**: VerIDからバージョングループ名/英語名へ変換する際に`pokedex_config.json`が必須です。
+- **description_mapの前提**: `pokedex_dex_map`テーブル（`csv_to_sql_pokedex_dex_map.rb`などで投入）を利用します。
+- **大量クエリ**: 現実装はテーブル結合ではなく個別クエリを多用するため、高頻度アクセス時はキャッシュを検討してください。
 
-1. **数値ソート**: ポケモン番号は数値として正しくソートされます（1, 2, 10の順）
-2. **バージョン依存**: 一部の情報（タイプ、ステータス、特性）はゲームバージョンによって異なる場合があります
-3. **言語対応**: 現在は日本語（jpn）と英語（eng）に対応していますが、全ての項目で両言語が利用可能とは限りません
-4. **CORS**: 全てのオリジンからのアクセスが許可されていますが、本番環境では適切に制限することを推奨します
-5. **特性説明**: 特性の説明は対応するゲームバージョンから取得されますが、存在しない場合は空文字列が返されます
+## 参照テーブル
+- `pokedex`
+- `local_pokedex`
+- `pokedex_name`
+- `pokedex_classification`
+- `pokedex_form`
+- `pokedex_egg`
+- `local_pokedex_type`
+- `local_pokedex_status`
+- `local_pokedex_ability`
+- `local_pokedex_description`
+- `pokedex_description`
+- `ability_language`
+- `pokedex_dex_map`
 
-## データベース構造
-
-このAPIは以下のSQLiteテーブルを使用しています：
-- `pokedex`: 基本ポケモン情報
-- `local_pokedex`: 地域図鑑情報
-- `pokedex_name`: ポケモン名（多言語）
-- `pokedex_classification`: ポケモン分類（多言語）
-- `local_pokedex_type`: タイプ情報
-- `local_pokedex_status`: ステータス情報
-- `local_pokedex_ability`: 特性情報
-- `ability_language`: 特性説明（多言語）
-- `local_pokedex_description`: 図鑑説明（多言語・バージョン別）
