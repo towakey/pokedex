@@ -4,6 +4,40 @@ header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type, Authorization');
 
+// pokedex_config.jsonを読み込む
+$configPath = __DIR__ . '/config/pokedex_config.json';
+$pokedexConfig = json_decode(file_get_contents($configPath), true);
+$versionMapping = $pokedexConfig['version_mapping'] ?? [];
+
+/**
+ * verIDをversion名に変換する関数
+ * 
+ * @param string $verID バージョンID（例: "01_00", "06_00_1"）
+ * @return string バージョン名（例: "red_green_blue_pikachu", "x_y"）
+ */
+function convertVerIdToVersion($verID, $versionMapping) {
+    if (!$verID) {
+        return null;
+    }
+    
+    // verIDから3つ目以降の部分を除去（例: "06_00_1" -> "06_00"、"06_00" -> "06_00"）
+    $parts = explode('_', $verID);
+    $cleanVerID = $verID;
+    
+    // アンダースコアで区切った要素が3つ以上ある場合のみ、最初の2つを結合
+    if (count($parts) >= 3) {
+        $cleanVerID = $parts[0] . '_' . $parts[1];
+    }
+    
+    // version_mappingから該当するバージョン名を取得
+    if (isset($versionMapping[$cleanVerID]['version'])) {
+        return $versionMapping[$cleanVerID]['version'];
+    }
+    
+    // マッピングが見つからない場合はそのまま返す
+    return $verID;
+}
+
 /**
  * SQLiteデータベース操作クラス
  */
@@ -200,79 +234,284 @@ try {
         exit;
     }
 
-    // search モード: description テーブルを検索
+    // search モード: pokedex_description テーブルを検索
     if ($mode === 'search') {
-        $item = isset($_GET['item']) ? $_GET['item'] : null;
+        $items = isset($_GET['items']) ? $_GET['items'] : 'description';
         $word = isset($_GET['word']) ? $_GET['word'] : null;
+        $language = isset($_GET['language']) ? $_GET['language'] : 'jpn';
 
-        // item と word の両方が必要
-        if ($item === null || $word === null) {
-            throw new Exception('item と word を指定してください');
+        // word が必要
+        if ($word === null || trim($word) === '') {
+            throw new Exception('word を指定してください');
         }
 
-        // item=description の場合のみ対応
-        if ($item === 'description') {
-            // description カラムを LIKE 検索
-            $searchResults = $db->query(
-                "SELECT * FROM local_pokedex_description WHERE description LIKE :word ORDER BY id ASC",
-                [
-                    ':word' => '%' . $word . '%'
-                ]
-            );
+        // items をカンマ区切りで配列に変換
+        $searchItems = array_filter(array_map('trim', explode(',', $items)));
+        if (empty($searchItems)) {
+            throw new Exception('検索項目を指定してください');
+        }
 
-            // 検索結果にlocal_pokedexの情報を統合
-            $integratedResults = [];
-            foreach ($searchResults as $result) {
-                // local_pokedexテーブルから追加情報を取得
-                $localPokedexInfo = $db->querySingle(
-                    "SELECT * FROM local_pokedex WHERE id = :id AND version = :version AND pokedex = :pokedex LIMIT 1",
+        // 検索クエリを構築
+        $conditions = [];
+        $params = [':word' => '%' . $word . '%'];
+        
+        foreach ($searchItems as $item) {
+            switch ($item) {
+                case 'description':
+                    // pokedex_description テーブルで検索
+                    $conditions[] = 'description';
+                    break;
+                case 'name':
+                    $conditions[] = 'name';
+                    break;
+                case 'classification':
+                    $conditions[] = 'classification';
+                    break;
+                default:
+                    // 未対応の項目は無視
+                    break;
+            }
+        }
+
+        if (empty($conditions)) {
+            throw new Exception('有効な検索項目が指定されていません');
+        }
+
+        // 結果を格納する配列（重複排除のためIDをキーに）
+        $resultsById = [];
+
+        // description 検索
+        if (in_array('description', $conditions)) {
+            // 言語指定が 'all' の場合は言語フィルタなし
+            if ($language === 'all') {
+                $descResults = $db->query(
+                    "SELECT id, verID, dex as description FROM pokedex_description WHERE dex LIKE :word ORDER BY id ASC",
                     [
-                        ':id' => $result['id'],
-                        ':version' => $result['version'],
-                        ':pokedex' => $result['pokedex']
+                        ':word' => '%' . $word . '%'
                     ]
                 );
+            } else {
+                $descResults = $db->query(
+                    "SELECT id, verID, dex as description FROM pokedex_description WHERE dex LIKE :word AND language = :language ORDER BY id ASC",
+                    [
+                        ':word' => '%' . $word . '%',
+                        ':language' => $language
+                    ]
+                );
+            }
 
-                // 結果を統合
-                $integratedResult = $result;
-                if ($localPokedexInfo) {
-                    // local_pokedexの情報を追加
-                    $integratedResult['no'] = $localPokedexInfo['no'];
-                    $integratedResult['globalNo'] = $localPokedexInfo['globalNo'];
-                    $integratedResult['region'] = $localPokedexInfo['pokedex'];
-                    $integratedResult['version_info'] = $localPokedexInfo['version'];
-                    
-                    // ポケモン名を取得
-                    $pokedex_name = $db->query("SELECT * FROM pokedex_name WHERE id = :id", [
-                        ':id' => $result['id']
-                    ]);
-                    $name = [];
-                    foreach ($pokedex_name as $nameValue) {
-                        $name[$nameValue['language']] = $nameValue['name'];
+            foreach ($descResults as $result) {
+                $id = $result['id'];
+                $verID = $result['verID'] ?? '';
+                // IDとverIDの組み合わせで一意のキーを作成（複数バージョンを別々に扱う）
+                $uniqueKey = $id . '|' . $verID;
+                
+                if (!isset($resultsById[$uniqueKey])) {
+                    $resultsById[$uniqueKey] = [
+                        'id' => $id,
+                        'matched_fields' => [],
+                        'description' => $result['description'],
+                        'verID' => $verID
+                    ];
+                }
+                // 重複を避けるため、まだ追加されていない場合のみ追加
+                if (!in_array('description', $resultsById[$uniqueKey]['matched_fields'])) {
+                    $resultsById[$uniqueKey]['matched_fields'][] = 'description';
+                }
+            }
+        }
+
+        // name 検索
+        if (in_array('name', $conditions)) {
+            // pokedex_nameテーブルのidカラムで前方一致検索
+            // 言語指定が 'all' の場合は言語フィルタなし
+            if ($language === 'all') {
+                $nameResults = $db->query(
+                    "SELECT id, name FROM pokedex_name WHERE name LIKE :word_pattern ORDER BY id ASC",
+                    [
+                        ':word_pattern' => '%' . $word . '%'
+                    ]
+                );
+            } else {
+                $nameResults = $db->query(
+                    "SELECT id, name FROM pokedex_name WHERE name LIKE :word_pattern AND language = :language ORDER BY id ASC",
+                    [
+                        ':word_pattern' => '%' . $word . '%',
+                        ':language' => $language
+                    ]
+                );
+            }
+
+            foreach ($nameResults as $result) {
+                $id = $result['id'];
+                // 名前検索の場合、既存のエントリがあればそれに追加、なければ新規作成
+                $found = false;
+                foreach ($resultsById as $key => $existingResult) {
+                    if ($existingResult['id'] === $id) {
+                        $resultsById[$key]['matched_name'] = $result['name'];
+                        if (!in_array('name', $resultsById[$key]['matched_fields'])) {
+                            $resultsById[$key]['matched_fields'][] = 'name';
+                        }
+                        $found = true;
+                        break;
                     }
-                    $integratedResult['name'] = $name;
-                } else {
-                    // local_pokedexに情報がない場合はnullで埋める
-                    $integratedResult['no'] = null;
-                    $integratedResult['globalNo'] = null;
-                    $integratedResult['region'] = $result['pokedex'];
-                    $integratedResult['version_info'] = $result['version'];
-                    $integratedResult['name'] = [];
                 }
                 
-                $integratedResults[] = $integratedResult;
-            } 
-
-            echo json_encode([
-                'success' => true,
-                'data' => $integratedResults,
-                'search_word' => $word,
-                'results_count' => count($integratedResults)
-            ]);
-            exit;
-        } else {
-            throw new Exception('現在はitem=descriptionのみサポートしています');
+                // 既存のエントリがない場合は新規作成（verIDなし）
+                if (!$found) {
+                    $uniqueKey = $id . '|';
+                    $resultsById[$uniqueKey] = [
+                        'id' => $id,
+                        'matched_fields' => ['name'],
+                        'matched_name' => $result['name']
+                    ];
+                }
+            }
         }
+
+        // classification 検索
+        if (in_array('classification', $conditions)) {
+            // 言語指定が 'all' の場合は言語フィルタなし
+            if ($language === 'all') {
+                $classResults = $db->query(
+                    "SELECT id, classification FROM pokedex_classification WHERE classification LIKE :word ORDER BY id ASC",
+                    [
+                        ':word' => '%' . $word . '%'
+                    ]
+                );
+            } else {
+                $classResults = $db->query(
+                    "SELECT id, classification FROM pokedex_classification WHERE classification LIKE :word AND language = :language ORDER BY id ASC",
+                    [
+                        ':word' => '%' . $word . '%',
+                        ':language' => $language
+                    ]
+                );
+            }
+
+            foreach ($classResults as $result) {
+                $id = $result['id'];
+                // 分類検索の場合、既存のエントリがあればそれに追加、なければ新規作成
+                $found = false;
+                foreach ($resultsById as $key => $existingResult) {
+                    if ($existingResult['id'] === $id) {
+                        $resultsById[$key]['matched_classification'] = $result['classification'];
+                        if (!in_array('classification', $resultsById[$key]['matched_fields'])) {
+                            $resultsById[$key]['matched_fields'][] = 'classification';
+                        }
+                        $found = true;
+                        break;
+                    }
+                }
+                
+                // 既存のエントリがない場合は新規作成（verIDなし）
+                if (!$found) {
+                    $uniqueKey = $id . '|';
+                    $resultsById[$uniqueKey] = [
+                        'id' => $id,
+                        'matched_fields' => ['classification'],
+                        'matched_classification' => $result['classification']
+                    ];
+                }
+            }
+        }
+
+        // 各ポケモンの詳細情報を取得
+        $integratedResults = [];
+        foreach ($resultsById as $uniqueKey => $baseResult) {
+            // 実際のIDを取得（キーから抽出）
+            $id = $baseResult['id'];
+            $verID = $baseResult['verID'] ?? null;
+            
+            // verIDをバージョン名に変換
+            $verName = null;
+            if ($verID) {
+                global $versionMapping;
+                $verName = convertVerIdToVersion($verID, $versionMapping);
+            }
+            
+            // 最初にlocal_pokedexから情報を取得
+            $localInfo = null;
+            $fullId = $id;
+            
+            if ($verName) {
+                // バージョン名がある場合は、それに対応するlocal_pokedexを検索
+                $localInfo = $db->querySingle(
+                    "SELECT id as fullId, pokedex, no, version FROM local_pokedex WHERE id LIKE :id_pattern AND version = :version LIMIT 1",
+                    [':id_pattern' => $id . '%', ':version' => $verName]
+                );
+                
+                // local_pokedexから取得した完全なIDを使用
+                if ($localInfo) {
+                    $fullId = $localInfo['fullId'];
+                }
+            }
+            
+            // verIDがないか、該当するlocal_pokedexが見つからない場合は、
+            // 基本IDから完全なIDを取得（地方図鑑情報は使わずグローバル扱い）
+            if (!$localInfo) {
+                // pokedexテーブルから完全なIDを取得
+                $pokedexRow = $db->querySingle("SELECT id FROM pokedex WHERE id LIKE :id_pattern LIMIT 1", [':id_pattern' => $id . '%']);
+                if ($pokedexRow) {
+                    $fullId = $pokedexRow['id'];
+                }
+            }
+            
+            // ポケモン名を取得（完全なIDで検索）
+            $pokedex_name = $db->query("SELECT * FROM pokedex_name WHERE id = :fullId", [':fullId' => $fullId]);
+            $name = [];
+            $imageId = null;
+            foreach ($pokedex_name as $nameValue) {
+                $name[$nameValue['language']] = $nameValue['name'];
+                // 画像用のIDを取得（pokedex_nameのidを使用）
+                if ($imageId === null && isset($nameValue['id'])) {
+                    $imageId = $nameValue['id'];
+                }
+            }
+            $baseResult['name'] = $name;
+            $baseResult['imageId'] = $imageId; // pokedex_nameのIDをそのまま使用
+
+            // globalNo を取得（完全なIDで検索）
+            $pokedex = $db->querySingle("SELECT globalNo FROM pokedex WHERE id = :fullId LIMIT 1", [':fullId' => $fullId]);
+            $baseResult['globalNo'] = $pokedex ? $pokedex['globalNo'] : null;
+            
+            // local_pokedexの情報を設定
+            if ($localInfo) {
+                $baseResult['pokedex'] = $localInfo['pokedex'];
+                $baseResult['no'] = $localInfo['no'] ?? $baseResult['globalNo'];
+                
+                // versionをバージョン名に変換
+                global $versionMapping;
+                $baseResult['ver'] = convertVerIdToVersion($localInfo['version'], $versionMapping);
+            } else {
+                // verIDがないか、該当するlocal_pokedexがない場合はglobal扱い
+                $baseResult['pokedex'] = 'global';
+                $baseResult['no'] = $baseResult['globalNo'];
+                $baseResult['ver'] = null;
+            }
+
+            // description がまだない場合は取得（あいまい検索）
+            if (!isset($baseResult['description'])) {
+                $desc = $db->querySingle(
+                    "SELECT dex FROM pokedex_description WHERE id LIKE :id_pattern AND language = :language LIMIT 1",
+                    [':id_pattern' => $id . '%', ':language' => $language]
+                );
+                $baseResult['description'] = $desc ? $desc['dex'] : '';
+            }
+
+            $baseResult['language'] = $language;
+            $integratedResults[] = $baseResult;
+        }
+
+        echo json_encode([
+            'success' => true,
+            'data' => $integratedResults,
+            'search_word' => $word,
+            'search_items' => $searchItems,
+            'language' => $language,
+            'results_count' => count($integratedResults)
+        ]);
+        exit;
     }
 
  
