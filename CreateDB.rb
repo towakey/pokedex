@@ -129,6 +129,30 @@ if __FILE__ == $0
       )
     SQL
 
+    # table:pokedex_evol
+    # Drop tables
+    db.execute("DROP TABLE IF EXISTS pokedex_evol")
+    # Create tables
+    db.execute(<<-SQL)
+      CREATE TABLE IF NOT EXISTS pokedex_evol (
+        id TEXT,
+        globalNo TEXT,
+        evol TEXT
+      )
+    SQL
+
+    # table:pokedex_changeform
+    # Drop tables
+    db.execute("DROP TABLE IF EXISTS pokedex_changeform")
+    # Create tables
+    db.execute(<<-SQL)
+      CREATE TABLE IF NOT EXISTS pokedex_changeform (
+        id TEXT,
+        globalNo TEXT,
+        changeform TEXT
+      )
+    SQL
+
     # JSONパースエラー時にファイル内容を表示しないようにする
     begin
       content = File.read("./pokedex/pokedex.json")
@@ -216,6 +240,64 @@ if __FILE__ == $0
                 form['mega_evolution'],
                 form['gigantamax'],
                 egg_group
+              ]
+            )
+          end
+        end
+      end
+    end
+
+    puts "load evolve_changeform.json"
+    begin
+      content = File.read("./pokedex/evolve_changeform.json")
+      evolve_json = JSON.parse(content)
+    rescue Errno::ENOENT => e
+      STDERR.puts "evolve_changeform.json が見つかりません: #{e.message}"
+      exit 1
+    rescue JSON::ParserError => e
+      STDERR.puts "evolve_changeform.json のパースに失敗しました: #{e.message}"
+      exit 1
+    end
+
+    if evolve_json['evolve']
+      evolve_json['evolve'].each do |global_no, forms|
+        next unless forms
+
+        forms.each do |form_id, evol_list|
+          next unless evol_list
+
+          evol_list.each do |evol_id|
+            next if evol_id.nil? || evol_id == ""
+
+            db.execute(
+              "INSERT INTO pokedex_evol (id, globalNo, evol) VALUES (?, ?, ?)",
+              [
+                form_id,
+                global_no,
+                evol_id
+              ]
+            )
+          end
+        end
+      end
+    end
+
+    if evolve_json['changeform']
+      evolve_json['changeform'].each do |global_no, forms|
+        next unless forms
+
+        forms.each do |form_id, changeforms|
+          next unless changeforms
+
+          changeforms.each do |changeform_id|
+            next if changeform_id.nil? || changeform_id == ""
+
+            db.execute(
+              "INSERT INTO pokedex_changeform (id, globalNo, changeform) VALUES (?, ?, ?)",
+              [
+                form_id,
+                global_no,
+                changeform_id
               ]
             )
           end
