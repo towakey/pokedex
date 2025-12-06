@@ -29,7 +29,7 @@ function loadEnv(string $path): array {
 }
 
 // プロジェクトルートの.envを読み込む
-$envPath = dirname(__DIR__) . '/.env';
+$envPath = dirname(dirname(dirname(__DIR__))) . '/.env';
 $env = loadEnv($envPath);
 
 // 認証情報
