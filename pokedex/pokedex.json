@@ -1,5 +1,5 @@
 {
-  "update": "20250913",
+  "update": "20260101",
   "pokedex": {
     "0001": {
       "0001_00000000_0_000_0": {
@@ -3373,6 +3373,30 @@
           "kor": "픽시",
           "chs": "皮可西",
           "cht": "皮可西"
+        }
+      },
+      "0036_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガピクシー",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
         }
       }
     },
@@ -9415,6 +9439,30 @@
           "chs": "宝石海星",
           "cht": "寶石海星"
         }
+      },
+      "0121_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガスターミー",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
+        }
       }
     },
     "0122": {
@@ -11559,6 +11607,30 @@
           "chs": "快龙",
           "cht": "快龍"
         }
+      },
+      "0149_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガカイリュー",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
+        }
       }
     },
     "0150": {
@@ -11974,6 +12046,30 @@
           "chs": "大竺葵",
           "cht": "大竺葵"
         }
+      },
+      "0154_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガメガニウム",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
+        }
       }
     },
     "0155": {
@@ -12296,6 +12392,30 @@
           "kor": "장크로다일",
           "chs": "大力鳄",
           "cht": "大力鱷"
+        }
+      },
+      "0160_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガオーダイル",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
         }
       }
     },
@@ -17988,6 +18108,30 @@
           "kor": "무장조",
           "chs": "盔甲鸟",
           "cht": "盔甲鳥"
+        }
+      },
+      "0227_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガエアームド",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
         }
       }
     },
@@ -34007,6 +34151,30 @@
           "chs": "雪妖女",
           "cht": "雪妖女"
         }
+      },
+      "0478_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガユキメノコ",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
+        }
       }
     },
     "0479": {
@@ -36555,6 +36723,30 @@
           "chs": "炎武王",
           "cht": "炎武王"
         }
+      },
+      "0500_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガエンブオー",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
+        }
       }
     },
     "0501": {
@@ -38025,6 +38217,30 @@
           "chs": "龙头地鼠",
           "cht": "龍頭地鼠"
         }
+      },
+      "0530_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガドリュウズ",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
+        }
       }
     },
     "0531": {
@@ -38758,6 +38974,30 @@
           "kor": "펜드라",
           "chs": "蜈蚣王",
           "cht": "蜈蚣王"
+        }
+      },
+      "0545_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガペンドラー",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
         }
       }
     },
@@ -39806,6 +40046,30 @@
           "kor": "곤율거니",
           "chs": "头巾混混",
           "cht": "頭巾混混"
+        }
+      },
+      "0560_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガズルズキン",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
         }
       }
     },
@@ -42371,6 +42635,30 @@
           "chs": "麻麻鳗鱼王",
           "cht": "麻麻鰻魚王"
         }
+      },
+      "0604_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガシビルドン",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
+        }
       }
     },
     "0605": {
@@ -42600,6 +42888,30 @@
           "kor": "샹델라",
           "chs": "水晶灯火灵",
           "cht": "水晶燈火靈"
+        }
+      },
+      "0609_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガシャンデラ",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
         }
       }
     },
@@ -45271,6 +45583,30 @@
           "chs": "布里卡隆",
           "cht": "布里卡隆"
         }
+      },
+      "0652_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガブリガロン",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
+        }
       }
     },
     "0653": {
@@ -45408,6 +45744,30 @@
           "kor": "마폭시",
           "chs": "妖火红狐",
           "cht": "妖火紅狐"
+        }
+      },
+      "0655_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガマフォクシー",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
         }
       }
     },
@@ -45591,6 +45951,30 @@
           "kor": "개굴닌자",
           "chs": "甲贺忍蛙",
           "cht": "甲賀忍蛙"
+        }
+      },
+      "0658_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガゲッコウガ",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
         }
       }
     },
@@ -46932,6 +47316,30 @@
           "chs": "火炎狮",
           "cht": "火炎獅"
         }
+      },
+      "0668_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガカエンジシ",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
+        }
       }
     },
     "0669": {
@@ -47420,6 +47828,30 @@
           "kor": "플라엣테",
           "chs": "花叶蒂",
           "cht": "花葉蒂"
+        }
+      },
+      "0670_00000105_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガフラエッテ",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
         }
       }
     },
@@ -49003,6 +49435,30 @@
           "chs": "龟足巨铠",
           "cht": "龜足巨鎧"
         }
+      },
+      "0689_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガガメノデス",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
+        }
       }
     },
     "0690": {
@@ -49096,6 +49552,30 @@
           "kor": "드래캄",
           "chs": "毒藻龙",
           "cht": "毒藻龍"
+        }
+      },
+      "0691_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガドラミドロ",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
         }
       }
     },
@@ -51202,6 +51682,30 @@
           "kor": "지가르데",
           "chs": "基格尔德",
           "cht": "基格爾德"
+        }
+      },
+      "0718_00000102_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガジガルデ",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
         }
       }
     },
@@ -55632,6 +56136,30 @@
           "kor": "할비롱",
           "chs": "老翁龙",
           "cht": "老翁龍"
+        }
+      },
+      "0780_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガジジーロン",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
         }
       }
     },
@@ -63825,6 +64353,30 @@
           "kor": "대여르",
           "chs": "列阵兵",
           "cht": "列陣兵"
+        }
+      },
+      "0870_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+        },
+        "classification": {
+        },
+        "egg": [
+
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "メガタイレーツ",
+          "eng": null,
+          "ger": null,
+          "fra": null,
+          "kor": null,
+          "chs": null,
+          "cht": null
         }
       }
     },
