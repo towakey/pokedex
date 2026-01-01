@@ -3381,7 +3381,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガピクシー"
+          "jpn": "メガピクシー",
+          "eng": "Mega Clefable",
+          "fra": "Méga-Mélodelfe",
+          "ita": "MegaClefable",
+          "ger": "Mega-Pixi",
+          "kor": "메가픽시",
+          "chs": "超级皮可西",
+          "cht": "超級皮可西"
         },
         "classification": {
         },
@@ -9447,7 +9454,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガスターミー"
+          "jpn": "メガスターミー",
+          "eng": "Mega Starmie",
+          "fra": "Méga-Staross",
+          "ita": "MegaStarmie",
+          "ger": "Mega-Starmie",
+          "kor": "메가아쿠스타",
+          "chs": "超级宝石海星",
+          "cht": "超級寶石海星"
         },
         "classification": {
         },
@@ -11616,7 +11630,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガカイリュー"
+          "jpn": "メガカイリュー",
+          "eng": "Mega Dragonite",
+          "fra": "Méga-Dracolosse",
+          "ita": "MegaDragonite",
+          "ger": "Mega-Dragoran",
+          "kor": "메가망나뇽",
+          "chs": "超级快龙",
+          "cht": "超級快龍"
         },
         "classification": {
         },
@@ -12056,7 +12077,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガメガニウム"
+          "jpn": "メガメガニウム",
+          "eng": "Mega Meganium",
+          "fra": "Méga-Méganium",
+          "ita": "MegaMeganium",
+          "ger": "Mega-Meganie",
+          "kor": "메가메가니움",
+          "chs": "超级大竺葵",
+          "cht": "超級大竺葵"
         },
         "classification": {
         },
@@ -12404,7 +12432,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガオーダイル"
+          "jpn": "メガオーダイル",
+          "eng": "Mega Feraligatr",
+          "fra": "Méga-Aligatueur",
+          "ita": "MegaFeraligatr",
+          "ger": "Mega-Impergator",
+          "kor": "메가장크로다일",
+          "chs": "超级大力鳄",
+          "cht": "超級大力鱷"
         },
         "classification": {
         },
@@ -18121,7 +18156,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガエアームド"
+          "jpn": "メガエアームド",
+          "eng": "Mega Skarmory",
+          "fra": "Méga-Airmure",
+          "ita": "MegaSkarmory",
+          "ger": "Mega-Panzaeron",
+          "kor": "메가무장조",
+          "chs": "超级盔甲鸟",
+          "cht": "超級盔甲鳥"
         },
         "classification": {
         },
@@ -34164,7 +34206,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガユキメノコ"
+          "jpn": "メガユキメノコ",
+          "eng": "Mega Froslass",
+          "fra": "Méga-Momartik",
+          "ita": "MegaFroslass",
+          "ger": "Mega-Frosdedje",
+          "kor": "메가눈여아",
+          "chs": "超级雪妖女",
+          "cht": "超級雪妖女"
         },
         "classification": {
         },
@@ -36737,7 +36786,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガエンブオー"
+          "jpn": "メガエンブオー",
+          "eng": "Mega Emboar",
+          "fra": "Méga-Roitiflam",
+          "ita": "MegaEmboar",
+          "ger": "Mega-Flambirex",
+          "kor": "메가염무왕",
+          "chs": "超级炎武王",
+          "cht": "超級炎武王"
         },
         "classification": {
         },
@@ -38232,7 +38288,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガドリュウズ"
+          "jpn": "メガドリュウズ",
+          "eng": "Mega Excadrill",
+          "fra": "Méga-Minotaupe",
+          "ita": "MegaExcadrill",
+          "ger": "Mega-Stalobor",
+          "kor": "메가몰드류",
+          "chs": "超级龙头地鼠",
+          "cht": "超級龍頭地鼠"
         },
         "classification": {
         },
@@ -38991,7 +39054,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガペンドラー"
+          "jpn": "メガペンドラー",
+          "eng": "Mega Scolipede",
+          "fra": "Méga-Brutapode",
+          "ita": "MegaScolipede",
+          "ger": "Mega-Cerapendra",
+          "kor": "메가펜드라",
+          "chs": "超级蜈蚣王",
+          "cht": "超級蜈蚣王"
         },
         "classification": {
         },
@@ -40064,7 +40134,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガズルズキン"
+          "jpn": "メガズルズキン",
+          "eng": "Mega Scrafty",
+          "fra": "Méga-Baggaïd",
+          "ita": "MegaScrafty",
+          "ger": "Mega-Irokex",
+          "kor": "메가곤율거니",
+          "chs": "超级头巾混混",
+          "cht": "超級頭巾混混"
         },
         "classification": {
         },
@@ -42653,7 +42730,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガシビルドン"
+          "jpn": "メガシビルドン",
+          "eng": "Mega Eelektross",
+          "fra": "Méga-Ohmassacre",
+          "ita": "MegaEelektross",
+          "ger": "Mega-Zapplarang",
+          "kor": "메가저리더프",
+          "chs": "超级麻麻鳗鱼王",
+          "cht": "超級麻麻鰻魚王"
         },
         "classification": {
         },
@@ -42908,7 +42992,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガシャンデラ"
+          "jpn": "メガシャンデラ",
+          "eng": "Mega Chandelure",
+          "fra": "Méga-Lugulabre",
+          "ita": "MegaChandelure",
+          "ger": "Mega-Skelabra",
+          "kor": "메가샹델라",
+          "chs": "超级水晶灯火灵",
+          "cht": "超級水晶燈火靈"
         },
         "classification": {
         },
@@ -45603,7 +45694,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガブリガロン"
+          "jpn": "メガブリガロン",
+          "eng": "Mega Chesnaught",
+          "fra": "Méga-Blindépique",
+          "ita": "MegaChesnaught",
+          "ger": "Mega-Brigaron",
+          "kor": "메가브리가론",
+          "chs": "超级布里卡隆",
+          "cht": "超級布里卡隆"
         },
         "classification": {
         },
@@ -45766,7 +45864,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガマフォクシー"
+          "jpn": "メガマフォクシー",
+          "eng": "Mega Delphox",
+          "fra": "Méga-Goupelin",
+          "ita": "MegaDelphox",
+          "ger": "Mega-Fennexis",
+          "kor": "메가마폭시",
+          "chs": "超级妖火红狐",
+          "cht": "超級妖火紅狐"
         },
         "classification": {
         },
@@ -45974,7 +46079,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガゲッコウガ"
+          "jpn": "メガゲッコウガ",
+          "eng": "Mega Greninja",
+          "fra": "Méga-Amphinobi",
+          "ita": "MegaGreninja",
+          "ger": "Mega-Quajutsu",
+          "kor": "메가개굴닌자",
+          "chs": "超级甲贺忍蛙",
+          "cht": "超級甲賀忍蛙"
         },
         "classification": {
         },
@@ -47339,7 +47451,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガカエンジシ"
+          "jpn": "メガカエンジシ",
+          "eng": "Mega Pyroar",
+          "fra": "Méga-Némélios",
+          "ita": "MegaPyroar",
+          "ger": "Mega-Pyroleo",
+          "kor": "메가화염레오",
+          "chs": "超级火炎狮",
+          "cht": "超級火炎獅"
         },
         "classification": {
         },
@@ -47853,7 +47972,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガフラエッテ"
+          "jpn": "メガフラエッテ",
+          "eng": "Mega Floette",
+          "fra": "Méga-Floette",
+          "ita": "MegaFloette",
+          "ger": "Mega-Floette",
+          "kor": "메가플라엣테",
+          "chs": "超级花叶蒂",
+          "cht": "超級花葉蒂"
         },
         "classification": {
         },
@@ -49460,7 +49586,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガガメノデス"
+          "jpn": "メガガメノデス",
+          "eng": "Mega Barbaracle",
+          "fra": "Méga-Golgopathe",
+          "ita": "MegaBarbaracle",
+          "ger": "Mega-Thanathora",
+          "kor": "메가거북손데스",
+          "chs": "超级龟足巨铠",
+          "cht": "超級龜足巨鎧"
         },
         "classification": {
         },
@@ -49579,7 +49712,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガドラミドロ"
+          "jpn": "メガドラミドロ",
+          "eng": "Mega Dragalge",
+          "fra": "Méga-Kravarech",
+          "ita": "MegaDragalge",
+          "ger": "Mega-Tandrak",
+          "kor": "메가드래캄",
+          "chs": "超级毒藻龙",
+          "cht": "超級毒藻龍"
         },
         "classification": {
         },
@@ -51710,7 +51850,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガジガルデ"
+          "jpn": "メガジガルデ",
+          "eng": "Mega Zygarde",
+          "fra": "Méga-Zygarde",
+          "ita": "MegaZygarde",
+          "ger": "Mega-Zygarde",
+          "kor": "메가지가르데",
+          "chs": "超级基格尔德",
+          "cht": "超級基格爾德"
         },
         "classification": {
         },
@@ -56165,7 +56312,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガジジーロン"
+          "jpn": "メガジジーロン",
+          "eng": "Mega Drampa",
+          "fra": "Méga-Draïeul",
+          "ita": "MegaDrampa",
+          "ger": "Mega-Sen-Long",
+          "kor": "메가할비롱",
+          "chs": "超级老翁龙",
+          "cht": "超級老翁龍"
         },
         "classification": {
         },
@@ -64383,7 +64537,14 @@
         "mega_evolution": null,
         "gigantamax": null,
         "forms": {
-          "jpn": "メガタイレーツ"
+          "jpn": "メガタイレーツ",
+          "eng": "Mega Falinks",
+          "fra": "Méga-Hexadron",
+          "ita": "MegaFalinks",
+          "ger": "Mega-Legios",
+          "kor": "메가대여르",
+          "chs": "超级列阵兵",
+          "cht": "超級列陣兵"
         },
         "classification": {
         },
