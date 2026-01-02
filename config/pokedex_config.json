@@ -101,6 +101,12 @@
         "scarlet": {"title": "ポケットモンスター スカーレット", "shortTitle": "スカーレット", "description": "発売日：2022年11月18日"},
         "violet": {"title": "ポケットモンスター バイオレット", "shortTitle": "バイオレット", "description": "発売日：2022年11月18日"}
       }
+    },
+    "legendsza": {
+      "pokedex": [{"jpn": "ミアレ図鑑"}],
+      "version": {
+        "legendsza": {"title": "ポケモン Legends ZA", "shortTitle": "ZA", "description": "発売日：2025年10月16日"}
+      }
     }
   },
   "version_mapping": {

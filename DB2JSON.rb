@@ -4,28 +4,30 @@
 require 'sqlite3'
 require 'json'
 require 'fileutils'
+require 'set'
 
 # 処理対象のバージョンリスト
 # 形式: [メインバージョン, 参照元バージョン(省略可)]
 TARGET_VERSIONS = [
-  ['Red_Green_Blue_Pikachu'],
-  ['Gold_Silver_Crystal'],
-  ['Ruby_Sapphire_Emerald'],
-  ['Firered_Leafgreen'],
-  ['Diamond_Pearl_Platinum'],
-  ['HeartGold_SoulSilver'],
-  ['Black_White'],
-  ['Black2_White2'],
-  ['X_Y'],
+  # ['Red_Green_Blue_Pikachu'],
+  # ['Gold_Silver_Crystal'],
+  # ['Ruby_Sapphire_Emerald'],
+  # ['Firered_Leafgreen'],
+  # ['Diamond_Pearl_Platinum'],
+  # ['HeartGold_SoulSilver'],
+  # ['Black_White'],
+  # ['Black2_White2'],
+  # ['X_Y'],
   # ['OmegaRuby_AlphaSapphire'],
-  ['Sun_Moon'],
-  ['UltraSun_UltraMoon'],
+  # ['Sun_Moon'],
+  # ['UltraSun_UltraMoon'],
   # ['Let'sGoPikachu'],
   # ['Let'sGoEevee'],
-  ['Sword_Shield'],
-  ['LegendsArceus'],
+  # ['Sword_Shield'],
+  # ['LegendsArceus'],
   # ['BrilliantDiamond_ShiningPearl'],
-  ['Scarlet_Violet'],
+  # ['Scarlet_Violet'],
+  ['LegendsZA'],
   # ['PokémonGo'],
   # ['PokémonPinball'],
   # ['PokémonRanger'],
@@ -92,24 +94,62 @@ TARGET_VERSIONS.each do |version_config|
   # 例: 'firered_leafgreen' で種族値などを 'ruby_sapphire_emerald' から取る
   fallback_by_db = {
     # type: {
-    #   'firered_leafgreen' => 'ruby_sapphire_emerald'
+    #   'firered_leafgreen' => ['ruby_sapphire_emerald', 'emerald']
     # },
     # ability: {
-    #   'firered_leafgreen' => 'ruby_sapphire_emerald'
+    #   'firered_leafgreen' => ['ruby_sapphire_emerald', 'emerald']
     # },
     # status: {
-    #   'firered_leafgreen' => 'ruby_sapphire_emerald'
+    #   'firered_leafgreen' => ['ruby_sapphire_emerald', 'emerald']
     # },
     # description: {
-    #   'firered_leafgreen' => 'ruby_sapphire_emerald'
+    #   'firered_leafgreen' => ['ruby_sapphire_emerald', 'emerald']
+    # }
+
+    type: {
+      'legendsza' => ['scarlet_violet', 'sword_shield', 'ultrasun_ultramoon', 'x_y']
+    },
+    # ability: {
+    #   'firered_leafgreen' => ['ruby_sapphire_emerald', 'emerald']
+    # },
+    status: {
+      'legendsza' => ['scarlet_violet', 'sword_shield', 'ultrasun_ultramoon', 'x_y']
+    },
+    # description: {
+    #   'firered_leafgreen' => ['ruby_sapphire_emerald', 'emerald']
     # }
   }
 
   # 汎用ヘルパー: 優先バージョン順で最初にヒットした行を返す
   fetch_row_with_fallback = lambda do |db, table_key, base_key, sql, specific_versions = nil|
-    versions = specific_versions || [fallback_by_db.dig(table_key, version), version].compact.uniq
+    # specific_versionsが指定されている場合はそれを使用し、
+    # そうでなければfallback_by_dbから取得した配列を使用
+    if specific_versions
+      versions = specific_versions
+    else
+      fallback_versions = fallback_by_db.dig(table_key, version)
+      if fallback_versions.is_a?(Array)
+        versions = fallback_versions + [version]
+      else
+        versions = [fallback_versions, version].compact
+      end
+    end
+    
+    # デバッグ情報
+    if table_key == :status
+      puts "Status fallback: #{table_key}, versions: #{versions}"
+      puts "  base_key: #{base_key}"
+      puts "  SQL: #{sql.strip}"
+    end
     versions.each do |v|
+      if table_key == :status
+        puts "  Trying version: #{v}"
+        puts "  Params: #{base_key + [v]}"
+      end
       row = db.get_first_row(sql, base_key + [v])
+      if table_key == :status && row
+        puts "  Found status in version: #{v}, hp: #{row['hp']}"
+      end
       return row if row
     end
     nil
@@ -154,30 +194,33 @@ TARGET_VERSIONS.each do |version_config|
       SELECT id, no, globalNo
         FROM local_pokedex
        WHERE version = ? COLLATE NOCASE AND pokedex = ?
-    GROUP BY no, globalNo
-    ORDER BY CAST(no AS INTEGER)
+    ORDER BY CAST(no AS INTEGER), id
     SQL
 
     # noをキーとした連想配列を作成
     json_root['pokedex'][pokedex_name] = {}
     
-    pokemons.each do |row|
-      no        = row['no']
-      global_no = row['globalNo']
+    # noでグループ化して処理
+    pokemons.group_by { |p| p['no'] }.each do |no, pokemon_list|
+      # 同じnoのポケモンリストからフォーム情報を取得
+      forms = []
+      pokemon_list.each do |pokemon|
+        # 各ポケモンIDに対してフォーム情報を取得
+        form_data = db.execute(<<~SQL, [version, pokedex_name, pokemon['globalNo'], pokemon['id']])
+          SELECT *
+            FROM local_pokedex
+           WHERE version = ? COLLATE NOCASE
+             AND pokedex = ?
+             AND globalNo = ?
+             AND id = ?
+        SQL
+        forms.concat(form_data)
+      end
+      
+      # 重複を除去
+      forms = forms.uniq { |f| [f['id'], f['form'], f['region'], f['mega_evolution'], f['gigantamax']] }
 
-      # 形態ごとの status をまとめる
-      forms = db.execute(<<~SQL, [version, pokedex_name, global_no])
-        SELECT *
-          FROM local_pokedex
-         WHERE version = ? COLLATE NOCASE
-           AND pokedex = ?
-           AND globalNo = ?
-      SQL
-      # SQLite3::Database#execute が返す配列は凍結されている場合があるため、
-      # 非破壊版 uniq で新しい配列を受け取るように修正
-      forms = forms.uniq { |f| [f['form'], f['region'], f['mega_evolution'], f['gigantamax']] }
-
-      # noをキーとした連想配列を初期化（存在しない場合のみ）
+      # noをキーとしたハッシュを初期化（存在しない場合のみ）
       json_root['pokedex'][pokedex_name][no] ||= {}
 
       forms.each_with_index do |f, idx|
@@ -191,10 +234,10 @@ TARGET_VERSIONS.each do |version_config|
              SELECT type1, type2
                FROM local_pokedex_type
               WHERE globalNo    = ?
-                AND form        = ?
-                AND region      = ?
-                AND mega_evolution = ?
-                AND gigantamax  = ?
+                AND (form = ? OR form IS NULL OR form = '')
+                AND (region = ? OR region IS NULL OR region = '')
+                AND (mega_evolution = ? OR mega_evolution IS NULL OR mega_evolution = '')
+                AND (gigantamax = ? OR gigantamax IS NULL OR gigantamax = '')
                 AND version     = ? COLLATE NOCASE
            SQL
 
@@ -202,10 +245,10 @@ TARGET_VERSIONS.each do |version_config|
              SELECT ability1, ability2, dream_ability
                FROM local_pokedex_ability
               WHERE globalNo    = ?
-                AND form        = ?
-                AND region      = ?
-                AND mega_evolution = ?
-                AND gigantamax  = ?
+                AND (form = ? OR form IS NULL OR form = '')
+                AND (region = ? OR region IS NULL OR region = '')
+                AND (mega_evolution = ? OR mega_evolution IS NULL OR mega_evolution = '')
+                AND (gigantamax = ? OR gigantamax IS NULL OR gigantamax = '')
                 AND version     = ? COLLATE NOCASE
            SQL
 
@@ -214,10 +257,10 @@ TARGET_VERSIONS.each do |version_config|
                     special_defense, speed
                FROM local_pokedex_status
               WHERE globalNo    = ?
-                AND form        = ?
-                AND region      = ?
-                AND mega_evolution = ?
-                AND gigantamax  = ?
+                AND (form = ? OR form IS NULL OR form = '')
+                AND (region = ? OR region IS NULL OR region = '')
+                AND (mega_evolution = ? OR mega_evolution IS NULL OR mega_evolution = '')
+                AND (gigantamax = ? OR gigantamax IS NULL OR gigantamax = '')
                 AND version     = ? COLLATE NOCASE
            SQL
 
@@ -246,9 +289,9 @@ TARGET_VERSIONS.each do |version_config|
           descriptions[ver] = desc_row ? desc_row['description'] : ''
         end
 
-        # idをキーとして各フォームデータを格納
-        form_id = f['id']
-        json_root['pokedex'][pokedex_name][no][form_id] = {
+        # フォームデータをハッシュとして作成
+        form_data = {
+          'id'            => f['id'],
           'form'          => f['form'],
           'region'        => f['region'],
           'mega_evolution'=> f['mega_evolution'],
@@ -266,6 +309,9 @@ TARGET_VERSIONS.each do |version_config|
           'dream_ability' => ability&.[]('dream_ability') || '',
           'description'   => descriptions.transform_values { |v| v.to_s }
         }
+        
+        # IDをキーとしてハッシュ形式でフォームデータを格納
+        json_root['pokedex'][pokedex_name][no][f['id']] = form_data
       end
     end
   end
