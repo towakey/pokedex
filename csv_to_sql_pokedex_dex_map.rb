@@ -2,7 +2,7 @@ require 'csv'
 require 'sqlite3'
 
 # CSVファイルのパス
-csv_file_path = 'csv/dex_mapping_250911.csv'
+csv_file_path = 'csv/map/map.csv'
 
 # 出力SQLファイルのパス
 sql_file_path = 'insert_pokedex_dex_map.sql'
