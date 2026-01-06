@@ -542,7 +542,8 @@ try {
         'hisui' => ['ヒスイ図鑑', 'legendsarceus', ['legendsarceus']],
         'paldea' => ['パルデア図鑑', 'scarlet_violet', ['scarlet', 'violet']],
         'kitakami' => ['キタカミ図鑑', 'scarlet_violet', ['scarlet', 'violet']],
-        'blueberry' => ['ブルーベリー図鑑', 'scarlet_violet', ['scarlet', 'violet']]
+        'blueberry' => ['ブルーベリー図鑑', 'scarlet_violet', ['scarlet', 'violet']],
+        'lumiose' => ['ミアレ図鑑', 'legendsza', ['legendsza']],
     ];
 
     // 無効なリージョンが指定された場合

@@ -17,12 +17,35 @@ if __FILE__ == $0
   # globalNo -> id -> verID -> 言語キー構造のハッシュ
   pokemon_data = {}
   
-  # pokedex_mapからすべてのデータを取得
+  # pokedex_dex_map、pokedex、pokedex_descriptionを結合してデータを取得
+  # dm.verIDはカンマ区切りのverIDリスト（例: "01_01,03_10,08_00"）
+  # pd.idは正しい形式のID（例: "0001_00000000_0_000_0"）
+  # d.verIDは個別のverID（例: "01_01"）
   map_data_sql = <<-SQL
-    SELECT globalNo, id, verID, language, dex
-    FROM pokedex_map
-    WHERE language IN (#{language_keys.map { |lang| "'#{lang}'" }.join(', ')})
-    ORDER BY CAST(globalNo AS INTEGER) ASC, id ASC, verID ASC, language ASC
+    SELECT DISTINCT
+      dm.globalNo, 
+      pd.id, 
+      dm.verID, 
+      d.language, 
+      d.dex
+    FROM pokedex_dex_map dm
+    INNER JOIN pokedex pd ON (
+      dm.globalNo = pd.globalNo
+      AND dm.id = REPLACE(pd.id, '_0_000_0', '')  -- pokedexのIDから_0_000_0を削除
+    )
+    INNER JOIN pokedex_description d ON (
+      dm.globalNo = d.globalNo 
+      AND dm.id = d.id 
+      AND (
+        -- dm.verIDにd.verIDが含まれている場合（カンマ区切り対応）
+        dm.verID = d.verID
+        OR dm.verID LIKE d.verID || ',%'
+        OR dm.verID LIKE '%,' || d.verID
+        OR dm.verID LIKE '%,' || d.verID || ',%'
+      )
+    )
+    WHERE d.language IN (#{language_keys.map { |lang| "'#{lang}'" }.join(', ')})
+    ORDER BY CAST(dm.globalNo AS INTEGER) ASC, pd.id ASC, dm.verID ASC, d.language ASC
   SQL
   
   map_data = db.execute(map_data_sql)
