@@ -39,6 +39,76 @@ function convertVerIdToVersion($verID, $versionMapping) {
 }
 
 /**
+ * pokedex_config.jsonからリージョン設定を生成する
+ * 
+ * @param array $pokedexConfig 設定ファイルの配列
+ * @return array validRegions形式の配列
+ */
+function buildValidRegions($pokedexConfig) {
+    // 既定のglobalエントリ
+    $regions = [
+        'global' => ['全国図鑑', 'global', ['global']],
+    ];
+
+    if (!isset($pokedexConfig['local_pokedex_mapping']) || !is_array($pokedexConfig['local_pokedex_mapping'])) {
+        return $regions;
+    }
+
+    // regionキーと設定上のversionグループ、およびpokedex配列のインデックス対応表
+    $regionConfigMapping = [
+        'kanto'          => ['red_green_blue_pikachu', 0],
+        'kanto_frlg'     => ['firered_leafgreen', 0],
+        'johto'          => ['gold_silver_crystal', 0],
+        'hoenn'          => ['ruby_sapphire_emerald', 0],
+        'sinnoh'         => ['diamond_pearl_platinum', 0],
+        'johto_hgss'     => ['heartgold_soulsilver', 0],
+        'unova_bw'       => ['black_white', 0],
+        'unova_b2w2'     => ['black2_white2', 0],
+        'central_kalos'  => ['x_y', 0],
+        'coast_kalos'    => ['x_y', 1],
+        'mountain_kalos' => ['x_y', 2],
+        'alola_sm'       => ['sun_moon', 0],
+        'alola_usum'     => ['ultrasun_ultramoon', 0],
+        'galar'          => ['sword_shield', 0],
+        'crown_tundra'   => ['sword_shield', 1],
+        'isle_of_armor'  => ['sword_shield', 2],
+        'hisui'          => ['legendsarceus', 0],
+        'paldea'         => ['scarlet_violet', 0],
+        'kitakami'       => ['scarlet_violet', 1],
+        'blueberry'      => ['scarlet_violet', 2],
+        'lumiose'        => ['legendsza', 0],
+    ];
+
+    foreach ($regionConfigMapping as $regionKey => [$configKey, $pokedexIndex]) {
+        if (!isset($pokedexConfig['local_pokedex_mapping'][$configKey])) {
+            continue;
+        }
+
+        $entry = $pokedexConfig['local_pokedex_mapping'][$configKey];
+        $pokedexNames = $entry['pokedex'] ?? [];
+
+        // 指定インデックスの図鑑名を優先、なければ最初の要素、なければconfigキーを使用
+        $displayName = $configKey;
+        if (is_array($pokedexNames)) {
+            if (isset($pokedexNames[$pokedexIndex]) && is_array($pokedexNames[$pokedexIndex]) && isset($pokedexNames[$pokedexIndex]['jpn'])) {
+                $displayName = $pokedexNames[$pokedexIndex]['jpn'];
+            } elseif (isset($pokedexNames[0]) && is_array($pokedexNames[0]) && isset($pokedexNames[0]['jpn'])) {
+                $displayName = $pokedexNames[0]['jpn'];
+            }
+        }
+
+        $versions = [];
+        if (isset($entry['version']) && is_array($entry['version'])) {
+            $versions = array_keys($entry['version']);
+        }
+
+        $regions[$regionKey] = [$displayName, $configKey, $versions];
+    }
+
+    return $regions;
+}
+
+/**
  * SQLiteデータベース操作クラス
  */
 class Database {
@@ -521,37 +591,15 @@ try {
         throw new Exception('リージョンまたはポケモンNoを指定してください');
     }
 
-    $validRegions = [
-        'global' => ['全国図鑑', 'global', ['global']],
-        'kanto' => ['カントー図鑑', 'red_green_blue_pikachu', ['red', 'green', 'blue', 'pikachu']],
-        'johto' => ['ジョウト図鑑', 'gold_silver_crystal', ['gold', 'silver', 'crystal']],
-        'hoenn' => ['ホウエン図鑑', 'ruby_sapphire_emerald', ['ruby', 'sapphire', 'emerald']],
-        'kanto_frlg' => ['カントー図鑑', 'firered_leafgreen', ['firered', 'leafgreen']],
-        'sinnoh' => ['シンオウ図鑑', 'diamond_pearl_platinum', ['diamond', 'pearl', 'platinum']],
-        'johto_hgss' => ['ジョウト図鑑', 'heartgold_soulsilver', ['heartgold', 'soulsilver']],
-        'unova_bw' => ['イッシュ図鑑', 'black_white', ['black', 'white']],
-        'unova_b2w2' => ['イッシュ図鑑', 'black2_white2', ['black2', 'white2']],
-        'central_kalos' => ['セントラルカロス図鑑', 'x_y', ['x', 'y']],
-        'coast_kalos' => ['コーストカロス図鑑', 'x_y', ['x', 'y']],
-        'mountain_kalos' => ['マウンテンカロス図鑑', 'x_y', ['x', 'y']],
-        'alola_sm' => ['アローラ図鑑', 'sun_moon', ['sun', 'moon']],
-        'alola_usum' => ['アローラ図鑑', 'ultrasun_ultramoon', ['ultrasun', 'ultramoon']],
-        'galar' => ['ガラル図鑑', 'sword_shield', ['sword', 'shield']],
-        'crown_tundra' => ['カンムリ雪原図鑑', 'sword_shield', ['sword', 'shield']],
-        'isle_of_armor' => ['ヨロイ島図鑑', 'sword_shield', ['sword', 'shield']],
-        'hisui' => ['ヒスイ図鑑', 'legendsarceus', ['legendsarceus']],
-        'paldea' => ['パルデア図鑑', 'scarlet_violet', ['scarlet', 'violet']],
-        'kitakami' => ['キタカミ図鑑', 'scarlet_violet', ['scarlet', 'violet']],
-        'blueberry' => ['ブルーベリー図鑑', 'scarlet_violet', ['scarlet', 'violet']],
-        'lumiose' => ['ミアレ図鑑', 'legendsza', ['legendsza']],
-    ];
+    // 設定ファイルから地域図鑑マッピングを組み立て
+    $validRegions = buildValidRegions($pokedexConfig);
 
     // 無効なリージョンが指定された場合
     if ($region && !isset($validRegions[$region])) {
         throw new Exception('無効なリージョンが指定されました');
     }
 
-    // description_map モード: ポケモンの図鑑説明をマップ形式で取得
+    // description_map モード: ポケモンの図鑑説明をマップ形式で取得（pokedex_mapテーブル利用）
     if ($mode === 'description_map') {
         if (!$region || !$no) {
             throw new Exception('region と no を指定してください');
@@ -561,16 +609,16 @@ try {
             throw new Exception('description_map モードでは region=global のみサポートしています');
         }
 
-        // ポケモンIDを取得（pokedex_dex_mapテーブルから）
         // noパラメータを4桁の文字列にフォーマット
         $globalNoStr = sprintf("%04d", intval($no));
 
-        $dexMapData = $db->query(
-            "SELECT id, verID FROM pokedex_dex_map WHERE globalNo = :globalNoStr",
+        // pokedex_mapから直接取得
+        $mapData = $db->query(
+            "SELECT id, verID, language, dex FROM pokedex_map WHERE globalNo = :globalNoStr ORDER BY id ASC, verID ASC, language ASC",
             [':globalNoStr' => $globalNoStr]
         );
 
-        if (empty($dexMapData)) {
+        if (empty($mapData)) {
             throw new Exception('指定されたポケモンが見つかりません');
         }
 
@@ -589,47 +637,34 @@ try {
 
         $versionMapping = $config['version_mapping'];
 
-        // pokedex_dex_mapの結果をポケモンIDごとにまとめる（CSVの行順を維持）
-        $mapRowsById = [];
-        foreach ($dexMapData as $mapRow) {
-            $pokemonId = $mapRow['id'];
-            $verIdRaw = isset($mapRow['verID']) ? trim($mapRow['verID']) : '';
-            if (!isset($mapRowsById[$pokemonId])) {
-                $mapRowsById[$pokemonId] = [];
+        // ポケモンID -> verID(グループ文字列) -> 言語 の形に整形
+        $dataById = [];
+        foreach ($mapData as $row) {
+            $pokemonId = $row['id'];
+            $verGroupKey = isset($row['verID']) ? trim($row['verID']) : '';
+            $language = $row['language'];
+            $dex = $row['dex'];
+
+            if ($verGroupKey === '') {
+                continue;
             }
-            if ($verIdRaw !== '') {
-                $mapRowsById[$pokemonId][] = $verIdRaw;
+
+            if (!isset($dataById[$pokemonId])) {
+                $dataById[$pokemonId] = [];
             }
+            if (!isset($dataById[$pokemonId][$verGroupKey])) {
+                $dataById[$pokemonId][$verGroupKey] = [];
+            }
+
+            $dataById[$pokemonId][$verGroupKey][$language] = $dex;
         }
 
-        // 各ポケモンIDに対してpokedex_descriptionからデータを取得し、HTML生成スクリプトと同等の構造を整形
+        // verIDグループごとに整形
         $allDescriptions = [];
-        foreach ($mapRowsById as $pokemonId => $verIdGroups) {
-            $descriptionsData = $db->query(
-                "SELECT verID, language, dex FROM pokedex_description WHERE id = :id ORDER BY verID ASC, language ASC",
-                [':id' => $pokemonId]
-            );
-
-            $descriptionByVerId = [];
-            foreach ($descriptionsData as $desc) {
-                $versionIdKey = trim($desc['verID']);
-                if ($versionIdKey === '') {
-                    continue;
-                }
-                if (!isset($descriptionByVerId[$versionIdKey])) {
-                    $descriptionByVerId[$versionIdKey] = [];
-                }
-                $descriptionByVerId[$versionIdKey][$desc['language']] = $desc['dex'];
-            }
-
+        foreach ($dataById as $pokemonId => $verGroupData) {
             $groupedDescriptions = [];
 
-            foreach ($verIdGroups as $verGroupRaw) {
-                $verGroupKey = trim($verGroupRaw);
-                if ($verGroupKey === '') {
-                    continue;
-                }
-
+            foreach ($verGroupData as $verGroupKey => $langData) {
                 $verIds = array_values(array_filter(array_map('trim', explode(',', $verGroupKey)), function ($value) {
                     return $value !== '';
                 }));
@@ -671,19 +706,11 @@ try {
                     'ver_ids' => $verIds,
                     'version_names' => $versionNames,
                     'representative_ver_id' => $representativeVerId,
+                    'common' => $langData,
                 ];
 
-                if (isset($descriptionByVerId[$verGroupKey]) && !empty($descriptionByVerId[$verGroupKey])) {
-                    $groupEntry['common'] = $descriptionByVerId[$verGroupKey];
-                } elseif ($representativeVerId && isset($descriptionByVerId[$representativeVerId])) {
-                    $groupEntry['common'] = $descriptionByVerId[$representativeVerId];
-                }
-
+                // 各バージョン名でもアクセスできるようにエイリアスを付与
                 foreach ($verIds as $singleVerId) {
-                    if (!isset($descriptionByVerId[$singleVerId])) {
-                        continue;
-                    }
-
                     $singleKeyBase = (isset($versionMapping[$singleVerId]) && !empty($versionMapping[$singleVerId]['name_eng']))
                         ? $versionMapping[$singleVerId]['name_eng']
                         : $singleVerId;
@@ -700,14 +727,10 @@ try {
                         $index++;
                     }
 
-                    $groupEntry[$candidateKey] = $descriptionByVerId[$singleVerId];
+                    $groupEntry[$candidateKey] = $langData;
                 }
 
                 $groupedDescriptions[$groupKey] = $groupEntry;
-            }
-
-            if (empty($groupedDescriptions) && !empty($descriptionByVerId)) {
-                $groupedDescriptions = $descriptionByVerId;
             }
 
             $allDescriptions[$pokemonId] = $groupedDescriptions;
