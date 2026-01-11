@@ -827,6 +827,80 @@ try {
     // リージョンが指定されているがNoが指定されていない場合はリスト表示
     if ($region && !$no) {
         if($region === 'global') {
+            // 軽量モード: 一覧表示用に必要最低限のカラムのみ取得
+            if ($mode === 'global_list_light') {
+                $limit = isset($_GET['limit']) ? intval($_GET['limit']) : 0;
+                $offset = isset($_GET['offset']) ? intval($_GET['offset']) : 0;
+                if ($limit <= 0) {
+                    $limit = 2000; // デフォルト最大件数（調整可能）
+                }
+                if ($offset < 0) {
+                    $offset = 0;
+                }
+
+                $query = "
+                    SELECT 
+                        p.id,
+                        p.globalNo,
+                        p.height,
+                        p.weight,
+                        (
+                            SELECT name 
+                            FROM pokedex_name pn 
+                            WHERE pn.id = p.id AND pn.language = 'jpn' 
+                            LIMIT 1
+                        ) AS name_jpn,
+                        (
+                            SELECT type1 
+                            FROM local_pokedex_type t 
+                            WHERE t.id = p.id 
+                            ORDER BY t.version DESC 
+                            LIMIT 1
+                        ) AS type1,
+                        (
+                            SELECT type2 
+                            FROM local_pokedex_type t 
+                            WHERE t.id = p.id 
+                            ORDER BY t.version DESC 
+                            LIMIT 1
+                        ) AS type2
+                    FROM pokedex p
+                    ORDER BY CAST(p.globalNo AS INTEGER) ASC
+                    LIMIT :limit OFFSET :offset
+                ";
+
+                $rows = $db->query($query, [
+                    ':limit' => $limit,
+                    ':offset' => $offset
+                ]);
+
+                $result = [];
+                foreach ($rows as $row) {
+                    $result[] = [
+                        'id'       => $row['id'],
+                        'no'       => $row['globalNo'],
+                        'globalNo' => $row['globalNo'],
+                        'name'     => ['jpn' => $row['name_jpn'] ?? ''],
+                        'type1'    => $row['type1'] ?? null,
+                        'type2'    => $row['type2'] ?? null,
+                        'weight'   => $row['weight'] ?? null,
+                        'height'   => $row['height'] ?? null,
+                    ];
+                }
+
+                echo json_encode([
+                    'success'     => true,
+                    'data'        => $result,
+                    'region'      => 'global',
+                    'pagination'  => [
+                        'limit'  => $limit,
+                        'offset' => $offset,
+                        'count'  => count($result)
+                    ]
+                ]);
+                exit;
+            }
+
             // 全データを一括取得（N+1クエリ問題の解決）
             $query = "
                 SELECT *
