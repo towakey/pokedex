@@ -50,59 +50,41 @@ function buildValidRegions($pokedexConfig) {
         'global' => ['全国図鑑', 'global', ['global']],
     ];
 
-    if (!isset($pokedexConfig['local_pokedex_mapping']) || !is_array($pokedexConfig['local_pokedex_mapping'])) {
-        return $regions;
-    }
+    $localMapping = $pokedexConfig['local_pokedex_mapping'] ?? [];
+    $regionDefs = $pokedexConfig['regions'] ?? [];
 
-    // regionキーと設定上のversionグループ、およびpokedex配列のインデックス対応表
-    $regionConfigMapping = [
-        'kanto'          => ['red_green_blue_pikachu', 0],
-        'kanto_frlg'     => ['firered_leafgreen', 0],
-        'johto'          => ['gold_silver_crystal', 0],
-        'hoenn'          => ['ruby_sapphire_emerald', 0],
-        'sinnoh'         => ['diamond_pearl_platinum', 0],
-        'johto_hgss'     => ['heartgold_soulsilver', 0],
-        'unova_bw'       => ['black_white', 0],
-        'unova_b2w2'     => ['black2_white2', 0],
-        'central_kalos'  => ['x_y', 0],
-        'coast_kalos'    => ['x_y', 1],
-        'mountain_kalos' => ['x_y', 2],
-        'alola_sm'       => ['sun_moon', 0],
-        'alola_usum'     => ['ultrasun_ultramoon', 0],
-        'galar'          => ['sword_shield', 0],
-        'crown_tundra'   => ['sword_shield', 1],
-        'isle_of_armor'  => ['sword_shield', 2],
-        'hisui'          => ['legendsarceus', 0],
-        'paldea'         => ['scarlet_violet', 0],
-        'kitakami'       => ['scarlet_violet', 1],
-        'blueberry'      => ['scarlet_violet', 2],
-        'lumiose'        => ['legendsza', 0],
-    ];
-
-    foreach ($regionConfigMapping as $regionKey => [$configKey, $pokedexIndex]) {
-        if (!isset($pokedexConfig['local_pokedex_mapping'][$configKey])) {
+    foreach ($regionDefs as $regionKey => $def) {
+        if (!is_array($def)) {
             continue;
         }
 
-        $entry = $pokedexConfig['local_pokedex_mapping'][$configKey];
-        $pokedexNames = $entry['pokedex'] ?? [];
+        $versionKey = $def['version_key'] ?? null;
+        if (!$versionKey) {
+            continue; // versionキーがないと生成不可
+        }
+        $pokedexIndex = isset($def['pokedex_index']) ? intval($def['pokedex_index']) : 0;
 
-        // 指定インデックスの図鑑名を優先、なければ最初の要素、なければconfigキーを使用
-        $displayName = $configKey;
-        if (is_array($pokedexNames)) {
-            if (isset($pokedexNames[$pokedexIndex]) && is_array($pokedexNames[$pokedexIndex]) && isset($pokedexNames[$pokedexIndex]['jpn'])) {
+        // 表示名: display_jpn優先、なければlocal_pokedex_mappingから取得
+        $displayName = $def['display_jpn'] ?? null;
+        if (!$displayName && isset($localMapping[$versionKey]['pokedex']) && is_array($localMapping[$versionKey]['pokedex'])) {
+            $pokedexNames = $localMapping[$versionKey]['pokedex'];
+            if (isset($pokedexNames[$pokedexIndex]['jpn'])) {
                 $displayName = $pokedexNames[$pokedexIndex]['jpn'];
-            } elseif (isset($pokedexNames[0]) && is_array($pokedexNames[0]) && isset($pokedexNames[0]['jpn'])) {
+            } elseif (isset($pokedexNames[0]['jpn'])) {
                 $displayName = $pokedexNames[0]['jpn'];
             }
         }
-
-        $versions = [];
-        if (isset($entry['version']) && is_array($entry['version'])) {
-            $versions = array_keys($entry['version']);
+        if (!$displayName) {
+            $displayName = $versionKey;
         }
 
-        $regions[$regionKey] = [$displayName, $configKey, $versions];
+        // バージョン配列: local_pokedex_mapping の version キーから抽出
+        $versions = [];
+        if (isset($localMapping[$versionKey]['version']) && is_array($localMapping[$versionKey]['version'])) {
+            $versions = array_keys($localMapping[$versionKey]['version']);
+        }
+
+        $regions[$regionKey] = [$displayName, $versionKey, $versions];
     }
 
     return $regions;

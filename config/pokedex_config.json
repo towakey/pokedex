@@ -109,6 +109,29 @@
       }
     }
   },
+  "regions": {
+    "kanto":          {"display_jpn": "カントー図鑑",   "version_key": "red_green_blue_pikachu", "pokedex_index": 0},
+    "kanto_frlg":     {"display_jpn": "カントー図鑑",   "version_key": "firered_leafgreen",      "pokedex_index": 0},
+    "johto":          {"display_jpn": "ジョウト図鑑",   "version_key": "gold_silver_crystal",    "pokedex_index": 0},
+    "hoenn":          {"display_jpn": "ホウエン図鑑",   "version_key": "ruby_sapphire_emerald",  "pokedex_index": 0},
+    "sinnoh":         {"display_jpn": "シンオウ図鑑",   "version_key": "diamond_pearl_platinum", "pokedex_index": 0},
+    "johto_hgss":     {"display_jpn": "ジョウト図鑑",   "version_key": "heartgold_soulsilver",   "pokedex_index": 0},
+    "unova_bw":       {"display_jpn": "イッシュ図鑑",   "version_key": "black_white",            "pokedex_index": 0},
+    "unova_b2w2":     {"display_jpn": "イッシュ図鑑",   "version_key": "black2_white2",          "pokedex_index": 0},
+    "central_kalos":  {"display_jpn": "セントラルカロス図鑑", "version_key": "x_y",               "pokedex_index": 0},
+    "coast_kalos":    {"display_jpn": "コーストカロス図鑑",   "version_key": "x_y",               "pokedex_index": 1},
+    "mountain_kalos": {"display_jpn": "マウンテンカロス図鑑", "version_key": "x_y",               "pokedex_index": 2},
+    "alola_sm":       {"display_jpn": "アローラ図鑑",   "version_key": "sun_moon",               "pokedex_index": 0},
+    "alola_usum":     {"display_jpn": "アローラ図鑑",   "version_key": "ultrasun_ultramoon",     "pokedex_index": 0},
+    "galar":          {"display_jpn": "ガラル図鑑",     "version_key": "sword_shield",           "pokedex_index": 0},
+    "crown_tundra":   {"display_jpn": "カンムリ雪原図鑑", "version_key": "sword_shield",         "pokedex_index": 1},
+    "isle_of_armor":  {"display_jpn": "ヨロイ島図鑑",   "version_key": "sword_shield",           "pokedex_index": 2},
+    "hisui":          {"display_jpn": "ヒスイ図鑑",     "version_key": "legendsarceus",          "pokedex_index": 0},
+    "paldea":         {"display_jpn": "パルデア図鑑",   "version_key": "scarlet_violet",         "pokedex_index": 0},
+    "kitakami":       {"display_jpn": "キタカミ図鑑",   "version_key": "scarlet_violet",         "pokedex_index": 1},
+    "blueberry":      {"display_jpn": "ブルーベリー図鑑","version_key": "scarlet_violet",         "pokedex_index": 2},
+    "lumiose":        {"display_jpn": "ミアレ図鑑",     "version_key": "legendsza",              "pokedex_index": 0}
+  },
   "version_mapping": {
     "01_00": {
       "name_eng": "red",
