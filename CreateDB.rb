@@ -153,6 +153,18 @@ if __FILE__ == $0
       )
     SQL
 
+    # table:pokedex_cache (APIレスポンスのキャッシュ保存用)
+    # Drop tables
+    db.execute("DROP TABLE IF EXISTS pokedex_cache")
+    # Create tables
+    db.execute(<<-SQL)
+      CREATE TABLE IF NOT EXISTS pokedex_cache (
+        cache_key TEXT PRIMARY KEY,
+        payload_json TEXT,
+        updated_at TEXT
+      )
+    SQL
+
     # JSONパースエラー時にファイル内容を表示しないようにする
     begin
       content = File.read("./pokedex/pokedex.json")
@@ -1178,6 +1190,21 @@ if __FILE__ == $0
       puts "Warning: #{description_map_file} not found"
     end
     
+    puts "create indexes"
+    db.execute("CREATE INDEX IF NOT EXISTS idx_pokedex_globalNo ON pokedex(globalNo)")
+    db.execute("CREATE INDEX IF NOT EXISTS idx_pokedex_id ON pokedex(id)")
+    db.execute("CREATE INDEX IF NOT EXISTS idx_pokedex_name_id_lang ON pokedex_name(id, language)")
+    db.execute("CREATE INDEX IF NOT EXISTS idx_local_pokedex_key ON local_pokedex(pokedex, version, no)")
+    db.execute("CREATE INDEX IF NOT EXISTS idx_local_pokedex_id ON local_pokedex(id)")
+    db.execute("CREATE INDEX IF NOT EXISTS idx_local_pokedex_globalNo ON local_pokedex(globalNo)")
+    db.execute("CREATE INDEX IF NOT EXISTS idx_local_pokedex_type_id_version ON local_pokedex_type(id, version)")
+    db.execute("CREATE INDEX IF NOT EXISTS idx_local_pokedex_status_id_version ON local_pokedex_status(id, version)")
+    db.execute("CREATE INDEX IF NOT EXISTS idx_local_pokedex_ability_id_version ON local_pokedex_ability(id, version)")
+    db.execute("CREATE INDEX IF NOT EXISTS idx_local_pokedex_description_id_ver_lang ON local_pokedex_description(id, ver, language)")
+    db.execute("CREATE INDEX IF NOT EXISTS idx_pokedex_map_globalNo_id_ver_lang ON pokedex_map(globalNo, id, verID, language)")
+    db.execute("CREATE INDEX IF NOT EXISTS idx_pokedex_description_language ON pokedex_description(language)")
+    db.execute("CREATE INDEX IF NOT EXISTS idx_pokedex_dex_map_globalNo ON pokedex_dex_map(globalNo)")
+
     puts "commit"
     db.commit
   rescue SQLite3::Exception => e
