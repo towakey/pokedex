@@ -1194,6 +1194,9 @@ if __FILE__ == $0
     db.execute("CREATE INDEX IF NOT EXISTS idx_pokedex_globalNo ON pokedex(globalNo)")
     db.execute("CREATE INDEX IF NOT EXISTS idx_pokedex_id ON pokedex(id)")
     db.execute("CREATE INDEX IF NOT EXISTS idx_pokedex_name_id_lang ON pokedex_name(id, language)")
+    db.execute("CREATE INDEX IF NOT EXISTS idx_pokedex_classification_id_lang ON pokedex_classification(id, language)")
+    db.execute("CREATE INDEX IF NOT EXISTS idx_pokedex_form_id_lang ON pokedex_form(id, language)")
+    db.execute("CREATE INDEX IF NOT EXISTS idx_pokedex_egg_id ON pokedex_egg(id)")
     db.execute("CREATE INDEX IF NOT EXISTS idx_local_pokedex_key ON local_pokedex(pokedex, version, no)")
     db.execute("CREATE INDEX IF NOT EXISTS idx_local_pokedex_id ON local_pokedex(id)")
     db.execute("CREATE INDEX IF NOT EXISTS idx_local_pokedex_globalNo ON local_pokedex(globalNo)")
@@ -1204,6 +1207,7 @@ if __FILE__ == $0
     db.execute("CREATE INDEX IF NOT EXISTS idx_pokedex_map_globalNo_id_ver_lang ON pokedex_map(globalNo, id, verID, language)")
     db.execute("CREATE INDEX IF NOT EXISTS idx_pokedex_description_language ON pokedex_description(language)")
     db.execute("CREATE INDEX IF NOT EXISTS idx_pokedex_dex_map_globalNo ON pokedex_dex_map(globalNo)")
+    db.execute("CREATE INDEX IF NOT EXISTS idx_ability_language_ability_version ON ability_language(ability, version)")
 
     puts "commit"
     db.commit
