@@ -1073,7 +1073,18 @@ try {
             }
             echo $payload;
             exit;
-        } else {
+        }
+        else {
+            $useCache = !isset($_GET['cache']) || $_GET['cache'] !== '0';
+            $cacheKey = 'local_list_' . $region;
+            if ($useCache) {
+                $cachedPayload = fetchCache($db, $cacheKey);
+                if ($cachedPayload) {
+                    echo $cachedPayload;
+                    exit;
+                }
+            }
+
             $query = "
                 SELECT *
                 FROM local_pokedex
@@ -1081,12 +1092,12 @@ try {
                 AND version = :version
                 ORDER BY CAST(no AS INTEGER) ASC
             ";
-            
+
             $rows = $db->query($query, [
                 ':pokedex' => $validRegions[$region][0],
                 ':version' => $validRegions[$region][1]
             ]);
-            
+
             // noをキーに、各ポケモンのデータを配列として保持
             $result = [];
             foreach ($rows as $row) {
@@ -1170,8 +1181,18 @@ try {
                 }
                 // 配列に追加
                 $result[$row['no']][] = $row;
-                
             }
+
+            $payload = json_encode([
+                'success' => true,
+                'data' => $result,
+                'region' => $validRegions[$region][0]
+            ]);
+            if ($useCache) {
+                saveCache($db, $cacheKey, $payload);
+            }
+            echo $payload;
+            exit;
         }
     }
     // Noが指定されている場合は詳細情報を取得
@@ -1291,6 +1312,16 @@ try {
             echo $payload;
             exit;
         } else {
+            $useCache = !isset($_GET['cache']) || $_GET['cache'] !== '0';
+            $cacheKey = 'local_detail_' . $region . '_' . $no;
+            if ($useCache) {
+                $cachedPayload = fetchCache($db, $cacheKey);
+                if ($cachedPayload) {
+                    echo $cachedPayload;
+                    exit;
+                }
+            }
+
             $query = "
                 SELECT *
                 FROM local_pokedex
@@ -1299,13 +1330,13 @@ try {
                 AND version = :version
                 ORDER BY CAST(no AS INTEGER) ASC
             ";
-            
+
             $rows = $db->query($query, [
                 ':pokedex' => $validRegions[$region][0],
                 ':no' => $no,
                 ':version' => $validRegions[$region][1]
             ]);
-            
+
             $result = [];
             if ($rows) {
                 foreach ($rows as $row) {
@@ -1404,17 +1435,84 @@ try {
                         }
                     }
 
+                    $descriptionVersions = $validRegions[$region][2] ?? [];
+                    $descriptionKeys = [];
+                    foreach ($descriptionVersions as $ver) {
+                        $descriptionKeys[] = $ver;
+                        $descriptionKeys[] = $ver . '_kanji';
+                    }
+                    $descriptionKeys = array_values(array_unique(array_filter($descriptionKeys, function ($value) {
+                        return $value !== '';
+                    })));
+
+                    $descriptionLanguages = array_keys($name);
+                    if (empty($descriptionLanguages)) {
+                        $descriptionLanguages = ['jpn'];
+                    }
+
+                    $descriptionMap = [];
+                    foreach ($descriptionKeys as $verKey) {
+                        $descriptionMap[$verKey] = [];
+                        foreach ($descriptionLanguages as $language) {
+                            $descriptionMap[$verKey][$language] = '';
+                        }
+                    }
+
+                    if (!empty($descriptionKeys)) {
+                        $descriptionParams = [
+                            ':id' => $row['id'],
+                            ':version' => $validRegions[$region][1]
+                        ];
+                        $descriptionPlaceholders = [];
+                        foreach ($descriptionKeys as $index => $verKey) {
+                            $placeholder = ':ver' . $index;
+                            $descriptionPlaceholders[] = $placeholder;
+                            $descriptionParams[$placeholder] = $verKey;
+                        }
+
+                        $descriptionRows = $db->query(
+                            "SELECT ver, language, description FROM local_pokedex_description WHERE id = :id AND version = :version AND ver IN (" . implode(',', $descriptionPlaceholders) . ")",
+                            $descriptionParams
+                        );
+                        foreach ($descriptionRows as $descriptionRow) {
+                            $verKey = $descriptionRow['ver'] ?? '';
+                            $language = $descriptionRow['language'] ?? '';
+                            if ($verKey === '' || $language === '') {
+                                continue;
+                            }
+                            if (!isset($descriptionMap[$verKey])) {
+                                $descriptionMap[$verKey] = [];
+                            }
+                            if (!array_key_exists($language, $descriptionMap[$verKey])) {
+                                $descriptionMap[$verKey][$language] = '';
+                            }
+                            $descriptionMap[$verKey][$language] = $descriptionRow['description'] ?? '';
+                        }
+                    }
+
+                    $row['description'] = $descriptionMap;
+
                     // 配列が初期化されていない場合は初期化
                     if (!isset($result[$row['no']])) {
                         $result[$row['no']] = [];
                     }
                     // 配列に追加
                     $result[$row['no']][] = $row;
-                    
                 }
             } else {
                 throw new Exception('指定されたポケモンが見つかりません');
             }
+
+            $payload = json_encode([
+                'success' => true,
+                'data' => $result,
+                'region' => $validRegions[$region][0]
+            ]);
+            if ($useCache) {
+                saveCache($db, $cacheKey, $payload);
+            }
+            echo $payload;
+            exit;
         }
     }
     
