@@ -702,6 +702,16 @@ try {
                     $offset = 0;
                 }
 
+                $useCache = !isset($_GET['cache']) || $_GET['cache'] !== '0';
+                $cacheKey = 'global_list_light_' . $limit . '_' . $offset;
+                if ($useCache) {
+                    $cachedPayload = fetchCache($db, $cacheKey);
+                    if ($cachedPayload) {
+                        echo $cachedPayload;
+                        exit;
+                    }
+                }
+
                 $query = "
                     SELECT 
                         p.id,
@@ -752,7 +762,7 @@ try {
                     ];
                 }
 
-                echo json_encode([
+                $payload = json_encode([
                     'success'     => true,
                     'data'        => $result,
                     'region'      => 'global',
@@ -762,6 +772,10 @@ try {
                         'count'  => count($result)
                     ]
                 ]);
+                if ($useCache) {
+                    saveCache($db, $cacheKey, $payload);
+                }
+                echo $payload;
                 exit;
             }
 
