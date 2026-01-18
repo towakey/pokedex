@@ -6,8 +6,12 @@ require 'sqlite3'
 require 'json'
 require 'time'
 
+ROOT_DIR = File.expand_path('..', __dir__)
+DB_PATH = File.join(ROOT_DIR, 'pokedex.db')
+OUT_PATH = File.join(ROOT_DIR, 'description.json')
+
 if __FILE__ == $0
-  db = SQLite3::Database.new('pokedex.db')
+  db = SQLite3::Database.new(DB_PATH)
   
   # バージョン配列（CreateDB.rbと同じ）
   version_array = [
@@ -143,7 +147,7 @@ if __FILE__ == $0
   # JSON出力
   puts "description.jsonファイルを生成中..."
   
-  File.open('description.json', 'w:UTF-8') do |file|
+  File.open(OUT_PATH, 'w:UTF-8') do |file|
     file.write(JSON.pretty_generate(output_data, indent: '  '))
   end
   

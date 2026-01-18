@@ -6,8 +6,12 @@ require 'sqlite3'
 require 'json'
 require 'time'
 
+ROOT_DIR = File.expand_path('..', __dir__)
+DB_PATH = File.join(ROOT_DIR, 'pokedex.db')
+OUT_PATH = File.join(ROOT_DIR, 'description_map.json')
+
 if __FILE__ == $0
-  db = SQLite3::Database.new('pokedex.db')
+  db = SQLite3::Database.new(DB_PATH)
   
   # 対象言語キーの配列
   language_keys = ['jpn', 'eng', 'fra', 'ita', 'ger', 'spa', 'kor', 'chs', 'cht']
@@ -81,13 +85,13 @@ if __FILE__ == $0
   }
   
   # JSON出力
-  puts "pokedex/description_map.jsonファイルを生成中..."
+  puts "description_map.jsonファイルを生成中..."
   
-  File.open('pokedex/description_map.json', 'w:UTF-8') do |file|
+  File.open(OUT_PATH, 'w:UTF-8') do |file|
     file.write(JSON.pretty_generate(output_data, indent: '  '))
   end
   
-  puts "pokedex/description_map.jsonが正常に生成されました"
+  puts "description_map.jsonが正常に生成されました"
   puts "総globalNo数: #{pokemon_data.size}"
   
   # 統計情報を表示

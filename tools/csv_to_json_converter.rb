@@ -4,6 +4,8 @@
 require 'csv'
 require 'json'
 
+ROOT_DIR = File.expand_path('..', __dir__)
+
 # CSVファイルからJSONファイルに変換するスクリプト
 class PokedexCSVToJSONConverter
   def initialize(csv_file_path, json_file_path)
@@ -113,8 +115,8 @@ end
 # メイン処理
 if __FILE__ == $0
   # ファイルパスを設定
-  csv_file = File.join(File.dirname(__FILE__), 'pokedex.csv')
-  json_file = File.join(File.dirname(__FILE__), 'pokedex_from_csv.json')
+  csv_file = File.join(ROOT_DIR, 'pokedex.csv')
+  json_file = File.join(ROOT_DIR, 'pokedex_from_csv.json')
   
   # 変換実行
   converter = PokedexCSVToJSONConverter.new(csv_file, json_file)

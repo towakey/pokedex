@@ -1,10 +1,15 @@
 require 'sqlite3'
 require 'json'
 
+ROOT_DIR = File.expand_path('..', __dir__)
+POKEDEX_DIR = File.join(ROOT_DIR, 'pokedex')
+ABILITY_DIR = File.join(ROOT_DIR, 'ability')
+
 class DataImporter
-  def initialize(db_path = 'pokedex.db')
+  def initialize(db_path = File.join(ROOT_DIR, 'pokedex.db'))
     @db_path = db_path
     @sqlite = SQLite3::Database.open(@db_path)
+
     create_version_table
     @pokedex_name = {}
     @pokedex_name["kanto"] = "カントー図鑑"
@@ -608,31 +613,31 @@ end
 # スクリプトの実行
 if __FILE__ == $0
   pokedex = PokedexImporter.new
-  pokedex.import('./pokedex/pokedex.json', 'pokedex', 'global')
+  pokedex.import(File.join(ROOT_DIR, 'pokedex.json'), 'pokedex', 'global')
 
-  pokedex.import('./pokedex/Red_Green_Blue_Yellow/Red_Green_Blue_Yellow.json', 'kanto', 'local')
-  pokedex.import('./pokedex/Gold_Silver_Crystal/Gold_Silver_Crystal.json', 'johto', 'local')
-  pokedex.import('./pokedex/Ruby_Sapphire_Emerald/Ruby_Sapphire_Emerald.json', 'hoenn', 'local')
-  pokedex.import('./pokedex/Diamond_Pearl_Platinum/Diamond_Pearl_Platinum.json', 'sinnoh', 'local')
-  pokedex.import('./pokedex/Black_White/Black_White.json', 'unova_bw', 'local')
-  pokedex.import('./pokedex/Black2_White2/Black2_White2.json', 'unova_b2w2', 'local')
-  pokedex.import('./pokedex/X_Y/X_Y.json', 'central_kalos', 'local')
-  pokedex.import('./pokedex/X_Y/X_Y.json', 'coast_kalos', 'local')
-  pokedex.import('./pokedex/X_Y/X_Y.json', 'mountain_kalos', 'local')
-  pokedex.import('./pokedex/Sun_Moon/Sun_Moon.json', 'alola_sm', 'local')
-  pokedex.import('./pokedex/UltraSun_UltraMoon/UltraSun_UltraMoon.json', 'alola_usum', 'local')
-  pokedex.import('./pokedex/Sword_Shield/Sword_Shield.json', 'galar', 'local')
-  pokedex.import('./pokedex/Sword_Shield/Sword_Shield.json', 'crown_tundra', 'local')
-  pokedex.import('./pokedex/Sword_Shield/Sword_Shield.json', 'isle_of_armor', 'local')
-  pokedex.import('./pokedex/LegendsArceus/LegendsArceus.json', 'hisui', 'local')
-  pokedex.import('./pokedex/Scarlet_Violet/Scarlet_Violet.json', 'paldea', 'local')
-  pokedex.import('./pokedex/Scarlet_Violet/Scarlet_Violet.json', 'kitakami', 'local')
-  pokedex.import('./pokedex/Scarlet_Violet/Scarlet_Violet.json', 'blueberry', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'Red_Green_Blue_Yellow', 'Red_Green_Blue_Yellow.json'), 'kanto', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'Gold_Silver_Crystal', 'Gold_Silver_Crystal.json'), 'johto', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'Ruby_Sapphire_Emerald', 'Ruby_Sapphire_Emerald.json'), 'hoenn', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'Diamond_Pearl_Platinum', 'Diamond_Pearl_Platinum.json'), 'sinnoh', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'Black_White', 'Black_White.json'), 'unova_bw', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'Black2_White2', 'Black2_White2.json'), 'unova_b2w2', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'X_Y', 'X_Y.json'), 'central_kalos', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'X_Y', 'X_Y.json'), 'coast_kalos', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'X_Y', 'X_Y.json'), 'mountain_kalos', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'Sun_Moon', 'Sun_Moon.json'), 'alola_sm', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'UltraSun_UltraMoon', 'UltraSun_UltraMoon.json'), 'alola_usum', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'Sword_Shield', 'Sword_Shield.json'), 'galar', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'Sword_Shield', 'Sword_Shield.json'), 'crown_tundra', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'Sword_Shield', 'Sword_Shield.json'), 'isle_of_armor', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'LegendsArceus', 'LegendsArceus.json'), 'hisui', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'Scarlet_Violet', 'Scarlet_Violet.json'), 'paldea', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'Scarlet_Violet', 'Scarlet_Violet.json'), 'kitakami', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'Scarlet_Violet', 'Scarlet_Violet.json'), 'blueberry', 'local')
 
   waza_machine = WazaMachineImporter.new
   
   # 地方図鑑のインポート
-  Dir.glob('./pokedex/*').select { |f| File.directory?(f) }.each do |dir|
+  Dir.glob(File.join(POKEDEX_DIR, '*')).select { |f| File.directory?(f) }.each do |dir|
     region = File.basename(dir)
     
     if File.exist?("#{dir}/pokedex.json")
@@ -658,8 +663,8 @@ if __FILE__ == $0
   end
 
   # 特性データのインポート
-  if File.exist?('./ability/ability.json')
-    ability = AbilityImporter.new(SQLite3::Database.new('pokedex.db'), './ability/ability.json')
+  if File.exist?(File.join(ABILITY_DIR, 'ability.json'))
+    ability = AbilityImporter.new(SQLite3::Database.new(File.join(ROOT_DIR, 'pokedex.db')), File.join(ABILITY_DIR, 'ability.json'))
     ability.import_data
   end
 end

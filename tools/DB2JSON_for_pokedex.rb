@@ -2,12 +2,10 @@
 
 require 'sqlite3'
 require 'json'
-require 'fileutils'
 
-DB_PATH = File.expand_path('pokedex.db', __dir__)
-OUT_DIR  = File.join(__dir__, 'pokedex')
-FileUtils.mkdir_p(OUT_DIR)
-OUT_FILE = File.join(OUT_DIR, 'pokedex.json')
+ROOT_DIR = File.expand_path('..', __dir__)
+DB_PATH = File.join(ROOT_DIR, 'pokedex.db')
+OUT_FILE = File.join(ROOT_DIR, 'pokedex', 'pokedex.json')
 
 db = SQLite3::Database.new(DB_PATH)
 db.results_as_hash = true

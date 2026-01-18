@@ -24,11 +24,13 @@ require 'csv'
 require 'sqlite3'
 require 'fileutils'
 
+ROOT_DIR = File.expand_path('..', __dir__)
+DB_PATH = File.join(ROOT_DIR, 'pokedex.db')
+
 # -----------------------------
 # 定数定義
 # -----------------------------
-DB_PATH  = File.expand_path('pokedex.db', __dir__)
-CSV_PATH = ARGV[0] || File.expand_path('ポケモン全世代図鑑_HOME漢字.csv', Dir.pwd)
+CSV_PATH = ARGV[0] || File.join(ROOT_DIR, 'ポケモン全世代図鑑_HOME漢字.csv')
 VERSION  = 'pokemon_home' # HOME 固有のバージョン名（大分類）
 LANG     = 'jpn'
 

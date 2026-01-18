@@ -6,6 +6,9 @@ require 'sqlite3'
 require 'json'
 require 'time'
 
+ROOT_DIR = File.expand_path('..', __dir__)
+OUT_PATH = File.join(ROOT_DIR, 'evolve_changeform.json')
+
 def fetch_evol_data(db)
   sql = <<-SQL
     SELECT id, globalNo, evol
@@ -66,8 +69,7 @@ def write_json_file(path, data)
 end
 
 if __FILE__ == $0
-  db_path = File.expand_path('pokedex.db', __dir__)
-  out_dir = File.expand_path('pokedex', __dir__)
+  db_path = File.join(ROOT_DIR, 'pokedex.db')
 
   db = SQLite3::Database.new(db_path)
 
@@ -75,7 +77,7 @@ if __FILE__ == $0
   output['evolve'] = fetch_evol_data(db)
   output['changeform'] = fetch_changeform_data(db)
 
-  write_json_file(File.join(out_dir, 'evolve_changeform.json'), output)
+  write_json_file(OUT_PATH, output)
 
-  puts "pokedex/evolve_changeform.json を生成しました"
+  puts "evolve_changeform.json を生成しました"
 end

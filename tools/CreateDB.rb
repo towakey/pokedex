@@ -2,8 +2,13 @@
 require 'sqlite3'
 require 'json'
 
+ROOT_DIR = File.expand_path('..', __dir__)
+POKEDEX_DIR = File.join(ROOT_DIR, 'pokedex')
+CONFIG_DIR = File.join(ROOT_DIR, 'config')
+ABILITY_DIR = File.join(ROOT_DIR, 'ability')
+
 if __FILE__ == $0
-  db = SQLite3::Database.new('pokedex.db')
+  db = SQLite3::Database.new(File.join(ROOT_DIR, 'pokedex.db'))
   begin
     db.transaction
     
@@ -167,7 +172,7 @@ if __FILE__ == $0
 
     # JSONパースエラー時にファイル内容を表示しないようにする
     begin
-      content = File.read("./pokedex/pokedex.json")
+      content = File.read(File.join(POKEDEX_DIR, 'pokedex.json'))
       pokedex_json = JSON.parse(content)
     rescue JSON::ParserError => e
       STDERR.puts "pokedex.json のパースに失敗しました: #{e.message}"
@@ -261,7 +266,7 @@ if __FILE__ == $0
 
     puts "load evolve_changeform.json"
     begin
-      content = File.read("./pokedex/evolve_changeform.json")
+      content = File.read(File.join(POKEDEX_DIR, 'evolve_changeform.json'))
       evolve_json = JSON.parse(content)
     rescue Errno::ENOENT => e
       STDERR.puts "evolve_changeform.json が見つかりません: #{e.message}"
@@ -419,7 +424,7 @@ if __FILE__ == $0
 
     # 設定をJSONファイルから読み込み
     begin
-      content = File.read("./config/pokedex_config.json")
+      content = File.read(File.join(CONFIG_DIR, 'pokedex_config.json'))
       config = JSON.parse(content)
       local_pokedex_array = config["local_pokedex_mapping"]
     rescue JSON::ParserError => e
@@ -436,7 +441,7 @@ if __FILE__ == $0
       # JSONパースエラー時にファイル内容を表示しないようにする
       puts "load for #{game_version}.json"
       begin
-        content = File.read("./pokedex/#{game_version}/#{game_version}.json")
+        content = File.read(File.join(POKEDEX_DIR, game_version, "#{game_version}.json"))
         pokedex_json = JSON.parse(content)
       rescue JSON::ParserError => e
         STDERR.puts "#{game_version}.json のパースに失敗しました: #{e.message}"
@@ -639,7 +644,7 @@ if __FILE__ == $0
     local_waza_array.each do |game_version, local_waza|
       # JSONパースエラー時にファイル内容を表示しないようにする
       begin
-        content = File.read("./pokedex/#{game_version}/waza_list.json")
+        content = File.read(File.join(POKEDEX_DIR, game_version, 'waza_list.json'))
         waza_json = JSON.parse(content)
       rescue JSON::ParserError => e
         STDERR.puts "waza_list.json のパースに失敗しました: #{e.message}"
@@ -690,10 +695,10 @@ if __FILE__ == $0
     SQL
 
     local_waza_array.each do |game_version, local_waza|
-      if File.exist?("./pokedex/#{game_version}/waza_machine.json")
+      if File.exist?(File.join(POKEDEX_DIR, game_version, 'waza_machine.json'))
         # JSONパースエラー時にファイル内容を表示しないようにする
         begin
-          content = File.read("./pokedex/#{game_version}/waza_machine.json")
+          content = File.read(File.join(POKEDEX_DIR, game_version, 'waza_machine.json'))
           waza_json = JSON.parse(content)
         rescue JSON::ParserError => e
           STDERR.puts "waza_machine.json のパースに失敗しました: #{e.message}"
@@ -732,7 +737,7 @@ if __FILE__ == $0
 
     # JSONパースエラー時にファイル内容を表示しないようにする
     begin
-      content = File.read("./ability/ability.json")
+      content = File.read(File.join(ABILITY_DIR, 'ability.json'))
       ability_json = JSON.parse(content)
     rescue JSON::ParserError => e
       STDERR.puts "ability.json のパースに失敗しました: #{e.message}"
@@ -810,11 +815,11 @@ if __FILE__ == $0
     local_waza_array["Scarlet_Violet"] = ["paldea", "kitakami", "blueberry"]
     
     local_waza_array.each do |game_version, regions|
-      if File.exist?("./pokedex/#{game_version}/waza.json")
+      if File.exist?(File.join(POKEDEX_DIR, game_version, 'waza.json'))
         puts "load for local waza #{game_version}"
         # JSONパースエラー時にファイル内容を表示しないようにする
         begin
-          content = File.read("./pokedex/#{game_version}/waza.json")
+          content = File.read(File.join(POKEDEX_DIR, game_version, 'waza.json'))
           waza_json = JSON.parse(content)
         rescue JSON::ParserError => e
           STDERR.puts "waza.json のパースに失敗しました: #{e.message}"
@@ -1032,11 +1037,11 @@ if __FILE__ == $0
     ]
     # JSONパースエラー時にファイル内容を表示しないようにする
     begin
-      content = File.read("./pokedex/description.json")
+      content = File.read(File.join(POKEDEX_DIR, 'description.json'))
       description_json = JSON.parse(content)
     rescue JSON::ParserError => e
       # エラー内容をファイルに出力
-      log_path = File.join(__dir__, "description_parse_error.log")
+      log_path = File.join(ROOT_DIR, 'description_parse_error.log')
       File.open(log_path, "w:UTF-8") do |f|
         if e.message =~ /(\d+):/
           pos = $1.to_i
@@ -1148,7 +1153,7 @@ if __FILE__ == $0
     # description_map.json を pokedex_map テーブルに格納
     puts "load description_map.json for pokedex_map"
     
-    description_map_file = './pokedex/description_map.json'
+    description_map_file = File.join(POKEDEX_DIR, 'description_map.json')
     
     if File.exist?(description_map_file)
       puts "Processing #{description_map_file}"

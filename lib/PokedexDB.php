@@ -58,7 +58,7 @@ class Database {
      *
      * @param string $dbPath データベースファイルのパス
      */
-    public function __construct($dbPath = 'pokedex.db') {
+    public function __construct($dbPath = __DIR__ . '/../pokedex.db') {
         try {
             $this->db = new SQLite3($dbPath);
             $this->db->enableExceptions(true);
@@ -194,7 +194,7 @@ class PokedexDB {
     /**
      * @param string $dbPath
      */
-    public function __construct($dbPath = 'pokedex.db') {
+    public function __construct($dbPath = __DIR__ . '/../pokedex.db') {
         $this->db = new Database($dbPath);
     }
 

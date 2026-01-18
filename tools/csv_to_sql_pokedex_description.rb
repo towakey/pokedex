@@ -1,14 +1,16 @@
 require 'csv'
 require 'sqlite3'
 
+ROOT_DIR = File.expand_path('..', __dir__)
+
 # CSVファイルのパス
-csv_file_path = 'csv/dex/dex.csv'
+csv_file_path = File.join(ROOT_DIR, 'csv', 'dex', 'dex.csv')
 
 # 出力SQLファイルのパス
-sql_file_path = 'insert_pokedex_description.sql'
+sql_file_path = File.join(ROOT_DIR, 'insert_pokedex_description.sql')
 
 # データベースファイルのパス
-db_file_path = 'pokedex.db'
+db_file_path = File.join(ROOT_DIR, 'pokedex.db')
 
 # SQLクエリを格納する配列
 insert_queries = []

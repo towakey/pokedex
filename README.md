@@ -11,7 +11,7 @@
 ローカル環境でSQLite3のデータベース(`pokedex.db`)を生成するには、以下を実行してください。
 
 ```bash
-ruby import_db.rb
+ruby tools/import_db.rb
 ```
 
 ---

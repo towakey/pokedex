@@ -95,7 +95,8 @@ function buildValidRegions($pokedexConfig) {
 // メイン処理
 try {
     // データベース接続
-    $pokedexDb = new PokedexDB('pokedex.db');
+    $pokedexDb = new PokedexDB(__DIR__ . '/pokedex.db');
+
     $db = $pokedexDb->getDatabase();
     
     $region = isset($_GET['region']) ? $_GET['region'] : null;

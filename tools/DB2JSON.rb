@@ -6,6 +6,8 @@ require 'json'
 require 'fileutils'
 require 'set'
 
+ROOT_DIR = File.expand_path('..', __dir__)
+
 # 処理対象のバージョンリスト
 # 形式: [メインバージョン, 参照元バージョン(省略可)]
 TARGET_VERSIONS = [
@@ -46,11 +48,11 @@ def normalize_version_name(name)
   name.gsub(/([a-z])([A-Z])/, '\\1\\2').downcase
 end
 
-DB_PATH = File.expand_path('pokedex.db', __dir__)
+DB_PATH = File.join(ROOT_DIR, 'pokedex.db')
 
 # 設定をJSONファイルから読み込み
 begin
-  content = File.read(File.expand_path('config/pokedex_config.json', __dir__))
+  content = File.read(File.join(ROOT_DIR, 'config', 'pokedex_config.json'))
   config = JSON.parse(content)
   REGION_MAPPING = config["region_mapping"]
   DEFAULT_REGION_VALUE = config["default_region_value"]
@@ -71,7 +73,7 @@ TARGET_VERSIONS.each do |version_config|
   
   puts "処理中: #{version}"
   
-  out_dir = File.join(__dir__, 'pokedex', version)
+  out_dir = File.join(ROOT_DIR, 'pokedex', version)
   FileUtils.mkdir_p(out_dir)
 
   db = SQLite3::Database.new(DB_PATH)
