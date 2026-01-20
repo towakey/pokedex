@@ -151,7 +151,7 @@ try {
         exit;
     }
 
-    // search モード: pokedex_description テーブルを検索
+    // search モード: pokedex_map テーブルを検索
     if ($mode === 'search') {
         $items = isset($_GET['items']) ? $_GET['items'] : 'description';
         $word = isset($_GET['word']) ? $_GET['word'] : null;
@@ -175,7 +175,7 @@ try {
         foreach ($searchItems as $item) {
             switch ($item) {
                 case 'description':
-                    // pokedex_description テーブルで検索
+                    // pokedex_map テーブルで検索
                     $conditions[] = 'description';
                     break;
                 case 'name':
@@ -197,19 +197,19 @@ try {
         // 結果を格納する配列（重複排除のためIDをキーに）
         $resultsById = [];
 
-        // description 検索
+        // description 検索（pokedex_map）
         if (in_array('description', $conditions)) {
             // 言語指定が 'all' の場合は言語フィルタなし
             if ($language === 'all') {
                 $descResults = $db->query(
-                    "SELECT id, verID, dex as description FROM pokedex_description WHERE dex LIKE :word ORDER BY id ASC",
+                    "SELECT id, verID, dex as description FROM pokedex_map WHERE dex LIKE :word ORDER BY id ASC",
                     [
                         ':word' => '%' . $word . '%'
                     ]
                 );
             } else {
                 $descResults = $db->query(
-                    "SELECT id, verID, dex as description FROM pokedex_description WHERE dex LIKE :word AND language = :language ORDER BY id ASC",
+                    "SELECT id, verID, dex as description FROM pokedex_map WHERE dex LIKE :word AND language = :language ORDER BY id ASC",
                     [
                         ':word' => '%' . $word . '%',
                         ':language' => $language
