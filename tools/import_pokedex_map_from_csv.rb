@@ -4,8 +4,8 @@ require 'csv'
 require 'sqlite3'
 
 ROOT_DIR = File.expand_path('..', __dir__)
-DEX_ALL_PATH = File.join(ROOT_DIR, 'data', 'spreadsheet', 'dex_all.csv')
-DEX_MAP_PATH = File.join(ROOT_DIR, 'data', 'spreadsheet', 'dex_map.csv')
+DEX_PATH = File.join(ROOT_DIR, 'data', 'spreadsheet', 'dex.csv')
+MAP_PATH = File.join(ROOT_DIR, 'data', 'spreadsheet', 'map.csv')
 DB_PATH = File.join(ROOT_DIR, 'pokedex.db')
 
 LANGUAGE_MAPPING = {
@@ -68,9 +68,35 @@ def build_verid_group_map(path)
 end
 
 
-def ensure_pokedex_map_table(db)
+def table_exists?(db, table)
+  !db.get_first_value("SELECT name FROM sqlite_master WHERE type = 'table' AND name = ?", table).nil?
+end
+
+
+def table_columns(db, table)
+  db.execute("PRAGMA table_info(#{table})").map { |row| row[1] }
+end
+
+
+def with_retry(label, retries: 5, base_sleep: 0.2)
+  attempts = 0
+  begin
+    yield
+  rescue SQLite3::BusyException => e
+    attempts += 1
+    if attempts <= retries
+      sleep(base_sleep * attempts)
+      retry
+    end
+    warn "SQLite busy after #{attempts} attempts during #{label}: #{e.message}"
+    raise
+  end
+end
+
+
+def ensure_pokedex_description_dex_table(db)
   db.execute(<<~SQL)
-    CREATE TABLE IF NOT EXISTS pokedex_map (
+    CREATE TABLE IF NOT EXISTS pokedex_description_dex (
       id TEXT,
       globalNo TEXT,
       verID TEXT,
@@ -81,18 +107,86 @@ def ensure_pokedex_map_table(db)
 end
 
 
-def import_pokedex_map(db, dex_all_path, verid_map)
+def ensure_pokedex_description_map_table(db)
+  db.execute(<<~SQL)
+    CREATE TABLE IF NOT EXISTS pokedex_description_map (
+      id TEXT,
+      globalNo TEXT,
+      verID TEXT,
+      language TEXT,
+      dex TEXT
+    )
+  SQL
+end
+
+
+def ensure_pokedex_dex_map_table(db)
+  db.execute('DROP TABLE IF EXISTS pokedex_dex_map')
+  db.execute(<<~SQL)
+    CREATE TABLE IF NOT EXISTS pokedex_dex_map (
+      id TEXT,
+      globalNo TEXT,
+      verID TEXT,
+      language TEXT,
+      dex TEXT
+    )
+  SQL
+end
+
+
+def migrate_pokedex_map_to_dex_map(db)
+  unless table_exists?(db, 'pokedex_description_map')
+    return { migrated: false, rows: 0, reason: 'pokedex_description_map table not found' }
+  end
+
+  columns = table_columns(db, 'pokedex_description_map')
+  unless columns.include?('language') && columns.include?('dex')
+    return { migrated: false, rows: 0, reason: 'pokedex_description_map missing language/dex columns' }
+  end
+
+  legacy_rows = db.get_first_value(<<~SQL)
+    SELECT COUNT(*) FROM pokedex_description_map
+    WHERE (language IS NOT NULL AND TRIM(language) <> '')
+       OR (dex IS NOT NULL AND TRIM(dex) <> '')
+  SQL
+  if legacy_rows.to_i.zero?
+    return { migrated: false, rows: 0, reason: 'pokedex_description_map has no legacy language/dex data' }
+  end
+
+  db.execute('DELETE FROM pokedex_dex_map')
+  db.execute(<<~SQL)
+    INSERT INTO pokedex_dex_map (id, globalNo, verID, language, dex)
+    SELECT id, globalNo, verID, language, dex FROM pokedex_description_map
+  SQL
+
+  count = db.get_first_value('SELECT COUNT(*) FROM pokedex_dex_map')
+  { migrated: true, rows: count, reason: nil }
+end
+
+
+def rebuild_pokedex_dex_map_from_map(db)
+  db.execute('DELETE FROM pokedex_dex_map')
+  db.execute(<<~SQL)
+    INSERT INTO pokedex_dex_map (id, globalNo, verID, language, dex)
+    SELECT id, globalNo, verID, language, dex FROM pokedex_description_map
+  SQL
+
+  count = db.get_first_value('SELECT COUNT(*) FROM pokedex_dex_map')
+  { rows: count }
+end
+
+
+def import_pokedex_description_dex(db, dex_path)
   stats = {
     rows: 0,
     inserted: 0,
-    skipped_missing_map: 0,
     skipped_empty_dex: 0
   }
 
   header_set = nil
   active_mapping = LANGUAGE_MAPPING
-  insert_sql = 'INSERT INTO pokedex_map (id, globalNo, verID, language, dex) VALUES (?, ?, ?, ?, ?)'
-  csv_table = read_csv_with_normalized_newlines(dex_all_path)
+  insert_sql = 'INSERT INTO pokedex_description_dex (id, globalNo, verID, language, dex) VALUES (?, ?, ?, ?, ?)'
+  csv_table = read_csv_with_normalized_newlines(dex_path)
 
   stmt = db.prepare(insert_sql)
   begin
@@ -103,18 +197,12 @@ def import_pokedex_map(db, dex_all_path, verid_map)
         header_set = row.headers.compact
         active_mapping = LANGUAGE_MAPPING.select { |csv_col, _| header_set.include?(csv_col) }
         missing = LANGUAGE_MAPPING.keys - active_mapping.keys
-        warn "Warning: missing columns in dex_all.csv: #{missing.join(', ')}" unless missing.empty?
+        warn "Warning: missing columns in dex.csv: #{missing.join(', ')}" unless missing.empty?
       end
 
       id = row['ID']&.strip
       ver_id = row['verID']&.strip
       next if id.nil? || id.empty? || ver_id.nil? || ver_id.empty?
-
-      combined = verid_map.dig(id, ver_id)
-      unless combined && !combined.empty?
-        stats[:skipped_missing_map] += 1
-        next
-      end
 
       global_no = id[0, 4]
       row_inserted = 0
@@ -122,7 +210,7 @@ def import_pokedex_map(db, dex_all_path, verid_map)
         dex_text = row[csv_col]
         next if dex_text.nil? || dex_text.to_s.strip.empty?
 
-        stmt.execute(id, global_no, combined, language, dex_text)
+        stmt.execute(id, global_no, ver_id, language, dex_text)
         row_inserted += 1
       end
 
@@ -136,13 +224,54 @@ def import_pokedex_map(db, dex_all_path, verid_map)
   stats
 end
 
-unless File.exist?(DEX_ALL_PATH)
-  STDERR.puts "dex_all.csv not found: #{DEX_ALL_PATH}"
+
+def import_pokedex_description_map(db, map_path)
+  stats = {
+    rows: 0,
+    inserted: 0,
+    skipped_empty_verid: 0
+  }
+  insert_sql = 'INSERT INTO pokedex_description_map (id, globalNo, verID, language, dex) VALUES (?, ?, ?, ?, ?)'
+  csv_table = read_csv_with_normalized_newlines(map_path)
+
+  stmt = db.prepare(insert_sql)
+  begin
+    csv_table.each do |row|
+      stats[:rows] += 1
+
+      id = row['ID']&.strip
+      next if id.nil? || id.empty?
+
+      ver_ids = VERID_COLUMNS.filter_map do |column|
+        value = row[column]
+        value = value.nil? ? '' : value.to_s.strip
+        value.empty? ? nil : value
+      end
+
+      if ver_ids.empty?
+        stats[:skipped_empty_verid] += 1
+        next
+      end
+
+      combined = ver_ids.join(',')
+      global_no = id[0, 4]
+      stmt.execute(id, global_no, combined, nil, nil)
+      stats[:inserted] += 1
+    end
+  ensure
+    stmt.close
+  end
+
+  stats
+end
+
+unless File.exist?(DEX_PATH)
+  STDERR.puts "dex.csv not found: #{DEX_PATH}"
   exit 1
 end
 
-unless File.exist?(DEX_MAP_PATH)
-  STDERR.puts "dex_map.csv not found: #{DEX_MAP_PATH}"
+unless File.exist?(MAP_PATH)
+  STDERR.puts "map.csv not found: #{MAP_PATH}"
   exit 1
 end
 
@@ -151,30 +280,76 @@ unless File.exist?(DB_PATH)
   exit 1
 end
 
-puts 'Building verID group map...'
-verid_map = build_verid_group_map(DEX_MAP_PATH)
-puts "Loaded verID group map entries: #{verid_map.values.sum(&:size)}"
-
 puts 'Opening database...'
 db = SQLite3::Database.new(DB_PATH)
+db.busy_timeout = 5000
 
-ensure_pokedex_map_table(db)
-puts 'Clearing pokedex_map table...'
-db.execute('DELETE FROM pokedex_map')
+ensure_pokedex_description_dex_table(db)
+ensure_pokedex_description_map_table(db)
+ensure_pokedex_dex_map_table(db)
 
-stats = nil
-puts 'Importing pokedex_map rows...'
-db.transaction do
-  stats = import_pokedex_map(db, DEX_ALL_PATH, verid_map)
+puts 'Migrating existing pokedex_description_map -> pokedex_dex_map...'
+migration = nil
+with_retry('migration') do
+  db.transaction do
+    migration = migrate_pokedex_map_to_dex_map(db)
+  end
+end
+if migration[:migrated]
+  puts "Migrated rows: #{migration[:rows]}"
+else
+  warn "Skipped migration: #{migration[:reason]}"
+end
+
+puts 'Clearing pokedex_description_dex table...'
+with_retry('clear pokedex_description_dex') do
+  db.execute('DELETE FROM pokedex_description_dex')
+end
+puts 'Clearing pokedex_description_map table...'
+with_retry('clear pokedex_description_map') do
+  db.execute('DELETE FROM pokedex_description_map')
+end
+
+stats_dex = nil
+stats_map = nil
+puts 'Importing pokedex_description_dex rows (dex.csv)...'
+with_retry('import pokedex_description_dex') do
+  db.transaction do
+    stats_dex = import_pokedex_description_dex(db, DEX_PATH)
+  end
+end
+
+puts 'Importing pokedex_description_map rows (map.csv)...'
+with_retry('import pokedex_description_map') do
+  db.transaction do
+    stats_map = import_pokedex_description_map(db, MAP_PATH)
+  end
+end
+
+unless migration[:migrated]
+  rebuild = nil
+  puts 'Rebuilding pokedex_dex_map from current pokedex_description_map...'
+  with_retry('rebuild pokedex_dex_map') do
+    db.transaction do
+      rebuild = rebuild_pokedex_dex_map_from_map(db)
+    end
+  end
+  puts "Rebuilt rows: #{rebuild[:rows]}"
 end
 
 puts 'Done.'
-puts "Rows processed: #{stats[:rows]}"
-puts "Inserted rows: #{stats[:inserted]}"
-puts "Skipped (missing verID map): #{stats[:skipped_missing_map]}"
-puts "Skipped (empty dex rows): #{stats[:skipped_empty_dex]}"
+puts "[pokedex_description_dex] Rows processed: #{stats_dex[:rows]}"
+puts "[pokedex_description_dex] Inserted rows: #{stats_dex[:inserted]}"
+puts "[pokedex_description_dex] Skipped (empty dex rows): #{stats_dex[:skipped_empty_dex]}"
+puts "[pokedex_description_map] Rows processed: #{stats_map[:rows]}"
+puts "[pokedex_description_map] Inserted rows: #{stats_map[:inserted]}"
+puts "[pokedex_description_map] Skipped (empty verID rows): #{stats_map[:skipped_empty_verid]}"
 
-count = db.get_first_value('SELECT COUNT(*) FROM pokedex_map')
-puts "pokedex_map count: #{count}"
+count_dex = db.get_first_value('SELECT COUNT(*) FROM pokedex_description_dex')
+count_map = db.get_first_value('SELECT COUNT(*) FROM pokedex_description_map')
+count_dex_map = db.get_first_value('SELECT COUNT(*) FROM pokedex_dex_map')
+puts "pokedex_description_dex count: #{count_dex}"
+puts "pokedex_description_map count: #{count_map}"
+puts "pokedex_dex_map count: #{count_dex_map}"
 
 db.close
