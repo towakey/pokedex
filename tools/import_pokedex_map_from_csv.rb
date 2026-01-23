@@ -164,11 +164,25 @@ def migrate_pokedex_map_to_dex_map(db)
 end
 
 
-def rebuild_pokedex_dex_map_from_map(db)
+def rebuild_pokedex_dex_map_from_description(db)
   db.execute('DELETE FROM pokedex_dex_map')
   db.execute(<<~SQL)
     INSERT INTO pokedex_dex_map (id, globalNo, verID, language, dex)
-    SELECT id, globalNo, verID, language, dex FROM pokedex_description_map
+    SELECT
+      m.id,
+      m.globalNo,
+      m.verID,
+      d.language,
+      d.dex
+    FROM pokedex_description_map m
+    INNER JOIN pokedex_description_dex d
+      ON d.id = m.id
+      AND d.globalNo = m.globalNo
+      AND d.verID = CASE
+        WHEN instr(m.verID, ',') > 0 THEN substr(m.verID, 1, instr(m.verID, ',') - 1)
+        ELSE m.verID
+      END
+    WHERE d.dex IS NOT NULL AND TRIM(d.dex) <> ''
   SQL
 
   count = db.get_first_value('SELECT COUNT(*) FROM pokedex_dex_map')
@@ -328,10 +342,10 @@ end
 
 unless migration[:migrated]
   rebuild = nil
-  puts 'Rebuilding pokedex_dex_map from current pokedex_description_map...'
+  puts 'Rebuilding pokedex_dex_map from pokedex_description_* tables...'
   with_retry('rebuild pokedex_dex_map') do
     db.transaction do
-      rebuild = rebuild_pokedex_dex_map_from_map(db)
+      rebuild = rebuild_pokedex_dex_map_from_description(db)
     end
   end
   puts "Rebuilt rows: #{rebuild[:rows]}"
