@@ -135,14 +135,95 @@ try {
             $pokemonId = $row['id'];
         }
 
-        // 該当する説明文を取得
-        $descriptions = $db->query(
-            "SELECT ver, version, pokedex, description FROM local_pokedex_description WHERE id = :id AND language = :language ORDER BY ver ASC",
-            [
-                ':id' => $pokemonId,
-                ':language' => $languageParam
-            ]
-        );
+        // 常に pokedex_description_dex から取得
+        $localMapping = $pokedexConfig['local_pokedex_mapping'] ?? [];
+        $dexRows = [];
+
+        $baseId = $pokemonId;
+        if (strpos($baseId, '_') !== false) {
+            $baseId = explode('_', $baseId)[0];
+        }
+
+        $globalNoStr = null;
+        if ($globalNo !== null && trim((string) $globalNo) !== '') {
+            $globalNoStr = sprintf("%04d", intval($globalNo));
+        } else {
+            $globalRow = $db->querySingle(
+                "SELECT globalNo FROM pokedex WHERE id = :id OR id LIKE :id_pattern LIMIT 1",
+                [':id' => $pokemonId, ':id_pattern' => $pokemonId . '%']
+            );
+            if ($globalRow && isset($globalRow['globalNo'])) {
+                $globalNoStr = sprintf("%04d", intval($globalRow['globalNo']));
+            }
+        }
+
+        if ($languageParam === 'jpn') {
+            if ($globalNoStr !== null) {
+                $dexRows = $db->query(
+                    "SELECT verID, language, dex FROM pokedex_description_dex WHERE globalNo = :globalNoStr AND language IN ('jpn', 'jpn_kana', 'jpn_kanji') ORDER BY verID ASC",
+                    [
+                        ':globalNoStr' => $globalNoStr
+                    ]
+                );
+            } else {
+                $dexRows = $db->query(
+                    "SELECT verID, language, dex FROM pokedex_description_dex WHERE id LIKE :id_pattern AND language IN ('jpn', 'jpn_kana', 'jpn_kanji') ORDER BY verID ASC",
+                    [
+                        ':id_pattern' => $baseId . '%'
+                    ]
+                );
+            }
+        } else {
+            if ($globalNoStr !== null) {
+                $dexRows = $db->query(
+                    "SELECT verID, language, dex FROM pokedex_description_dex WHERE globalNo = :globalNoStr AND language = :language ORDER BY verID ASC",
+                    [
+                        ':globalNoStr' => $globalNoStr,
+                        ':language' => $languageParam
+                    ]
+                );
+            } else {
+                $dexRows = $db->query(
+                    "SELECT verID, language, dex FROM pokedex_description_dex WHERE id LIKE :id_pattern AND language = :language ORDER BY verID ASC",
+                    [
+                        ':id_pattern' => $baseId . '%',
+                        ':language' => $languageParam
+                    ]
+                );
+            }
+        }
+
+        $descriptions = [];
+        foreach ($dexRows as $row) {
+            $verId = $row['verID'] ?? '';
+            if ($verId === '') {
+                continue;
+            }
+
+            $verInfo = $versionMapping[$verId] ?? null;
+            $verName = $verInfo['name_eng'] ?? $verId;
+            $versionKey = $verInfo['version'] ?? null;
+
+            $pokedexName = $verName;
+            if ($versionKey && isset($localMapping[$versionKey]['pokedex']) && is_array($localMapping[$versionKey]['pokedex'])) {
+                $pokedexEntry = $localMapping[$versionKey]['pokedex'][0] ?? null;
+                if (is_array($pokedexEntry) && isset($pokedexEntry['jpn'])) {
+                    $pokedexName = $pokedexEntry['jpn'];
+                }
+            }
+
+            $normalizedLanguage = $row['language'] ?? $languageParam;
+            if ($normalizedLanguage === 'jpn_kana' || $normalizedLanguage === 'jpn_kanji') {
+                $normalizedLanguage = 'jpn';
+            }
+
+            $descriptions[] = [
+                'ver' => $verName,
+                'version' => $versionKey ?? $verName,
+                'pokedex' => $pokedexName,
+                'description' => $row['dex'] ?? ''
+            ];
+        }
 
         echo json_encode([
             'success' => true,
