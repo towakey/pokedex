@@ -459,9 +459,9 @@ try {
         // noパラメータを4桁の文字列にフォーマット
         $globalNoStr = sprintf("%04d", intval($no));
 
-        // pokedex_mapから直接取得
+        // pokedex_description_mapから直接取得
         $mapData = $db->query(
-            "SELECT id, verID, language, dex FROM pokedex_map WHERE globalNo = :globalNoStr ORDER BY id ASC, verID ASC, language ASC",
+            "SELECT id, verID FROM pokedex_description_map WHERE globalNo = :globalNoStr ORDER BY id ASC, verID ASC",
             [':globalNoStr' => $globalNoStr]
         );
 
@@ -487,10 +487,12 @@ try {
         // ポケモンID -> verID(グループ文字列) -> 言語 の形に整形
         $dataById = [];
         foreach ($mapData as $row) {
-            $pokemonId = $row['id'];
+            $rowId = $row['id'] ?? '';
+            if ($rowId === '') {
+                continue;
+            }
+            $pokemonId = (strpos($rowId, '_0_000_0') !== false) ? $rowId : ($rowId . '_0_000_0');
             $verGroupKey = isset($row['verID']) ? trim($row['verID']) : '';
-            $language = $row['language'];
-            $dex = $row['dex'];
 
             if ($verGroupKey === '') {
                 continue;
@@ -502,8 +504,6 @@ try {
             if (!isset($dataById[$pokemonId][$verGroupKey])) {
                 $dataById[$pokemonId][$verGroupKey] = [];
             }
-
-            $dataById[$pokemonId][$verGroupKey][$language] = $dex;
         }
 
         // 個別バージョン表示用の説明文はpokedex_description_dexから取得
@@ -604,12 +604,14 @@ try {
 
                 $representativeVerId = $verIds[count($verIds) - 1];
 
+                $commonDex = $dexById[$pokemonId][$representativeVerId] ?? [];
+
                 $groupEntry = [
                     'raw_ver_group' => $verGroupKey,
                     'ver_ids' => $verIds,
                     'version_names' => $versionNames,
                     'representative_ver_id' => $representativeVerId,
-                    'common' => $langData,
+                    'common' => $commonDex,
                 ];
 
                 // 各バージョン名でもアクセスできるようにエイリアスを付与
