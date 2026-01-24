@@ -506,6 +506,62 @@ try {
             $dataById[$pokemonId][$verGroupKey][$language] = $dex;
         }
 
+        // 個別バージョン表示用の説明文はpokedex_description_dexから取得
+        $dexById = [];
+        foreach ($dataById as $pokemonId => $verGroupData) {
+            $descriptionId = str_replace('_0_000_0', '', $pokemonId);
+            $verIdSet = [];
+            foreach ($verGroupData as $verGroupKey => $_) {
+                $verIds = array_values(array_filter(array_map('trim', explode(',', $verGroupKey)), function ($value) {
+                    return $value !== '';
+                }));
+                foreach ($verIds as $vid) {
+                    $verIdSet[$vid] = true;
+                }
+            }
+
+            if (empty($verIdSet)) {
+                continue;
+            }
+
+            $verIdList = array_keys($verIdSet);
+            $placeholders = [];
+            $params = [':globalNoStr' => $globalNoStr, ':id' => $descriptionId];
+            foreach ($verIdList as $index => $verId) {
+                $placeholder = ':ver' . $index;
+                $placeholders[] = $placeholder;
+                $params[$placeholder] = $verId;
+            }
+
+            $rows = $db->query(
+                "SELECT verID, language, dex FROM pokedex_description_dex WHERE globalNo = :globalNoStr AND id = :id AND verID IN (" . implode(',', $placeholders) . ") ORDER BY verID ASC, language ASC",
+                $params
+            );
+
+            foreach ($rows as $row) {
+                $verId = $row['verID'] ?? '';
+                $language = $row['language'] ?? '';
+                $dex = $row['dex'] ?? '';
+                if ($verId === '' || $language === '') {
+                    continue;
+                }
+
+                if ($language === 'jpn_kana' || $language === 'jpn_kanji') {
+                    $language = 'jpn';
+                }
+
+                if (!isset($dexById[$pokemonId])) {
+                    $dexById[$pokemonId] = [];
+                }
+                if (!isset($dexById[$pokemonId][$verId])) {
+                    $dexById[$pokemonId][$verId] = [];
+                }
+                if (!array_key_exists($language, $dexById[$pokemonId][$verId]) || $dexById[$pokemonId][$verId][$language] === '') {
+                    $dexById[$pokemonId][$verId][$language] = $dex;
+                }
+            }
+        }
+
         // verIDグループごとに整形
         $allDescriptions = [];
         foreach ($dataById as $pokemonId => $verGroupData) {
@@ -574,7 +630,17 @@ try {
                         $index++;
                     }
 
-                    $groupEntry[$candidateKey] = $langData;
+                    $versionDex = $dexById[$pokemonId][$singleVerId] ?? [];
+                    $languageKeys = array_unique(array_merge(array_keys($langData), array_keys($versionDex)));
+                    $versionEntry = [];
+                    foreach ($languageKeys as $languageKey) {
+                        $versionEntry[$languageKey] = '';
+                    }
+                    foreach ($versionDex as $languageKey => $dexValue) {
+                        $versionEntry[$languageKey] = $dexValue;
+                    }
+
+                    $groupEntry[$candidateKey] = $versionEntry;
                 }
 
                 $groupedDescriptions[$groupKey] = $groupEntry;
@@ -1292,33 +1358,74 @@ try {
 
                     if (!empty($descriptionKeys)) {
                         $descriptionParams = [
-                            ':id' => $row['id'],
-                            ':version' => $validRegions[$region][1]
+                            ':id' => $row['id']
                         ];
                         $descriptionPlaceholders = [];
-                        foreach ($descriptionKeys as $index => $verKey) {
-                            $placeholder = ':ver' . $index;
-                            $descriptionPlaceholders[] = $placeholder;
-                            $descriptionParams[$placeholder] = $verKey;
+                        $targetVerIds = [];
+
+                        foreach ($descriptionVersions as $verKey) {
+                            foreach ($versionMapping as $verId => $info) {
+                                $nameEng = $info['name_eng'] ?? '';
+                                $versionGroup = $info['version'] ?? '';
+                                if ($nameEng === '' || $versionGroup === '') {
+                                    continue;
+                                }
+                                if ($nameEng !== $verKey) {
+                                    continue;
+                                }
+                                if ($versionGroup !== $validRegions[$region][1]) {
+                                    continue;
+                                }
+                                $targetVerIds[] = $verId;
+                            }
                         }
 
-                        $descriptionRows = $db->query(
-                            "SELECT ver, language, description FROM local_pokedex_description WHERE id = :id AND version = :version AND ver IN (" . implode(',', $descriptionPlaceholders) . ")",
-                            $descriptionParams
-                        );
-                        foreach ($descriptionRows as $descriptionRow) {
-                            $verKey = $descriptionRow['ver'] ?? '';
-                            $language = $descriptionRow['language'] ?? '';
-                            if ($verKey === '' || $language === '') {
-                                continue;
+                        $targetVerIds = array_values(array_unique($targetVerIds));
+
+                        foreach ($targetVerIds as $index => $verId) {
+                            $placeholder = ':ver' . $index;
+                            $descriptionPlaceholders[] = $placeholder;
+                            $descriptionParams[$placeholder] = $verId;
+                        }
+
+                        if (!empty($descriptionPlaceholders)) {
+                            $descriptionRows = $db->query(
+                                "SELECT verID, language, dex FROM pokedex_map WHERE id = :id AND verID IN (" . implode(',', $descriptionPlaceholders) . ")",
+                                $descriptionParams
+                            );
+
+                            foreach ($descriptionRows as $descriptionRow) {
+                                $verId = $descriptionRow['verID'] ?? '';
+                                $language = $descriptionRow['language'] ?? '';
+                                if ($verId === '' || $language === '') {
+                                    continue;
+                                }
+
+                                $info = $versionMapping[$verId] ?? null;
+                                $verName = is_array($info) ? ($info['name_eng'] ?? '') : '';
+                                if ($verName === '') {
+                                    continue;
+                                }
+
+                                $mapKey = $verName;
+                                $mapLanguage = $language;
+                                if ($language === 'jpn_kanji') {
+                                    $mapKey = $verName . '_kanji';
+                                    $mapLanguage = 'jpn';
+                                } elseif ($language === 'jpn_kana') {
+                                    $mapLanguage = 'jpn';
+                                }
+
+                                if (!isset($descriptionMap[$mapKey])) {
+                                    continue;
+                                }
+                                if (!array_key_exists($mapLanguage, $descriptionMap[$mapKey])) {
+                                    $descriptionMap[$mapKey][$mapLanguage] = '';
+                                }
+                                if ($descriptionMap[$mapKey][$mapLanguage] === '') {
+                                    $descriptionMap[$mapKey][$mapLanguage] = $descriptionRow['dex'] ?? '';
+                                }
                             }
-                            if (!isset($descriptionMap[$verKey])) {
-                                $descriptionMap[$verKey] = [];
-                            }
-                            if (!array_key_exists($language, $descriptionMap[$verKey])) {
-                                $descriptionMap[$verKey][$language] = '';
-                            }
-                            $descriptionMap[$verKey][$language] = $descriptionRow['description'] ?? '';
                         }
                     }
 
