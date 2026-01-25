@@ -1,5 +1,5 @@
 {
-  "update": "20260103",
+  "update": "20260125",
   "game_version": "legendsza",
   "pokedex": {
     "ミアレ図鑑": {
@@ -22,7 +22,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>の<ruby>葉<rp>(</rp><rt>は</rt><rp>)</rp></ruby>っぱから ほのかに <ruby>甘<rp>(</rp><rt>あま</rt><rp>)</rp></ruby>い <ruby>香<rp>(</rp><rt>かお</rt><rp>)</rp></ruby>りが <ruby>漂<rp>(</rp><rt>ただよ</rt><rp>)</rp></ruby>う。おとなしくて <ruby>日差<rp>(</rp><rt>ひざ</rt><rp>)</rp></ruby>しを <ruby>浴<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>びるのが <ruby>大好<rp>(</rp><rt>だいす</rt><rp>)</rp></ruby>き。"
           }
         }
       },
@@ -45,7 +45,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>首<rp>(</rp><rt>くび</rt><rp>)</rp></ruby>の まわりから <ruby>発散<rp>(</rp><rt>はっさん</rt><rp>)</rp></ruby>する スパイスのような <ruby>香<rp>(</rp><rt>かお</rt><rp>)</rp></ruby>りには <ruby>元気<rp>(</rp><rt>げんき</rt><rp>)</rp></ruby>を <ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>させる <ruby>効果<rp>(</rp><rt>こうか</rt><rp>)</rp></ruby>がある。"
           }
         }
       },
@@ -68,7 +68,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>びらから <ruby>発散<rp>(</rp><rt>はっさん</rt><rp>)</rp></ruby>される においには <ruby>争<rp>(</rp><rt>あらそ</rt><rp>)</rp></ruby>う <ruby>気持<rp>(</rp><rt>きも</rt><rp>)</rp></ruby>ちを <ruby>静<rp>(</rp><rt>しず</rt><rp>)</rp></ruby>める <ruby>成分<rp>(</rp><rt>せいぶん</rt><rp>)</rp></ruby>が <ruby>含<rp>(</rp><rt>ふく</rt><rp>)</rp></ruby>まれる。"
           }
         },
         "0154_00000100_0_000_0": {
@@ -89,7 +89,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>びらから <ruby>発散<rp>(</rp><rt>はっさん</rt><rp>)</rp></ruby>される においには <ruby>争<rp>(</rp><rt>あらそ</rt><rp>)</rp></ruby>う <ruby>気持<rp>(</rp><rt>きも</rt><rp>)</rp></ruby>ちを <ruby>静<rp>(</rp><rt>しず</rt><rp>)</rp></ruby>める <ruby>成分<rp>(</rp><rt>せいぶん</rt><rp>)</rp></ruby>が <ruby>含<rp>(</rp><rt>ふく</rt><rp>)</rp></ruby>まれる。"
           }
         }
       },
@@ -112,7 +112,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>敵<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>の <ruby>攻撃<rp>(</rp><rt>こうげき</rt><rp>)</rp></ruby>を <ruby>身軽<rp>(</rp><rt>みがる</rt><rp>)</rp></ruby>に <ruby>避<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>けて <ruby>鼻<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>から <ruby>火<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>の<ruby>玉<rp>(</rp><rt>たま</rt><rp>)</rp></ruby>を <ruby>撃<rp>(</rp><rt>う</rt><rp>)</rp></ruby>ち<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す。<ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>で <ruby>木<rp>(</rp><rt>き</rt><rp>)</rp></ruby>の<ruby>実<rp>(</rp><rt>み</rt><rp>)</rp></ruby>を <ruby>焼<rp>(</rp><rt>や</rt><rp>)</rp></ruby>いて <ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べる。"
           }
         }
       },
@@ -135,7 +135,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べるほどに <ruby>燃<rp>(</rp><rt>も</rt><rp>)</rp></ruby>やすものが <ruby>増<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>えて <ruby>胃袋内<rp>(</rp><rt>いぶくろない</rt><rp>)</rp></ruby>の <ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>が <ruby>強<rp>(</rp><rt>つよ</rt><rp>)</rp></ruby>まり パワーも どんどん あふれ<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>すのだ。"
           }
         }
       },
@@ -158,7 +158,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>の あごひげを たくわえる。パワーと スピードを <ruby>兼<rp>(</rp><rt>か</rt><rp>)</rp></ruby>ね<ruby>備<rp>(</rp><rt>そな</rt><rp>)</rp></ruby>えた <ruby>格闘<rp>(</rp><rt>かくとう</rt><rp>)</rp></ruby>の <ruby>技<rp>(</rp><rt>わざ</rt><rp>)</rp></ruby>を <ruby>身<rp>(</rp><rt>み</rt><rp>)</rp></ruby>につけている。"
           }
         },
         "0500_00000100_0_000_0": {
@@ -179,7 +179,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>の あごひげを たくわえる。パワーと スピードを <ruby>兼<rp>(</rp><rt>か</rt><rp>)</rp></ruby>ね<ruby>備<rp>(</rp><rt>そな</rt><rp>)</rp></ruby>えた <ruby>格闘<rp>(</rp><rt>かくとう</rt><rp>)</rp></ruby>の <ruby>技<rp>(</rp><rt>わざ</rt><rp>)</rp></ruby>を <ruby>身<rp>(</rp><rt>み</rt><rp>)</rp></ruby>につけている。"
           }
         }
       },
@@ -202,7 +202,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>小<rp>(</rp><rt>ちい</rt><rp>)</rp></ruby>さいながらも <ruby>暴<rp>(</rp><rt>あば</rt><rp>)</rp></ruby>れん<ruby>坊<rp>(</rp><rt>ぼう</rt><rp>)</rp></ruby>。<ruby>目<rp>(</rp><rt>め</rt><rp>)</rp></ruby>の<ruby>前<rp>(</rp><rt>まえ</rt><rp>)</rp></ruby>で <ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>くものが あれば とにかく <ruby>噛<rp>(</rp><rt>か</rt><rp>)</rp></ruby>みついてくる。"
           }
         }
       },
@@ -225,7 +225,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "キバは <ruby>抜<rp>(</rp><rt>ぬ</rt><rp>)</rp></ruby>けても <ruby>次<rp>(</rp><rt>つぎ</rt><rp>)</rp></ruby>から <ruby>次<rp>(</rp><rt>つぎ</rt><rp>)</rp></ruby>に <ruby>生<rp>(</rp><rt>は</rt><rp>)</rp></ruby>えてくる。いつも <ruby>口<rp>(</rp><rt>くち</rt><rp>)</rp></ruby>の<ruby>中<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>には ４８<ruby>本<rp>(</rp><rt>ぽん</rt><rp>)</rp></ruby>の キバが そろっている。"
           }
         }
       },
@@ -248,7 +248,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>普段<rp>(</rp><rt>ふだん</rt><rp>)</rp></ruby>は ゆっくりとした <ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>きだが <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>に <ruby>噛<rp>(</rp><rt>か</rt><rp>)</rp></ruby>みつくときは <ruby>目<rp>(</rp><rt>め</rt><rp>)</rp></ruby>にも とまらない スピードだ。"
           }
         },
         "0160_00000100_0_000_0": {
@@ -269,7 +269,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>普段<rp>(</rp><rt>ふだん</rt><rp>)</rp></ruby>は ゆっくりとした <ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>きだが <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>に <ruby>噛<rp>(</rp><rt>か</rt><rp>)</rp></ruby>みつくときは <ruby>目<rp>(</rp><rt>め</rt><rp>)</rp></ruby>にも とまらない スピードだ。"
           }
         }
       },
@@ -292,7 +292,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "さえずる <ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>は <ruby>美<rp>(</rp><rt>うつく</rt><rp>)</rp></ruby>しいが <ruby>縄張<rp>(</rp><rt>なわば</rt><rp>)</rp></ruby>りに <ruby>入<rp>(</rp><rt>はい</rt><rp>)</rp></ruby>った <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>は <ruby>容赦<rp>(</rp><rt>ようしゃ</rt><rp>)</rp></ruby>しない <ruby>荒々<rp>(</rp><rt>あらあら</rt><rp>)</rp></ruby>しさだ。"
           }
         }
       },
@@ -315,7 +315,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "お<ruby>腹<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>の <ruby>炎袋<rp>(</rp><rt>ほのおぶくろ</rt><rp>)</rp></ruby>の <ruby>火力<rp>(</rp><rt>かりょく</rt><rp>)</rp></ruby>が <ruby>強<rp>(</rp><rt>つよ</rt><rp>)</rp></ruby>まるほど <ruby>速<rp>(</rp><rt>はや</rt><rp>)</rp></ruby>く <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>べるが <ruby>点火<rp>(</rp><rt>てんか</rt><rp>)</rp></ruby>するまで <ruby>時間<rp>(</rp><rt>じかん</rt><rp>)</rp></ruby>が かかる。"
           }
         }
       },
@@ -338,7 +338,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>激<rp>(</rp><rt>はげ</rt><rp>)</rp></ruby>しい <ruby>戦<rp>(</rp><rt>たたか</rt><rp>)</rp></ruby>いで <ruby>興奮<rp>(</rp><rt>こうふん</rt><rp>)</rp></ruby>すると <ruby>全身<rp>(</rp><rt>ぜんしん</rt><rp>)</rp></ruby>の <ruby>羽毛<rp>(</rp><rt>うもう</rt><rp>)</rp></ruby>の <ruby>隙間<rp>(</rp><rt>すきま</rt><rp>)</rp></ruby>から <ruby>火<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>の<ruby>粉<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>を <ruby>噴<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>して <ruby>飛行<rp>(</rp><rt>ひこう</rt><rp>)</rp></ruby>する。"
           }
         }
       },
@@ -361,7 +361,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きな <ruby>耳<rp>(</rp><rt>みみ</rt><rp>)</rp></ruby>で <ruby>地面<rp>(</rp><rt>じめん</rt><rp>)</rp></ruby>を <ruby>掘<rp>(</rp><rt>ほ</rt><rp>)</rp></ruby>って <ruby>巣穴<rp>(</rp><rt>すあな</rt><rp>)</rp></ruby>を <ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>る。<ruby>一晩中<rp>(</rp><rt>ひとばんじゅう</rt><rp>)</rp></ruby> <ruby>休<rp>(</rp><rt>やす</rt><rp>)</rp></ruby>まずに <ruby>掘<rp>(</rp><rt>ほ</rt><rp>)</rp></ruby>り<ruby>続<rp>(</rp><rt>つづ</rt><rp>)</rp></ruby>けられる。"
           }
         }
       },
@@ -384,7 +384,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きな <ruby>耳<rp>(</rp><rt>みみ</rt><rp>)</rp></ruby>は １トンを <ruby>超<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>える <ruby>岩<rp>(</rp><rt>いわ</rt><rp>)</rp></ruby>を <ruby>楽<rp>(</rp><rt>らく</rt><rp>)</rp></ruby>に <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>ち<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げる パワー。<ruby>工事現場<rp>(</rp><rt>こうじげんば</rt><rp>)</rp></ruby>で <ruby>大活躍<rp>(</rp><rt>だいかつやく</rt><rp>)</rp></ruby>する。"
           }
         }
       },
@@ -407,7 +407,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を <ruby>覆<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>う <ruby>粉<rp>(</rp><rt>こな</rt><rp>)</rp></ruby>が <ruby>体温<rp>(</rp><rt>たいおん</rt><rp>)</rp></ruby>を <ruby>調節<rp>(</rp><rt>ちょうせつ</rt><rp>)</rp></ruby>するので どんな <ruby>気候<rp>(</rp><rt>きこう</rt><rp>)</rp></ruby>や <ruby>風土<rp>(</rp><rt>ふうど</rt><rp>)</rp></ruby>の <ruby>地域<rp>(</rp><rt>ちいき</rt><rp>)</rp></ruby>でも <ruby>暮<rp>(</rp><rt>く</rt><rp>)</rp></ruby>らせる。"
           }
         }
       },
@@ -430,7 +430,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "しげみの <ruby>陰<rp>(</rp><rt>かげ</rt><rp>)</rp></ruby>に <ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>れて <ruby>暮<rp>(</rp><rt>く</rt><rp>)</rp></ruby>らす。<ruby>敵<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>に <ruby>襲<rp>(</rp><rt>おそ</rt><rp>)</rp></ruby>われると <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>の <ruby>毛<rp>(</rp><rt>け</rt><rp>)</rp></ruby>を <ruby>鋭<rp>(</rp><rt>するど</rt><rp>)</rp></ruby>く <ruby>逆立<rp>(</rp><rt>さかだ</rt><rp>)</rp></ruby>てて <ruby>威嚇<rp>(</rp><rt>いかく</rt><rp>)</rp></ruby>する。"
           }
         }
       },
@@ -453,7 +453,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>生<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まれた <ruby>土地<rp>(</rp><rt>とち</rt><rp>)</rp></ruby>の <ruby>気候<rp>(</rp><rt>きこう</rt><rp>)</rp></ruby>や <ruby>風土<rp>(</rp><rt>ふうど</rt><rp>)</rp></ruby>の <ruby>影響<rp>(</rp><rt>えいきょう</rt><rp>)</rp></ruby>により <ruby>模様<rp>(</rp><rt>もよう</rt><rp>)</rp></ruby>が <ruby>変<rp>(</rp><rt>か</rt><rp>)</rp></ruby>わる。<ruby>極寒<rp>(</rp><rt>ごっかん</rt><rp>)</rp></ruby>の <ruby>土地<rp>(</rp><rt>とち</rt><rp>)</rp></ruby>の <ruby>姿<rp>(</rp><rt>すがた</rt><rp>)</rp></ruby>。"
           }
         }
       },
@@ -476,7 +476,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>森<rp>(</rp><rt>もり</rt><rp>)</rp></ruby>や <ruby>草地<rp>(</rp><rt>くさち</rt><rp>)</rp></ruby>に <ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>く <ruby>生息<rp>(</rp><rt>せいそく</rt><rp>)</rp></ruby>。<ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>の <ruby>先<rp>(</rp><rt>さき</rt><rp>)</rp></ruby>に ５センチぐらいの <ruby>小<rp>(</rp><rt>ちい</rt><rp>)</rp></ruby>さく <ruby>鋭<rp>(</rp><rt>するど</rt><rp>)</rp></ruby>い <ruby>毒針<rp>(</rp><rt>どくばり</rt><rp>)</rp></ruby>を<ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>つ。"
           }
         }
       },
@@ -499,7 +499,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>自分<rp>(</rp><rt>じぶん</rt><rp>)</rp></ruby>では ほとんど <ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>けないが <ruby>危<rp>(</rp><rt>あぶ</rt><rp>)</rp></ruby>ないときは <ruby>硬<rp>(</rp><rt>かた</rt><rp>)</rp></ruby>くなって <ruby>身<rp>(</rp><rt>み</rt><rp>)</rp></ruby>を<ruby>守<rp>(</rp><rt>まも</rt><rp>)</rp></ruby>っているようだ。"
           }
         }
       },
@@ -522,7 +522,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>集団<rp>(</rp><rt>しゅうだん</rt><rp>)</rp></ruby>で <ruby>現<rp>(</rp><rt>あらわ</rt><rp>)</rp></ruby>れることもある。<ruby>猛<rp>(</rp><rt>もう</rt><rp>)</rp></ruby>スピードで <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>びまわり お<ruby>尻<rp>(</rp><rt>しり</rt><rp>)</rp></ruby>の <ruby>毒針<rp>(</rp><rt>どくばり</rt><rp>)</rp></ruby>で <ruby>刺<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>しまくる。"
           }
         },
         "0015_00000100_0_000_0": {
@@ -543,7 +543,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>集団<rp>(</rp><rt>しゅうだん</rt><rp>)</rp></ruby>で <ruby>現<rp>(</rp><rt>あらわ</rt><rp>)</rp></ruby>れることもある。<ruby>猛<rp>(</rp><rt>もう</rt><rp>)</rp></ruby>スピードで <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>びまわり お<ruby>尻<rp>(</rp><rt>しり</rt><rp>)</rp></ruby>の <ruby>毒針<rp>(</rp><rt>どくばり</rt><rp>)</rp></ruby>で <ruby>刺<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>しまくる。"
           }
         }
       },
@@ -566,7 +566,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>戦<rp>(</rp><rt>たたか</rt><rp>)</rp></ruby>いを <ruby>好<rp>(</rp><rt>この</rt><rp>)</rp></ruby>まない おとなしい <ruby>性格<rp>(</rp><rt>せいかく</rt><rp>)</rp></ruby>だが <ruby>下手<rp>(</rp><rt>へた</rt><rp>)</rp></ruby>に <ruby>手<rp>(</rp><rt>て</rt><rp>)</rp></ruby>を <ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>すと <ruby>強烈<rp>(</rp><rt>きょうれつ</rt><rp>)</rp></ruby>に <ruby>反撃<rp>(</rp><rt>はんげき</rt><rp>)</rp></ruby>されるぞ。"
           }
         }
       },
@@ -589,7 +589,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>広<rp>(</rp><rt>ひろ</rt><rp>)</rp></ruby>い <ruby>縄張<rp>(</rp><rt>なわば</rt><rp>)</rp></ruby>りを <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>っており <ruby>侵入<rp>(</rp><rt>しんにゅう</rt><rp>)</rp></ruby>する <ruby>邪魔者<rp>(</rp><rt>じゃまもの</rt><rp>)</rp></ruby>は <ruby>徹底的<rp>(</rp><rt>てっていてき</rt><rp>)</rp></ruby>に つつかれてしまう。"
           }
         }
       },
@@ -612,7 +612,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "エサを <ruby>探<rp>(</rp><rt>さが</rt><rp>)</rp></ruby>すとき <ruby>水面<rp>(</rp><rt>すいめん</rt><rp>)</rp></ruby> すれすれを <ruby>滑<rp>(</rp><rt>すべ</rt><rp>)</rp></ruby>るように <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>んで コイキングなどを わしづかみにする。"
           }
         },
         "0018_00000100_0_000_0": {
@@ -633,7 +633,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "エサを <ruby>探<rp>(</rp><rt>さが</rt><rp>)</rp></ruby>すとき <ruby>水面<rp>(</rp><rt>すいめん</rt><rp>)</rp></ruby> すれすれを <ruby>滑<rp>(</rp><rt>すべ</rt><rp>)</rp></ruby>るように <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>んで コイキングなどを わしづかみにする。"
           }
         }
       },
@@ -656,7 +656,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ふわふわの <ruby>体毛<rp>(</rp><rt>たいもう</rt><rp>)</rp></ruby>は <ruby>静電気<rp>(</rp><rt>せいでんき</rt><rp>)</rp></ruby>が <ruby>溜<rp>(</rp><rt>た</rt><rp>)</rp></ruby>まると ２<ruby>倍<rp>(</rp><rt>ばい</rt><rp>)</rp></ruby>に ふくらむ。<ruby>触<rp>(</rp><rt>さわ</rt><rp>)</rp></ruby>ると <ruby>感電<rp>(</rp><rt>かんでん</rt><rp>)</rp></ruby>してしまう。"
           }
         }
       },
@@ -679,7 +679,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体毛<rp>(</rp><rt>たいもう</rt><rp>)</rp></ruby>に <ruby>溜<rp>(</rp><rt>た</rt><rp>)</rp></ruby>めた <ruby>電気<rp>(</rp><rt>でんき</rt><rp>)</rp></ruby>が <ruby>満<rp>(</rp><rt>まん</rt><rp>)</rp></ruby>タンになると <ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>が <ruby>光<rp>(</rp><rt>ひか</rt><rp>)</rp></ruby>る。<ruby>触<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>れると しびれる <ruby>毛<rp>(</rp><rt>け</rt><rp>)</rp></ruby>を <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ばす。"
           }
         }
       },
@@ -702,7 +702,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>の <ruby>先<rp>(</rp><rt>さき</rt><rp>)</rp></ruby>が <ruby>光<rp>(</rp><rt>ひか</rt><rp>)</rp></ruby>り<ruby>輝<rp>(</rp><rt>かがや</rt><rp>)</rp></ruby>く。<ruby>光<rp>(</rp><rt>ひかり</rt><rp>)</rp></ruby>は はるか <ruby>遠<rp>(</rp><rt>とお</rt><rp>)</rp></ruby>くまで <ruby>届<rp>(</rp><rt>とど</rt><rp>)</rp></ruby>き <ruby>迷<rp>(</rp><rt>まよ</rt><rp>)</rp></ruby>った<ruby>者<rp>(</rp><rt>もの</rt><rp>)</rp></ruby>の <ruby>道標<rp>(</rp><rt>みちしるべ</rt><rp>)</rp></ruby>となる。"
           }
         },
         "0181_00000100_0_000_0": {
@@ -723,7 +723,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>の <ruby>先<rp>(</rp><rt>さき</rt><rp>)</rp></ruby>が <ruby>光<rp>(</rp><rt>ひか</rt><rp>)</rp></ruby>り<ruby>輝<rp>(</rp><rt>かがや</rt><rp>)</rp></ruby>く。<ruby>光<rp>(</rp><rt>ひかり</rt><rp>)</rp></ruby>は はるか <ruby>遠<rp>(</rp><rt>とお</rt><rp>)</rp></ruby>くまで <ruby>届<rp>(</rp><rt>とど</rt><rp>)</rp></ruby>き <ruby>迷<rp>(</rp><rt>まよ</rt><rp>)</rp></ruby>った<ruby>者<rp>(</rp><rt>もの</rt><rp>)</rp></ruby>の <ruby>道標<rp>(</rp><rt>みちしるべ</rt><rp>)</rp></ruby>となる。"
           }
         }
       },
@@ -746,7 +746,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>頬<rp>(</rp><rt>ほほ</rt><rp>)</rp></ruby>の <ruby>袋<rp>(</rp><rt>ふくろ</rt><rp>)</rp></ruby>に エサを <ruby>溜<rp>(</rp><rt>た</rt><rp>)</rp></ruby>めこみ <ruby>何日<rp>(</rp><rt>なんにち</rt><rp>)</rp></ruby>も <ruby>見張<rp>(</rp><rt>みは</rt><rp>)</rp></ruby>りを <ruby>続<rp>(</rp><rt>つづ</rt><rp>)</rp></ruby>ける。<ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>で <ruby>仲間<rp>(</rp><rt>なかま</rt><rp>)</rp></ruby>に <ruby>合図<rp>(</rp><rt>あいず</rt><rp>)</rp></ruby>する。"
           }
         }
       },
@@ -769,7 +769,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体内<rp>(</rp><rt>たいない</rt><rp>)</rp></ruby>の <ruby>発光物質<rp>(</rp><rt>はっこうぶっしつ</rt><rp>)</rp></ruby>で <ruby>目玉<rp>(</rp><rt>めだま</rt><rp>)</rp></ruby>や <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を <ruby>光<rp>(</rp><rt>ひか</rt><rp>)</rp></ruby>らせ <ruby>襲<rp>(</rp><rt>おそ</rt><rp>)</rp></ruby>ってきた <ruby>敵<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>を ひるませる。"
           }
         }
       },
@@ -792,7 +792,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>暖<rp>(</rp><rt>あたた</rt><rp>)</rp></ruby>かい <ruby>日差<rp>(</rp><rt>ひざ</rt><rp>)</rp></ruby>しを <ruby>浴<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>びると つぼみが <ruby>開<rp>(</rp><rt>ひら</rt><rp>)</rp></ruby>き <ruby>花粉<rp>(</rp><rt>かふん</rt><rp>)</rp></ruby>を <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ばす。きれいな <ruby>水<rp>(</rp><rt>みず</rt><rp>)</rp></ruby>の <ruby>近<rp>(</rp><rt>ちか</rt><rp>)</rp></ruby>くが <ruby>棲<rp>(</rp><rt>す</rt><rp>)</rp></ruby>み<ruby>処<rp>(</rp><rt>か</rt><rp>)</rp></ruby>。"
           }
         }
       },
@@ -815,7 +815,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>右手<rp>(</rp><rt>みぎて</rt><rp>)</rp></ruby>と <ruby>左手<rp>(</rp><rt>ひだりて</rt><rp>)</rp></ruby>で ２<ruby>種類<rp>(</rp><rt>しゅるい</rt><rp>)</rp></ruby>の <ruby>毒<rp>(</rp><rt>どく</rt><rp>)</rp></ruby>を <ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>いわけて <ruby>攻撃<rp>(</rp><rt>こうげき</rt><rp>)</rp></ruby>する。<ruby>香<rp>(</rp><rt>かお</rt><rp>)</rp></ruby>りが <ruby>強<rp>(</rp><rt>つよ</rt><rp>)</rp></ruby>いほど <ruby>元気<rp>(</rp><rt>げんき</rt><rp>)</rp></ruby>だ。"
           }
         }
       },
@@ -838,7 +838,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>甘<rp>(</rp><rt>あま</rt><rp>)</rp></ruby>い <ruby>香<rp>(</rp><rt>かお</rt><rp>)</rp></ruby>りで <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>を <ruby>誘<rp>(</rp><rt>さそ</rt><rp>)</rp></ruby>い <ruby>両腕<rp>(</rp><rt>りょううで</rt><rp>)</rp></ruby>の <ruby>毒<rp>(</rp><rt>どく</rt><rp>)</rp></ruby>のムチを <ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>って <ruby>刺<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>したり <ruby>締<rp>(</rp><rt>し</rt><rp>)</rp></ruby>めたりして <ruby>仕留<rp>(</rp><rt>しと</rt><rp>)</rp></ruby>める。"
           }
         }
       },
@@ -861,7 +861,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>力<rp>(</rp><rt>ちから</rt><rp>)</rp></ruby>も スピードも ほとんどダメ。<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>で <ruby>一番<rp>(</rp><rt>いちばん</rt><rp>)</rp></ruby> <ruby>弱<rp>(</rp><rt>よわ</rt><rp>)</rp></ruby>くて <ruby>情<rp>(</rp><rt>なさ</rt><rp>)</rp></ruby>けない ポケモンだ。"
           }
         }
       },
@@ -884,7 +884,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>争<rp>(</rp><rt>あらそ</rt><rp>)</rp></ruby>いの <ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>こった <ruby>村<rp>(</rp><rt>むら</rt><rp>)</rp></ruby>を <ruby>焼<rp>(</rp><rt>や</rt><rp>)</rp></ruby>きつくしたという <ruby>記録<rp>(</rp><rt>きろく</rt><rp>)</rp></ruby>が <ruby>古文書<rp>(</rp><rt>こもんじょ</rt><rp>)</rp></ruby>に <ruby>残<rp>(</rp><rt>のこ</rt><rp>)</rp></ruby>されている。"
           }
         },
         "0130_00000100_0_000_0": {
@@ -905,7 +905,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>争<rp>(</rp><rt>あらそ</rt><rp>)</rp></ruby>いの <ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>こった <ruby>村<rp>(</rp><rt>むら</rt><rp>)</rp></ruby>を <ruby>焼<rp>(</rp><rt>や</rt><rp>)</rp></ruby>きつくしたという <ruby>記録<rp>(</rp><rt>きろく</rt><rp>)</rp></ruby>が <ruby>古文書<rp>(</rp><rt>こもんじょ</rt><rp>)</rp></ruby>に <ruby>残<rp>(</rp><rt>のこ</rt><rp>)</rp></ruby>されている。"
           }
         }
       },
@@ -928,7 +928,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "２<ruby>匹<rp>(</rp><rt>ひき</rt><rp>)</rp></ruby>の カメテテが ひとつの <ruby>岩<rp>(</rp><rt>いわ</rt><rp>)</rp></ruby>で <ruby>暮<rp>(</rp><rt>く</rt><rp>)</rp></ruby>らす。ケンカすると どちらかが ほかの <ruby>岩<rp>(</rp><rt>いわ</rt><rp>)</rp></ruby>に <ruby>移<rp>(</rp><rt>うつ</rt><rp>)</rp></ruby>る。"
           }
         }
       },
@@ -951,7 +951,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>手足<rp>(</rp><rt>てあし</rt><rp>)</rp></ruby>にも <ruby>脳<rp>(</rp><rt>のう</rt><rp>)</rp></ruby>が あり <ruby>勝手<rp>(</rp><rt>かって</rt><rp>)</rp></ruby>に <ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>けるが <ruby>普段<rp>(</rp><rt>ふだん</rt><rp>)</rp></ruby>は <ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>の ガメノデスの <ruby>命令<rp>(</rp><rt>めいれい</rt><rp>)</rp></ruby>に <ruby>従<rp>(</rp><rt>したが</rt><rp>)</rp></ruby>う。"
           }
         },
         "0689_00000100_0_000_0": {
@@ -972,7 +972,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>手足<rp>(</rp><rt>てあし</rt><rp>)</rp></ruby>にも <ruby>脳<rp>(</rp><rt>のう</rt><rp>)</rp></ruby>が あり <ruby>勝手<rp>(</rp><rt>かって</rt><rp>)</rp></ruby>に <ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>けるが <ruby>普段<rp>(</rp><rt>ふだん</rt><rp>)</rp></ruby>は <ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>の ガメノデスの <ruby>命令<rp>(</rp><rt>めいれい</rt><rp>)</rp></ruby>に <ruby>従<rp>(</rp><rt>したが</rt><rp>)</rp></ruby>う。"
           }
         }
       },
@@ -995,7 +995,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>の <ruby>中心<rp>(</rp><rt>ちゅうしん</rt><rp>)</rp></ruby>で <ruby>光<rp>(</rp><rt>ひか</rt><rp>)</rp></ruby>る コアが ある<ruby>限<rp>(</rp><rt>かぎ</rt><rp>)</rp></ruby>り <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>が ちぎれても <ruby>再生<rp>(</rp><rt>さいせい</rt><rp>)</rp></ruby>できる。"
           }
         }
       },
@@ -1018,7 +1018,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>の <ruby>中心<rp>(</rp><rt>ちゅうしん</rt><rp>)</rp></ruby>にある <ruby>赤<rp>(</rp><rt>あか</rt><rp>)</rp></ruby>いコアから <ruby>夜空<rp>(</rp><rt>よぞら</rt><rp>)</rp></ruby>に <ruby>向<rp>(</rp><rt>む</rt><rp>)</rp></ruby>かって <ruby>謎<rp>(</rp><rt>なぞ</rt><rp>)</rp></ruby>の <ruby>電波<rp>(</rp><rt>でんぱ</rt><rp>)</rp></ruby>を <ruby>発信<rp>(</rp><rt>はっしん</rt><rp>)</rp></ruby>している。"
           }
         },
         "0121_00000100_0_000_0": {
@@ -1039,7 +1039,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>の <ruby>中心<rp>(</rp><rt>ちゅうしん</rt><rp>)</rp></ruby>にある <ruby>赤<rp>(</rp><rt>あか</rt><rp>)</rp></ruby>いコアから <ruby>夜空<rp>(</rp><rt>よぞら</rt><rp>)</rp></ruby>に <ruby>向<rp>(</rp><rt>む</rt><rp>)</rp></ruby>かって <ruby>謎<rp>(</rp><rt>なぞ</rt><rp>)</rp></ruby>の <ruby>電波<rp>(</rp><rt>でんぱ</rt><rp>)</rp></ruby>を <ruby>発信<rp>(</rp><rt>はっしん</rt><rp>)</rp></ruby>している。"
           }
         }
       },
@@ -1062,7 +1062,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>野<rp>(</rp><rt>の</rt><rp>)</rp></ruby>に<ruby>咲<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>く <ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>の <ruby>秘<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>めた <ruby>力<rp>(</rp><rt>ちから</rt><rp>)</rp></ruby>を <ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す <ruby>能力<rp>(</rp><rt>のうりょく</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>っている。とくに <ruby>赤<rp>(</rp><rt>あか</rt><rp>)</rp></ruby>い<ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>が <ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>き。"
           }
         },
         "0669_00000001_0_000_0": {
@@ -1083,7 +1083,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>野<rp>(</rp><rt>の</rt><rp>)</rp></ruby>に<ruby>咲<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>く <ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>の <ruby>秘<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>めた <ruby>力<rp>(</rp><rt>ちから</rt><rp>)</rp></ruby>を <ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す <ruby>能力<rp>(</rp><rt>のうりょく</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>っている。とくに <ruby>赤<rp>(</rp><rt>あか</rt><rp>)</rp></ruby>い<ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>が <ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>き。"
           }
         },
         "0669_00000002_0_000_0": {
@@ -1104,7 +1104,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>野<rp>(</rp><rt>の</rt><rp>)</rp></ruby>に<ruby>咲<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>く <ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>の <ruby>秘<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>めた <ruby>力<rp>(</rp><rt>ちから</rt><rp>)</rp></ruby>を <ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す <ruby>能力<rp>(</rp><rt>のうりょく</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>っている。とくに <ruby>赤<rp>(</rp><rt>あか</rt><rp>)</rp></ruby>い<ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>が <ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>き。"
           }
         },
         "0669_00000003_0_000_0": {
@@ -1125,7 +1125,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>野<rp>(</rp><rt>の</rt><rp>)</rp></ruby>に<ruby>咲<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>く <ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>の <ruby>秘<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>めた <ruby>力<rp>(</rp><rt>ちから</rt><rp>)</rp></ruby>を <ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す <ruby>能力<rp>(</rp><rt>のうりょく</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>っている。とくに <ruby>赤<rp>(</rp><rt>あか</rt><rp>)</rp></ruby>い<ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>が <ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>き。"
           }
         },
         "0669_00000004_0_000_0": {
@@ -1146,7 +1146,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>野<rp>(</rp><rt>の</rt><rp>)</rp></ruby>に<ruby>咲<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>く <ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>の <ruby>秘<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>めた <ruby>力<rp>(</rp><rt>ちから</rt><rp>)</rp></ruby>を <ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す <ruby>能力<rp>(</rp><rt>のうりょく</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>っている。とくに <ruby>赤<rp>(</rp><rt>あか</rt><rp>)</rp></ruby>い<ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>が <ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>き。"
           }
         }
       },
@@ -1169,7 +1169,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>自分<rp>(</rp><rt>じぶん</rt><rp>)</rp></ruby>の エネルギーを <ruby>赤色<rp>(</rp><rt>あかいろ</rt><rp>)</rp></ruby>の <ruby>波長<rp>(</rp><rt>はちょう</rt><rp>)</rp></ruby>に <ruby>乗<rp>(</rp><rt>の</rt><rp>)</rp></ruby>せて <ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>へ <ruby>送<rp>(</rp><rt>おく</rt><rp>)</rp></ruby>り <ruby>潜在能力<rp>(</rp><rt>せんざいのうりょく</rt><rp>)</rp></ruby>を <ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>すのだ。"
           }
         },
         "0670_00000001_0_000_0": {
@@ -1190,7 +1190,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>自分<rp>(</rp><rt>じぶん</rt><rp>)</rp></ruby>の エネルギーを <ruby>赤色<rp>(</rp><rt>あかいろ</rt><rp>)</rp></ruby>の <ruby>波長<rp>(</rp><rt>はちょう</rt><rp>)</rp></ruby>に <ruby>乗<rp>(</rp><rt>の</rt><rp>)</rp></ruby>せて <ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>へ <ruby>送<rp>(</rp><rt>おく</rt><rp>)</rp></ruby>り <ruby>潜在能力<rp>(</rp><rt>せんざいのうりょく</rt><rp>)</rp></ruby>を <ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>すのだ。"
           }
         },
         "0670_00000002_0_000_0": {
@@ -1211,7 +1211,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>自分<rp>(</rp><rt>じぶん</rt><rp>)</rp></ruby>の エネルギーを <ruby>赤色<rp>(</rp><rt>あかいろ</rt><rp>)</rp></ruby>の <ruby>波長<rp>(</rp><rt>はちょう</rt><rp>)</rp></ruby>に <ruby>乗<rp>(</rp><rt>の</rt><rp>)</rp></ruby>せて <ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>へ <ruby>送<rp>(</rp><rt>おく</rt><rp>)</rp></ruby>り <ruby>潜在能力<rp>(</rp><rt>せんざいのうりょく</rt><rp>)</rp></ruby>を <ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>すのだ。"
           }
         },
         "0670_00000003_0_000_0": {
@@ -1232,7 +1232,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>自分<rp>(</rp><rt>じぶん</rt><rp>)</rp></ruby>の エネルギーを <ruby>赤色<rp>(</rp><rt>あかいろ</rt><rp>)</rp></ruby>の <ruby>波長<rp>(</rp><rt>はちょう</rt><rp>)</rp></ruby>に <ruby>乗<rp>(</rp><rt>の</rt><rp>)</rp></ruby>せて <ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>へ <ruby>送<rp>(</rp><rt>おく</rt><rp>)</rp></ruby>り <ruby>潜在能力<rp>(</rp><rt>せんざいのうりょく</rt><rp>)</rp></ruby>を <ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>すのだ。"
           }
         },
         "0670_00000004_0_000_0": {
@@ -1253,7 +1253,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>自分<rp>(</rp><rt>じぶん</rt><rp>)</rp></ruby>の エネルギーを <ruby>赤色<rp>(</rp><rt>あかいろ</rt><rp>)</rp></ruby>の <ruby>波長<rp>(</rp><rt>はちょう</rt><rp>)</rp></ruby>に <ruby>乗<rp>(</rp><rt>の</rt><rp>)</rp></ruby>せて <ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>へ <ruby>送<rp>(</rp><rt>おく</rt><rp>)</rp></ruby>り <ruby>潜在能力<rp>(</rp><rt>せんざいのうりょく</rt><rp>)</rp></ruby>を <ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>すのだ。"
           }
         },
         "0670_00000005_0_000_0": {
@@ -1274,7 +1274,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>自分<rp>(</rp><rt>じぶん</rt><rp>)</rp></ruby>の エネルギーを <ruby>赤色<rp>(</rp><rt>あかいろ</rt><rp>)</rp></ruby>の <ruby>波長<rp>(</rp><rt>はちょう</rt><rp>)</rp></ruby>に <ruby>乗<rp>(</rp><rt>の</rt><rp>)</rp></ruby>せて <ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>へ <ruby>送<rp>(</rp><rt>おく</rt><rp>)</rp></ruby>り <ruby>潜在能力<rp>(</rp><rt>せんざいのうりょく</rt><rp>)</rp></ruby>を <ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>すのだ。"
           }
         },
         "0670_00000105_0_000_0": {
@@ -1295,7 +1295,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>自分<rp>(</rp><rt>じぶん</rt><rp>)</rp></ruby>の エネルギーを <ruby>赤色<rp>(</rp><rt>あかいろ</rt><rp>)</rp></ruby>の <ruby>波長<rp>(</rp><rt>はちょう</rt><rp>)</rp></ruby>に <ruby>乗<rp>(</rp><rt>の</rt><rp>)</rp></ruby>せて <ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>へ <ruby>送<rp>(</rp><rt>おく</rt><rp>)</rp></ruby>り <ruby>潜在能力<rp>(</rp><rt>せんざいのうりょく</rt><rp>)</rp></ruby>を <ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>すのだ。"
           }
         }
       },
@@ -1318,7 +1318,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "フラージェスの <ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>った <ruby>花園<rp>(</rp><rt>はなぞの</rt><rp>)</rp></ruby>は <ruby>心<rp>(</rp><rt>こころ</rt><rp>)</rp></ruby>と <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を <ruby>癒<rp>(</rp><rt>いや</rt><rp>)</rp></ruby>す パワーが <ruby>絶<rp>(</rp><rt>た</rt><rp>)</rp></ruby>えず <ruby>降<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>り<ruby>注<rp>(</rp><rt>そそ</rt><rp>)</rp></ruby>いでいるという。"
           }
         },
         "0671_00000001_0_000_0": {
@@ -1339,7 +1339,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "フラージェスの <ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>った <ruby>花園<rp>(</rp><rt>はなぞの</rt><rp>)</rp></ruby>は <ruby>心<rp>(</rp><rt>こころ</rt><rp>)</rp></ruby>と <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を <ruby>癒<rp>(</rp><rt>いや</rt><rp>)</rp></ruby>す パワーが <ruby>絶<rp>(</rp><rt>た</rt><rp>)</rp></ruby>えず <ruby>降<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>り<ruby>注<rp>(</rp><rt>そそ</rt><rp>)</rp></ruby>いでいるという。"
           }
         },
         "0671_00000002_0_000_0": {
@@ -1360,7 +1360,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "フラージェスの <ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>った <ruby>花園<rp>(</rp><rt>はなぞの</rt><rp>)</rp></ruby>は <ruby>心<rp>(</rp><rt>こころ</rt><rp>)</rp></ruby>と <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を <ruby>癒<rp>(</rp><rt>いや</rt><rp>)</rp></ruby>す パワーが <ruby>絶<rp>(</rp><rt>た</rt><rp>)</rp></ruby>えず <ruby>降<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>り<ruby>注<rp>(</rp><rt>そそ</rt><rp>)</rp></ruby>いでいるという。"
           }
         },
         "0671_00000003_0_000_0": {
@@ -1381,7 +1381,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "フラージェスの <ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>った <ruby>花園<rp>(</rp><rt>はなぞの</rt><rp>)</rp></ruby>は <ruby>心<rp>(</rp><rt>こころ</rt><rp>)</rp></ruby>と <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を <ruby>癒<rp>(</rp><rt>いや</rt><rp>)</rp></ruby>す パワーが <ruby>絶<rp>(</rp><rt>た</rt><rp>)</rp></ruby>えず <ruby>降<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>り<ruby>注<rp>(</rp><rt>そそ</rt><rp>)</rp></ruby>いでいるという。"
           }
         },
         "0671_00000004_0_000_0": {
@@ -1402,7 +1402,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "フラージェスの <ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>った <ruby>花園<rp>(</rp><rt>はなぞの</rt><rp>)</rp></ruby>は <ruby>心<rp>(</rp><rt>こころ</rt><rp>)</rp></ruby>と <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を <ruby>癒<rp>(</rp><rt>いや</rt><rp>)</rp></ruby>す パワーが <ruby>絶<rp>(</rp><rt>た</rt><rp>)</rp></ruby>えず <ruby>降<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>り<ruby>注<rp>(</rp><rt>そそ</rt><rp>)</rp></ruby>いでいるという。"
           }
         }
       },
@@ -1425,7 +1425,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>水<rp>(</rp><rt>みず</rt><rp>)</rp></ruby>と <ruby>太陽<rp>(</rp><rt>たいよう</rt><rp>)</rp></ruby>が あれば <ruby>背中<rp>(</rp><rt>せなか</rt><rp>)</rp></ruby>の <ruby>葉<rp>(</rp><rt>は</rt><rp>)</rp></ruby>っぱで エネルギーが <ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>れるので エサを <ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べなくても <ruby>平気<rp>(</rp><rt>へいき</rt><rp>)</rp></ruby>なのだ。"
           }
         }
       },
@@ -1448,7 +1448,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ツノを <ruby>握<rp>(</rp><rt>にぎ</rt><rp>)</rp></ruby>る わずかな <ruby>違<rp>(</rp><rt>ちが</rt><rp>)</rp></ruby>いから トレーナーの <ruby>気持<rp>(</rp><rt>きも</rt><rp>)</rp></ruby>ちを <ruby>読<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>み<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>るので <ruby>一体<rp>(</rp><rt>いったい</rt><rp>)</rp></ruby>となって <ruby>走<rp>(</rp><rt>はし</rt><rp>)</rp></ruby>れるのだ。"
           }
         }
       },
@@ -1471,7 +1471,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>強力<rp>(</rp><rt>きょうりょく</rt><rp>)</rp></ruby>な サイコパワーが <ruby>漏<rp>(</rp><rt>も</rt><rp>)</rp></ruby>れ<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>さないように <ruby>放出<rp>(</rp><rt>ほうしゅつ</rt><rp>)</rp></ruby>する <ruby>器官<rp>(</rp><rt>きかん</rt><rp>)</rp></ruby>を <ruby>耳<rp>(</rp><rt>みみ</rt><rp>)</rp></ruby>で ふさいでいるのだ。"
           }
         }
       },
@@ -1494,7 +1494,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>危険<rp>(</rp><rt>きけん</rt><rp>)</rp></ruby>が <ruby>迫<rp>(</rp><rt>せま</rt><rp>)</rp></ruby>ると <ruby>耳<rp>(</rp><rt>みみ</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>ち<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げ １０トン トラックを ひねりつぶす サイコパワーを <ruby>解放<rp>(</rp><rt>かいほう</rt><rp>)</rp></ruby>する。"
           }
         }
       },
@@ -1517,7 +1517,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>強<rp>(</rp><rt>つよ</rt><rp>)</rp></ruby>くなるため <ruby>群<rp>(</rp><rt>む</rt><rp>)</rp></ruby>れを <ruby>離<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>れて １<ruby>匹<rp>(</rp><rt>ぴき</rt><rp>)</rp></ruby>で <ruby>生活<rp>(</rp><rt>せいかつ</rt><rp>)</rp></ruby>するようになる。<ruby>血気盛<rp>(</rp><rt>けっきさか</rt><rp>)</rp></ruby>んで ケンカっ<ruby>早<rp>(</rp><rt>ぱや</rt><rp>)</rp></ruby>い。"
           }
         }
       },
@@ -1540,7 +1540,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>群<rp>(</rp><rt>む</rt><rp>)</rp></ruby>れの <ruby>中<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>で <ruby>一番<rp>(</rp><rt>いちばん</rt><rp>)</rp></ruby> <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きな <ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>の たてがみを <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>つ オスが リーダーとして <ruby>仲間<rp>(</rp><rt>なかま</rt><rp>)</rp></ruby>を <ruby>率<rp>(</rp><rt>ひき</rt><rp>)</rp></ruby>いる。"
           }
         },
         "0668_00000100_0_000_0": {
@@ -1561,7 +1561,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>群<rp>(</rp><rt>む</rt><rp>)</rp></ruby>れの <ruby>中<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>で <ruby>一番<rp>(</rp><rt>いちばん</rt><rp>)</rp></ruby> <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きな <ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>の たてがみを <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>つ オスが リーダーとして <ruby>仲間<rp>(</rp><rt>なかま</rt><rp>)</rp></ruby>を <ruby>率<rp>(</rp><rt>ひき</rt><rp>)</rp></ruby>いる。"
           }
         }
       },
@@ -1584,7 +1584,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>一生懸命<rp>(</rp><rt>いっしょうけんめい</rt><rp>)</rp></ruby> <ruby>怖<rp>(</rp><rt>こわ</rt><rp>)</rp></ruby>い <ruby>顔<rp>(</rp><rt>かお</rt><rp>)</rp></ruby>で <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>を にらみつけるが <ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>を なでられると つい にやけてしまう。"
           }
         }
       },
@@ -1607,7 +1607,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>気性<rp>(</rp><rt>きしょう</rt><rp>)</rp></ruby>が <ruby>荒<rp>(</rp><rt>あら</rt><rp>)</rp></ruby>く ケンカっ<ruby>早<rp>(</rp><rt>ぱや</rt><rp>)</rp></ruby>いが <ruby>弱<rp>(</rp><rt>よわ</rt><rp>)</rp></ruby>いものいじめは <ruby>許<rp>(</rp><rt>ゆる</rt><rp>)</rp></ruby>さない。<ruby>葉<rp>(</rp><rt>は</rt><rp>)</rp></ruby>っぱで <ruby>敵<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>の <ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>きを <ruby>読<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>む。"
           }
         }
       },
@@ -1630,7 +1630,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ゴミ<ruby>袋<rp>(</rp><rt>ぶくろ</rt><rp>)</rp></ruby>が <ruby>産業廃棄物<rp>(</rp><rt>さんぎょうはいきぶつ</rt><rp>)</rp></ruby>と <ruby>化学変化<rp>(</rp><rt>かがくへんか</rt><rp>)</rp></ruby>を <ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>こしたことで ポケモンとして <ruby>生<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まれ<ruby>変<rp>(</rp><rt>か</rt><rp>)</rp></ruby>わった。"
           }
         }
       },
@@ -1653,7 +1653,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ゴミを <ruby>吸<rp>(</rp><rt>す</rt><rp>)</rp></ruby>いとっては <ruby>体内<rp>(</rp><rt>たいない</rt><rp>)</rp></ruby>で <ruby>新<rp>(</rp><rt>あたら</rt><rp>)</rp></ruby>しい <ruby>種類<rp>(</rp><rt>しゅるい</rt><rp>)</rp></ruby>の <ruby>毒<rp>(</rp><rt>どく</rt><rp>)</rp></ruby>ガスや <ruby>毒<rp>(</rp><rt>どく</rt><rp>)</rp></ruby>の <ruby>液体<rp>(</rp><rt>えきたい</rt><rp>)</rp></ruby>を <ruby>生<rp>(</rp><rt>う</rt><rp>)</rp></ruby>みだしている。"
           }
         }
       },
@@ -1676,7 +1676,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ヒゲが アンテナの <ruby>役割<rp>(</rp><rt>やくわり</rt><rp>)</rp></ruby>。<ruby>電波<rp>(</rp><rt>でんぱ</rt><rp>)</rp></ruby>を <ruby>送受信<rp>(</rp><rt>そうじゅしん</rt><rp>)</rp></ruby>して <ruby>遠<rp>(</rp><rt>とお</rt><rp>)</rp></ruby>くの <ruby>仲間<rp>(</rp><rt>なかま</rt><rp>)</rp></ruby>と <ruby>連絡<rp>(</rp><rt>れんらく</rt><rp>)</rp></ruby>を <ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>うのだ。"
           }
         }
       },
@@ -1699,7 +1699,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "まだまだ <ruby>電気<rp>(</rp><rt>でんき</rt><rp>)</rp></ruby>を <ruby>溜<rp>(</rp><rt>た</rt><rp>)</rp></ruby>めるのが<ruby>下手<rp>(</rp><rt>へた</rt><rp>)</rp></ruby>。<ruby>驚<rp>(</rp><rt>おどろ</rt><rp>)</rp></ruby>いたり <ruby>笑<rp>(</rp><rt>わら</rt><rp>)</rp></ruby>ったりすると すぐに <ruby>放電<rp>(</rp><rt>ほうでん</rt><rp>)</rp></ruby> してしまう。"
           }
         }
       },
@@ -1722,7 +1722,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ほっぺたの <ruby>両側<rp>(</rp><rt>りょうがわ</rt><rp>)</rp></ruby>に <ruby>小<rp>(</rp><rt>ちい</rt><rp>)</rp></ruby>さい <ruby>電気袋<rp>(</rp><rt>でんきぶくろ</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>つ。ピンチのときに <ruby>放電<rp>(</rp><rt>ほうでん</rt><rp>)</rp></ruby>する。"
           }
         }
       },
@@ -1745,7 +1745,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>電気<rp>(</rp><rt>でんき</rt><rp>)</rp></ruby>が <ruby>溜<rp>(</rp><rt>た</rt><rp>)</rp></ruby>まってくると <ruby>筋肉<rp>(</rp><rt>きんにく</rt><rp>)</rp></ruby>が <ruby>刺激<rp>(</rp><rt>しげき</rt><rp>)</rp></ruby>され いつもより <ruby>攻撃的<rp>(</rp><rt>こうげきてき</rt><rp>)</rp></ruby>に なってしまう。"
           }
         },
         "0026_01000000_0_000_0": {
@@ -1766,7 +1766,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>電気<rp>(</rp><rt>でんき</rt><rp>)</rp></ruby>が <ruby>溜<rp>(</rp><rt>た</rt><rp>)</rp></ruby>まってくると <ruby>筋肉<rp>(</rp><rt>きんにく</rt><rp>)</rp></ruby>が <ruby>刺激<rp>(</rp><rt>しげき</rt><rp>)</rp></ruby>され いつもより <ruby>攻撃的<rp>(</rp><rt>こうげきてき</rt><rp>)</rp></ruby>に なってしまう。"
           }
         }
       },
@@ -1789,7 +1789,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ピィを よく <ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>かける <ruby>場所<rp>(</rp><rt>ばしょ</rt><rp>)</rp></ruby>は <ruby>流<rp>(</rp><rt>なが</rt><rp>)</rp></ruby>れ<ruby>星<rp>(</rp><rt>ぼし</rt><rp>)</rp></ruby>が <ruby>落<rp>(</rp><rt>お</rt><rp>)</rp></ruby>ちた <ruby>場所<rp>(</rp><rt>ばしょ</rt><rp>)</rp></ruby>と <ruby>地元<rp>(</rp><rt>じもと</rt><rp>)</rp></ruby>では うわさ されている。"
           }
         }
       },
@@ -1812,7 +1812,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>背中<rp>(</rp><rt>せなか</rt><rp>)</rp></ruby>の <ruby>翼<rp>(</rp><rt>つばさ</rt><rp>)</rp></ruby>に <ruby>月<rp>(</rp><rt>つき</rt><rp>)</rp></ruby>の<ruby>光<rp>(</rp><rt>ひかり</rt><rp>)</rp></ruby>を <ruby>集<rp>(</rp><rt>あつ</rt><rp>)</rp></ruby>めることで <ruby>空中<rp>(</rp><rt>くうちゅう</rt><rp>)</rp></ruby>に <ruby>浮<rp>(</rp><rt>う</rt><rp>)</rp></ruby>かぶことが できるらしい。"
           }
         }
       },
@@ -1835,7 +1835,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>妖精<rp>(</rp><rt>ようせい</rt><rp>)</rp></ruby>の <ruby>仲間<rp>(</rp><rt>なかま</rt><rp>)</rp></ruby>で めったに <ruby>人前<rp>(</rp><rt>ひとまえ</rt><rp>)</rp></ruby>に <ruby>出<rp>(</rp><rt>で</rt><rp>)</rp></ruby>てこない。<ruby>気配<rp>(</rp><rt>けはい</rt><rp>)</rp></ruby>を <ruby>感<rp>(</rp><rt>かん</rt><rp>)</rp></ruby>じて すぐに <ruby>逃<rp>(</rp><rt>に</rt><rp>)</rp></ruby>げてしまうようだ。"
           }
         },
         "0036_00000100_0_000_0": {
@@ -1856,7 +1856,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>妖精<rp>(</rp><rt>ようせい</rt><rp>)</rp></ruby>の <ruby>仲間<rp>(</rp><rt>なかま</rt><rp>)</rp></ruby>で めったに <ruby>人前<rp>(</rp><rt>ひとまえ</rt><rp>)</rp></ruby>に <ruby>出<rp>(</rp><rt>で</rt><rp>)</rp></ruby>てこない。<ruby>気配<rp>(</rp><rt>けはい</rt><rp>)</rp></ruby>を <ruby>感<rp>(</rp><rt>かん</rt><rp>)</rp></ruby>じて すぐに <ruby>逃<rp>(</rp><rt>に</rt><rp>)</rp></ruby>げてしまうようだ。"
           }
         }
       },
@@ -1879,7 +1879,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>細<rp>(</rp><rt>ほそ</rt><rp>)</rp></ruby>くて <ruby>丈夫<rp>(</rp><rt>じょうぶ</rt><rp>)</rp></ruby>な <ruby>糸<rp>(</rp><rt>いと</rt><rp>)</rp></ruby>を <ruby>張<rp>(</rp><rt>は</rt><rp>)</rp></ruby>り<ruby>巡<rp>(</rp><rt>めぐ</rt><rp>)</rp></ruby>らして <ruby>罠<rp>(</rp><rt>わな</rt><rp>)</rp></ruby>を <ruby>仕掛<rp>(</rp><rt>しか</rt><rp>)</rp></ruby>けると <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>が かかるのを ひたすら<ruby>待<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>つ。"
           }
         }
       },
@@ -1902,7 +1902,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "お<ruby>尻<rp>(</rp><rt>しり</rt><rp>)</rp></ruby>からだけでなく <ruby>口<rp>(</rp><rt>くち</rt><rp>)</rp></ruby>からも <ruby>糸<rp>(</rp><rt>いと</rt><rp>)</rp></ruby>を <ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>すので <ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>ただけでは どっちが <ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>か わからない。"
           }
         }
       },
@@ -1925,7 +1925,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>育<rp>(</rp><rt>そだ</rt><rp>)</rp></ruby>つほどに どんどん <ruby>長<rp>(</rp><rt>なが</rt><rp>)</rp></ruby>くなる。そして <ruby>夜中<rp>(</rp><rt>よなか</rt><rp>)</rp></ruby>は <ruby>木<rp>(</rp><rt>き</rt><rp>)</rp></ruby>の<ruby>枝<rp>(</rp><rt>えだ</rt><rp>)</rp></ruby>に グルグルと <ruby>絡<rp>(</rp><rt>から</rt><rp>)</rp></ruby>まって <ruby>休<rp>(</rp><rt>やす</rt><rp>)</rp></ruby>む。"
           }
         }
       },
@@ -1948,7 +1948,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>胸<rp>(</rp><rt>むね</rt><rp>)</rp></ruby>を <ruby>広<rp>(</rp><rt>ひろ</rt><rp>)</rp></ruby>げ <ruby>威嚇<rp>(</rp><rt>いかく</rt><rp>)</rp></ruby>するとき <ruby>口<rp>(</rp><rt>くち</rt><rp>)</rp></ruby>から <ruby>漏<rp>(</rp><rt>も</rt><rp>)</rp></ruby>れる <ruby>空気<rp>(</rp><rt>くうき</rt><rp>)</rp></ruby>の <ruby>音<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>は <ruby>不気味<rp>(</rp><rt>ぶきみ</rt><rp>)</rp></ruby>で <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>を おびえさせる。"
           }
         }
       },
@@ -1971,7 +1971,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "１<ruby>日<rp>(</rp><rt>にち</rt><rp>)</rp></ruby> １８<ruby>時間<rp>(</rp><rt>じかん</rt><rp>)</rp></ruby>は <ruby>寝<rp>(</rp><rt>ね</rt><rp>)</rp></ruby>ている。<ruby>眠<rp>(</rp><rt>ねむ</rt><rp>)</rp></ruby>ってる あいだでも さまざまな <ruby>超能力<rp>(</rp><rt>ちょうのうりょく</rt><rp>)</rp></ruby>を <ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>う。"
           }
         }
       },
@@ -1994,7 +1994,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>能力<rp>(</rp><rt>のうりょく</rt><rp>)</rp></ruby>を <ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>うたびに <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>から <ruby>特殊<rp>(</rp><rt>とくしゅ</rt><rp>)</rp></ruby>な アルファ<ruby>波<rp>(</rp><rt>は</rt><rp>)</rp></ruby>を <ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>して <ruby>機械<rp>(</rp><rt>きかい</rt><rp>)</rp></ruby>を <ruby>狂<rp>(</rp><rt>くる</rt><rp>)</rp></ruby>わせる。"
           }
         }
       },
@@ -2017,7 +2017,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>脳細胞<rp>(</rp><rt>のうさいぼう</rt><rp>)</rp></ruby>は いつも <ruby>分裂<rp>(</rp><rt>ぶんれつ</rt><rp>)</rp></ruby>して <ruby>死<rp>(</rp><rt>し</rt><rp>)</rp></ruby>ぬまで <ruby>増<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>え<ruby>続<rp>(</rp><rt>つづ</rt><rp>)</rp></ruby>けるので あらゆることを <ruby>覚<rp>(</rp><rt>おぼ</rt><rp>)</rp></ruby>えておける。"
           }
         },
         "0065_00000100_0_000_0": {
@@ -2038,7 +2038,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>脳細胞<rp>(</rp><rt>のうさいぼう</rt><rp>)</rp></ruby>は いつも <ruby>分裂<rp>(</rp><rt>ぶんれつ</rt><rp>)</rp></ruby>して <ruby>死<rp>(</rp><rt>し</rt><rp>)</rp></ruby>ぬまで <ruby>増<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>え<ruby>続<rp>(</rp><rt>つづ</rt><rp>)</rp></ruby>けるので あらゆることを <ruby>覚<rp>(</rp><rt>おぼ</rt><rp>)</rp></ruby>えておける。"
           }
         }
       },
@@ -2061,7 +2061,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ガスから <ruby>生<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まれた <ruby>生命体<rp>(</rp><rt>せいめいたい</rt><rp>)</rp></ruby>。<ruby>毒<rp>(</rp><rt>どく</rt><rp>)</rp></ruby>を<ruby>含<rp>(</rp><rt>ふく</rt><rp>)</rp></ruby>んだ ガスの <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>に <ruby>包<rp>(</rp><rt>つつ</rt><rp>)</rp></ruby>まれると だれでも <ruby>気絶<rp>(</rp><rt>きぜつ</rt><rp>)</rp></ruby>する。"
           }
         }
       },
@@ -2084,7 +2084,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ガス<ruby>状<rp>(</rp><rt>じょう</rt><rp>)</rp></ruby>の <ruby>舌<rp>(</rp><rt>した</rt><rp>)</rp></ruby>で なめられると <ruby>魂<rp>(</rp><rt>たましい</rt><rp>)</rp></ruby>を <ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>られてしまう。<ruby>闇<rp>(</rp><rt>やみ</rt><rp>)</rp></ruby>に <ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>れて <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>を <ruby>狙<rp>(</rp><rt>ねら</rt><rp>)</rp></ruby>う。"
           }
         }
       },
@@ -2107,7 +2107,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>物陰<rp>(</rp><rt>ものかげ</rt><rp>)</rp></ruby>に <ruby>姿<rp>(</rp><rt>すがた</rt><rp>)</rp></ruby>を <ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>す。ゲンガーの <ruby>潜<rp>(</rp><rt>ひそ</rt><rp>)</rp></ruby>んでいる <ruby>部屋<rp>(</rp><rt>へや</rt><rp>)</rp></ruby>は <ruby>温度<rp>(</rp><rt>おんど</rt><rp>)</rp></ruby>が ５<ruby>度<rp>(</rp><rt>ど</rt><rp>)</rp></ruby> <ruby>下<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>がると いわれる。"
           }
         },
         "0094_00000100_0_000_0": {
@@ -2128,7 +2128,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>物陰<rp>(</rp><rt>ものかげ</rt><rp>)</rp></ruby>に <ruby>姿<rp>(</rp><rt>すがた</rt><rp>)</rp></ruby>を <ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>す。ゲンガーの <ruby>潜<rp>(</rp><rt>ひそ</rt><rp>)</rp></ruby>んでいる <ruby>部屋<rp>(</rp><rt>へや</rt><rp>)</rp></ruby>は <ruby>温度<rp>(</rp><rt>おんど</rt><rp>)</rp></ruby>が ５<ruby>度<rp>(</rp><rt>ど</rt><rp>)</rp></ruby> <ruby>下<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>がると いわれる。"
           }
         }
       },
@@ -2151,7 +2151,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>噛<rp>(</rp><rt>か</rt><rp>)</rp></ruby>みついて <ruby>猛毒<rp>(</rp><rt>もうどく</rt><rp>)</rp></ruby>を <ruby>与<rp>(</rp><rt>あた</rt><rp>)</rp></ruby>える。<ruby>天敵<rp>(</rp><rt>てんてき</rt><rp>)</rp></ruby>の <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きな <ruby>鳥<rp>(</rp><rt>とり</rt><rp>)</rp></ruby>ポケモンも <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>が しびれて <ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>けなくなる。"
           }
         }
       },
@@ -2174,7 +2174,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>硬<rp>(</rp><rt>かた</rt><rp>)</rp></ruby>い <ruby>殻<rp>(</rp><rt>から</rt><rp>)</rp></ruby>に <ruby>守<rp>(</rp><rt>まも</rt><rp>)</rp></ruby>られている。タイヤのように <ruby>回転<rp>(</rp><rt>かいてん</rt><rp>)</rp></ruby>して <ruby>敵<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>に <ruby>激<rp>(</rp><rt>はげ</rt><rp>)</rp></ruby>しく <ruby>体当<rp>(</rp><rt>たいあ</rt><rp>)</rp></ruby>たりする。"
           }
         }
       },
@@ -2197,7 +2197,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>を <ruby>首<rp>(</rp><rt>くび</rt><rp>)</rp></ruby>のツメで <ruby>挟<rp>(</rp><rt>はさ</rt><rp>)</rp></ruby>みこみ <ruby>身動<rp>(</rp><rt>みうご</rt><rp>)</rp></ruby>きを とれなくしてから <ruby>猛毒<rp>(</rp><rt>もうどく</rt><rp>)</rp></ruby>を <ruby>与<rp>(</rp><rt>あた</rt><rp>)</rp></ruby>え とどめを <ruby>刺<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>す。"
           }
         },
         "0545_00000100_0_000_0": {
@@ -2218,7 +2218,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>を <ruby>首<rp>(</rp><rt>くび</rt><rp>)</rp></ruby>のツメで <ruby>挟<rp>(</rp><rt>はさ</rt><rp>)</rp></ruby>みこみ <ruby>身動<rp>(</rp><rt>みうご</rt><rp>)</rp></ruby>きを とれなくしてから <ruby>猛毒<rp>(</rp><rt>もうどく</rt><rp>)</rp></ruby>を <ruby>与<rp>(</rp><rt>あた</rt><rp>)</rp></ruby>え とどめを <ruby>刺<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>す。"
           }
         }
       },
@@ -2241,7 +2241,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>死者<rp>(</rp><rt>ししゃ</rt><rp>)</rp></ruby>の <ruby>魂<rp>(</rp><rt>たましい</rt><rp>)</rp></ruby>が <ruby>古代<rp>(</rp><rt>こだい</rt><rp>)</rp></ruby>の <ruby>剣<rp>(</rp><rt>つるぎ</rt><rp>)</rp></ruby>に <ruby>宿<rp>(</rp><rt>やど</rt><rp>)</rp></ruby>って <ruby>生<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まれたらしい。<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>に とりつき <ruby>命<rp>(</rp><rt>いのち</rt><rp>)</rp></ruby>を <ruby>吸<rp>(</rp><rt>す</rt><rp>)</rp></ruby>う。"
           }
         }
       },
@@ -2264,7 +2264,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>進化<rp>(</rp><rt>しんか</rt><rp>)</rp></ruby>して ２<ruby>本<rp>(</rp><rt>ほん</rt><rp>)</rp></ruby>に <ruby>分裂<rp>(</rp><rt>ぶんれつ</rt><rp>)</rp></ruby>した。テレパシーで <ruby>会話<rp>(</rp><rt>かいわ</rt><rp>)</rp></ruby>して <ruby>連携攻撃<rp>(</rp><rt>れんけいこうげき</rt><rp>)</rp></ruby>で <ruby>敵<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>を <ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>り<ruby>刻<rp>(</rp><rt>きざ</rt><rp>)</rp></ruby>む。"
           }
         }
       },
@@ -2287,7 +2287,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>王<rp>(</rp><rt>おう</rt><rp>)</rp></ruby>の <ruby>素質<rp>(</rp><rt>そしつ</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>つ <ruby>人間<rp>(</rp><rt>にんげん</rt><rp>)</rp></ruby>を <ruby>見抜<rp>(</rp><rt>みぬ</rt><rp>)</rp></ruby>くらしい。<ruby>認<rp>(</rp><rt>みと</rt><rp>)</rp></ruby>められた <ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>は やがて <ruby>王<rp>(</rp><rt>おう</rt><rp>)</rp></ruby>になると いわれている。"
           }
         },
         "0681_00000001_0_000_0": {
@@ -2308,7 +2308,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>王<rp>(</rp><rt>おう</rt><rp>)</rp></ruby>の <ruby>素質<rp>(</rp><rt>そしつ</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>つ <ruby>人間<rp>(</rp><rt>にんげん</rt><rp>)</rp></ruby>を <ruby>見抜<rp>(</rp><rt>みぬ</rt><rp>)</rp></ruby>くらしい。<ruby>認<rp>(</rp><rt>みと</rt><rp>)</rp></ruby>められた <ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>は やがて <ruby>王<rp>(</rp><rt>おう</rt><rp>)</rp></ruby>になると いわれている。"
           }
         }
       },
@@ -2331,7 +2331,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ひょろっとした <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>つきだが <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>を <ruby>捕<rp>(</rp><rt>と</rt><rp>)</rp></ruby>らえるときの <ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>きは <ruby>目<rp>(</rp><rt>め</rt><rp>)</rp></ruby>にも とまらないほど <ruby>素早<rp>(</rp><rt>すばや</rt><rp>)</rp></ruby>い。"
           }
         }
       },
@@ -2354,7 +2354,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "まず <ruby>毒<rp>(</rp><rt>どく</rt><rp>)</rp></ruby>の<ruby>粉<rp>(</rp><rt>こな</rt><rp>)</rp></ruby>を <ruby>吐<rp>(</rp><rt>は</rt><rp>)</rp></ruby>き <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>の <ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>きを <ruby>止<rp>(</rp><rt>と</rt><rp>)</rp></ruby>めてしまってから <ruby>溶解液<rp>(</rp><rt>ようかいえき</rt><rp>)</rp></ruby>で とどめを <ruby>刺<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>す。"
           }
         }
       },
@@ -2377,7 +2377,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体内<rp>(</rp><rt>たいない</rt><rp>)</rp></ruby>に <ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>りこまれた ものは どんなに <ruby>硬<rp>(</rp><rt>かた</rt><rp>)</rp></ruby>くても <ruby>溶解液<rp>(</rp><rt>ようかいえき</rt><rp>)</rp></ruby>で <ruby>跡形<rp>(</rp><rt>あとかた</rt><rp>)</rp></ruby>なく <ruby>溶<rp>(</rp><rt>と</rt><rp>)</rp></ruby>かされてしまう。"
           }
         },
         "0071_00000100_0_000_0": {
@@ -2398,7 +2398,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体内<rp>(</rp><rt>たいない</rt><rp>)</rp></ruby>に <ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>りこまれた ものは どんなに <ruby>硬<rp>(</rp><rt>かた</rt><rp>)</rp></ruby>くても <ruby>溶解液<rp>(</rp><rt>ようかいえき</rt><rp>)</rp></ruby>で <ruby>跡形<rp>(</rp><rt>あとかた</rt><rp>)</rp></ruby>なく <ruby>溶<rp>(</rp><rt>と</rt><rp>)</rp></ruby>かされてしまう。"
           }
         }
       },
@@ -2421,7 +2421,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>元気<rp>(</rp><rt>げんき</rt><rp>)</rp></ruby>の ない ポケモンに <ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>の <ruby>葉<rp>(</rp><rt>は</rt><rp>)</rp></ruby>っぱを <ruby>分<rp>(</rp><rt>わ</rt><rp>)</rp></ruby>け<ruby>与<rp>(</rp><rt>あた</rt><rp>)</rp></ruby>える。<ruby>疲<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>れを <ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>る <ruby>効果<rp>(</rp><rt>こうか</rt><rp>)</rp></ruby>が あるのだ。"
           }
         }
       },
@@ -2444,7 +2444,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>気性<rp>(</rp><rt>きしょう</rt><rp>)</rp></ruby>が <ruby>激<rp>(</rp><rt>はげ</rt><rp>)</rp></ruby>しく トゲの ついた <ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>を <ruby>振<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>りまわして <ruby>戦<rp>(</rp><rt>たたか</rt><rp>)</rp></ruby>う。<ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>の <ruby>葉<rp>(</rp><rt>は</rt><rp>)</rp></ruby>っぱは とても <ruby>苦<rp>(</rp><rt>にが</rt><rp>)</rp></ruby>い。"
           }
         }
       },
@@ -2467,7 +2467,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>知能<rp>(</rp><rt>ちのう</rt><rp>)</rp></ruby>が <ruby>高<rp>(</rp><rt>たか</rt><rp>)</rp></ruby>く <ruby>木<rp>(</rp><rt>き</rt><rp>)</rp></ruby>の<ruby>実<rp>(</rp><rt>み</rt><rp>)</rp></ruby>は <ruby>焼<rp>(</rp><rt>や</rt><rp>)</rp></ruby>いてから <ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べる <ruby>習性<rp>(</rp><rt>しゅうせい</rt><rp>)</rp></ruby>。<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>の <ruby>手伝<rp>(</rp><rt>てつだ</rt><rp>)</rp></ruby>いを <ruby>好<rp>(</rp><rt>この</rt><rp>)</rp></ruby>んでいる。"
           }
         }
       },
@@ -2490,7 +2490,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>興奮<rp>(</rp><rt>こうふん</rt><rp>)</rp></ruby>すると <ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>や <ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>から <ruby>火<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>の<ruby>粉<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>が <ruby>舞<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>いあがって <ruby>熱<rp>(</rp><rt>あつ</rt><rp>)</rp></ruby>くなる。なぜか <ruby>甘<rp>(</rp><rt>あま</rt><rp>)</rp></ruby>いものが <ruby>大好物<rp>(</rp><rt>だいこうぶつ</rt><rp>)</rp></ruby>。"
           }
         }
       },
@@ -2513,7 +2513,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>の<ruby>房<rp>(</rp><rt>ふさ</rt><rp>)</rp></ruby>に <ruby>溜<rp>(</rp><rt>た</rt><rp>)</rp></ruby>めこんだ <ruby>水<rp>(</rp><rt>みず</rt><rp>)</rp></ruby>は <ruby>栄養<rp>(</rp><rt>えいよう</rt><rp>)</rp></ruby> たっぷり。<ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>を<ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>い その <ruby>水<rp>(</rp><rt>みず</rt><rp>)</rp></ruby>を <ruby>草木<rp>(</rp><rt>くさき</rt><rp>)</rp></ruby>に かけている。"
           }
         }
       },
@@ -2536,7 +2536,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>水<rp>(</rp><rt>みず</rt><rp>)</rp></ruby>が きれいな <ruby>場所<rp>(</rp><rt>ばしょ</rt><rp>)</rp></ruby>を <ruby>好<rp>(</rp><rt>この</rt><rp>)</rp></ruby>む。<ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>に <ruby>溜<rp>(</rp><rt>た</rt><rp>)</rp></ruby>めこんだ <ruby>水<rp>(</rp><rt>みず</rt><rp>)</rp></ruby>が<ruby>減<rp>(</rp><rt>へ</rt><rp>)</rp></ruby>ると <ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>から <ruby>吸<rp>(</rp><rt>す</rt><rp>)</rp></ruby>い<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げて <ruby>補給<rp>(</rp><rt>ほきゅう</rt><rp>)</rp></ruby>。"
           }
         }
       },
@@ -2559,7 +2559,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "１<ruby>日<rp>(</rp><rt>にち</rt><rp>)</rp></ruby> １<ruby>個<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>だけ <ruby>木<rp>(</rp><rt>き</rt><rp>)</rp></ruby>の<ruby>実<rp>(</rp><rt>み</rt><rp>)</rp></ruby>を <ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べる。<ruby>空腹<rp>(</rp><rt>くうふく</rt><rp>)</rp></ruby>に <ruby>耐<rp>(</rp><rt>た</rt><rp>)</rp></ruby>えることで <ruby>心<rp>(</rp><rt>こころ</rt><rp>)</rp></ruby>が <ruby>研<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ぎ<ruby>澄<rp>(</rp><rt>す</rt><rp>)</rp></ruby>まされていく。"
           }
         }
       },
@@ -2582,7 +2582,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ヨガの <ruby>修行<rp>(</rp><rt>しゅぎょう</rt><rp>)</rp></ruby>で <ruby>鍛<rp>(</rp><rt>きた</rt><rp>)</rp></ruby>えられた サイコパワーで <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>の <ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>きを <ruby>予測<rp>(</rp><rt>よそく</rt><rp>)</rp></ruby>することが できるのだ。"
           }
         },
         "0308_00000100_0_000_0": {
@@ -2603,7 +2603,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ヨガの <ruby>修行<rp>(</rp><rt>しゅぎょう</rt><rp>)</rp></ruby>で <ruby>鍛<rp>(</rp><rt>きた</rt><rp>)</rp></ruby>えられた サイコパワーで <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>の <ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>きを <ruby>予測<rp>(</rp><rt>よそく</rt><rp>)</rp></ruby>することが できるのだ。"
           }
         }
       },
@@ -2626,7 +2626,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>静電気<rp>(</rp><rt>せいでんき</rt><rp>)</rp></ruby>を <ruby>体毛<rp>(</rp><rt>たいもう</rt><rp>)</rp></ruby>に <ruby>蓄<rp>(</rp><rt>たくわ</rt><rp>)</rp></ruby>えて <ruby>放電<rp>(</rp><rt>ほうでん</rt><rp>)</rp></ruby>する。<ruby>嵐<rp>(</rp><rt>あらし</rt><rp>)</rp></ruby>が <ruby>近<rp>(</rp><rt>ちか</rt><rp>)</rp></ruby>づくと <ruby>全身<rp>(</rp><rt>ぜんしん</rt><rp>)</rp></ruby>から <ruby>火花<rp>(</rp><rt>ひばな</rt><rp>)</rp></ruby>を <ruby>散<rp>(</rp><rt>ち</rt><rp>)</rp></ruby>らす。"
           }
         }
       },
@@ -2649,7 +2649,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "たてがみから <ruby>放電<rp>(</rp><rt>ほうでん</rt><rp>)</rp></ruby>している。<ruby>頭上<rp>(</rp><rt>ずじょう</rt><rp>)</rp></ruby>に <ruby>雷雲<rp>(</rp><rt>かみなりぐも</rt><rp>)</rp></ruby>を <ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>り <ruby>稲妻<rp>(</rp><rt>いなずま</rt><rp>)</rp></ruby>を <ruby>落<rp>(</rp><rt>お</rt><rp>)</rp></ruby>として <ruby>攻撃<rp>(</rp><rt>こうげき</rt><rp>)</rp></ruby>する。"
           }
         },
         "0310_00000100_0_000_0": {
@@ -2670,7 +2670,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "たてがみから <ruby>放電<rp>(</rp><rt>ほうでん</rt><rp>)</rp></ruby>している。<ruby>頭上<rp>(</rp><rt>ずじょう</rt><rp>)</rp></ruby>に <ruby>雷雲<rp>(</rp><rt>かみなりぐも</rt><rp>)</rp></ruby>を <ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>り <ruby>稲妻<rp>(</rp><rt>いなずま</rt><rp>)</rp></ruby>を <ruby>落<rp>(</rp><rt>お</rt><rp>)</rp></ruby>として <ruby>攻撃<rp>(</rp><rt>こうげき</rt><rp>)</rp></ruby>する。"
           }
         }
       },
@@ -2693,7 +2693,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>赤<rp>(</rp><rt>あか</rt><rp>)</rp></ruby>いツノで <ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>や ポケモンの <ruby>温<rp>(</rp><rt>あたた</rt><rp>)</rp></ruby>かな <ruby>気持<rp>(</rp><rt>きも</rt><rp>)</rp></ruby>ちを キャッチすると <ruby>全身<rp>(</rp><rt>ぜんしん</rt><rp>)</rp></ruby>が ほのかに <ruby>熱<rp>(</rp><rt>あつ</rt><rp>)</rp></ruby>くなる。"
           }
         }
       },
@@ -2716,7 +2716,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "トレーナーの <ruby>明<rp>(</rp><rt>あか</rt><rp>)</rp></ruby>るい <ruby>気持<rp>(</rp><rt>きも</rt><rp>)</rp></ruby>ちが サイコパワーの <ruby>源<rp>(</rp><rt>みなもと</rt><rp>)</rp></ruby>。<ruby>楽<rp>(</rp><rt>たの</rt><rp>)</rp></ruby>しい <ruby>気分<rp>(</rp><rt>きぶん</rt><rp>)</rp></ruby>になると クルクル <ruby>踊<rp>(</rp><rt>おど</rt><rp>)</rp></ruby>る。"
           }
         }
       },
@@ -2739,7 +2739,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>未来<rp>(</rp><rt>みらい</rt><rp>)</rp></ruby>を <ruby>予知<rp>(</rp><rt>よち</rt><rp>)</rp></ruby>する <ruby>力<rp>(</rp><rt>ちから</rt><rp>)</rp></ruby>を もつ。トレーナーを <ruby>守<rp>(</rp><rt>まも</rt><rp>)</rp></ruby>るときに <ruby>最大<rp>(</rp><rt>さいだい</rt><rp>)</rp></ruby> パワーを <ruby>発揮<rp>(</rp><rt>はっき</rt><rp>)</rp></ruby>する。"
           }
         },
         "0282_00000100_0_000_0": {
@@ -2760,7 +2760,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>未来<rp>(</rp><rt>みらい</rt><rp>)</rp></ruby>を <ruby>予知<rp>(</rp><rt>よち</rt><rp>)</rp></ruby>する <ruby>力<rp>(</rp><rt>ちから</rt><rp>)</rp></ruby>を もつ。トレーナーを <ruby>守<rp>(</rp><rt>まも</rt><rp>)</rp></ruby>るときに <ruby>最大<rp>(</rp><rt>さいだい</rt><rp>)</rp></ruby> パワーを <ruby>発揮<rp>(</rp><rt>はっき</rt><rp>)</rp></ruby>する。"
           }
         }
       },
@@ -2783,7 +2783,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>伸<rp>(</rp><rt>の</rt><rp>)</rp></ruby>び<ruby>縮<rp>(</rp><rt>ちぢ</rt><rp>)</rp></ruby>みする ヒジの <ruby>刀<rp>(</rp><rt>かたな</rt><rp>)</rp></ruby>で <ruby>戦<rp>(</rp><rt>たたか</rt><rp>)</rp></ruby>う。<ruby>居合<rp>(</rp><rt>いあい</rt><rp>)</rp></ruby>の <ruby>名手<rp>(</rp><rt>めいしゅ</rt><rp>)</rp></ruby>。<ruby>礼儀正<rp>(</rp><rt>れいぎただ</rt><rp>)</rp></ruby>しい ポケモン。"
           }
         },
         "0475_00000100_0_000_0": {
@@ -2804,7 +2804,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>伸<rp>(</rp><rt>の</rt><rp>)</rp></ruby>び<ruby>縮<rp>(</rp><rt>ちぢ</rt><rp>)</rp></ruby>みする ヒジの <ruby>刀<rp>(</rp><rt>かたな</rt><rp>)</rp></ruby>で <ruby>戦<rp>(</rp><rt>たたか</rt><rp>)</rp></ruby>う。<ruby>居合<rp>(</rp><rt>いあい</rt><rp>)</rp></ruby>の <ruby>名手<rp>(</rp><rt>めいしゅ</rt><rp>)</rp></ruby>。<ruby>礼儀正<rp>(</rp><rt>れいぎただ</rt><rp>)</rp></ruby>しい ポケモン。"
           }
         }
       },
@@ -2827,7 +2827,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>夜明<rp>(</rp><rt>よあ</rt><rp>)</rp></ruby>けごろ あたり<ruby>一帯<rp>(</rp><rt>いったい</rt><rp>)</rp></ruby>に <ruby>響<rp>(</rp><rt>ひび</rt><rp>)</rp></ruby>きわたる <ruby>不気味<rp>(</rp><rt>ぶきみ</rt><rp>)</rp></ruby>な <ruby>遠<rp>(</rp><rt>とお</rt><rp>)</rp></ruby>ぼえで <ruby>自分<rp>(</rp><rt>じぶん</rt><rp>)</rp></ruby>たちの <ruby>縄張<rp>(</rp><rt>なわば</rt><rp>)</rp></ruby>りを アピール。"
           }
         }
       },
@@ -2850,7 +2850,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>怒<rp>(</rp><rt>おこ</rt><rp>)</rp></ruby>ったときに <ruby>口<rp>(</rp><rt>くち</rt><rp>)</rp></ruby>から <ruby>噴<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す <ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>には <ruby>毒素<rp>(</rp><rt>どくそ</rt><rp>)</rp></ruby>も <ruby>混<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>じっていて やけどになると いつまでも うずく。"
           }
         },
         "0229_00000100_0_000_0": {
@@ -2871,7 +2871,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>怒<rp>(</rp><rt>おこ</rt><rp>)</rp></ruby>ったときに <ruby>口<rp>(</rp><rt>くち</rt><rp>)</rp></ruby>から <ruby>噴<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す <ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>には <ruby>毒素<rp>(</rp><rt>どくそ</rt><rp>)</rp></ruby>も <ruby>混<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>じっていて やけどになると いつまでも うずく。"
           }
         }
       },
@@ -2894,7 +2894,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>の <ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>の <ruby>上<rp>(</rp><rt>うえ</rt><rp>)</rp></ruby>に ちょこんと <ruby>乗<rp>(</rp><rt>の</rt><rp>)</rp></ruby>って <ruby>帽子<rp>(</rp><rt>ぼうし</rt><rp>)</rp></ruby>のように ふるまうのが なぜか <ruby>大好<rp>(</rp><rt>だいす</rt><rp>)</rp></ruby>き。"
           }
         }
       },
@@ -2917,7 +2917,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>大空<rp>(</rp><rt>おおぞら</rt><rp>)</rp></ruby>を ゆったりと <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ぶ。チルタリスの <ruby>美<rp>(</rp><rt>うつく</rt><rp>)</rp></ruby>しい ハミングを <ruby>聴<rp>(</rp><rt>き</rt><rp>)</rp></ruby>くと うっとり <ruby>夢心地<rp>(</rp><rt>ゆめごこち</rt><rp>)</rp></ruby>だ。"
           }
         },
         "0334_00000100_0_000_0": {
@@ -2938,7 +2938,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>大空<rp>(</rp><rt>おおぞら</rt><rp>)</rp></ruby>を ゆったりと <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ぶ。チルタリスの <ruby>美<rp>(</rp><rt>うつく</rt><rp>)</rp></ruby>しい ハミングを <ruby>聴<rp>(</rp><rt>き</rt><rp>)</rp></ruby>くと うっとり <ruby>夢心地<rp>(</rp><rt>ゆめごこち</rt><rp>)</rp></ruby>だ。"
           }
         }
       },
@@ -2961,7 +2961,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>耳<rp>(</rp><rt>みみ</rt><rp>)</rp></ruby>の <ruby>触角<rp>(</rp><rt>しょっかく</rt><rp>)</rp></ruby>で <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>に <ruby>触<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>れると <ruby>心臓<rp>(</rp><rt>しんぞう</rt><rp>)</rp></ruby>の <ruby>音<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>で <ruby>体調<rp>(</rp><rt>たいちょう</rt><rp>)</rp></ruby>や <ruby>気持<rp>(</rp><rt>きも</rt><rp>)</rp></ruby>ちが わかるのだ。"
           }
         },
         "0531_00000100_0_000_0": {
@@ -2982,7 +2982,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>耳<rp>(</rp><rt>みみ</rt><rp>)</rp></ruby>の <ruby>触角<rp>(</rp><rt>しょっかく</rt><rp>)</rp></ruby>で <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>に <ruby>触<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>れると <ruby>心臓<rp>(</rp><rt>しんぞう</rt><rp>)</rp></ruby>の <ruby>音<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>で <ruby>体調<rp>(</rp><rt>たいちょう</rt><rp>)</rp></ruby>や <ruby>気持<rp>(</rp><rt>きも</rt><rp>)</rp></ruby>ちが わかるのだ。"
           }
         }
       },
@@ -3005,7 +3005,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>昔<rp>(</rp><rt>むかし</rt><rp>)</rp></ruby>の <ruby>貴婦人<rp>(</rp><rt>きふじん</rt><rp>)</rp></ruby>たちは <ruby>香水<rp>(</rp><rt>こうすい</rt><rp>)</rp></ruby>の かわりに <ruby>好<rp>(</rp><rt>この</rt><rp>)</rp></ruby>みの <ruby>香<rp>(</rp><rt>かお</rt><rp>)</rp></ruby>りを <ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す シュシュプを <ruby>連<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>れていたという。"
           }
         }
       },
@@ -3028,7 +3028,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "においが <ruby>強<rp>(</rp><rt>つよ</rt><rp>)</rp></ruby>すぎるため よほど <ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>きな トレーナーでなければ <ruby>連<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>れて <ruby>歩<rp>(</rp><rt>ある</rt><rp>)</rp></ruby>くのは キツイのだ。"
           }
         }
       },
@@ -3051,7 +3051,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "わたあめのような <ruby>甘<rp>(</rp><rt>あま</rt><rp>)</rp></ruby>くて ベタつく <ruby>白<rp>(</rp><rt>しろ</rt><rp>)</rp></ruby>い <ruby>糸<rp>(</rp><rt>いと</rt><rp>)</rp></ruby>を <ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>して <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>を <ruby>絡<rp>(</rp><rt>から</rt><rp>)</rp></ruby>め<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り <ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>きを <ruby>封<rp>(</rp><rt>ふう</rt><rp>)</rp></ruby>じる。"
           }
         }
       },
@@ -3074,7 +3074,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "わずかな においでも かぎわける <ruby>敏感<rp>(</rp><rt>びんかん</rt><rp>)</rp></ruby>な <ruby>嗅覚<rp>(</rp><rt>きゅうかく</rt><rp>)</rp></ruby>を <ruby>活<rp>(</rp><rt>い</rt><rp>)</rp></ruby>かして パティシエの <ruby>手伝<rp>(</rp><rt>てつだ</rt><rp>)</rp></ruby>いを している。"
           }
         }
       },
@@ -3097,7 +3097,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>不安定<rp>(</rp><rt>ふあんてい</rt><rp>)</rp></ruby>な <ruby>遺伝子<rp>(</rp><rt>いでんし</rt><rp>)</rp></ruby>の おかげで さまざまな <ruby>進化<rp>(</rp><rt>しんか</rt><rp>)</rp></ruby>の <ruby>可能性<rp>(</rp><rt>かのうせい</rt><rp>)</rp></ruby>を <ruby>秘<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>めている <ruby>特殊<rp>(</rp><rt>とくしゅ</rt><rp>)</rp></ruby>な ポケモン。"
           }
         }
       },
@@ -3120,7 +3120,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>水中<rp>(</rp><rt>すいちゅう</rt><rp>)</rp></ruby>での <ruby>生活<rp>(</rp><rt>せいかつ</rt><rp>)</rp></ruby>に <ruby>適<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>した <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>に <ruby>進化<rp>(</rp><rt>しんか</rt><rp>)</rp></ruby>した。<ruby>水<rp>(</rp><rt>みず</rt><rp>)</rp></ruby>に <ruby>溶<rp>(</rp><rt>と</rt><rp>)</rp></ruby>けると <ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>えなくなる。"
           }
         }
       },
@@ -3143,7 +3143,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>空気中<rp>(</rp><rt>くうきちゅう</rt><rp>)</rp></ruby>の マイナスイオンを <ruby>吸<rp>(</rp><rt>す</rt><rp>)</rp></ruby>いこんで <ruby>約<rp>(</rp><rt>やく</rt><rp>)</rp></ruby>１００００ボルトの <ruby>電気<rp>(</rp><rt>でんき</rt><rp>)</rp></ruby>を <ruby>吐<rp>(</rp><rt>は</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>すことができる。"
           }
         }
       },
@@ -3166,7 +3166,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体内<rp>(</rp><rt>たいない</rt><rp>)</rp></ruby>に <ruby>炎袋<rp>(</rp><rt>ほのおぶくろ</rt><rp>)</rp></ruby>があり <ruby>深<rp>(</rp><rt>ふか</rt><rp>)</rp></ruby>く <ruby>息<rp>(</rp><rt>いき</rt><rp>)</rp></ruby>を <ruby>吸<rp>(</rp><rt>す</rt><rp>)</rp></ruby>いこんだあと １７００<ruby>度<rp>(</rp><rt>ど</rt><rp>)</rp></ruby>の <ruby>火<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>を <ruby>吐<rp>(</rp><rt>は</rt><rp>)</rp></ruby>く。"
           }
         }
       },
@@ -3189,7 +3189,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>全身<rp>(</rp><rt>ぜんしん</rt><rp>)</rp></ruby>の <ruby>細<rp>(</rp><rt>こま</rt><rp>)</rp></ruby>やかな <ruby>体毛<rp>(</rp><rt>たいもう</rt><rp>)</rp></ruby>で <ruby>空気<rp>(</rp><rt>くうき</rt><rp>)</rp></ruby>の <ruby>流<rp>(</rp><rt>なが</rt><rp>)</rp></ruby>れを <ruby>感<rp>(</rp><rt>かん</rt><rp>)</rp></ruby>じて <ruby>敵<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>の <ruby>考<rp>(</rp><rt>かんが</rt><rp>)</rp></ruby>えや <ruby>天候<rp>(</rp><rt>てんこう</rt><rp>)</rp></ruby>を <ruby>予測<rp>(</rp><rt>よそく</rt><rp>)</rp></ruby>する。"
           }
         }
       },
@@ -3212,7 +3212,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>月<rp>(</rp><rt>つき</rt><rp>)</rp></ruby>の <ruby>光<rp>(</rp><rt>ひかり</rt><rp>)</rp></ruby>が イーブイの <ruby>遺伝子<rp>(</rp><rt>いでんし</rt><rp>)</rp></ruby>を <ruby>変化<rp>(</rp><rt>へんか</rt><rp>)</rp></ruby>させた。<ruby>闇<rp>(</rp><rt>やみ</rt><rp>)</rp></ruby>に <ruby>潜<rp>(</rp><rt>ひそ</rt><rp>)</rp></ruby>み <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>を <ruby>待<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>つ。"
           }
         }
       },
@@ -3235,7 +3235,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>植物<rp>(</rp><rt>しょくぶつ</rt><rp>)</rp></ruby>のように <ruby>光合成<rp>(</rp><rt>こうごうせい</rt><rp>)</rp></ruby>を するため リーフィアの まわりは <ruby>澄<rp>(</rp><rt>す</rt><rp>)</rp></ruby>んだ <ruby>空気<rp>(</rp><rt>くうき</rt><rp>)</rp></ruby>に <ruby>包<rp>(</rp><rt>つつ</rt><rp>)</rp></ruby>まれている。"
           }
         }
       },
@@ -3258,7 +3258,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体温<rp>(</rp><rt>たいおん</rt><rp>)</rp></ruby>を コントロールすることで <ruby>周囲<rp>(</rp><rt>しゅうい</rt><rp>)</rp></ruby>の <ruby>空気<rp>(</rp><rt>くうき</rt><rp>)</rp></ruby>を <ruby>凍<rp>(</rp><rt>こお</rt><rp>)</rp></ruby>らせて ダイヤモンドダストを <ruby>降<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>らせる。"
           }
         }
       },
@@ -3281,7 +3281,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>大好<rp>(</rp><rt>だいす</rt><rp>)</rp></ruby>きな トレーナーの <ruby>腕<rp>(</rp><rt>うで</rt><rp>)</rp></ruby>に リボンのような <ruby>触角<rp>(</rp><rt>しょっかく</rt><rp>)</rp></ruby>を <ruby>巻<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>きつけて <ruby>一緒<rp>(</rp><rt>いっしょ</rt><rp>)</rp></ruby>に <ruby>歩<rp>(</rp><rt>ある</rt><rp>)</rp></ruby>く。"
           }
         }
       },
@@ -3304,7 +3304,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "いつも <ruby>丸<rp>(</rp><rt>まる</rt><rp>)</rp></ruby>めている <ruby>耳<rp>(</rp><rt>みみ</rt><rp>)</rp></ruby>を <ruby>勢<rp>(</rp><rt>いきお</rt><rp>)</rp></ruby>いよく <ruby>伸<rp>(</rp><rt>の</rt><rp>)</rp></ruby>ばすと <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きな <ruby>岩<rp>(</rp><rt>いわ</rt><rp>)</rp></ruby>も <ruby>簡単<rp>(</rp><rt>かんたん</rt><rp>)</rp></ruby>に <ruby>壊<rp>(</rp><rt>こわ</rt><rp>)</rp></ruby>せる。"
           }
         }
       },
@@ -3327,7 +3327,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>耳<rp>(</rp><rt>みみ</rt><rp>)</rp></ruby>は とても デリケートらしく <ruby>優<rp>(</rp><rt>やさ</rt><rp>)</rp></ruby>しく <ruby>丁寧<rp>(</rp><rt>ていねい</rt><rp>)</rp></ruby>に <ruby>触<rp>(</rp><rt>さわ</rt><rp>)</rp></ruby>らないと しなやかな <ruby>脚<rp>(</rp><rt>あし</rt><rp>)</rp></ruby>で けられてしまう。"
           }
         },
         "0428_00000100_0_000_0": {
@@ -3348,7 +3348,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>耳<rp>(</rp><rt>みみ</rt><rp>)</rp></ruby>は とても デリケートらしく <ruby>優<rp>(</rp><rt>やさ</rt><rp>)</rp></ruby>しく <ruby>丁寧<rp>(</rp><rt>ていねい</rt><rp>)</rp></ruby>に <ruby>触<rp>(</rp><rt>さわ</rt><rp>)</rp></ruby>らないと しなやかな <ruby>脚<rp>(</rp><rt>あし</rt><rp>)</rp></ruby>で けられてしまう。"
           }
         }
       },
@@ -3371,7 +3371,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>の ツノで <ruby>恨<rp>(</rp><rt>うら</rt><rp>)</rp></ruby>みや ねたみの <ruby>感情<rp>(</rp><rt>かんじょう</rt><rp>)</rp></ruby>を <ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べると いわれる。<ruby>真夜中<rp>(</rp><rt>まよなか</rt><rp>)</rp></ruby> <ruby>活発<rp>(</rp><rt>かっぱつ</rt><rp>)</rp></ruby>に <ruby>活動<rp>(</rp><rt>かつどう</rt><rp>)</rp></ruby>する。"
           }
         }
       },
@@ -3394,7 +3394,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>捨<rp>(</rp><rt>す</rt><rp>)</rp></ruby>てられた ぬいぐるみに おんねんが <ruby>宿<rp>(</rp><rt>やど</rt><rp>)</rp></ruby>り ポケモンになった。<ruby>自分<rp>(</rp><rt>じぶん</rt><rp>)</rp></ruby>を <ruby>捨<rp>(</rp><rt>す</rt><rp>)</rp></ruby>てた <ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>を <ruby>捜<rp>(</rp><rt>さが</rt><rp>)</rp></ruby>している。"
           }
         },
         "0354_00000100_0_000_0": {
@@ -3415,7 +3415,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>捨<rp>(</rp><rt>す</rt><rp>)</rp></ruby>てられた ぬいぐるみに おんねんが <ruby>宿<rp>(</rp><rt>やど</rt><rp>)</rp></ruby>り ポケモンになった。<ruby>自分<rp>(</rp><rt>じぶん</rt><rp>)</rp></ruby>を <ruby>捨<rp>(</rp><rt>す</rt><rp>)</rp></ruby>てた <ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>を <ruby>捜<rp>(</rp><rt>さが</rt><rp>)</rp></ruby>している。"
           }
         }
       },
@@ -3438,7 +3438,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "マイナス５０<ruby>度<rp>(</rp><rt>ど</rt><rp>)</rp></ruby>の <ruby>息<rp>(</rp><rt>いき</rt><rp>)</rp></ruby>を <ruby>吐<rp>(</rp><rt>は</rt><rp>)</rp></ruby>く。<ruby>雪<rp>(</rp><rt>ゆき</rt><rp>)</rp></ruby>の <ruby>結晶<rp>(</rp><rt>けっしょう</rt><rp>)</rp></ruby>を <ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>って あたりに <ruby>雪<rp>(</rp><rt>ゆき</rt><rp>)</rp></ruby>を <ruby>降<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>らせる。"
           }
         }
       },
@@ -3461,7 +3461,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "あたりの <ruby>空気<rp>(</rp><rt>くうき</rt><rp>)</rp></ruby>を <ruby>冷<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>やして <ruby>氷<rp>(</rp><rt>こおり</rt><rp>)</rp></ruby>の <ruby>粒<rp>(</rp><rt>つぶ</rt><rp>)</rp></ruby>を <ruby>発生<rp>(</rp><rt>はっせい</rt><rp>)</rp></ruby>させて <ruby>敵<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>の <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を <ruby>凍<rp>(</rp><rt>こお</rt><rp>)</rp></ruby>りつかせる。"
           }
         }
       },
@@ -3484,7 +3484,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "２つの <ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>が <ruby>同時<rp>(</rp><rt>どうじ</rt><rp>)</rp></ruby>に <ruby>怒<rp>(</rp><rt>おこ</rt><rp>)</rp></ruby>ると ツノから <ruby>猛吹雪<rp>(</rp><rt>もうふぶき</rt><rp>)</rp></ruby>を <ruby>噴<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す。あたりを <ruby>大雪<rp>(</rp><rt>おおゆき</rt><rp>)</rp></ruby>で <ruby>埋<rp>(</rp><rt>う</rt><rp>)</rp></ruby>めてしまう。"
           }
         }
       },
@@ -3507,7 +3507,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "１２００<ruby>度<rp>(</rp><rt>ど</rt><rp>)</rp></ruby>の マグマを <ruby>体内<rp>(</rp><rt>たいない</rt><rp>)</rp></ruby>に <ruby>溜<rp>(</rp><rt>た</rt><rp>)</rp></ruby>めこんでいる。<ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>の <ruby>技<rp>(</rp><rt>わざ</rt><rp>)</rp></ruby>を <ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>うと コブは <ruby>小<rp>(</rp><rt>ちい</rt><rp>)</rp></ruby>さく しぼむ。"
           }
         }
       },
@@ -3530,7 +3530,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>背中<rp>(</rp><rt>せなか</rt><rp>)</rp></ruby>の コブの <ruby>火山<rp>(</rp><rt>かざん</rt><rp>)</rp></ruby>は １０<ruby>年<rp>(</rp><rt>ねん</rt><rp>)</rp></ruby>ごとに <ruby>大噴火<rp>(</rp><rt>だいふんか</rt><rp>)</rp></ruby> するが <ruby>激<rp>(</rp><rt>はげ</rt><rp>)</rp></ruby>しく <ruby>怒<rp>(</rp><rt>おこ</rt><rp>)</rp></ruby>っても <ruby>噴火<rp>(</rp><rt>ふんか</rt><rp>)</rp></ruby>する。"
           }
         },
         "0323_00000100_0_000_0": {
@@ -3551,7 +3551,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>背中<rp>(</rp><rt>せなか</rt><rp>)</rp></ruby>の コブの <ruby>火山<rp>(</rp><rt>かざん</rt><rp>)</rp></ruby>は １０<ruby>年<rp>(</rp><rt>ねん</rt><rp>)</rp></ruby>ごとに <ruby>大噴火<rp>(</rp><rt>だいふんか</rt><rp>)</rp></ruby> するが <ruby>激<rp>(</rp><rt>はげ</rt><rp>)</rp></ruby>しく <ruby>怒<rp>(</rp><rt>おこ</rt><rp>)</rp></ruby>っても <ruby>噴火<rp>(</rp><rt>ふんか</rt><rp>)</rp></ruby>する。"
           }
         }
       },
@@ -3574,7 +3574,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>全身<rp>(</rp><rt>ぜんしん</rt><rp>)</rp></ruby>に <ruby>砂<rp>(</rp><rt>すな</rt><rp>)</rp></ruby>を まとうことで ばい<ruby>菌<rp>(</rp><rt>きん</rt><rp>)</rp></ruby>から <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を <ruby>守<rp>(</rp><rt>まも</rt><rp>)</rp></ruby>る。<ruby>水<rp>(</rp><rt>みず</rt><rp>)</rp></ruby>に <ruby>濡<rp>(</rp><rt>ぬ</rt><rp>)</rp></ruby>れることが <ruby>苦手<rp>(</rp><rt>にがて</rt><rp>)</rp></ruby>。"
           }
         }
       },
@@ -3597,7 +3597,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体内<rp>(</rp><rt>たいない</rt><rp>)</rp></ruby>に <ruby>溜<rp>(</rp><rt>た</rt><rp>)</rp></ruby>めた <ruby>砂<rp>(</rp><rt>すな</rt><rp>)</rp></ruby>を <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>の <ruby>穴<rp>(</rp><rt>あな</rt><rp>)</rp></ruby>から <ruby>噴<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>き<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げて <ruby>巨大<rp>(</rp><rt>きょだい</rt><rp>)</rp></ruby>な <ruby>竜巻<rp>(</rp><rt>たつまき</rt><rp>)</rp></ruby>を <ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>り <ruby>攻撃<rp>(</rp><rt>こうげき</rt><rp>)</rp></ruby>する。"
           }
         }
       },
@@ -3620,7 +3620,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を スピンさせることで <ruby>時速<rp>(</rp><rt>じそく</rt><rp>)</rp></ruby>５０キロの スピードのまま まっすぐ <ruby>地面<rp>(</rp><rt>じめん</rt><rp>)</rp></ruby>を <ruby>掘<rp>(</rp><rt>ほ</rt><rp>)</rp></ruby>り<ruby>進<rp>(</rp><rt>すす</rt><rp>)</rp></ruby>む。"
           }
         }
       },
@@ -3643,7 +3643,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>地下<rp>(</rp><rt>ちか</rt><rp>)</rp></ruby> １００メートルに <ruby>迷路<rp>(</rp><rt>めいろ</rt><rp>)</rp></ruby>の ような <ruby>巣穴<rp>(</rp><rt>すあな</rt><rp>)</rp></ruby>を <ruby>掘<rp>(</rp><rt>ほ</rt><rp>)</rp></ruby>る。<ruby>地下鉄<rp>(</rp><rt>ちかてつ</rt><rp>)</rp></ruby>の トンネルに <ruby>穴<rp>(</rp><rt>あな</rt><rp>)</rp></ruby>を <ruby>開<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>けてしまう。"
           }
         },
         "0530_00000100_0_000_0": {
@@ -3664,7 +3664,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>地下<rp>(</rp><rt>ちか</rt><rp>)</rp></ruby> １００メートルに <ruby>迷路<rp>(</rp><rt>めいろ</rt><rp>)</rp></ruby>の ような <ruby>巣穴<rp>(</rp><rt>すあな</rt><rp>)</rp></ruby>を <ruby>掘<rp>(</rp><rt>ほ</rt><rp>)</rp></ruby>る。<ruby>地下鉄<rp>(</rp><rt>ちかてつ</rt><rp>)</rp></ruby>の トンネルに <ruby>穴<rp>(</rp><rt>あな</rt><rp>)</rp></ruby>を <ruby>開<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>けてしまう。"
           }
         }
       },
@@ -3687,7 +3687,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>砂<rp>(</rp><rt>すな</rt><rp>)</rp></ruby>の <ruby>中<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>に <ruby>潜<rp>(</rp><rt>もぐ</rt><rp>)</rp></ruby>り <ruby>目<rp>(</rp><rt>め</rt><rp>)</rp></ruby>と <ruby>鼻<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>を <ruby>外<rp>(</rp><rt>そと</rt><rp>)</rp></ruby>に <ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>して <ruby>移動<rp>(</rp><rt>いどう</rt><rp>)</rp></ruby>する。<ruby>黒<rp>(</rp><rt>くろ</rt><rp>)</rp></ruby>い <ruby>膜<rp>(</rp><rt>まく</rt><rp>)</rp></ruby>が <ruby>目<rp>(</rp><rt>め</rt><rp>)</rp></ruby>を <ruby>守<rp>(</rp><rt>まも</rt><rp>)</rp></ruby>る。"
           }
         }
       },
@@ -3710,7 +3710,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>眼球<rp>(</rp><rt>がんきゅう</rt><rp>)</rp></ruby>を <ruby>覆<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>う <ruby>特殊<rp>(</rp><rt>とくしゅ</rt><rp>)</rp></ruby>な <ruby>膜<rp>(</rp><rt>まく</rt><rp>)</rp></ruby>が <ruby>物体<rp>(</rp><rt>ぶったい</rt><rp>)</rp></ruby>の <ruby>熱<rp>(</rp><rt>ねつ</rt><rp>)</rp></ruby>を <ruby>感知<rp>(</rp><rt>かんち</rt><rp>)</rp></ruby>するため <ruby>暗闇<rp>(</rp><rt>くらやみ</rt><rp>)</rp></ruby>でも まわりが <ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>えるのだ。"
           }
         }
       },
@@ -3733,7 +3733,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>出会<rp>(</rp><rt>であ</rt><rp>)</rp></ruby>った <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>は <ruby>逃<rp>(</rp><rt>に</rt><rp>)</rp></ruby>がさない。<ruby>自動車<rp>(</rp><rt>じどうしゃ</rt><rp>)</rp></ruby>の ボディを <ruby>食<rp>(</rp><rt>く</rt><rp>)</rp></ruby>いちぎる <ruby>強力<rp>(</rp><rt>きょうりょく</rt><rp>)</rp></ruby>な あごを <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>つ。"
           }
         }
       },
@@ -3756,7 +3756,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>全身<rp>(</rp><rt>ぜんしん</rt><rp>)</rp></ruby>が <ruby>筋肉<rp>(</rp><rt>きんにく</rt><rp>)</rp></ruby>になっており <ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>ほどの <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きさしかないのに <ruby>大人<rp>(</rp><rt>おとな</rt><rp>)</rp></ruby> １００<ruby>人<rp>(</rp><rt>にん</rt><rp>)</rp></ruby>を <ruby>投<rp>(</rp><rt>な</rt><rp>)</rp></ruby>げ<ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ばせる。"
           }
         }
       },
@@ -3779,7 +3779,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>片手<rp>(</rp><rt>かたて</rt><rp>)</rp></ruby>で ダンプカーを <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>ち<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げる パワーを <ruby>活<rp>(</rp><rt>い</rt><rp>)</rp></ruby>かして <ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>の かわりに <ruby>力仕事<rp>(</rp><rt>ちからしごと</rt><rp>)</rp></ruby>を <ruby>手伝<rp>(</rp><rt>てつだ</rt><rp>)</rp></ruby>う ポケモン。"
           }
         }
       },
@@ -3802,7 +3802,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "４<ruby>本<rp>(</rp><rt>ほん</rt><rp>)</rp></ruby>の <ruby>腕<rp>(</rp><rt>うで</rt><rp>)</rp></ruby>で <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>の <ruby>手足<rp>(</rp><rt>てあし</rt><rp>)</rp></ruby>を <ruby>押<rp>(</rp><rt>お</rt><rp>)</rp></ruby>さえこみ <ruby>自由<rp>(</rp><rt>じゆう</rt><rp>)</rp></ruby>を <ruby>奪<rp>(</rp><rt>うば</rt><rp>)</rp></ruby>うと <ruby>地平線<rp>(</rp><rt>ちへいせん</rt><rp>)</rp></ruby>の <ruby>向<rp>(</rp><rt>む</rt><rp>)</rp></ruby>こうまで <ruby>投<rp>(</rp><rt>な</rt><rp>)</rp></ruby>げ<ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ばす。"
           }
         }
       },
@@ -3825,7 +3825,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>洞窟<rp>(</rp><rt>どうくつ</rt><rp>)</rp></ruby>の <ruby>小<rp>(</rp><rt>ちい</rt><rp>)</rp></ruby>さな <ruby>横穴<rp>(</rp><rt>よこあな</rt><rp>)</rp></ruby>を ねぐらにする。<ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>が <ruby>近<rp>(</rp><rt>ちか</rt><rp>)</rp></ruby>づくと <ruby>素早<rp>(</rp><rt>すばや</rt><rp>)</rp></ruby>く <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>び<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>して <ruby>捕<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>まえる。"
           }
         }
       },
@@ -3848,7 +3848,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>巣穴<rp>(</rp><rt>すあな</rt><rp>)</rp></ruby>を <ruby>広<rp>(</rp><rt>ひろ</rt><rp>)</rp></ruby>げるとき <ruby>地中<rp>(</rp><rt>ちちゅう</rt><rp>)</rp></ruby>から <ruby>出<rp>(</rp><rt>で</rt><rp>)</rp></ruby>てきた <ruby>宝石<rp>(</rp><rt>ほうせき</rt><rp>)</rp></ruby>の <ruby>原石<rp>(</rp><rt>げんせき</rt><rp>)</rp></ruby>を <ruby>巣<rp>(</rp><rt>す</rt><rp>)</rp></ruby>に ためる <ruby>習性<rp>(</rp><rt>しゅうせい</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>つ。"
           }
         }
       },
@@ -3871,7 +3871,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ジェット<ruby>戦闘機<rp>(</rp><rt>せんとうき</rt><rp>)</rp></ruby>に <ruby>負<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>けない スピードで <ruby>空<rp>(</rp><rt>そら</rt><rp>)</rp></ruby>を <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ぶ。<ruby>狙<rp>(</rp><rt>ねら</rt><rp>)</rp></ruby>った <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>は <ruby>逃<rp>(</rp><rt>に</rt><rp>)</rp></ruby>がさない。"
           }
         },
         "0445_00000100_0_000_0": {
@@ -3892,7 +3892,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ジェット<ruby>戦闘機<rp>(</rp><rt>せんとうき</rt><rp>)</rp></ruby>に <ruby>負<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>けない スピードで <ruby>空<rp>(</rp><rt>そら</rt><rp>)</rp></ruby>を <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ぶ。<ruby>狙<rp>(</rp><rt>ねら</rt><rp>)</rp></ruby>った <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>は <ruby>逃<rp>(</rp><rt>に</rt><rp>)</rp></ruby>がさない。"
           }
         }
       },
@@ -3915,7 +3915,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>地下深<rp>(</rp><rt>ちかふか</rt><rp>)</rp></ruby>くの <ruby>高温<rp>(</rp><rt>こうおん</rt><rp>)</rp></ruby> <ruby>高圧<rp>(</rp><rt>こうあつ</rt><rp>)</rp></ruby>な <ruby>環境<rp>(</rp><rt>かんきょう</rt><rp>)</rp></ruby>で <ruby>生<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まれた。<ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>の <ruby>石<rp>(</rp><rt>いし</rt><rp>)</rp></ruby>から エネルギーを <ruby>放<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>つ。"
           }
         }
       },
@@ -3938,7 +3938,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>洞窟<rp>(</rp><rt>どうくつ</rt><rp>)</rp></ruby>の <ruby>暗闇<rp>(</rp><rt>くらやみ</rt><rp>)</rp></ruby>に <ruby>潜<rp>(</rp><rt>ひそ</rt><rp>)</rp></ruby>む。<ruby>宝石<rp>(</rp><rt>ほうせき</rt><rp>)</rp></ruby>を <ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べているうちに <ruby>目<rp>(</rp><rt>め</rt><rp>)</rp></ruby>が <ruby>宝石<rp>(</rp><rt>ほうせき</rt><rp>)</rp></ruby>に なってしまった。"
           }
         },
         "0302_00000100_0_000_0": {
@@ -3959,7 +3959,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>洞窟<rp>(</rp><rt>どうくつ</rt><rp>)</rp></ruby>の <ruby>暗闇<rp>(</rp><rt>くらやみ</rt><rp>)</rp></ruby>に <ruby>潜<rp>(</rp><rt>ひそ</rt><rp>)</rp></ruby>む。<ruby>宝石<rp>(</rp><rt>ほうせき</rt><rp>)</rp></ruby>を <ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べているうちに <ruby>目<rp>(</rp><rt>め</rt><rp>)</rp></ruby>が <ruby>宝石<rp>(</rp><rt>ほうせき</rt><rp>)</rp></ruby>に なってしまった。"
           }
         }
       },
@@ -3982,7 +3982,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ツノが <ruby>変形<rp>(</rp><rt>へんけい</rt><rp>)</rp></ruby>して できた <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>あごが <ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>に ついている。<ruby>鉄骨<rp>(</rp><rt>てっこつ</rt><rp>)</rp></ruby>を <ruby>噛<rp>(</rp><rt>か</rt><rp>)</rp></ruby>み<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>ってしまう。"
           }
         },
         "0303_00000100_0_000_0": {
@@ -4003,7 +4003,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ツノが <ruby>変形<rp>(</rp><rt>へんけい</rt><rp>)</rp></ruby>して できた <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>あごが <ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>に ついている。<ruby>鉄骨<rp>(</rp><rt>てっこつ</rt><rp>)</rp></ruby>を <ruby>噛<rp>(</rp><rt>か</rt><rp>)</rp></ruby>み<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>ってしまう。"
           }
         }
       },
@@ -4026,7 +4026,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>災害<rp>(</rp><rt>さいがい</rt><rp>)</rp></ruby>を <ruby>予感<rp>(</rp><rt>よかん</rt><rp>)</rp></ruby>する。<ruby>危険<rp>(</rp><rt>きけん</rt><rp>)</rp></ruby>を <ruby>知<rp>(</rp><rt>し</rt><rp>)</rp></ruby>らせるときだけ <ruby>人前<rp>(</rp><rt>ひとまえ</rt><rp>)</rp></ruby>に <ruby>現<rp>(</rp><rt>あらわ</rt><rp>)</rp></ruby>れるという。"
           }
         },
         "0359_00000100_0_000_0": {
@@ -4047,7 +4047,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>災害<rp>(</rp><rt>さいがい</rt><rp>)</rp></ruby>を <ruby>予感<rp>(</rp><rt>よかん</rt><rp>)</rp></ruby>する。<ruby>危険<rp>(</rp><rt>きけん</rt><rp>)</rp></ruby>を <ruby>知<rp>(</rp><rt>し</rt><rp>)</rp></ruby>らせるときだけ <ruby>人前<rp>(</rp><rt>ひとまえ</rt><rp>)</rp></ruby>に <ruby>現<rp>(</rp><rt>あらわ</rt><rp>)</rp></ruby>れるという。"
           }
         }
       },
@@ -4070,7 +4070,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>から <ruby>発<rp>(</rp><rt>はっ</rt><rp>)</rp></ruby>する <ruby>波動<rp>(</rp><rt>はどう</rt><rp>)</rp></ruby>は <ruby>怖<rp>(</rp><rt>こわ</rt><rp>)</rp></ruby>いとき <ruby>悲<rp>(</rp><rt>かな</rt><rp>)</rp></ruby>しいときに <ruby>強<rp>(</rp><rt>つよ</rt><rp>)</rp></ruby>まり ピンチを <ruby>仲間<rp>(</rp><rt>なかま</rt><rp>)</rp></ruby>に <ruby>伝<rp>(</rp><rt>つた</rt><rp>)</rp></ruby>える。"
           }
         }
       },
@@ -4093,7 +4093,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "あらゆる ものが <ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す <ruby>波動<rp>(</rp><rt>はどう</rt><rp>)</rp></ruby>を <ruby>読<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>みとることで １キロ<ruby>先<rp>(</rp><rt>さき</rt><rp>)</rp></ruby>に いる <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>の <ruby>気持<rp>(</rp><rt>きも</rt><rp>)</rp></ruby>ちも <ruby>理解<rp>(</rp><rt>りかい</rt><rp>)</rp></ruby>できる。"
           }
         },
         "0448_00000100_0_000_0": {
@@ -4114,7 +4114,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "あらゆる ものが <ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す <ruby>波動<rp>(</rp><rt>はどう</rt><rp>)</rp></ruby>を <ruby>読<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>みとることで １キロ<ruby>先<rp>(</rp><rt>さき</rt><rp>)</rp></ruby>に いる <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>の <ruby>気持<rp>(</rp><rt>きも</rt><rp>)</rp></ruby>ちも <ruby>理解<rp>(</rp><rt>りかい</rt><rp>)</rp></ruby>できる。"
           }
         }
       },
@@ -4137,7 +4137,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>水辺<rp>(</rp><rt>みずべ</rt><rp>)</rp></ruby>で ボーッとしている。なにかが <ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>に <ruby>噛<rp>(</rp><rt>か</rt><rp>)</rp></ruby>みついても まる１<ruby>日<rp>(</rp><rt>にち</rt><rp>)</rp></ruby> <ruby>気<rp>(</rp><rt>き</rt><rp>)</rp></ruby>づかない。"
           }
         },
         "0079_02000000_0_000_0": {
@@ -4158,7 +4158,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>水辺<rp>(</rp><rt>みずべ</rt><rp>)</rp></ruby>で ボーッとしている。なにかが <ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>に <ruby>噛<rp>(</rp><rt>か</rt><rp>)</rp></ruby>みついても まる１<ruby>日<rp>(</rp><rt>にち</rt><rp>)</rp></ruby> <ruby>気<rp>(</rp><rt>き</rt><rp>)</rp></ruby>づかない。"
           }
         }
       },
@@ -4181,7 +4181,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "くっついている シェルダーは <ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>から にじみでる うま<ruby>味<rp>(</rp><rt>み</rt><rp>)</rp></ruby>が <ruby>欲<rp>(</rp><rt>ほ</rt><rp>)</rp></ruby>しくて ずっと <ruby>離<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>れない。"
           }
         },
         "0080_00000100_0_000_0": {
@@ -4202,7 +4202,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "くっついている シェルダーは <ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>から にじみでる うま<ruby>味<rp>(</rp><rt>み</rt><rp>)</rp></ruby>が <ruby>欲<rp>(</rp><rt>ほ</rt><rp>)</rp></ruby>しくて ずっと <ruby>離<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>れない。"
           }
         },
         "0080_02000000_0_000_0": {
@@ -4223,7 +4223,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "くっついている シェルダーは <ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>から にじみでる うま<ruby>味<rp>(</rp><rt>み</rt><rp>)</rp></ruby>が <ruby>欲<rp>(</rp><rt>ほ</rt><rp>)</rp></ruby>しくて ずっと <ruby>離<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>れない。"
           }
         }
       },
@@ -4246,7 +4246,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "すごい <ruby>知性<rp>(</rp><rt>ちせい</rt><rp>)</rp></ruby>と ひらめきを <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>っている。どんなときも あわてず <ruby>騒<rp>(</rp><rt>さわ</rt><rp>)</rp></ruby>がず のんびりとしている。"
           }
         },
         "0199_02000000_0_000_0": {
@@ -4267,7 +4267,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "すごい <ruby>知性<rp>(</rp><rt>ちせい</rt><rp>)</rp></ruby>と ひらめきを <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>っている。どんなときも あわてず <ruby>騒<rp>(</rp><rt>さわ</rt><rp>)</rp></ruby>がず のんびりとしている。"
           }
         }
       },
@@ -4290,7 +4290,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ジャングルを <ruby>流<rp>(</rp><rt>なが</rt><rp>)</rp></ruby>れる <ruby>大河<rp>(</rp><rt>たいが</rt><rp>)</rp></ruby>に <ruby>生息<rp>(</rp><rt>せいそく</rt><rp>)</rp></ruby>。<ruby>縄張<rp>(</rp><rt>なわば</rt><rp>)</rp></ruby>りに <ruby>紛<rp>(</rp><rt>まぎ</rt><rp>)</rp></ruby>れこんだ <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>を <ruby>集団<rp>(</rp><rt>しゅうだん</rt><rp>)</rp></ruby>で <ruby>襲<rp>(</rp><rt>おそ</rt><rp>)</rp></ruby>う。"
           }
         }
       },
@@ -4313,7 +4313,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "お<ruby>尻<rp>(</rp><rt>しり</rt><rp>)</rp></ruby>から <ruby>海水<rp>(</rp><rt>かいすい</rt><rp>)</rp></ruby>を <ruby>噴射<rp>(</rp><rt>ふんしゃ</rt><rp>)</rp></ruby>して <ruby>時速<rp>(</rp><rt>じそく</rt><rp>)</rp></ruby>１２０キロの スピードで <ruby>泳<rp>(</rp><rt>およ</rt><rp>)</rp></ruby>ぎまわる <ruby>海<rp>(</rp><rt>うみ</rt><rp>)</rp></ruby>の <ruby>暴<rp>(</rp><rt>あば</rt><rp>)</rp></ruby>れん<ruby>坊<rp>(</rp><rt>ぼう</rt><rp>)</rp></ruby>。"
           }
         },
         "0319_00000100_0_000_0": {
@@ -4334,7 +4334,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "お<ruby>尻<rp>(</rp><rt>しり</rt><rp>)</rp></ruby>から <ruby>海水<rp>(</rp><rt>かいすい</rt><rp>)</rp></ruby>を <ruby>噴射<rp>(</rp><rt>ふんしゃ</rt><rp>)</rp></ruby>して <ruby>時速<rp>(</rp><rt>じそく</rt><rp>)</rp></ruby>１２０キロの スピードで <ruby>泳<rp>(</rp><rt>およ</rt><rp>)</rp></ruby>ぎまわる <ruby>海<rp>(</rp><rt>うみ</rt><rp>)</rp></ruby>の <ruby>暴<rp>(</rp><rt>あば</rt><rp>)</rp></ruby>れん<ruby>坊<rp>(</rp><rt>ぼう</rt><rp>)</rp></ruby>。"
           }
         }
       },
@@ -4357,7 +4357,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>弱<rp>(</rp><rt>よわ</rt><rp>)</rp></ruby>い <ruby>電気<rp>(</rp><rt>でんき</rt><rp>)</rp></ruby>しか だせないので たくさんの シビシラスで <ruby>集<rp>(</rp><rt>あつ</rt><rp>)</rp></ruby>まり <ruby>強力<rp>(</rp><rt>きょうりょく</rt><rp>)</rp></ruby>な <ruby>電気<rp>(</rp><rt>でんき</rt><rp>)</rp></ruby>を <ruby>放<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>つ。"
           }
         }
       },
@@ -4380,7 +4380,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>に <ruby>巻<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>きつき まるい はん<ruby>点<rp>(</rp><rt>てん</rt><rp>)</rp></ruby>から <ruby>電気<rp>(</rp><rt>でんき</rt><rp>)</rp></ruby>を <ruby>流<rp>(</rp><rt>なが</rt><rp>)</rp></ruby>して しびれたところを まるかじりする。"
           }
         }
       },
@@ -4403,7 +4403,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>吸盤<rp>(</rp><rt>きゅうばん</rt><rp>)</rp></ruby>の <ruby>口<rp>(</rp><rt>くち</rt><rp>)</rp></ruby>で <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>に <ruby>吸<rp>(</rp><rt>す</rt><rp>)</rp></ruby>いつき <ruby>食<rp>(</rp><rt>く</rt><rp>)</rp></ruby>いこませた キバから <ruby>電気<rp>(</rp><rt>でんき</rt><rp>)</rp></ruby>を <ruby>流<rp>(</rp><rt>なが</rt><rp>)</rp></ruby>して <ruby>感電<rp>(</rp><rt>かんでん</rt><rp>)</rp></ruby>させる。"
           }
         },
         "0604_00000100_0_000_0": {
@@ -4424,7 +4424,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>吸盤<rp>(</rp><rt>きゅうばん</rt><rp>)</rp></ruby>の <ruby>口<rp>(</rp><rt>くち</rt><rp>)</rp></ruby>で <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>に <ruby>吸<rp>(</rp><rt>す</rt><rp>)</rp></ruby>いつき <ruby>食<rp>(</rp><rt>く</rt><rp>)</rp></ruby>いこませた キバから <ruby>電気<rp>(</rp><rt>でんき</rt><rp>)</rp></ruby>を <ruby>流<rp>(</rp><rt>なが</rt><rp>)</rp></ruby>して <ruby>感電<rp>(</rp><rt>かんでん</rt><rp>)</rp></ruby>させる。"
           }
         }
       },
@@ -4447,7 +4447,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>脱皮<rp>(</rp><rt>だっぴ</rt><rp>)</rp></ruby>を <ruby>繰<rp>(</rp><rt>く</rt><rp>)</rp></ruby>り<ruby>返<rp>(</rp><rt>かえ</rt><rp>)</rp></ruby>しては どんどん <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きくなる <ruby>生命力<rp>(</rp><rt>せいめいりょく</rt><rp>)</rp></ruby> あふれる ポケモン。"
           }
         }
       },
@@ -4470,7 +4470,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>水晶<rp>(</rp><rt>すいしょう</rt><rp>)</rp></ruby>のような <ruby>玉<rp>(</rp><rt>たま</rt><rp>)</rp></ruby>には <ruby>天候<rp>(</rp><rt>てんこう</rt><rp>)</rp></ruby>を <ruby>自由<rp>(</rp><rt>じゆう</rt><rp>)</rp></ruby>に <ruby>操<rp>(</rp><rt>あやつ</rt><rp>)</rp></ruby>る <ruby>能力<rp>(</rp><rt>のうりょく</rt><rp>)</rp></ruby>が <ruby>秘<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>められているらしい。"
           }
         }
       },
@@ -4493,7 +4493,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>広<rp>(</rp><rt>ひろ</rt><rp>)</rp></ruby>い <ruby>海<rp>(</rp><rt>うみ</rt><rp>)</rp></ruby>の どこかに <ruby>棲<rp>(</rp><rt>す</rt><rp>)</rp></ruby>み<ruby>処<rp>(</rp><rt>か</rt><rp>)</rp></ruby>が あると いわれている。<ruby>難破<rp>(</rp><rt>なんぱ</rt><rp>)</rp></ruby>した <ruby>船<rp>(</rp><rt>ふね</rt><rp>)</rp></ruby>を <ruby>陸<rp>(</rp><rt>りく</rt><rp>)</rp></ruby>まで <ruby>導<rp>(</rp><rt>みちび</rt><rp>)</rp></ruby>いてくれる。"
           }
         },
         "0149_00000100_0_000_0": {
@@ -4514,7 +4514,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>広<rp>(</rp><rt>ひろ</rt><rp>)</rp></ruby>い <ruby>海<rp>(</rp><rt>うみ</rt><rp>)</rp></ruby>の どこかに <ruby>棲<rp>(</rp><rt>す</rt><rp>)</rp></ruby>み<ruby>処<rp>(</rp><rt>か</rt><rp>)</rp></ruby>が あると いわれている。<ruby>難破<rp>(</rp><rt>なんぱ</rt><rp>)</rp></ruby>した <ruby>船<rp>(</rp><rt>ふね</rt><rp>)</rp></ruby>を <ruby>陸<rp>(</rp><rt>りく</rt><rp>)</rp></ruby>まで <ruby>導<rp>(</rp><rt>みちび</rt><rp>)</rp></ruby>いてくれる。"
           }
         }
       },
@@ -4537,7 +4537,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>生<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まれたときから <ruby>背中<rp>(</rp><rt>せなか</rt><rp>)</rp></ruby>に <ruby>不思議<rp>(</rp><rt>ふしぎ</rt><rp>)</rp></ruby>な タネが <ruby>植<rp>(</rp><rt>う</rt><rp>)</rp></ruby>えてあって <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>と ともに <ruby>育<rp>(</rp><rt>そだ</rt><rp>)</rp></ruby>つという。"
           }
         }
       },
@@ -4560,7 +4560,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "つぼみが <ruby>背中<rp>(</rp><rt>せなか</rt><rp>)</rp></ruby>に ついていて <ruby>養分<rp>(</rp><rt>ようぶん</rt><rp>)</rp></ruby>を <ruby>吸収<rp>(</rp><rt>きゅうしゅう</rt><rp>)</rp></ruby>していくと <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きな <ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>が <ruby>咲<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>くという。"
           }
         }
       },
@@ -4583,7 +4583,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>雨<rp>(</rp><rt>あめ</rt><rp>)</rp></ruby>の <ruby>降<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>った <ruby>翌日<rp>(</rp><rt>よくじつ</rt><rp>)</rp></ruby>は <ruby>背中<rp>(</rp><rt>せなか</rt><rp>)</rp></ruby>の <ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>の<ruby>香<rp>(</rp><rt>かお</rt><rp>)</rp></ruby>りが <ruby>強<rp>(</rp><rt>つよ</rt><rp>)</rp></ruby>まる。<ruby>香<rp>(</rp><rt>かお</rt><rp>)</rp></ruby>りに <ruby>誘<rp>(</rp><rt>さそ</rt><rp>)</rp></ruby>われ ポケモンが <ruby>集<rp>(</rp><rt>あつ</rt><rp>)</rp></ruby>まる。"
           }
         },
         "0003_00000100_0_000_0": {
@@ -4604,7 +4604,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>雨<rp>(</rp><rt>あめ</rt><rp>)</rp></ruby>の <ruby>降<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>った <ruby>翌日<rp>(</rp><rt>よくじつ</rt><rp>)</rp></ruby>は <ruby>背中<rp>(</rp><rt>せなか</rt><rp>)</rp></ruby>の <ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>の<ruby>香<rp>(</rp><rt>かお</rt><rp>)</rp></ruby>りが <ruby>強<rp>(</rp><rt>つよ</rt><rp>)</rp></ruby>まる。<ruby>香<rp>(</rp><rt>かお</rt><rp>)</rp></ruby>りに <ruby>誘<rp>(</rp><rt>さそ</rt><rp>)</rp></ruby>われ ポケモンが <ruby>集<rp>(</rp><rt>あつ</rt><rp>)</rp></ruby>まる。"
           }
         }
       },
@@ -4627,7 +4627,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>の <ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>は ヒトカゲの <ruby>生命力<rp>(</rp><rt>せいめいりょく</rt><rp>)</rp></ruby>の <ruby>証<rp>(</rp><rt>あかし</rt><rp>)</rp></ruby>。<ruby>元気<rp>(</rp><rt>げんき</rt><rp>)</rp></ruby>だと さかんに <ruby>燃<rp>(</rp><rt>も</rt><rp>)</rp></ruby>えさかる。"
           }
         }
       },
@@ -4650,7 +4650,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>を <ruby>振<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>りまわして <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>を なぎ<ruby>倒<rp>(</rp><rt>たお</rt><rp>)</rp></ruby>し <ruby>鋭<rp>(</rp><rt>するど</rt><rp>)</rp></ruby>い ツメで ズタズタに ひきさいてしまう。"
           }
         }
       },
@@ -4673,7 +4673,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>地上<rp>(</rp><rt>ちじょう</rt><rp>)</rp></ruby> １４００メートルまで <ruby>羽<rp>(</rp><rt>はね</rt><rp>)</rp></ruby>を <ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>って <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ぶことができる。<ruby>高熱<rp>(</rp><rt>こうねつ</rt><rp>)</rp></ruby>の <ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>を <ruby>吐<rp>(</rp><rt>は</rt><rp>)</rp></ruby>く。"
           }
         },
         "0006_00000100_0_000_0": {
@@ -4694,7 +4694,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>地上<rp>(</rp><rt>ちじょう</rt><rp>)</rp></ruby> １４００メートルまで <ruby>羽<rp>(</rp><rt>はね</rt><rp>)</rp></ruby>を <ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>って <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ぶことができる。<ruby>高熱<rp>(</rp><rt>こうねつ</rt><rp>)</rp></ruby>の <ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>を <ruby>吐<rp>(</rp><rt>は</rt><rp>)</rp></ruby>く。"
           }
         },
         "0006_00000101_0_000_0": {
@@ -4715,7 +4715,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>地上<rp>(</rp><rt>ちじょう</rt><rp>)</rp></ruby> １４００メートルまで <ruby>羽<rp>(</rp><rt>はね</rt><rp>)</rp></ruby>を <ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>って <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ぶことができる。<ruby>高熱<rp>(</rp><rt>こうねつ</rt><rp>)</rp></ruby>の <ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>を <ruby>吐<rp>(</rp><rt>は</rt><rp>)</rp></ruby>く。"
           }
         }
       },
@@ -4738,7 +4738,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>甲羅<rp>(</rp><rt>こうら</rt><rp>)</rp></ruby>に <ruby>閉<rp>(</rp><rt>と</rt><rp>)</rp></ruby>じこもり <ruby>身<rp>(</rp><rt>み</rt><rp>)</rp></ruby>を <ruby>守<rp>(</rp><rt>まも</rt><rp>)</rp></ruby>る。<ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>の <ruby>隙<rp>(</rp><rt>すき</rt><rp>)</rp></ruby>を <ruby>見逃<rp>(</rp><rt>みのが</rt><rp>)</rp></ruby>さず <ruby>水<rp>(</rp><rt>みず</rt><rp>)</rp></ruby>を <ruby>噴<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>して <ruby>反撃<rp>(</rp><rt>はんげき</rt><rp>)</rp></ruby>する。"
           }
         }
       },
@@ -4761,7 +4761,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ポカンと <ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>を <ruby>叩<rp>(</rp><rt>たた</rt><rp>)</rp></ruby>かれるとき <ruby>甲羅<rp>(</rp><rt>こうら</rt><rp>)</rp></ruby>に <ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>っこんで <ruby>避<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>ける。でも ちょっとだけ <ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>が <ruby>出<rp>(</rp><rt>で</rt><rp>)</rp></ruby>ているよ。"
           }
         }
       },
@@ -4784,7 +4784,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>が <ruby>重<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>たく のしかかって <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>を <ruby>気絶<rp>(</rp><rt>きぜつ</rt><rp>)</rp></ruby>させる。ピンチのときは <ruby>殻<rp>(</rp><rt>から</rt><rp>)</rp></ruby>に <ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>れる。"
           }
         },
         "0009_00000100_0_000_0": {
@@ -4805,7 +4805,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>が <ruby>重<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>たく のしかかって <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>を <ruby>気絶<rp>(</rp><rt>きぜつ</rt><rp>)</rp></ruby>させる。ピンチのときは <ruby>殻<rp>(</rp><rt>から</rt><rp>)</rp></ruby>に <ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>れる。"
           }
         }
       },
@@ -4828,7 +4828,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>海辺<rp>(</rp><rt>うみべ</rt><rp>)</rp></ruby>の <ruby>泥<rp>(</rp><rt>どろ</rt><rp>)</rp></ruby>に <ruby>埋<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まって <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>を <ruby>待<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>ち<ruby>構<rp>(</rp><rt>かま</rt><rp>)</rp></ruby>える。<ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>が <ruby>触<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>れたとき <ruby>電気<rp>(</rp><rt>でんき</rt><rp>)</rp></ruby>を <ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>して しびれさせるのだ。"
           }
         },
         "0618_02000000_0_000_0": {
@@ -4849,7 +4849,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>海辺<rp>(</rp><rt>うみべ</rt><rp>)</rp></ruby>の <ruby>泥<rp>(</rp><rt>どろ</rt><rp>)</rp></ruby>に <ruby>埋<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まって <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>を <ruby>待<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>ち<ruby>構<rp>(</rp><rt>かま</rt><rp>)</rp></ruby>える。<ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>が <ruby>触<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>れたとき <ruby>電気<rp>(</rp><rt>でんき</rt><rp>)</rp></ruby>を <ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>して しびれさせるのだ。"
           }
         }
       },
@@ -4872,7 +4872,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>大昔<rp>(</rp><rt>おおむかし</rt><rp>)</rp></ruby>の カロス<ruby>地方<rp>(</rp><rt>ちほう</rt><rp>)</rp></ruby>では <ruby>王様<rp>(</rp><rt>おうさま</rt><rp>)</rp></ruby>を <ruby>護衛<rp>(</rp><rt>ごえい</rt><rp>)</rp></ruby>する <ruby>役目<rp>(</rp><rt>やくめ</rt><rp>)</rp></ruby>を <ruby>与<rp>(</rp><rt>あた</rt><rp>)</rp></ruby>えられた ポケモン。"
           }
         }
       },
@@ -4895,7 +4895,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>光<rp>(</rp><rt>ひかり</rt><rp>)</rp></ruby>の <ruby>点滅<rp>(</rp><rt>てんめつ</rt><rp>)</rp></ruby>で <ruby>襲<rp>(</rp><rt>おそ</rt><rp>)</rp></ruby>ってきた <ruby>敵<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>の <ruby>戦意<rp>(</rp><rt>せんい</rt><rp>)</rp></ruby>を なくしてしまう。その <ruby>隙<rp>(</rp><rt>すき</rt><rp>)</rp></ruby>に <ruby>姿<rp>(</rp><rt>すがた</rt><rp>)</rp></ruby>を くらますのだ。"
           }
         }
       },
@@ -4918,7 +4918,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ポケモンで <ruby>一番<rp>(</rp><rt>いちばん</rt><rp>)</rp></ruby> <ruby>強力<rp>(</rp><rt>きょうりょく</rt><rp>)</rp></ruby>な <ruby>催眠術<rp>(</rp><rt>さいみんじゅつ</rt><rp>)</rp></ruby>を <ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>う。<ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>を <ruby>意<rp>(</rp><rt>い</rt><rp>)</rp></ruby>のままに <ruby>操<rp>(</rp><rt>あやつ</rt><rp>)</rp></ruby>ってしまうのだ。"
           }
         },
         "0687_00000100_0_000_0": {
@@ -4939,7 +4939,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ポケモンで <ruby>一番<rp>(</rp><rt>いちばん</rt><rp>)</rp></ruby> <ruby>強力<rp>(</rp><rt>きょうりょく</rt><rp>)</rp></ruby>な <ruby>催眠術<rp>(</rp><rt>さいみんじゅつ</rt><rp>)</rp></ruby>を <ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>う。<ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>を <ruby>意<rp>(</rp><rt>い</rt><rp>)</rp></ruby>のままに <ruby>操<rp>(</rp><rt>あやつ</rt><rp>)</rp></ruby>ってしまうのだ。"
           }
         }
       },
@@ -4962,7 +4962,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>腐<rp>(</rp><rt>くさ</rt><rp>)</rp></ruby>った <ruby>海藻<rp>(</rp><rt>かいそう</rt><rp>)</rp></ruby>に <ruby>擬態<rp>(</rp><rt>ぎたい</rt><rp>)</rp></ruby>する。<ruby>気<rp>(</rp><rt>き</rt><rp>)</rp></ruby>づかずに <ruby>近寄<rp>(</rp><rt>ちかよ</rt><rp>)</rp></ruby>ってきた <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>に <ruby>毒液<rp>(</rp><rt>どくえき</rt><rp>)</rp></ruby>を <ruby>浴<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>びせて <ruby>仕留<rp>(</rp><rt>しと</rt><rp>)</rp></ruby>める。"
           }
         }
       },
@@ -4985,7 +4985,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "タンカーの <ruby>船体<rp>(</rp><rt>せんたい</rt><rp>)</rp></ruby>を <ruby>腐<rp>(</rp><rt>くさ</rt><rp>)</rp></ruby>らせる <ruby>猛毒<rp>(</rp><rt>もうどく</rt><rp>)</rp></ruby>を <ruby>縄張<rp>(</rp><rt>なわば</rt><rp>)</rp></ruby>りに <ruby>入<rp>(</rp><rt>はい</rt><rp>)</rp></ruby>りこんだ ものに <ruby>見境<rp>(</rp><rt>みさかい</rt><rp>)</rp></ruby>なく <ruby>吐<rp>(</rp><rt>は</rt><rp>)</rp></ruby>きかける。"
           }
         },
         "0691_00000100_0_000_0": {
@@ -5006,7 +5006,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "タンカーの <ruby>船体<rp>(</rp><rt>せんたい</rt><rp>)</rp></ruby>を <ruby>腐<rp>(</rp><rt>くさ</rt><rp>)</rp></ruby>らせる <ruby>猛毒<rp>(</rp><rt>もうどく</rt><rp>)</rp></ruby>を <ruby>縄張<rp>(</rp><rt>なわば</rt><rp>)</rp></ruby>りに <ruby>入<rp>(</rp><rt>はい</rt><rp>)</rp></ruby>りこんだ ものに <ruby>見境<rp>(</rp><rt>みさかい</rt><rp>)</rp></ruby>なく <ruby>吐<rp>(</rp><rt>は</rt><rp>)</rp></ruby>きかける。"
           }
         }
       },
@@ -5029,7 +5029,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きな ハサミから <ruby>圧縮<rp>(</rp><rt>あっしゅく</rt><rp>)</rp></ruby>した <ruby>水<rp>(</rp><rt>みず</rt><rp>)</rp></ruby>を ピストルのように <ruby>撃<rp>(</rp><rt>う</rt><rp>)</rp></ruby>ち<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>し <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>んでいる <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>を <ruby>撃<rp>(</rp><rt>う</rt><rp>)</rp></ruby>ち<ruby>落<rp>(</rp><rt>お</rt><rp>)</rp></ruby>とす。"
           }
         }
       },
@@ -5052,7 +5052,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ハサミの <ruby>後<rp>(</rp><rt>うし</rt><rp>)</rp></ruby>ろの ノズルから <ruby>水<rp>(</rp><rt>みず</rt><rp>)</rp></ruby>を <ruby>噴<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す <ruby>推進力<rp>(</rp><rt>すいしんりょく</rt><rp>)</rp></ruby>で ６０ノットの スピードで <ruby>進<rp>(</rp><rt>すす</rt><rp>)</rp></ruby>む。"
           }
         }
       },
@@ -5075,7 +5075,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ヌメヌメの <ruby>粘膜<rp>(</rp><rt>ねんまく</rt><rp>)</rp></ruby>で <ruby>覆<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>われた <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>は <ruby>敵<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>の パンチや キックを ヌルリと <ruby>滑<rp>(</rp><rt>すべ</rt><rp>)</rp></ruby>らせてしまうのだ。"
           }
         }
       },
@@ -5098,7 +5098,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "４<ruby>本<rp>(</rp><rt>ほん</rt><rp>)</rp></ruby>の ツノは <ruby>高性能<rp>(</rp><rt>こうせいのう</rt><rp>)</rp></ruby>の レーダー。<ruby>耳<rp>(</rp><rt>みみ</rt><rp>)</rp></ruby>や <ruby>鼻<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>の かわりに <ruby>音<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>や においを <ruby>感<rp>(</rp><rt>かん</rt><rp>)</rp></ruby>じ<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>る。"
           }
         }
       },
@@ -5121,7 +5121,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>人懐<rp>(</rp><rt>ひとなつ</rt><rp>)</rp></ruby>っこい ドラゴンポケモン。<ruby>大好<rp>(</rp><rt>だいす</rt><rp>)</rp></ruby>きな トレーナーに <ruby>抱<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>き<ruby>着<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>いて <ruby>粘液<rp>(</rp><rt>ねんえき</rt><rp>)</rp></ruby>で ヌルヌルにしてしまう。"
           }
         }
       },
@@ -5144,7 +5144,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>で エサを <ruby>包<rp>(</rp><rt>つつ</rt><rp>)</rp></ruby>んで <ruby>運<rp>(</rp><rt>はこ</rt><rp>)</rp></ruby>ぶ。<ruby>山<rp>(</rp><rt>やま</rt><rp>)</rp></ruby>で <ruby>遭難<rp>(</rp><rt>そうなん</rt><rp>)</rp></ruby>した <ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>に エサを <ruby>分<rp>(</rp><rt>わ</rt><rp>)</rp></ruby>け<ruby>与<rp>(</rp><rt>あた</rt><rp>)</rp></ruby>える <ruby>習性<rp>(</rp><rt>しゅうせい</rt><rp>)</rp></ruby>。"
           }
         }
       },
@@ -5167,7 +5167,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ユキワラシの <ruby>棲<rp>(</rp><rt>す</rt><rp>)</rp></ruby>みついた <ruby>家<rp>(</rp><rt>いえ</rt><rp>)</rp></ruby>は お<ruby>金持<rp>(</rp><rt>かねも</rt><rp>)</rp></ruby>ちになるという <ruby>言<rp>(</rp><rt>い</rt><rp>)</rp></ruby>い<ruby>伝<rp>(</rp><rt>つた</rt><rp>)</rp></ruby>えが <ruby>雪国<rp>(</rp><rt>ゆきぐに</rt><rp>)</rp></ruby>には <ruby>残<rp>(</rp><rt>のこ</rt><rp>)</rp></ruby>っている。"
           }
         }
       },
@@ -5190,7 +5190,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>空気中<rp>(</rp><rt>くうきちゅう</rt><rp>)</rp></ruby>の <ruby>水分<rp>(</rp><rt>すいぶん</rt><rp>)</rp></ruby>を <ruby>凍<rp>(</rp><rt>こお</rt><rp>)</rp></ruby>らせ <ruby>氷<rp>(</rp><rt>こおり</rt><rp>)</rp></ruby>の <ruby>装甲<rp>(</rp><rt>そうこう</rt><rp>)</rp></ruby>で <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を <ruby>包<rp>(</rp><rt>つつ</rt><rp>)</rp></ruby>みこみ <ruby>身<rp>(</rp><rt>み</rt><rp>)</rp></ruby>を <ruby>守<rp>(</rp><rt>まも</rt><rp>)</rp></ruby>っている。"
           }
         },
         "0362_00000100_0_000_0": {
@@ -5211,7 +5211,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>空気中<rp>(</rp><rt>くうきちゅう</rt><rp>)</rp></ruby>の <ruby>水分<rp>(</rp><rt>すいぶん</rt><rp>)</rp></ruby>を <ruby>凍<rp>(</rp><rt>こお</rt><rp>)</rp></ruby>らせ <ruby>氷<rp>(</rp><rt>こおり</rt><rp>)</rp></ruby>の <ruby>装甲<rp>(</rp><rt>そうこう</rt><rp>)</rp></ruby>で <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を <ruby>包<rp>(</rp><rt>つつ</rt><rp>)</rp></ruby>みこみ <ruby>身<rp>(</rp><rt>み</rt><rp>)</rp></ruby>を <ruby>守<rp>(</rp><rt>まも</rt><rp>)</rp></ruby>っている。"
           }
         }
       },
@@ -5234,7 +5234,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "マイナス５０<ruby>度<rp>(</rp><rt>ど</rt><rp>)</rp></ruby>の <ruby>冷気<rp>(</rp><rt>れいき</rt><rp>)</rp></ruby>を <ruby>吐<rp>(</rp><rt>は</rt><rp>)</rp></ruby>いて <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>を <ruby>凍<rp>(</rp><rt>こお</rt><rp>)</rp></ruby>らせる。<ruby>胴体<rp>(</rp><rt>どうたい</rt><rp>)</rp></ruby>に <ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>える <ruby>部分<rp>(</rp><rt>ぶぶん</rt><rp>)</rp></ruby>は じつは <ruby>空洞<rp>(</rp><rt>くうどう</rt><rp>)</rp></ruby>。"
           }
         },
         "0478_00000100_0_000_0": {
@@ -5255,7 +5255,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "マイナス５０<ruby>度<rp>(</rp><rt>ど</rt><rp>)</rp></ruby>の <ruby>冷気<rp>(</rp><rt>れいき</rt><rp>)</rp></ruby>を <ruby>吐<rp>(</rp><rt>は</rt><rp>)</rp></ruby>いて <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>を <ruby>凍<rp>(</rp><rt>こお</rt><rp>)</rp></ruby>らせる。<ruby>胴体<rp>(</rp><rt>どうたい</rt><rp>)</rp></ruby>に <ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>える <ruby>部分<rp>(</rp><rt>ぶぶん</rt><rp>)</rp></ruby>は じつは <ruby>空洞<rp>(</rp><rt>くうどう</rt><rp>)</rp></ruby>。"
           }
         }
       },
@@ -5278,7 +5278,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>春<rp>(</rp><rt>はる</rt><rp>)</rp></ruby>になると アイスキャンディーの ような <ruby>食感<rp>(</rp><rt>しょっかん</rt><rp>)</rp></ruby>の <ruby>木<rp>(</rp><rt>き</rt><rp>)</rp></ruby>の<ruby>実<rp>(</rp><rt>み</rt><rp>)</rp></ruby>が お<ruby>腹<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>の まわりに <ruby>生<rp>(</rp><rt>な</rt><rp>)</rp></ruby>る。"
           }
         }
       },
@@ -5301,7 +5301,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ブリザードを <ruby>発生<rp>(</rp><rt>はっせい</rt><rp>)</rp></ruby>させて あたり <ruby>一面<rp>(</rp><rt>いちめん</rt><rp>)</rp></ruby>を <ruby>真<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>っ<ruby>白<rp>(</rp><rt>しろ</rt><rp>)</rp></ruby>に してしまう。<ruby>別名<rp>(</rp><rt>べつめい</rt><rp>)</rp></ruby> アイスモンスター。"
           }
         },
         "0460_00000100_0_000_0": {
@@ -5322,7 +5322,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ブリザードを <ruby>発生<rp>(</rp><rt>はっせい</rt><rp>)</rp></ruby>させて あたり <ruby>一面<rp>(</rp><rt>いちめん</rt><rp>)</rp></ruby>を <ruby>真<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>っ<ruby>白<rp>(</rp><rt>しろ</rt><rp>)</rp></ruby>に してしまう。<ruby>別名<rp>(</rp><rt>べつめい</rt><rp>)</rp></ruby> アイスモンスター。"
           }
         }
       },
@@ -5345,7 +5345,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を <ruby>覆<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>う <ruby>氷<rp>(</rp><rt>こおり</rt><rp>)</rp></ruby>が <ruby>敵<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>の <ruby>攻撃<rp>(</rp><rt>こうげき</rt><rp>)</rp></ruby>を <ruby>防<rp>(</rp><rt>ふせ</rt><rp>)</rp></ruby>ぐ。<ruby>割<rp>(</rp><rt>わ</rt><rp>)</rp></ruby>られても <ruby>冷気<rp>(</rp><rt>れいき</rt><rp>)</rp></ruby>で すぐに <ruby>氷<rp>(</rp><rt>こおり</rt><rp>)</rp></ruby>を <ruby>張<rp>(</rp><rt>は</rt><rp>)</rp></ruby>る。"
           }
         }
       },
@@ -5368,7 +5368,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>凍<rp>(</rp><rt>こお</rt><rp>)</rp></ruby>りついた <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>は <ruby>鋼鉄<rp>(</rp><rt>こうてつ</rt><rp>)</rp></ruby>のように <ruby>硬<rp>(</rp><rt>かた</rt><rp>)</rp></ruby>い。<ruby>邪魔<rp>(</rp><rt>じゃま</rt><rp>)</rp></ruby>する ものを <ruby>巨体<rp>(</rp><rt>きょたい</rt><rp>)</rp></ruby>で <ruby>押<rp>(</rp><rt>お</rt><rp>)</rp></ruby>しつぶし <ruby>移動<rp>(</rp><rt>いどう</rt><rp>)</rp></ruby>する。"
           }
         }
       },
@@ -5391,7 +5391,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>鋭<rp>(</rp><rt>するど</rt><rp>)</rp></ruby>い カマで <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>を <ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>り<ruby>裂<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>き <ruby>息<rp>(</rp><rt>いき</rt><rp>)</rp></ruby>の<ruby>根<rp>(</rp><rt>ね</rt><rp>)</rp></ruby>を <ruby>止<rp>(</rp><rt>と</rt><rp>)</rp></ruby>める。ごくまれに <ruby>翅<rp>(</rp><rt>はね</rt><rp>)</rp></ruby>を <ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>って <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ぶ。"
           }
         }
       },
@@ -5414,7 +5414,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>鋼<rp>(</rp><rt>はがね</rt><rp>)</rp></ruby>の <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>つ。<ruby>目玉模様<rp>(</rp><rt>めだまもよう</rt><rp>)</rp></ruby>の ついた ハサミを <ruby>振<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>り<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げて <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>を <ruby>威嚇<rp>(</rp><rt>いかく</rt><rp>)</rp></ruby>する。"
           }
         },
         "0212_00000100_0_000_0": {
@@ -5435,7 +5435,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>鋼<rp>(</rp><rt>はがね</rt><rp>)</rp></ruby>の <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>つ。<ruby>目玉模様<rp>(</rp><rt>めだまもよう</rt><rp>)</rp></ruby>の ついた ハサミを <ruby>振<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>り<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げて <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>を <ruby>威嚇<rp>(</rp><rt>いかく</rt><rp>)</rp></ruby>する。"
           }
         }
       },
@@ -5458,7 +5458,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>長<rp>(</rp><rt>なが</rt><rp>)</rp></ruby>い ツノを <ruby>振<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>りまわして <ruby>攻撃<rp>(</rp><rt>こうげき</rt><rp>)</rp></ruby>してくる。<ruby>寒<rp>(</rp><rt>さむ</rt><rp>)</rp></ruby>いときは <ruby>森<rp>(</rp><rt>もり</rt><rp>)</rp></ruby>の <ruby>奥<rp>(</rp><rt>おく</rt><rp>)</rp></ruby>に <ruby>姿<rp>(</rp><rt>すがた</rt><rp>)</rp></ruby>を <ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>す。"
           }
         },
         "0127_00000100_0_000_0": {
@@ -5479,7 +5479,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>長<rp>(</rp><rt>なが</rt><rp>)</rp></ruby>い ツノを <ruby>振<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>りまわして <ruby>攻撃<rp>(</rp><rt>こうげき</rt><rp>)</rp></ruby>してくる。<ruby>寒<rp>(</rp><rt>さむ</rt><rp>)</rp></ruby>いときは <ruby>森<rp>(</rp><rt>もり</rt><rp>)</rp></ruby>の <ruby>奥<rp>(</rp><rt>おく</rt><rp>)</rp></ruby>に <ruby>姿<rp>(</rp><rt>すがた</rt><rp>)</rp></ruby>を <ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>す。"
           }
         }
       },
@@ -5502,7 +5502,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>自慢<rp>(</rp><rt>じまん</rt><rp>)</rp></ruby>のツノを <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>の お<ruby>腹<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>の <ruby>下<rp>(</rp><rt>した</rt><rp>)</rp></ruby>に ねじこみ <ruby>一気<rp>(</rp><rt>いっき</rt><rp>)</rp></ruby>に <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>ち<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げ ぶん<ruby>投<rp>(</rp><rt>な</rt><rp>)</rp></ruby>げてしまう <ruby>力持<rp>(</rp><rt>ちからも</rt><rp>)</rp></ruby>ち。"
           }
         },
         "0214_00000100_0_000_0": {
@@ -5523,7 +5523,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>自慢<rp>(</rp><rt>じまん</rt><rp>)</rp></ruby>のツノを <ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>の お<ruby>腹<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>の <ruby>下<rp>(</rp><rt>した</rt><rp>)</rp></ruby>に ねじこみ <ruby>一気<rp>(</rp><rt>いっき</rt><rp>)</rp></ruby>に <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>ち<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げ ぶん<ruby>投<rp>(</rp><rt>な</rt><rp>)</rp></ruby>げてしまう <ruby>力持<rp>(</rp><rt>ちからも</rt><rp>)</rp></ruby>ち。"
           }
         }
       },
@@ -5546,7 +5546,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>頬<rp>(</rp><rt>ほほ</rt><rp>)</rp></ruby>の <ruby>電気袋<rp>(</rp><rt>でんきぶくろ</rt><rp>)</rp></ruby>で <ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>った <ruby>電気<rp>(</rp><rt>でんき</rt><rp>)</rp></ruby>を <ruby>膜<rp>(</rp><rt>まく</rt><rp>)</rp></ruby>の <ruby>内側<rp>(</rp><rt>うちがわ</rt><rp>)</rp></ruby>に <ruby>溜<rp>(</rp><rt>た</rt><rp>)</rp></ruby>めて <ruby>滑空<rp>(</rp><rt>かっくう</rt><rp>)</rp></ruby>しながら <ruby>電気<rp>(</rp><rt>でんき</rt><rp>)</rp></ruby>を <ruby>放<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>つ。"
           }
         }
       },
@@ -5569,7 +5569,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>翼<rp>(</rp><rt>つばさ</rt><rp>)</rp></ruby>を <ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>い <ruby>空中<rp>(</rp><rt>くうちゅう</rt><rp>)</rp></ruby>で <ruby>姿勢<rp>(</rp><rt>しせい</rt><rp>)</rp></ruby>を <ruby>制御<rp>(</rp><rt>せいぎょ</rt><rp>)</rp></ruby>。<ruby>防<rp>(</rp><rt>ふせ</rt><rp>)</rp></ruby>ぎにくい <ruby>頭上<rp>(</rp><rt>ずじょう</rt><rp>)</rp></ruby>から <ruby>攻撃<rp>(</rp><rt>こうげき</rt><rp>)</rp></ruby>を <ruby>仕掛<rp>(</rp><rt>しか</rt><rp>)</rp></ruby>ける。"
           }
         },
         "0701_00000100_0_000_0": {
@@ -5590,7 +5590,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>翼<rp>(</rp><rt>つばさ</rt><rp>)</rp></ruby>を <ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>い <ruby>空中<rp>(</rp><rt>くうちゅう</rt><rp>)</rp></ruby>で <ruby>姿勢<rp>(</rp><rt>しせい</rt><rp>)</rp></ruby>を <ruby>制御<rp>(</rp><rt>せいぎょ</rt><rp>)</rp></ruby>。<ruby>防<rp>(</rp><rt>ふせ</rt><rp>)</rp></ruby>ぎにくい <ruby>頭上<rp>(</rp><rt>ずじょう</rt><rp>)</rp></ruby>から <ruby>攻撃<rp>(</rp><rt>こうげき</rt><rp>)</rp></ruby>を <ruby>仕掛<rp>(</rp><rt>しか</rt><rp>)</rp></ruby>ける。"
           }
         }
       },
@@ -5613,7 +5613,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>森<rp>(</rp><rt>もり</rt><rp>)</rp></ruby>で さまよい <ruby>死<rp>(</rp><rt>し</rt><rp>)</rp></ruby>んだ <ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>の <ruby>魂<rp>(</rp><rt>たましい</rt><rp>)</rp></ruby>が <ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>り<ruby>株<rp>(</rp><rt>かぶ</rt><rp>)</rp></ruby>に <ruby>宿<rp>(</rp><rt>やど</rt><rp>)</rp></ruby>り ポケモンになったと いわれている。"
           }
         }
       },
@@ -5636,7 +5636,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>根<rp>(</rp><rt>ね</rt><rp>)</rp></ruby>っこを <ruby>神経<rp>(</rp><rt>しんけい</rt><rp>)</rp></ruby>の かわりにして <ruby>森<rp>(</rp><rt>もり</rt><rp>)</rp></ruby>の <ruby>木<rp>(</rp><rt>き</rt><rp>)</rp></ruby>を <ruby>操<rp>(</rp><rt>あやつ</rt><rp>)</rp></ruby>る。<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>に <ruby>棲<rp>(</rp><rt>す</rt><rp>)</rp></ruby>みついた ポケモンには <ruby>親切<rp>(</rp><rt>しんせつ</rt><rp>)</rp></ruby>。"
           }
         }
       },
@@ -5659,7 +5659,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>皮<rp>(</rp><rt>かわ</rt><rp>)</rp></ruby>を <ruby>首<rp>(</rp><rt>くび</rt><rp>)</rp></ruby>まで <ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>き<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げて <ruby>防御<rp>(</rp><rt>ぼうぎょ</rt><rp>)</rp></ruby>の <ruby>姿勢<rp>(</rp><rt>しせい</rt><rp>)</rp></ruby>。ゴムのような <ruby>弾力<rp>(</rp><rt>だんりょく</rt><rp>)</rp></ruby>で ダメージを <ruby>減<rp>(</rp><rt>へ</rt><rp>)</rp></ruby>らす。"
           }
         }
       },
@@ -5682,7 +5682,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>脱皮<rp>(</rp><rt>だっぴ</rt><rp>)</rp></ruby>した <ruby>皮<rp>(</rp><rt>かわ</rt><rp>)</rp></ruby>を ずり<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げて ダメージを <ruby>減<rp>(</rp><rt>へ</rt><rp>)</rp></ruby>らしつつ キック！ とさかが <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きいほど <ruby>偉<rp>(</rp><rt>えら</rt><rp>)</rp></ruby>そうだ。"
           }
         },
         "0560_00000100_0_000_0": {
@@ -5703,7 +5703,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>脱皮<rp>(</rp><rt>だっぴ</rt><rp>)</rp></ruby>した <ruby>皮<rp>(</rp><rt>かわ</rt><rp>)</rp></ruby>を ずり<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げて ダメージを <ruby>減<rp>(</rp><rt>へ</rt><rp>)</rp></ruby>らしつつ キック！ とさかが <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きいほど <ruby>偉<rp>(</rp><rt>えら</rt><rp>)</rp></ruby>そうだ。"
           }
         }
       },
@@ -5726,7 +5726,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "２０<ruby>万<rp>(</rp><rt>まん</rt><rp>)</rp></ruby>ヘルツの <ruby>超音波<rp>(</rp><rt>ちょうおんぱ</rt><rp>)</rp></ruby>を <ruby>浴<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>びると <ruby>屈強<rp>(</rp><rt>くっきょう</rt><rp>)</rp></ruby>な レスラーも <ruby>目<rp>(</rp><rt>め</rt><rp>)</rp></ruby>が <ruby>回<rp>(</rp><rt>まわ</rt><rp>)</rp></ruby>り <ruby>立<rp>(</rp><rt>た</rt><rp>)</rp></ruby>っていられないのだ。"
           }
         }
       },
@@ -5749,7 +5749,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>月明<rp>(</rp><rt>つきあ</rt><rp>)</rp></ruby>かりすら ない <ruby>闇夜<rp>(</rp><rt>やみよ</rt><rp>)</rp></ruby>を <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>び <ruby>油断<rp>(</rp><rt>ゆだん</rt><rp>)</rp></ruby>している <ruby>獲物<rp>(</rp><rt>えもの</rt><rp>)</rp></ruby>を <ruby>襲<rp>(</rp><rt>おそ</rt><rp>)</rp></ruby>う。<ruby>暗闇<rp>(</rp><rt>くらやみ</rt><rp>)</rp></ruby>の <ruby>戦<rp>(</rp><rt>たたか</rt><rp>)</rp></ruby>いでは <ruby>無敵<rp>(</rp><rt>むてき</rt><rp>)</rp></ruby>だ。"
           }
         }
       },
@@ -5772,7 +5772,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>気<rp>(</rp><rt>き</rt><rp>)</rp></ruby>に<ruby>入<rp>(</rp><rt>い</rt><rp>)</rp></ruby>った カギは <ruby>絶対<rp>(</rp><rt>ぜったい</rt><rp>)</rp></ruby>に <ruby>手放<rp>(</rp><rt>てばな</rt><rp>)</rp></ruby>さないので <ruby>防犯<rp>(</rp><rt>ぼうはん</rt><rp>)</rp></ruby>のために <ruby>金庫<rp>(</rp><rt>きんこ</rt><rp>)</rp></ruby>の カギを <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>たせるのだ。"
           }
         }
       },
@@ -5795,7 +5795,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ヒトモシの <ruby>灯<rp>(</rp><rt>とも</rt><rp>)</rp></ruby>す <ruby>明<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>かりは <ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>や ポケモンの <ruby>生命力<rp>(</rp><rt>せいめいりょく</rt><rp>)</rp></ruby>を <ruby>吸<rp>(</rp><rt>す</rt><rp>)</rp></ruby>い<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>って <ruby>燃<rp>(</rp><rt>も</rt><rp>)</rp></ruby>えているのだ。"
           }
         }
       },
@@ -5818,7 +5818,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>臨終<rp>(</rp><rt>りんじゅう</rt><rp>)</rp></ruby>の <ruby>際<rp>(</rp><rt>さい</rt><rp>)</rp></ruby>に <ruby>現<rp>(</rp><rt>あらわ</rt><rp>)</rp></ruby>れて <ruby>魂<rp>(</rp><rt>たましい</rt><rp>)</rp></ruby>が <ruby>肉体<rp>(</rp><rt>にくたい</rt><rp>)</rp></ruby>を <ruby>離<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>れると すかさず <ruby>吸<rp>(</rp><rt>す</rt><rp>)</rp></ruby>い<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ってしまうのだ。"
           }
         }
       },
@@ -5841,7 +5841,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "シャンデラの <ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>に <ruby>包<rp>(</rp><rt>つつ</rt><rp>)</rp></ruby>まれると <ruby>魂<rp>(</rp><rt>たましい</rt><rp>)</rp></ruby>が <ruby>吸<rp>(</rp><rt>す</rt><rp>)</rp></ruby>い<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>られ <ruby>燃<rp>(</rp><rt>も</rt><rp>)</rp></ruby>やされる。<ruby>抜<rp>(</rp><rt>ぬ</rt><rp>)</rp></ruby>け<ruby>殻<rp>(</rp><rt>がら</rt><rp>)</rp></ruby>の <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby> だけが <ruby>残<rp>(</rp><rt>のこ</rt><rp>)</rp></ruby>る。"
           }
         },
         "0609_00000100_0_000_0": {
@@ -5862,7 +5862,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "シャンデラの <ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>に <ruby>包<rp>(</rp><rt>つつ</rt><rp>)</rp></ruby>まれると <ruby>魂<rp>(</rp><rt>たましい</rt><rp>)</rp></ruby>が <ruby>吸<rp>(</rp><rt>す</rt><rp>)</rp></ruby>い<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>られ <ruby>燃<rp>(</rp><rt>も</rt><rp>)</rp></ruby>やされる。<ruby>抜<rp>(</rp><rt>ぬ</rt><rp>)</rp></ruby>け<ruby>殻<rp>(</rp><rt>がら</rt><rp>)</rp></ruby>の <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby> だけが <ruby>残<rp>(</rp><rt>のこ</rt><rp>)</rp></ruby>る。"
           }
         }
       },
@@ -5885,7 +5885,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "コハクに <ruby>残<rp>(</rp><rt>のこ</rt><rp>)</rp></ruby>された <ruby>恐竜<rp>(</rp><rt>きょうりゅう</rt><rp>)</rp></ruby>の <ruby>遺伝子<rp>(</rp><rt>いでんし</rt><rp>)</rp></ruby>から <ruby>復活<rp>(</rp><rt>ふっかつ</rt><rp>)</rp></ruby>させた。<ruby>高<rp>(</rp><rt>たか</rt><rp>)</rp></ruby>い<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>で <ruby>鳴<rp>(</rp><rt>な</rt><rp>)</rp></ruby>きながら <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ぶ。"
           }
         },
         "0142_00000100_0_000_0": {
@@ -5906,7 +5906,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "コハクに <ruby>残<rp>(</rp><rt>のこ</rt><rp>)</rp></ruby>された <ruby>恐竜<rp>(</rp><rt>きょうりゅう</rt><rp>)</rp></ruby>の <ruby>遺伝子<rp>(</rp><rt>いでんし</rt><rp>)</rp></ruby>から <ruby>復活<rp>(</rp><rt>ふっかつ</rt><rp>)</rp></ruby>させた。<ruby>高<rp>(</rp><rt>たか</rt><rp>)</rp></ruby>い<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>で <ruby>鳴<rp>(</rp><rt>な</rt><rp>)</rp></ruby>きながら <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ぶ。"
           }
         }
       },
@@ -5929,7 +5929,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>化石<rp>(</rp><rt>かせき</rt><rp>)</rp></ruby>から <ruby>復活<rp>(</rp><rt>ふっかつ</rt><rp>)</rp></ruby>した ポケモン。<ruby>気<rp>(</rp><rt>き</rt><rp>)</rp></ruby>に<ruby>入<rp>(</rp><rt>い</rt><rp>)</rp></ruby>らないことが あると かんしゃくを <ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>こして <ruby>大暴<rp>(</rp><rt>おおあば</rt><rp>)</rp></ruby>れ。"
           }
         }
       },
@@ -5952,7 +5952,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "１<ruby>億年前<rp>(</rp><rt>おくねんまえ</rt><rp>)</rp></ruby>の <ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>では <ruby>無敵<rp>(</rp><rt>むてき</rt><rp>)</rp></ruby>を ほこり <ruby>王様<rp>(</rp><rt>おうさま</rt><rp>)</rp></ruby>のように ふるまっていた ポケモンだ。"
           }
         }
       },
@@ -5975,7 +5975,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "１<ruby>億年前<rp>(</rp><rt>おくねんまえ</rt><rp>)</rp></ruby>から <ruby>氷漬<rp>(</rp><rt>こおりづ</rt><rp>)</rp></ruby>けに なっていた <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>の <ruby>一部<rp>(</rp><rt>いちぶ</rt><rp>)</rp></ruby>から <ruby>復活<rp>(</rp><rt>ふっかつ</rt><rp>)</rp></ruby>した <ruby>古代<rp>(</rp><rt>こだい</rt><rp>)</rp></ruby>の ポケモン。"
           }
         }
       },
@@ -5998,7 +5998,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "マイナス１５０<ruby>度<rp>(</rp><rt>ど</rt><rp>)</rp></ruby>の <ruby>冷気<rp>(</rp><rt>れいき</rt><rp>)</rp></ruby>を ひし<ruby>形<rp>(</rp><rt>がた</rt><rp>)</rp></ruby>の <ruby>結晶<rp>(</rp><rt>けっしょう</rt><rp>)</rp></ruby>から <ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>して <ruby>敵<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>を <ruby>包<rp>(</rp><rt>つつ</rt><rp>)</rp></ruby>み <ruby>氷漬<rp>(</rp><rt>こおりづ</rt><rp>)</rp></ruby>けにする。"
           }
         }
       },
@@ -6021,7 +6021,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>普段<rp>(</rp><rt>ふだん</rt><rp>)</rp></ruby>は <ruby>土<rp>(</rp><rt>つち</rt><rp>)</rp></ruby>の<ruby>中<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>に <ruby>棲<rp>(</rp><rt>す</rt><rp>)</rp></ruby>んでいる。<ruby>地中<rp>(</rp><rt>ちちゅう</rt><rp>)</rp></ruby>を <ruby>時速<rp>(</rp><rt>じそく</rt><rp>)</rp></ruby>８０キロで <ruby>掘<rp>(</rp><rt>ほ</rt><rp>)</rp></ruby>りながら エサを <ruby>探<rp>(</rp><rt>さが</rt><rp>)</rp></ruby>す。"
           }
         }
       },
@@ -6044,7 +6044,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>丈夫<rp>(</rp><rt>じょうぶ</rt><rp>)</rp></ruby>な あごで <ruby>岩石<rp>(</rp><rt>がんせき</rt><rp>)</rp></ruby>を かみくだき <ruby>進<rp>(</rp><rt>すす</rt><rp>)</rp></ruby>む。<ruby>真<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>っ<ruby>暗<rp>(</rp><rt>くら</rt><rp>)</rp></ruby>な <ruby>地中<rp>(</rp><rt>ちちゅう</rt><rp>)</rp></ruby>でも <ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>える <ruby>目<rp>(</rp><rt>め</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>つ。"
           }
         },
         "0208_00000100_0_000_0": {
@@ -6065,7 +6065,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>丈夫<rp>(</rp><rt>じょうぶ</rt><rp>)</rp></ruby>な あごで <ruby>岩石<rp>(</rp><rt>がんせき</rt><rp>)</rp></ruby>を かみくだき <ruby>進<rp>(</rp><rt>すす</rt><rp>)</rp></ruby>む。<ruby>真<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>っ<ruby>暗<rp>(</rp><rt>くら</rt><rp>)</rp></ruby>な <ruby>地中<rp>(</rp><rt>ちちゅう</rt><rp>)</rp></ruby>でも <ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>える <ruby>目<rp>(</rp><rt>め</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>つ。"
           }
         }
       },
@@ -6088,7 +6088,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を <ruby>覆<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>う <ruby>鋼<rp>(</rp><rt>はがね</rt><rp>)</rp></ruby>の <ruby>鎧<rp>(</rp><rt>よろい</rt><rp>)</rp></ruby>は <ruby>進化<rp>(</rp><rt>しんか</rt><rp>)</rp></ruby>するとき ポロリと はがれ<ruby>落<rp>(</rp><rt>お</rt><rp>)</rp></ruby>ち <ruby>新<rp>(</rp><rt>あたら</rt><rp>)</rp></ruby>しい <ruby>鎧<rp>(</rp><rt>よろい</rt><rp>)</rp></ruby>が <ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>られる。"
           }
         }
       },
@@ -6111,7 +6111,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>鉄鉱石<rp>(</rp><rt>てっこうせき</rt><rp>)</rp></ruby>が <ruby>大好物<rp>(</rp><rt>だいこうぶつ</rt><rp>)</rp></ruby>。<ruby>鋼<rp>(</rp><rt>はがね</rt><rp>)</rp></ruby>の <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を ぶつけ<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>って <ruby>縄張<rp>(</rp><rt>なわば</rt><rp>)</rp></ruby>り <ruby>争<rp>(</rp><rt>あらそ</rt><rp>)</rp></ruby>いを する。"
           }
         }
       },
@@ -6134,7 +6134,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>山<rp>(</rp><rt>やま</rt><rp>)</rp></ruby>を まるごと <ruby>縄張<rp>(</rp><rt>なわば</rt><rp>)</rp></ruby>りに する。<ruby>傷<rp>(</rp><rt>きず</rt><rp>)</rp></ruby>が <ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>い ボスゴドラほど <ruby>戦<rp>(</rp><rt>たたか</rt><rp>)</rp></ruby>っているので <ruby>侮<rp>(</rp><rt>あなど</rt><rp>)</rp></ruby>れない。"
           }
         },
         "0306_00000100_0_000_0": {
@@ -6155,7 +6155,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>山<rp>(</rp><rt>やま</rt><rp>)</rp></ruby>を まるごと <ruby>縄張<rp>(</rp><rt>なわば</rt><rp>)</rp></ruby>りに する。<ruby>傷<rp>(</rp><rt>きず</rt><rp>)</rp></ruby>が <ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>い ボスゴドラほど <ruby>戦<rp>(</rp><rt>たたか</rt><rp>)</rp></ruby>っているので <ruby>侮<rp>(</rp><rt>あなど</rt><rp>)</rp></ruby>れない。"
           }
         }
       },
@@ -6178,7 +6178,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>の <ruby>両<rp>(</rp><rt>りょう</rt><rp>)</rp></ruby>わきの ひだには <ruby>太陽<rp>(</rp><rt>たいよう</rt><rp>)</rp></ruby>の <ruby>光<rp>(</rp><rt>ひかり</rt><rp>)</rp></ruby>を <ruby>浴<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>びると <ruby>発電<rp>(</rp><rt>はつでん</rt><rp>)</rp></ruby>する <ruby>細胞<rp>(</rp><rt>さいぼう</rt><rp>)</rp></ruby>が あるのだ。"
           }
         }
       },
@@ -6201,7 +6201,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "エリマキを <ruby>広<rp>(</rp><rt>ひろ</rt><rp>)</rp></ruby>げて <ruby>発電<rp>(</rp><rt>はつでん</rt><rp>)</rp></ruby>する。エレザード １<ruby>匹<rp>(</rp><rt>ぴき</rt><rp>)</rp></ruby>で <ruby>高層<rp>(</rp><rt>こうそう</rt><rp>)</rp></ruby>ビルで <ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>な <ruby>電気<rp>(</rp><rt>でんき</rt><rp>)</rp></ruby>を <ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>れるのだ。"
           }
         }
       },
@@ -6224,7 +6224,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>の <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きさだけでなく <ruby>連<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>れ<ruby>去<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>る <ruby>魂<rp>(</rp><rt>たましい</rt><rp>)</rp></ruby>の サイズも <ruby>違<rp>(</rp><rt>ちが</rt><rp>)</rp></ruby>う <ruby>別<rp>(</rp><rt>べつ</rt><rp>)</rp></ruby>の <ruby>品種<rp>(</rp><rt>ひんしゅ</rt><rp>)</rp></ruby>と <ruby>最近<rp>(</rp><rt>さいきん</rt><rp>)</rp></ruby> <ruby>判明<rp>(</rp><rt>はんめい</rt><rp>)</rp></ruby>した。"
           }
         },
         "0710_00000001_0_000_0": {
@@ -6245,7 +6245,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>の <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きさだけでなく <ruby>連<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>れ<ruby>去<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>る <ruby>魂<rp>(</rp><rt>たましい</rt><rp>)</rp></ruby>の サイズも <ruby>違<rp>(</rp><rt>ちが</rt><rp>)</rp></ruby>う <ruby>別<rp>(</rp><rt>べつ</rt><rp>)</rp></ruby>の <ruby>品種<rp>(</rp><rt>ひんしゅ</rt><rp>)</rp></ruby>と <ruby>最近<rp>(</rp><rt>さいきん</rt><rp>)</rp></ruby> <ruby>判明<rp>(</rp><rt>はんめい</rt><rp>)</rp></ruby>した。"
           }
         },
         "0710_00000002_0_000_0": {
@@ -6266,7 +6266,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>の <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きさだけでなく <ruby>連<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>れ<ruby>去<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>る <ruby>魂<rp>(</rp><rt>たましい</rt><rp>)</rp></ruby>の サイズも <ruby>違<rp>(</rp><rt>ちが</rt><rp>)</rp></ruby>う <ruby>別<rp>(</rp><rt>べつ</rt><rp>)</rp></ruby>の <ruby>品種<rp>(</rp><rt>ひんしゅ</rt><rp>)</rp></ruby>と <ruby>最近<rp>(</rp><rt>さいきん</rt><rp>)</rp></ruby> <ruby>判明<rp>(</rp><rt>はんめい</rt><rp>)</rp></ruby>した。"
           }
         },
         "0710_00000003_0_000_0": {
@@ -6287,7 +6287,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>の <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きさだけでなく <ruby>連<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>れ<ruby>去<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>る <ruby>魂<rp>(</rp><rt>たましい</rt><rp>)</rp></ruby>の サイズも <ruby>違<rp>(</rp><rt>ちが</rt><rp>)</rp></ruby>う <ruby>別<rp>(</rp><rt>べつ</rt><rp>)</rp></ruby>の <ruby>品種<rp>(</rp><rt>ひんしゅ</rt><rp>)</rp></ruby>と <ruby>最近<rp>(</rp><rt>さいきん</rt><rp>)</rp></ruby> <ruby>判明<rp>(</rp><rt>はんめい</rt><rp>)</rp></ruby>した。"
           }
         }
       },
@@ -6310,7 +6310,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>新月<rp>(</rp><rt>しんげつ</rt><rp>)</rp></ruby>の <ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby>に <ruby>不気味<rp>(</rp><rt>ぶきみ</rt><rp>)</rp></ruby>な <ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>で <ruby>歌<rp>(</rp><rt>うた</rt><rp>)</rp></ruby>いながら <ruby>街中<rp>(</rp><rt>まちなか</rt><rp>)</rp></ruby>を さまよう。その<ruby>歌<rp>(</rp><rt>うた</rt><rp>)</rp></ruby>を <ruby>聞<rp>(</rp><rt>き</rt><rp>)</rp></ruby>くと のろわれる。"
           }
         },
         "0711_00000001_0_000_0": {
@@ -6331,7 +6331,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>新月<rp>(</rp><rt>しんげつ</rt><rp>)</rp></ruby>の <ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby>に <ruby>不気味<rp>(</rp><rt>ぶきみ</rt><rp>)</rp></ruby>な <ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>で <ruby>歌<rp>(</rp><rt>うた</rt><rp>)</rp></ruby>いながら <ruby>街中<rp>(</rp><rt>まちなか</rt><rp>)</rp></ruby>を さまよう。その<ruby>歌<rp>(</rp><rt>うた</rt><rp>)</rp></ruby>を <ruby>聞<rp>(</rp><rt>き</rt><rp>)</rp></ruby>くと のろわれる。"
           }
         },
         "0711_00000002_0_000_0": {
@@ -6352,7 +6352,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>新月<rp>(</rp><rt>しんげつ</rt><rp>)</rp></ruby>の <ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby>に <ruby>不気味<rp>(</rp><rt>ぶきみ</rt><rp>)</rp></ruby>な <ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>で <ruby>歌<rp>(</rp><rt>うた</rt><rp>)</rp></ruby>いながら <ruby>街中<rp>(</rp><rt>まちなか</rt><rp>)</rp></ruby>を さまよう。その<ruby>歌<rp>(</rp><rt>うた</rt><rp>)</rp></ruby>を <ruby>聞<rp>(</rp><rt>き</rt><rp>)</rp></ruby>くと のろわれる。"
           }
         },
         "0711_00000003_0_000_0": {
@@ -6373,7 +6373,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>新月<rp>(</rp><rt>しんげつ</rt><rp>)</rp></ruby>の <ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby>に <ruby>不気味<rp>(</rp><rt>ぶきみ</rt><rp>)</rp></ruby>な <ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>で <ruby>歌<rp>(</rp><rt>うた</rt><rp>)</rp></ruby>いながら <ruby>街中<rp>(</rp><rt>まちなか</rt><rp>)</rp></ruby>を さまよう。その<ruby>歌<rp>(</rp><rt>うた</rt><rp>)</rp></ruby>を <ruby>聞<rp>(</rp><rt>き</rt><rp>)</rp></ruby>くと のろわれる。"
           }
         }
       },
@@ -6396,7 +6396,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>土<rp>(</rp><rt>つち</rt><rp>)</rp></ruby>を <ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べて <ruby>生<rp>(</rp><rt>い</rt><rp>)</rp></ruby>きている。<ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きな <ruby>山<rp>(</rp><rt>やま</rt><rp>)</rp></ruby>ひとつ <ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べ<ruby>終<rp>(</rp><rt>お</rt><rp>)</rp></ruby>わると <ruby>成長<rp>(</rp><rt>せいちょう</rt><rp>)</rp></ruby>のため <ruby>眠<rp>(</rp><rt>ねむ</rt><rp>)</rp></ruby>りはじめる。"
           }
         }
       },
@@ -6419,7 +6419,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>岩盤<rp>(</rp><rt>がんばん</rt><rp>)</rp></ruby>のような <ruby>硬<rp>(</rp><rt>かた</rt><rp>)</rp></ruby>い <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>。<ruby>圧縮<rp>(</rp><rt>あっしゅく</rt><rp>)</rp></ruby>した ガスを <ruby>噴射<rp>(</rp><rt>ふんしゃ</rt><rp>)</rp></ruby>して まるで ロケットのように <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>び<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す。"
           }
         }
       },
@@ -6442,7 +6442,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "バンギラスが <ruby>暴<rp>(</rp><rt>あば</rt><rp>)</rp></ruby>れると <ruby>山<rp>(</rp><rt>やま</rt><rp>)</rp></ruby>が <ruby>崩<rp>(</rp><rt>くず</rt><rp>)</rp></ruby>れ <ruby>川<rp>(</rp><rt>かわ</rt><rp>)</rp></ruby>が <ruby>埋<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まるため <ruby>地図<rp>(</rp><rt>ちず</rt><rp>)</rp></ruby>を <ruby>書<rp>(</rp><rt>か</rt><rp>)</rp></ruby>き<ruby>換<rp>(</rp><rt>か</rt><rp>)</rp></ruby>えることになる。"
           }
         },
         "0248_00000100_0_000_0": {
@@ -6463,7 +6463,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "バンギラスが <ruby>暴<rp>(</rp><rt>あば</rt><rp>)</rp></ruby>れると <ruby>山<rp>(</rp><rt>やま</rt><rp>)</rp></ruby>が <ruby>崩<rp>(</rp><rt>くず</rt><rp>)</rp></ruby>れ <ruby>川<rp>(</rp><rt>かわ</rt><rp>)</rp></ruby>が <ruby>埋<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まるため <ruby>地図<rp>(</rp><rt>ちず</rt><rp>)</rp></ruby>を <ruby>書<rp>(</rp><rt>か</rt><rp>)</rp></ruby>き<ruby>換<rp>(</rp><rt>か</rt><rp>)</rp></ruby>えることになる。"
           }
         }
       },
@@ -6486,7 +6486,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>繊細<rp>(</rp><rt>せんさい</rt><rp>)</rp></ruby>な <ruby>泡<rp>(</rp><rt>あわ</rt><rp>)</rp></ruby>で <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を <ruby>包<rp>(</rp><rt>つつ</rt><rp>)</rp></ruby>み <ruby>肌<rp>(</rp><rt>はだ</rt><rp>)</rp></ruby>を <ruby>守<rp>(</rp><rt>まも</rt><rp>)</rp></ruby>る。のんきに <ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>せかけ <ruby>抜<rp>(</rp><rt>ぬ</rt><rp>)</rp></ruby>け<ruby>目<rp>(</rp><rt>め</rt><rp>)</rp></ruby>なく <ruby>周囲<rp>(</rp><rt>しゅうい</rt><rp>)</rp></ruby>を うかがう。"
           }
         }
       },
@@ -6509,7 +6509,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>身軽<rp>(</rp><rt>みがる</rt><rp>)</rp></ruby>さは だれにも <ruby>負<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>けない。６００メートルを <ruby>超<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>える タワーの <ruby>天辺<rp>(</rp><rt>てっぺん</rt><rp>)</rp></ruby>まで １<ruby>分<rp>(</rp><rt>ぷん</rt><rp>)</rp></ruby>で <ruby>登<rp>(</rp><rt>のぼ</rt><rp>)</rp></ruby>りきる。"
           }
         }
       },
@@ -6532,7 +6532,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>水<rp>(</rp><rt>みず</rt><rp>)</rp></ruby>を <ruby>圧縮<rp>(</rp><rt>あっしゅく</rt><rp>)</rp></ruby>して <ruby>手裏剣<rp>(</rp><rt>しゅりけん</rt><rp>)</rp></ruby>を <ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>り<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す。<ruby>高速回転<rp>(</rp><rt>こうそくかいてん</rt><rp>)</rp></ruby>させて <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ばすと <ruby>金属<rp>(</rp><rt>きんぞく</rt><rp>)</rp></ruby>も <ruby>真<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>っ<ruby>二<rp>(</rp><rt>ぷた</rt><rp>)</rp></ruby>つ。"
           }
         },
         "0658_00000100_0_000_0": {
@@ -6553,7 +6553,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>水<rp>(</rp><rt>みず</rt><rp>)</rp></ruby>を <ruby>圧縮<rp>(</rp><rt>あっしゅく</rt><rp>)</rp></ruby>して <ruby>手裏剣<rp>(</rp><rt>しゅりけん</rt><rp>)</rp></ruby>を <ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>り<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す。<ruby>高速回転<rp>(</rp><rt>こうそくかいてん</rt><rp>)</rp></ruby>させて <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ばすと <ruby>金属<rp>(</rp><rt>きんぞく</rt><rp>)</rp></ruby>も <ruby>真<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>っ<ruby>二<rp>(</rp><rt>ぷた</rt><rp>)</rp></ruby>つ。"
           }
         }
       },
@@ -6576,7 +6576,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ヘイチョーと <ruby>呼<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>ばれる １<ruby>匹<rp>(</rp><rt>ぴき</rt><rp>)</rp></ruby>と ヘイと <ruby>呼<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>ばれる ５<ruby>匹<rp>(</rp><rt>ひき</rt><rp>)</rp></ruby>で ひとつ。ヘイチョーの <ruby>命令<rp>(</rp><rt>めいれい</rt><rp>)</rp></ruby>は <ruby>絶対<rp>(</rp><rt>ぜったい</rt><rp>)</rp></ruby>。"
           }
         },
         "0870_00000100_0_000_0": {
@@ -6597,7 +6597,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ヘイチョーと <ruby>呼<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>ばれる １<ruby>匹<rp>(</rp><rt>ぴき</rt><rp>)</rp></ruby>と ヘイと <ruby>呼<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>ばれる ５<ruby>匹<rp>(</rp><rt>ひき</rt><rp>)</rp></ruby>で ひとつ。ヘイチョーの <ruby>命令<rp>(</rp><rt>めいれい</rt><rp>)</rp></ruby>は <ruby>絶対<rp>(</rp><rt>ぜったい</rt><rp>)</rp></ruby>。"
           }
         }
       },
@@ -6620,7 +6620,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>普段<rp>(</rp><rt>ふだん</rt><rp>)</rp></ruby> やわらかい <ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>の トゲは <ruby>力<rp>(</rp><rt>ちから</rt><rp>)</rp></ruby>を こめると <ruby>鋭<rp>(</rp><rt>するど</rt><rp>)</rp></ruby>く <ruby>尖<rp>(</rp><rt>とが</rt><rp>)</rp></ruby>り <ruby>岩<rp>(</rp><rt>いわ</rt><rp>)</rp></ruby>をも つらぬくほど <ruby>硬<rp>(</rp><rt>かた</rt><rp>)</rp></ruby>くなる。"
           }
         }
       },
@@ -6643,7 +6643,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>仲間同士<rp>(</rp><rt>なかまどうし</rt><rp>)</rp></ruby>で <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を ぶつけ<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>い <ruby>足腰<rp>(</rp><rt>あしこし</rt><rp>)</rp></ruby>を <ruby>鍛<rp>(</rp><rt>きた</rt><rp>)</rp></ruby>える。<ruby>自分<rp>(</rp><rt>じぶん</rt><rp>)</rp></ruby>からは <ruby>戦<rp>(</rp><rt>たたか</rt><rp>)</rp></ruby>わない <ruby>優<rp>(</rp><rt>やさ</rt><rp>)</rp></ruby>しい <ruby>性格<rp>(</rp><rt>せいかく</rt><rp>)</rp></ruby>。"
           }
         }
       },
@@ -6666,7 +6666,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体当<rp>(</rp><rt>たいあ</rt><rp>)</rp></ruby>たりで ５０トンの <ruby>戦車<rp>(</rp><rt>せんしゃ</rt><rp>)</rp></ruby>を ひっくり<ruby>返<rp>(</rp><rt>かえ</rt><rp>)</rp></ruby>す パワー。<ruby>自分<rp>(</rp><rt>じぶん</rt><rp>)</rp></ruby>が <ruby>盾<rp>(</rp><rt>たて</rt><rp>)</rp></ruby>となって <ruby>仲間<rp>(</rp><rt>なかま</rt><rp>)</rp></ruby>を <ruby>守<rp>(</rp><rt>まも</rt><rp>)</rp></ruby>る。"
           }
         },
         "0652_00000100_0_000_0": {
@@ -6687,7 +6687,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>体当<rp>(</rp><rt>たいあ</rt><rp>)</rp></ruby>たりで ５０トンの <ruby>戦車<rp>(</rp><rt>せんしゃ</rt><rp>)</rp></ruby>を ひっくり<ruby>返<rp>(</rp><rt>かえ</rt><rp>)</rp></ruby>す パワー。<ruby>自分<rp>(</rp><rt>じぶん</rt><rp>)</rp></ruby>が <ruby>盾<rp>(</rp><rt>たて</rt><rp>)</rp></ruby>となって <ruby>仲間<rp>(</rp><rt>なかま</rt><rp>)</rp></ruby>を <ruby>守<rp>(</rp><rt>まも</rt><rp>)</rp></ruby>る。"
           }
         }
       },
@@ -6710,7 +6710,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "いばらの <ruby>中<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>に <ruby>巣<rp>(</rp><rt>す</rt><rp>)</rp></ruby>を<ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>る。トゲで <ruby>傷<rp>(</rp><rt>きず</rt><rp>)</rp></ruby>つきながら <ruby>育<rp>(</rp><rt>そだ</rt><rp>)</rp></ruby>てられた ヒナの <ruby>羽<rp>(</rp><rt>はね</rt><rp>)</rp></ruby>は <ruby>硬<rp>(</rp><rt>かた</rt><rp>)</rp></ruby>くなる。"
           }
         },
         "0227_00000100_0_000_0": {
@@ -6731,7 +6731,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "いばらの <ruby>中<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>に <ruby>巣<rp>(</rp><rt>す</rt><rp>)</rp></ruby>を<ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>る。トゲで <ruby>傷<rp>(</rp><rt>きず</rt><rp>)</rp></ruby>つきながら <ruby>育<rp>(</rp><rt>そだ</rt><rp>)</rp></ruby>てられた ヒナの <ruby>羽<rp>(</rp><rt>はね</rt><rp>)</rp></ruby>は <ruby>硬<rp>(</rp><rt>かた</rt><rp>)</rp></ruby>くなる。"
           }
         }
       },
@@ -6754,7 +6754,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>小枝<rp>(</rp><rt>こえだ</rt><rp>)</rp></ruby>を <ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べると <ruby>元気<rp>(</rp><rt>げんき</rt><rp>)</rp></ruby>になって <ruby>摂氏<rp>(</rp><rt>せっし</rt><rp>)</rp></ruby>２００<ruby>度<rp>(</rp><rt>ど</rt><rp>)</rp></ruby>を <ruby>超<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>える <ruby>熱気<rp>(</rp><rt>ねっき</rt><rp>)</rp></ruby>を <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きな <ruby>耳<rp>(</rp><rt>みみ</rt><rp>)</rp></ruby>から <ruby>噴<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>き<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す。"
           }
         }
       },
@@ -6777,7 +6777,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>木<rp>(</rp><rt>き</rt><rp>)</rp></ruby>の<ruby>枝<rp>(</rp><rt>えだ</rt><rp>)</rp></ruby>を <ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>に <ruby>挿<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>している。<ruby>尻尾<rp>(</rp><rt>しっぽ</rt><rp>)</rp></ruby>の <ruby>毛<rp>(</rp><rt>け</rt><rp>)</rp></ruby>の <ruby>摩擦熱<rp>(</rp><rt>まさつねつ</rt><rp>)</rp></ruby>で <ruby>枝<rp>(</rp><rt>えだ</rt><rp>)</rp></ruby>に <ruby>火<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>をつけて <ruby>戦<rp>(</rp><rt>たたか</rt><rp>)</rp></ruby>う。"
           }
         }
       },
@@ -6800,7 +6800,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>摂氏<rp>(</rp><rt>せっし</rt><rp>)</rp></ruby>３０００<ruby>度<rp>(</rp><rt>ど</rt><rp>)</rp></ruby>の <ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>の <ruby>渦<rp>(</rp><rt>うず</rt><rp>)</rp></ruby>を <ruby>超能力<rp>(</rp><rt>ちょうのうりょく</rt><rp>)</rp></ruby>で <ruby>操<rp>(</rp><rt>あやつ</rt><rp>)</rp></ruby>る。<ruby>敵<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>を <ruby>渦<rp>(</rp><rt>うず</rt><rp>)</rp></ruby>で <ruby>包<rp>(</rp><rt>つつ</rt><rp>)</rp></ruby>み <ruby>焼<rp>(</rp><rt>や</rt><rp>)</rp></ruby>きつくす。"
           }
         },
         "0655_00000100_0_000_0": {
@@ -6821,7 +6821,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>摂氏<rp>(</rp><rt>せっし</rt><rp>)</rp></ruby>３０００<ruby>度<rp>(</rp><rt>ど</rt><rp>)</rp></ruby>の <ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>の <ruby>渦<rp>(</rp><rt>うず</rt><rp>)</rp></ruby>を <ruby>超能力<rp>(</rp><rt>ちょうのうりょく</rt><rp>)</rp></ruby>で <ruby>操<rp>(</rp><rt>あやつ</rt><rp>)</rp></ruby>る。<ruby>敵<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>を <ruby>渦<rp>(</rp><rt>うず</rt><rp>)</rp></ruby>で <ruby>包<rp>(</rp><rt>つつ</rt><rp>)</rp></ruby>み <ruby>焼<rp>(</rp><rt>や</rt><rp>)</rp></ruby>きつくす。"
           }
         }
       },
@@ -6844,7 +6844,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>鍛<rp>(</rp><rt>きた</rt><rp>)</rp></ruby>えられた <ruby>首<rp>(</rp><rt>くび</rt><rp>)</rp></ruby>の <ruby>筋肉<rp>(</rp><rt>きんにく</rt><rp>)</rp></ruby>と <ruby>鉄<rp>(</rp><rt>てつ</rt><rp>)</rp></ruby>のように <ruby>硬<rp>(</rp><rt>かた</rt><rp>)</rp></ruby>い <ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>で <ruby>大岩<rp>(</rp><rt>おおいわ</rt><rp>)</rp></ruby>を コナゴナに <ruby>砕<rp>(</rp><rt>くだ</rt><rp>)</rp></ruby>く。"
           }
         }
       },
@@ -6867,7 +6867,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>硬<rp>(</rp><rt>かた</rt><rp>)</rp></ruby>い <ruby>殻<rp>(</rp><rt>から</rt><rp>)</rp></ruby>の <ruby>中<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>では <ruby>細胞<rp>(</rp><rt>さいぼう</rt><rp>)</rp></ruby>が <ruby>変化<rp>(</rp><rt>へんか</rt><rp>)</rp></ruby>を <ruby>始<rp>(</rp><rt>はじ</rt><rp>)</rp></ruby>めている。<ruby>進化<rp>(</rp><rt>しんか</rt><rp>)</rp></ruby>する <ruby>瞬間<rp>(</rp><rt>しゅんかん</rt><rp>)</rp></ruby>に <ruby>殻<rp>(</rp><rt>から</rt><rp>)</rp></ruby>が はがれ<ruby>落<rp>(</rp><rt>お</rt><rp>)</rp></ruby>ちる。"
           }
         }
       },
@@ -6890,7 +6890,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ひとたび <ruby>怒<rp>(</rp><rt>おこ</rt><rp>)</rp></ruby>ると <ruby>大暴<rp>(</rp><rt>おおあば</rt><rp>)</rp></ruby>れ。<ruby>空<rp>(</rp><rt>そら</rt><rp>)</rp></ruby>を <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>びながら <ruby>地上<rp>(</rp><rt>ちじょう</rt><rp>)</rp></ruby>の <ruby>野山<rp>(</rp><rt>のやま</rt><rp>)</rp></ruby>を <ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>で <ruby>焼<rp>(</rp><rt>や</rt><rp>)</rp></ruby>き<ruby>払<rp>(</rp><rt>はら</rt><rp>)</rp></ruby>う。"
           }
         },
         "0373_00000100_0_000_0": {
@@ -6911,7 +6911,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ひとたび <ruby>怒<rp>(</rp><rt>おこ</rt><rp>)</rp></ruby>ると <ruby>大暴<rp>(</rp><rt>おおあば</rt><rp>)</rp></ruby>れ。<ruby>空<rp>(</rp><rt>そら</rt><rp>)</rp></ruby>を <ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>びながら <ruby>地上<rp>(</rp><rt>ちじょう</rt><rp>)</rp></ruby>の <ruby>野山<rp>(</rp><rt>のやま</rt><rp>)</rp></ruby>を <ruby>炎<rp>(</rp><rt>ほのお</rt><rp>)</rp></ruby>で <ruby>焼<rp>(</rp><rt>や</rt><rp>)</rp></ruby>き<ruby>払<rp>(</rp><rt>はら</rt><rp>)</rp></ruby>う。"
           }
         }
       },
@@ -6934,7 +6934,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "お<ruby>腹<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>の <ruby>袋<rp>(</rp><rt>ふくろ</rt><rp>)</rp></ruby>で <ruby>子育<rp>(</rp><rt>こそだ</rt><rp>)</rp></ruby>てをする。<ruby>安全<rp>(</rp><rt>あんぜん</rt><rp>)</rp></ruby>なときだけ <ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>を <ruby>袋<rp>(</rp><rt>ふくろ</rt><rp>)</rp></ruby>から <ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>して <ruby>遊<rp>(</rp><rt>あそ</rt><rp>)</rp></ruby>ばせる。"
           }
         },
         "0115_00000100_0_000_0": {
@@ -6955,7 +6955,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "お<ruby>腹<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>の <ruby>袋<rp>(</rp><rt>ふくろ</rt><rp>)</rp></ruby>で <ruby>子育<rp>(</rp><rt>こそだ</rt><rp>)</rp></ruby>てをする。<ruby>安全<rp>(</rp><rt>あんぜん</rt><rp>)</rp></ruby>なときだけ <ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>を <ruby>袋<rp>(</rp><rt>ふくろ</rt><rp>)</rp></ruby>から <ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>して <ruby>遊<rp>(</rp><rt>あそ</rt><rp>)</rp></ruby>ばせる。"
           }
         }
       },
@@ -6978,7 +6978,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>心優<rp>(</rp><rt>こころやさ</rt><rp>)</rp></ruby>しい <ruby>性質<rp>(</rp><rt>せいしつ</rt><rp>)</rp></ruby>。だが <ruby>一度<rp>(</rp><rt>いちど</rt><rp>)</rp></ruby> <ruby>怒<rp>(</rp><rt>いか</rt><rp>)</rp></ruby>りに かられると <ruby>激<rp>(</rp><rt>はげ</rt><rp>)</rp></ruby>しい <ruby>息吹<rp>(</rp><rt>いぶき</rt><rp>)</rp></ruby>で あたりを <ruby>破壊<rp>(</rp><rt>はかい</rt><rp>)</rp></ruby> し<ruby>尽<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>くす。"
           }
         },
         "0780_00000100_0_000_0": {
@@ -6999,7 +6999,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>心優<rp>(</rp><rt>こころやさ</rt><rp>)</rp></ruby>しい <ruby>性質<rp>(</rp><rt>せいしつ</rt><rp>)</rp></ruby>。だが <ruby>一度<rp>(</rp><rt>いちど</rt><rp>)</rp></ruby> <ruby>怒<rp>(</rp><rt>いか</rt><rp>)</rp></ruby>りに かられると <ruby>激<rp>(</rp><rt>はげ</rt><rp>)</rp></ruby>しい <ruby>息吹<rp>(</rp><rt>いぶき</rt><rp>)</rp></ruby>で あたりを <ruby>破壊<rp>(</rp><rt>はかい</rt><rp>)</rp></ruby> し<ruby>尽<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>くす。"
           }
         }
       },
@@ -7022,7 +7022,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>磁力<rp>(</rp><rt>じりょく</rt><rp>)</rp></ruby>の <ruby>波長<rp>(</rp><rt>はちょう</rt><rp>)</rp></ruby>で <ruby>仲間<rp>(</rp><rt>なかま</rt><rp>)</rp></ruby>と <ruby>交信<rp>(</rp><rt>こうしん</rt><rp>)</rp></ruby>。<ruby>群<rp>(</rp><rt>む</rt><rp>)</rp></ruby>れになった ダンバルは <ruby>一糸乱<rp>(</rp><rt>いっしみだ</rt><rp>)</rp></ruby>れぬ <ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>きを する。"
           }
         }
       },
@@ -7045,7 +7045,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "２<ruby>匹<rp>(</rp><rt>ひき</rt><rp>)</rp></ruby>の ダンバルが <ruby>合体<rp>(</rp><rt>がったい</rt><rp>)</rp></ruby>した。<ruby>鋼<rp>(</rp><rt>はがね</rt><rp>)</rp></ruby>の ボディは ジェット<ruby>機<rp>(</rp><rt>き</rt><rp>)</rp></ruby>と <ruby>衝突<rp>(</rp><rt>しょうとつ</rt><rp>)</rp></ruby>しても <ruby>傷<rp>(</rp><rt>きず</rt><rp>)</rp></ruby>つかない。"
           }
         }
       },
@@ -7068,7 +7068,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "メタングが <ruby>合体<rp>(</rp><rt>がったい</rt><rp>)</rp></ruby>して <ruby>生<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まれた。４つの <ruby>脳<rp>(</rp><rt>のう</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>つ メタグロスは スーパーコンピュータ<ruby>並<rp>(</rp><rt>な</rt><rp>)</rp></ruby>みの <ruby>知能<rp>(</rp><rt>ちのう</rt><rp>)</rp></ruby>。"
           }
         },
         "0376_00000100_0_000_0": {
@@ -7089,7 +7089,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "メタングが <ruby>合体<rp>(</rp><rt>がったい</rt><rp>)</rp></ruby>して <ruby>生<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まれた。４つの <ruby>脳<rp>(</rp><rt>のう</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>つ メタグロスは スーパーコンピュータ<ruby>並<rp>(</rp><rt>な</rt><rp>)</rp></ruby>みの <ruby>知能<rp>(</rp><rt>ちのう</rt><rp>)</rp></ruby>。"
           }
         }
       },
@@ -7112,7 +7112,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>の ツノが <ruby>七色<rp>(</rp><rt>なないろ</rt><rp>)</rp></ruby>に <ruby>輝<rp>(</rp><rt>かがや</rt><rp>)</rp></ruby>くとき <ruby>永遠<rp>(</rp><rt>えいえん</rt><rp>)</rp></ruby>の <ruby>命<rp>(</rp><rt>いのち</rt><rp>)</rp></ruby>を <ruby>分<rp>(</rp><rt>わ</rt><rp>)</rp></ruby>け<ruby>与<rp>(</rp><rt>あた</rt><rp>)</rp></ruby>えると いわれている。"
           }
         }
       },
@@ -7135,7 +7135,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>寿命<rp>(</rp><rt>じゅみょう</rt><rp>)</rp></ruby>が <ruby>尽<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>きるとき あらゆる <ruby>生<rp>(</rp><rt>い</rt><rp>)</rp></ruby>き<ruby>物<rp>(</rp><rt>もの</rt><rp>)</rp></ruby>の <ruby>命<rp>(</rp><rt>いのち</rt><rp>)</rp></ruby>を <ruby>吸<rp>(</rp><rt>す</rt><rp>)</rp></ruby>い<ruby>尽<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>くし <ruby>繭<rp>(</rp><rt>まゆ</rt><rp>)</rp></ruby>の <ruby>姿<rp>(</rp><rt>すがた</rt><rp>)</rp></ruby>に <ruby>戻<rp>(</rp><rt>もど</rt><rp>)</rp></ruby>るという。"
           }
         }
       },
@@ -7158,7 +7158,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>洞窟<rp>(</rp><rt>どうくつ</rt><rp>)</rp></ruby>の <ruby>奥深<rp>(</rp><rt>おくふか</rt><rp>)</rp></ruby>くで <ruby>暮<rp>(</rp><rt>く</rt><rp>)</rp></ruby>らし <ruby>生態系<rp>(</rp><rt>せいたいけい</rt><rp>)</rp></ruby>を <ruby>破壊<rp>(</rp><rt>はかい</rt><rp>)</rp></ruby>する<ruby>者<rp>(</rp><rt>もの</rt><rp>)</rp></ruby>を <ruby>監視<rp>(</rp><rt>かんし</rt><rp>)</rp></ruby>していると いわれている。"
           }
         },
         "0718_00000001_0_000_0": {
@@ -7179,7 +7179,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>洞窟<rp>(</rp><rt>どうくつ</rt><rp>)</rp></ruby>の <ruby>奥深<rp>(</rp><rt>おくふか</rt><rp>)</rp></ruby>くで <ruby>暮<rp>(</rp><rt>く</rt><rp>)</rp></ruby>らし <ruby>生態系<rp>(</rp><rt>せいたいけい</rt><rp>)</rp></ruby>を <ruby>破壊<rp>(</rp><rt>はかい</rt><rp>)</rp></ruby>する<ruby>者<rp>(</rp><rt>もの</rt><rp>)</rp></ruby>を <ruby>監視<rp>(</rp><rt>かんし</rt><rp>)</rp></ruby>していると いわれている。"
           }
         },
         "0718_00000002_0_000_0": {
@@ -7200,7 +7200,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>洞窟<rp>(</rp><rt>どうくつ</rt><rp>)</rp></ruby>の <ruby>奥深<rp>(</rp><rt>おくふか</rt><rp>)</rp></ruby>くで <ruby>暮<rp>(</rp><rt>く</rt><rp>)</rp></ruby>らし <ruby>生態系<rp>(</rp><rt>せいたいけい</rt><rp>)</rp></ruby>を <ruby>破壊<rp>(</rp><rt>はかい</rt><rp>)</rp></ruby>する<ruby>者<rp>(</rp><rt>もの</rt><rp>)</rp></ruby>を <ruby>監視<rp>(</rp><rt>かんし</rt><rp>)</rp></ruby>していると いわれている。"
           }
         },
         "0718_00000102_0_000_0": {
@@ -7221,7 +7221,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "<ruby>洞窟<rp>(</rp><rt>どうくつ</rt><rp>)</rp></ruby>の <ruby>奥深<rp>(</rp><rt>おくふか</rt><rp>)</rp></ruby>くで <ruby>暮<rp>(</rp><rt>く</rt><rp>)</rp></ruby>らし <ruby>生態系<rp>(</rp><rt>せいたいけい</rt><rp>)</rp></ruby>を <ruby>破壊<rp>(</rp><rt>はかい</rt><rp>)</rp></ruby>する<ruby>者<rp>(</rp><rt>もの</rt><rp>)</rp></ruby>を <ruby>監視<rp>(</rp><rt>かんし</rt><rp>)</rp></ruby>していると いわれている。"
           }
         }
       },
@@ -7244,7 +7244,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "メレシーの <ruby>突然変異<rp>(</rp><rt>とつぜんへんい</rt><rp>)</rp></ruby>。ピンク<ruby>色<rp>(</rp><rt>いろ</rt><rp>)</rp></ruby>に <ruby>輝<rp>(</rp><rt>かがや</rt><rp>)</rp></ruby>く <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>は <ruby>世界一<rp>(</rp><rt>せかいいち</rt><rp>)</rp></ruby> <ruby>美<rp>(</rp><rt>うつく</rt><rp>)</rp></ruby>しいと いわれる。"
           }
         },
         "0719_00000100_0_000_0": {
@@ -7265,7 +7265,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "メレシーの <ruby>突然変異<rp>(</rp><rt>とつぜんへんい</rt><rp>)</rp></ruby>。ピンク<ruby>色<rp>(</rp><rt>いろ</rt><rp>)</rp></ruby>に <ruby>輝<rp>(</rp><rt>かがや</rt><rp>)</rp></ruby>く <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>は <ruby>世界一<rp>(</rp><rt>せかいいち</rt><rp>)</rp></ruby> <ruby>美<rp>(</rp><rt>うつく</rt><rp>)</rp></ruby>しいと いわれる。"
           }
         }
       },
@@ -7288,7 +7288,7 @@
           "ability2": "",
           "dream_ability": "",
           "description": {
-            "legendsza": ""
+            "legendsza": "ひとりの <ruby>科学者<rp>(</rp><rt>かがくしゃ</rt><rp>)</rp></ruby>が <ruby>何年<rp>(</rp><rt>なんねん</rt><rp>)</rp></ruby>も <ruby>恐<rp>(</rp><rt>おそ</rt><rp>)</rp></ruby>ろしい <ruby>遺伝子<rp>(</rp><rt>いでんし</rt><rp>)</rp></ruby> <ruby>研究<rp>(</rp><rt>けんきゅう</rt><rp>)</rp></ruby>を <ruby>続<rp>(</rp><rt>つづ</rt><rp>)</rp></ruby>けた <ruby>結果<rp>(</rp><rt>けっか</rt><rp>)</rp></ruby> <ruby>誕生<rp>(</rp><rt>たんじょう</rt><rp>)</rp></ruby>した。"
           }
         }
       }

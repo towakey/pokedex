@@ -56,6 +56,7 @@ begin
   config = JSON.parse(content)
   REGION_MAPPING = config["region_mapping"]
   DEFAULT_REGION_VALUE = config["default_region_value"]
+  VERSION_MAPPING = config["version_mapping"]
 rescue JSON::ParserError => e
   STDERR.puts "pokedex_config.json のパースに失敗しました: #{e.message}"
   exit 1
@@ -91,6 +92,14 @@ TARGET_VERSIONS.each do |version_config|
     'game_version' => version,
     'pokedex'      => {}
   }
+
+  version_verid_map = VERSION_MAPPING.each_with_object(Hash.new { |hash, key| hash[key] = {} }) do |(ver_id, info), memo|
+    version_key = info['version']
+    name_eng = info['name_eng']
+    next if version_key.nil? || name_eng.nil?
+
+    memo[version_key][name_eng] = ver_id
+  end
 
   # テーブルごとに参照元バージョンを上書きできる設定
   # 例: 'firered_leafgreen' で種族値などを 'ruby_sapphire_emerald' から取る
@@ -270,25 +279,17 @@ TARGET_VERSIONS.each do |version_config|
         desc_versions = version.split('_')
         descriptions = {}
         desc_versions.each do |ver|
-          versions_list = [ver, fallback_by_db.dig(:description, version)].compact.uniq
-
           sql = <<~SQL
-            SELECT description
-              FROM local_pokedex_description
-             WHERE globalNo    = ?
-               AND form        = ?
-               AND region      = ?
-               AND mega_evolution = ?
-               AND gigantamax  = ?
-               AND version     = ? COLLATE NOCASE
-               AND ver         = ?
-               AND language    = 'jpn'
+            SELECT dex
+              FROM pokedex_description_dex
+             WHERE globalNo = ?
+               AND verID = ?
+               AND language = 'jpn'
           SQL
+          ver_id = version_verid_map.dig(version, ver)
+          desc_row = ver_id ? db.get_first_row(sql, [f['globalNo'], ver_id]) : nil
 
-          # base_key には version を追加し、SQL の version, ver 両方のプレースホルダに対応させる
-          desc_row = fetch_row_with_fallback.call(db, :description, key + [version], sql, versions_list)
-
-          descriptions[ver] = desc_row ? desc_row['description'] : ''
+          descriptions[ver] = desc_row ? desc_row['dex'] : ''
         end
 
         # フォームデータをハッシュとして作成
