@@ -1,0 +1,9 @@
+{
+  "defaults": {
+    "json_dir": "pokedex",
+    "csv_dir": "data/spreadsheet",
+    "db_path": "pokedex.db",
+    "log_dir": "tools/logs"
+  },
+  "db2json_versions": []
+}

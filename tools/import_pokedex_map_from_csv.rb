@@ -4,9 +4,13 @@ require 'csv'
 require 'sqlite3'
 
 ROOT_DIR = File.expand_path('..', __dir__)
-DEX_PATH = File.join(ROOT_DIR, 'data', 'spreadsheet', 'dex.csv')
-MAP_PATH = File.join(ROOT_DIR, 'data', 'spreadsheet', 'map.csv')
-DB_PATH = File.join(ROOT_DIR, 'pokedex.db')
+DEFAULT_DEX_PATH = File.join(ROOT_DIR, 'data', 'spreadsheet', 'dex.csv')
+DEFAULT_MAP_PATH = File.join(ROOT_DIR, 'data', 'spreadsheet', 'map.csv')
+DEFAULT_DB_PATH = File.join(ROOT_DIR, 'pokedex.db')
+
+dex_path = ARGV[0] || DEFAULT_DEX_PATH
+map_path = ARGV[1] || DEFAULT_MAP_PATH
+db_path = ARGV[2] || DEFAULT_DB_PATH
 
 LANGUAGE_MAPPING = {
   'JPN' => 'jpn',
@@ -279,23 +283,23 @@ def import_pokedex_description_map(db, map_path)
   stats
 end
 
-unless File.exist?(DEX_PATH)
-  STDERR.puts "dex.csv not found: #{DEX_PATH}"
+unless File.exist?(dex_path)
+  STDERR.puts "dex.csv not found: #{dex_path}"
   exit 1
 end
 
-unless File.exist?(MAP_PATH)
-  STDERR.puts "map.csv not found: #{MAP_PATH}"
+unless File.exist?(map_path)
+  STDERR.puts "map.csv not found: #{map_path}"
   exit 1
 end
 
-unless File.exist?(DB_PATH)
-  STDERR.puts "pokedex.db not found: #{DB_PATH}"
+unless File.exist?(db_path)
+  STDERR.puts "pokedex.db not found: #{db_path}"
   exit 1
 end
 
 puts 'Opening database...'
-db = SQLite3::Database.new(DB_PATH)
+db = SQLite3::Database.new(db_path)
 db.busy_timeout = 5000
 
 ensure_pokedex_description_dex_table(db)
@@ -329,14 +333,14 @@ stats_map = nil
 puts 'Importing pokedex_description_dex rows (dex.csv)...'
 with_retry('import pokedex_description_dex') do
   db.transaction do
-    stats_dex = import_pokedex_description_dex(db, DEX_PATH)
+    stats_dex = import_pokedex_description_dex(db, dex_path)
   end
 end
 
 puts 'Importing pokedex_description_map rows (map.csv)...'
 with_retry('import pokedex_description_map') do
   db.transaction do
-    stats_map = import_pokedex_description_map(db, MAP_PATH)
+    stats_map = import_pokedex_description_map(db, map_path)
   end
 end
 

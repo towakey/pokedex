@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+
+gem "pastel", "~> 0.8"
+gem "sqlite3", "~> 1.7"
+gem "tty-prompt", "~> 0.23"
+gem "tty-screen", "~> 0.8"
+gem "tty-spinner", "~> 0.9"

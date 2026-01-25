@@ -16,3 +16,6 @@ logs
 !.env.example
 
 csv
+
+tools/vendor
+

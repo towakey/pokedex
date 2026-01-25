@@ -38,6 +38,12 @@ TARGET_VERSIONS = [
   # ['New_Pokemon_Snap'],
 ]
 
+target_versions = if ARGV.any?
+  ARGV.map { |version| [version] }
+else
+  TARGET_VERSIONS
+end
+
 # 引数(例: "LegendsArceus" / "Legends_Arceus" / "legends_arceus")を
 # データベース用のスネークケース(例: "legends_arceus")に正規化するメソッド
 def normalize_version_name(name)
@@ -66,7 +72,7 @@ rescue Errno::ENOENT => e
 end
 
 # TARGET_VERSIONSの各バージョンを処理
-TARGET_VERSIONS.each do |version_config|
+target_versions.each do |version_config|
   raw_version = version_config[0]
   version = normalize_version_name(raw_version)
   source_version = version_config[1] ? normalize_version_name(version_config[1]) : version
