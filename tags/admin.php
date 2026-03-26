@@ -594,6 +594,7 @@ function getStatusColor(string $status): string {
                 <span style="color: #6b7280; margin-right: 10px;">
                     👤 <?= h($_SESSION['tags_admin_user'] ?? 'admin') ?>
                 </span>
+                <a href="generator.php" class="btn btn-primary">🪄 タグ生成ツール</a>
                 <a href="?logout=1" class="btn btn-secondary">ログアウト</a>
             </div>
         </div>
@@ -645,6 +646,18 @@ function getStatusColor(string $status): string {
         <!-- エクスポート・インポートセクション -->
         <div class="filters" style="margin-bottom: 20px;">
             <div style="display: flex; flex-wrap: wrap; gap: 40px;">
+                <div style="flex: 1 1 100%;">
+                    <h3 style="margin-bottom: 16px; font-size: 1rem; color: #374151;">🪄 説明文タグ生成</h3>
+                    <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center;">
+                        <a href="generator.php" class="btn btn-primary">
+                            説明文タグ生成ツールを開く
+                        </a>
+                    </div>
+                    <small style="color: #6b7280; font-size: 0.75rem; display: block; margin-top: 8px;">
+                        説明文からタグ候補を生成して、プレビュー・JSON保存・DB登録を行えます。
+                    </small>
+                </div>
+
                 <!-- エクスポート -->
                 <div style="flex: 1; min-width: 280px;">
                     <h3 style="margin-bottom: 16px; font-size: 1rem; color: #374151;">📤 JSONエクスポート</h3>
