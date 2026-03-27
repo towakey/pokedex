@@ -163,6 +163,112 @@ function normalizeText(string $text): string {
     return trim($text);
 }
 
+function normalizeNotationLookupKey(string $value): string {
+    $normalized = normalizeText($value);
+    $normalized = preg_replace('/\s+/u', '', $normalized) ?? $normalized;
+    if ($normalized === '') {
+        return '';
+    }
+
+    return trim(mb_convert_kana($normalized, 'c', 'UTF-8'));
+}
+
+function selectPreferredNotationSurface(array $surfaceCounts): ?string {
+    $surfaces = array_keys($surfaceCounts);
+    usort($surfaces, static function (string $left, string $right) use ($surfaceCounts): int {
+        $leftHasKanji = preg_match('/\p{Han}/u', $left) === 1;
+        $rightHasKanji = preg_match('/\p{Han}/u', $right) === 1;
+        if ($leftHasKanji !== $rightHasKanji) {
+            return $leftHasKanji ? -1 : 1;
+        }
+
+        $leftCount = (int)($surfaceCounts[$left] ?? 0);
+        $rightCount = (int)($surfaceCounts[$right] ?? 0);
+        if ($leftCount !== $rightCount) {
+            return $rightCount <=> $leftCount;
+        }
+
+        $leftHasKatakana = preg_match('/[ァ-ヶー]/u', $left) === 1;
+        $rightHasKatakana = preg_match('/[ァ-ヶー]/u', $right) === 1;
+        if ($leftHasKatakana !== $rightHasKatakana) {
+            return $leftHasKatakana ? -1 : 1;
+        }
+
+        $lengthCompare = mb_strlen($left) <=> mb_strlen($right);
+        if ($lengthCompare !== 0) {
+            return $lengthCompare;
+        }
+
+        return strcmp($left, $right);
+    });
+
+    return $surfaces[0] ?? null;
+}
+
+function buildNotationMapFromRawTexts(array $rawTexts): array {
+    $surfaceCounts = [];
+
+    foreach ($rawTexts as $rawText) {
+        if (!is_string($rawText) || $rawText === '') {
+            continue;
+        }
+
+        if (!preg_match_all('/<ruby\b[^>]*>(.*?)<rt\b[^>]*>(.*?)<\/rt>.*?<\/ruby>/uis', $rawText, $matches, PREG_SET_ORDER)) {
+            continue;
+        }
+
+        foreach ($matches as $match) {
+            $surfaceSource = preg_replace('/<rp\b[^>]*>.*?<\/rp>/uis', '', (string)$match[1]) ?? (string)$match[1];
+            $surface = normalizeText($surfaceSource);
+            $surface = preg_replace('/\s+/u', '', $surface) ?? $surface;
+            $readingKey = normalizeNotationLookupKey((string)$match[2]);
+
+            if ($surface === '' || $readingKey === '') {
+                continue;
+            }
+
+            if (normalizeNotationLookupKey($surface) === $readingKey) {
+                continue;
+            }
+
+            $surfaceCounts[$readingKey][$surface] = ($surfaceCounts[$readingKey][$surface] ?? 0) + 1;
+        }
+    }
+
+    $notationMap = [];
+    foreach ($surfaceCounts as $readingKey => $counts) {
+        $preferredSurface = selectPreferredNotationSurface($counts);
+        if (is_string($preferredSurface) && $preferredSurface !== '') {
+            $notationMap[$readingKey] = $preferredSurface;
+        }
+    }
+
+    return $notationMap;
+}
+
+function normalizeCandidateNotation(string $token, array $notationMap): string {
+    $token = trim($token);
+    if ($token === '' || $notationMap === []) {
+        return $token;
+    }
+
+    $readingKeys = array_keys($notationMap);
+    usort($readingKeys, static fn (string $left, string $right): int => mb_strlen($right) <=> mb_strlen($left) ?: strcmp($left, $right));
+
+    foreach ($readingKeys as $readingKey) {
+        $surface = (string)$notationMap[$readingKey];
+        if ($surface === '') {
+            continue;
+        }
+
+        $hiragana = preg_quote($readingKey, '/');
+        $katakana = preg_quote(mb_convert_kana($readingKey, 'C', 'UTF-8'), '/');
+        $token = preg_replace('/(^|の|な)(' . $hiragana . '|' . $katakana . ')(?=$|の|な)/u', '$1' . $surface, $token) ?? $token;
+    }
+
+    return $token;
+}
+
 function splitTokens(string $text): array {
     $chunks = preg_split('/[\s、。．，,！!？?／\/・:：;；]+/u', $text, -1, PREG_SPLIT_NO_EMPTY);
     if (!is_array($chunks)) {
@@ -323,7 +429,7 @@ function shouldBuildPhraseCandidate(string $left, string $right): bool {
     return preg_match('/[\p{Han}ァ-ヶー]/u', $left) === 1 || preg_match('/[\p{Han}ァ-ヶー]/u', $right) === 1;
 }
 
-function extractCandidateSet(string $text): array {
+function extractCandidateSet(string $text, array $notationMap = []): array {
     $rawTokens = splitTokens($text);
     $candidates = [];
     $phraseTokens = [];
@@ -335,6 +441,11 @@ function extractCandidateSet(string $text): array {
         }
 
         $token = normalizeCandidateToken($rawToken);
+        if ($token === '') {
+            continue;
+        }
+
+        $token = normalizeCandidateNotation($token, $notationMap);
         if ($token === '') {
             continue;
         }
@@ -455,31 +566,29 @@ function createVersionFileIndex(string $sourcePokedexDir): array {
             continue;
         }
 
-        $directoryPath = $sourcePokedexDir . DIRECTORY_SEPARATOR . $entry;
-        if (!is_dir($directoryPath)) {
+        $entryPath = $sourcePokedexDir . DIRECTORY_SEPARATOR . $entry;
+        if (!is_dir($entryPath)) {
             continue;
         }
 
-        $preferred = $directoryPath . DIRECTORY_SEPARATOR . $entry . '.json';
-        $candidates = is_file($preferred) ? [$preferred] : [];
-        if ($candidates === []) {
-            $files = scandir($directoryPath);
-            if ($files === false) {
-                continue;
-            }
-            foreach ($files as $fileName) {
-                if (str_ends_with($fileName, '.json')) {
-                    $candidates[] = $directoryPath . DIRECTORY_SEPARATOR . $fileName;
-                }
-            }
+        $files = scandir($entryPath);
+        if ($files === false) {
+            continue;
         }
 
-        foreach ($candidates as $filePath) {
-            $json = readJsonFile($filePath);
-            if (isset($json['game_version']) && is_string($json['game_version']) && isset($json['pokedex']) && is_array($json['pokedex'])) {
-                $result[$json['game_version']] = $filePath;
-                break;
+        foreach ($files as $file) {
+            if (!str_ends_with(strtolower($file), '.json')) {
+                continue;
             }
+
+            $filePath = $entryPath . DIRECTORY_SEPARATOR . $file;
+            $json = readJsonFile($filePath);
+            if (!isset($json['game_version']) || !is_string($json['game_version']) || !isset($json['pokedex']) || !is_array($json['pokedex'])) {
+                continue;
+            }
+
+            $result[$json['game_version']] = $filePath;
+            break;
         }
     }
 
@@ -488,8 +597,8 @@ function createVersionFileIndex(string $sourcePokedexDir): array {
 
 function pickPreferredText(mixed $value): ?string {
     if (is_string($value)) {
-        $text = normalizeText($value);
-        return $text === '' ? null : $text;
+        $text = trim($value);
+        return normalizeText($text) === '' ? null : $text;
     }
 
     if (!is_array($value)) {
@@ -498,8 +607,8 @@ function pickPreferredText(mixed $value): ?string {
 
     foreach (['jpn', 'ja', 'eng', 'en', 'default'] as $key) {
         if (isset($value[$key]) && is_string($value[$key])) {
-            $text = normalizeText($value[$key]);
-            if ($text !== '') {
+            $text = trim($value[$key]);
+            if (normalizeText($text) !== '') {
                 return $text;
             }
         }
@@ -507,8 +616,8 @@ function pickPreferredText(mixed $value): ?string {
 
     foreach ($value as $entry) {
         if (is_string($entry)) {
-            $text = normalizeText($entry);
-            if ($text !== '') {
+            $text = trim($entry);
+            if (normalizeText($text) !== '') {
                 return $text;
             }
         }
@@ -728,14 +837,20 @@ function prepareGroupCandidates(array $groups, array $options): array {
             continue;
         }
 
-        $texts = array_values(array_unique(array_filter(array_map(static fn ($text) => normalizeText((string)$text), $group['texts']), static fn ($text) => $text !== '')));
+        $rawTexts = array_values(array_unique(array_filter(array_map(static fn ($text) => is_string($text) ? trim($text) : '', $group['texts']), static fn ($text) => $text !== '')));
+        if ($rawTexts === []) {
+            continue;
+        }
+
+        $notationMap = buildNotationMapFromRawTexts($rawTexts);
+        $texts = array_values(array_unique(array_filter(array_map(static fn ($text) => normalizeText((string)$text), $rawTexts), static fn ($text) => $text !== '')));
         if ($texts === []) {
             continue;
         }
 
         $candidateCounts = [];
         foreach ($texts as $text) {
-            $candidates = extractCandidateSet($text);
+            $candidates = extractCandidateSet($text, $notationMap);
             foreach (array_keys($candidates) as $candidate) {
                 $candidateCounts[$candidate] = ($candidateCounts[$candidate] ?? 0) + 1;
             }
