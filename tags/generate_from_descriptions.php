@@ -164,12 +164,127 @@ function normalizeText(string $text): string {
 }
 
 function splitTokens(string $text): array {
-    $tokens = preg_split('/[\s、。．，,！!？?／\/・:：;；]+/u', $text, -1, PREG_SPLIT_NO_EMPTY);
-    if (!is_array($tokens)) {
+    $chunks = preg_split('/[\s、。．，,！!？?／\/・:：;；]+/u', $text, -1, PREG_SPLIT_NO_EMPTY);
+    if (!is_array($chunks)) {
         return [];
     }
 
-    return array_values(array_filter(array_map(static fn ($token) => trim((string)$token), $tokens), static fn ($token) => $token !== ''));
+    $tokens = [];
+    foreach ($chunks as $chunk) {
+        foreach (segmentToken((string)$chunk) as $token) {
+            $token = trim((string)$token);
+            if ($token !== '') {
+                $tokens[] = $token;
+            }
+        }
+    }
+
+    return $tokens;
+}
+
+function splitTrailingFunctionalSuffixes(string $token): array {
+    $suffixes = [];
+    $current = trim($token);
+
+    while ($current !== '') {
+        if (!preg_match('/^(.*?)(から|まで|より|だけ|しか|ほど|こそ|でも|って|には|では|とは|へは|のは|ので|のに|ために|ように|ような|たり|など|とか|とき|ため|よう|あと|まえ|あいだ|は|が|を|に|へ|で|の|な|と|も)$/u', $current, $matches)) {
+            break;
+        }
+
+        $base = trim((string)$matches[1]);
+        $suffix = trim((string)$matches[2]);
+        if ($base === '' || mb_strlen($base) < 2) {
+            break;
+        }
+
+        if ($suffix === 'から' && preg_match('/^[ぁ-ゖ]{1,2}$/u', $base) === 1) {
+            break;
+        }
+
+        array_unshift($suffixes, $suffix);
+        $current = $base;
+    }
+
+    $result = [];
+    if ($current !== '') {
+        $result[] = $current;
+    }
+
+    foreach ($suffixes as $suffix) {
+        $result[] = $suffix;
+    }
+
+    return $result === [] ? [$token] : $result;
+}
+
+function shouldSplitConnectorToken(string $left, string $right, string $connector): bool {
+    if (!in_array($connector, ['の', 'な'], true)) {
+        return false;
+    }
+
+    if (mb_strlen($left) < 2 || mb_strlen($right) < 2) {
+        return false;
+    }
+
+    if (preg_match('/[\p{Han}ァ-ヶー]/u', $left) === 1 || preg_match('/[\p{Han}ァ-ヶー]/u', $right) === 1) {
+        return true;
+    }
+
+    return preg_match('/^[ぁ-ゖ]{2,}$/u', $left) === 1
+        && preg_match('/^[ぁ-ゖ]{2,}$/u', $right) === 1
+        && !isset(japaneseStopwords()[$right]);
+}
+
+function splitConnectorToken(string $token): array {
+    $parts = preg_split('/(の|な)/u', $token, -1, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY);
+    if (!is_array($parts) || count($parts) < 3) {
+        return [$token];
+    }
+
+    $result = [];
+    $buffer = (string)array_shift($parts);
+
+    while ($parts !== []) {
+        $connector = (string)array_shift($parts);
+        $right = (string)(array_shift($parts) ?? '');
+
+        if ($right !== '' && shouldSplitConnectorToken($buffer, $right, $connector)) {
+            if ($buffer !== '') {
+                $result[] = $buffer;
+            }
+            $result[] = $connector;
+            $buffer = $right;
+            continue;
+        }
+
+        $buffer .= $connector . $right;
+    }
+
+    if ($buffer !== '') {
+        $result[] = $buffer;
+    }
+
+    return $result === [] ? [$token] : $result;
+}
+
+function segmentToken(string $token): array {
+    $segments = [];
+
+    foreach (splitTrailingFunctionalSuffixes($token) as $part) {
+        if ($part === 'の' || $part === 'な') {
+            $segments[] = $part;
+            continue;
+        }
+
+        foreach (splitConnectorToken($part) as $connectorPart) {
+            $connectorPart = trim((string)$connectorPart);
+            if ($connectorPart !== '') {
+                $segments[] = $connectorPart;
+            }
+        }
+    }
+
+    return $segments;
 }
 
 function normalizeCandidateToken(string $token): string {
@@ -178,19 +293,47 @@ function normalizeCandidateToken(string $token): string {
         return '';
     }
 
-    $trimmed = preg_replace('/(から|まで|より|ほど|だけ|しか|こそ|でも|って|には|では|とは|へは|のは|は|が|を|に|へ|と|も|で|の|や|か|な)$/u', '', $token);
-    if (is_string($trimmed) && $trimmed !== '' && mb_strlen($trimmed) >= 2) {
-        return trim($trimmed);
+    $trimmed = preg_replace('/(から|まで|より|だけ|しか|ほど|こそ|でも|って|には|では|とは|へは|のは|は|が|を|に|へ|で|の|な|と|も)$/u', '', $token);
+    if (is_string($trimmed)) {
+        $trimmed = trim($trimmed);
+        if ($trimmed !== '' && mb_strlen($trimmed) >= 2) {
+            return $trimmed;
+        }
+        if ($trimmed !== trim($token)) {
+            return '';
+        }
     }
 
     return $token;
 }
 
+function shouldBuildPhraseCandidate(string $left, string $right): bool {
+    if ($left === '' || $right === '') {
+        return false;
+    }
+
+    if (isset(japaneseStopwords()[$left]) || isset(japaneseStopwords()[$right])) {
+        return false;
+    }
+
+    if (preg_match('/^[ぁ-ゖ]{2,}$/u', $left) === 1 && preg_match('/^[ぁ-ゖ]{2,}$/u', $right) === 1) {
+        return false;
+    }
+
+    return preg_match('/[\p{Han}ァ-ヶー]/u', $left) === 1 || preg_match('/[\p{Han}ァ-ヶー]/u', $right) === 1;
+}
+
 function extractCandidateSet(string $text): array {
     $rawTokens = splitTokens($text);
     $candidates = [];
+    $phraseTokens = [];
 
     foreach ($rawTokens as $rawToken) {
+        if ($rawToken === 'の' || $rawToken === 'な') {
+            $phraseTokens[] = $rawToken;
+            continue;
+        }
+
         $token = normalizeCandidateToken($rawToken);
         if ($token === '') {
             continue;
@@ -198,20 +341,25 @@ function extractCandidateSet(string $text): array {
 
         if (isLikelyJapaneseWord($token) || isLikelyEnglishWord($token)) {
             $candidates[$token] = true;
+            $phraseTokens[] = $token;
         }
     }
 
-    $tokenCount = count($rawTokens);
+    $tokenCount = count($phraseTokens);
     for ($index = 0; $index <= $tokenCount - 3; $index++) {
-        $left = normalizeCandidateToken($rawTokens[$index]);
-        $middle = trim($rawTokens[$index + 1]);
-        $right = normalizeCandidateToken($rawTokens[$index + 2]);
+        $left = trim((string)$phraseTokens[$index]);
+        $middle = trim((string)$phraseTokens[$index + 1]);
+        $right = trim((string)$phraseTokens[$index + 2]);
 
         if ($left === '' || $right === '') {
             continue;
         }
 
         if (!in_array($middle, ['の', 'な'], true)) {
+            continue;
+        }
+
+        if (!shouldBuildPhraseCandidate($left, $right)) {
             continue;
         }
 
@@ -413,7 +561,81 @@ function collectGlobalGroups(array $descriptionData): array {
     return $groups;
 }
 
-function collectRegionalGroups(array $regionConfigMap, array $versionFileIndex): array {
+function buildDescriptionVersionIndex(array $descriptionData): array {
+    $result = [];
+
+    foreach ($descriptionData as $formsValue) {
+        if (!is_array($formsValue)) {
+            continue;
+        }
+
+        foreach ($formsValue as $pokemonId => $versionMap) {
+            if (is_array($versionMap)) {
+                $result[(string)$pokemonId] = $versionMap;
+            }
+        }
+    }
+
+    return $result;
+}
+
+function buildVersionCodeMap(array $versionMapping): array {
+    $result = [];
+
+    foreach ($versionMapping as $versionCode => $entry) {
+        if (!is_array($entry)) {
+            continue;
+        }
+
+        $version = normalizeScalar($entry['version'] ?? '');
+        if ($version === '') {
+            continue;
+        }
+
+        if (!isset($result[$version])) {
+            $result[$version] = [];
+        }
+
+        $result[$version][(string)$versionCode] = true;
+    }
+
+    return $result;
+}
+
+function addRegionalDescriptionTexts(array &$groups, string $area, int $no, string $pokemonId, array $descriptionVersionIndex, array $targetVersionCodes): bool {
+    if ($targetVersionCodes === []) {
+        return false;
+    }
+
+    $versionMap = $descriptionVersionIndex[$pokemonId] ?? null;
+    if (!is_array($versionMap)) {
+        return false;
+    }
+
+    $matched = false;
+    foreach ($versionMap as $versionCodes => $localizedMap) {
+        $codes = array_map('trim', explode(',', (string)$versionCodes));
+        $hasTargetCode = false;
+
+        foreach ($codes as $code) {
+            if ($code !== '' && isset($targetVersionCodes[$code])) {
+                $hasTargetCode = true;
+                break;
+            }
+        }
+
+        if (!$hasTargetCode) {
+            continue;
+        }
+
+        addGroupText($groups, $area, $no, pickPreferredText($localizedMap));
+        $matched = true;
+    }
+
+    return $matched;
+}
+
+function collectRegionalGroups(array $regionConfigMap, array $versionFileIndex, array $descriptionVersionIndex, array $versionCodeMap): array {
     $groups = [];
 
     foreach ($regionConfigMap as $slug => $config) {
@@ -425,6 +647,8 @@ function collectRegionalGroups(array $regionConfigMap, array $versionFileIndex):
         if ($versionKey === '' || !isset($versionFileIndex[$versionKey])) {
             continue;
         }
+
+        $targetVersionCodes = $versionCodeMap[$versionKey] ?? [];
 
         $versionSource = readJsonFile($versionFileIndex[$versionKey]);
         $regionalPokedexMap = isset($versionSource['pokedex']) && is_array($versionSource['pokedex']) ? $versionSource['pokedex'] : [];
@@ -455,6 +679,10 @@ function collectRegionalGroups(array $regionConfigMap, array $versionFileIndex):
 
                 $nationalNo = parseNationalNoFromPokemonId((string)$pokemonId);
                 if ($nationalNo <= 0) {
+                    continue;
+                }
+
+                if (addRegionalDescriptionTexts($groups, (string)$slug, $nationalNo, (string)$pokemonId, $descriptionVersionIndex, $targetVersionCodes)) {
                     continue;
                 }
 
@@ -569,7 +797,121 @@ function shouldSkipContainedTag(string $tag, array $selectedTags): bool {
     return false;
 }
 
-function selectTags(array $preparedGroups, array $documentFrequency, array $options): array {
+function appendContainedPokemonNameTags(array $selected, array $pokemonNameSet): array {
+    $selectedTags = array_values(array_map(static fn (array $row) => (string)$row['tag'], $selected));
+
+    $pokemonNames = array_keys($pokemonNameSet);
+    usort($pokemonNames, static fn (string $left, string $right): int => mb_strlen($right) <=> mb_strlen($left) ?: strcmp($left, $right));
+
+    foreach ($selectedTags as $selectedTag) {
+        $matchedNames = [];
+        foreach ($pokemonNames as $pokemonName) {
+            if ($selectedTag === $pokemonName || in_array($pokemonName, $selectedTags, true)) {
+                continue;
+            }
+
+            if (mb_strpos($selectedTag, $pokemonName) === false) {
+                continue;
+            }
+
+            $isNestedInLongerMatch = false;
+            foreach ($matchedNames as $matchedName) {
+                if (mb_strpos($matchedName, $pokemonName) !== false) {
+                    $isNestedInLongerMatch = true;
+                    break;
+                }
+            }
+            if ($isNestedInLongerMatch) {
+                continue;
+            }
+
+            $selected[] = [
+                'tag' => $pokemonName,
+                'score' => 0,
+                'coverage' => 0,
+                'document_frequency' => 0,
+            ];
+            $selectedTags[] = $pokemonName;
+            $matchedNames[] = $pokemonName;
+        }
+    }
+
+    return $selected;
+}
+
+function normalizePokemonName(string $value): string {
+    $name = preg_replace('/\s+/u', '', normalizeText($value));
+    if (!is_string($name)) {
+        return '';
+    }
+
+    $name = trim($name);
+    if ($name === '' || mb_strlen($name) < 2 || mb_strlen($name) > 20) {
+        return '';
+    }
+
+    if (isset(japaneseStopwords()[$name])) {
+        return '';
+    }
+
+    return preg_match('/[\p{Han}ぁ-ゖァ-ヶー]/u', $name) === 1 ? $name : '';
+}
+
+function collectPokemonNamesFromValue(mixed $value): array {
+    $candidates = [];
+
+    if (is_string($value)) {
+        $candidates[] = $value;
+    } elseif (is_array($value)) {
+        foreach (['jpn', 'ja', 'japanese', 'default'] as $key) {
+            if (isset($value[$key]) && is_string($value[$key])) {
+                $candidates[] = $value[$key];
+            }
+        }
+
+        if ($candidates === []) {
+            foreach ($value as $entry) {
+                if (is_string($entry)) {
+                    $candidates[] = $entry;
+                }
+            }
+        }
+    }
+
+    $names = [];
+    foreach ($candidates as $candidate) {
+        $name = normalizePokemonName((string)$candidate);
+        if ($name !== '') {
+            $names[$name] = true;
+        }
+    }
+
+    return array_keys($names);
+}
+
+function buildPokemonNameSet(array $globalPokedex): array {
+    $names = [];
+
+    foreach ($globalPokedex as $formsValue) {
+        if (!is_array($formsValue)) {
+            continue;
+        }
+
+        foreach ($formsValue as $pokemonEntry) {
+            if (!is_array($pokemonEntry)) {
+                continue;
+            }
+
+            foreach (collectPokemonNamesFromValue($pokemonEntry['name'] ?? null) as $name) {
+                $names[$name] = true;
+            }
+        }
+    }
+
+    return $names;
+}
+
+function selectTags(array $preparedGroups, array $documentFrequency, array $options, array $pokemonNameSet): array {
     $result = [];
 
     foreach ($preparedGroups as $group) {
@@ -635,6 +977,8 @@ function selectTags(array $preparedGroups, array $documentFrequency, array $opti
 
             $selected[] = $row;
         }
+
+        $selected = appendContainedPokemonNameTags($selected, $pokemonNameSet);
 
         if ($selected === []) {
             continue;
@@ -768,7 +1112,7 @@ function insertIntoDatabase(array $entries, string $status, bool $dryRun): array
 }
 
 function isAbsolutePath(string $path): bool {
-    return preg_match('~^(?:[A-Za-z]:[\\\\/]|\\\\|/)~', $path) === 1;
+    return preg_match('~^(?:[A-Za-z]:[\\/]|\\\\|/)~', $path) === 1;
 }
 
 function writeJsonOutput(string $targetPath, array $payload): string {
@@ -798,15 +1142,25 @@ function runDescriptionTagGeneration(array $options = []): array {
     $configPath = dirname(__DIR__) . '/config/pokedex_config.json';
     $sourcePokedexDir = dirname(__DIR__) . '/pokedex';
     $descriptionMapPath = $sourcePokedexDir . '/description_map.json';
+    $globalPokedexPath = $sourcePokedexDir . '/pokedex.json';
 
     $configSource = readJsonFile($configPath);
     $descriptionSource = readJsonFile($descriptionMapPath);
+    $globalPokedexSource = readJsonFile($globalPokedexPath);
     $versionFileIndex = createVersionFileIndex($sourcePokedexDir);
+    $descriptionVersionIndex = buildDescriptionVersionIndex(isset($descriptionSource['data']) && is_array($descriptionSource['data']) ? $descriptionSource['data'] : []);
+    $versionCodeMap = buildVersionCodeMap(isset($configSource['version_mapping']) && is_array($configSource['version_mapping']) ? $configSource['version_mapping'] : []);
+    $pokemonNameSet = buildPokemonNameSet(isset($globalPokedexSource['pokedex']) && is_array($globalPokedexSource['pokedex']) ? $globalPokedexSource['pokedex'] : []);
     $globalGroups = collectGlobalGroups(isset($descriptionSource['data']) && is_array($descriptionSource['data']) ? $descriptionSource['data'] : []);
-    $regionalGroups = collectRegionalGroups(isset($configSource['regions']) && is_array($configSource['regions']) ? $configSource['regions'] : [], $versionFileIndex);
+    $regionalGroups = collectRegionalGroups(
+        isset($configSource['regions']) && is_array($configSource['regions']) ? $configSource['regions'] : [],
+        $versionFileIndex,
+        $descriptionVersionIndex,
+        $versionCodeMap
+    );
     $allGroups = mergeGroups($globalGroups, $regionalGroups);
     [$preparedGroups, $documentFrequency] = prepareGroupCandidates($allGroups, $normalizedOptions);
-    $entries = selectTags($preparedGroups, $documentFrequency, $normalizedOptions);
+    $entries = selectTags($preparedGroups, $documentFrequency, $normalizedOptions, $pokemonNameSet);
     $payload = buildImportPayload($entries, $normalizedOptions['status']);
 
     $outputPath = null;
