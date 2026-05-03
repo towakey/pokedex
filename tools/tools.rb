@@ -109,6 +109,7 @@ loop do
     menu.choice('2) DB → JSON 出力 (DB2JSON / 地方選択)', :db2json)
     menu.choice('3) DB → JSON 出力 (pokedex.json)', :pokedex_json)
     menu.choice('4) CSV → DB 取り込み (dex/map)', :csv_import)
+    menu.choice('5) 旧フォーマット → DB 取り込み (ORAS)', :import_legacy_oras)
     menu.choice('0) 終了', :exit)
   end
 
@@ -151,6 +152,8 @@ loop do
     end
 
     run_script('import_pokedex_map_from_csv.rb', [dex_path, map_path, db_path], log_dir)
+  when :import_legacy_oras
+    run_script('import_legacy_oras.rb', [], log_dir)
   when :exit
     break
   end

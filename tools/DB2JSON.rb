@@ -20,7 +20,7 @@ TARGET_VERSIONS = [
   # ['Black_White'],
   # ['Black2_White2'],
   # ['X_Y'],
-  # ['OmegaRuby_AlphaSapphire'],
+  ['OmegaRuby_AlphaSapphire'],
   # ['Sun_Moon'],
   # ['UltraSun_UltraMoon'],
   # ['Let'sGoPikachu'],
@@ -29,7 +29,7 @@ TARGET_VERSIONS = [
   # ['LegendsArceus'],
   # ['BrilliantDiamond_ShiningPearl'],
   # ['Scarlet_Violet'],
-  ['LegendsZA'],
+  # ['LegendsZA'],
   # ['PokémonGo'],
   # ['PokémonPinball'],
   # ['PokémonRanger'],
@@ -85,6 +85,13 @@ target_versions.each do |version_config|
 
   db = SQLite3::Database.new(DB_PATH)
   db.results_as_hash = true
+
+  has_desc_dex_table = begin
+    db.execute("SELECT 1 FROM pokedex_description_dex LIMIT 1")
+    true
+  rescue SQLite3::Exception
+    false
+  end
 
   # 図鑑リストを取得
   pokedex_names = db.execute(<<~SQL, [version]).map { |r| r['pokedex'] }.uniq
@@ -284,23 +291,42 @@ target_versions.each do |version_config|
         # 対応するバージョン名を自動取得 (例: x_y → ["x","y"])
         desc_versions = version.split('_')
         descriptions = {}
-        desc_versions.each do |ver|
-          sql = <<~SQL
-            SELECT dex
-              FROM pokedex_description_dex
-             WHERE globalNo = ?
-               AND verID = ?
-               AND language = 'jpn'
-          SQL
-          ver_id = version_verid_map.dig(version, ver)
-          desc_row = ver_id ? db.get_first_row(sql, [f['globalNo'], ver_id]) : nil
 
-          descriptions[ver] = desc_row ? desc_row['dex'] : ''
+        desc_versions.each do |ver|
+          desc_row = nil
+
+          if has_desc_dex_table
+            sql = <<~SQL
+              SELECT dex
+                FROM pokedex_description_dex
+               WHERE globalNo = ?
+                 AND verID = ?
+                 AND language = 'jpn'
+            SQL
+            ver_id = version_verid_map.dig(version, ver)
+            desc_row = ver_id ? db.get_first_row(sql, [f['globalNo'], ver_id]) : nil
+            descriptions[ver] = desc_row ? desc_row['dex'] : ''
+          else
+            sql = <<~SQL
+              SELECT description
+                FROM local_pokedex_description
+               WHERE globalNo = ?
+                 AND (form = ? OR form IS NULL OR form = '')
+                 AND (region = ? OR region IS NULL OR region = '')
+                 AND (mega_evolution = ? OR mega_evolution IS NULL OR mega_evolution = '')
+                 AND (gigantamax = ? OR gigantamax IS NULL OR gigantamax = '')
+                 AND version = ? COLLATE NOCASE
+                 AND ver = ?
+                 AND language = 'jpn'
+               LIMIT 1
+            SQL
+            desc_row = db.get_first_row(sql, [f['globalNo'], f['form'], f['region'], f['mega_evolution'], f['gigantamax'], version, ver])
+            descriptions[ver] = desc_row ? desc_row['description'] : ''
+          end
         end
 
         # フォームデータをハッシュとして作成
         form_data = {
-          'id'            => f['id'],
           'form'          => f['form'],
           'region'        => f['region'],
           'mega_evolution'=> f['mega_evolution'],
