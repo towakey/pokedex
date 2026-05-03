@@ -68,6 +68,13 @@
         "y": {"title": "ポケットモンスター Y", "shortTitle": "Y", "description": "発売日：2013年10月12日"}
       }
     },
+    "omegaruby_alphasapphire": {
+      "pokedex": [{"jpn": "ホウエン図鑑"}],
+      "version": {
+        "omegaruby": {"title": "ポケットモンスター オメガルビー", "shortTitle": "オメガルビー", "description": "発売日：2014年11月21日"},
+        "alphasapphire": {"title": "ポケットモンスター アルファサファイア", "shortTitle": "アルファサファイア", "description": "発売日：2014年11月21日"}
+      }
+    },
     "sun_moon": {
       "pokedex": [{"jpn": "アローラ図鑑"}],
       "version": {
