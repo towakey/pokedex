@@ -1,0 +1,33 @@
+{
+  "productName": "Pokédex Editor",
+  "version": "0.1.0",
+  "identifier": "com.pokedex.editor",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:1420",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Pokédex Editor",
+        "width": 1280,
+        "height": 800,
+        "resizable": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "plugins": {
+    "fs": {
+      "scope": {
+        "allow": [
+          { "path": "**" }
+        ]
+      }
+    }
+  }
+}
