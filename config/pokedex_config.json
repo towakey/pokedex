@@ -128,6 +128,7 @@
     "central_kalos":  {"display_jpn": "セントラルカロス図鑑", "version_key": "x_y",               "pokedex_index": 0},
     "coast_kalos":    {"display_jpn": "コーストカロス図鑑",   "version_key": "x_y",               "pokedex_index": 1},
     "mountain_kalos": {"display_jpn": "マウンテンカロス図鑑", "version_key": "x_y",               "pokedex_index": 2},
+    "hoenn_oras":     {"display_jpn": "ホウエン図鑑",   "label_jpn": "ホウエン図鑑 (ORAS)", "version_key": "omegaruby_alphasapphire","pokedex_index": 0},
     "alola_sm":       {"display_jpn": "アローラ図鑑",   "version_key": "sun_moon",               "pokedex_index": 0},
     "alola_usum":     {"display_jpn": "アローラ図鑑",   "version_key": "ultrasun_ultramoon",     "pokedex_index": 0},
     "galar":          {"display_jpn": "ガラル図鑑",     "version_key": "sword_shield",           "pokedex_index": 0},

@@ -7546,6 +7546,48 @@
           "description": {
             "legendsza": "ひとりの <ruby>科学者<rp>(</rp><rt>かがくしゃ</rt><rp>)</rp></ruby>が <ruby>何年<rp>(</rp><rt>なんねん</rt><rp>)</rp></ruby>も <ruby>恐<rp>(</rp><rt>おそ</rt><rp>)</rp></ruby>ろしい <ruby>遺伝子<rp>(</rp><rt>いでんし</rt><rp>)</rp></ruby> <ruby>研究<rp>(</rp><rt>けんきゅう</rt><rp>)</rp></ruby>を <ruby>続<rp>(</rp><rt>つづ</rt><rp>)</rp></ruby>けた <ruby>結果<rp>(</rp><rt>けっか</rt><rp>)</rp></ruby> <ruby>誕生<rp>(</rp><rt>たんじょう</rt><rp>)</rp></ruby>した。"
           }
+        },
+        "0150_00000100_0_000_0": {
+          "id": "0150_00000100_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": null,
+          "gigantamax": null,
+          "type1": "エスパー",
+          "type2": "かくとう",
+          "hp": 106,
+          "attack": 190,
+          "defense": 100,
+          "special_attack": 154,
+          "special_defense": 100,
+          "speed": 130,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": "サイコパワーが <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>の <ruby>筋肉<rp>(</rp><rt>きんにく</rt><rp>)</rp></ruby>を <ruby>増強<rp>(</rp><rt>ぞうきょう</rt><rp>)</rp></ruby>。<ruby>握力<rp>(</rp><rt>あくりょく</rt><rp>)</rp></ruby>は １トン。１００ｍを ２<ruby>秒<rp>(</rp><rt>びょう</rt><rp>)</rp></ruby>で <ruby>走<rp>(</rp><rt>はし</rt><rp>)</rp></ruby>れるぞ。"
+          }
+        },
+        "0150_00000101_0_000_0": {
+          "id": "0150_00000101_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": null,
+          "gigantamax": null,
+          "type1": "エスパー",
+          "type2": "",
+          "hp": 106,
+          "attack": 150,
+          "defense": 70,
+          "special_attack": 194,
+          "special_defense": 120,
+          "speed": 140,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": "<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>は <ruby>小<rp>(</rp><rt>ちい</rt><rp>)</rp></ruby>さくなったが パワーは ケタはずれ。<ruby>軽<rp>(</rp><rt>かる</rt><rp>)</rp></ruby>く <ruby>念<rp>(</rp><rt>ねん</rt><rp>)</rp></ruby>じるだけで <ruby>高層<rp>(</rp><rt>こうそう</rt><rp>)</rp></ruby>ビルも <ruby>木<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>っ<ruby>端微塵<rp>(</rp><rt>ぱみじん</rt><rp>)</rp></ruby> だ。"
+          }
         }
       }
     }
