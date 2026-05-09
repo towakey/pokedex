@@ -103,11 +103,168 @@ function sendError($message, $statusCode = 400) {
     sendResponse(['error' => $message], $statusCode);
 }
 
+function normalizeTagValue($value) {
+    return mb_strtolower(trim((string)$value), 'UTF-8');
+}
+
+function filterCatalogTag($tag, $query) {
+    $normalizedQuery = trim((string)$query);
+    if ($normalizedQuery === '') {
+        return true;
+    }
+
+    return mb_stripos((string)$tag, $normalizedQuery, 0, 'UTF-8') !== false;
+}
+
+function buildTagCatalog($db, $badThreshold, $query = '') {
+    $relationMap = [];
+
+    $approvedRows = $db->query('SELECT tag, area, pokedex_no FROM approved_tags ORDER BY tag, area, pokedex_no')->fetchAll(PDO::FETCH_ASSOC);
+    foreach ($approvedRows as $row) {
+        if (!filterCatalogTag($row['tag'] ?? '', $query)) {
+            continue;
+        }
+
+        $area = trim((string)($row['area'] ?? ''));
+        $pokedexNo = intval($row['pokedex_no'] ?? 0);
+        $tag = trim((string)($row['tag'] ?? ''));
+        if ($area === '' || $pokedexNo <= 0 || $tag === '') {
+            continue;
+        }
+
+        $key = normalizeTagValue($tag) . '::' . $area . '::' . $pokedexNo;
+        $relationMap[$key] = [
+            'tag' => $tag,
+            'area' => $area,
+            'pokedex_no' => $pokedexNo,
+            'status' => 'approved',
+            'good_count' => 0,
+            'bad_count' => 0,
+            'source' => 'approved'
+        ];
+    }
+
+    $suggestionRows = $db->query('
+        SELECT 
+            ts.tag,
+            ts.area,
+            ts.pokedex_no,
+            ts.status,
+            COALESCE(SUM(CASE WHEN tv.vote_type = "good" THEN 1 ELSE 0 END), 0) as good_count,
+            COALESCE(SUM(CASE WHEN tv.vote_type = "bad" THEN 1 ELSE 0 END), 0) as bad_count
+        FROM tag_suggestions ts
+        LEFT JOIN tag_votes tv ON ts.id = tv.tag_id
+        WHERE ts.status != "rejected"
+        GROUP BY ts.id
+        ORDER BY ts.tag, ts.area, ts.pokedex_no
+    ')->fetchAll(PDO::FETCH_ASSOC);
+
+    foreach ($suggestionRows as $row) {
+        if (!filterCatalogTag($row['tag'] ?? '', $query)) {
+            continue;
+        }
+
+        $area = trim((string)($row['area'] ?? ''));
+        $pokedexNo = intval($row['pokedex_no'] ?? 0);
+        $tag = trim((string)($row['tag'] ?? ''));
+        $badCount = intval($row['bad_count'] ?? 0);
+        if ($area === '' || $pokedexNo <= 0 || $tag === '' || $badCount >= $badThreshold) {
+            continue;
+        }
+
+        $key = normalizeTagValue($tag) . '::' . $area . '::' . $pokedexNo;
+        if (isset($relationMap[$key])) {
+            continue;
+        }
+
+        $relationMap[$key] = [
+            'tag' => $tag,
+            'area' => $area,
+            'pokedex_no' => $pokedexNo,
+            'status' => trim((string)($row['status'] ?? 'pending')),
+            'good_count' => intval($row['good_count'] ?? 0),
+            'bad_count' => $badCount,
+            'source' => 'suggestion'
+        ];
+    }
+
+    $groupMap = [];
+    foreach ($relationMap as $relation) {
+        $groupKey = normalizeTagValue($relation['tag']);
+        if (!isset($groupMap[$groupKey])) {
+            $groupMap[$groupKey] = [
+                'tag' => $relation['tag'],
+                'count' => 0,
+                'items' => []
+            ];
+        }
+
+        $groupMap[$groupKey]['items'][] = $relation;
+        $groupMap[$groupKey]['count']++;
+    }
+
+    $groups = array_values($groupMap);
+    foreach ($groups as &$group) {
+        usort($group['items'], function ($left, $right) {
+            $areaOrder = strcmp((string)($left['area'] ?? ''), (string)($right['area'] ?? ''));
+            if ($areaOrder !== 0) {
+                return $areaOrder;
+            }
+
+            $numberOrder = intval($left['pokedex_no'] ?? 0) <=> intval($right['pokedex_no'] ?? 0);
+            if ($numberOrder !== 0) {
+                return $numberOrder;
+            }
+
+            return strcmp((string)($left['source'] ?? ''), (string)($right['source'] ?? ''));
+        });
+    }
+    unset($group);
+
+    usort($groups, function ($left, $right) {
+        $countOrder = intval($right['count'] ?? 0) <=> intval($left['count'] ?? 0);
+        if ($countOrder !== 0) {
+            return $countOrder;
+        }
+
+        return strcasecmp((string)($left['tag'] ?? ''), (string)($right['tag'] ?? ''));
+    });
+
+    return $groups;
+}
+
 // 地域一覧
 $validAreas = ['global', 'kanto', 'johto', 'hoenn', 'kanto_frlg', 'sinnoh', 'johto_hgss', 'unova', 'unova_bw', 'unova_b2w2', 'kalos', 'central_kalos', 'coast_kalos', 'mountain_kalos', 'hoenn_oras', 'alola', 'alola_sm', 'alola_usum', 'galar', 'crown_tundra', 'isle_of_armor', 'hisui', 'paldea', 'kitakami', 'blueberry', 'lumiose'];
 
 // GETリクエスト処理: タグ一覧取得
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+    $mode = trim((string)($_GET['mode'] ?? ''));
+    if ($mode === 'catalog') {
+        $db = getDB($dbPath);
+
+        try {
+            $badThreshold = (int)getSetting($db, 'bad_threshold', '3');
+            $groups = buildTagCatalog($db, $badThreshold, $_GET['q'] ?? '');
+            $relationCount = 0;
+            foreach ($groups as $group) {
+                $relationCount += count($group['items'] ?? []);
+            }
+
+            sendResponse([
+                'success' => true,
+                'mode' => 'catalog',
+                'tags' => $groups,
+                'results_count' => count($groups),
+                'relation_count' => $relationCount,
+                'settings' => [
+                    'bad_threshold' => $badThreshold
+                ]
+            ]);
+        } catch (PDOException $e) {
+            sendError('Database error: ' . $e->getMessage(), 500);
+        }
+    }
+
     $area = $_GET['area'] ?? null;
     $no = $_GET['no'] ?? null;
     
