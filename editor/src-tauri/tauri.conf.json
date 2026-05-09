@@ -23,11 +23,7 @@
   },
   "plugins": {
     "fs": {
-      "scope": {
-        "allow": [
-          { "path": "**" }
-        ]
-      }
+      "requireLiteralLeadingDot": false
     }
   }
 }

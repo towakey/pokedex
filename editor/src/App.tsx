@@ -68,23 +68,27 @@ export default function App() {
   }, [fileData]);
 
   const selectDirectory = useCallback(async () => {
-    const dir = await open({ directory: true, multiple: false, title: "pokedex ディレクトリを選択" });
-    if (dir && typeof dir === "string") {
-      setPokedexDir(dir);
-      setStatus(`ディレクトリ: ${dir}`);
-      try {
-        const fileList = await invoke<string[]>("list_json_files", { pokedexDir: dir });
-        setFiles(fileList);
-        const names = await invoke<PokemonNames>("get_pokemon_names", {
-          pokedexJsonPath: `${dir}/pokedex.json`,
-        });
-        setPokemonNames(names);
-        setSelectedFile("");
-        setFileData(null);
-        setModified(false);
-      } catch (e) {
-        setStatus(`エラー: ${e}`);
+    try {
+      const dir = await open({ directory: true, multiple: false, title: "pokedex ディレクトリを選択" });
+      if (dir && typeof dir === "string") {
+        setPokedexDir(dir);
+        setStatus(`ディレクトリ: ${dir}`);
+        try {
+          const fileList = await invoke<string[]>("list_json_files", { pokedexDir: dir });
+          setFiles(fileList);
+          const names = await invoke<PokemonNames>("get_pokemon_names", {
+            pokedexJsonPath: `${dir}/pokedex.json`,
+          });
+          setPokemonNames(names);
+          setSelectedFile("");
+          setFileData(null);
+          setModified(false);
+        } catch (e) {
+          setStatus(`エラー: ${e}`);
+        }
       }
+    } catch (e) {
+      setStatus(`フォルダ選択エラー: ${e}`);
     }
   }, []);
 
