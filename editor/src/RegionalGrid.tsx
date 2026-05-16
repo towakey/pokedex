@@ -1,4 +1,4 @@
-import { useMemo, useCallback } from "react";
+import { useMemo, useCallback, useState } from "react";
 import { AgGridReact } from "ag-grid-react";
 import {
   ModuleRegistry,
@@ -75,6 +75,72 @@ function extractGlobalNo(variantKey: string): string {
 }
 
 export function RegionalGrid({ data, regionName, pokemonNames, onDataChange }: Props) {
+  const [addGlobalNo, setAddGlobalNo] = useState("");
+  const [addVariantKey, setAddVariantKey] = useState("");
+  const [addNo, setAddNo] = useState("");
+
+  const candidateVariantKeys = useMemo(() => {
+    if (!addGlobalNo) return [];
+    const padded = addGlobalNo.padStart(4, "0");
+    return Object.keys(pokemonNames)
+      .filter((k) => k === padded || k === addGlobalNo)
+      .flatMap(() => {
+        // 既存データから同じglobalNoのvariantKeyを収集
+        const regionData = data.pokedex[regionName] ?? {};
+        const existing = new Set<string>();
+        for (const variants of Object.values(regionData)) {
+          for (const vk of Object.keys(variants)) {
+            if (extractGlobalNo(vk) === addGlobalNo || extractGlobalNo(vk) === padded) {
+              existing.add(vk);
+            }
+          }
+        }
+        // globalNoだけのキーをデフォルト候補として追加
+        if (!existing.has(addGlobalNo)) existing.add(addGlobalNo);
+        return Array.from(existing);
+      });
+  }, [addGlobalNo, data, regionName, pokemonNames]);
+
+  const handleAddRow = useCallback(() => {
+    const globalNo = addGlobalNo.trim();
+    const variantKey = (addVariantKey.trim() || globalNo);
+    const no = addNo.trim() || String(
+      Object.keys(data.pokedex[regionName] ?? {}).length + 1
+    ).padStart(3, "0");
+    if (!globalNo || !variantKey) return;
+
+    onDataChange((prev) => {
+      const newData = JSON.parse(JSON.stringify(prev)) as ParsedRegionalData;
+      if (!newData.pokedex[regionName]) newData.pokedex[regionName] = {};
+      if (!newData.pokedex[regionName][no]) newData.pokedex[regionName][no] = {};
+      if (!newData.pokedex[regionName][no][variantKey]) {
+        newData.pokedex[regionName][no][variantKey] = {
+          form: "",
+          region: "",
+          mega_evolution: "",
+          gigantamax: "",
+          type1: "",
+          type2: "",
+          hp: 0,
+          attack: 0,
+          defense: 0,
+          special_attack: 0,
+          special_defense: 0,
+          speed: 0,
+          ability1: "",
+          ability2: "",
+          dream_ability: "",
+          description: {},
+        };
+      }
+      return newData;
+    });
+
+    setAddGlobalNo("");
+    setAddVariantKey("");
+    setAddNo("");
+  }, [addGlobalNo, addVariantKey, addNo, data, regionName, onDataChange]);
+
   const { rows, descriptionKeys } = useMemo(() => {
     const result: RegionalGridRow[] = [];
     const descKeys = new Set<string>();
@@ -198,20 +264,66 @@ export function RegionalGrid({ data, regionName, pokemonNames, onDataChange }: P
     [onDataChange, regionName]
   );
 
+  const addedPokemonName = useMemo(() => {
+    if (!addGlobalNo) return "";
+    const padded = addGlobalNo.padStart(4, "0");
+    return pokemonNames[padded] || pokemonNames[addGlobalNo] || "";
+  }, [addGlobalNo, pokemonNames]);
+
   return (
-    <div className="ag-theme-alpine-dark" style={{ height: "100%", width: "100%" }}>
-      <AgGridReact<RegionalGridRow>
-        rowData={rows}
-        columnDefs={columnDefs}
-        defaultColDef={{
-          sortable: true,
-          filter: true,
-          resizable: true,
-        }}
-        onCellValueChanged={onCellValueChanged}
-        getRowId={(params) => `${params.data.no}_${params.data.variantKey}`}
-        animateRows={false}
-      />
+    <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
+      <div style={{ display: "flex", alignItems: "center", gap: "8px", padding: "6px 8px", background: "#1a2035", borderBottom: "1px solid #2d3a55", flexShrink: 0 }}>
+        <span style={{ color: "#aaa", fontSize: "13px", whiteSpace: "nowrap" }}>行追加:</span>
+        <input
+          type="number"
+          placeholder="図鑑No (例: 1)"
+          value={addGlobalNo}
+          onChange={(e) => { setAddGlobalNo(e.target.value); setAddVariantKey(""); }}
+          style={{ width: "130px", padding: "3px 6px", background: "#0d1526", color: "#fff", border: "1px solid #2d3a55", borderRadius: "4px" }}
+        />
+        {addedPokemonName && (
+          <span style={{ color: "#7eb8f7", fontSize: "13px", whiteSpace: "nowrap" }}>{addedPokemonName}</span>
+        )}
+        <input
+          type="text"
+          placeholder="バリアントキー (例: 1_00000000)"
+          value={addVariantKey}
+          onChange={(e) => setAddVariantKey(e.target.value)}
+          list="variant-key-candidates"
+          style={{ width: "200px", padding: "3px 6px", background: "#0d1526", color: "#fff", border: "1px solid #2d3a55", borderRadius: "4px" }}
+        />
+        <datalist id="variant-key-candidates">
+          {candidateVariantKeys.map((vk) => <option key={vk} value={vk} />)}
+        </datalist>
+        <input
+          type="text"
+          placeholder="地方No (省略で自動)"
+          value={addNo}
+          onChange={(e) => setAddNo(e.target.value)}
+          style={{ width: "150px", padding: "3px 6px", background: "#0d1526", color: "#fff", border: "1px solid #2d3a55", borderRadius: "4px" }}
+        />
+        <button
+          onClick={handleAddRow}
+          disabled={!addGlobalNo.trim()}
+          style={{ padding: "3px 14px", background: addGlobalNo.trim() ? "#3a7bd5" : "#2d3a55", color: "#fff", border: "none", borderRadius: "4px", cursor: addGlobalNo.trim() ? "pointer" : "not-allowed" }}
+        >
+          追加
+        </button>
+      </div>
+      <div className="ag-theme-alpine-dark" style={{ flex: 1, minHeight: 0 }}>
+        <AgGridReact<RegionalGridRow>
+          rowData={rows}
+          columnDefs={columnDefs}
+          defaultColDef={{
+            sortable: true,
+            filter: true,
+            resizable: true,
+          }}
+          onCellValueChanged={onCellValueChanged}
+          getRowId={(params) => `${params.data.no}_${params.data.variantKey}`}
+          animateRows={false}
+        />
+      </div>
     </div>
   );
 }
