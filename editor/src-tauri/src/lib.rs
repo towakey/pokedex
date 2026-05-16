@@ -47,6 +47,22 @@ fn write_json_file(file_path: String, content: String) -> Result<(), String> {
 }
 
 #[tauri::command]
+fn find_pokedex_json(start_dir: String) -> Result<String, String> {
+    let mut current = PathBuf::from(&start_dir);
+    // 選択フォルダ自身と親ディレクトリ2階層まで探す
+    for _ in 0..3 {
+        let candidate = current.join("pokedex.json");
+        if candidate.exists() {
+            return Ok(current.to_string_lossy().to_string());
+        }
+        if !current.pop() {
+            break;
+        }
+    }
+    Err(format!("pokedex.json が見つかりません: {}", start_dir))
+}
+
+#[tauri::command]
 fn get_pokemon_names(pokedex_json_path: String) -> Result<HashMap<String, String>, String> {
     let content =
         fs::read_to_string(&pokedex_json_path).map_err(|e| format!("Failed to read: {}", e))?;
@@ -126,6 +142,7 @@ pub fn run() {
             read_json_file,
             write_json_file,
             get_pokemon_names,
+            find_pokedex_json,
             create_new_regional_dex,
         ])
         .run(tauri::generate_context!())

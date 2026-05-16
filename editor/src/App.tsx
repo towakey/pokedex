@@ -71,13 +71,14 @@ export default function App() {
     try {
       const dir = await open({ directory: true, multiple: false, title: "pokedex ディレクトリを選択" });
       if (dir && typeof dir === "string") {
-        setPokedexDir(dir);
-        setStatus(`ディレクトリ: ${dir}`);
         try {
-          const fileList = await invoke<string[]>("list_json_files", { pokedexDir: dir });
+          const resolvedDir = await invoke<string>("find_pokedex_json", { startDir: dir });
+          setPokedexDir(resolvedDir);
+          setStatus(`ディレクトリ: ${resolvedDir}`);
+          const fileList = await invoke<string[]>("list_json_files", { pokedexDir: resolvedDir });
           setFiles(fileList);
           const names = await invoke<PokemonNames>("get_pokemon_names", {
-            pokedexJsonPath: `${dir}/pokedex.json`,
+            pokedexJsonPath: `${resolvedDir}/pokedex.json`,
           });
           setPokemonNames(names);
           setSelectedFile("");
