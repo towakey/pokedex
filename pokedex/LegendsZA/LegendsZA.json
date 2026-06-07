@@ -1532,6 +1532,31 @@
           "description": {
             "legendsza": "<ruby>危険<rp>(</rp><rt>きけん</rt><rp>)</rp></ruby>が <ruby>迫<rp>(</rp><rt>せま</rt><rp>)</rp></ruby>ると <ruby>耳<rp>(</rp><rt>みみ</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>ち<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げ １０トン トラックを ひねりつぶす サイコパワーを <ruby>解放<rp>(</rp><rt>かいほう</rt><rp>)</rp></ruby>する。"
           }
+        },
+        "0678_00000100_0_000_0": {
+          "id": "0678_00000100_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": "メガニャオニクス",
+          "gigantamax": null,
+          "type1": "エスパー",
+          "type2": "",
+          "hp": 74,
+          "attack": 48,
+          "defense": 76,
+          "special_attack": 143,
+          "special_defense": 101,
+          "speed": 124,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": "<ruby>危険<rp>(</rp><rt>きけん</rt><rp>)</rp></ruby>が <ruby>迫<rp>(</rp><rt>せま</rt><rp>)</rp></ruby>ると <ruby>耳<rp>(</rp><rt>みみ</rt><rp>)</rp></ruby>を <ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>ち<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げ １０トン トラックを ひねりつぶす サイコパワーを <ruby>解放<rp>(</rp><rt>かいほう</rt><rp>)</rp></ruby>する。"
+          },
+          "name": {
+            "jpn": "メガニャオニクス",
+            "eng": "Mega Meowstic"
+          }
         }
       },
       "0045": {
@@ -9321,31 +9346,6 @@
           "dream_ability": "サイコメイカー",
           "description": {
             "legendsza": ""
-          }
-        },
-        "0876_00000100_0_000_0": {
-          "id": "0876_00000100_0_000_0",
-          "form": null,
-          "region": null,
-          "mega_evolution": "メガニャオニクス",
-          "gigantamax": null,
-          "type1": "エスパー",
-          "type2": "",
-          "hp": 74,
-          "attack": 48,
-          "defense": 76,
-          "special_attack": 143,
-          "special_defense": 101,
-          "speed": 124,
-          "ability1": "",
-          "ability2": "",
-          "dream_ability": "",
-          "description": {
-            "legendsza": ""
-          },
-          "name": {
-            "jpn": "メガニャオニクス",
-            "eng": "Mega Meowstic"
           }
         }
       },
