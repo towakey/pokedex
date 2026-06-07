@@ -7592,6 +7592,3620 @@
       }
     },
     "異次元図鑑": {
+      "0001": {
+        "0056_00000000_0_000_0": {
+          "id": "0056_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "かくとう",
+          "type2": "",
+          "hp": 40,
+          "attack": 80,
+          "defense": 35,
+          "special_attack": 35,
+          "special_defense": 45,
+          "speed": 70,
+          "ability1": "やるき",
+          "ability2": "いかりのつぼ",
+          "dream_ability": "まけんき",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0002": {
+        "0057_00000000_0_000_0": {
+          "id": "0057_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "かくとう",
+          "type2": "",
+          "hp": 65,
+          "attack": 105,
+          "defense": 60,
+          "special_attack": 60,
+          "special_defense": 70,
+          "speed": 95,
+          "ability1": "やるき",
+          "ability2": "いかりのつぼ",
+          "dream_ability": "まけんき",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0003": {
+        "0979_00000000_0_000_0": {
+          "id": "0979_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "かくとう",
+          "type2": "ゴースト",
+          "hp": 110,
+          "attack": 115,
+          "defense": 80,
+          "special_attack": 50,
+          "special_defense": 90,
+          "speed": 90,
+          "ability1": "やるき",
+          "ability2": "せいしんりょく",
+          "dream_ability": "まけんき",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0004": {
+        "0052_00000000_0_000_0": {
+          "id": "0052_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "",
+          "hp": 40,
+          "attack": 45,
+          "defense": 35,
+          "special_attack": 40,
+          "special_defense": 40,
+          "speed": 90,
+          "ability1": "ものひろい",
+          "ability2": "テクニシャン",
+          "dream_ability": "きんちょうかん",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0052_00001000_0_000_0": {
+          "id": "0052_00001000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "キョダイマックスニャース",
+          "type1": "ノーマル",
+          "type2": "",
+          "hp": 40,
+          "attack": 45,
+          "defense": 35,
+          "special_attack": 40,
+          "special_defense": 40,
+          "speed": 90,
+          "ability1": "ものひろい",
+          "ability2": "テクニシャン",
+          "dream_ability": "きんちょうかん",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0052_01000000_0_000_0": {
+          "id": "0052_01000000_0_000_0",
+          "form": "",
+          "region": "アローラのすがた",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "あく",
+          "type2": "",
+          "hp": 40,
+          "attack": 35,
+          "defense": 35,
+          "special_attack": 50,
+          "special_defense": 40,
+          "speed": 90,
+          "ability1": "ものひろい",
+          "ability2": "テクニシャン",
+          "dream_ability": "びびり",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0052_02000000_0_000_0": {
+          "id": "0052_02000000_0_000_0",
+          "form": "",
+          "region": "ガラルのすがた",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "はがね",
+          "type2": "",
+          "hp": 50,
+          "attack": 65,
+          "defense": 55,
+          "special_attack": 40,
+          "special_defense": 40,
+          "speed": 40,
+          "ability1": "ものひろい",
+          "ability2": "かたいツメ",
+          "dream_ability": "きんちょうかん",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0005": {
+        "0053_00000000_0_000_0": {
+          "id": "0053_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "",
+          "hp": 65,
+          "attack": 70,
+          "defense": 60,
+          "special_attack": 65,
+          "special_defense": 65,
+          "speed": 115,
+          "ability1": "じゅうなん",
+          "ability2": "テクニシャン",
+          "dream_ability": "きんちょうかん",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0053_01000000_0_000_0": {
+          "id": "0053_01000000_0_000_0",
+          "form": "",
+          "region": "アローラのすがた",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "あく",
+          "type2": "",
+          "hp": 65,
+          "attack": 60,
+          "defense": 60,
+          "special_attack": 75,
+          "special_defense": 65,
+          "speed": 115,
+          "ability1": "ファーコート",
+          "ability2": "テクニシャン",
+          "dream_ability": "びびり",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0006": {
+        "0863_00000000_0_000_0": {
+          "id": "0863_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "はがね",
+          "type2": "",
+          "hp": 70,
+          "attack": 110,
+          "defense": 100,
+          "special_attack": 50,
+          "special_defense": 60,
+          "speed": 50,
+          "ability1": "カブトアーマー",
+          "ability2": "かたいツメ",
+          "dream_ability": "はがねのせいしん",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0007": {
+        "0083_00000000_0_000_0": {
+          "id": "0083_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "ひこう",
+          "hp": 52,
+          "attack": 90,
+          "defense": 55,
+          "special_attack": 58,
+          "special_defense": 62,
+          "speed": 60,
+          "ability1": "するどいめ",
+          "ability2": "せいしんりょく",
+          "dream_ability": "まけんき",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0083_02000000_0_000_0": {
+          "id": "0083_02000000_0_000_0",
+          "form": "",
+          "region": "ガラルのすがた",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "かくとう",
+          "type2": "",
+          "hp": 52,
+          "attack": 95,
+          "defense": 55,
+          "special_attack": 58,
+          "special_defense": 62,
+          "speed": 55,
+          "ability1": "ふくつのこころ",
+          "ability2": "",
+          "dream_ability": "きもったま",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0008": {
+        "0865_00000000_0_000_0": {
+          "id": "0865_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "かくとう",
+          "type2": "",
+          "hp": 62,
+          "attack": 135,
+          "defense": 95,
+          "special_attack": 68,
+          "special_defense": 82,
+          "speed": 65,
+          "ability1": "ふくつのこころ",
+          "ability2": "",
+          "dream_ability": "きもったま",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0009": {
+        "0104_00000000_0_000_0": {
+          "id": "0104_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "じめん",
+          "type2": "",
+          "hp": 50,
+          "attack": 50,
+          "defense": 95,
+          "special_attack": 40,
+          "special_defense": 50,
+          "speed": 35,
+          "ability1": "いしあたま",
+          "ability2": "ひらいしん",
+          "dream_ability": "カブトアーマー",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0010": {
+        "0105_00000000_0_000_0": {
+          "id": "0105_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "じめん",
+          "type2": "",
+          "hp": 60,
+          "attack": 80,
+          "defense": 110,
+          "special_attack": 50,
+          "special_defense": 80,
+          "speed": 45,
+          "ability1": "いしあたま",
+          "ability2": "ひらいしん",
+          "dream_ability": "カブトアーマー",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0105_01000000_0_000_0": {
+          "id": "0105_01000000_0_000_0",
+          "form": "",
+          "region": "アローラのすがた",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ほのお",
+          "type2": "ゴースト",
+          "hp": 60,
+          "attack": 80,
+          "defense": 110,
+          "special_attack": 50,
+          "special_defense": 80,
+          "speed": 45,
+          "ability1": "のろわれボディ",
+          "ability2": "ひらいしん",
+          "dream_ability": "いしあたま",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0011": {
+        "0137_00000000_0_000_0": {
+          "id": "0137_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "",
+          "hp": 65,
+          "attack": 60,
+          "defense": 70,
+          "special_attack": 85,
+          "special_defense": 75,
+          "speed": 40,
+          "ability1": "トレース",
+          "ability2": "ダウンロード",
+          "dream_ability": "アナライズ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0012": {
+        "0233_00000000_0_000_0": {
+          "id": "0233_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "",
+          "hp": 85,
+          "attack": 80,
+          "defense": 90,
+          "special_attack": 105,
+          "special_defense": 95,
+          "speed": 60,
+          "ability1": "トレース",
+          "ability2": "ダウンロード",
+          "dream_ability": "アナライズ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0013": {
+        "0474_00000000_0_000_0": {
+          "id": "0474_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "",
+          "hp": 85,
+          "attack": 80,
+          "defense": 70,
+          "special_attack": 135,
+          "special_defense": 75,
+          "speed": 90,
+          "ability1": "てきおうりょく",
+          "ability2": "ダウンロード",
+          "dream_ability": "アナライズ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0014": {
+        "0951_00000000_0_000_0": {
+          "id": "0951_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "くさ",
+          "type2": "",
+          "hp": 50,
+          "attack": 62,
+          "defense": 40,
+          "special_attack": 62,
+          "special_defense": 40,
+          "speed": 50,
+          "ability1": "ようりょくそ",
+          "ability2": "ふみん",
+          "dream_ability": "ぶきよう",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0015": {
+        "0952_00000000_0_000_0": {
+          "id": "0952_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ほのお",
+          "type2": "くさ",
+          "hp": 65,
+          "attack": 108,
+          "defense": 65,
+          "special_attack": 108,
+          "special_defense": 65,
+          "speed": 75,
+          "ability1": "ようりょくそ",
+          "ability2": "ふみん",
+          "dream_ability": "ムラっけ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0016": {
+        "0957_00000000_0_000_0": {
+          "id": "0957_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "はがね",
+          "type2": "フェアリー",
+          "hp": 50,
+          "attack": 45,
+          "defense": 45,
+          "special_attack": 35,
+          "special_defense": 64,
+          "speed": 58,
+          "ability1": "かたやぶり",
+          "ability2": "マイペース",
+          "dream_ability": "わるいてぐせ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0017": {
+        "0958_00000000_0_000_0": {
+          "id": "0958_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "はがね",
+          "type2": "フェアリー",
+          "hp": 65,
+          "attack": 55,
+          "defense": 55,
+          "special_attack": 45,
+          "special_defense": 82,
+          "speed": 78,
+          "ability1": "かたやぶり",
+          "ability2": "マイペース",
+          "dream_ability": "わるいてぐせ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0018": {
+        "0959_00000000_0_000_0": {
+          "id": "0959_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "はがね",
+          "type2": "フェアリー",
+          "hp": 85,
+          "attack": 75,
+          "defense": 77,
+          "special_attack": 70,
+          "special_defense": 105,
+          "speed": 94,
+          "ability1": "かたやぶり",
+          "ability2": "マイペース",
+          "dream_ability": "わるいてぐせ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0019": {
+        "0967_00000000_0_000_0": {
+          "id": "0967_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "ドラゴン",
+          "hp": 70,
+          "attack": 95,
+          "defense": 65,
+          "special_attack": 85,
+          "special_defense": 65,
+          "speed": 121,
+          "ability1": "だっぴ",
+          "ability2": "",
+          "dream_ability": "さいせいりょく",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0020": {
+        "0969_00000000_0_000_0": {
+          "id": "0969_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "どく",
+          "type2": "いわ",
+          "hp": 48,
+          "attack": 35,
+          "defense": 42,
+          "special_attack": 105,
+          "special_defense": 60,
+          "speed": 60,
+          "ability1": "どくげしょう",
+          "ability2": "",
+          "dream_ability": "ふしょく",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0021": {
+        "0970_00000000_0_000_0": {
+          "id": "0970_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "どく",
+          "type2": "いわ",
+          "hp": 83,
+          "attack": 55,
+          "defense": 90,
+          "special_attack": 130,
+          "special_defense": 81,
+          "speed": 86,
+          "ability1": "どくげしょう",
+          "ability2": "",
+          "dream_ability": "ふしょく",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0022": {
+        "0479_00000000_0_000_0": {
+          "id": "0479_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "でんき",
+          "type2": "ゴースト",
+          "hp": 50,
+          "attack": 50,
+          "defense": 77,
+          "special_attack": 95,
+          "special_defense": 77,
+          "speed": 91,
+          "ability1": "ふゆう",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0479_00000001_0_000_0": {
+          "id": "0479_00000001_0_000_0",
+          "form": "ヒートロトム",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ほのお",
+          "type2": "でんき",
+          "hp": 50,
+          "attack": 65,
+          "defense": 107,
+          "special_attack": 105,
+          "special_defense": 107,
+          "speed": 86,
+          "ability1": "ふゆう",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0479_00000002_0_000_0": {
+          "id": "0479_00000002_0_000_0",
+          "form": "ウォッシュロトム",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "みず",
+          "type2": "でんき",
+          "hp": 50,
+          "attack": 65,
+          "defense": 107,
+          "special_attack": 105,
+          "special_defense": 107,
+          "speed": 86,
+          "ability1": "ふゆう",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0479_00000003_0_000_0": {
+          "id": "0479_00000003_0_000_0",
+          "form": "フロストロトム",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "でんき",
+          "type2": "こおり",
+          "hp": 50,
+          "attack": 65,
+          "defense": 107,
+          "special_attack": 105,
+          "special_defense": 107,
+          "speed": 86,
+          "ability1": "ふゆう",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0479_00000004_0_000_0": {
+          "id": "0479_00000004_0_000_0",
+          "form": "スピンロトム",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "でんき",
+          "type2": "ひこう",
+          "hp": 50,
+          "attack": 65,
+          "defense": 107,
+          "special_attack": 105,
+          "special_defense": 107,
+          "speed": 86,
+          "ability1": "ふゆう",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0479_00000005_0_000_0": {
+          "id": "0479_00000005_0_000_0",
+          "form": "カットロトム",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "でんき",
+          "type2": "くさ",
+          "hp": 50,
+          "attack": 65,
+          "defense": 107,
+          "special_attack": 105,
+          "special_defense": 107,
+          "speed": 86,
+          "ability1": "ふゆう",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0023": {
+        "0971_00000000_0_000_0": {
+          "id": "0971_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ゴースト",
+          "type2": "",
+          "hp": 50,
+          "attack": 61,
+          "defense": 60,
+          "special_attack": 30,
+          "special_defense": 55,
+          "speed": 34,
+          "ability1": "ものひろい",
+          "ability2": "",
+          "dream_ability": "もふもふ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0024": {
+        "0972_00000000_0_000_0": {
+          "id": "0972_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ゴースト",
+          "type2": "",
+          "hp": 72,
+          "attack": 101,
+          "defense": 100,
+          "special_attack": 50,
+          "special_defense": 97,
+          "speed": 68,
+          "ability1": "すなかき",
+          "ability2": "",
+          "dream_ability": "もふもふ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0025": {
+        "0769_00000000_0_000_0": {
+          "id": "0769_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "じめん",
+          "type2": "ゴースト",
+          "hp": 55,
+          "attack": 55,
+          "defense": 80,
+          "special_attack": 70,
+          "special_defense": 45,
+          "speed": 15,
+          "ability1": "みずがため",
+          "ability2": "",
+          "dream_ability": "すながくれ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0026": {
+        "0770_00000000_0_000_0": {
+          "id": "0770_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "じめん",
+          "type2": "ゴースト",
+          "hp": 85,
+          "attack": 75,
+          "defense": 110,
+          "special_attack": 100,
+          "special_defense": 75,
+          "speed": 35,
+          "ability1": "みずがため",
+          "ability2": "",
+          "dream_ability": "すながくれ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0027": {
+        "0352_00000000_0_000_0": {
+          "id": "0352_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "",
+          "hp": 60,
+          "attack": 90,
+          "defense": 70,
+          "special_attack": 60,
+          "special_defense": 120,
+          "speed": 40,
+          "ability1": "へんしょく",
+          "ability2": "",
+          "dream_ability": "へんげんじざい",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0028": {
+        "0973_00000000_0_000_0": {
+          "id": "0973_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "かくとう",
+          "type2": "ひこう",
+          "hp": 82,
+          "attack": 115,
+          "defense": 74,
+          "special_attack": 75,
+          "special_defense": 64,
+          "speed": 90,
+          "ability1": "きもったま",
+          "ability2": "ちどりあし",
+          "dream_ability": "きょうえん",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0029": {
+        "0615_00000000_0_000_0": {
+          "id": "0615_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "こおり",
+          "type2": "",
+          "hp": 80,
+          "attack": 50,
+          "defense": 50,
+          "special_attack": 95,
+          "special_defense": 135,
+          "speed": 105,
+          "ability1": "ふゆう",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0030": {
+        "0977_00000000_0_000_0": {
+          "id": "0977_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "みず",
+          "type2": "",
+          "hp": 150,
+          "attack": 100,
+          "defense": 115,
+          "special_attack": 65,
+          "special_defense": 65,
+          "speed": 35,
+          "ability1": "てんねん",
+          "ability2": "どんかん",
+          "dream_ability": "みずのベール",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0031": {
+        "0978_00000000_0_000_0": {
+          "id": "0978_00000000_0_000_0",
+          "form": "そったすがた",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "みず",
+          "type2": "ドラゴン",
+          "hp": 68,
+          "attack": 50,
+          "defense": 60,
+          "special_attack": 120,
+          "special_defense": 95,
+          "speed": 82,
+          "ability1": "しれいとう",
+          "ability2": "",
+          "dream_ability": "よびみず",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0978_00000001_0_000_0": {
+          "id": "0978_00000001_0_000_0",
+          "form": "たれたすがた",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "みず",
+          "type2": "ドラゴン",
+          "hp": 68,
+          "attack": 50,
+          "defense": 60,
+          "special_attack": 120,
+          "special_defense": 95,
+          "speed": 82,
+          "ability1": "しれいとう",
+          "ability2": "",
+          "dream_ability": "よびみず",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0978_00000002_0_000_0": {
+          "id": "0978_00000002_0_000_0",
+          "form": "のびたすがた",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "みず",
+          "type2": "ドラゴン",
+          "hp": 68,
+          "attack": 50,
+          "defense": 60,
+          "special_attack": 120,
+          "special_defense": 95,
+          "speed": 82,
+          "ability1": "しれいとう",
+          "ability2": "",
+          "dream_ability": "よびみず",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0032": {
+        "0996_00000000_0_000_0": {
+          "id": "0996_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "こおり",
+          "type2": "ドラゴン",
+          "hp": 65,
+          "attack": 75,
+          "defense": 45,
+          "special_attack": 35,
+          "special_defense": 45,
+          "speed": 55,
+          "ability1": "ねつこうかん",
+          "ability2": "",
+          "dream_ability": "アイスボディ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0033": {
+        "0997_00000000_0_000_0": {
+          "id": "0997_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "こおり",
+          "type2": "ドラゴン",
+          "hp": 90,
+          "attack": 95,
+          "defense": 66,
+          "special_attack": 45,
+          "special_defense": 65,
+          "speed": 62,
+          "ability1": "ねつこうかん",
+          "ability2": "",
+          "dream_ability": "アイスボディ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0034": {
+        "0998_00000000_0_000_0": {
+          "id": "0998_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "こおり",
+          "type2": "ドラゴン",
+          "hp": 115,
+          "attack": 145,
+          "defense": 92,
+          "special_attack": 75,
+          "special_defense": 86,
+          "speed": 87,
+          "ability1": "ねつこうかん",
+          "ability2": "",
+          "dream_ability": "アイスボディ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0035": {
+        "0999_00000000_0_000_0": {
+          "id": "0999_00000000_0_000_0",
+          "form": "はこフォルム",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ゴースト",
+          "type2": "",
+          "hp": 45,
+          "attack": 30,
+          "defense": 70,
+          "special_attack": 75,
+          "special_defense": 70,
+          "speed": 10,
+          "ability1": "びびり",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0999_00000001_0_000_0": {
+          "id": "0999_00000001_0_000_0",
+          "form": "とほフォルム",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ゴースト",
+          "type2": "",
+          "hp": 45,
+          "attack": 30,
+          "defense": 70,
+          "special_attack": 75,
+          "special_defense": 70,
+          "speed": 10,
+          "ability1": "びびり",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0036": {
+        "1000_00000000_0_000_0": {
+          "id": "1000_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ゴースト",
+          "type2": "はがね",
+          "hp": 87,
+          "attack": 60,
+          "defense": 95,
+          "special_attack": 133,
+          "special_defense": 91,
+          "speed": 84,
+          "ability1": "おうごんのからだ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0037": {
+        "0211_00000000_0_000_0": {
+          "id": "0211_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "みず",
+          "type2": "どく",
+          "hp": 65,
+          "attack": 95,
+          "defense": 85,
+          "special_attack": 55,
+          "special_defense": 55,
+          "speed": 85,
+          "ability1": "どくのトゲ",
+          "ability2": "すいすい",
+          "dream_ability": "いかく",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0211_03000000_0_000_0": {
+          "id": "0211_03000000_0_000_0",
+          "form": "",
+          "region": "ヒスイのすがた",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "どく",
+          "type2": "あく",
+          "hp": 65,
+          "attack": 95,
+          "defense": 85,
+          "special_attack": 55,
+          "special_defense": 55,
+          "speed": 85,
+          "ability1": "どくのトゲ",
+          "ability2": "すいすい",
+          "dream_ability": "いかく",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0038": {
+        "0904_00000000_0_000_0": {
+          "id": "0904_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "どく",
+          "type2": "あく",
+          "hp": 85,
+          "attack": 115,
+          "defense": 95,
+          "special_attack": 65,
+          "special_defense": 65,
+          "speed": 85,
+          "ability1": "どくのトゲ",
+          "ability2": "すいすい",
+          "dream_ability": "いかく",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0039": {
+        "0252_00000000_0_000_0": {
+          "id": "0252_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "くさ",
+          "type2": "",
+          "hp": 40,
+          "attack": 45,
+          "defense": 35,
+          "special_attack": 65,
+          "special_defense": 55,
+          "speed": 70,
+          "ability1": "しんりょく",
+          "ability2": "",
+          "dream_ability": "かるわざ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0040": {
+        "0253_00000000_0_000_0": {
+          "id": "0253_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "くさ",
+          "type2": "",
+          "hp": 50,
+          "attack": 65,
+          "defense": 45,
+          "special_attack": 85,
+          "special_defense": 65,
+          "speed": 95,
+          "ability1": "しんりょく",
+          "ability2": "",
+          "dream_ability": "かるわざ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0041": {
+        "0254_00000000_0_000_0": {
+          "id": "0254_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "くさ",
+          "type2": "",
+          "hp": 70,
+          "attack": 85,
+          "defense": 65,
+          "special_attack": 105,
+          "special_defense": 85,
+          "speed": 120,
+          "ability1": "しんりょく",
+          "ability2": "",
+          "dream_ability": "かるわざ",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0254_00000100_0_000_0": {
+          "id": "0254_00000100_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "くさ",
+          "type2": "ドラゴン",
+          "hp": 70,
+          "attack": 110,
+          "defense": 75,
+          "special_attack": 145,
+          "special_defense": 85,
+          "speed": 145,
+          "ability1": "ひらいしん",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0042": {
+        "0255_00000000_0_000_0": {
+          "id": "0255_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ほのお",
+          "type2": "",
+          "hp": 45,
+          "attack": 60,
+          "defense": 40,
+          "special_attack": 70,
+          "special_defense": 50,
+          "speed": 45,
+          "ability1": "もうか",
+          "ability2": "",
+          "dream_ability": "かそく",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0043": {
+        "0256_00000000_0_000_0": {
+          "id": "0256_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ほのお",
+          "type2": "かくとう",
+          "hp": 60,
+          "attack": 85,
+          "defense": 60,
+          "special_attack": 85,
+          "special_defense": 60,
+          "speed": 55,
+          "ability1": "もうか",
+          "ability2": "",
+          "dream_ability": "かそく",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0044": {
+        "0257_00000000_0_000_0": {
+          "id": "0257_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ほのお",
+          "type2": "かくとう",
+          "hp": 80,
+          "attack": 120,
+          "defense": 70,
+          "special_attack": 110,
+          "special_defense": 70,
+          "speed": 80,
+          "ability1": "もうか",
+          "ability2": "",
+          "dream_ability": "かそく",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0257_00000100_0_000_0": {
+          "id": "0257_00000100_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ほのお",
+          "type2": "かくとう",
+          "hp": 80,
+          "attack": 160,
+          "defense": 80,
+          "special_attack": 130,
+          "special_defense": 80,
+          "speed": 100,
+          "ability1": "かそく",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0045": {
+        "0258_00000000_0_000_0": {
+          "id": "0258_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "みず",
+          "type2": "",
+          "hp": 50,
+          "attack": 70,
+          "defense": 50,
+          "special_attack": 50,
+          "special_defense": 50,
+          "speed": 40,
+          "ability1": "げきりゅう",
+          "ability2": "",
+          "dream_ability": "しめりけ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0046": {
+        "0259_00000000_0_000_0": {
+          "id": "0259_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "みず",
+          "type2": "じめん",
+          "hp": 70,
+          "attack": 85,
+          "defense": 70,
+          "special_attack": 60,
+          "special_defense": 70,
+          "speed": 50,
+          "ability1": "げきりゅう",
+          "ability2": "",
+          "dream_ability": "しめりけ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0047": {
+        "0260_00000000_0_000_0": {
+          "id": "0260_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "みず",
+          "type2": "じめん",
+          "hp": 100,
+          "attack": 110,
+          "defense": 90,
+          "special_attack": 85,
+          "special_defense": 90,
+          "speed": 60,
+          "ability1": "げきりゅう",
+          "ability2": "",
+          "dream_ability": "しめりけ",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0260_00000100_0_000_0": {
+          "id": "0260_00000100_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "みず",
+          "type2": "じめん",
+          "hp": 100,
+          "attack": 150,
+          "defense": 110,
+          "special_attack": 95,
+          "special_defense": 110,
+          "speed": 70,
+          "ability1": "すいすい",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0048": {
+        "0349_00000000_0_000_0": {
+          "id": "0349_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "みず",
+          "type2": "",
+          "hp": 20,
+          "attack": 15,
+          "defense": 20,
+          "special_attack": 10,
+          "special_defense": 55,
+          "speed": 80,
+          "ability1": "すいすい",
+          "ability2": "どんかん",
+          "dream_ability": "てきおうりょく",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0049": {
+        "0350_00000000_0_000_0": {
+          "id": "0350_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "みず",
+          "type2": "",
+          "hp": 95,
+          "attack": 60,
+          "defense": 79,
+          "special_attack": 100,
+          "special_defense": 125,
+          "speed": 81,
+          "ability1": "ふしぎなうろこ",
+          "ability2": "かちき",
+          "dream_ability": "メロメロボディ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0050": {
+        "0433_00000000_0_000_0": {
+          "id": "0433_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "エスパー",
+          "type2": "",
+          "hp": 45,
+          "attack": 30,
+          "defense": 50,
+          "special_attack": 65,
+          "special_defense": 50,
+          "speed": 45,
+          "ability1": "ふゆう",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0051": {
+        "0358_00000000_0_000_0": {
+          "id": "0358_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "エスパー",
+          "type2": "",
+          "hp": 65,
+          "attack": 50,
+          "defense": 70,
+          "special_attack": 95,
+          "special_defense": 80,
+          "speed": 65,
+          "ability1": "ふゆう",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0052": {
+        "0876_00000000_0_000_0": {
+          "id": "0876_00000000_0_000_0",
+          "form": "オスのすがた",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "エスパー",
+          "hp": 60,
+          "attack": 65,
+          "defense": 55,
+          "special_attack": 105,
+          "special_defense": 95,
+          "speed": 95,
+          "ability1": "せいしんりょく",
+          "ability2": "シンクロ",
+          "dream_ability": "サイコメイカー",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0876_00000001_0_000_0": {
+          "id": "0876_00000001_0_000_0",
+          "form": "メスのすがた",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "エスパー",
+          "hp": 70,
+          "attack": 55,
+          "defense": 65,
+          "special_attack": 95,
+          "special_defense": 105,
+          "speed": 85,
+          "ability1": "マイペース",
+          "ability2": "シンクロ",
+          "dream_ability": "サイコメイカー",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0053": {
+        "0509_00000000_0_000_0": {
+          "id": "0509_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "あく",
+          "type2": "",
+          "hp": 41,
+          "attack": 50,
+          "defense": 37,
+          "special_attack": 50,
+          "special_defense": 37,
+          "speed": 66,
+          "ability1": "じゅうなん",
+          "ability2": "かるわざ",
+          "dream_ability": "いたずらごころ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0054": {
+        "0510_00000000_0_000_0": {
+          "id": "0510_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "あく",
+          "type2": "",
+          "hp": 64,
+          "attack": 88,
+          "defense": 50,
+          "special_attack": 88,
+          "special_defense": 50,
+          "speed": 106,
+          "ability1": "じゅうなん",
+          "ability2": "かるわざ",
+          "dream_ability": "いたずらごころ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0055": {
+        "0517_00000000_0_000_0": {
+          "id": "0517_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "エスパー",
+          "type2": "",
+          "hp": 76,
+          "attack": 25,
+          "defense": 45,
+          "special_attack": 67,
+          "special_defense": 55,
+          "speed": 24,
+          "ability1": "よちむ",
+          "ability2": "シンクロ",
+          "dream_ability": "テレパシー",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0056": {
+        "0518_00000000_0_000_0": {
+          "id": "0518_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "エスパー",
+          "type2": "",
+          "hp": 116,
+          "attack": 55,
+          "defense": 85,
+          "special_attack": 107,
+          "special_defense": 95,
+          "speed": 29,
+          "ability1": "よちむ",
+          "ability2": "シンクロ",
+          "dream_ability": "テレパシー",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0057": {
+        "0538_00000000_0_000_0": {
+          "id": "0538_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "かくとう",
+          "type2": "",
+          "hp": 120,
+          "attack": 100,
+          "defense": 85,
+          "special_attack": 30,
+          "special_defense": 85,
+          "speed": 45,
+          "ability1": "こんじょう",
+          "ability2": "せいしんりょく",
+          "dream_ability": "かたやぶり",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0058": {
+        "0539_00000000_0_000_0": {
+          "id": "0539_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "かくとう",
+          "type2": "",
+          "hp": 75,
+          "attack": 125,
+          "defense": 75,
+          "special_attack": 30,
+          "special_defense": 75,
+          "speed": 85,
+          "ability1": "がんじょう",
+          "ability2": "せいしんりょく",
+          "dream_ability": "かたやぶり",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0059": {
+        "0562_00000000_0_000_0": {
+          "id": "0562_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ゴースト",
+          "type2": "",
+          "hp": 38,
+          "attack": 30,
+          "defense": 85,
+          "special_attack": 55,
+          "special_defense": 65,
+          "speed": 30,
+          "ability1": "ミイラ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0562_02000000_0_000_0": {
+          "id": "0562_02000000_0_000_0",
+          "form": "",
+          "region": "ガラルのすがた",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ゴースト",
+          "type2": "",
+          "hp": 38,
+          "attack": 30,
+          "defense": 85,
+          "special_attack": 55,
+          "special_defense": 65,
+          "speed": 30,
+          "ability1": "ミイラ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0060": {
+        "0563_00000000_0_000_0": {
+          "id": "0563_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ゴースト",
+          "type2": "",
+          "hp": 58,
+          "attack": 50,
+          "defense": 145,
+          "special_attack": 95,
+          "special_defense": 105,
+          "speed": 30,
+          "ability1": "ミイラ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0061": {
+        "0867_00000000_0_000_0": {
+          "id": "0867_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "じめん",
+          "type2": "ゴースト",
+          "hp": 58,
+          "attack": 95,
+          "defense": 145,
+          "special_attack": 50,
+          "special_defense": 105,
+          "speed": 30,
+          "ability1": "さまようたましい",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0062": {
+        "0767_00000000_0_000_0": {
+          "id": "0767_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "みず",
+          "type2": "むし",
+          "hp": 25,
+          "attack": 35,
+          "defense": 40,
+          "special_attack": 20,
+          "special_defense": 30,
+          "speed": 80,
+          "ability1": "にげごし",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0063": {
+        "0768_00000000_0_000_0": {
+          "id": "0768_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "みず",
+          "type2": "むし",
+          "hp": 75,
+          "attack": 125,
+          "defense": 140,
+          "special_attack": 60,
+          "special_defense": 90,
+          "speed": 40,
+          "ability1": "ききかいひ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0064": {
+        "0827_00000000_0_000_0": {
+          "id": "0827_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "あく",
+          "type2": "",
+          "hp": 40,
+          "attack": 28,
+          "defense": 28,
+          "special_attack": 47,
+          "special_defense": 52,
+          "speed": 50,
+          "ability1": "にげあし",
+          "ability2": "かるわざ",
+          "dream_ability": "はりこみ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0065": {
+        "0828_00000000_0_000_0": {
+          "id": "0828_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "あく",
+          "type2": "",
+          "hp": 70,
+          "attack": 58,
+          "defense": 58,
+          "special_attack": 87,
+          "special_defense": 92,
+          "speed": 90,
+          "ability1": "にげあし",
+          "ability2": "かるわざ",
+          "dream_ability": "はりこみ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0066": {
+        "0852_00000000_0_000_0": {
+          "id": "0852_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "かくとう",
+          "type2": "",
+          "hp": 50,
+          "attack": 68,
+          "defense": 60,
+          "special_attack": 50,
+          "special_defense": 50,
+          "speed": 32,
+          "ability1": "じゅうなん",
+          "ability2": "",
+          "dream_ability": "テクニシャン",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0067": {
+        "0853_00000000_0_000_0": {
+          "id": "0853_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "かくとう",
+          "type2": "",
+          "hp": 80,
+          "attack": 118,
+          "defense": 90,
+          "special_attack": 70,
+          "special_defense": 80,
+          "speed": 42,
+          "ability1": "じゅうなん",
+          "ability2": "",
+          "dream_ability": "テクニシャン",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0068": {
+        "0778_00000000_0_000_0": {
+          "id": "0778_00000000_0_000_0",
+          "form": "ばけたすがた",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ゴースト",
+          "type2": "フェアリー",
+          "hp": 55,
+          "attack": 90,
+          "defense": 80,
+          "special_attack": 50,
+          "special_defense": 105,
+          "speed": 96,
+          "ability1": "ばけのかわ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0778_00000001_0_000_0": {
+          "id": "0778_00000001_0_000_0",
+          "form": "ばれたすがた",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ゴースト",
+          "type2": "フェアリー",
+          "hp": 55,
+          "attack": 90,
+          "defense": 80,
+          "special_attack": 50,
+          "special_defense": 105,
+          "speed": 96,
+          "ability1": "ばけのかわ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0069": {
+        "0900_00000000_0_000_0": {
+          "id": "0900_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "むし",
+          "type2": "いわ",
+          "hp": 70,
+          "attack": 135,
+          "defense": 95,
+          "special_attack": 45,
+          "special_defense": 70,
+          "speed": 85,
+          "ability1": "むしのしらせ",
+          "ability2": "ちからずく",
+          "dream_ability": "きれあじ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0070": {
+        "0877_00000000_0_000_0": {
+          "id": "0877_00000000_0_000_0",
+          "form": "まんぷくもよう",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "でんき",
+          "type2": "あく",
+          "hp": 58,
+          "attack": 95,
+          "defense": 58,
+          "special_attack": 70,
+          "special_defense": 58,
+          "speed": 97,
+          "ability1": "はらぺこスイッチ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0877_00000001_0_000_0": {
+          "id": "0877_00000001_0_000_0",
+          "form": "はらぺこもよう",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "でんき",
+          "type2": "あく",
+          "hp": 58,
+          "attack": 95,
+          "defense": 58,
+          "special_attack": 70,
+          "special_defense": 58,
+          "speed": 97,
+          "ability1": "はらぺこスイッチ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0071": {
+        "0622_00000000_0_000_0": {
+          "id": "0622_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "じめん",
+          "type2": "ゴースト",
+          "hp": 59,
+          "attack": 74,
+          "defense": 50,
+          "special_attack": 35,
+          "special_defense": 50,
+          "speed": 35,
+          "ability1": "てつのこぶし",
+          "ability2": "ぶきよう",
+          "dream_ability": "ノーガード",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0072": {
+        "0623_00000000_0_000_0": {
+          "id": "0623_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "じめん",
+          "type2": "ゴースト",
+          "hp": 89,
+          "attack": 124,
+          "defense": 80,
+          "special_attack": 55,
+          "special_defense": 80,
+          "speed": 55,
+          "ability1": "てつのこぶし",
+          "ability2": "ぶきよう",
+          "dream_ability": "ノーガード",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0073": {
+        "0821_00000000_0_000_0": {
+          "id": "0821_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ひこう",
+          "type2": "",
+          "hp": 38,
+          "attack": 47,
+          "defense": 35,
+          "special_attack": 33,
+          "special_defense": 35,
+          "speed": 57,
+          "ability1": "するどいめ",
+          "ability2": "きんちょうかん",
+          "dream_ability": "はとむね",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0074": {
+        "0822_00000000_0_000_0": {
+          "id": "0822_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ひこう",
+          "type2": "",
+          "hp": 68,
+          "attack": 67,
+          "defense": 55,
+          "special_attack": 43,
+          "special_defense": 55,
+          "speed": 77,
+          "ability1": "するどいめ",
+          "ability2": "きんちょうかん",
+          "dream_ability": "はとむね",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0075": {
+        "0823_00000000_0_000_0": {
+          "id": "0823_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ひこう",
+          "type2": "はがね",
+          "hp": 98,
+          "attack": 87,
+          "defense": 105,
+          "special_attack": 53,
+          "special_defense": 85,
+          "speed": 67,
+          "ability1": "プレッシャー",
+          "ability2": "きんちょうかん",
+          "dream_ability": "ミラーアーマー",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0823_00001000_0_000_0": {
+          "id": "0823_00001000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "キョダイマックスアーマーガア",
+          "type1": "ひこう",
+          "type2": "はがね",
+          "hp": 98,
+          "attack": 87,
+          "defense": 105,
+          "special_attack": 53,
+          "special_defense": 85,
+          "speed": 67,
+          "ability1": "プレッシャー",
+          "ability2": "きんちょうかん",
+          "dream_ability": "ミラーアーマー",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0076": {
+        "0174_00000000_0_000_0": {
+          "id": "0174_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "フェアリー",
+          "hp": 90,
+          "attack": 30,
+          "defense": 15,
+          "special_attack": 40,
+          "special_defense": 20,
+          "speed": 15,
+          "ability1": "メロメロボディ",
+          "ability2": "かちき",
+          "dream_ability": "フレンドガード",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0077": {
+        "0039_00000000_0_000_0": {
+          "id": "0039_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "フェアリー",
+          "hp": 115,
+          "attack": 45,
+          "defense": 20,
+          "special_attack": 45,
+          "special_defense": 25,
+          "speed": 20,
+          "ability1": "メロメロボディ",
+          "ability2": "かちき",
+          "dream_ability": "フレンドガード",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0078": {
+        "0040_00000000_0_000_0": {
+          "id": "0040_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "フェアリー",
+          "hp": 140,
+          "attack": 70,
+          "defense": 45,
+          "special_attack": 85,
+          "special_defense": 50,
+          "speed": 45,
+          "ability1": "メロメロボディ",
+          "ability2": "かちき",
+          "dream_ability": "おみとおし",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0079": {
+        "0926_00000000_0_000_0": {
+          "id": "0926_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "フェアリー",
+          "type2": "",
+          "hp": 37,
+          "attack": 55,
+          "defense": 70,
+          "special_attack": 30,
+          "special_defense": 55,
+          "speed": 65,
+          "ability1": "マイペース",
+          "ability2": "",
+          "dream_ability": "ぶきよう",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0080": {
+        "0927_00000000_0_000_0": {
+          "id": "0927_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "フェアリー",
+          "type2": "",
+          "hp": 57,
+          "attack": 80,
+          "defense": 115,
+          "special_attack": 50,
+          "special_defense": 80,
+          "speed": 95,
+          "ability1": "こんがりボディ",
+          "ability2": "",
+          "dream_ability": "アロマベール",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0081": {
+        "0396_00000000_0_000_0": {
+          "id": "0396_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "ひこう",
+          "hp": 40,
+          "attack": 55,
+          "defense": 30,
+          "special_attack": 30,
+          "special_defense": 30,
+          "speed": 60,
+          "ability1": "するどいめ",
+          "ability2": "",
+          "dream_ability": "すてみ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0082": {
+        "0397_00000000_0_000_0": {
+          "id": "0397_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "ひこう",
+          "hp": 55,
+          "attack": 75,
+          "defense": 50,
+          "special_attack": 40,
+          "special_defense": 40,
+          "speed": 80,
+          "ability1": "いかく",
+          "ability2": "",
+          "dream_ability": "すてみ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0083": {
+        "0398_00000000_0_000_0": {
+          "id": "0398_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "ひこう",
+          "hp": 85,
+          "attack": 120,
+          "defense": 70,
+          "special_attack": 50,
+          "special_defense": 60,
+          "speed": 100,
+          "ability1": "いかく",
+          "ability2": "",
+          "dream_ability": "すてみ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0084": {
+        "0325_00000000_0_000_0": {
+          "id": "0325_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "エスパー",
+          "type2": "",
+          "hp": 60,
+          "attack": 25,
+          "defense": 35,
+          "special_attack": 70,
+          "special_defense": 80,
+          "speed": 60,
+          "ability1": "あついしぼう",
+          "ability2": "マイペース",
+          "dream_ability": "くいしんぼう",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0085": {
+        "0326_00000000_0_000_0": {
+          "id": "0326_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "エスパー",
+          "type2": "",
+          "hp": 80,
+          "attack": 45,
+          "defense": 65,
+          "special_attack": 90,
+          "special_defense": 110,
+          "speed": 80,
+          "ability1": "あついしぼう",
+          "ability2": "マイペース",
+          "dream_ability": "くいしんぼう",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0086": {
+        "0931_00000000_0_000_0": {
+          "id": "0931_00000000_0_000_0",
+          "form": "グリーンフェザー",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "ひこう",
+          "hp": 82,
+          "attack": 96,
+          "defense": 51,
+          "special_attack": 45,
+          "special_defense": 51,
+          "speed": 92,
+          "ability1": "いかく",
+          "ability2": "はりきり",
+          "dream_ability": "こんじょう",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0931_00000001_0_000_0": {
+          "id": "0931_00000001_0_000_0",
+          "form": "ブルーフェザー",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "ひこう",
+          "hp": 82,
+          "attack": 96,
+          "defense": 51,
+          "special_attack": 45,
+          "special_defense": 51,
+          "speed": 92,
+          "ability1": "いかく",
+          "ability2": "はりきり",
+          "dream_ability": "こんじょう",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0931_00000002_0_000_0": {
+          "id": "0931_00000002_0_000_0",
+          "form": "イエローフェザー",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "ひこう",
+          "hp": 82,
+          "attack": 96,
+          "defense": 51,
+          "special_attack": 45,
+          "special_defense": 51,
+          "speed": 92,
+          "ability1": "いかく",
+          "ability2": "はりきり",
+          "dream_ability": "こんじょう",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0931_00000003_0_000_0": {
+          "id": "0931_00000003_0_000_0",
+          "form": "ホワイトフェザー",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "ひこう",
+          "hp": 82,
+          "attack": 96,
+          "defense": 51,
+          "special_attack": 45,
+          "special_defense": 51,
+          "speed": 92,
+          "ability1": "いかく",
+          "ability2": "はりきり",
+          "dream_ability": "こんじょう",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0087": {
+        "0739_00000000_0_000_0": {
+          "id": "0739_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "かくとう",
+          "type2": "",
+          "hp": 47,
+          "attack": 82,
+          "defense": 57,
+          "special_attack": 42,
+          "special_defense": 47,
+          "speed": 63,
+          "ability1": "かいりきバサミ",
+          "ability2": "てつのこぶし",
+          "dream_ability": "いかりのつぼ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0088": {
+        "0740_00000000_0_000_0": {
+          "id": "0740_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "こおり",
+          "type2": "かくとう",
+          "hp": 97,
+          "attack": 132,
+          "defense": 77,
+          "special_attack": 62,
+          "special_defense": 67,
+          "speed": 43,
+          "ability1": "かいりきバサミ",
+          "ability2": "てつのこぶし",
+          "dream_ability": "いかりのつぼ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0089": {
+        "0932_00000000_0_000_0": {
+          "id": "0932_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "いわ",
+          "type2": "",
+          "hp": 55,
+          "attack": 55,
+          "defense": 75,
+          "special_attack": 35,
+          "special_defense": 35,
+          "speed": 25,
+          "ability1": "きよめのしお",
+          "ability2": "がんじょう",
+          "dream_ability": "クリアボディ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0090": {
+        "0933_00000000_0_000_0": {
+          "id": "0933_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "いわ",
+          "type2": "",
+          "hp": 60,
+          "attack": 60,
+          "defense": 100,
+          "special_attack": 35,
+          "special_defense": 65,
+          "speed": 35,
+          "ability1": "きよめのしお",
+          "ability2": "がんじょう",
+          "dream_ability": "クリアボディ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0091": {
+        "0934_00000000_0_000_0": {
+          "id": "0934_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "いわ",
+          "type2": "",
+          "hp": 100,
+          "attack": 100,
+          "defense": 130,
+          "special_attack": 45,
+          "special_defense": 90,
+          "speed": 35,
+          "ability1": "きよめのしお",
+          "ability2": "がんじょう",
+          "dream_ability": "クリアボディ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0092": {
+        "0316_00000000_0_000_0": {
+          "id": "0316_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "どく",
+          "type2": "",
+          "hp": 70,
+          "attack": 43,
+          "defense": 53,
+          "special_attack": 43,
+          "special_defense": 53,
+          "speed": 40,
+          "ability1": "ヘドロえき",
+          "ability2": "ねんちゃく",
+          "dream_ability": "くいしんぼう",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0093": {
+        "0317_00000000_0_000_0": {
+          "id": "0317_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "どく",
+          "type2": "",
+          "hp": 100,
+          "attack": 73,
+          "defense": 83,
+          "special_attack": 73,
+          "special_defense": 83,
+          "speed": 55,
+          "ability1": "ヘドロえき",
+          "ability2": "ねんちゃく",
+          "dream_ability": "くいしんぼう",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0094": {
+        "0041_00000000_0_000_0": {
+          "id": "0041_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "どく",
+          "type2": "ひこう",
+          "hp": 40,
+          "attack": 45,
+          "defense": 35,
+          "special_attack": 30,
+          "special_defense": 40,
+          "speed": 55,
+          "ability1": "せいしんりょく",
+          "ability2": "",
+          "dream_ability": "すりぬけ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0095": {
+        "0042_00000000_0_000_0": {
+          "id": "0042_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "どく",
+          "type2": "ひこう",
+          "hp": 75,
+          "attack": 80,
+          "defense": 70,
+          "special_attack": 65,
+          "special_defense": 75,
+          "speed": 90,
+          "ability1": "せいしんりょく",
+          "ability2": "",
+          "dream_ability": "すりぬけ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0096": {
+        "0169_00000000_0_000_0": {
+          "id": "0169_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "どく",
+          "type2": "ひこう",
+          "hp": 85,
+          "attack": 90,
+          "defense": 80,
+          "special_attack": 70,
+          "special_defense": 80,
+          "speed": 130,
+          "ability1": "せいしんりょく",
+          "ability2": "",
+          "dream_ability": "すりぬけ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0097": {
+        "0935_00000000_0_000_0": {
+          "id": "0935_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ほのお",
+          "type2": "",
+          "hp": 40,
+          "attack": 50,
+          "defense": 40,
+          "special_attack": 50,
+          "special_defense": 40,
+          "speed": 35,
+          "ability1": "もらいび",
+          "ability2": "",
+          "dream_ability": "ほのおのからだ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0098": {
+        "0936_00000000_0_000_0": {
+          "id": "0936_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ほのお",
+          "type2": "エスパー",
+          "hp": 85,
+          "attack": 60,
+          "defense": 100,
+          "special_attack": 125,
+          "special_defense": 80,
+          "speed": 75,
+          "ability1": "もらいび",
+          "ability2": "",
+          "dream_ability": "くだけるよろい",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0099": {
+        "0937_00000000_0_000_0": {
+          "id": "0937_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ほのお",
+          "type2": "ゴースト",
+          "hp": 75,
+          "attack": 125,
+          "defense": 80,
+          "special_attack": 60,
+          "special_defense": 100,
+          "speed": 85,
+          "ability1": "もらいび",
+          "ability2": "",
+          "dream_ability": "くだけるよろい",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0100": {
+        "0942_00000000_0_000_0": {
+          "id": "0942_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "あく",
+          "type2": "",
+          "hp": 60,
+          "attack": 78,
+          "defense": 60,
+          "special_attack": 40,
+          "special_defense": 51,
+          "speed": 51,
+          "ability1": "いかく",
+          "ability2": "にげあし",
+          "dream_ability": "はりこみ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0101": {
+        "0943_00000000_0_000_0": {
+          "id": "0943_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "あく",
+          "type2": "",
+          "hp": 80,
+          "attack": 120,
+          "defense": 90,
+          "special_attack": 60,
+          "special_defense": 70,
+          "speed": 85,
+          "ability1": "いかく",
+          "ability2": "ばんけん",
+          "dream_ability": "はりこみ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0102": {
+        "0848_00000000_0_000_0": {
+          "id": "0848_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "でんき",
+          "type2": "どく",
+          "hp": 40,
+          "attack": 38,
+          "defense": 35,
+          "special_attack": 54,
+          "special_defense": 35,
+          "speed": 40,
+          "ability1": "びびり",
+          "ability2": "せいでんき",
+          "dream_ability": "ぶきよう",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0103": {
+        "0849_00000000_0_000_0": {
+          "id": "0849_00000000_0_000_0",
+          "form": "ハイなすがた",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "でんき",
+          "type2": "どく",
+          "hp": 75,
+          "attack": 98,
+          "defense": 70,
+          "special_attack": 114,
+          "special_defense": 70,
+          "speed": 75,
+          "ability1": "パンクロック",
+          "ability2": "プラス",
+          "dream_ability": "テクニシャン",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0849_00000001_0_000_0": {
+          "id": "0849_00000001_0_000_0",
+          "form": "ローなすがた",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "でんき",
+          "type2": "どく",
+          "hp": 75,
+          "attack": 98,
+          "defense": 70,
+          "special_attack": 114,
+          "special_defense": 70,
+          "speed": 75,
+          "ability1": "パンクロック",
+          "ability2": "マイナス",
+          "dream_ability": "テクニシャン",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0849_00001000_0_000_0": {
+          "id": "0849_00001000_0_000_0",
+          "form": "ハイなすがた",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "キョダイマックスストリンダー",
+          "type1": "でんき",
+          "type2": "どく",
+          "hp": 75,
+          "attack": 98,
+          "defense": 70,
+          "special_attack": 114,
+          "special_defense": 70,
+          "speed": 75,
+          "ability1": "パンクロック",
+          "ability2": "マイナス",
+          "dream_ability": "テクニシャン",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0849_00001001_0_000_0": {
+          "id": "0849_00001001_0_000_0",
+          "form": "ローなすがた",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "キョダイマックスストリンダー",
+          "type1": "でんき",
+          "type2": "どく",
+          "hp": 75,
+          "attack": 98,
+          "defense": 70,
+          "special_attack": 114,
+          "special_defense": 70,
+          "speed": 75,
+          "ability1": "パンクロック",
+          "ability2": "マイナス",
+          "dream_ability": "テクニシャン",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0104": {
+        "0944_00000000_0_000_0": {
+          "id": "0944_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "どく",
+          "hp": 40,
+          "attack": 65,
+          "defense": 35,
+          "special_attack": 40,
+          "special_defense": 35,
+          "speed": 75,
+          "ability1": "かるわざ",
+          "ability2": "わるいてぐせ",
+          "dream_ability": "いたずらごころ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0105": {
+        "0945_00000000_0_000_0": {
+          "id": "0945_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "どく",
+          "hp": 63,
+          "attack": 95,
+          "defense": 65,
+          "special_attack": 80,
+          "special_defense": 72,
+          "speed": 110,
+          "ability1": "かるわざ",
+          "ability2": "どくしゅ",
+          "dream_ability": "いたずらごころ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0106": {
+        "0335_00000000_0_000_0": {
+          "id": "0335_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "",
+          "hp": 73,
+          "attack": 115,
+          "defense": 60,
+          "special_attack": 60,
+          "special_defense": 60,
+          "speed": 90,
+          "ability1": "めんえき",
+          "ability2": "",
+          "dream_ability": "どくぼうそう",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0107": {
+        "0336_00000000_0_000_0": {
+          "id": "0336_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "どく",
+          "type2": "",
+          "hp": 73,
+          "attack": 100,
+          "defense": 60,
+          "special_attack": 100,
+          "special_defense": 60,
+          "speed": 65,
+          "ability1": "だっぴ",
+          "ability2": "",
+          "dream_ability": "すりぬけ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0108": {
+        "0439_00000000_0_000_0": {
+          "id": "0439_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "エスパー",
+          "type2": "フェアリー",
+          "hp": 20,
+          "attack": 25,
+          "defense": 45,
+          "special_attack": 70,
+          "special_defense": 90,
+          "speed": 60,
+          "ability1": "ぼうおん",
+          "ability2": "フィルター",
+          "dream_ability": "テクニシャン",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0109": {
+        "0122_00000000_0_000_0": {
+          "id": "0122_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "エスパー",
+          "type2": "フェアリー",
+          "hp": 40,
+          "attack": 45,
+          "defense": 65,
+          "special_attack": 100,
+          "special_defense": 120,
+          "speed": 90,
+          "ability1": "ぼうおん",
+          "ability2": "フィルター",
+          "dream_ability": "テクニシャン",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0122_02000000_0_000_0": {
+          "id": "0122_02000000_0_000_0",
+          "form": "",
+          "region": "ガラルのすがた",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "こおり",
+          "type2": "エスパー",
+          "hp": 50,
+          "attack": 65,
+          "defense": 65,
+          "special_attack": 90,
+          "special_defense": 90,
+          "speed": 100,
+          "ability1": "やるき",
+          "ability2": "バリアフリー",
+          "dream_ability": "アイスボディ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0110": {
+        "0866_00000000_0_000_0": {
+          "id": "0866_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "こおり",
+          "type2": "エスパー",
+          "hp": 80,
+          "attack": 85,
+          "defense": 75,
+          "special_attack": 110,
+          "special_defense": 100,
+          "speed": 70,
+          "ability1": "ちどりあし",
+          "ability2": "バリアフリー",
+          "dream_ability": "アイスボディ",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0111": {
+        "0590_00000000_0_000_0": {
+          "id": "0590_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "くさ",
+          "type2": "どく",
+          "hp": 69,
+          "attack": 55,
+          "defense": 45,
+          "special_attack": 55,
+          "special_defense": 55,
+          "speed": 15,
+          "ability1": "ほうし",
+          "ability2": "",
+          "dream_ability": "さいせいりょく",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0112": {
+        "0591_00000000_0_000_0": {
+          "id": "0591_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "くさ",
+          "type2": "どく",
+          "hp": 114,
+          "attack": 85,
+          "defense": 70,
+          "special_attack": 85,
+          "special_defense": 80,
+          "speed": 30,
+          "ability1": "ほうし",
+          "ability2": "",
+          "dream_ability": "さいせいりょく",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0113": {
+        "0485_00000000_0_000_0": {
+          "id": "0485_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ほのお",
+          "type2": "はがね",
+          "hp": 91,
+          "attack": 90,
+          "defense": 106,
+          "special_attack": 130,
+          "special_defense": 106,
+          "speed": 77,
+          "ability1": "もらいび",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0114": {
+        "0721_00000000_0_000_0": {
+          "id": "0721_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ほのお",
+          "type2": "みず",
+          "hp": 80,
+          "attack": 110,
+          "defense": 120,
+          "special_attack": 130,
+          "special_defense": 90,
+          "speed": 70,
+          "ability1": "ちょすい",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0115": {
+        "0638_00000000_0_000_0": {
+          "id": "0638_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "かくとう",
+          "type2": "はがね",
+          "hp": 91,
+          "attack": 90,
+          "defense": 129,
+          "special_attack": 90,
+          "special_defense": 72,
+          "speed": 108,
+          "ability1": "せいぎのこころ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0116": {
+        "0639_00000000_0_000_0": {
+          "id": "0639_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "かくとう",
+          "type2": "いわ",
+          "hp": 91,
+          "attack": 129,
+          "defense": 90,
+          "special_attack": 72,
+          "special_defense": 90,
+          "speed": 108,
+          "ability1": "せいぎのこころ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0117": {
+        "0640_00000000_0_000_0": {
+          "id": "0640_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "くさ",
+          "type2": "かくとう",
+          "hp": 91,
+          "attack": 90,
+          "defense": 72,
+          "special_attack": 90,
+          "special_defense": 129,
+          "speed": 108,
+          "ability1": "せいぎのこころ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0118": {
+        "0647_00000000_0_000_0": {
+          "id": "0647_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "みず",
+          "type2": "かくとう",
+          "hp": 91,
+          "attack": 72,
+          "defense": 90,
+          "special_attack": 129,
+          "special_defense": 90,
+          "speed": 108,
+          "ability1": "せいぎのこころ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0119": {
+        "0648_00000000_0_000_0": {
+          "id": "0648_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "エスパー",
+          "hp": 100,
+          "attack": 77,
+          "defense": 77,
+          "special_attack": 128,
+          "special_defense": 128,
+          "speed": 90,
+          "ability1": "てんのめぐみ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0120": {
+        "0649_00000000_0_000_0": {
+          "id": "0649_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "むし",
+          "type2": "はがね",
+          "hp": 71,
+          "attack": 120,
+          "defense": 95,
+          "special_attack": 120,
+          "special_defense": 95,
+          "speed": 99,
+          "ability1": "ダウンロード",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0121": {
+        "0720_00000000_0_000_0": {
+          "id": "0720_00000000_0_000_0",
+          "form": "いましめられしフーパ",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "エスパー",
+          "type2": "ゴースト",
+          "hp": 80,
+          "attack": 110,
+          "defense": 60,
+          "special_attack": 150,
+          "special_defense": 130,
+          "speed": 70,
+          "ability1": "マジシャン",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0720_00000001_0_000_0": {
+          "id": "0720_00000001_0_000_0",
+          "form": "ときはなたれしフーパ",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "エスパー",
+          "type2": "あく",
+          "hp": 80,
+          "attack": 160,
+          "defense": 60,
+          "special_attack": 170,
+          "special_defense": 130,
+          "speed": 80,
+          "ability1": "マジシャン",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0122": {
+        "0802_00000000_0_000_0": {
+          "id": "0802_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "かくとう",
+          "type2": "ゴースト",
+          "hp": 90,
+          "attack": 125,
+          "defense": 80,
+          "special_attack": 90,
+          "special_defense": 90,
+          "speed": 125,
+          "ability1": "テクニシャン",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0123": {
+        "0808_00000000_0_000_0": {
+          "id": "0808_00000000_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": null,
+          "gigantamax": null,
+          "type1": "はがね",
+          "type2": "",
+          "hp": 46,
+          "attack": 65,
+          "defense": 65,
+          "special_attack": 55,
+          "special_defense": 35,
+          "speed": 34,
+          "ability1": "じりょく",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0124": {
+        "0809_00000000_0_000_0": {
+          "id": "0809_00000000_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": null,
+          "gigantamax": null,
+          "type1": "はがね",
+          "type2": "",
+          "hp": 135,
+          "attack": 143,
+          "defense": 143,
+          "special_attack": 80,
+          "special_defense": 65,
+          "speed": 34,
+          "ability1": "てつのこぶし",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0125": {
+        "0491_00000000_0_000_0": {
+          "id": "0491_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "あく",
+          "type2": "",
+          "hp": 70,
+          "attack": 90,
+          "defense": 90,
+          "special_attack": 135,
+          "special_defense": 90,
+          "speed": 125,
+          "ability1": "ナイトメア",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0126": {
+        "0380_00000000_0_000_0": {
+          "id": "0380_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "エスパー",
+          "type2": "ドラゴン",
+          "hp": 80,
+          "attack": 80,
+          "defense": 90,
+          "special_attack": 110,
+          "special_defense": 130,
+          "speed": 110,
+          "ability1": "ふゆう",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0380_00000100_0_000_0": {
+          "id": "0380_00000100_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "エスパー",
+          "type2": "ドラゴン",
+          "hp": 80,
+          "attack": 100,
+          "defense": 120,
+          "special_attack": 140,
+          "special_defense": 150,
+          "speed": 110,
+          "ability1": "ふゆう",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0127": {
+        "0381_00000000_0_000_0": {
+          "id": "0381_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "エスパー",
+          "type2": "ドラゴン",
+          "hp": 80,
+          "attack": 90,
+          "defense": 80,
+          "special_attack": 130,
+          "special_defense": 110,
+          "speed": 110,
+          "ability1": "ふゆう",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0381_00000100_0_000_0": {
+          "id": "0381_00000100_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "エスパー",
+          "type2": "ドラゴン",
+          "hp": 80,
+          "attack": 130,
+          "defense": 100,
+          "special_attack": 160,
+          "special_defense": 120,
+          "speed": 110,
+          "ability1": "ふゆう",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
       "0128": {
         "0382_00000000_0_000_0": {
           "id": "0382_00000000_0_000_0",
@@ -7685,6 +11299,96 @@
           "name": {
             "jpn": "ゲンシグラードン",
             "eng": "Primal Groudon"
+          }
+        }
+      },
+      "0130": {
+        "0384_00000000_0_000_0": {
+          "id": "0384_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ひこう",
+          "type2": "ドラゴン",
+          "hp": 105,
+          "attack": 150,
+          "defense": 90,
+          "special_attack": 150,
+          "special_defense": 90,
+          "speed": 95,
+          "ability1": "エアロック",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0384_00000100_0_000_0": {
+          "id": "0384_00000100_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ひこう",
+          "type2": "ドラゴン",
+          "hp": 105,
+          "attack": 180,
+          "defense": 100,
+          "special_attack": 180,
+          "special_defense": 100,
+          "speed": 115,
+          "ability1": "デルタストリーム",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0131": {
+        "0801_00000000_0_000_0": {
+          "id": "0801_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "はがね",
+          "type2": "フェアリー",
+          "hp": 80,
+          "attack": 95,
+          "defense": 115,
+          "special_attack": 130,
+          "special_defense": 115,
+          "speed": 65,
+          "ability1": "ソウルハート",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        }
+      },
+      "0132": {
+        "0807_00000000_0_000_0": {
+          "id": "0807_00000000_0_000_0",
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "でんき",
+          "type2": "",
+          "hp": 88,
+          "attack": 112,
+          "defense": 75,
+          "special_attack": 102,
+          "special_defense": 80,
+          "speed": 143,
+          "ability1": "ちくでん",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
           }
         }
       }
