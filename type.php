@@ -22,6 +22,7 @@ try {
         'hoenn' => ['ホウエン図鑑', 'ruby_sapphire_emerald', ['ruby', 'sapphire', 'emerald']],
         'kanto_frlg' => ['カントー図鑑', 'firered_leafgreen', ['firered', 'leafgreen']],
         'sinnoh' => ['シンオウ図鑑', 'diamond_pearl_platinum', ['diamond', 'pearl', 'platinum']],
+        'sinnoh_bdsp' => ['シンオウ図鑑', 'brilliantdiamond_shiningpearl', ['brilliantdiamond', 'shiningpearl']],
         'johto_hgss' => ['ジョウト図鑑', 'heartgold_soulsilver', ['heartgold', 'soulsilver']],
         'unova_bw' => ['イッシュ図鑑', 'black_white', ['black', 'white']],
         'unova_b2w2' => ['イッシュ図鑑', 'black2_white2', ['black2', 'white2']],
