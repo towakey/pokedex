@@ -3,176 +3,6 @@
   "game_version": "brilliantdiamond_shiningpearl",
   "pokedex": {
     "シンオウ図鑑": {
-      "0000": {
-        "0485_00000000_0_000_0": {
-          "form": "",
-          "region": "",
-          "mega_evolution": "",
-          "gigantamax": "",
-          "type1": "ほのお",
-          "type2": "はがね",
-          "hp": 91,
-          "attack": 90,
-          "defense": 106,
-          "special_attack": 130,
-          "special_defense": 106,
-          "speed": 77,
-          "ability1": "もらいび",
-          "ability2": "",
-          "dream_ability": "",
-          "description": {
-            "brilliantdiamond": "かざんの ほらあなに せいそく。じゅうじの ツメを くいこませて カベや てんじょうを はいまわる。",
-            "shiningpearl": "かざんの ほらあなに せいそく。じゅうじの ツメを くいこませて カベや てんじょうを はいまわる。"
-          }
-        },
-        "0486_00000000_0_000_0": {
-          "form": "",
-          "region": "",
-          "mega_evolution": "",
-          "gigantamax": "",
-          "type1": "ノーマル",
-          "type2": "",
-          "hp": 110,
-          "attack": 160,
-          "defense": 110,
-          "special_attack": 80,
-          "special_defense": 110,
-          "speed": 100,
-          "ability1": "スロースタート",
-          "ability2": "",
-          "dream_ability": "",
-          "description": {
-            "brilliantdiamond": "なわで しばった たいりくを ひっぱって うごかしたという でんせつが のこされている。",
-            "shiningpearl": "なわで しばった たいりくを ひっぱって うごかしたという でんせつが のこされている。"
-          }
-        },
-        "0488_00000000_0_000_0": {
-          "form": "",
-          "region": "",
-          "mega_evolution": "",
-          "gigantamax": "",
-          "type1": "エスパー",
-          "type2": "",
-          "hp": 120,
-          "attack": 70,
-          "defense": 120,
-          "special_attack": 75,
-          "special_defense": 130,
-          "speed": 85,
-          "ability1": "ふゆう",
-          "ability2": "",
-          "dream_ability": "",
-          "description": {
-            "brilliantdiamond": "ひこうするときは ベールのような はねから ひかる りゅうしを だす。 みかづきのけしんと よばれている。",
-            "shiningpearl": "ひこうするときは ベールのような はねから ひかる りゅうしを だす。 みかづきのけしんと よばれている。"
-          }
-        },
-        "0489_00000000_0_000_0": {
-          "form": "",
-          "region": "",
-          "mega_evolution": "",
-          "gigantamax": "",
-          "type1": "みず",
-          "type2": "",
-          "hp": 80,
-          "attack": 80,
-          "defense": 80,
-          "special_attack": 80,
-          "special_defense": 80,
-          "speed": 80,
-          "ability1": "うるおいボディ",
-          "ability2": "",
-          "dream_ability": "",
-          "description": {
-            "brilliantdiamond": "あたたかい うみに すむ ポケモン。 あたまの うきぶくろを ふくらませて なみまを ただよい えさを さがす。",
-            "shiningpearl": "あたたかい うみに すむ ポケモン。 あたまの うきぶくろを ふくらませて なみまを ただよい えさを さがす。"
-          }
-        },
-        "0491_00000000_0_000_0": {
-          "form": "",
-          "region": "",
-          "mega_evolution": "",
-          "gigantamax": "",
-          "type1": "あく",
-          "type2": "",
-          "hp": 70,
-          "attack": 90,
-          "defense": 90,
-          "special_attack": 135,
-          "special_defense": 90,
-          "speed": 125,
-          "ability1": "ナイトメア",
-          "ability2": "",
-          "dream_ability": "",
-          "description": {
-            "brilliantdiamond": "ひとびとを ふかい ねむりに さそい ゆめを みせる のうりょくを もつ。しんげつの よるに かつどうする。",
-            "shiningpearl": "つきが でていない よるには ダークライが おそろしい ゆめを みせるという はなしが つたわる。"
-          }
-        },
-        "0492_00000000_0_000_0": {
-          "form": "ランドフォルム",
-          "region": "",
-          "mega_evolution": "",
-          "gigantamax": "",
-          "type1": "くさ",
-          "type2": "",
-          "hp": 100,
-          "attack": 100,
-          "defense": 100,
-          "special_attack": 100,
-          "special_defense": 100,
-          "speed": 100,
-          "ability1": "しぜんかいふく",
-          "ability2": "",
-          "dream_ability": "",
-          "description": {
-            "brilliantdiamond": "はなばたけの なかで くらしているが からだを まるめると はなのように みえるため だれも きづかないのだ。",
-            "shiningpearl": "たいきの どくそを ぶんかいして あれた だいちを いっしゅんのうちに はなばたけにする ちからを もつ。"
-          }
-        },
-        "0492_00000001_0_000_0": {
-          "form": "スカイフォルム",
-          "region": "",
-          "mega_evolution": "",
-          "gigantamax": "",
-          "type1": "くさ",
-          "type2": "ひこう",
-          "hp": 100,
-          "attack": 103,
-          "defense": 75,
-          "special_attack": 120,
-          "special_defense": 75,
-          "speed": 127,
-          "ability1": "てんのめぐみ",
-          "ability2": "",
-          "dream_ability": "",
-          "description": {
-            "brilliantdiamond": "はなばたけの なかで くらしているが からだを まるめると はなのように みえるため だれも きづかないのだ。",
-            "shiningpearl": "たいきの どくそを ぶんかいして あれた だいちを いっしゅんのうちに はなばたけにする ちからを もつ。"
-          }
-        },
-        "0493_00000000_0_000_0": {
-          "form": "",
-          "region": "",
-          "mega_evolution": "",
-          "gigantamax": "",
-          "type1": "ノーマル",
-          "type2": "",
-          "hp": 120,
-          "attack": 120,
-          "defense": 120,
-          "special_attack": 120,
-          "special_defense": 120,
-          "speed": 120,
-          "ability1": "マルチタイプ",
-          "ability2": "",
-          "dream_ability": "",
-          "description": {
-            "brilliantdiamond": "1000ぼんの うでで うちゅうを つくった ポケモンとして しんわに えがかれている。",
-            "shiningpearl": "うちゅうが まだ ない ころに さいしょに うまれた ポケモンと しんわの なかで かたられている。"
-          }
-        }
-      },
       "0001": {
         "0387_00000000_0_000_0": {
           "form": "",
@@ -5147,6 +4977,188 @@
           "description": {
             "brilliantdiamond": "このよの うらがわにある せかいに すんでいると いわれる ポケモン。こだいの はかばに あらわれる。",
             "shiningpearl": "このよの うらがわにある せかいに すんでいると いわれる ポケモン。こだいの はかばに あらわれる。"
+          }
+        }
+      },
+      "0211": {
+        "0485_00000000_0_000_0": {
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ほのお",
+          "type2": "はがね",
+          "hp": 91,
+          "attack": 90,
+          "defense": 106,
+          "special_attack": 130,
+          "special_defense": 106,
+          "speed": 77,
+          "ability1": "もらいび",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "brilliantdiamond": "かざんの ほらあなに せいそく。じゅうじの ツメを くいこませて カベや てんじょうを はいまわる。",
+            "shiningpearl": "かざんの ほらあなに せいそく。じゅうじの ツメを くいこませて カベや てんじょうを はいまわる。"
+          }
+        }
+      },
+      "0212": {
+        "0486_00000000_0_000_0": {
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "",
+          "hp": 110,
+          "attack": 160,
+          "defense": 110,
+          "special_attack": 80,
+          "special_defense": 110,
+          "speed": 100,
+          "ability1": "スロースタート",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "brilliantdiamond": "なわで しばった たいりくを ひっぱって うごかしたという でんせつが のこされている。",
+            "shiningpearl": "なわで しばった たいりくを ひっぱって うごかしたという でんせつが のこされている。"
+          }
+        }
+      },
+      "0213": {
+        "0488_00000000_0_000_0": {
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "エスパー",
+          "type2": "",
+          "hp": 120,
+          "attack": 70,
+          "defense": 120,
+          "special_attack": 75,
+          "special_defense": 130,
+          "speed": 85,
+          "ability1": "ふゆう",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "brilliantdiamond": "ひこうするときは ベールのような はねから ひかる りゅうしを だす。 みかづきのけしんと よばれている。",
+            "shiningpearl": "ひこうするときは ベールのような はねから ひかる りゅうしを だす。 みかづきのけしんと よばれている。"
+          }
+        }
+      },
+      "0214": {
+        "0489_00000000_0_000_0": {
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "みず",
+          "type2": "",
+          "hp": 80,
+          "attack": 80,
+          "defense": 80,
+          "special_attack": 80,
+          "special_defense": 80,
+          "speed": 80,
+          "ability1": "うるおいボディ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "brilliantdiamond": "あたたかい うみに すむ ポケモン。 あたまの うきぶくろを ふくらませて なみまを ただよい えさを さがす。",
+            "shiningpearl": "あたたかい うみに すむ ポケモン。 あたまの うきぶくろを ふくらませて なみまを ただよい えさを さがす。"
+          }
+        }
+      },
+      "0215": {
+        "0491_00000000_0_000_0": {
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "あく",
+          "type2": "",
+          "hp": 70,
+          "attack": 90,
+          "defense": 90,
+          "special_attack": 135,
+          "special_defense": 90,
+          "speed": 125,
+          "ability1": "ナイトメア",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "brilliantdiamond": "ひとびとを ふかい ねむりに さそい ゆめを みせる のうりょくを もつ。しんげつの よるに かつどうする。",
+            "shiningpearl": "つきが でていない よるには ダークライが おそろしい ゆめを みせるという はなしが つたわる。"
+          }
+        }
+      },
+      "0216": {
+        "0492_00000000_0_000_0": {
+          "form": "ランドフォルム",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "くさ",
+          "type2": "",
+          "hp": 100,
+          "attack": 100,
+          "defense": 100,
+          "special_attack": 100,
+          "special_defense": 100,
+          "speed": 100,
+          "ability1": "しぜんかいふく",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "brilliantdiamond": "はなばたけの なかで くらしているが からだを まるめると はなのように みえるため だれも きづかないのだ。",
+            "shiningpearl": "たいきの どくそを ぶんかいして あれた だいちを いっしゅんのうちに はなばたけにする ちからを もつ。"
+          }
+        },
+        "0492_00000001_0_000_0": {
+          "form": "スカイフォルム",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "くさ",
+          "type2": "ひこう",
+          "hp": 100,
+          "attack": 103,
+          "defense": 75,
+          "special_attack": 120,
+          "special_defense": 75,
+          "speed": 127,
+          "ability1": "てんのめぐみ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "brilliantdiamond": "はなばたけの なかで くらしているが からだを まるめると はなのように みえるため だれも きづかないのだ。",
+            "shiningpearl": "たいきの どくそを ぶんかいして あれた だいちを いっしゅんのうちに はなばたけにする ちからを もつ。"
+          }
+        }
+      },
+      "0217": {
+        "0493_00000000_0_000_0": {
+          "form": "",
+          "region": "",
+          "mega_evolution": "",
+          "gigantamax": "",
+          "type1": "ノーマル",
+          "type2": "",
+          "hp": 120,
+          "attack": 120,
+          "defense": 120,
+          "special_attack": 120,
+          "special_defense": 120,
+          "speed": 120,
+          "ability1": "マルチタイプ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "brilliantdiamond": "1000ぼんの うでで うちゅうを つくった ポケモンとして しんわに えがかれている。",
+            "shiningpearl": "うちゅうが まだ ない ころに さいしょに うまれた ポケモンと しんわの なかで かたられている。"
           }
         }
       }
