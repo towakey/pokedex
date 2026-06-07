@@ -9322,6 +9322,31 @@
           "description": {
             "legendsza": ""
           }
+        },
+        "0876_00000100_0_000_0": {
+          "id": "0876_00000100_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": "メガニャオニクス",
+          "gigantamax": null,
+          "type1": "エスパー",
+          "type2": "",
+          "hp": 74,
+          "attack": 48,
+          "defense": 76,
+          "special_attack": 143,
+          "special_defense": 101,
+          "speed": 124,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガニャオニクス",
+            "eng": "Mega Meowstic"
+          }
         }
       },
       "0053": {
