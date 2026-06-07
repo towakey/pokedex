@@ -478,6 +478,11 @@
       "display_jpn": "ミアレ図鑑",
       "version_key": "legendsza",
       "pokedex_index": 0
+    },
+    "hyperspace_lumiose": {
+      "display_jpn": "異次元図鑑",
+      "version_key": "legendsza",
+      "pokedex_index": 1
     }
   },
   "version_mapping": {
