@@ -7589,6 +7589,102 @@
             "legendsza": "<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>は <ruby>小<rp>(</rp><rt>ちい</rt><rp>)</rp></ruby>さくなったが パワーは ケタはずれ。<ruby>軽<rp>(</rp><rt>かる</rt><rp>)</rp></ruby>く <ruby>念<rp>(</rp><rt>ねん</rt><rp>)</rp></ruby>じるだけで <ruby>高層<rp>(</rp><rt>こうそう</rt><rp>)</rp></ruby>ビルも <ruby>木<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>っ<ruby>端微塵<rp>(</rp><rt>ぱみじん</rt><rp>)</rp></ruby> だ。"
           }
         }
+      },
+      "0233": {
+        "0382_00000000_0_000_0": {
+          "id": "0382_00000000_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": null,
+          "gigantamax": null,
+          "type1": "みず",
+          "type2": "",
+          "hp": 100,
+          "attack": 100,
+          "defense": 90,
+          "special_attack": 150,
+          "special_defense": 140,
+          "speed": 90,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0382_00000001_0_000_0": {
+          "id": "0382_00000001_0_000_0",
+          "form": "ゲンシカイキ",
+          "region": null,
+          "mega_evolution": null,
+          "gigantamax": null,
+          "type1": "みず",
+          "type2": "",
+          "hp": 100,
+          "attack": 150,
+          "defense": 90,
+          "special_attack": 180,
+          "special_defense": 160,
+          "speed": 90,
+          "ability1": "はじまりのうみ",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          },
+          "name": {
+            "jpn": "ゲンシカイオーガ",
+            "eng": "Primal Kyogre"
+          }
+        }
+      },
+      "0234": {
+        "0383_00000000_0_000_0": {
+          "id": "0383_00000000_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": null,
+          "gigantamax": null,
+          "type1": "じめん",
+          "type2": "",
+          "hp": 100,
+          "attack": 150,
+          "defense": 140,
+          "special_attack": 100,
+          "special_defense": 90,
+          "speed": 90,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          }
+        },
+        "0383_00000001_0_000_0": {
+          "id": "0383_00000001_0_000_0",
+          "form": "ゲンシカイキ",
+          "region": null,
+          "mega_evolution": null,
+          "gigantamax": null,
+          "type1": "じめん",
+          "type2": "ほのお",
+          "hp": 100,
+          "attack": 180,
+          "defense": 160,
+          "special_attack": 150,
+          "special_defense": 90,
+          "speed": 90,
+          "ability1": "おわりのだいち",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          },
+          "name": {
+            "jpn": "ゲンシグラードン",
+            "eng": "Primal Groudon"
+          }
+        }
       }
     }
   }
