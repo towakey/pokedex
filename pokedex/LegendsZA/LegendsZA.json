@@ -8061,6 +8061,31 @@
           "description": {
             "legendsza": ""
           }
+        },
+        "0952_00000100_0_000_0": {
+          "id": "0952_00000100_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": "メガスコヴィラン",
+          "gigantamax": null,
+          "type1": "くさ",
+          "type2": "ほのお",
+          "hp": 65,
+          "attack": 138,
+          "defense": 85,
+          "special_attack": 138,
+          "special_defense": 85,
+          "speed": 75,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガスコヴィラン",
+            "eng": "Mega Scovillain"
+          }
         }
       },
       "0016": {
@@ -8198,6 +8223,31 @@
           "dream_ability": "ふしょく",
           "description": {
             "legendsza": ""
+          }
+        },
+        "0970_00000100_0_000_0": {
+          "id": "0970_00000100_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": "メガキラフロル",
+          "gigantamax": null,
+          "type1": "いわ",
+          "type2": "どく",
+          "hp": 83,
+          "attack": 90,
+          "defense": 105,
+          "special_attack": 150,
+          "special_defense": 96,
+          "speed": 101,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガキラフロル",
+            "eng": "Mega Glimmora"
           }
         }
       },
@@ -8576,6 +8626,31 @@
           "description": {
             "legendsza": ""
           }
+        },
+        "0978_00000100_0_000_0": {
+          "id": "0978_00000100_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": "メガシャリタツ",
+          "gigantamax": null,
+          "type1": "ドラゴン",
+          "type2": "みず",
+          "hp": 68,
+          "attack": 65,
+          "defense": 90,
+          "special_attack": 135,
+          "special_defense": 125,
+          "speed": 92,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガシャリタツ",
+            "eng": "Mega Tatsugiri"
+          }
         }
       },
       "0032": {
@@ -8644,6 +8719,31 @@
           "dream_ability": "アイスボディ",
           "description": {
             "legendsza": ""
+          }
+        },
+        "0998_00000100_0_000_0": {
+          "id": "0998_00000100_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": "メガセグレイブ",
+          "gigantamax": null,
+          "type1": "ドラゴン",
+          "type2": "こおり",
+          "hp": 115,
+          "attack": 175,
+          "defense": 117,
+          "special_attack": 105,
+          "special_defense": 101,
+          "speed": 87,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガセグレイブ",
+            "eng": "Mega Baxcalibur"
           }
         }
       },
@@ -8853,7 +8953,7 @@
           "id": "0254_00000100_0_000_0",
           "form": "",
           "region": "",
-          "mega_evolution": "",
+          "mega_evolution": "メガジュカイン",
           "gigantamax": "",
           "type1": "くさ",
           "type2": "ドラゴン",
@@ -8868,6 +8968,10 @@
           "dream_ability": "",
           "description": {
             "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガジュカイン",
+            "eng": "Mega Sceptile"
           }
         }
       },
@@ -8943,7 +9047,7 @@
           "id": "0257_00000100_0_000_0",
           "form": "",
           "region": "",
-          "mega_evolution": "",
+          "mega_evolution": "メガバシャーモ",
           "gigantamax": "",
           "type1": "ほのお",
           "type2": "かくとう",
@@ -8958,6 +9062,10 @@
           "dream_ability": "",
           "description": {
             "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガバシャーモ",
+            "eng": "Mega Blaziken"
           }
         }
       },
@@ -9033,7 +9141,7 @@
           "id": "0260_00000100_0_000_0",
           "form": "",
           "region": "",
-          "mega_evolution": "",
+          "mega_evolution": "メガラグラージ",
           "gigantamax": "",
           "type1": "みず",
           "type2": "じめん",
@@ -9048,6 +9156,10 @@
           "dream_ability": "",
           "description": {
             "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガラグラージ",
+            "eng": "Mega Swampert"
           }
         }
       },
@@ -9140,6 +9252,31 @@
           "dream_ability": "",
           "description": {
             "legendsza": ""
+          }
+        },
+        "0358_00000100_0_000_0": {
+          "id": "0358_00000100_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": "メガチリーン",
+          "gigantamax": null,
+          "type1": "エスパー",
+          "type2": "はがね",
+          "hp": 75,
+          "attack": 50,
+          "defense": 110,
+          "special_attack": 135,
+          "special_defense": 120,
+          "speed": 65,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガチリーン",
+            "eng": "Mega Chimecho"
           }
         }
       },
@@ -9459,6 +9596,31 @@
           "description": {
             "legendsza": ""
           }
+        },
+        "0768_00000100_0_000_0": {
+          "id": "0768_00000100_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": "メガグソクムシャ",
+          "gigantamax": null,
+          "type1": "むし",
+          "type2": "はがね",
+          "hp": 75,
+          "attack": 150,
+          "defense": 175,
+          "special_attack": 70,
+          "special_defense": 120,
+          "speed": 40,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガグソクムシャ",
+            "eng": "Mega Golisopod"
+          }
         }
       },
       "0064": {
@@ -9707,6 +9869,31 @@
           "dream_ability": "ノーガード",
           "description": {
             "legendsza": ""
+          }
+        },
+        "0623_00000100_0_000_0": {
+          "id": "0623_00000100_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": "メガゴルーグ",
+          "gigantamax": null,
+          "type1": "じめん",
+          "type2": "ゴースト",
+          "hp": 89,
+          "attack": 159,
+          "defense": 105,
+          "special_attack": 70,
+          "special_defense": 105,
+          "speed": 55,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガゴルーグ",
+            "eng": "Mega Golurk"
           }
         }
       },
@@ -9982,6 +10169,31 @@
           "description": {
             "legendsza": ""
           }
+        },
+        "0398_00000100_0_000_0": {
+          "id": "0398_00000100_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": "メガムクホーク",
+          "gigantamax": null,
+          "type1": "かくとう",
+          "type2": "ひこう",
+          "hp": 85,
+          "attack": 140,
+          "defense": 100,
+          "special_attack": 60,
+          "special_defense": 90,
+          "speed": 110,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガムクホーク",
+            "eng": "Mega Staraptor"
+          }
         }
       },
       "0084": {
@@ -10159,6 +10371,31 @@
           "dream_ability": "いかりのつぼ",
           "description": {
             "legendsza": ""
+          }
+        },
+        "0740_00000100_0_000_0": {
+          "id": "0740_00000100_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": "メガケケンカニ",
+          "gigantamax": null,
+          "type1": "かくとう",
+          "type2": "こおり",
+          "hp": 97,
+          "attack": 157,
+          "defense": 122,
+          "special_attack": 62,
+          "special_defense": 107,
+          "speed": 33,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガケケンカニ",
+            "eng": "Mega Crabominable"
           }
         }
       },
@@ -10819,6 +11056,31 @@
           "description": {
             "legendsza": ""
           }
+        },
+        "0485_00000100_0_000_0": {
+          "id": "0485_00000100_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": "メガヒードラン",
+          "gigantamax": null,
+          "type1": "ほのお",
+          "type2": "はがね",
+          "hp": 91,
+          "attack": 120,
+          "defense": 106,
+          "special_attack": 175,
+          "special_defense": 141,
+          "speed": 67,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガヒードラン",
+            "eng": "Mega Heatran"
+          }
         }
       },
       "0114": {
@@ -11116,6 +11378,31 @@
           "description": {
             "legendsza": ""
           }
+        },
+        "0491_00000100_0_000_0": {
+          "id": "0491_00000100_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": "メガダークライ",
+          "gigantamax": null,
+          "type1": "あく",
+          "type2": "",
+          "hp": 70,
+          "attack": 120,
+          "defense": 130,
+          "special_attack": 165,
+          "special_defense": 130,
+          "speed": 85,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガダークライ",
+            "eng": "Mega Darkrai"
+          }
         }
       },
       "0126": {
@@ -11144,7 +11431,7 @@
           "id": "0380_00000100_0_000_0",
           "form": "",
           "region": "",
-          "mega_evolution": "",
+          "mega_evolution": "メガラティアス",
           "gigantamax": "",
           "type1": "エスパー",
           "type2": "ドラゴン",
@@ -11159,6 +11446,10 @@
           "dream_ability": "",
           "description": {
             "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガラティアス",
+            "eng": "Mega Latias"
           }
         }
       },
@@ -11188,7 +11479,7 @@
           "id": "0381_00000100_0_000_0",
           "form": "",
           "region": "",
-          "mega_evolution": "",
+          "mega_evolution": "メガラティオス",
           "gigantamax": "",
           "type1": "エスパー",
           "type2": "ドラゴン",
@@ -11203,6 +11494,10 @@
           "dream_ability": "",
           "description": {
             "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガラティオス",
+            "eng": "Mega Latios"
           }
         }
       },
@@ -11328,7 +11623,7 @@
           "id": "0384_00000100_0_000_0",
           "form": "",
           "region": "",
-          "mega_evolution": "",
+          "mega_evolution": "メガレックウザ",
           "gigantamax": "",
           "type1": "ひこう",
           "type2": "ドラゴン",
@@ -11343,6 +11638,10 @@
           "dream_ability": "",
           "description": {
             "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガレックウザ",
+            "eng": "Mega Rayquaza"
           }
         }
       },
@@ -11367,6 +11666,31 @@
           "description": {
             "legendsza": ""
           }
+        },
+        "0801_00000100_0_000_0": {
+          "id": "0801_00000100_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": "メガマギアナ",
+          "gigantamax": null,
+          "type1": "はがね",
+          "type2": "フェアリー",
+          "hp": 80,
+          "attack": 125,
+          "defense": 115,
+          "special_attack": 170,
+          "special_defense": 115,
+          "speed": 95,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガマギアナ",
+            "eng": "Mega Magearna"
+          }
         }
       },
       "0132": {
@@ -11389,6 +11713,31 @@
           "dream_ability": "",
           "description": {
             "legendsza": ""
+          }
+        },
+        "0807_00000100_0_000_0": {
+          "id": "0807_00000100_0_000_0",
+          "form": null,
+          "region": null,
+          "mega_evolution": "メガゼラオラ",
+          "gigantamax": null,
+          "type1": "でんき",
+          "type2": "",
+          "hp": 88,
+          "attack": 157,
+          "defense": 75,
+          "special_attack": 147,
+          "special_defense": 80,
+          "speed": 153,
+          "ability1": "",
+          "ability2": "",
+          "dream_ability": "",
+          "description": {
+            "legendsza": ""
+          },
+          "name": {
+            "jpn": "メガゼラオラ",
+            "eng": "Mega Zeraora"
           }
         }
       }
