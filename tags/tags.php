@@ -234,7 +234,7 @@ function buildTagCatalog($db, $badThreshold, $query = '') {
 }
 
 // 地域一覧
-$validAreas = ['global', 'kanto', 'johto', 'hoenn', 'kanto_frlg', 'sinnoh', 'johto_hgss', 'unova', 'unova_bw', 'unova_b2w2', 'kalos', 'central_kalos', 'coast_kalos', 'mountain_kalos', 'hoenn_oras', 'alola', 'alola_sm', 'alola_usum', 'galar', 'crown_tundra', 'isle_of_armor', 'hisui', 'paldea', 'kitakami', 'blueberry', 'lumiose'];
+$validAreas = ['global', 'kanto', 'johto', 'hoenn', 'kanto_frlg', 'sinnoh', 'sinnoh_bdsp', 'johto_hgss', 'unova', 'unova_bw', 'unova_b2w2', 'kalos', 'central_kalos', 'coast_kalos', 'mountain_kalos', 'hoenn_oras', 'alola', 'alola_sm', 'alola_usum', 'galar', 'crown_tundra', 'isle_of_armor', 'hisui', 'paldea', 'kitakami', 'blueberry', 'lumiose'];
 
 // GETリクエスト処理: タグ一覧取得
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {

@@ -629,6 +629,7 @@ if __FILE__ == $0
   pokedex.import(File.join(POKEDEX_DIR, 'Sword_Shield', 'Sword_Shield.json'), 'galar', 'local')
   pokedex.import(File.join(POKEDEX_DIR, 'Sword_Shield', 'Sword_Shield.json'), 'crown_tundra', 'local')
   pokedex.import(File.join(POKEDEX_DIR, 'Sword_Shield', 'Sword_Shield.json'), 'isle_of_armor', 'local')
+  pokedex.import(File.join(POKEDEX_DIR, 'BrilliantDiamond_ShiningPearl', 'BrilliantDiamond_ShiningPearl.json'), 'sinnoh_bdsp', 'local')
   pokedex.import(File.join(POKEDEX_DIR, 'LegendsArceus', 'LegendsArceus.json'), 'hisui', 'local')
   pokedex.import(File.join(POKEDEX_DIR, 'Scarlet_Violet', 'Scarlet_Violet.json'), 'paldea', 'local')
   pokedex.import(File.join(POKEDEX_DIR, 'Scarlet_Violet', 'Scarlet_Violet.json'), 'kitakami', 'local')
