@@ -26085,6 +26085,50 @@
           "chs": "风铃铃",
           "cht": "風鈴鈴"
         }
+      },
+      "0358_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+          "jpn": "メガチリーン",
+          "eng": "Mega Chimecho",
+          "fra": "Méga-Éoko",
+          "ita": "MegaChimecho",
+          "ger": "Mega-Palimpalim",
+          "spa": "Mega-Chimecho",
+          "kor": "메가치렁",
+          "chs": "超级风铃铃",
+          "cht": "超級風鈴鈴"
+        },
+        "classification": {
+          "jpn": "ふうりんポケモン",
+          "eng": "Wind Chime Pokémon",
+          "fra": "Pokémon Carillon",
+          "ita": "Pokémon Vencampana",
+          "ger": "Windspiel-Pokémon",
+          "spa": "Pokémon Campanilla",
+          "kor": "풍경포켓몬",
+          "chs": "风铃宝可梦",
+          "cht": "風鈴寶可夢"
+        },
+        "egg": [
+          "不定形"
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "チリーン",
+          "eng": "Chimecho",
+          "fra": "Éoko",
+          "ita": "Chimecho",
+          "ger": "Palimpalim",
+          "spa": "Chimecho",
+          "kor": "치렁",
+          "chs": "风铃铃",
+          "cht": "風鈴鈴"
+        }
       }
     },
     "0359": {
@@ -28654,6 +28698,50 @@
         ],
         "height": "1.2",
         "weight": "24.9",
+        "name": {
+          "jpn": "ムクホーク",
+          "eng": "Staraptor",
+          "fra": "Étouraptor",
+          "ita": "Staraptor",
+          "ger": "Staraptor",
+          "spa": "Staraptor",
+          "kor": "찌르호크",
+          "chs": "姆克鹰",
+          "cht": "姆克鷹"
+        }
+      },
+      "0398_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+          "jpn": "メガムクホーク",
+          "eng": "Mega Staraptor",
+          "fra": "Méga-Étouraptor",
+          "ita": "MegaStaraptor",
+          "ger": "Mega-Staraptor",
+          "spa": "Mega-Staraptor",
+          "kor": "메가찌르호크",
+          "chs": "超级姆克鹰",
+          "cht": "超級姆克鷹"
+        },
+        "classification": {
+          "jpn": "もうきんポケモン",
+          "eng": "Predator Pokémon",
+          "fra": "Pokémon Rapace",
+          "ita": "Pokémon Rapace",
+          "ger": "Raubtier-Pokémon",
+          "spa": "Pokémon Depredador",
+          "kor": "맹금포켓몬",
+          "chs": "猛禽宝可梦",
+          "cht": "猛禽寶可夢"
+        },
+        "egg": [
+          "飛行"
+        ],
+        "height": null,
+        "weight": null,
         "name": {
           "jpn": "ムクホーク",
           "eng": "Staraptor",
@@ -35177,6 +35265,51 @@
           "chs": "席多蓝恩",
           "cht": "席多藍恩"
         }
+      },
+      "0485_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+          "jpn": "メガヒードラン",
+          "eng": "Mega Heatran",
+          "fra": "Méga-Heatran",
+          "ita": "MegaHeatran",
+          "ger": "Mega-Heatran",
+          "spa": "Mega-Heatran",
+          "kor": "메가히드런",
+          "chs": "超级席多蓝恩",
+          "cht": "超級席多藍恩"
+        },
+        "classification": {
+          "jpn": "かこうポケモン",
+          "eng": "Lava Dome Pokémon",
+          "fra": "Pokémon Caldeira",
+          "ita": "Pokémon Cratere",
+          "ger": "Lavadom-Pokémon",
+          "spa": "Pokémon Domo Lava",
+          "kor": "화구포켓몬",
+          "chs": "火山口宝可梦",
+          "cht": "火山口寶可夢"
+        },
+        "egg": [
+          "タマゴ未発見",
+          "(伝説幻)"
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "ヒードラン",
+          "eng": "Heatran",
+          "fra": "Heatran",
+          "ita": "Heatran",
+          "ger": "Heatran",
+          "spa": "Heatran",
+          "kor": "히드런",
+          "chs": "席多蓝恩",
+          "cht": "席多藍恩"
+        }
       }
     },
     "0486": {
@@ -35538,6 +35671,51 @@
         ],
         "height": "1.5",
         "weight": "50.5",
+        "name": {
+          "jpn": "ダークライ",
+          "eng": "Darkrai",
+          "fra": "Darkrai",
+          "ita": "Darkrai",
+          "ger": "Darkrai",
+          "spa": "Darkrai",
+          "kor": "다크라이",
+          "chs": "达克莱伊",
+          "cht": "達克萊伊"
+        }
+      },
+      "0491_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+          "jpn": "メガダークライ",
+          "eng": "Mega Darkrai",
+          "fra": "Méga-Darkrai",
+          "ita": "MegaDarkrai",
+          "ger": "Mega-Darkrai",
+          "spa": "Mega-Darkrai",
+          "kor": "메가다크라이",
+          "chs": "超级达克莱伊",
+          "cht": "超級達克萊伊"
+        },
+        "classification": {
+          "jpn": "あんこくポケモン",
+          "eng": "Pitch-Black Pokémon",
+          "fra": "Pokémon Noirtotal",
+          "ita": "Pokémon Neropesto",
+          "ger": "Dunkelnacht-Pokémon",
+          "spa": "Pokémon Oscuridad",
+          "kor": "암흑포켓몬",
+          "chs": "暗黑宝可梦",
+          "cht": "暗黑寶可夢"
+        },
+        "egg": [
+          "タマゴ未発見",
+          "(伝説幻)"
+        ],
+        "height": null,
+        "weight": null,
         "name": {
           "jpn": "ダークライ",
           "eng": "Darkrai",
@@ -43713,6 +43891,50 @@
           "chs": "泥偶巨人",
           "cht": "泥偶巨人"
         }
+      },
+      "0623_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+          "jpn": "メガゴルーグ",
+          "eng": "Mega Golurk",
+          "fra": "Méga-Golemastoc",
+          "ita": "MegaGolurk",
+          "ger": "Mega-Golgantes",
+          "spa": "Mega-Golurk",
+          "kor": "메가골루그",
+          "chs": "超级泥偶巨人",
+          "cht": "超級泥偶巨人"
+        },
+        "classification": {
+          "jpn": "ゴーレムポケモン",
+          "eng": "Automaton Pokémon",
+          "fra": "Pokémon Golem Ancien",
+          "ita": "Pokémon Statuanimata",
+          "ger": "Urgolem-Pokémon",
+          "spa": "Pokémon Autómata",
+          "kor": "골렘포켓몬",
+          "chs": "魔像宝可梦",
+          "cht": "魔像寶可夢"
+        },
+        "egg": [
+          "鉱物"
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "ゴルーグ",
+          "eng": "Golurk",
+          "fra": "Golemastoc",
+          "ita": "Golurk",
+          "ger": "Golgantes",
+          "spa": "Golurk",
+          "kor": "골루그",
+          "chs": "泥偶巨人",
+          "cht": "泥偶巨人"
+        }
       }
     },
     "0624": {
@@ -48983,6 +49205,50 @@
           "chs": "超能妙喵",
           "cht": "超能妙喵"
         }
+      },
+      "0678_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+          "jpn": "メガニャオニクス",
+          "eng": "Mega Meowstic",
+          "fra": "Méga-Mistigrix",
+          "ita": "MegaMeowstic",
+          "ger": "Mega-Psiaugon",
+          "spa": "Mega-Meowstic",
+          "kor": "메가냐오닉스",
+          "chs": "超级超能妙喵",
+          "cht": "超級超能妙喵"
+        },
+        "classification": {
+          "jpn": "よくせいポケモン",
+          "eng": "Constraint Pokémon",
+          "fra": "Pokémon SelfContrôle",
+          "ita": "Pokémon Temperanza",
+          "ger": "Fassungs-Pokémon",
+          "spa": "Pokémon Autocontrol",
+          "kor": "억제포켓몬",
+          "chs": "抑制宝可梦",
+          "cht": "抑制寶可夢"
+        },
+        "egg": [
+          "陸上"
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "ニャオニクス",
+          "eng": "Meowstic",
+          "fra": "Mistigrix",
+          "ita": "Meowstic",
+          "ger": "Psiaugon",
+          "spa": "Meowstic",
+          "kor": "냐오닉스",
+          "chs": "超能妙喵",
+          "cht": "超能妙喵"
+        }
       }
     },
     "0679": {
@@ -53027,6 +53293,50 @@
           "chs": "好胜毛蟹",
           "cht": "好勝毛蟹"
         }
+      },
+      "0740_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+          "jpn": "メガケケンカニ",
+          "eng": "Mega Crabominable",
+          "fra": "Méga-Crabominable",
+          "ita": "MegaCrabominable",
+          "ger": "Mega-Krawell",
+          "spa": "Mega-Crabominable",
+          "kor": "메가모단단게",
+          "chs": "超级好胜毛蟹",
+          "cht": "超級好勝毛蟹"
+        },
+        "classification": {
+          "jpn": "けがにポケモン",
+          "eng": "Woolly Crab Pokémon",
+          "fra": "Pokémon Crabe Velu",
+          "ita": "Pokémon Peligranchio",
+          "ger": "Fellkrabben-Pokémon",
+          "spa": "Pokémon Cangrejopelo",
+          "kor": "털게포켓몬",
+          "chs": "毛蟹宝可梦",
+          "cht": "毛蟹寶可夢"
+        },
+        "egg": [
+          "水中３"
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "ケケンカニ",
+          "eng": "Crabominable",
+          "fra": "Crabominable",
+          "ita": "Crabominable",
+          "ger": "Krawell",
+          "spa": "Crabominable",
+          "kor": "모단단게",
+          "chs": "好胜毛蟹",
+          "cht": "好勝毛蟹"
+        }
       }
     },
     "0741": {
@@ -54620,6 +54930,51 @@
         ],
         "height": "2.0",
         "weight": "108.0",
+        "name": {
+          "jpn": "グソクムシャ",
+          "eng": "Golisopod",
+          "fra": "Sarmuraï",
+          "ita": "Golisopod",
+          "ger": "Tectass",
+          "spa": "Golisopod",
+          "kor": "갑주무사",
+          "chs": "具甲武者",
+          "cht": "具甲武者"
+        }
+      },
+      "0768_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+          "jpn": "メガグソクムシャ",
+          "eng": "Mega Golisopod",
+          "fra": "Méga-Sarmuraï",
+          "ita": "MegaGolisopod",
+          "ger": "Mega-Tectass",
+          "spa": "Mega-Golisopod",
+          "kor": "메가갑주무사",
+          "chs": "超级具甲武者",
+          "cht": "超級具甲武者"
+        },
+        "classification": {
+          "jpn": "そうこうポケモン",
+          "eng": "Hard Scale Pokémon",
+          "fra": "Pokémon Blindé",
+          "ita": "Pokémon Blindato",
+          "ger": "Rüstungs-Pokémon",
+          "spa": "Pokémon Blindaje",
+          "kor": "장갑포켓몬",
+          "chs": "装甲宝可梦",
+          "cht": "裝甲寶可夢"
+        },
+        "egg": [
+          "虫",
+          "水中３"
+        ],
+        "height": null,
+        "weight": null,
         "name": {
           "jpn": "グソクムシャ",
           "eng": "Golisopod",
@@ -57500,6 +57855,51 @@
           "chs": "玛机雅娜",
           "cht": "瑪機雅娜"
         }
+      },
+      "0801_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+          "jpn": "メガマギアナ",
+          "eng": "Mega Magearna",
+          "fra": "Méga-Magearna",
+          "ita": "MegaMagearna",
+          "ger": "Mega-Magearna",
+          "spa": "Mega-Magearna",
+          "kor": "메가마기아나",
+          "chs": "超级玛机雅娜",
+          "cht": "超級瑪機雅娜"
+        },
+        "classification": {
+          "jpn": "じんぞうポケモン",
+          "eng": "Artificial Pokémon",
+          "fra": "Pokémon Artificiel",
+          "ita": "Pokémon Artificiale",
+          "ger": "Fabrikats-Pokémon",
+          "spa": "Pokémon Artificial",
+          "kor": "인조포켓몬",
+          "chs": "人造宝可梦",
+          "cht": "人造寶可夢"
+        },
+        "egg": [
+          "タマゴ未発見",
+          "(伝説幻)"
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "マギアナ",
+          "eng": "Magearna",
+          "fra": "Magearna",
+          "ita": "Magearna",
+          "ger": "Magearna",
+          "spa": "Magearna",
+          "kor": "마기아나",
+          "chs": "玛机雅娜",
+          "cht": "瑪機雅娜"
+        }
       }
     },
     "0802": {
@@ -57816,6 +58216,51 @@
         ],
         "height": "1.5",
         "weight": "44.5",
+        "name": {
+          "jpn": "ゼラオラ",
+          "eng": "Zeraora",
+          "fra": "Zeraora",
+          "ita": "Zeraora",
+          "ger": "Zeraora",
+          "spa": "Zeraora",
+          "kor": "제라오라",
+          "chs": "捷拉奥拉",
+          "cht": "捷拉奧拉"
+        }
+      },
+      "0807_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+          "jpn": "メガゼラオラ",
+          "eng": "Mega Zeraora",
+          "fra": "Méga-Zeraora",
+          "ita": "MegaZeraora",
+          "ger": "Mega-Zeraora",
+          "spa": "Mega-Zeraora",
+          "kor": "메가제라오라",
+          "chs": "超级捷拉奥拉",
+          "cht": "超級捷拉奧拉"
+        },
+        "classification": {
+          "jpn": "じんらいポケモン",
+          "eng": "Thunderclap Pokémon",
+          "fra": "Pokémon Vif Éclair",
+          "ita": "Pokémon Fulmirapido",
+          "ger": "Blitzsturm-Pokémon",
+          "spa": "Pokémon Fulgor",
+          "kor": "신뢰포켓몬",
+          "chs": "奔雷宝可梦",
+          "cht": "奔雷寶可夢"
+        },
+        "egg": [
+          "タマゴ未発見",
+          "(伝説幻)"
+        ],
+        "height": null,
+        "weight": null,
         "name": {
           "jpn": "ゼラオラ",
           "eng": "Zeraora",
@@ -69441,6 +69886,50 @@
           "chs": "狠辣椒",
           "cht": "狠辣椒"
         }
+      },
+      "0952_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+          "jpn": "メガスコヴィラン",
+          "eng": "Mega Scovillain",
+          "fra": "Méga-Scovilain",
+          "ita": "MegaScovillain",
+          "ger": "Mega-Halupenjo",
+          "spa": "Mega-Scovillain",
+          "kor": "메가스코빌런",
+          "chs": "超级狠辣椒",
+          "cht": "超級狠辣椒"
+        },
+        "classification": {
+          "jpn": "ハバネロポケモン",
+          "eng": "Spicy Pepper Pokémon",
+          "fra": "Pokémon Habanero",
+          "ita": "Pokémon Habanero",
+          "ger": "Habanero-Pokémon",
+          "spa": "Pokémon Habanero",
+          "kor": "하바네로포켓몬",
+          "chs": "热辣宝可梦",
+          "cht": "熱辣寶可夢"
+        },
+        "egg": [
+          "植物"
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "スコヴィラン",
+          "eng": "Scovillain",
+          "fra": "Scovilain",
+          "ita": "Scovillain",
+          "ger": "Halupenjo",
+          "spa": "Scovillain",
+          "kor": "스코빌런",
+          "chs": "狠辣椒",
+          "cht": "狠辣椒"
+        }
       }
     },
     "0953": {
@@ -70580,6 +71069,50 @@
           "chs": "晶光花",
           "cht": "晶光花"
         }
+      },
+      "0970_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+          "jpn": "メガキラフロル",
+          "eng": "Mega Glimmora",
+          "fra": "Méga-Floréclat",
+          "ita": "MegaGlimmora",
+          "ger": "Mega-Lumiflora",
+          "spa": "Mega-Glimmora",
+          "kor": "메가킬라플로르",
+          "chs": "超级晶光花",
+          "cht": "超級晶光花"
+        },
+        "classification": {
+          "jpn": "こうせきポケモン",
+          "eng": "Ore Pokémon",
+          "fra": "Pokémon Minerai",
+          "ita": "Pokémon Minerale",
+          "ger": "Erz-Pokémon",
+          "spa": "Pokémon Mineral",
+          "kor": "광석포켓몬",
+          "chs": "矿石宝可梦",
+          "cht": "礦石寶可夢"
+        },
+        "egg": [
+          "鉱物"
+        ],
+        "height": null,
+        "weight": null,
+        "name": {
+          "jpn": "キラフロル",
+          "eng": "Glimmora",
+          "fra": "Floréclat",
+          "ita": "Glimmora",
+          "ger": "Lumiflora",
+          "spa": "Glimmora",
+          "kor": "킬라플로르",
+          "chs": "晶光花",
+          "cht": "晶光花"
+        }
       }
     },
     "0971": {
@@ -71025,6 +71558,50 @@
         ],
         "height": "0.3",
         "weight": "8.0",
+        "name": {
+          "jpn": "シャリタツ",
+          "eng": "Tatsugiri",
+          "fra": "Nigirigon",
+          "ita": "Tatsugiri",
+          "ger": "Nigiragi",
+          "spa": "Tatsugiri",
+          "kor": "싸리용",
+          "chs": "米立龙",
+          "cht": "米立龍"
+        }
+      },
+      "0978_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+          "jpn": "メガシャリタツ",
+          "eng": "Mega Tatsugiri",
+          "fra": "Méga-Nigirigon",
+          "ita": "MegaTatsugiri",
+          "ger": "Mega-Nigiragi",
+          "spa": "Mega-Tatsugiri",
+          "kor": "메가싸리용",
+          "chs": "超级米立龙",
+          "cht": "超級米立龍"
+        },
+        "classification": {
+          "jpn": "ぎたいポケモン",
+          "eng": "Mimicry Pokémon",
+          "fra": "Pokémon Mimétisme",
+          "ita": "Pokémon Mimetico",
+          "ger": "Mimesen-Pokémon",
+          "spa": "Pokémon Mimetismo",
+          "kor": "의태포켓몬",
+          "chs": "拟态宝可梦",
+          "cht": "擬態寶可夢"
+        },
+        "egg": [
+          "水中２"
+        ],
+        "height": null,
+        "weight": null,
         "name": {
           "jpn": "シャリタツ",
           "eng": "Tatsugiri",
@@ -72005,6 +72582,51 @@
         ],
         "height": "2.1",
         "weight": "210.0",
+        "name": {
+          "jpn": "セグレイブ",
+          "eng": "Baxcalibur",
+          "fra": "Glaivodo",
+          "ita": "Baxcalibur",
+          "ger": "Espinodon",
+          "spa": "Baxcalibur",
+          "kor": "드닐레이브",
+          "chs": "戟脊龙",
+          "cht": "戟脊龍"
+        }
+      },
+      "0998_00000100_0_000_0": {
+        "form": null,
+        "region": null,
+        "mega_evolution": null,
+        "gigantamax": null,
+        "forms": {
+          "jpn": "メガセグレイブ",
+          "eng": "Mega Baxcalibur",
+          "fra": "Méga-Glaivodo",
+          "ita": "MegaBaxcalibur",
+          "ger": "Mega-Espinodon",
+          "spa": "Mega-Baxcalibur",
+          "kor": "메가드닐레이브",
+          "chs": "超级戟脊龙",
+          "cht": "超級戟脊龍"
+        },
+        "classification": {
+          "jpn": "ひょうりゅうポケモン",
+          "eng": "Ice Dragon Pokémon",
+          "fra": "Pokémon Dragon Glace",
+          "ita": "Pokémon Gelodrago",
+          "ger": "Eisdrachen-Pokémon",
+          "spa": "Pokémon Dragón Hielo",
+          "kor": "빙룡포켓몬",
+          "chs": "冰龙宝可梦",
+          "cht": "冰龍寶可夢"
+        },
+        "egg": [
+          "ドラゴン",
+          "鉱物"
+        ],
+        "height": null,
+        "weight": null,
         "name": {
           "jpn": "セグレイブ",
           "eng": "Baxcalibur",
