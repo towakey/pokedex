@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/towakey/pokedex/schemas/waza_machine.schema.json",
+  "title": "Waza Machine (TM/HM Mapping)",
+  "description": "わざマシン対応表 (pokedex/{Version}/waza_machine.json)。わざマシン番号とわざ名の対応を格納。",
+  "type": "object",
+  "required": ["update", "game_version", "waza_machine"],
+  "properties": {
+    "update": {
+      "type": "string",
+      "description": "データ更新日時"
+    },
+    "game_version": {
+      "type": "string",
+      "description": "ゲームバージョン識別子"
+    },
+    "waza_machine": {
+      "type": "object",
+      "description": "わざマシン番号 (例: \"わざマシン001\") をキーとし、わざ名を値とする",
+      "additionalProperties": {
+        "type": "string",
+        "description": "わざ名"
+      }
+    }
+  }
+}

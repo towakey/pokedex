@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/towakey/pokedex/schemas/evolve_changeform.schema.json",
+  "title": "Evolve & Changeform (Global)",
+  "description": "進化・フォルムチェンジデータ (pokedex/evolve_changeform.json)。内部IDベースの進化元・フォルムチェンジ元の対応を格納。",
+  "type": "object",
+  "required": ["update", "evolve", "changeform"],
+  "properties": {
+    "update": {
+      "type": "string",
+      "description": "データ更新日時"
+    },
+    "evolve": {
+      "type": "object",
+      "description": "進化データ。globalNo (4桁ゼロ埋め) をキーとする。",
+      "additionalProperties": {
+        "$ref": "#/definitions/FormMapping"
+      }
+    },
+    "changeform": {
+      "type": "object",
+      "description": "フォルムチェンジデータ。globalNo をキーとする。",
+      "additionalProperties": {
+        "$ref": "#/definitions/FormMapping"
+      }
+    }
+  },
+  "definitions": {
+    "FormMapping": {
+      "type": "object",
+      "description": "進化先/フォルムチェンジ先の内部IDをキーとし、進化元/チェンジ元の内部ID配列を値とする",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "description": "進化元/チェンジ元の内部ID (例: \"0001_00000000_0_000\")"
+        }
+      }
+    }
+  }
+}

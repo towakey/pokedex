@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/towakey/pokedex/schemas/ability.schema.json",
+  "title": "Ability",
+  "description": "特性データ (ability/ability.json)。特性名(日本語)をキーとし、バージョンごとの説明文を格納。",
+  "type": "object",
+  "required": ["update", "ability"],
+  "properties": {
+    "update": {
+      "type": "string",
+      "description": "データ更新日"
+    },
+    "game_version": {
+      "type": "string",
+      "description": "ゲームバージョン (空文字の場合あり)"
+    },
+    "ability": {
+      "type": "object",
+      "description": "特性名(日本語)をキーとするデータ",
+      "additionalProperties": {
+        "$ref": "#/definitions/AbilityEntry"
+      }
+    }
+  },
+  "definitions": {
+    "AbilityEntry": {
+      "type": "object",
+      "description": "バージョン識別子をキーとし、そのバージョンでの特性説明文を値とする",
+      "additionalProperties": {
+        "type": "string",
+        "description": "特性の説明文"
+      }
+    }
+  }
+}

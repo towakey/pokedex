@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/towakey/pokedex/schemas/tag.schema.json",
+  "title": "Tag",
+  "description": "タグデータ (tag.json)。ポケモンごとのフォルム一覧と、各フォルムが登場するゲームバージョンのタグを格納。",
+  "type": "object",
+  "required": ["tag"],
+  "properties": {
+    "tag": {
+      "type": "object",
+      "description": "globalNo (数値文字列) をキーとするタグデータ",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/TagEntry"
+        }
+      }
+    }
+  },
+  "definitions": {
+    "TagEntry": {
+      "type": "object",
+      "description": "1フォルムのタグ情報",
+      "required": ["name", "form", "img", "tag"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "ポケモン名 (日本語)"
+        },
+        "form": {
+          "type": "string",
+          "description": "フォルム名 (通常フォルムは空文字)"
+        },
+        "img": {
+          "type": "string",
+          "description": "画像ファイル識別子 (例: \"0001\", \"0003-mega1\")"
+        },
+        "tag": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "タグの配列 (登場バージョン等) (例: [\"赤緑青ピカチュウ\", \"金銀クリスタル\"])"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/towakey/pokedex/schemas/waza.schema.json",
+  "title": "Waza (Moves per Pokemon)",
+  "description": "ポケモンごとの習得わざデータ (pokedex/{Version}/waza.json)。レベルアップ・わざマシン等の習得条件別にわざ一覧を格納。",
+  "type": "object",
+  "required": ["update", "game_version", "waza"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "データフォーマットバージョン (例: \"2.0.0\")"
+    },
+    "update": {
+      "type": "string",
+      "description": "データ更新日時"
+    },
+    "game_version": {
+      "type": "string",
+      "description": "ゲームバージョン識別子"
+    },
+    "waza": {
+      "type": "object",
+      "description": "図鑑名をキーとする地方別わざデータ",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/PokemonWaza"
+        }
+      }
+    }
+  },
+  "definitions": {
+    "PokemonWaza": {
+      "type": "object",
+      "description": "1匹のポケモンのわざ習得データ",
+      "required": ["no", "globalNo", "form"],
+      "properties": {
+        "no": {
+          "type": "string",
+          "description": "地方図鑑番号"
+        },
+        "globalNo": {
+          "type": "string",
+          "description": "全国図鑑番号"
+        },
+        "form": {
+          "type": "array",
+          "description": "フォルムごとのわざ習得データ",
+          "items": {
+            "$ref": "#/definitions/FormWaza"
+          }
+        }
+      }
+    },
+    "FormWaza": {
+      "type": "object",
+      "description": "1フォルムのわざ習得データ。キーは習得レベル(数値文字列)、\"わざマシン\" (わざマシン一覧)、空文字 (基本わざ)、\"思い出し\" (思い出しわざ)、\"進化時\" (進化時習得わざ) 等。",
+      "properties": {
+        "form": {
+          "type": "string",
+          "description": "フォルム名"
+        },
+        "region": {
+          "type": "string",
+          "description": "リージョン名"
+        },
+        "mega_evolution": {
+          "type": "string",
+          "description": "メガシンカ名"
+        },
+        "gigantamax": {
+          "type": "string",
+          "description": "キョダイマックス名"
+        }
+      },
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "わざ名の配列。キーが習得条件 (レベル番号、\"わざマシン\"等) を表す。"
+      }
+    }
+  }
+}

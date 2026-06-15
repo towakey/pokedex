@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/towakey/pokedex/schemas/waza_list.schema.json",
+  "title": "Waza List (Move Details)",
+  "description": "わざ詳細データ (pokedex/{Version}/waza_list.json)。各わざのタイプ・分類・威力・命中・PP・説明を格納。",
+  "type": "object",
+  "required": ["update", "game_version", "waza_list"],
+  "properties": {
+    "update": {
+      "type": "string",
+      "description": "データ更新日時"
+    },
+    "game_version": {
+      "type": "string",
+      "description": "ゲームバージョン識別子"
+    },
+    "waza_list": {
+      "type": "object",
+      "description": "バージョン名をキーとするわざ一覧。一部バージョンではZわざ等の特殊わざが同階層にMoveDetailとして直接格納される。",
+      "additionalProperties": {
+        "oneOf": [
+          {
+            "type": "object",
+            "description": "わざ名(日本語)をキーとするわざ詳細 (通常バージョンデータ)",
+            "additionalProperties": {
+              "$ref": "#/definitions/MoveDetail"
+            }
+          },
+          {
+            "$ref": "#/definitions/MoveDetail",
+            "description": "単一わざの詳細 (Zわざ等の特殊わざ)"
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "MoveDetail": {
+      "type": "object",
+      "description": "わざの詳細情報",
+      "required": ["type", "category", "power", "accuracy", "pp", "description"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "わざのタイプ (例: \"ほのお\")"
+        },
+        "category": {
+          "type": "string",
+          "description": "分類 (\"物理\", \"特殊\", \"変化\")"
+        },
+        "power": {
+          "type": "string",
+          "description": "威力 (変化わざは \"---\" 等)"
+        },
+        "accuracy": {
+          "type": "string",
+          "description": "命中率"
+        },
+        "pp": {
+          "type": "string",
+          "description": "PP"
+        },
+        "description": {
+          "type": "string",
+          "description": "わざの説明文"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

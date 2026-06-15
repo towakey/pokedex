@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/towakey/pokedex/schemas/evolve.schema.json",
+  "title": "Evolve (Version-specific Evolution)",
+  "description": "バージョン別進化データ (pokedex/{Version}/evolve.json)。地方図鑑番号に基づく進化先と条件を格納。",
+  "type": "object",
+  "required": ["update", "game_version", "evolve"],
+  "properties": {
+    "update": {
+      "type": "string",
+      "description": "データ更新日時"
+    },
+    "game_version": {
+      "type": "string",
+      "description": "ゲームバージョン識別子"
+    },
+    "evolve": {
+      "type": "object",
+      "description": "地方コード (例: \"kanto\", \"paldea\") をキーとする進化データ",
+      "additionalProperties": {
+        "type": "object",
+        "description": "進化カテゴリ名 (\"進化先\" 等) をキーとする",
+        "additionalProperties": {
+          "type": "object",
+          "description": "地方図鑑番号をキーとするポケモン別進化データ",
+          "additionalProperties": {
+            "$ref": "#/definitions/EvolutionEntry"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "EvolutionEntry": {
+      "type": "object",
+      "description": "1匹のポケモンの進化情報",
+      "required": ["globalNo"],
+      "properties": {
+        "globalNo": {
+          "type": "string",
+          "description": "全国図鑑番号"
+        }
+      },
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "description": "進化先。地方図鑑番号をキー、進化条件を値とする。",
+          "additionalProperties": {
+            "type": "string",
+            "description": "進化条件 (例: \"LV16\", \"みずのいし\")"
+          }
+        },
+        "description": "進化先の配列"
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/towakey/pokedex/schemas/version_pokedex.schema.json",
+  "title": "Version Pokedex",
+  "description": "バージョン別図鑑データ (pokedex/{Version}/{Version}.json)。バージョン固有の種族値・タイプ・特性・図鑑説明を格納。",
+  "type": "object",
+  "required": ["update", "game_version", "pokedex"],
+  "properties": {
+    "update": {
+      "type": "string",
+      "description": "データ更新日 (例: \"20250824\")"
+    },
+    "game_version": {
+      "type": "string",
+      "description": "ゲームバージョン識別子 (例: \"scarlet_violet\")"
+    },
+    "pokedex": {
+      "type": "object",
+      "description": "図鑑名をキーとする地方図鑑データ",
+      "additionalProperties": {
+        "$ref": "#/definitions/RegionalPokedex"
+      }
+    }
+  },
+  "definitions": {
+    "RegionalPokedex": {
+      "type": "object",
+      "description": "地方図鑑番号 (4桁ゼロ埋め) をキーとするポケモンデータ",
+      "additionalProperties": {
+        "$ref": "#/definitions/PokemonEntry"
+      },
+      "propertyNames": {
+        "pattern": "^[0-9]{4}$"
+      }
+    },
+    "PokemonEntry": {
+      "type": "object",
+      "description": "1匹のポケモンのフォルム一覧。内部ID をキーとする。",
+      "additionalProperties": {
+        "$ref": "#/definitions/VersionPokemonForm"
+      }
+    },
+    "VersionPokemonForm": {
+      "type": "object",
+      "description": "バージョン固有のポケモンフォルムデータ",
+      "required": ["form", "region", "mega_evolution", "gigantamax", "type1", "type2", "hp", "attack", "defense", "special_attack", "special_defense", "speed", "ability1", "ability2", "dream_ability", "description"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "ポケモンID (一部バージョンのみ存在)"
+        },
+        "name": {
+          "type": "object",
+          "description": "ポケモン名 (一部バージョンのメガシンカ等で存在)",
+          "additionalProperties": {
+            "type": ["string", "null"]
+          }
+        },
+        "form": {
+          "type": ["string", "null"],
+          "description": "フォルム名 (通常フォルムは空文字またはnull)"
+        },
+        "region": {
+          "type": ["string", "null"],
+          "description": "リージョン名"
+        },
+        "mega_evolution": {
+          "type": ["string", "null"],
+          "description": "メガシンカ名"
+        },
+        "gigantamax": {
+          "type": ["string", "null"],
+          "description": "キョダイマックス名"
+        },
+        "type1": {
+          "type": "string",
+          "description": "タイプ1 (例: \"くさ\")"
+        },
+        "type2": {
+          "type": "string",
+          "description": "タイプ2 (単タイプの場合は空文字)"
+        },
+        "hp": {
+          "type": "integer",
+          "description": "HP種族値"
+        },
+        "attack": {
+          "type": "integer",
+          "description": "こうげき種族値"
+        },
+        "defense": {
+          "type": "integer",
+          "description": "ぼうぎょ種族値"
+        },
+        "special_attack": {
+          "type": "integer",
+          "description": "とくこう種族値"
+        },
+        "special_defense": {
+          "type": "integer",
+          "description": "とくぼう種族値"
+        },
+        "speed": {
+          "type": "integer",
+          "description": "すばやさ種族値"
+        },
+        "ability1": {
+          "type": "string",
+          "description": "特性1"
+        },
+        "ability2": {
+          "type": "string",
+          "description": "特性2 (なしの場合は空文字)"
+        },
+        "dream_ability": {
+          "type": "string",
+          "description": "夢特性 (なしの場合は空文字)"
+        },
+        "description": {
+          "type": "object",
+          "description": "図鑑説明。バージョン名 (例: \"scarlet\", \"red\") をキーとし、説明文を値とする。",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

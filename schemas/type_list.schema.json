@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/towakey/pokedex/schemas/type_list.schema.json",
+  "title": "Type List",
+  "description": "タイプ一覧 (type/list.json)。全タイプ名の配列。",
+  "type": "object",
+  "required": ["update", "type"],
+  "properties": {
+    "update": {
+      "type": "string",
+      "description": "データ更新日"
+    },
+    "type": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "タイプ名の配列 (例: [\"ノーマル\", \"ほのお\", \"みず\", ...])"
+    }
+  }
+}
