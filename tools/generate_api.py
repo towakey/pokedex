@@ -10,7 +10,7 @@
 
 生成されるファイル:
     dist/api/v1/
-    ├── pokemon/
+    ├── pokedex/
     │   ├── index.json          全ポケモン簡易一覧
     │   └── {globalNo}.json     ポケモン個別データ (例: 0001.json)
     ├── moves/
@@ -366,7 +366,7 @@ def build_pokemon_data():
 
 def generate_pokemon_files(pokemon_all):
     """ポケモン個別ファイルとインデックスを生成"""
-    pokemon_dir = DIST_DIR / "pokemon"
+    pokemon_dir = DIST_DIR / "pokedex"
 
     # Index: lightweight list
     index_entries = []
@@ -382,16 +382,16 @@ def generate_pokemon_files(pokemon_all):
 
     write_json(pokemon_dir / "index.json", {
         "count": len(index_entries),
-        "pokemon": index_entries,
+        "pokedex": index_entries,
     })
-    print(f"  pokemon/index.json ({len(index_entries)} entries)")
+    print(f"  pokedex/index.json ({len(index_entries)} entries)")
 
     # Individual files
     for gno_str, pokemon in pokemon_all.items():
         gno_padded = gno_str.zfill(4)
         write_json(pokemon_dir / f"{gno_padded}.json", pokemon)
 
-    print(f"  pokemon/{{globalNo}}.json ({len(pokemon_all)} files)")
+    print(f"  pokedex/{{globalNo}}.json ({len(pokemon_all)} files)")
 
 
 def generate_moves_files():
@@ -600,7 +600,7 @@ def generate_bundle_files(pokemon_all):
     """用途別統合ファイル (dist/ 直下) を生成"""
     dist_root = REPO_ROOT / "dist"
 
-    # pokemon-basic.json: 名前・タイプ・種族値のみ
+    # pokedex-basic.json: 名前・タイプ・種族値のみ
     basic_entries = []
     for gno_str in sorted(pokemon_all.keys(), key=lambda x: int(x)):
         p = pokemon_all[gno_str]
@@ -611,23 +611,23 @@ def generate_bundle_files(pokemon_all):
             "types": p["types"],
             "stats": p["stats"],
         })
-    write_json(dist_root / "pokemon-basic.json", {
+    write_json(dist_root / "pokedex-basic.json", {
         "count": len(basic_entries),
-        "pokemon": basic_entries,
+        "pokedex": basic_entries,
     })
-    print(f"  pokemon-basic.json ({len(basic_entries)} entries)")
+    print(f"  pokedex-basic.json ({len(basic_entries)} entries)")
 
-    # pokemon-full.json: 全データ統合版 (versionData含む)
+    # pokedex-full.json: 全データ統合版 (versionData含む)
     full_entries = []
     for gno_str in sorted(pokemon_all.keys(), key=lambda x: int(x)):
         full_entries.append(pokemon_all[gno_str])
-    write_json(dist_root / "pokemon-full.json", {
+    write_json(dist_root / "pokedex-full.json", {
         "count": len(full_entries),
-        "pokemon": full_entries,
+        "pokedex": full_entries,
     })
-    print(f"  pokemon-full.json ({len(full_entries)} entries)")
+    print(f"  pokedex-full.json ({len(full_entries)} entries)")
 
-    # pokemon-{lang}.json: 言語別フィルタ済み
+    # pokedex-{lang}.json: 言語別フィルタ済み
     for lang in LANG_CODES:
         lang_entries = []
         for gno_str in sorted(pokemon_all.keys(), key=lambda x: int(x)):
@@ -647,12 +647,12 @@ def generate_bundle_files(pokemon_all):
                 "stats": p["stats"],
                 "abilities": p["abilities"],
             })
-        write_json(dist_root / f"pokemon-{lang}.json", {
+        write_json(dist_root / f"pokedex-{lang}.json", {
             "language": lang,
             "count": len(lang_entries),
-            "pokemon": lang_entries,
+            "pokedex": lang_entries,
         })
-    print(f"  pokemon-{{lang}}.json ({len(LANG_CODES)} languages)")
+    print(f"  pokedex-{{lang}}.json ({len(LANG_CODES)} languages)")
 
     # type-matchup.json: タイプ相性のみ
     matchup_data = load_json(REPO_ROOT / "type" / "type.json")
