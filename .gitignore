@@ -17,5 +17,8 @@ logs
 
 csv
 
+# Generated files
+dist
+
 tools/vendor
 
