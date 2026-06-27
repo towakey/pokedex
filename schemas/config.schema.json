@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/towakey/pokedex/schemas/config.schema.json",
+  "title": "Pokedex Config",
+  "description": "設定データ (config/pokedex_config.json)。地方図鑑のマッピング・リージョン定義・バージョンマッピング等。",
+  "type": "object",
+  "required": ["local_pokedex_mapping", "regions", "version_mapping", "region_mapping", "default_region_value"],
+  "properties": {
+    "local_pokedex_mapping": {
+      "type": "object",
+      "description": "バージョン識別子をキーとする地方図鑑マッピング",
+      "additionalProperties": {
+        "$ref": "#/definitions/LocalPokedexMapping"
+      }
+    },
+    "regions": {
+      "type": "object",
+      "description": "リージョンコードをキーとする地方図鑑定義",
+      "additionalProperties": {
+        "$ref": "#/definitions/RegionDefinition"
+      }
+    },
+    "version_mapping": {
+      "type": "object",
+      "description": "verID をキーとするバージョンマッピング",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "version": { "type": "string" }
+        }
+      }
+    },
+    "region_mapping": {
+      "type": "object",
+      "description": "リージョン名のマッピング"
+    },
+    "default_region_value": {
+      "type": ["string", "object"],
+      "description": "デフォルトリージョン値"
+    }
+  },
+  "definitions": {
+    "LocalPokedexMapping": {
+      "type": "object",
+      "description": "1バージョンの地方図鑑マッピング",
+      "properties": {
+        "pokedex": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "jpn": { "type": "string", "description": "図鑑名 (日本語)" }
+            }
+          },
+          "description": "図鑑名リスト"
+        },
+        "version": {
+          "type": "object",
+          "description": "バージョン名をキーとするバージョン情報",
+          "additionalProperties": {
+            "$ref": "#/definitions/VersionInfo"
+          }
+        }
+      }
+    },
+    "VersionInfo": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "description": "バージョンタイトル" },
+        "shortTitle": { "type": "string", "description": "短縮タイトル" },
+        "description": { "type": "string", "description": "説明 (発売日等)" },
+        "image": { "type": "string", "description": "画像識別子" }
+      }
+    },
+    "RegionDefinition": {
+      "type": "object",
+      "description": "リージョン定義",
+      "properties": {
+        "version_key": { "type": "string", "description": "対応するバージョン識別子" },
+        "pokedex_index": { "type": "integer", "description": "図鑑インデックス" },
+        "display_jpn": { "type": "string", "description": "表示名 (日本語)" }
+      }
+    }
+  }
+}

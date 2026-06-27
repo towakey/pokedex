@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/towakey/pokedex/schemas/local_global_id_converter.schema.json",
+  "title": "Local-Global ID Converter",
+  "description": "ローカル・グローバルID変換データ (convert/local_global_id_converter.json)。世代ごとのglobalNo範囲とテーブル名の対応。",
+  "type": "object",
+  "required": ["update", "local_global_id_converter"],
+  "properties": {
+    "update": {
+      "type": "string",
+      "description": "データ更新日"
+    },
+    "local_global_id_converter": {
+      "type": "object",
+      "description": "世代番号 (文字列) をキーとする変換データ",
+      "additionalProperties": {
+        "$ref": "#/definitions/ConverterEntry"
+      }
+    }
+  },
+  "definitions": {
+    "ConverterEntry": {
+      "type": "object",
+      "required": ["border", "top", "table"],
+      "properties": {
+        "border": {
+          "type": "integer",
+          "description": "この世代の開始 globalNo"
+        },
+        "top": {
+          "type": "integer",
+          "description": "この世代の最終 globalNo"
+        },
+        "table": {
+          "type": "string",
+          "description": "対応するテーブル/ディレクトリ名 (例: \"Red_Green_Blue_Yellow\")"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

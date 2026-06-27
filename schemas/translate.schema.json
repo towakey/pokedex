@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/towakey/pokedex/schemas/translate.schema.json",
+  "title": "Translate",
+  "description": "翻訳データ (translate/translate.json)。タイプ名等の多言語翻訳を格納。",
+  "type": "object",
+  "required": ["update", "translate"],
+  "properties": {
+    "update": {
+      "type": "string",
+      "description": "データ更新日"
+    },
+    "translate": {
+      "type": "array",
+      "description": "翻訳エントリの配列",
+      "items": {
+        "$ref": "#/definitions/TranslateEntry"
+      }
+    }
+  },
+  "definitions": {
+    "TranslateEntry": {
+      "type": "object",
+      "description": "1項目の多言語翻訳",
+      "required": ["jpn"],
+      "properties": {
+        "jpn": { "type": "string", "description": "日本語" },
+        "eng": { "type": "string", "description": "英語" },
+        "ger": { "type": "string", "description": "ドイツ語" },
+        "fra": { "type": "string", "description": "フランス語" },
+        "kor": { "type": "string", "description": "韓国語" },
+        "chs": { "type": "string", "description": "簡体字中国語" },
+        "cht": { "type": "string", "description": "繁体字中国語" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

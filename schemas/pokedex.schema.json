@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/towakey/pokedex/schemas/pokedex.schema.json",
+  "title": "Pokedex (Global)",
+  "description": "全国図鑑データ (pokedex/pokedex.json)。全ポケモンの基本情報（名前・分類・たまごグループ・身長・体重）をフォルム別に格納。",
+  "type": "object",
+  "required": ["update", "pokedex"],
+  "properties": {
+    "update": {
+      "type": "string",
+      "description": "データ更新日 (例: \"20260101\")",
+      "pattern": "^[0-9]{8}$"
+    },
+    "pokedex": {
+      "type": "object",
+      "description": "globalNo (4桁ゼロ埋め) をキーとするポケモンデータ",
+      "additionalProperties": {
+        "$ref": "#/definitions/PokemonEntry"
+      },
+      "propertyNames": {
+        "pattern": "^[0-9]{4}$"
+      }
+    }
+  },
+  "definitions": {
+    "PokemonEntry": {
+      "type": "object",
+      "description": "1匹のポケモンのフォルム一覧。内部ID をキーとし、各フォルムのデータを値とする。",
+      "additionalProperties": {
+        "$ref": "#/definitions/PokemonForm"
+      },
+      "propertyNames": {
+        "pattern": "^[0-9]{4}_[0-9]{8}_[0-9]_[0-9]{3}_[0-9]$",
+        "description": "内部ID (例: \"0001_00000000_0_000_0\")"
+      }
+    },
+    "PokemonForm": {
+      "type": "object",
+      "description": "ポケモンの1フォルムの基本情報",
+      "required": ["form", "region", "mega_evolution", "gigantamax", "name", "classification", "egg", "forms", "height", "weight"],
+      "properties": {
+        "form": {
+          "type": ["string", "null"],
+          "description": "フォルム名 (通常フォルムは空文字)"
+        },
+        "region": {
+          "type": ["string", "null"],
+          "description": "リージョン名 (リージョンフォルムでない場合は空文字)"
+        },
+        "mega_evolution": {
+          "type": ["string", "null"],
+          "description": "メガシンカ名 (メガシンカでない場合は空文字)"
+        },
+        "gigantamax": {
+          "type": ["string", "null"],
+          "description": "キョダイマックス名 (キョダイマックスでない場合は空文字)"
+        },
+        "name": {
+          "$ref": "#/definitions/LocalizedText",
+          "description": "ポケモン名 (多言語)"
+        },
+        "classification": {
+          "$ref": "#/definitions/LocalizedText",
+          "description": "分類 (例: \"たねポケモン\")"
+        },
+        "egg": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "たまごグループ (例: [\"怪獣\", \"植物\"])"
+        },
+        "forms": {
+          "$ref": "#/definitions/LocalizedText",
+          "description": "フォルム表示名 (多言語)"
+        },
+        "height": {
+          "type": ["string", "null"],
+          "description": "高さ (m) (例: \"0.7\")。データ未登録の場合はnull。"
+        },
+        "weight": {
+          "type": ["string", "null"],
+          "description": "重さ (kg) (例: \"6.9\")。データ未登録の場合はnull。"
+        }
+      },
+      "additionalProperties": false
+    },
+    "LocalizedText": {
+      "type": "object",
+      "description": "多言語テキスト。利用可能な言語キーはフォルムやバージョンにより異なる。値がnullの場合はデータ未登録。",
+      "properties": {
+        "jpn": { "type": ["string", "null"], "description": "日本語" },
+        "eng": { "type": ["string", "null"], "description": "英語" },
+        "fra": { "type": ["string", "null"], "description": "フランス語" },
+        "ita": { "type": ["string", "null"], "description": "イタリア語" },
+        "ger": { "type": ["string", "null"], "description": "ドイツ語" },
+        "spa": { "type": ["string", "null"], "description": "スペイン語" },
+        "kor": { "type": ["string", "null"], "description": "韓国語" },
+        "chs": { "type": ["string", "null"], "description": "簡体字中国語" },
+        "cht": { "type": ["string", "null"], "description": "繁体字中国語" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

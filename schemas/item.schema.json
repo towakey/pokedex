@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/towakey/pokedex/schemas/item.schema.json",
+  "title": "Item",
+  "description": "アイテムデータ (item/item.json, item/item_ball.json 等)。アイテム名の一覧を格納。",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "item": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/ItemEntry" },
+      "description": "アイテム一覧 (item.json)"
+    },
+    "item_ball": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/ItemEntry" },
+      "description": "ボール一覧 (item_ball.json)"
+    },
+    "item_battle": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/ItemEntry" },
+      "description": "バトルアイテム一覧 (item_battle.json)"
+    },
+    "item_important": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/ItemEntry" },
+      "description": "大切なもの一覧 (item_important.json)"
+    },
+    "item_mail": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/ItemEntry" },
+      "description": "メール一覧 (item_mail.json)"
+    },
+    "item_recovery": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/ItemEntry" },
+      "description": "回復アイテム一覧 (item_recovery.json)"
+    }
+  },
+  "definitions": {
+    "ItemEntry": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "アイテム名 (日本語)"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

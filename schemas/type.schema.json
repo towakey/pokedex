@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/towakey/pokedex/schemas/type.schema.json",
+  "title": "Type Matchup",
+  "description": "タイプ相性データ (type/type.json)。世代別のタイプ相性倍率を格納。",
+  "type": "object",
+  "required": ["update", "type"],
+  "properties": {
+    "update": {
+      "type": "string",
+      "description": "データ更新日"
+    },
+    "game_version": {
+      "type": "string"
+    },
+    "type": {
+      "type": "array",
+      "description": "世代別タイプ相性データの配列",
+      "items": {
+        "$ref": "#/definitions/TypeMatchupEntry"
+      }
+    }
+  },
+  "definitions": {
+    "TypeMatchupEntry": {
+      "type": "object",
+      "description": "1世代のタイプ相性データ",
+      "required": ["geme_version", "type"],
+      "properties": {
+        "geme_version": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "対象ゲームバージョン一覧 (注: 元データのキー名は \"geme_version\")"
+        },
+        "type": {
+          "type": "object",
+          "description": "攻撃タイプ名をキーとするタイプ相性マップ",
+          "additionalProperties": {
+            "type": "object",
+            "description": "防御タイプ名をキーとし、倍率 (0, 0.5, 1, 2) を値とする",
+            "additionalProperties": {
+              "type": "number",
+              "description": "ダメージ倍率 (0=無効, 0.5=いまひとつ, 1=等倍, 2=効果抜群)"
+            }
+          }
+        }
+      }
+    }
+  }
+}
