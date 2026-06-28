@@ -12,7 +12,10 @@
     dist/api/v1/
     ├── pokedex/
     │   ├── index.json          全ポケモン簡易一覧
-    │   └── {globalNo}.json     ポケモン個別データ (例: 0001.json)
+    │   ├── {globalNo}.json     ポケモン個別データ (例: 0001.json)
+    │   └── region/
+    │       ├── index.json      地方図鑑一覧
+    │       └── {slug}.json     地方図鑑別ポケモン一覧 (例: kanto.json)
     ├── moves/
     │   ├── index.json          全バージョンのわざ一覧
     │   └── {version_key}.json  バージョン別わざ詳細
@@ -109,6 +112,29 @@ def write_json(path, data):
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
 
 
+def find_version_json(vdir):
+    """バージョンディレクトリ内のメインJSONファイルを見つける"""
+    vdir_path = REPO_ROOT / "pokedex" / vdir
+    # Try exact match first
+    exact = vdir_path / f"{vdir}.json"
+    if exact.exists():
+        return exact
+    # Fallback: case-insensitive filename match
+    for f in vdir_path.iterdir():
+        if f.suffix == ".json" and f.stem.lower() == vdir.lower():
+            return f
+    # Last resort: first JSON with a "pokedex" key
+    for f in vdir_path.iterdir():
+        if f.suffix == ".json":
+            try:
+                data = load_json(f)
+                if isinstance(data, dict) and "pokedex" in data:
+                    return f
+            except Exception:
+                pass
+    return None
+
+
 def parse_internal_id(internal_id):
     """内部IDからフォルム情報を抽出"""
     parts = internal_id.split("_")
@@ -146,8 +172,8 @@ def build_pokemon_data():
     print("Loading version data...")
     version_data = {}
     for vk, vdir in VERSION_KEY_TO_DIR.items():
-        vpath = REPO_ROOT / "pokedex" / vdir / f"{vdir}.json"
-        if vpath.exists():
+        vpath = find_version_json(vdir)
+        if vpath:
             vd = load_json(vpath)
             version_data[vk] = vd
 
@@ -392,6 +418,159 @@ def generate_pokemon_files(pokemon_all):
         write_json(pokemon_dir / f"{gno_padded}.json", pokemon)
 
     print(f"  pokedex/{{globalNo}}.json ({len(pokemon_all)} files)")
+
+
+def generate_region_files(pokemon_all):
+    """地方図鑑別データを生成"""
+    region_dir = DIST_DIR / "pokedex" / "region"
+
+    config = load_json(REPO_ROOT / "config" / "pokedex_config.json")
+    regions_config = config.get("regions", {})
+    lpm = config.get("local_pokedex_mapping", {})
+
+    region_meta = []
+    global_entries = []
+
+    # Build global region (all pokemon)
+    for gno_str in sorted(pokemon_all.keys(), key=lambda x: int(x)):
+        p = pokemon_all[gno_str]
+        gno_padded = gno_str.zfill(4)
+        global_entries.append({
+            "localNo": gno_str,
+            "globalNo": gno_str,
+            "name": p["name"],
+            "types": p["types"],
+            "stats": p["stats"],
+        })
+
+    write_json(region_dir / "global.json", {
+        "slug": "global",
+        "label": "全国図鑑",
+        "count": len(global_entries),
+        "pokedex": global_entries,
+    })
+    region_meta.append({
+        "slug": "global",
+        "label": "全国図鑑",
+        "count": len(global_entries),
+    })
+
+    # Build regional pokedex files
+    for slug, rdef in regions_config.items():
+        vk = rdef.get("version_key", "")
+        pi = rdef.get("pokedex_index", 0)
+        display_jpn = rdef.get("display_jpn", "")
+        label_jpn = rdef.get("label_jpn", "") or display_jpn
+
+        vdir = VERSION_KEY_TO_DIR.get(vk)
+        if not vdir:
+            region_meta.append({"slug": slug, "label": label_jpn, "count": 0})
+            continue
+
+        vpath = find_version_json(vdir)
+        if not vpath:
+            region_meta.append({"slug": slug, "label": label_jpn, "count": 0})
+            continue
+
+        vdata = load_json(vpath)
+        vpokedex = vdata.get("pokedex", {})
+
+        # Find the target regional pokedex by display_jpn or by index
+        target_dex_data = None
+        if display_jpn and display_jpn in vpokedex:
+            target_dex_data = vpokedex[display_jpn]
+        else:
+            dex_list = list(vpokedex.values())
+            if pi < len(dex_list):
+                target_dex_data = dex_list[pi]
+
+        if not target_dex_data or not isinstance(target_dex_data, dict):
+            region_meta.append({"slug": slug, "label": label_jpn, "count": 0})
+            continue
+
+        region_entries = []
+        for local_no, forms_dict in target_dex_data.items():
+            if not isinstance(forms_dict, dict):
+                continue
+
+            for form_id, form_data in forms_dict.items():
+                if not isinstance(form_data, dict):
+                    continue
+
+                parsed = parse_internal_id(form_id)
+                gno = parsed.get("globalNo", "")
+                gno_padded = gno.zfill(4)
+                gno_str = str(int(gno)) if gno.isdigit() else gno
+
+                # Get name from pokemon_all or form_data
+                p = pokemon_all.get(gno_padded)
+                name = {}
+                if p:
+                    name = p["name"]
+
+                entry = {
+                    "localNo": local_no,
+                    "globalNo": gno_padded,
+                    "internalId": form_id,
+                    "name": name,
+                    "type1": form_data.get("type1", ""),
+                    "type2": form_data.get("type2", ""),
+                    "stats": {
+                        "hp": form_data.get("hp", 0),
+                        "attack": form_data.get("attack", 0),
+                        "defense": form_data.get("defense", 0),
+                        "spAtk": form_data.get("special_attack", 0),
+                        "spDef": form_data.get("special_defense", 0),
+                        "speed": form_data.get("speed", 0),
+                    },
+                    "abilities": {
+                        "ability1": form_data.get("ability1", ""),
+                        "ability2": form_data.get("ability2", ""),
+                        "dreamAbility": form_data.get("dream_ability", ""),
+                    },
+                }
+
+                form_val = form_data.get("form") or ""
+                region_val = form_data.get("region") or ""
+                mega_val = form_data.get("mega_evolution") or ""
+                gmax_val = form_data.get("gigantamax") or ""
+                if form_val:
+                    entry["form"] = form_val
+                if region_val:
+                    entry["region"] = region_val
+                if mega_val:
+                    entry["megaEvolution"] = mega_val
+                if gmax_val:
+                    entry["gigantamax"] = gmax_val
+
+                region_entries.append(entry)
+
+        # Sort by local dex number
+        region_entries.sort(key=lambda e: (int(e["localNo"]) if e["localNo"].isdigit() else 0, e["globalNo"]))
+
+        write_json(region_dir / f"{slug}.json", {
+            "slug": slug,
+            "label": label_jpn,
+            "versionKey": vk,
+            "count": len(region_entries),
+            "pokedex": region_entries,
+        })
+
+        region_meta.append({
+            "slug": slug,
+            "label": label_jpn,
+            "count": len(region_entries),
+        })
+
+    # Write region index
+    write_json(region_dir / "index.json", {
+        "count": len(region_meta),
+        "regions": region_meta,
+    })
+
+    region_files = sum(1 for _ in region_dir.rglob("*.json"))
+    print(f"  pokedex/region/index.json ({len(region_meta)} regions)")
+    print(f"  pokedex/region/{{slug}}.json ({region_files - 1} files)")
 
 
 def generate_moves_files():
@@ -675,6 +854,7 @@ def main():
     print()
     print("[API files (dist/api/v1/)]")
     generate_pokemon_files(pokemon_all)
+    generate_region_files(pokemon_all)
     generate_moves_files()
     generate_abilities_file()
     generate_types_files()
