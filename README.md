@@ -16,7 +16,17 @@ ruby tools/import_db.rb
 
 ---
 
-## API ドキュメント
+## 静的JSON API（GitHub Pages）
+
+サーバー不要で `fetch()` するだけで利用できる静的JSON APIを GitHub Pages で公開しています。
+各地方図鑑別・ポケモン個別・わざ・特性・タイプ相性などのエンドポイントを提供します。
+
+- ベースURL: `https://towakey.github.io/pokedex/api/v1/`
+- **エンドポイント仕様**: [`docs/static-json-api.md`](docs/static-json-api.md)
+
+---
+
+## API ドキュメント（PHP版）
 
 ### エンドポイント
 
