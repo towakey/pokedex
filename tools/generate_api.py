@@ -34,6 +34,7 @@
 import json
 import os
 import sys
+import shutil
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -424,6 +425,9 @@ def generate_region_files(pokemon_all):
     """地方図鑑別データを生成"""
     region_dir = DIST_DIR / "pokedex" / "region"
 
+    if region_dir.exists():
+        shutil.rmtree(region_dir)
+
     config = load_json(REPO_ROOT / "config" / "pokedex_config.json")
     regions_config = config.get("regions", {})
     lpm = config.get("local_pokedex_mapping", {})
@@ -443,7 +447,7 @@ def generate_region_files(pokemon_all):
             "stats": p["stats"],
         })
 
-    write_json(region_dir / "global.json", {
+    write_json(region_dir / "global" / "index.json", {
         "slug": "global",
         "label": "全国図鑑",
         "count": len(global_entries),
@@ -548,13 +552,28 @@ def generate_region_files(pokemon_all):
         # Sort by local dex number
         region_entries.sort(key=lambda e: (int(e["localNo"]) if e["localNo"].isdigit() else 0, e["globalNo"]))
 
-        write_json(region_dir / f"{slug}.json", {
+        region_payload = {
             "slug": slug,
             "label": label_jpn,
             "versionKey": vk,
             "count": len(region_entries),
             "pokedex": region_entries,
-        })
+        }
+        write_json(region_dir / slug / "index.json", region_payload)
+
+        local_groups = {}
+        for entry in region_entries:
+            local_groups.setdefault(entry["localNo"], []).append(entry)
+
+        for local_no, items in local_groups.items():
+            write_json(region_dir / slug / f"{local_no}.json", {
+                "slug": slug,
+                "label": label_jpn,
+                "versionKey": vk,
+                "localNo": local_no,
+                "count": len(items),
+                "pokedex": items,
+            })
 
         region_meta.append({
             "slug": slug,
@@ -570,7 +589,7 @@ def generate_region_files(pokemon_all):
 
     region_files = sum(1 for _ in region_dir.rglob("*.json"))
     print(f"  pokedex/region/index.json ({len(region_meta)} regions)")
-    print(f"  pokedex/region/{{slug}}.json ({region_files - 1} files)")
+    print(f"  pokedex/region/{{region}}/index.json + pokedex/region/{{region}}/{{localNo}}.json ({region_files - 1} files)")
 
 
 def generate_moves_files():
