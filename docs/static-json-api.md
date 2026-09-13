@@ -20,7 +20,8 @@
 | `pokedex/index.json` | 全ポケモンの簡易一覧 |
 | `pokedex/{globalNo}.json` | ポケモン個別データ（統合版）例: `pokedex/0025.json` |
 | `pokedex/region/index.json` | 地方図鑑一覧（メタデータ） |
-| `pokedex/region/{slug}.json` | 地方図鑑別ポケモン一覧 例: `pokedex/region/kanto.json` |
+| `pokedex/region/{region}/index.json` | 地方図鑑別ポケモン一覧 例: `pokedex/region/kanto/index.json` |
+| `pokedex/region/{region}/{localNo}.json` | 地方図鑑番号ごとの詳細 例: `pokedex/region/kanto/0001.json` |
 | `moves/index.json` | 全バージョンのわざ一覧 |
 | `moves/{version_key}.json` | バージョン別わざ詳細 |
 | `abilities/index.json` | 特性一覧 |
@@ -148,12 +149,13 @@ GET https://towakey.github.io/pokedex/api/v1/pokedex/region/index.json
 }
 ```
 
-### 4. 地方図鑑別ポケモン一覧 — `pokedex/region/{slug}.json`
+### 4. 地方図鑑別ポケモン一覧 — `pokedex/region/{region}/index.json`
 
-`slug` を指定して各地方図鑑のポケモンを地方図鑑番号順に取得。
+`region` を指定して各地方図鑑のポケモンを地方図鑑番号順に取得。
+`global` は全国図鑑で、`pokedex/region/global/index.json` に対応します。
 
 ```http
-GET https://towakey.github.io/pokedex/api/v1/pokedex/region/kanto.json
+GET https://towakey.github.io/pokedex/api/v1/pokedex/region/kanto/index.json
 ```
 
 ```json
@@ -172,7 +174,7 @@ GET https://towakey.github.io/pokedex/api/v1/pokedex/region/kanto.json
       "type2": "どく",
       "stats": { "hp": 45, "attack": 49, "defense": 49, "spAtk": 65, "spDef": 65, "speed": 45 },
       "abilities": { "ability1": "しんりょく", "ability2": "", "dreamAbility": "ようりょくそ" },
-      "region": "ヒスイのすがた"
+      "region": ""
     }
   ]
 }
@@ -189,7 +191,47 @@ GET https://towakey.github.io/pokedex/api/v1/pokedex/region/kanto.json
 | `abilities` | object | 特性 |
 | `form` / `region` / `megaEvolution` / `gigantamax` | string | フォルム情報（該当時のみ付与） |
 
-> `global.json` は全国図鑑で、`localNo` と `globalNo` が一致し、`name` / `types` / `stats` のみを含む簡易形式です。
+### 5. 地方図鑑番号ごとの詳細 — `pokedex/region/{region}/{localNo}.json`
+
+`localNo` を指定して、その地方図鑑内で同じ番号を持つポケモンをまとめて取得します。フォルム違いや同一番号の派生エントリがある場合は配列で返します。
+
+```http
+GET https://towakey.github.io/pokedex/api/v1/pokedex/region/kanto/0001.json
+```
+
+```json
+{
+  "slug": "kanto",
+  "label": "カントー図鑑",
+  "versionKey": "red_green_blue_pikachu",
+  "localNo": "0001",
+  "count": 1,
+  "pokedex": [
+    {
+      "localNo": "0001",
+      "globalNo": "0001",
+      "internalId": "0001_00000000_0_000_0",
+      "name": { "jpn": "フシギダネ", "eng": "Bulbasaur", "...": "..." },
+      "type1": "くさ",
+      "type2": "どく",
+      "stats": { "hp": 45, "attack": 49, "defense": 49, "spAtk": 65, "spDef": 65, "speed": 45 },
+      "abilities": { "ability1": "しんりょく", "ability2": "", "dreamAbility": "ようりょくそ" },
+      "region": "ヒスイのすがた"
+    }
+  ]
+}
+```
+
+| フィールド | 型 | 説明 |
+| --- | --- | --- |
+| `slug` | string | 地方図鑑スラッグ |
+| `label` | string | 地方図鑑名 |
+| `versionKey` | string | 対応バージョンキー |
+| `localNo` | string | 地方図鑑番号 |
+| `count` | number | 同じ地方図鑑番号に属する件数 |
+| `pokedex` | array | 該当するポケモン詳細一覧 |
+
+> `pokedex/region/{region}/index.json` はその地方図鑑の一覧、`pokedex/region/{region}/{localNo}.json` は番号単位の詳細です。
 
 #### 地方図鑑スラッグ一覧
 
@@ -221,7 +263,7 @@ GET https://towakey.github.io/pokedex/api/v1/pokedex/region/kanto.json
 | `lumiose` | ミアレ図鑑 | レジェンズZ-A |
 | `hyperspace_lumiose` | 異次元図鑑 | レジェンズZ-A |
 
-### 5. わざ一覧 — `moves/index.json` / `moves/{version_key}.json`
+### 6. わざ一覧 — `moves/index.json` / `moves/{version_key}.json`
 
 ```http
 GET https://towakey.github.io/pokedex/api/v1/moves/index.json
@@ -240,7 +282,7 @@ GET https://towakey.github.io/pokedex/api/v1/moves/red_green_blue_pikachu.json
 }
 ```
 
-### 6. 特性一覧 — `abilities/index.json`
+### 7. 特性一覧 — `abilities/index.json`
 
 ```json
 {
@@ -254,7 +296,7 @@ GET https://towakey.github.io/pokedex/api/v1/moves/red_green_blue_pikachu.json
 }
 ```
 
-### 7. タイプ一覧・相性表 — `types/index.json` / `types/matchup.json`
+### 8. タイプ一覧・相性表 — `types/index.json` / `types/matchup.json`
 
 ```json
 // types/index.json
@@ -282,7 +324,7 @@ GET https://towakey.github.io/pokedex/api/v1/moves/red_green_blue_pikachu.json
 
 相性倍率: `2` = 効果ばつぐん / `1` = 通常 / `0.5` = いまひとつ / `0` = 効果なし。
 
-### 8. アイテム一覧 — `items/index.json`
+### 9. アイテム一覧 — `items/index.json`
 
 カテゴリ別にアイテム名を格納。
 
@@ -297,7 +339,7 @@ GET https://towakey.github.io/pokedex/api/v1/moves/red_green_blue_pikachu.json
 }
 ```
 
-### 9. メタ情報 — `meta/versions.json` / `meta/languages.json`
+### 10. メタ情報 — `meta/versions.json` / `meta/languages.json`
 
 ```json
 // meta/versions.json
@@ -379,7 +421,7 @@ console.log(pikachu.name.jpn)                 // "ピカチュウ"
 console.log(pikachu.evolution.from[0].name)   // "ピチュー"
 
 // カントー図鑑の一覧
-const kanto = await fetch(`${BASE}/pokedex/region/kanto.json`).then(r => r.json())
+const kanto = await fetch(`${BASE}/pokedex/region/kanto/index.json`).then(r => r.json())
 console.log(kanto.count)                       // 151
 console.log(kanto.pokedex[0].name.jpn)         // "フシギダネ"
 
@@ -398,7 +440,7 @@ BASE = "https://towakey.github.io/pokedex/api/v1"
 pikachu = requests.get(f"{BASE}/pokedex/0025.json").json()
 print(pikachu["name"]["jpn"])  # ピカチュウ
 
-kanto = requests.get(f"{BASE}/pokedex/region/kanto.json").json()
+kanto = requests.get(f"{BASE}/pokedex/region/kanto/index.json").json()
 print(kanto["count"])          # 151
 ```
 
@@ -406,7 +448,7 @@ print(kanto["count"])          # 151
 
 ```bash
 curl https://towakey.github.io/pokedex/api/v1/pokedex/0025.json
-curl https://towakey.github.io/pokedex/api/v1/pokedex/region/kanto.json
+curl https://towakey.github.io/pokedex/api/v1/pokedex/region/kanto/index.json
 ```
 
 ---
