@@ -5015,10 +5015,10 @@
         "0618_02000000_0_000_0": {
           "id": "0618_02000000_0_000_0",
           "form": null,
-          "region": null,
+          "region": "ガラルのすがた",
           "mega_evolution": null,
           "gigantamax": null,
-          "type1": "でんき",
+          "type1": "はがね",
           "type2": "じめん",
           "hp": 109,
           "attack": 66,
