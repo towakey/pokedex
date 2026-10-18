@@ -1,0 +1,4966 @@
+{
+    "update": "20261018",
+    "game_version": "red_green_blue_pikachu",
+    "encounter": {
+        "kanto": {
+            "0001": {
+                "globalNo": "0001",
+                "name": "フシギダネ",
+                "methods": [
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "マサラタウン"
+                        ],
+                        "note": "ヒトカゲ・ゼニガメとの選択式"
+                    },
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ハナダシティ"
+                        ]
+                    }
+                ]
+            },
+            "0002": {
+                "globalNo": "0002",
+                "name": "フシギソウ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "フシギダネから進化"
+                    }
+                ]
+            },
+            "0003": {
+                "globalNo": "0003",
+                "name": "フシギバナ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "フシギソウから進化"
+                    }
+                ]
+            },
+            "0004": {
+                "globalNo": "0004",
+                "name": "ヒトカゲ",
+                "methods": [
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "マサラタウン"
+                        ],
+                        "note": "フシギダネ・ゼニガメとの選択式"
+                    },
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "24番道路"
+                        ]
+                    }
+                ]
+            },
+            "0005": {
+                "globalNo": "0005",
+                "name": "リザード",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ヒトカゲから進化"
+                    }
+                ]
+            },
+            "0006": {
+                "globalNo": "0006",
+                "name": "リザードン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ヒトカゲから進化"
+                    }
+                ]
+            },
+            "0007": {
+                "globalNo": "0007",
+                "name": "ゼニガメ",
+                "methods": [
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "マサラタウン"
+                        ],
+                        "note": "フシギダネ・ヒトカゲとの選択式"
+                    },
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "クチバシティ"
+                        ]
+                    }
+                ]
+            },
+            "0008": {
+                "globalNo": "0008",
+                "name": "カメール",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ゼニガメから進化"
+                    }
+                ]
+            },
+            "0009": {
+                "globalNo": "0009",
+                "name": "カメックス",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "カメールから進化"
+                    }
+                ]
+            },
+            "0010": {
+                "globalNo": "0010",
+                "name": "キャタピー",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "25番道路",
+                            "トキワのもり"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "2番道路",
+                            "24番道路",
+                            "25番道路",
+                            "トキワのもり"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "トキワのもり"
+                        ]
+                    }
+                ]
+            },
+            "0011": {
+                "globalNo": "0011",
+                "name": "トランセル",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "キャタピーから進化"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "25番道路",
+                            "トキワのもり"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "24番道路",
+                            "25番道路",
+                            "トキワのもり"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "トキワのもり"
+                        ]
+                    }
+                ]
+            },
+            "0012": {
+                "globalNo": "0012",
+                "name": "バタフリー",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "トランセルから進化"
+                    }
+                ]
+            },
+            "0013": {
+                "globalNo": "0013",
+                "name": "ビードル",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "2番道路",
+                            "24番道路",
+                            "25番道路",
+                            "トキワのもり"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "25番道路",
+                            "トキワのもり"
+                        ]
+                    }
+                ]
+            },
+            "0014": {
+                "globalNo": "0014",
+                "name": "コクーン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [],
+                        "note": "ビードルから進化"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "24番道路",
+                            "25番道路",
+                            "トキワのもり"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "25番道路",
+                            "トキワのもり"
+                        ]
+                    }
+                ]
+            },
+            "0015": {
+                "globalNo": "0015",
+                "name": "スピアー",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [],
+                        "note": "コクーンから進化"
+                    }
+                ]
+            },
+            "0016": {
+                "globalNo": "0016",
+                "name": "ポッポ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "1番道路",
+                            "2番道路",
+                            "3番道路",
+                            "5番道路",
+                            "6番道路",
+                            "7番道路",
+                            "8番道路",
+                            "12番道路",
+                            "13番道路",
+                            "14番道路",
+                            "15番道路",
+                            "21番水道",
+                            "24番道路",
+                            "25番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "1番道路",
+                            "2番道路",
+                            "5番道路",
+                            "6番道路",
+                            "7番道路",
+                            "8番道路",
+                            "11番道路",
+                            "12番道路",
+                            "13番道路",
+                            "21番水道",
+                            "24番道路",
+                            "25番道路",
+                            "トキワのもり"
+                        ]
+                    }
+                ]
+            },
+            "0017": {
+                "globalNo": "0017",
+                "name": "ピジョン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ポッポから進化"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "14番道路",
+                            "15番道路",
+                            "21番水道"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "5番道路",
+                            "6番道路",
+                            "7番道路",
+                            "8番道路",
+                            "11番道路",
+                            "12番道路",
+                            "13番道路",
+                            "14番道路",
+                            "15番道路",
+                            "21番水道",
+                            "24番道路",
+                            "25番道路",
+                            "トキワのもり"
+                        ]
+                    }
+                ]
+            },
+            "0018": {
+                "globalNo": "0018",
+                "name": "ピジョット",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ピジョンから進化"
+                    }
+                ]
+            },
+            "0019": {
+                "globalNo": "0019",
+                "name": "コラッタ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "1番道路",
+                            "2番道路",
+                            "4番道路",
+                            "9番道路",
+                            "16番道路",
+                            "21番水道",
+                            "22番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "1番道路",
+                            "2番道路",
+                            "3番道路",
+                            "4番道路",
+                            "5番道路",
+                            "6番道路",
+                            "7番道路",
+                            "8番道路",
+                            "9番道路",
+                            "10番道路",
+                            "11番道路",
+                            "16番道路",
+                            "18番道路",
+                            "21番水道",
+                            "22番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ポケモンやしき（1F・2F・3F）"
+                        ]
+                    }
+                ]
+            },
+            "0020": {
+                "globalNo": "0020",
+                "name": "ラッタ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "コラッタから進化"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "16番道路",
+                            "17番道路",
+                            "18番道路",
+                            "21番水道"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（2F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "9番道路",
+                            "10番道路",
+                            "11番道路",
+                            "16番道路",
+                            "18番道路",
+                            "21番水道"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ポケモンやしき（全フロア）"
+                        ]
+                    }
+                ]
+            },
+            "0021": {
+                "globalNo": "0021",
+                "name": "オニスズメ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "3番道路",
+                            "4番道路",
+                            "9番道路",
+                            "10番道路",
+                            "11番道路",
+                            "16番道路",
+                            "17番道路",
+                            "18番道路",
+                            "22番道路",
+                            "23番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "3番道路",
+                            "4番道路",
+                            "9番道路",
+                            "16番道路",
+                            "18番道路",
+                            "22番道路"
+                        ]
+                    }
+                ]
+            },
+            "0022": {
+                "globalNo": "0022",
+                "name": "オニドリル",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "オニスズメから進化"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "17番道路",
+                            "18番道路",
+                            "23番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "9番道路",
+                            "16番道路",
+                            "17番道路",
+                            "18番道路",
+                            "23番道路"
+                        ]
+                    }
+                ]
+            },
+            "0023": {
+                "globalNo": "0023",
+                "name": "アーボ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "4番道路",
+                            "8番道路",
+                            "9番道路",
+                            "10番道路",
+                            "11番道路",
+                            "23番道路"
+                        ]
+                    }
+                ]
+            },
+            "0024": {
+                "globalNo": "0024",
+                "name": "アーボック",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [],
+                        "note": "アーボから進化"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "23番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（1F・B1F）"
+                        ]
+                    }
+                ]
+            },
+            "0025": {
+                "globalNo": "0025",
+                "name": "ピカチュウ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "トキワのもり"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "むじんはつでんしょ"
+                        ]
+                    },
+                    {
+                        "type": "景品交換",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "タマムシゲームコーナー"
+                        ],
+                        "note": "タマムシゲームコーナーのコインと交換"
+                    },
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "マサラタウン"
+                        ],
+                        "note": "最初のパートナー（ピカチュウ版では進化不可）"
+                    }
+                ]
+            },
+            "0026": {
+                "globalNo": "0026",
+                "name": "ライチュウ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [],
+                        "note": "ピカチュウから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（1F・B1F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "むじんはつでんしょ",
+                            "ハナダのどうくつ（1F・B1F）"
+                        ]
+                    }
+                ]
+            },
+            "0027": {
+                "globalNo": "0027",
+                "name": "サンド",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "4番道路",
+                            "8番道路",
+                            "9番道路",
+                            "10番道路",
+                            "11番道路",
+                            "23番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "3番道路",
+                            "4番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "おつきみやま（1F）"
+                        ]
+                    }
+                ]
+            },
+            "0028": {
+                "globalNo": "0028",
+                "name": "サンドパン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "サンドから進化"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "23番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（1F・B1F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（1F・2F）"
+                        ]
+                    }
+                ]
+            },
+            "0029": {
+                "globalNo": "0029",
+                "name": "ニドラン♀",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "blue"
+                        ],
+                        "locations": [
+                            "22番道路",
+                            "サファリゾーン（東エリア・西エリア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "green"
+                        ],
+                        "locations": [
+                            "22番道路",
+                            "サファリゾーン（全エリア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "2番道路",
+                            "9番道路",
+                            "10番道路",
+                            "22番道路",
+                            "サファリゾーン（全エリア）"
+                        ]
+                    }
+                ]
+            },
+            "0030": {
+                "globalNo": "0030",
+                "name": "ニドリーナ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ニドラン♀から進化"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "blue"
+                        ],
+                        "locations": [
+                            "サファリゾーン（センターエリア・北エリア）"
+                        ]
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "11番道路"
+                        ],
+                        "note": "赤：ニドリーノを渡す"
+                    },
+                    {
+                        "type": "景品交換",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "タマムシゲームコーナー"
+                        ],
+                        "note": "タマムシゲームコーナーのコインと交換"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "green"
+                        ],
+                        "locations": [
+                            "サファリゾーン（全エリア）"
+                        ]
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "green"
+                        ],
+                        "locations": [
+                            "11番道路"
+                        ],
+                        "note": "緑：ニドリーノを渡す"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "9番道路",
+                            "23番道路",
+                            "サファリゾーン（東エリア・北エリア）"
+                        ]
+                    }
+                ]
+            },
+            "0031": {
+                "globalNo": "0031",
+                "name": "ニドクイン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ニドリーナから進化"
+                    }
+                ]
+            },
+            "0032": {
+                "globalNo": "0032",
+                "name": "ニドラン♂",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "blue"
+                        ],
+                        "locations": [
+                            "22番道路",
+                            "サファリゾーン（全エリア）"
+                        ]
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "ちかつうろ（5番道路-6番道路）"
+                        ],
+                        "note": "赤：ニドラン♀を渡す"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "green"
+                        ],
+                        "locations": [
+                            "22番道路",
+                            "サファリゾーン（東エリア・西エリア）"
+                        ]
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "green"
+                        ],
+                        "locations": [
+                            "ちかつうろ（5番道路-6番道路）"
+                        ],
+                        "note": "緑：ニドラン♀を渡す"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "2番道路",
+                            "9番道路",
+                            "10番道路",
+                            "22番道路",
+                            "サファリゾーン（全エリア）"
+                        ]
+                    }
+                ]
+            },
+            "0033": {
+                "globalNo": "0033",
+                "name": "ニドリーノ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ニドラン♂から進化"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "blue"
+                        ],
+                        "locations": [
+                            "サファリゾーン（全エリア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "green"
+                        ],
+                        "locations": [
+                            "サファリゾーン（センターエリア・北エリア）"
+                        ]
+                    },
+                    {
+                        "type": "景品交換",
+                        "versions": [
+                            "green"
+                        ],
+                        "locations": [
+                            "タマムシゲームコーナー"
+                        ],
+                        "note": "タマムシゲームコーナーのコインと交換"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "9番道路",
+                            "23番道路",
+                            "サファリゾーン（センターエリア・西エリア）"
+                        ]
+                    }
+                ]
+            },
+            "0034": {
+                "globalNo": "0034",
+                "name": "ニドキング",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ニドリーノから進化"
+                    }
+                ]
+            },
+            "0035": {
+                "globalNo": "0035",
+                "name": "ピッピ",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "おつきみやま（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "景品交換",
+                        "versions": [
+                            "red",
+                            "green"
+                        ],
+                        "locations": [
+                            "タマムシゲームコーナー"
+                        ],
+                        "note": "タマムシゲームコーナーのコインと交換"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "おつきみやま（全フロア）",
+                            "ハナダのどうくつ（B1F）"
+                        ]
+                    }
+                ]
+            },
+            "0036": {
+                "globalNo": "0036",
+                "name": "ピクシー",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ピッピから進化"
+                    },
+                    {
+                        "type": "景品交換",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "タマムシゲームコーナー"
+                        ],
+                        "note": "タマムシゲームコーナーのコインと交換"
+                    }
+                ]
+            },
+            "0037": {
+                "globalNo": "0037",
+                "name": "ロコン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "green"
+                        ],
+                        "locations": [
+                            "7番道路",
+                            "8番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "green"
+                        ],
+                        "locations": [
+                            "ポケモンやしき（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "景品交換",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "タマムシゲームコーナー"
+                        ],
+                        "note": "タマムシゲームコーナーのコインと交換"
+                    }
+                ]
+            },
+            "0038": {
+                "globalNo": "0038",
+                "name": "キュウコン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "green",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ロコンから進化"
+                    }
+                ]
+            },
+            "0039": {
+                "globalNo": "0039",
+                "name": "プリン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "3番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "5番道路",
+                            "6番道路",
+                            "7番道路",
+                            "8番道路"
+                        ]
+                    }
+                ]
+            },
+            "0040": {
+                "globalNo": "0040",
+                "name": "プクリン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "プリンから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（2F）"
+                        ]
+                    },
+                    {
+                        "type": "景品交換",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "タマムシゲームコーナー"
+                        ],
+                        "note": "タマムシゲームコーナーのコインと交換"
+                    }
+                ]
+            },
+            "0041": {
+                "globalNo": "0041",
+                "name": "ズバット",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "おつきみやま（全フロア）",
+                            "イワヤマトンネル（全フロア）",
+                            "ふたごじま（1F）",
+                            "チャンピオンロード（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "おつきみやま（全フロア）",
+                            "イワヤマトンネル（全フロア）",
+                            "ふたごじま（全フロア）",
+                            "チャンピオンロード（1F・2F）"
+                        ]
+                    }
+                ]
+            },
+            "0042": {
+                "globalNo": "0042",
+                "name": "ゴルバット",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ズバットから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ふたごじま（1F・B2F・B4F）",
+                            "チャンピオンロード（全フロア）",
+                            "ハナダのどうくつ（1F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ふたごじま（全フロア）",
+                            "チャンピオンロード（2F・3F）",
+                            "ハナダのどうくつ（全フロア）"
+                        ]
+                    }
+                ]
+            },
+            "0043": {
+                "globalNo": "0043",
+                "name": "ナゾノクサ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "blue"
+                        ],
+                        "locations": [
+                            "5番道路",
+                            "6番道路",
+                            "7番道路",
+                            "12番道路",
+                            "13番道路",
+                            "14番道路",
+                            "15番道路",
+                            "24番道路",
+                            "25番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "12番道路",
+                            "13番道路",
+                            "14番道路",
+                            "15番道路",
+                            "24番道路",
+                            "25番道路"
+                        ]
+                    }
+                ]
+            },
+            "0044": {
+                "globalNo": "0044",
+                "name": "クサイハナ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ナゾノクサから進化"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "12番道路",
+                            "13番道路",
+                            "14番道路",
+                            "15番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（1F・2F）"
+                        ]
+                    }
+                ]
+            },
+            "0045": {
+                "globalNo": "0045",
+                "name": "ラフレシア",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "クサイハナから進化"
+                    }
+                ]
+            },
+            "0046": {
+                "globalNo": "0046",
+                "name": "パラス",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "おつきみやま（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "サファリゾーン（東エリア・北エリア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "おつきみやま（B1F・B2F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "サファリゾーン（センターエリア）"
+                        ]
+                    }
+                ]
+            },
+            "0047": {
+                "globalNo": "0047",
+                "name": "パラセクト",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "パラスから進化"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "サファリゾーン（センターエリア・東エリア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（1F・B1F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "サファリゾーン（センターエリア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（1F）"
+                        ]
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "18番道路"
+                        ],
+                        "note": "ピカチュウ：モンジャラを渡す"
+                    }
+                ]
+            },
+            "0048": {
+                "globalNo": "0048",
+                "name": "コンパン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "12番道路",
+                            "13番道路",
+                            "14番道路",
+                            "15番道路",
+                            "サファリゾーン（センターエリア・西エリア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "14番道路",
+                            "15番道路",
+                            "24番道路",
+                            "25番道路"
+                        ]
+                    }
+                ]
+            },
+            "0049": {
+                "globalNo": "0049",
+                "name": "モルフォン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "コンパンから進化"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "サファリゾーン（北エリア・西エリア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "チャンピオンロード（3F）",
+                            "ハナダのどうくつ（1F・2F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "14番道路",
+                            "15番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（1F）"
+                        ]
+                    }
+                ]
+            },
+            "0050": {
+                "globalNo": "0050",
+                "name": "ディグダ",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ディグダのあな"
+                        ]
+                    }
+                ]
+            },
+            "0051": {
+                "globalNo": "0051",
+                "name": "ダグトリオ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ディグダから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ディグダのあな"
+                        ]
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "11番道路"
+                        ],
+                        "note": "ピカチュウ：ベロリンガを渡す"
+                    }
+                ]
+            },
+            "0052": {
+                "globalNo": "0052",
+                "name": "ニャース",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "5番道路",
+                            "6番道路",
+                            "7番道路",
+                            "8番道路"
+                        ]
+                    }
+                ]
+            },
+            "0053": {
+                "globalNo": "0053",
+                "name": "ペルシアン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [],
+                        "note": "ニャースから進化"
+                    }
+                ]
+            },
+            "0054": {
+                "globalNo": "0054",
+                "name": "コダック",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "ふたごじま（1F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ハナダシティ",
+                            "24番道路",
+                            "25番道路",
+                            "サファリゾーン（全エリア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "green"
+                        ],
+                        "locations": [
+                            "ふたごじま（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "6番道路"
+                        ]
+                    }
+                ]
+            },
+            "0055": {
+                "globalNo": "0055",
+                "name": "ゴルダック",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "コダックから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "ふたごじま（1F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "green"
+                        ],
+                        "locations": [
+                            "ふたごじま（B2F・B4F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "6番道路"
+                        ]
+                    }
+                ]
+            },
+            "0056": {
+                "globalNo": "0056",
+                "name": "マンキー",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "5番道路",
+                            "6番道路",
+                            "7番道路",
+                            "8番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "3番道路",
+                            "4番道路",
+                            "22番道路",
+                            "23番道路"
+                        ]
+                    }
+                ]
+            },
+            "0057": {
+                "globalNo": "0057",
+                "name": "オコリザル",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "マンキーから進化"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "23番道路"
+                        ]
+                    }
+                ]
+            },
+            "0058": {
+                "globalNo": "0058",
+                "name": "ガーディ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "blue"
+                        ],
+                        "locations": [
+                            "7番道路",
+                            "8番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ポケモンやしき（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ポケモンやしき（1F）"
+                        ]
+                    }
+                ]
+            },
+            "0059": {
+                "globalNo": "0059",
+                "name": "ウインディ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ガーディから進化"
+                    }
+                ]
+            },
+            "0060": {
+                "globalNo": "0060",
+                "name": "ニョロモ",
+                "methods": [
+                    {
+                        "type": "野生（釣り・いいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "釣り可能なすべての場所"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "マサラタウン",
+                            "トキワシティ",
+                            "22番道路"
+                        ]
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "ちかつうろ（5番道路-6番道路）"
+                        ],
+                        "note": "青：コラッタを渡す"
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "トキワシティ",
+                            "22番道路",
+                            "23番道路"
+                        ]
+                    }
+                ]
+            },
+            "0061": {
+                "globalNo": "0061",
+                "name": "ニョロゾ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ニョロモから進化"
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "タマムシシティ",
+                            "10番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "22番道路",
+                            "23番道路"
+                        ]
+                    }
+                ]
+            },
+            "0062": {
+                "globalNo": "0062",
+                "name": "ニョロボン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ニョロゾから進化"
+                    }
+                ]
+            },
+            "0063": {
+                "globalNo": "0063",
+                "name": "ケーシィ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "24番道路",
+                            "25番道路"
+                        ]
+                    },
+                    {
+                        "type": "景品交換",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "タマムシゲームコーナー"
+                        ],
+                        "note": "タマムシゲームコーナーのコインと交換"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "5番道路",
+                            "6番道路",
+                            "7番道路",
+                            "8番道路"
+                        ]
+                    }
+                ]
+            },
+            "0064": {
+                "globalNo": "0064",
+                "name": "ユンゲラー",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ケーシィから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（1F・2F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "8番道路"
+                        ]
+                    }
+                ]
+            },
+            "0065": {
+                "globalNo": "0065",
+                "name": "フーディン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ユンゲラーから進化（通信交換）"
+                    }
+                ]
+            },
+            "0066": {
+                "globalNo": "0066",
+                "name": "ワンリキー",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "イワヤマトンネル（全フロア）",
+                            "チャンピオンロード（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "10番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "イワヤマトンネル（全フロア）"
+                        ]
+                    }
+                ]
+            },
+            "0067": {
+                "globalNo": "0067",
+                "name": "ゴーリキー",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ワンリキーから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "チャンピオンロード（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "チャンピオンロード（2F・3F）"
+                        ]
+                    }
+                ]
+            },
+            "0068": {
+                "globalNo": "0068",
+                "name": "カイリキー",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ゴーリキーから進化（通信交換）"
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ちかつうろ（5番道路-6番道路）"
+                        ],
+                        "note": "ピカチュウ：カラカラを渡す"
+                    }
+                ]
+            },
+            "0069": {
+                "globalNo": "0069",
+                "name": "マダツボミ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "green"
+                        ],
+                        "locations": [
+                            "5番道路",
+                            "6番道路",
+                            "7番道路",
+                            "12番道路",
+                            "13番道路",
+                            "14番道路",
+                            "15番道路",
+                            "24番道路",
+                            "25番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "12番道路",
+                            "13番道路",
+                            "14番道路",
+                            "15番道路",
+                            "24番道路",
+                            "25番道路"
+                        ]
+                    }
+                ]
+            },
+            "0070": {
+                "globalNo": "0070",
+                "name": "ウツドン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "green",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "マダツボミから進化"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "green",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "12番道路",
+                            "13番道路",
+                            "14番道路",
+                            "15番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（1F・2F）"
+                        ]
+                    }
+                ]
+            },
+            "0071": {
+                "globalNo": "0071",
+                "name": "ウツボット",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "green",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ウツドンから進化"
+                    }
+                ]
+            },
+            "0072": {
+                "globalNo": "0072",
+                "name": "メノクラゲ",
+                "methods": [
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "19番水道",
+                            "20番水道",
+                            "21番水道"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "マサラタウン",
+                            "トキワシティ",
+                            "12番道路",
+                            "13番道路",
+                            "17番道路",
+                            "18番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "19番水道",
+                            "20番水道",
+                            "21番水道",
+                            "ふたごじま（B3F・B4F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "マサラタウン",
+                            "クチバシティ・クチバみなと",
+                            "グレンじま",
+                            "11番道路",
+                            "13番道路",
+                            "17番道路",
+                            "18番道路",
+                            "19番水道",
+                            "20番水道",
+                            "21番水道"
+                        ]
+                    }
+                ]
+            },
+            "0073": {
+                "globalNo": "0073",
+                "name": "ドククラゲ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "メノクラゲから進化"
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "19番水道",
+                            "20番水道",
+                            "21番水道"
+                        ]
+                    }
+                ]
+            },
+            "0074": {
+                "globalNo": "0074",
+                "name": "イシツブテ",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "おつきみやま（全フロア）",
+                            "イワヤマトンネル（全フロア）",
+                            "チャンピオンロード（全フロア）"
+                        ]
+                    }
+                ]
+            },
+            "0075": {
+                "globalNo": "0075",
+                "name": "ゴローン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "イシツブテから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "チャンピオンロード（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "チャンピオンロード（全フロア）",
+                            "ハナダのどうくつ（全フロア）"
+                        ]
+                    }
+                ]
+            },
+            "0076": {
+                "globalNo": "0076",
+                "name": "ゴローニャ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ゴローンから進化（通信交換）"
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "グレンじま研究所"
+                        ],
+                        "note": "青：ユンゲラーを渡す"
+                    }
+                ]
+            },
+            "0077": {
+                "globalNo": "0077",
+                "name": "ポニータ",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ポケモンやしき（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "17番道路"
+                        ]
+                    }
+                ]
+            },
+            "0078": {
+                "globalNo": "0078",
+                "name": "ギャロップ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ポニータから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（1F）"
+                        ]
+                    }
+                ]
+            },
+            "0079": {
+                "globalNo": "0079",
+                "name": "ヤドン",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "ふたごじま（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "タマムシシティ",
+                            "10番道路",
+                            "サファリゾーン（全エリア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ふたごじま（1F）"
+                        ]
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "グレンじま研究所"
+                        ],
+                        "note": "青：パウワウを渡す"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ふたごじま（1F・B1F・B2F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "12番道路",
+                            "13番道路"
+                        ]
+                    }
+                ]
+            },
+            "0080": {
+                "globalNo": "0080",
+                "name": "ヤドラン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ヤドンから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "ふたごじま（B2F・B4F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "23番道路",
+                            "ハナダのどうくつ（1F・B1F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ふたごじま（1F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ふたごじま（B2F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "12番道路",
+                            "13番道路"
+                        ]
+                    }
+                ]
+            },
+            "0081": {
+                "globalNo": "0081",
+                "name": "コイル",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "むじんはつでんしょ"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "10番道路"
+                        ]
+                    }
+                ]
+            },
+            "0082": {
+                "globalNo": "0082",
+                "name": "レアコイル",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "コイルから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "むじんはつでんしょ",
+                            "ハナダのどうくつ（1F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "むじんはつでんしょ"
+                        ]
+                    }
+                ]
+            },
+            "0083": {
+                "globalNo": "0083",
+                "name": "カモネギ",
+                "methods": [
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "クチバシティ"
+                        ],
+                        "note": "赤・緑：オニスズメを渡す、青：ポッポを渡す"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "12番道路",
+                            "13番道路"
+                        ]
+                    }
+                ]
+            },
+            "0084": {
+                "globalNo": "0084",
+                "name": "ドードー",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "16番道路",
+                            "17番道路",
+                            "18番道路",
+                            "サファリゾーン（東エリア・西エリア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "16番道路",
+                            "17番道路",
+                            "18番道路"
+                        ]
+                    }
+                ]
+            },
+            "0085": {
+                "globalNo": "0085",
+                "name": "ドードリオ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ドードーから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（1F・2F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（2F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "17番道路"
+                        ]
+                    }
+                ]
+            },
+            "0086": {
+                "globalNo": "0086",
+                "name": "パウワウ",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ふたごじま（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "red",
+                            "green"
+                        ],
+                        "locations": [
+                            "グレンじま研究所"
+                        ],
+                        "note": "赤・緑：ポニータを渡す"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ふたごじま（B1F・B2F・B3F・B4F）"
+                        ]
+                    }
+                ]
+            },
+            "0087": {
+                "globalNo": "0087",
+                "name": "ジュゴン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "パウワウから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ふたごじま（B1F・B3F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ふたごじま（B3F・B4F）"
+                        ]
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "グレンじま研究所"
+                        ],
+                        "note": "ピカチュウ：ガーディを渡す"
+                    }
+                ]
+            },
+            "0088": {
+                "globalNo": "0088",
+                "name": "ベトベター",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ポケモンやしき（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "むじんはつでんしょ",
+                            "ポケモンやしき（全フロア）"
+                        ]
+                    }
+                ]
+            },
+            "0089": {
+                "globalNo": "0089",
+                "name": "ベトベトン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ベトベターから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ポケモンやしき（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "むじんはつでんしょ",
+                            "ポケモンやしき（2F・3F・B1F）"
+                        ]
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "グレンじま研究所"
+                        ],
+                        "note": "ピカチュウ：ガルーラを渡す"
+                    }
+                ]
+            },
+            "0090": {
+                "globalNo": "0090",
+                "name": "シェルダー",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "ふたごじま（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "クチバシティ・クチバみなと",
+                            "グレンじま",
+                            "6番道路",
+                            "11番道路",
+                            "19番水道",
+                            "20番水道",
+                            "21番水道",
+                            "ふたごじま（B3F・B4F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ふたごじま（B1F・B2F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "クチバみなと",
+                            "17番道路",
+                            "18番道路"
+                        ]
+                    }
+                ]
+            },
+            "0091": {
+                "globalNo": "0091",
+                "name": "パルシェン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "シェルダーから進化"
+                    }
+                ]
+            },
+            "0092": {
+                "globalNo": "0092",
+                "name": "ゴース",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ポケモンタワー（3F〜）"
+                        ]
+                    }
+                ]
+            },
+            "0093": {
+                "globalNo": "0093",
+                "name": "ゴースト",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ゴースから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ポケモンタワー（3F〜）"
+                        ]
+                    }
+                ]
+            },
+            "0094": {
+                "globalNo": "0094",
+                "name": "ゲンガー",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ゴーストから進化（通信交換）"
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "ハナダシティ"
+                        ],
+                        "note": "青：ゴーリキーを渡す"
+                    }
+                ]
+            },
+            "0095": {
+                "globalNo": "0095",
+                "name": "イワーク",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "イワヤマトンネル（全フロア）",
+                            "チャンピオンロード（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "イワヤマトンネル（B1F）",
+                            "チャンピオンロード（全フロア）"
+                        ]
+                    }
+                ]
+            },
+            "0096": {
+                "globalNo": "0096",
+                "name": "スリープ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "11番道路"
+                        ]
+                    }
+                ]
+            },
+            "0097": {
+                "globalNo": "0097",
+                "name": "スリーパー",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "スリープから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（1F）"
+                        ]
+                    }
+                ]
+            },
+            "0098": {
+                "globalNo": "0098",
+                "name": "クラブ",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ハナダシティ",
+                            "クチバシティ・クチバみなと",
+                            "セキチクシティ",
+                            "6番道路",
+                            "11番道路",
+                            "12番道路",
+                            "13番道路",
+                            "17番道路",
+                            "18番道路",
+                            "24番道路",
+                            "25番道路",
+                            "サファリゾーン（全エリア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ふたごじま（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "グレンじま研究所"
+                        ],
+                        "note": "青：ガーディを渡す"
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "10番道路",
+                            "25番道路",
+                            "ふたごじま（B3F・B4F）"
+                        ]
+                    }
+                ]
+            },
+            "0099": {
+                "globalNo": "0099",
+                "name": "キングラー",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "クラブから進化"
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "23番道路",
+                            "ハナダのどうくつ（1F・B1F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ふたごじま（B1F・B3F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ふたごじま（B1F・B2F・B3F・B4F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "10番道路",
+                            "25番道路",
+                            "ふたごじま（B3F・B4F）"
+                        ]
+                    }
+                ]
+            },
+            "0100": {
+                "globalNo": "0100",
+                "name": "ビリリダマ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "10番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "むじんはつでんしょ"
+                        ]
+                    },
+                    {
+                        "type": "固定シンボル",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "むじんはつでんしょ（6体）"
+                        ],
+                        "note": "モンスターボール型の固定シンボル"
+                    }
+                ]
+            },
+            "0101": {
+                "globalNo": "0101",
+                "name": "マルマイン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ビリリダマから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（2F・B1F）"
+                        ]
+                    },
+                    {
+                        "type": "固定シンボル",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "むじんはつでんしょ（2体）"
+                        ],
+                        "note": "モンスターボール型の固定シンボル"
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "red",
+                            "green"
+                        ],
+                        "locations": [
+                            "グレンじま研究所"
+                        ],
+                        "note": "赤・緑：ライチュウを渡す"
+                    }
+                ]
+            },
+            "0102": {
+                "globalNo": "0102",
+                "name": "タマタマ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "サファリゾーン（全エリア）"
+                        ]
+                    }
+                ]
+            },
+            "0103": {
+                "globalNo": "0103",
+                "name": "ナッシー",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "タマタマから進化"
+                    }
+                ]
+            },
+            "0104": {
+                "globalNo": "0104",
+                "name": "カラカラ",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ポケモンタワー（3F〜）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ポケモンタワー（5F〜）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "サファリゾーン（東エリア・北エリア・西エリア）"
+                        ]
+                    }
+                ]
+            },
+            "0105": {
+                "globalNo": "0105",
+                "name": "ガラガラ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "カラカラから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green"
+                        ],
+                        "locations": [
+                            "チャンピオンロード（1F・2F）",
+                            "ハナダのどうくつ（2F・B1F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "チャンピオンロード（1F・2F）",
+                            "ハナダのどうくつ（B1F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "サファリゾーン（東エリア・西エリア）"
+                        ]
+                    }
+                ]
+            },
+            "0106": {
+                "globalNo": "0106",
+                "name": "サワムラー",
+                "methods": [
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "かくとうどうじょう"
+                        ],
+                        "note": "エビワラーとの選択式（1体のみ）"
+                    }
+                ]
+            },
+            "0107": {
+                "globalNo": "0107",
+                "name": "エビワラー",
+                "methods": [
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "かくとうどうじょう"
+                        ],
+                        "note": "サワムラーとの選択式（1体のみ）"
+                    }
+                ]
+            },
+            "0108": {
+                "globalNo": "0108",
+                "name": "ベロリンガ",
+                "methods": [
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "red",
+                            "green"
+                        ],
+                        "locations": [
+                            "18番道路"
+                        ],
+                        "note": "赤・緑：ヤドランを渡す"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "サファリゾーン（東エリア・西エリア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（B1F）"
+                        ]
+                    }
+                ]
+            },
+            "0109": {
+                "globalNo": "0109",
+                "name": "ドガース",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green"
+                        ],
+                        "locations": [
+                            "ポケモンやしき（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "ポケモンやしき（1F・2F・B1F）"
+                        ]
+                    }
+                ]
+            },
+            "0110": {
+                "globalNo": "0110",
+                "name": "マタドガス",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [],
+                        "note": "ドガースから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ポケモンやしき（全フロア）"
+                        ]
+                    }
+                ]
+            },
+            "0111": {
+                "globalNo": "0111",
+                "name": "サイホーン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "サファリゾーン（センターエリア・北エリア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（2F・B1F）"
+                        ]
+                    }
+                ]
+            },
+            "0112": {
+                "globalNo": "0112",
+                "name": "サイドン",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "サイホーンから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（2F・B1F）"
+                        ]
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "グレンじま研究所"
+                        ],
+                        "note": "ピカチュウ：ゴルダックを渡す"
+                    }
+                ]
+            },
+            "0113": {
+                "globalNo": "0113",
+                "name": "ラッキー",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "サファリゾーン（センターエリア・北エリア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（2F・B1F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（2F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "サファリゾーン（センターエリア・東エリア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（B1F）"
+                        ]
+                    }
+                ]
+            },
+            "0114": {
+                "globalNo": "0114",
+                "name": "モンジャラ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "21番水道"
+                        ]
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "red",
+                            "green"
+                        ],
+                        "locations": [
+                            "グレンじま研究所"
+                        ],
+                        "note": "赤・緑：コンパンを渡す"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "サファリゾーン（センターエリア・西エリア）"
+                        ]
+                    }
+                ]
+            },
+            "0115": {
+                "globalNo": "0115",
+                "name": "ガルーラ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green"
+                        ],
+                        "locations": [
+                            "サファリゾーン（東エリア・西エリア）"
+                        ]
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "11番道路"
+                        ],
+                        "note": "青：サイドンを渡す"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "サファリゾーン（北エリア）"
+                        ]
+                    }
+                ]
+            },
+            "0116": {
+                "globalNo": "0116",
+                "name": "タッツー",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ふたごじま（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "グレンじま",
+                            "19番水道",
+                            "20番水道",
+                            "21番水道",
+                            "ふたごじま（B3F・B4F）"
+                        ]
+                    },
+                    {
+                        "type": "景品交換",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "タマムシゲームコーナー"
+                        ],
+                        "note": "タマムシゲームコーナーのコインと交換"
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "クチバシティ",
+                            "10番道路",
+                            "11番道路",
+                            "12番道路",
+                            "13番道路"
+                        ]
+                    }
+                ]
+            },
+            "0117": {
+                "globalNo": "0117",
+                "name": "シードラ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "タッツーから進化"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "ふたごじま（B1F・B3F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "23番道路",
+                            "ハナダのどうくつ（1F・B1F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "12番道路",
+                            "13番道路"
+                        ]
+                    }
+                ]
+            },
+            "0118": {
+                "globalNo": "0118",
+                "name": "トサキント",
+                "methods": [
+                    {
+                        "type": "野生（釣り・いいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "釣り可能なすべての場所"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ハナダシティ",
+                            "セキチクシティ",
+                            "グレンじま",
+                            "12番道路",
+                            "13番道路",
+                            "17番道路",
+                            "18番道路",
+                            "19番水道",
+                            "20番水道",
+                            "21番水道",
+                            "22番道路",
+                            "24番道路",
+                            "25番道路",
+                            "ふたごじま（B3F・B4F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ハナダシティ",
+                            "タマムシシティ",
+                            "6番道路",
+                            "24番道路",
+                            "ハナダのどうくつ（1F・B1F）"
+                        ]
+                    }
+                ]
+            },
+            "0119": {
+                "globalNo": "0119",
+                "name": "アズマオウ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "トサキントから進化"
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "セキチクシティ",
+                            "23番道路",
+                            "ハナダのどうくつ（1F・B1F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ハナダシティ",
+                            "24番道路",
+                            "ハナダのどうくつ（1F・B1F）"
+                        ]
+                    }
+                ]
+            },
+            "0120": {
+                "globalNo": "0120",
+                "name": "ヒトデマン",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "ふたごじま（B1F・B2F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "グレンじま",
+                            "19番水道",
+                            "20番水道",
+                            "21番水道",
+                            "ふたごじま（B3F・B4F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "ふたごじま（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ふたごじま（B3F・B4F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "マサラタウン",
+                            "クチバみなと",
+                            "グレンじま",
+                            "19番水道",
+                            "20番水道",
+                            "21番水道",
+                            "ふたごじま（B3F・B4F）"
+                        ]
+                    }
+                ]
+            },
+            "0121": {
+                "globalNo": "0121",
+                "name": "スターミー",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ヒトデマンから進化"
+                    }
+                ]
+            },
+            "0122": {
+                "globalNo": "0122",
+                "name": "バリヤード",
+                "methods": [
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "2番道路"
+                        ],
+                        "note": "赤・緑：ケーシィを渡す、青：プリンを渡す、ピカチュウ：ピッピを渡す"
+                    }
+                ]
+            },
+            "0123": {
+                "globalNo": "0123",
+                "name": "ストライク",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "blue"
+                        ],
+                        "locations": [
+                            "サファリゾーン（センターエリア・東エリア）"
+                        ]
+                    },
+                    {
+                        "type": "景品交換",
+                        "versions": [
+                            "red",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "タマムシゲームコーナー"
+                        ],
+                        "note": "タマムシゲームコーナーのコインと交換"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "サファリゾーン（東エリア・北エリア）"
+                        ]
+                    }
+                ]
+            },
+            "0124": {
+                "globalNo": "0124",
+                "name": "ルージュラ",
+                "methods": [
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "red",
+                            "green"
+                        ],
+                        "locations": [
+                            "ハナダシティ"
+                        ],
+                        "note": "赤・緑：ニョロゾを渡す"
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "ふたごじま（B2F・B4F）"
+                        ]
+                    }
+                ]
+            },
+            "0125": {
+                "globalNo": "0125",
+                "name": "エレブー",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red"
+                        ],
+                        "locations": [
+                            "むじんはつでんしょ"
+                        ]
+                    }
+                ]
+            },
+            "0126": {
+                "globalNo": "0126",
+                "name": "ブーバー",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "green"
+                        ],
+                        "locations": [
+                            "ポケモンやしき（3F・B1F）"
+                        ]
+                    }
+                ]
+            },
+            "0127": {
+                "globalNo": "0127",
+                "name": "カイロス",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "green"
+                        ],
+                        "locations": [
+                            "サファリゾーン（センターエリア・東エリア）"
+                        ]
+                    },
+                    {
+                        "type": "景品交換",
+                        "versions": [
+                            "green",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "タマムシゲームコーナー"
+                        ],
+                        "note": "タマムシゲームコーナーのコインと交換"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "サファリゾーン（北エリア・西エリア）"
+                        ]
+                    }
+                ]
+            },
+            "0128": {
+                "globalNo": "0128",
+                "name": "ケンタロス",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green"
+                        ],
+                        "locations": [
+                            "サファリゾーン（北エリア・西エリア）"
+                        ]
+                    },
+                    {
+                        "type": "NPC交換",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "18番道路"
+                        ],
+                        "note": "青：ペルシアンを渡す"
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "サファリゾーン（東エリア・西エリア）"
+                        ]
+                    }
+                ]
+            },
+            "0129": {
+                "globalNo": "0129",
+                "name": "コイキング",
+                "methods": [
+                    {
+                        "type": "野生（釣り・ボロのつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "釣り可能なすべての場所"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "セキチクシティ",
+                            "12番道路",
+                            "13番道路",
+                            "17番道路",
+                            "18番道路"
+                        ]
+                    },
+                    {
+                        "type": "購入",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "4番道路"
+                        ],
+                        "note": "コイキング売り（500円）"
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "セキチクシティ",
+                            "サファリゾーン（全エリア）"
+                        ]
+                    }
+                ]
+            },
+            "0130": {
+                "globalNo": "0130",
+                "name": "ギャラドス",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "コイキングから進化"
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "セキチクシティ"
+                        ]
+                    }
+                ]
+            },
+            "0131": {
+                "globalNo": "0131",
+                "name": "ラプラス",
+                "methods": [
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "シルフカンパニー"
+                        ],
+                        "note": "1体のみ"
+                    }
+                ]
+            },
+            "0132": {
+                "globalNo": "0132",
+                "name": "メタモン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue"
+                        ],
+                        "locations": [
+                            "13番道路",
+                            "14番道路",
+                            "15番道路",
+                            "23番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "red",
+                            "green"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "イワヤマトンネル（全フロア）",
+                            "ハナダのどうくつ（全フロア）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ポケモンやしき（B1F）",
+                            "ハナダのどうくつ（全フロア）"
+                        ]
+                    }
+                ]
+            },
+            "0133": {
+                "globalNo": "0133",
+                "name": "イーブイ",
+                "methods": [
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "タマムシシティ"
+                        ],
+                        "note": "1体のみ"
+                    }
+                ]
+            },
+            "0134": {
+                "globalNo": "0134",
+                "name": "シャワーズ",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "イーブイから進化"
+                    }
+                ]
+            },
+            "0135": {
+                "globalNo": "0135",
+                "name": "サンダース",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "イーブイから進化"
+                    }
+                ]
+            },
+            "0136": {
+                "globalNo": "0136",
+                "name": "ブースター",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "イーブイから進化"
+                    }
+                ]
+            },
+            "0137": {
+                "globalNo": "0137",
+                "name": "ポリゴン",
+                "methods": [
+                    {
+                        "type": "景品交換",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "タマムシゲームコーナー"
+                        ],
+                        "note": "タマムシゲームコーナーのコインと交換"
+                    }
+                ]
+            },
+            "0138": {
+                "globalNo": "0138",
+                "name": "オムナイト",
+                "methods": [
+                    {
+                        "type": "化石復元",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "グレンじま研究所"
+                        ],
+                        "note": "こうらのかせきから復元、カブトとの選択式（1体のみ）"
+                    }
+                ]
+            },
+            "0139": {
+                "globalNo": "0139",
+                "name": "オムスター",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "オムナイトから進化"
+                    }
+                ]
+            },
+            "0140": {
+                "globalNo": "0140",
+                "name": "カブト",
+                "methods": [
+                    {
+                        "type": "化石復元",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "グレンじま研究所"
+                        ],
+                        "note": "たてのかせきから復元、オムナイトとの選択式（1体のみ）"
+                    }
+                ]
+            },
+            "0141": {
+                "globalNo": "0141",
+                "name": "カブトプス",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "カブトから進化"
+                    }
+                ]
+            },
+            "0142": {
+                "globalNo": "0142",
+                "name": "プテラ",
+                "methods": [
+                    {
+                        "type": "化石復元",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "グレンじま研究所"
+                        ],
+                        "note": "ひみつのコハクから復元、1体のみ"
+                    }
+                ]
+            },
+            "0143": {
+                "globalNo": "0143",
+                "name": "カビゴン",
+                "methods": [
+                    {
+                        "type": "固定シンボル",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "12番道路",
+                            "16番道路"
+                        ],
+                        "note": "2体のみ（倒す・逃げると再出現しない）"
+                    }
+                ]
+            },
+            "0144": {
+                "globalNo": "0144",
+                "name": "フリーザー",
+                "methods": [
+                    {
+                        "type": "固定シンボル",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ふたごじま（B4F）"
+                        ],
+                        "note": "1体のみ（倒す・逃げると再出現しない）"
+                    }
+                ]
+            },
+            "0145": {
+                "globalNo": "0145",
+                "name": "サンダー",
+                "methods": [
+                    {
+                        "type": "固定シンボル",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "むじんはつでんしょ"
+                        ],
+                        "note": "1体のみ（倒す・逃げると再出現しない）"
+                    }
+                ]
+            },
+            "0146": {
+                "globalNo": "0146",
+                "name": "ファイヤー",
+                "methods": [
+                    {
+                        "type": "固定シンボル",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "チャンピオンロード（2F）"
+                        ],
+                        "note": "1体のみ（倒す・逃げると再出現しない）"
+                    }
+                ]
+            },
+            "0147": {
+                "globalNo": "0147",
+                "name": "ミニリュウ",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "サファリゾーン（全エリア）"
+                        ]
+                    },
+                    {
+                        "type": "景品交換",
+                        "versions": [
+                            "red",
+                            "green"
+                        ],
+                        "locations": [
+                            "タマムシゲームコーナー"
+                        ],
+                        "note": "タマムシゲームコーナーのコインと交換"
+                    }
+                ]
+            },
+            "0148": {
+                "globalNo": "0148",
+                "name": "ハクリュー",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ミニリュウから進化"
+                    },
+                    {
+                        "type": "景品交換",
+                        "versions": [
+                            "blue"
+                        ],
+                        "locations": [
+                            "タマムシゲームコーナー"
+                        ],
+                        "note": "タマムシゲームコーナーのコインと交換"
+                    },
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "サファリゾーン（センターエリア）"
+                        ]
+                    }
+                ]
+            },
+            "0149": {
+                "globalNo": "0149",
+                "name": "カイリュー",
+                "methods": [
+                    {
+                        "type": "進化のみ",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "ハクリューから進化"
+                    }
+                ]
+            },
+            "0150": {
+                "globalNo": "0150",
+                "name": "ミュウツー",
+                "methods": [
+                    {
+                        "type": "固定シンボル",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [
+                            "ハナダのどうくつ（B1F）"
+                        ],
+                        "note": "1体のみ（倒す・逃げると再出現しない）"
+                    }
+                ]
+            },
+            "0151": {
+                "globalNo": "0151",
+                "name": "ミュウ",
+                "methods": [
+                    {
+                        "type": "イベント",
+                        "versions": [
+                            "red",
+                            "green",
+                            "blue",
+                            "pikachu"
+                        ],
+                        "locations": [],
+                        "note": "イベント配布（通常プレイでは入手不可）"
+                    }
+                ]
+            }
+        }
+    }
+}

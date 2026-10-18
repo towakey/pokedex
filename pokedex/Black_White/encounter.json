@@ -1,0 +1,5336 @@
+{
+    "update": "20261018",
+    "game_version": "Black_White",
+    "encounter": {
+        "unova": {
+            "0011": {
+                "globalNo": "0011",
+                "name": "トランセル",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    }
+                ]
+            },
+            "0012": {
+                "globalNo": "0012",
+                "name": "バタフリー",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    }
+                ]
+            },
+            "0014": {
+                "globalNo": "0014",
+                "name": "コクーン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    }
+                ]
+            },
+            "0015": {
+                "globalNo": "0015",
+                "name": "スピアー",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    }
+                ]
+            },
+            "0020": {
+                "globalNo": "0020",
+                "name": "ラッタ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "夢の跡地",
+                            "夢の跡地（B1F）"
+                        ]
+                    }
+                ]
+            },
+            "0022": {
+                "globalNo": "0022",
+                "name": "オニドリル",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "15番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "15番道路"
+                        ]
+                    }
+                ]
+            },
+            "0028": {
+                "globalNo": "0028",
+                "name": "サンドパン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "古代の城（エリアC）"
+                        ]
+                    }
+                ]
+            },
+            "0035": {
+                "globalNo": "0035",
+                "name": "ピッピ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（森）"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（森）"
+                        ]
+                    }
+                ]
+            },
+            "0036": {
+                "globalNo": "0036",
+                "name": "ピクシー",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（森）"
+                        ]
+                    }
+                ]
+            },
+            "0037": {
+                "globalNo": "0037",
+                "name": "ロコン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    }
+                ]
+            },
+            "0038": {
+                "globalNo": "0038",
+                "name": "キュウコン",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    }
+                ]
+            },
+            "0039": {
+                "globalNo": "0039",
+                "name": "プリン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "14番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "14番道路"
+                        ]
+                    }
+                ]
+            },
+            "0040": {
+                "globalNo": "0040",
+                "name": "プクリン",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "14番道路"
+                        ]
+                    }
+                ]
+            },
+            "0042": {
+                "globalNo": "0042",
+                "name": "ゴルバット",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（外）",
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）",
+                            "13番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（外）",
+                            "13番道路"
+                        ]
+                    }
+                ]
+            },
+            "0049": {
+                "globalNo": "0049",
+                "name": "モルフォン",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "夢の跡地"
+                        ]
+                    }
+                ]
+            },
+            "0055": {
+                "globalNo": "0055",
+                "name": "ゴルダック",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ビレッジブリッジ",
+                            "11番道路",
+                            "14番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ビレッジブリッジ",
+                            "11番道路",
+                            "14番道路"
+                        ]
+                    }
+                ]
+            },
+            "0060": {
+                "globalNo": "0060",
+                "name": "ニョロモ",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "チャンピオンロード",
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）",
+                            "地下水脈の穴",
+                            "6番道路",
+                            "修行の岩屋（B2F）"
+                        ]
+                    }
+                ]
+            },
+            "0061": {
+                "globalNo": "0061",
+                "name": "ニョロゾ",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "チャンピオンロード",
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）",
+                            "地下水脈の穴",
+                            "6番道路",
+                            "修行の岩屋（B2F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "チャンピオンロード",
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）",
+                            "地下水脈の穴",
+                            "6番道路",
+                            "修行の岩屋（B2F）"
+                        ]
+                    }
+                ]
+            },
+            "0062": {
+                "globalNo": "0062",
+                "name": "ニョロボン",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "チャンピオンロード",
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）",
+                            "地下水脈の穴",
+                            "修行の岩屋（B2F）"
+                        ]
+                    }
+                ]
+            },
+            "0075": {
+                "globalNo": "0075",
+                "name": "ゴローン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "修行の岩屋（1F）",
+                            "修行の岩屋（B1F）",
+                            "修行の岩屋（B2F）"
+                        ]
+                    }
+                ]
+            },
+            "0078": {
+                "globalNo": "0078",
+                "name": "ギャロップ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    }
+                ]
+            },
+            "0079": {
+                "globalNo": "0079",
+                "name": "ヤドン",
+                "methods": [
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    },
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    }
+                ]
+            },
+            "0080": {
+                "globalNo": "0080",
+                "name": "ヤドラン",
+                "methods": [
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    }
+                ]
+            },
+            "0086": {
+                "globalNo": "0086",
+                "name": "パウワウ",
+                "methods": [
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）"
+                        ]
+                    },
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）"
+                        ]
+                    }
+                ]
+            },
+            "0087": {
+                "globalNo": "0087",
+                "name": "ジュゴン",
+                "methods": [
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）"
+                        ]
+                    }
+                ]
+            },
+            "0090": {
+                "globalNo": "0090",
+                "name": "シェルダー",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サザナミ湾",
+                            "13番道路",
+                            "サザナミタウン"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サザナミ湾",
+                            "13番道路",
+                            "サザナミタウン"
+                        ]
+                    }
+                ]
+            },
+            "0091": {
+                "globalNo": "0091",
+                "name": "パルシェン",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サザナミ湾",
+                            "13番道路",
+                            "サザナミタウン"
+                        ]
+                    }
+                ]
+            },
+            "0095": {
+                "globalNo": "0095",
+                "name": "イワーク",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "古代の城（エリアC）"
+                        ]
+                    }
+                ]
+            },
+            "0098": {
+                "globalNo": "0098",
+                "name": "クラブ",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ホドモエシティ",
+                            "4番道路",
+                            "13番道路"
+                        ]
+                    }
+                ]
+            },
+            "0099": {
+                "globalNo": "0099",
+                "name": "キングラー",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ホドモエシティ",
+                            "4番道路",
+                            "13番道路"
+                        ]
+                    }
+                ]
+            },
+            "0105": {
+                "globalNo": "0105",
+                "name": "ガラガラ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "15番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "15番道路"
+                        ]
+                    }
+                ]
+            },
+            "0108": {
+                "globalNo": "0108",
+                "name": "ベロリンガ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "修行の岩屋（1F）",
+                            "修行の岩屋（B1F）",
+                            "修行の岩屋（B2F）"
+                        ]
+                    }
+                ]
+            },
+            "0114": {
+                "globalNo": "0114",
+                "name": "モンジャラ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（外）",
+                            "13番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（外）",
+                            "13番道路"
+                        ]
+                    }
+                ]
+            },
+            "0115": {
+                "globalNo": "0115",
+                "name": "ガルーラ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "15番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "15番道路"
+                        ]
+                    }
+                ]
+            },
+            "0116": {
+                "globalNo": "0116",
+                "name": "タッツー",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "Ｐ2ラボ",
+                            "18番道路",
+                            "17番水道"
+                        ]
+                    }
+                ]
+            },
+            "0117": {
+                "globalNo": "0117",
+                "name": "シードラ",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "Ｐ2ラボ",
+                            "18番道路",
+                            "17番水道"
+                        ]
+                    }
+                ]
+            },
+            "0118": {
+                "globalNo": "0118",
+                "name": "トサキント",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サンヨウシティ",
+                            "ヤグルマの森（内部）",
+                            "3番道路",
+                            "11番道路",
+                            "14番道路",
+                            "ほうじょうの社",
+                            "迷いの森"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サンヨウシティ",
+                            "ヤグルマの森（内部）",
+                            "3番道路",
+                            "11番道路",
+                            "14番道路",
+                            "ほうじょうの社",
+                            "迷いの森"
+                        ]
+                    }
+                ]
+            },
+            "0119": {
+                "globalNo": "0119",
+                "name": "アズマオウ",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サンヨウシティ",
+                            "ヤグルマの森（内部）",
+                            "3番道路",
+                            "11番道路",
+                            "14番道路",
+                            "ほうじょうの社"
+                        ]
+                    }
+                ]
+            },
+            "0120": {
+                "globalNo": "0120",
+                "name": "ヒトデマン",
+                "methods": [
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "13番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "13番道路"
+                        ]
+                    }
+                ]
+            },
+            "0121": {
+                "globalNo": "0121",
+                "name": "スターミー",
+                "methods": [
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "13番道路"
+                        ]
+                    }
+                ]
+            },
+            "0124": {
+                "globalNo": "0124",
+                "name": "ルージュラ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）"
+                        ]
+                    }
+                ]
+            },
+            "0127": {
+                "globalNo": "0127",
+                "name": "カイロス",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    }
+                ]
+            },
+            "0129": {
+                "globalNo": "0129",
+                "name": "コイキング",
+                "methods": [
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ワンダーブリッジ"
+                        ]
+                    }
+                ]
+            },
+            "0131": {
+                "globalNo": "0131",
+                "name": "ラプラス",
+                "methods": [
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ビレッジブリッジ"
+                        ]
+                    }
+                ]
+            },
+            "0132": {
+                "globalNo": "0132",
+                "name": "メタモン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（森）"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（森）"
+                        ]
+                    }
+                ]
+            },
+            "0147": {
+                "globalNo": "0147",
+                "name": "ミニリュウ",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（外）"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（外）"
+                        ]
+                    }
+                ]
+            },
+            "0148": {
+                "globalNo": "0148",
+                "name": "ハクリュー",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（外）"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（外）"
+                        ]
+                    }
+                ]
+            },
+            "0149": {
+                "globalNo": "0149",
+                "name": "カイリュー",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（外）"
+                        ]
+                    }
+                ]
+            },
+            "0164": {
+                "globalNo": "0164",
+                "name": "ヨルノズク",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    }
+                ]
+            },
+            "0166": {
+                "globalNo": "0166",
+                "name": "レディアン",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "夢の跡地",
+                            "夢の跡地（B1F）"
+                        ]
+                    }
+                ]
+            },
+            "0168": {
+                "globalNo": "0168",
+                "name": "アリアドス",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "夢の跡地",
+                            "夢の跡地（B1F）"
+                        ]
+                    }
+                ]
+            },
+            "0169": {
+                "globalNo": "0169",
+                "name": "クロバット",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（外）",
+                            "13番道路"
+                        ]
+                    }
+                ]
+            },
+            "0170": {
+                "globalNo": "0170",
+                "name": "チョンチー",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ホドモエシティ",
+                            "18番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ホドモエシティ"
+                        ]
+                    }
+                ]
+            },
+            "0171": {
+                "globalNo": "0171",
+                "name": "ランターン",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ホドモエシティ"
+                        ]
+                    }
+                ]
+            },
+            "0186": {
+                "globalNo": "0186",
+                "name": "ニョロトノ",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "6番道路"
+                        ]
+                    }
+                ]
+            },
+            "0191": {
+                "globalNo": "0191",
+                "name": "ヒマナッツ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    }
+                ]
+            },
+            "0192": {
+                "globalNo": "0192",
+                "name": "キマワリ",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    }
+                ]
+            },
+            "0198": {
+                "globalNo": "0198",
+                "name": "ヤミカラス",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    }
+                ]
+            },
+            "0199": {
+                "globalNo": "0199",
+                "name": "ヤドキング",
+                "methods": [
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    }
+                ]
+            },
+            "0200": {
+                "globalNo": "0200",
+                "name": "ムウマ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    }
+                ]
+            },
+            "0206": {
+                "globalNo": "0206",
+                "name": "ノコッチ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    }
+                ]
+            },
+            "0207": {
+                "globalNo": "0207",
+                "name": "グライガー",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "11番道路",
+                            "15番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "11番道路",
+                            "15番道路"
+                        ]
+                    }
+                ]
+            },
+            "0211": {
+                "globalNo": "0211",
+                "name": "ハリーセン",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "Ｐ2ラボ",
+                            "18番道路",
+                            "17番水道"
+                        ]
+                    }
+                ]
+            },
+            "0213": {
+                "globalNo": "0213",
+                "name": "ツボツボ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "14番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "14番道路"
+                        ]
+                    }
+                ]
+            },
+            "0214": {
+                "globalNo": "0214",
+                "name": "ヘラクロス",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    }
+                ]
+            },
+            "0215": {
+                "globalNo": "0215",
+                "name": "ニューラ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）"
+                        ]
+                    }
+                ]
+            },
+            "0221": {
+                "globalNo": "0221",
+                "name": "イノムー",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（森）"
+                        ]
+                    }
+                ]
+            },
+            "0222": {
+                "globalNo": "0222",
+                "name": "サニーゴ",
+                "methods": [
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "13番道路",
+                            "サザナミタウン"
+                        ]
+                    }
+                ]
+            },
+            "0223": {
+                "globalNo": "0223",
+                "name": "テッポウオ",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サザナミ湾",
+                            "サザナミタウン"
+                        ]
+                    }
+                ]
+            },
+            "0224": {
+                "globalNo": "0224",
+                "name": "オクタン",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サザナミ湾",
+                            "サザナミタウン"
+                        ]
+                    }
+                ]
+            },
+            "0225": {
+                "globalNo": "0225",
+                "name": "デリバード",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）"
+                        ]
+                    }
+                ]
+            },
+            "0226": {
+                "globalNo": "0226",
+                "name": "マンタイン",
+                "methods": [
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サザナミ湾",
+                            "サザナミタウン"
+                        ]
+                    }
+                ]
+            },
+            "0230": {
+                "globalNo": "0230",
+                "name": "キングドラ",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "Ｐ2ラボ",
+                            "18番道路",
+                            "17番水道"
+                        ]
+                    }
+                ]
+            },
+            "0234": {
+                "globalNo": "0234",
+                "name": "オドシシ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    }
+                ]
+            },
+            "0247": {
+                "globalNo": "0247",
+                "name": "サナギラス",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "15番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "15番道路"
+                        ]
+                    }
+                ]
+            },
+            "0248": {
+                "globalNo": "0248",
+                "name": "バンギラス",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "15番道路"
+                        ]
+                    }
+                ]
+            },
+            "0277": {
+                "globalNo": "0277",
+                "name": "オオスバメ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（外）",
+                            "13番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（外）",
+                            "13番道路"
+                        ]
+                    }
+                ]
+            },
+            "0278": {
+                "globalNo": "0278",
+                "name": "キャモメ",
+                "methods": [
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サザナミ湾",
+                            "13番道路",
+                            "サザナミタウン"
+                        ]
+                    }
+                ]
+            },
+            "0279": {
+                "globalNo": "0279",
+                "name": "ペリッパー",
+                "methods": [
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サザナミ湾",
+                            "13番道路",
+                            "サザナミタウン"
+                        ]
+                    }
+                ]
+            },
+            "0302": {
+                "globalNo": "0302",
+                "name": "ヤミラミ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "修行の岩屋（1F）",
+                            "修行の岩屋（B1F）",
+                            "修行の岩屋（B2F）"
+                        ]
+                    }
+                ]
+            },
+            "0303": {
+                "globalNo": "0303",
+                "name": "クチート",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "修行の岩屋（1F）",
+                            "修行の岩屋（B1F）",
+                            "修行の岩屋（B2F）"
+                        ]
+                    }
+                ]
+            },
+            "0318": {
+                "globalNo": "0318",
+                "name": "キバニア",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ビレッジブリッジ"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ビレッジブリッジ"
+                        ]
+                    }
+                ]
+            },
+            "0319": {
+                "globalNo": "0319",
+                "name": "サメハダー",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ビレッジブリッジ"
+                        ]
+                    }
+                ]
+            },
+            "0320": {
+                "globalNo": "0320",
+                "name": "ホエルコ",
+                "methods": [
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サザナミ湾",
+                            "サザナミタウン"
+                        ]
+                    }
+                ]
+            },
+            "0321": {
+                "globalNo": "0321",
+                "name": "ホエルオー",
+                "methods": [
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サザナミ湾"
+                        ]
+                    }
+                ]
+            },
+            "0334": {
+                "globalNo": "0334",
+                "name": "チルタリス",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "14番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "14番道路"
+                        ]
+                    }
+                ]
+            },
+            "0335": {
+                "globalNo": "0335",
+                "name": "ザングース",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ビレッジブリッジ",
+                            "11番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ビレッジブリッジ",
+                            "11番道路"
+                        ]
+                    }
+                ]
+            },
+            "0336": {
+                "globalNo": "0336",
+                "name": "ハブネーク",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ビレッジブリッジ",
+                            "11番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ビレッジブリッジ",
+                            "11番道路"
+                        ]
+                    }
+                ]
+            },
+            "0337": {
+                "globalNo": "0337",
+                "name": "ルナトーン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（外）",
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）",
+                            "13番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（外）",
+                            "ジャイアントホール（森）",
+                            "13番道路"
+                        ]
+                    }
+                ]
+            },
+            "0338": {
+                "globalNo": "0338",
+                "name": "ソルロック",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（外）",
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）",
+                            "13番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（外）",
+                            "ジャイアントホール（森）",
+                            "13番道路"
+                        ]
+                    }
+                ]
+            },
+            "0339": {
+                "globalNo": "0339",
+                "name": "ドジョッチ",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "セッカシティ",
+                            "8番道路",
+                            "セッカの湿原"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "セッカシティ",
+                            "8番道路",
+                            "セッカの湿原"
+                        ]
+                    }
+                ]
+            },
+            "0340": {
+                "globalNo": "0340",
+                "name": "ナマズン",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "セッカシティ",
+                            "8番道路",
+                            "セッカの湿原"
+                        ]
+                    }
+                ]
+            },
+            "0344": {
+                "globalNo": "0344",
+                "name": "ネンドール",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "古代の城（エリアD）"
+                        ]
+                    }
+                ]
+            },
+            "0349": {
+                "globalNo": "0349",
+                "name": "ヒンバス",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "1番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "1番道路"
+                        ]
+                    }
+                ]
+            },
+            "0350": {
+                "globalNo": "0350",
+                "name": "ミロカロス",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "1番道路"
+                        ]
+                    }
+                ]
+            },
+            "0357": {
+                "globalNo": "0357",
+                "name": "トロピウス",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "14番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "14番道路"
+                        ]
+                    }
+                ]
+            },
+            "0358": {
+                "globalNo": "0358",
+                "name": "チリーン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    }
+                ]
+            },
+            "0359": {
+                "globalNo": "0359",
+                "name": "アブソル",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（外）",
+                            "13番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（外）",
+                            "13番道路"
+                        ]
+                    }
+                ]
+            },
+            "0363": {
+                "globalNo": "0363",
+                "name": "タマザラシ",
+                "methods": [
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サザナミ湾"
+                        ]
+                    }
+                ]
+            },
+            "0364": {
+                "globalNo": "0364",
+                "name": "トドグラー",
+                "methods": [
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サザナミ湾"
+                        ]
+                    }
+                ]
+            },
+            "0365": {
+                "globalNo": "0365",
+                "name": "トドゼルガ",
+                "methods": [
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サザナミ湾"
+                        ]
+                    }
+                ]
+            },
+            "0366": {
+                "globalNo": "0366",
+                "name": "パールル",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "4番道路"
+                        ]
+                    }
+                ]
+            },
+            "0367": {
+                "globalNo": "0367",
+                "name": "ハンテール",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "4番道路"
+                        ]
+                    }
+                ]
+            },
+            "0368": {
+                "globalNo": "0368",
+                "name": "サクラビス",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "4番道路"
+                        ]
+                    }
+                ]
+            },
+            "0369": {
+                "globalNo": "0369",
+                "name": "ジーランス",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "4番道路"
+                        ]
+                    }
+                ]
+            },
+            "0370": {
+                "globalNo": "0370",
+                "name": "ラブカス",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ホドモエシティ",
+                            "サザナミ湾",
+                            "4番道路",
+                            "13番道路",
+                            "サザナミタウン"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ホドモエシティ",
+                            "サザナミ湾",
+                            "4番道路",
+                            "13番道路",
+                            "サザナミタウン"
+                        ]
+                    }
+                ]
+            },
+            "0375": {
+                "globalNo": "0375",
+                "name": "メタング",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（森）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（森）"
+                        ]
+                    }
+                ]
+            },
+            "0376": {
+                "globalNo": "0376",
+                "name": "メタグロス",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（森）"
+                        ]
+                    }
+                ]
+            },
+            "0400": {
+                "globalNo": "0400",
+                "name": "ビーダル",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ビレッジブリッジ"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ビレッジブリッジ"
+                        ]
+                    }
+                ]
+            },
+            "0402": {
+                "globalNo": "0402",
+                "name": "コロトック",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "夢の跡地",
+                            "夢の跡地（B1F）"
+                        ]
+                    }
+                ]
+            },
+            "0415": {
+                "globalNo": "0415",
+                "name": "ミツハニー",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    }
+                ]
+            },
+            "0416": {
+                "globalNo": "0416",
+                "name": "ビークイン",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    }
+                ]
+            },
+            "0418": {
+                "globalNo": "0418",
+                "name": "ブイゼル",
+                "methods": [
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "11番道路",
+                            "14番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "11番道路",
+                            "14番道路"
+                        ]
+                    }
+                ]
+            },
+            "0419": {
+                "globalNo": "0419",
+                "name": "フローゼル",
+                "methods": [
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "11番道路",
+                            "14番道路"
+                        ]
+                    }
+                ]
+            },
+            "0421": {
+                "globalNo": "0421",
+                "name": "チェリム",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "12番道路"
+                        ]
+                    }
+                ]
+            },
+            "0426": {
+                "globalNo": "0426",
+                "name": "フワライド",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（外）",
+                            "13番道路",
+                            "14番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（外）",
+                            "13番道路",
+                            "14番道路"
+                        ]
+                    }
+                ]
+            },
+            "0429": {
+                "globalNo": "0429",
+                "name": "ムウマージ",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    }
+                ]
+            },
+            "0430": {
+                "globalNo": "0430",
+                "name": "ドンカラス",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    }
+                ]
+            },
+            "0437": {
+                "globalNo": "0437",
+                "name": "ドータクン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社"
+                        ]
+                    }
+                ]
+            },
+            "0447": {
+                "globalNo": "0447",
+                "name": "リオル",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "修行の岩屋（B1F）",
+                            "修行の岩屋（B2F）"
+                        ]
+                    }
+                ]
+            },
+            "0456": {
+                "globalNo": "0456",
+                "name": "ケイコウオ",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "Ｐ2ラボ",
+                            "18番道路",
+                            "17番水道"
+                        ]
+                    }
+                ]
+            },
+            "0457": {
+                "globalNo": "0457",
+                "name": "ネオラント",
+                "methods": [
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "Ｐ2ラボ",
+                            "18番道路",
+                            "17番水道"
+                        ]
+                    }
+                ]
+            },
+            "0458": {
+                "globalNo": "0458",
+                "name": "タマンタ",
+                "methods": [
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サザナミ湾",
+                            "サザナミタウン"
+                        ]
+                    }
+                ]
+            },
+            "0465": {
+                "globalNo": "0465",
+                "name": "モジャンボ",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（外）",
+                            "13番道路"
+                        ]
+                    }
+                ]
+            },
+            "0472": {
+                "globalNo": "0472",
+                "name": "グライオン",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "11番道路",
+                            "15番道路"
+                        ]
+                    }
+                ]
+            },
+            "0473": {
+                "globalNo": "0473",
+                "name": "マンムー",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ジャイアントホール（森）"
+                        ]
+                    }
+                ]
+            },
+            "0495": {
+                "globalNo": "0495",
+                "name": "ツタージャ",
+                "methods": [
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "カノコタウン"
+                        ]
+                    }
+                ]
+            },
+            "0498": {
+                "globalNo": "0498",
+                "name": "ポカブ",
+                "methods": [
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "カノコタウン"
+                        ]
+                    }
+                ]
+            },
+            "0501": {
+                "globalNo": "0501",
+                "name": "ミジュマル",
+                "methods": [
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "カノコタウン"
+                        ]
+                    }
+                ]
+            },
+            "0504": {
+                "globalNo": "0504",
+                "name": "ミネズミ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "夢の跡地",
+                            "1番道路",
+                            "2番道路",
+                            "3番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "3番道路"
+                        ]
+                    }
+                ]
+            },
+            "0505": {
+                "globalNo": "0505",
+                "name": "ミルホッグ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "夢の跡地",
+                            "1番道路",
+                            "7番道路",
+                            "15番道路",
+                            "18番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "Ｐ2ラボ",
+                            "7番道路",
+                            "18番道路"
+                        ]
+                    }
+                ]
+            },
+            "0506": {
+                "globalNo": "0506",
+                "name": "ヨーテリー",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "1番道路",
+                            "2番道路",
+                            "3番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "3番道路"
+                        ]
+                    }
+                ]
+            },
+            "0507": {
+                "globalNo": "0507",
+                "name": "ハーデリア",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "冷凍コンテナ",
+                            "1番道路",
+                            "10番道路",
+                            "10番道路（ゲート）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "冷凍コンテナ",
+                            "Ｐ2ラボ",
+                            "10番道路",
+                            "10番道路（ゲート）"
+                        ]
+                    }
+                ]
+            },
+            "0508": {
+                "globalNo": "0508",
+                "name": "ムーランド",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "冷凍コンテナ",
+                            "Ｐ2ラボ",
+                            "10番道路",
+                            "10番道路（ゲート）"
+                        ]
+                    }
+                ]
+            },
+            "0509": {
+                "globalNo": "0509",
+                "name": "チョロネコ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "夢の跡地",
+                            "2番道路",
+                            "3番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "3番道路"
+                        ]
+                    }
+                ]
+            },
+            "0510": {
+                "globalNo": "0510",
+                "name": "レパルダス",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "夢の跡地",
+                            "5番道路",
+                            "9番道路",
+                            "16番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "5番道路",
+                            "9番道路",
+                            "16番道路"
+                        ]
+                    }
+                ]
+            },
+            "0511": {
+                "globalNo": "0511",
+                "name": "ヤナップ",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（内部）",
+                            "迷いの森"
+                        ]
+                    },
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "夢の跡地"
+                        ]
+                    }
+                ]
+            },
+            "0513": {
+                "globalNo": "0513",
+                "name": "バオップ",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（内部）",
+                            "迷いの森"
+                        ]
+                    },
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "夢の跡地"
+                        ]
+                    }
+                ]
+            },
+            "0515": {
+                "globalNo": "0515",
+                "name": "ヒヤップ",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（内部）",
+                            "迷いの森"
+                        ]
+                    },
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "夢の跡地"
+                        ]
+                    }
+                ]
+            },
+            "0517": {
+                "globalNo": "0517",
+                "name": "ムンナ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "夢の跡地",
+                            "夢の跡地（B1F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "夢の跡地"
+                        ]
+                    }
+                ]
+            },
+            "0518": {
+                "globalNo": "0518",
+                "name": "ムシャーナ",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "夢の跡地"
+                        ]
+                    }
+                ]
+            },
+            "0519": {
+                "globalNo": "0519",
+                "name": "マメパト",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（外）",
+                            "3番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（外）",
+                            "3番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（内部）"
+                        ]
+                    }
+                ]
+            },
+            "0520": {
+                "globalNo": "0520",
+                "name": "ハトーボー",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（内部）",
+                            "リュウラセンの塔（外）",
+                            "6番道路",
+                            "7番道路",
+                            "12番道路",
+                            "迷いの森"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "6番道路",
+                            "7番道路",
+                            "12番道路",
+                            "迷いの森"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（入口）",
+                            "リュウラセンの塔（外）"
+                        ]
+                    }
+                ]
+            },
+            "0521": {
+                "globalNo": "0521",
+                "name": "ケンホロウ",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（入口）",
+                            "リュウラセンの塔（外）",
+                            "6番道路",
+                            "7番道路",
+                            "12番道路",
+                            "迷いの森"
+                        ]
+                    }
+                ]
+            },
+            "0522": {
+                "globalNo": "0522",
+                "name": "シママ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "3番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "3番道路"
+                        ]
+                    }
+                ]
+            },
+            "0523": {
+                "globalNo": "0523",
+                "name": "ゼブライカ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "7番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "7番道路"
+                        ]
+                    }
+                ]
+            },
+            "0524": {
+                "globalNo": "0524",
+                "name": "ダンゴロ",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "地下水脈の穴"
+                        ]
+                    }
+                ]
+            },
+            "0525": {
+                "globalNo": "0525",
+                "name": "ガントル",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "電気石の洞穴（1F）",
+                            "電気石の洞穴（B1F）",
+                            "電気石の洞穴（B2F）",
+                            "チャンピオンロード",
+                            "試練の室",
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）",
+                            "フキヨセの洞穴",
+                            "導の間",
+                            "修行の岩屋（1F）",
+                            "修行の岩屋（B1F）",
+                            "修行の岩屋（B2F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ネジ山"
+                        ]
+                    }
+                ]
+            },
+            "0527": {
+                "globalNo": "0527",
+                "name": "コロモリ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "チャンピオンロード",
+                            "試練の室",
+                            "フキヨセの洞穴",
+                            "導の間",
+                            "修行の岩屋（1F）",
+                            "修行の岩屋（B1F）",
+                            "修行の岩屋（B2F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ネジ山",
+                            "地下水脈の穴"
+                        ]
+                    }
+                ]
+            },
+            "0529": {
+                "globalNo": "0529",
+                "name": "モグリュー",
+                "methods": [
+                    {
+                        "type": "野生（ほこり・どうくつスポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "電気石の洞穴（1F）",
+                            "電気石の洞穴（B1F）",
+                            "電気石の洞穴（B2F）",
+                            "ネジ山",
+                            "地下水脈の穴",
+                            "フキヨセの洞穴",
+                            "導の間"
+                        ]
+                    }
+                ]
+            },
+            "0530": {
+                "globalNo": "0530",
+                "name": "ドリュウズ",
+                "methods": [
+                    {
+                        "type": "野生（ほこり・どうくつスポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "チャンピオンロード",
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）",
+                            "修行の岩屋（1F）",
+                            "修行の岩屋（B1F）",
+                            "修行の岩屋（B2F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "チャンピオンロード",
+                            "試練の室"
+                        ]
+                    }
+                ]
+            },
+            "0531": {
+                "globalNo": "0531",
+                "name": "タブンネ",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "夢の跡地",
+                            "ヤグルマの森（外）",
+                            "ヤグルマの森（内部）",
+                            "冷凍コンテナ",
+                            "リュウラセンの塔（入口）",
+                            "リュウラセンの塔（外）",
+                            "ジャイアントホール（外）",
+                            "ジャイアントホール（森）",
+                            "Ｐ2ラボ",
+                            "ビレッジブリッジ",
+                            "1番道路",
+                            "2番道路",
+                            "3番道路",
+                            "5番道路",
+                            "6番道路",
+                            "7番道路",
+                            "9番道路",
+                            "10番道路",
+                            "10番道路（ゲート）",
+                            "11番道路",
+                            "12番道路",
+                            "13番道路",
+                            "14番道路",
+                            "ほうじょうの社",
+                            "15番道路",
+                            "16番道路",
+                            "迷いの森",
+                            "18番道路"
+                        ]
+                    }
+                ]
+            },
+            "0532": {
+                "globalNo": "0532",
+                "name": "ドッコラー",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（外）",
+                            "冷凍コンテナ"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（外）",
+                            "冷凍コンテナ"
+                        ]
+                    }
+                ]
+            },
+            "0533": {
+                "globalNo": "0533",
+                "name": "ドテッコツ",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ネジ山"
+                        ]
+                    }
+                ]
+            },
+            "0535": {
+                "globalNo": "0535",
+                "name": "オタマロ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（外）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（外）"
+                        ]
+                    }
+                ]
+            },
+            "0536": {
+                "globalNo": "0536",
+                "name": "ガマガル",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "セッカシティ",
+                            "8番道路",
+                            "セッカの湿原"
+                        ]
+                    }
+                ]
+            },
+            "0537": {
+                "globalNo": "0537",
+                "name": "ガマゲロゲ",
+                "methods": [
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "セッカシティ",
+                            "8番道路",
+                            "セッカの湿原"
+                        ]
+                    }
+                ]
+            },
+            "0538": {
+                "globalNo": "0538",
+                "name": "ナゲキ",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（外）",
+                            "10番道路",
+                            "10番道路（ゲート）",
+                            "15番道路",
+                            "18番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（外）",
+                            "10番道路",
+                            "10番道路（ゲート）",
+                            "15番道路",
+                            "18番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（外）",
+                            "10番道路",
+                            "10番道路（ゲート）",
+                            "15番道路",
+                            "18番道路"
+                        ]
+                    }
+                ]
+            },
+            "0539": {
+                "globalNo": "0539",
+                "name": "ダゲキ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（外）",
+                            "10番道路",
+                            "10番道路（ゲート）",
+                            "15番道路",
+                            "18番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（外）",
+                            "10番道路",
+                            "10番道路（ゲート）",
+                            "15番道路",
+                            "18番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（外）",
+                            "10番道路",
+                            "10番道路（ゲート）",
+                            "15番道路",
+                            "18番道路"
+                        ]
+                    }
+                ]
+            },
+            "0540": {
+                "globalNo": "0540",
+                "name": "クルミル",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（内部）"
+                        ]
+                    }
+                ]
+            },
+            "0541": {
+                "globalNo": "0541",
+                "name": "クルマユ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（内部）",
+                            "6番道路",
+                            "迷いの森"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "6番道路",
+                            "迷いの森"
+                        ]
+                    }
+                ]
+            },
+            "0542": {
+                "globalNo": "0542",
+                "name": "ハハコモリ",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "6番道路",
+                            "迷いの森"
+                        ]
+                    }
+                ]
+            },
+            "0543": {
+                "globalNo": "0543",
+                "name": "フシデ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "迷いの森"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（内部）"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "迷いの森"
+                        ]
+                    }
+                ]
+            },
+            "0544": {
+                "globalNo": "0544",
+                "name": "ホイーガ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（内部）"
+                        ]
+                    }
+                ]
+            },
+            "0546": {
+                "globalNo": "0546",
+                "name": "モンメン",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（内部）",
+                            "ほうじょうの社",
+                            "迷いの森"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "ほうじょうの社",
+                            "迷いの森"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（内部）"
+                        ]
+                    }
+                ]
+            },
+            "0547": {
+                "globalNo": "0547",
+                "name": "エルフーン",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（内部）",
+                            "ほうじょうの社",
+                            "迷いの森"
+                        ]
+                    }
+                ]
+            },
+            "0548": {
+                "globalNo": "0548",
+                "name": "チュリネ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（内部）",
+                            "ほうじょうの社",
+                            "迷いの森"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "ほうじょうの社",
+                            "迷いの森"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（内部）"
+                        ]
+                    }
+                ]
+            },
+            "0549": {
+                "globalNo": "0549",
+                "name": "ドレディア",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "ヤグルマの森（内部）",
+                            "ほうじょうの社",
+                            "迷いの森"
+                        ]
+                    }
+                ]
+            },
+            "0550": {
+                "globalNo": "0550",
+                "name": "バスラオ",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サンヨウシティ",
+                            "ヤグルマの森（内部）",
+                            "リュウラセンの塔（外）",
+                            "チャンピオンロード",
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）",
+                            "ビレッジブリッジ",
+                            "1番道路",
+                            "3番道路",
+                            "地下水脈の穴",
+                            "6番道路",
+                            "修行の岩屋（B2F）",
+                            "11番道路",
+                            "14番道路",
+                            "ほうじょうの社",
+                            "迷いの森"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サンヨウシティ",
+                            "ヤグルマの森（内部）",
+                            "リュウラセンの塔（外）",
+                            "チャンピオンロード",
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）",
+                            "ビレッジブリッジ",
+                            "1番道路",
+                            "3番道路",
+                            "地下水脈の穴",
+                            "6番道路",
+                            "修行の岩屋（B2F）",
+                            "11番道路",
+                            "14番道路",
+                            "ほうじょうの社",
+                            "迷いの森"
+                        ]
+                    },
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サンヨウシティ",
+                            "ヤグルマの森（内部）",
+                            "リュウラセンの塔（外）",
+                            "チャンピオンロード",
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）",
+                            "ビレッジブリッジ",
+                            "1番道路",
+                            "3番道路",
+                            "地下水脈の穴",
+                            "6番道路",
+                            "修行の岩屋（B2F）",
+                            "11番道路",
+                            "14番道路",
+                            "ほうじょうの社",
+                            "迷いの森"
+                        ]
+                    },
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "サンヨウシティ",
+                            "ヤグルマの森（内部）",
+                            "リュウラセンの塔（外）",
+                            "チャンピオンロード",
+                            "ジャイアントホール",
+                            "ジャイアントホール（森）",
+                            "ビレッジブリッジ",
+                            "1番道路",
+                            "3番道路",
+                            "地下水脈の穴",
+                            "6番道路",
+                            "修行の岩屋（B2F）",
+                            "11番道路",
+                            "14番道路",
+                            "ほうじょうの社",
+                            "迷いの森"
+                        ]
+                    }
+                ]
+            },
+            "0551": {
+                "globalNo": "0551",
+                "name": "メグロコ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リゾートデザート（入口）",
+                            "リゾートデザート",
+                            "古代の城（エリアA）",
+                            "4番道路"
+                        ]
+                    }
+                ]
+            },
+            "0552": {
+                "globalNo": "0552",
+                "name": "ワルビル",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "古代の城（エリアB）",
+                            "古代の城（エリアC）"
+                        ]
+                    }
+                ]
+            },
+            "0554": {
+                "globalNo": "0554",
+                "name": "ダルマッカ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リゾートデザート（入口）",
+                            "リゾートデザート",
+                            "4番道路"
+                        ]
+                    }
+                ]
+            },
+            "0556": {
+                "globalNo": "0556",
+                "name": "マラカッチ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リゾートデザート（入口）",
+                            "リゾートデザート"
+                        ]
+                    }
+                ]
+            },
+            "0557": {
+                "globalNo": "0557",
+                "name": "イシズマイ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リゾートデザート（入口）",
+                            "リゾートデザート",
+                            "18番道路"
+                        ]
+                    }
+                ]
+            },
+            "0558": {
+                "globalNo": "0558",
+                "name": "イワパレス",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "18番道路"
+                        ]
+                    }
+                ]
+            },
+            "0559": {
+                "globalNo": "0559",
+                "name": "ズルッグ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リゾートデザート（入口）",
+                            "Ｐ2ラボ",
+                            "4番道路",
+                            "18番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "1番道路",
+                            "18番道路"
+                        ]
+                    }
+                ]
+            },
+            "0561": {
+                "globalNo": "0561",
+                "name": "シンボラー",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リゾートデザート"
+                        ]
+                    }
+                ]
+            },
+            "0562": {
+                "globalNo": "0562",
+                "name": "デスマス",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "古代の城（エリアA）"
+                        ]
+                    }
+                ]
+            },
+            "0563": {
+                "globalNo": "0563",
+                "name": "デスカーン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "古代の城（エリアB）",
+                            "古代の城（エリアC）"
+                        ]
+                    }
+                ]
+            },
+            "0568": {
+                "globalNo": "0568",
+                "name": "ヤブクロン",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "5番道路",
+                            "16番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "5番道路",
+                            "16番道路"
+                        ]
+                    }
+                ]
+            },
+            "0569": {
+                "globalNo": "0569",
+                "name": "ダストダス",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "9番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "9番道路"
+                        ]
+                    }
+                ]
+            },
+            "0570": {
+                "globalNo": "0570",
+                "name": "ゾロア",
+                "methods": [
+                    {
+                        "type": "もらう",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ヒウンシティ（ゲームフリーク1F）"
+                        ]
+                    }
+                ]
+            },
+            "0572": {
+                "globalNo": "0572",
+                "name": "チラーミィ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "冷凍コンテナ",
+                            "5番道路",
+                            "9番道路",
+                            "16番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "冷凍コンテナ",
+                            "5番道路",
+                            "9番道路",
+                            "16番道路"
+                        ]
+                    }
+                ]
+            },
+            "0573": {
+                "globalNo": "0573",
+                "name": "チラチーノ",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "冷凍コンテナ",
+                            "5番道路",
+                            "9番道路",
+                            "16番道路"
+                        ]
+                    }
+                ]
+            },
+            "0574": {
+                "globalNo": "0574",
+                "name": "ゴチム",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "5番道路",
+                            "16番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "5番道路",
+                            "16番道路"
+                        ]
+                    }
+                ]
+            },
+            "0575": {
+                "globalNo": "0575",
+                "name": "ゴチミル",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "9番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "9番道路"
+                        ]
+                    }
+                ]
+            },
+            "0576": {
+                "globalNo": "0576",
+                "name": "ゴチルゼル",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "9番道路"
+                        ]
+                    }
+                ]
+            },
+            "0577": {
+                "globalNo": "0577",
+                "name": "ユニラン",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "5番道路",
+                            "16番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "5番道路",
+                            "16番道路"
+                        ]
+                    }
+                ]
+            },
+            "0578": {
+                "globalNo": "0578",
+                "name": "ダブラン",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "9番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "9番道路"
+                        ]
+                    }
+                ]
+            },
+            "0579": {
+                "globalNo": "0579",
+                "name": "ランクルス",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "9番道路"
+                        ]
+                    }
+                ]
+            },
+            "0580": {
+                "globalNo": "0580",
+                "name": "コアルヒー",
+                "methods": [
+                    {
+                        "type": "野生（橋の影スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ホドモエの跳ね橋"
+                        ]
+                    }
+                ]
+            },
+            "0581": {
+                "globalNo": "0581",
+                "name": "スワンナ",
+                "methods": [
+                    {
+                        "type": "野生（橋の影スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ワンダーブリッジ"
+                        ]
+                    }
+                ]
+            },
+            "0582": {
+                "globalNo": "0582",
+                "name": "バニプッチ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "冷凍コンテナ",
+                            "6番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "冷凍コンテナ",
+                            "6番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（入口）",
+                            "リュウラセンの塔（外）"
+                        ]
+                    }
+                ]
+            },
+            "0583": {
+                "globalNo": "0583",
+                "name": "バニリッチ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（入口）",
+                            "リュウラセンの塔（外）"
+                        ]
+                    }
+                ]
+            },
+            "0585": {
+                "globalNo": "0585",
+                "name": "シキジカ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "6番道路",
+                            "7番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（入口）",
+                            "リュウラセンの塔（外）"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "6番道路",
+                            "7番道路"
+                        ]
+                    }
+                ]
+            },
+            "0586": {
+                "globalNo": "0586",
+                "name": "メブキジカ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（入口）",
+                            "リュウラセンの塔（外）"
+                        ]
+                    }
+                ]
+            },
+            "0587": {
+                "globalNo": "0587",
+                "name": "エモンガ",
+                "methods": [
+                    {
+                        "type": "野生（揺れる草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（入口）",
+                            "リュウラセンの塔（外）",
+                            "ジャイアントホール（外）",
+                            "ビレッジブリッジ",
+                            "5番道路",
+                            "6番道路",
+                            "7番道路",
+                            "9番道路",
+                            "10番道路",
+                            "10番道路（ゲート）",
+                            "11番道路",
+                            "12番道路",
+                            "13番道路",
+                            "14番道路",
+                            "ほうじょうの社",
+                            "15番道路",
+                            "16番道路",
+                            "迷いの森"
+                        ]
+                    }
+                ]
+            },
+            "0588": {
+                "globalNo": "0588",
+                "name": "カブルモ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "6番道路",
+                            "11番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "6番道路",
+                            "11番道路"
+                        ]
+                    }
+                ]
+            },
+            "0590": {
+                "globalNo": "0590",
+                "name": "タマゲタケ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "6番道路",
+                            "7番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "6番道路",
+                            "7番道路",
+                            "10番道路",
+                            "10番道路（ゲート）"
+                        ]
+                    }
+                ]
+            },
+            "0591": {
+                "globalNo": "0591",
+                "name": "モロバレル",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "10番道路",
+                            "10番道路（ゲート）",
+                            "11番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "11番道路"
+                        ]
+                    }
+                ]
+            },
+            "0592": {
+                "globalNo": "0592",
+                "name": "プルリル",
+                "methods": [
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ホドモエシティ",
+                            "Ｐ2ラボ",
+                            "4番道路",
+                            "18番道路",
+                            "17番水道"
+                        ]
+                    }
+                ]
+            },
+            "0593": {
+                "globalNo": "0593",
+                "name": "ブルンゲル",
+                "methods": [
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ホドモエシティ",
+                            "Ｐ2ラボ",
+                            "4番道路",
+                            "18番道路",
+                            "17番水道"
+                        ]
+                    }
+                ]
+            },
+            "0594": {
+                "globalNo": "0594",
+                "name": "ママンボウ",
+                "methods": [
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ホドモエシティ",
+                            "Ｐ2ラボ",
+                            "4番道路",
+                            "18番道路",
+                            "17番水道"
+                        ]
+                    }
+                ]
+            },
+            "0595": {
+                "globalNo": "0595",
+                "name": "バチュル",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "電気石の洞穴（1F）",
+                            "電気石の洞穴（B1F）",
+                            "電気石の洞穴（B2F）"
+                        ]
+                    }
+                ]
+            },
+            "0597": {
+                "globalNo": "0597",
+                "name": "テッシード",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "電気石の洞穴（1F）",
+                            "電気石の洞穴（B1F）",
+                            "電気石の洞穴（B2F）"
+                        ]
+                    }
+                ]
+            },
+            "0599": {
+                "globalNo": "0599",
+                "name": "ギアル",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "電気石の洞穴（1F）",
+                            "電気石の洞穴（B1F）",
+                            "電気石の洞穴（B2F）",
+                            "Ｐ2ラボ"
+                        ]
+                    }
+                ]
+            },
+            "0602": {
+                "globalNo": "0602",
+                "name": "シビシラス",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "電気石の洞穴（1F）",
+                            "電気石の洞穴（B1F）",
+                            "電気石の洞穴（B2F）"
+                        ]
+                    }
+                ]
+            },
+            "0605": {
+                "globalNo": "0605",
+                "name": "リグレー",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "タワーオブヘブン（3F）",
+                            "タワーオブヘブン（4F）",
+                            "タワーオブヘブン（5F）"
+                        ]
+                    }
+                ]
+            },
+            "0606": {
+                "globalNo": "0606",
+                "name": "オーベム",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "14番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "14番道路"
+                        ]
+                    }
+                ]
+            },
+            "0607": {
+                "globalNo": "0607",
+                "name": "ヒトモシ",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "タワーオブヘブン（2F）",
+                            "タワーオブヘブン（3F）",
+                            "タワーオブヘブン（4F）",
+                            "タワーオブヘブン（5F）"
+                        ]
+                    }
+                ]
+            },
+            "0610": {
+                "globalNo": "0610",
+                "name": "キバゴ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "フキヨセの洞穴",
+                            "導の間"
+                        ]
+                    }
+                ]
+            },
+            "0611": {
+                "globalNo": "0611",
+                "name": "オノンド",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "チャンピオンロード（外）"
+                        ]
+                    }
+                ]
+            },
+            "0613": {
+                "globalNo": "0613",
+                "name": "クマシュン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "7番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ネジ山",
+                            "リュウラセンの塔（入口）",
+                            "リュウラセンの塔（外）"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "7番道路"
+                        ]
+                    }
+                ]
+            },
+            "0614": {
+                "globalNo": "0614",
+                "name": "ツンベアー",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（入口）",
+                            "リュウラセンの塔（外）"
+                        ]
+                    }
+                ]
+            },
+            "0615": {
+                "globalNo": "0615",
+                "name": "フリージオ",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "ネジ山"
+                        ]
+                    }
+                ]
+            },
+            "0616": {
+                "globalNo": "0616",
+                "name": "チョボマキ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "セッカシティ",
+                            "8番道路",
+                            "セッカの湿原"
+                        ]
+                    }
+                ]
+            },
+            "0618": {
+                "globalNo": "0618",
+                "name": "マッギョ",
+                "methods": [
+                    {
+                        "type": "野生（釣り・すごいつりざお）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "セッカシティ",
+                            "8番道路",
+                            "セッカの湿原"
+                        ]
+                    },
+                    {
+                        "type": "野生（釣り・泡スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "セッカシティ",
+                            "8番道路",
+                            "セッカの湿原"
+                        ]
+                    },
+                    {
+                        "type": "野生（水上）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "セッカシティ",
+                            "8番道路",
+                            "セッカの湿原"
+                        ]
+                    },
+                    {
+                        "type": "野生（波紋スポット）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "セッカシティ",
+                            "8番道路",
+                            "セッカの湿原"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "セッカシティ",
+                            "8番道路",
+                            "セッカの湿原"
+                        ]
+                    }
+                ]
+            },
+            "0619": {
+                "globalNo": "0619",
+                "name": "コジョフー",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（入口）",
+                            "リュウラセンの塔（外）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "チャンピオンロード（外）",
+                            "チャンピオンロード",
+                            "試練の室",
+                            "14番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（入口）",
+                            "リュウラセンの塔（外）",
+                            "リュウラセンの塔（1F）"
+                        ]
+                    }
+                ]
+            },
+            "0620": {
+                "globalNo": "0620",
+                "name": "コジョンド",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "14番道路"
+                        ]
+                    }
+                ]
+            },
+            "0621": {
+                "globalNo": "0621",
+                "name": "クリムガン",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（入口）",
+                            "リュウラセンの塔（外）",
+                            "リュウラセンの塔（1F）"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（外）"
+                        ]
+                    }
+                ]
+            },
+            "0622": {
+                "globalNo": "0622",
+                "name": "ゴビット",
+                "methods": [
+                    {
+                        "type": "野生（洞窟・屋内）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "リュウラセンの塔（1F）",
+                            "リュウラセンの塔（2F）"
+                        ]
+                    }
+                ]
+            },
+            "0624": {
+                "globalNo": "0624",
+                "name": "コマタナ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "9番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "9番道路",
+                            "11番道路"
+                        ]
+                    }
+                ]
+            },
+            "0625": {
+                "globalNo": "0625",
+                "name": "キリキザン",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "11番道路"
+                        ]
+                    }
+                ]
+            },
+            "0626": {
+                "globalNo": "0626",
+                "name": "バッフロン",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "10番道路",
+                            "10番道路（ゲート）"
+                        ]
+                    },
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "10番道路",
+                            "10番道路（ゲート）"
+                        ]
+                    }
+                ]
+            },
+            "0627": {
+                "globalNo": "0627",
+                "name": "ワシボン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "チャンピオンロード（外）",
+                            "ビレッジブリッジ",
+                            "10番道路",
+                            "10番道路（ゲート）",
+                            "11番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "10番道路",
+                            "10番道路（ゲート）"
+                        ]
+                    }
+                ]
+            },
+            "0628": {
+                "globalNo": "0628",
+                "name": "ウォーグル",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "white"
+                        ],
+                        "locations": [
+                            "ビレッジブリッジ",
+                            "11番道路"
+                        ]
+                    }
+                ]
+            },
+            "0629": {
+                "globalNo": "0629",
+                "name": "バルチャイ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "チャンピオンロード（外）",
+                            "ビレッジブリッジ",
+                            "10番道路",
+                            "10番道路（ゲート）",
+                            "11番道路"
+                        ]
+                    },
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "10番道路",
+                            "10番道路（ゲート）"
+                        ]
+                    }
+                ]
+            },
+            "0630": {
+                "globalNo": "0630",
+                "name": "バルジーナ",
+                "methods": [
+                    {
+                        "type": "野生（濃い草むら）",
+                        "versions": [
+                            "black"
+                        ],
+                        "locations": [
+                            "ビレッジブリッジ",
+                            "11番道路"
+                        ]
+                    }
+                ]
+            },
+            "0631": {
+                "globalNo": "0631",
+                "name": "クイタラン",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "チャンピオンロード（外）"
+                        ]
+                    }
+                ]
+            },
+            "0632": {
+                "globalNo": "0632",
+                "name": "アイアント",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "チャンピオンロード",
+                            "試練の室"
+                        ]
+                    }
+                ]
+            },
+            "0633": {
+                "globalNo": "0633",
+                "name": "モノズ",
+                "methods": [
+                    {
+                        "type": "野生（草むら）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "チャンピオンロード"
+                        ]
+                    }
+                ]
+            },
+            "0636": {
+                "globalNo": "0636",
+                "name": "メラルバ",
+                "methods": [
+                    {
+                        "type": "もらう（タマゴ）",
+                        "versions": [
+                            "black",
+                            "white"
+                        ],
+                        "locations": [
+                            "18番道路"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

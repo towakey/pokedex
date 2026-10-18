@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/towakey/pokedex/schemas/encounter.schema.json",
+  "title": "Encounter (Version-specific Locations)",
+  "description": "バージョン別出現場所・入手方法データ (pokedex/{Version}/encounter.json)。地方コードをキーとし、全国図鑑番号ごとの入手方法リストを格納。",
+  "type": "object",
+  "required": ["update", "game_version", "encounter"],
+  "properties": {
+    "update": {
+      "type": "string",
+      "description": "データ更新日 (例: \"20261018\")"
+    },
+    "game_version": {
+      "type": "string",
+      "description": "ゲームバージョン識別子 (例: \"red_green_blue_pikachu\")"
+    },
+    "encounter": {
+      "type": "object",
+      "description": "地方コード (例: \"kanto\") をキーとする出現データ",
+      "additionalProperties": {
+        "type": "object",
+        "description": "全国図鑑番号 (4桁ゼロ埋め) をキーとするポケモン別出現データ",
+        "propertyNames": {
+          "pattern": "^[0-9]{4}$"
+        },
+        "additionalProperties": {
+          "$ref": "#/definitions/EncounterEntry"
+        }
+      }
+    }
+  },
+  "definitions": {
+    "EncounterEntry": {
+      "type": "object",
+      "description": "1匹のポケモンの入手方法リスト",
+      "required": ["globalNo", "name", "methods"],
+      "properties": {
+        "globalNo": {
+          "type": "string",
+          "description": "全国図鑑番号"
+        },
+        "name": {
+          "type": "string",
+          "description": "ポケモン名 (日本語)"
+        },
+        "methods": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MethodEntry"
+          },
+          "description": "入手方法の配列。複数手段を持つ場合は複数要素を持つ"
+        }
+      },
+      "additionalProperties": false
+    },
+    "MethodEntry": {
+      "type": "object",
+      "description": "1つの入手方法",
+      "required": ["type", "versions", "locations"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "入手方法の分類 (例: \"野生（草むら）\", \"野生（洞窟・屋内）\", \"野生（水上）\", \"野生（釣り・すごいつりざお）\", \"野生（ずつき）\", \"野生（いわくだき）\", \"野生（徘徊）\", \"固定シンボル\", \"もらう\", \"NPC交換\", \"景品交換\", \"購入\", \"化石復元\", \"タマゴ孵化\", \"進化のみ\", \"他ソフトから交換\", \"イベント\")"
+        },
+        "versions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "バージョン識別子 (例: \"red\", \"green\", \"blue\", \"pikachu\")"
+          },
+          "description": "この方法で入手できるバージョン。バージョン間で差異がある場合は別エントリに分離"
+        },
+        "locations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "出現・入手場所の配列 (例: [\"1番道路\", \"トキワのもり\"])。フロア・エリア等の補足は括弧書きで付記。進化のみ等で場所がない場合は空配列"
+        },
+        "note": {
+          "type": "string",
+          "description": "補足 (例: \"フシギダネから進化\", \"青：コラッタを渡す\")"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
